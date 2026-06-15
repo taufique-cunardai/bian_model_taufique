@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3e8b7613-d984-f011-8bba-a402b9460f22",
+  "title": "PaymentAmountAndCurrency",
+  "description": "In payment systems (especially ISO 20022 / SWIFT), there are different types of amounts defined at the debtor (payer) and creditor (payee) level, because the amount can change as it moves through banks, fees, and FX conversion.\r\n\r\nAt the Debtor (Payer) Level: \r\na) Instructed Amount: The amount the debtor asks their bank to transfer (e.g., Send 100 EUR).\r\nb) Equivalent Amount: If the debtors account is in a different currency, this is the converted equivalent (e.g., 100 USD = 91 EUR).\r\nc) Debtor Account Amount: The actual amount debited from the debtors account (after currency conversion, possibly including charges).\r\n\r\nAt the Creditor (Payee) Level:\r\nd) Interbank Settlement Amount: The amount exchanged/settled between the banks (may be in a different settlement currency, e.g., USD).\r\ne) Creditor Account Amount: The amount credited to the creditors account in their account currency (e.g., GBP).\r\nf) Net / Received Amount: The final amount the creditor actually receives after any deductions (e.g., fees).",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PaymentAmountandCurrencyType",
+    "PaymentAmountandCurrency"
+  ],
+  "properties": {
+    "PaymentAmountandCurrencyType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PaymentAmountAndCurrencyTypeValues",
+      "x-related-bo-id": "de1b248a-d984-f011-8bba-a402b9460f22",
+      "x-related-bo-name": "PaymentAmountAndCurrencyTypeValues"
+    },
+    "PaymentAmountandCurrency": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Amount",
+      "x-related-bo-id": "0e4c1114-9aec-eb11-8336-065c7694b5df",
+      "x-related-bo-name": "Amount"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

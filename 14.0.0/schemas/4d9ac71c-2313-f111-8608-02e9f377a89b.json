@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4d9ac71c-2313-f111-8608-02e9f377a89b",
+  "title": "PartnerProductSalesAgreementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1ca93548-2313-f111-8608-02e9f377a89b",
+      "name": "Partner Financial / Capital Product Agreement",
+      "description": "Definition: A formal agreement where the bank provides funding, lending, or investment capabilities to a partner, defining financial terms, repayment, revenue sharing, and risk allocation.\r\n\r\nIncludes:\r\nLoans / Credit Lines Agreement\r\nTreasury & Liquidity Services Agreement\r\nTrade Finance Agreement\r\nInvestment Products Agreement\r\nCapital Contributions Agreement (for JV participation)\r\n\r\nComment\r\nExample:\r\nSME Loan Agreement: A bank provides a $5M credit line to a fintech lending platform to distribute to small businesses. The agreement specifies interest rates, revenue share, repayment schedule, and risk responsibilities.\r\n\r\nTrade Finance Agreement: Bank and importer partner agree on letters of credit terms for cross-border shipments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0fadd961-2313-f111-8608-02e9f377a89b",
+      "name": "Partner Payments & Transaction Service Agreement",
+      "description": "An agreement where the bank enables the partner to access its payment infrastructure or issue cards, specifying operational procedures, revenue sharing, and compliance obligations.\r\n\r\nIncludes:\r\nPayment Processing Agreement\r\nCard Issuing Agreement\r\nDigital Wallet / eWallet Agreement\r\nCross-border / FX Payments Agreement\r\nEmbedded Payment APIs Agreement\r\n\r\nComment:\r\nExample:\r\nCo-branded Card Agreement: A retail chain partners with the bank to issue a co-branded credit card. The agreement defines card fees, cashback rates, processing responsibilities, and marketing rules.\r\n\r\nAPI Access Agreement: A ride-sharing platform integrates the banks API to offer in-app wallets and driver payouts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c90d971-2313-f111-8608-02e9f377a89b",
+      "name": "Partner Insurance / Risk Product Agreement",
+      "description": "An agreement governing the distribution of insurance products or risk services via the partner, detailing commissions, regulatory responsibilities, and operational roles.\r\n\r\nIncludes:\r\nLife / Health Insurance Agreement\r\nMotor / Property Insurance Agreement\r\nCredit Protection Insurance Agreement\r\nRisk & Compliance Solutions Agreement\r\n\r\nComment:\r\nExample:\r\nBancassurance Life Policy Agreement: Bank sells life insurance from an insurance company. The agreement specifies commissions, training requirements, KYC responsibilities, and customer service obligations.\r\n\r\nAML Monitoring Service Agreement: A fintech uses the banks AML service; the agreement covers scope, reporting, and liabilities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a0a48b7f-2313-f111-8608-02e9f377a89b",
+      "name": "Partner Technology & Operational Service Agreement",
+      "description": "An agreement where the bank provides operational systems, APIs, or technical support to partners, outlining service levels, access rights, and integration responsibilities.\r\n\r\nIncludes:\r\nCore Banking Access / API Agreement\r\nIT / Cloud Infrastructure Agreement\r\nFraud Detection & Cybersecurity Agreement\r\nOperational Support Agreement\r\n\r\nComment:\r\nExample:\r\nAPI Banking Agreement: A fintech integrates the banks account opening API. The agreement covers uptime SLA (99.9%), security standards, and support processes.\r\n\r\nCloud Hosting Agreement: Bank hosts a partners co-branded banking app; agreement defines storage, backup, security, and SLA terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a163f8d-2313-f111-8608-02e9f377a89b",
+      "name": "Partner Strategic / Collaborative Product Agreement",
+      "description": "An agreement defining long-term, high-value collaboration where the bank and partner co-create products, share risk, and integrate governance and operations.\r\n\r\nIncludes:\r\nBanking-as-a-Service (BaaS) Agreement\r\nJoint Venture Agreement\r\nCo-branded Products Agreement\r\nInnovation / R&D Support Agreement\r\n\r\nComment:\r\nExample:\r\nJoint Venture Agreement: Bank and fintech create a digital bank JV. Agreement defines ownership (50/50), capital contributions, board composition, profit-sharing, and regulatory responsibilities.\r\n\r\nCo-branded Loan Product Agreement: Bank and retailer co-create a point-of-sale financing product; agreement covers pricing, risk allocation, and marketing responsibilities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

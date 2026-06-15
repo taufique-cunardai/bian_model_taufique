@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d569c43c-2e89-e911-823e-063169c9e850",
+  "title": "MandateInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "19502b51-2e89-e911-823e-063169c9e850",
+      "name": "Mandate Holder",
+      "description": "Party that was given the authority by another party to act on its behalf.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1c7da63-2e89-e911-823e-063169c9e850",
+      "name": "Mandate Issuer",
+      "description": "Party that gives the authority to another party to act on its behalf.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

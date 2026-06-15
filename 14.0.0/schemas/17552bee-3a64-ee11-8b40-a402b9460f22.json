@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "17552bee-3a64-ee11-8b40-a402b9460f22",
+  "title": "NamePrefixTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0b428cf8-3a64-ee11-8b40-a402b9460f22",
+      "name": "Doctor",
+      "description": "Title of the person is Doctor or Dr.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d428cf8-3a64-ee11-8b40-a402b9460f22",
+      "name": "Mister",
+      "description": "Title of the person is Mister or Mr.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e428cf8-3a64-ee11-8b40-a402b9460f22",
+      "name": "Miss",
+      "description": "Title of the person is Miss.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f428cf8-3a64-ee11-8b40-a402b9460f22",
+      "name": "Madam",
+      "description": "Title of the person is Madam.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10428cf8-3a64-ee11-8b40-a402b9460f22",
+      "name": "GenderNeutral",
+      "description": "Title of the person is gender neutral (Mx).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

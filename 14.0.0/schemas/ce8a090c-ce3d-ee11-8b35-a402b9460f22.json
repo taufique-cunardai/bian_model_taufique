@@ -1,0 +1,283 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ce8a090c-ce3d-ee11-8b35-a402b9460f22",
+  "title": "PaymentCategoryPurposeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d8fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BonusPayment",
+      "description": "Transaction is the payment of a bonus.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dafb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CashManagementTransfer",
+      "description": "Transaction is a general cash management instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbfb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CardBulkClearing",
+      "description": "A Service that is settling money for a bulk of card transactions, while referring to a specific transaction file or other information like terminal ID, card acceptor ID or other transaction details.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcfb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CreditCardPayment",
+      "description": "Transaction is related to a payment of credit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ddfb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "TradeSettlementPayment",
+      "description": "Transaction is related to settlement of a trade, eg a foreign exchange deal or a securities transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "defb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DebitCardPayment",
+      "description": "Transaction is related to a payment of debit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dffb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Dividend",
+      "description": "Transaction is the payment of dividends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DeliverAgainstPayment",
+      "description": "Code used to pre-advise the account servicer of a forthcoming deliver against payment instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Epayment",
+      "description": "Transaction is related to ePayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e2fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "FeeCollection",
+      "description": "A Service that is settling card transaction related fees between two parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e3fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "GovernmentPayment",
+      "description": "Transaction is a payment to or from a government department.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Hedging",
+      "description": "Transaction is related to the payment of a hedging operation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "IrrevocableCreditCardPayment",
+      "description": "Transaction is reimbursement of credit card payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e6fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "IrrevocableDebitCardPayment",
+      "description": "Transaction is reimbursement of debit card payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e7fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "IntraCompanyPayment",
+      "description": "Transaction is an intra-company payment, ie, a payment between two companies belonging to the same group.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Interest",
+      "description": "Transaction is the payment of interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Loan",
+      "description": "Transaction is related to the transfer of a loan to a borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eafb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Commercial",
+      "description": "Mobile P2B Payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebfb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Consumer",
+      "description": "Mobile P2P Payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ecfb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "OtherPayment",
+      "description": "Other payment purpose.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edfb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PensionPayment",
+      "description": "Transaction is the payment of pension.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eefb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Represented",
+      "description": "Collection used to re-present previously reversed or returned direct debit transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "effb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "ReimbursementReceivedCreditTransfer",
+      "description": "Transaction is related to a reimbursement for commercial reasons of a correctly received credit transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "ReceiveAgainstPayment",
+      "description": "Code used to pre-advise the account servicer of a forthcoming receive against payment instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SalaryPayment",
+      "description": "Transaction is the payment of salaries.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f2fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Securities",
+      "description": "Transaction is the payment of securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f3fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SocialSecurityBenefit",
+      "description": "Transaction is a social security benefit, ie payment made by a government to support individuals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SupplierPayment",
+      "description": "Transaction is related to a payment to a supplier.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "TaxPayment",
+      "description": "Transaction is the payment of taxes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f6fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Trade",
+      "description": "Transaction is related to the payment of a trade finance transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f7fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "TreasuryPayment",
+      "description": "Transaction is related to treasury operations.  E.g. financial contract settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f8fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "ValueAddedTaxPayment",
+      "description": "Transaction is the payment of value added tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f9fb432b-ce3d-ee11-8b35-a402b9460f22",
+      "name": "WithHolding",
+      "description": "Transaction is the payment of withholding tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

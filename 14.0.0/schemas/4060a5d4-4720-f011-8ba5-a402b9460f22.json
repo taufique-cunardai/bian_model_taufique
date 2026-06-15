@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4060a5d4-4720-f011-8ba5-a402b9460f22",
+  "title": "IncentiveAccountArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4160a5d4-4720-f011-8ba5-a402b9460f22",
+      "name": "Eligibility Criteria",
+      "description": "Defines who can participate (e.g., age, residency, customer status).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef1ea3f4-4720-f011-8ba5-a402b9460f22",
+      "name": "Qualifying Conditions",
+      "description": "Outlines the specific actions or behaviors required to earn the incentive.\r\n- Minimum balance\r\n- Monthly deposits\r\n- Limited withdrawals\r\n- Use of linked services (e.g., debit card, bill pay)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e3ed0f67-4820-f011-8ba5-a402b9460f22",
+      "name": "Incentive Structure",
+      "description": "Describes the type of reward:\r\n- Cash bonus\r\n- Interest rate boost\r\n- Cashback\r\n- Loyalty/reward points\r\nSpecifies how and when rewards are paid (e.g., monthly, quarterly, at maturity).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c96b587-4820-f011-8ba5-a402b9460f22",
+      "name": "Timeframes and Duration",
+      "description": "Sets the validity period of the arrangement.\r\n- Start and end dates\r\n- Time needed to meet conditions\r\n- Duration for which incentive applies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97f61cb3-3507-f111-8602-0a46e3dae05d",
+      "name": "Fee Arrangement",
+      "description": "An arrangement which specifies to charge fees when banking transactions did take place, accompanied by the modalities to calculate and charge the fees and the related terms and conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c88e39bb-3507-f111-8602-0a46e3dae05d",
+      "name": "Setttlement Arrangement",
+      "description": "Arrangements (obligations and rights) to do the settlement of transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d58e39bb-3507-f111-8602-0a46e3dae05d",
+      "name": "Redemption Arrangement",
+      "description": "A Redemption Arrangement is an agreed commitment to validate redemption requests, confirm eligibility and available incentive balances, apply applicable fees or conditions, and fulfill or reverse the redemption of accrued incentives",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

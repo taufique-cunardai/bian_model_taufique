@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "931e8dd9-1196-ef11-8b85-a402b9460f22",
+  "title": "InvoiceFinancingInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a0ed1bf9-1196-ef11-8b85-a402b9460f22",
+      "name": "First Agent Role",
+      "description": "Organisation offering invoice financing services. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a7ed1bf9-1196-ef11-8b85-a402b9460f22",
+      "name": "Intermediate Agent Role",
+      "description": "Financial institution that receives a financing request from the financing requestor and forwards it to the first agent for execution.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ac1c307-1296-ef11-8b85-a402b9460f22",
+      "name": "Financing Requestor Role",
+      "description": "Credit party that requests the invoice financing, on behalf of creditor.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

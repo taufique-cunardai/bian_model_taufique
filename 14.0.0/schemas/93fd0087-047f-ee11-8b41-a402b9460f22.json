@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "93fd0087-047f-ee11-8b41-a402b9460f22",
+  "title": "ClearingSystemIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "af1cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "AustrianBankleitzahl",
+      "description": "Bank Branch code used in Austria",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b11cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "AustralianBankStateBranchCodeBSB",
+      "description": "Bank Branch code used in Australia",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b21cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "CanadianPaymentsAssociationPaymentRoutingNumber",
+      "description": "Bank Branch code used in Canada",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b31cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "SwissFinancialInstitutionIdentificationShort",
+      "description": "Financial Institution Identification (IID) used in Switzerland, without check digit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b41cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "SwissFinancialInstitutionIdentificationLong",
+      "description": "Financial Institution Identification (IID) used in Switzerland, including check digit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b51cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "CNAPSIdentifier",
+      "description": "Bank Branch code used in China",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b61cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "GermanBankleitzahl",
+      "description": "Bank Branch code used in Germany",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b71cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "SpanishDomesticInterbankingCode",
+      "description": "Bank Branch code used in Spain",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b81cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "UKDomesticSortCode",
+      "description": "Bank Branch code used in the UK",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b91cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "HelenicBankIdentificationCode",
+      "description": "Bank Branch code used in Greece",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba1cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "HongKongBankCode",
+      "description": "Bank Branch code used in Hong Kong",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bb1cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "IrishNationalClearingCode",
+      "description": "Bank Branch code used in Ireland",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc1cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "IndianFinancialSystemCode",
+      "description": "Bank Branch code used in India",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd1cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "ItalianDomesticIdentificationCode",
+      "description": "Bank Branch code used in Italy",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be1cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "JapanZenginClearingCode",
+      "description": "Bank Branch code used in Japan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf1cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "NewZealandNationalClearingCode",
+      "description": "Bank Branch code used in New Zealand",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c01cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "PolishNationalClearingCode",
+      "description": "Bank Branch code used in Poland",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c11cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "PortugueseNationalClearingCode",
+      "description": "Bank Branch code used in Portugal",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c21cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "RussianCentralBankIdentificationCode",
+      "description": "Bank Branch code used in Russia",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c31cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "SwedenBankgiroClearingCode",
+      "description": "Bank Branch code used in Sweden",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c41cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "IBGSortCode",
+      "description": "Bank Branch code used in Singapore",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c51cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "ThaiCentralBankIdentificationCode",
+      "description": "Bank Identification code used in Thailand",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c61cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "FinancialInstitutionCode",
+      "description": "Bank Branch code used in Taiwan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c71cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "UnitedStatesRoutingNumberFedwireNACHA",
+      "description": "Routing Transit number assigned by the ABA for US financial institutons",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c81cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "CHIPSParticipantIdentifier",
+      "description": "Bank identifier used by CHIPs in the US",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c91cc59e-047f-ee11-8b41-a402b9460f22",
+      "name": "SouthAfricanNationalClearingCode",
+      "description": "Bank Branch code used in South Africa",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

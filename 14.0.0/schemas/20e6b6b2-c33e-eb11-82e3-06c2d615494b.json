@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "20e6b6b2-c33e-eb11-82e3-06c2d615494b",
+  "title": "ExchangeRateTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c7337fc2-c33e-eb11-82e3-06c2d615494b",
+      "name": "Spot",
+      "description": "Exchange rate applied is the spot rate. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a368f3ca-c33e-eb11-82e3-06c2d615494b",
+      "name": "Sale",
+      "description": "Exchange rate applied is the market rate at the time of the sale (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a468f3ca-c33e-eb11-82e3-06c2d615494b",
+      "name": "Agreed",
+      "description": "Exchange rate applied is the rate agreed between the parties. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

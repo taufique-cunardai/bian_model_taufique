@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "32249e6a-6ffb-eb11-833a-069538764ea9",
+  "title": "LimitStatusTypeValues",
+  "description": "Specifies the current status of a limit. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5b774fa9-6ffb-eb11-833a-069538764ea9",
+      "name": "Enabled",
+      "description": "Limit is currently in effect.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d774fa9-6ffb-eb11-833a-069538764ea9",
+      "name": "Disabled",
+      "description": "Limit is not currently in effect.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e774fa9-6ffb-eb11-833a-069538764ea9",
+      "name": "Deleted",
+      "description": "Limit has been deleted or suspended.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f774fa9-6ffb-eb11-833a-069538764ea9",
+      "name": "Requested",
+      "description": "Limit has been asked for and is not yet enabled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

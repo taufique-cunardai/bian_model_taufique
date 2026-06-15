@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "79f1c244-592f-ed11-83c8-0685bf75e215",
+  "title": "FinancialAdvisoryServiceArrangementType",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fc97674f-592f-ed11-83c8-0685bf75e215",
+      "name": "Fee Arrangement",
+      "description": "An arrangement which specifies to charge fees when banking transactions did take place, accompanied by the modalities to calculate and charge the fees and the related terms and conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39a3996c-592f-ed11-83c8-0685bf75e215",
+      "name": "Financial Planning Arrangement",
+      "description": "An arrangement that specifies obligations/rights engaged in the financial advisory service agreement to deliver the Financial Planning Advisory Service\r\n\r\nFinancial Planning Advisory Service is a financial advisory service that provides basic financial advice for short and long term investment and financing options",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32162f73-592f-ed11-83c8-0685bf75e215",
+      "name": "Tax Optimization Arrangement",
+      "description": "An arrangement that specifies obligations/rights engaged in the financial advisory service agreement for providing a tax related advice like:\r\n- Engaging a product tax specialist to liaise with the customer\r\n-The service charge to be made to the customer for the specialist support\r\n\r\nTax Optimization Advisory Service is a financial advisory service that provides tax (and compliance) related advice for product and service optimization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b645c5b5-592f-ed11-83c8-0685bf75e215",
+      "name": "Strategic Funding Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "93266de7-592f-ed11-83c8-0685bf75e215",
+      "name": "Tactical Funding Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fadc35f3-592f-ed11-83c8-0685bf75e215",
+      "name": "Capital Structuring Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ad09af1-5a2f-ed11-83c8-0685bf75e215",
+      "name": "Product Guidance Arrangement",
+      "description": "An arrangement that specifies obligations/rights engaged in the financial advisory service agreement to deliver the ProductGuidanceAdvisoryService\r\n\r\nProduct Guidance Advisory Service is a financial advisory service that provides product and service specific guidance and insights",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

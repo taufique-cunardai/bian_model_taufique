@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6edc2b4c-67ed-f011-8bd9-a402b9460f22",
+  "title": "ConsentTypeValues",
+  "description": "Consent Classification is the structured grouping of consents based on the purpose for which permission is granted, enabling controlled, compliant, and auditable use of data and actions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9021e748-68ed-f011-8bd9-a402b9460f22",
+      "name": "Marketing & Commercial Consent",
+      "description": "Permission granted to use customer data or contact the customer for promotional and commercial purposes. Examples: Direct marketing via phone, email, SMS; personalized offers; social media targeting; cross-selling and up-selling",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9221e748-68ed-f011-8bd9-a402b9460f22",
+      "name": "Data Processing Consent",
+      "description": "Permission to process personal or behavioral data beyond what is strictly required for service delivery. Examples: Personal data processing; profiling and analytics; behavioral analysis; data enrichment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9321e748-68ed-f011-8bd9-a402b9460f22",
+      "name": "Product & Service Consent",
+      "description": "Permission related to the activation, enrollment, or use of specific products or optional services. Examples: Product enrollment; optional service activation; access to digital features",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9421e748-68ed-f011-8bd9-a402b9460f22",
+      "name": "Third-Party Data Sharing Consent",
+      "description": "Permission to share customer data with external parties under defined conditions. Examples: Sharing with affiliates; sharing with partners; open banking / API data sharing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "591226f4-9727-f111-860d-02f56513e735",
+  "title": "AmountBlockTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8a582ffc-9727-f111-860d-02f56513e735",
+      "name": "Regulatory Block",
+      "description": "Blocks required by laws, regulations, or legal authorities.\r\n\r\nComment:\r\nIncludes: AML, sanctions, tax, court orders\r\n\r\nExample: Funds are blocked due to anti-money laundering (AML) investigation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4643c27-9827-f111-860d-02f56513e735",
+      "name": "Dispute Block",
+      "description": "Blocks related to transaction disputes or chargebacks.\r\n\r\nComment:\r\nIncludes: Chargeback pending, transaction disputes\r\n\r\nExample: The amount of a disputed card transaction is blocked until the investigation is completed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f7706d30-9827-f111-860d-02f56513e735",
+      "name": "Collateral Block",
+      "description": "Blocks used to secure financial obligations or exposures.\r\n\r\nComment:\r\nIncludes: Loan security, margin requirements\r\n\r\nExample: €20,000 is blocked in a deposit account to secure a credit facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aca01239-9827-f111-860d-02f56513e735",
+      "name": "Operational Block",
+      "description": "Blocks caused by system processes or temporary operational needs.\r\n\r\nComment:\r\nIncludes: Authorization holds, reconciliation, time-bound locks\r\n\r\nExample: A hotel places a hold on €500 during a customers stay.\r\n\r\nFunds are blocked during account maintenance or system reconciliation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84c78d3b-2428-f111-860d-061bb3da1acd",
+      "name": "Compliance Block",
+      "description": "Blocks driven by internal policies and compliance controls.\r\n\r\nComment:\r\nIncludes: KYC pending, internal policy violations\r\n\r\nExample: Funds are blocked until customer KYC information is updated and verified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46675c57-2428-f111-860d-061bb3da1acd",
+      "name": "Fraud Risk Block",
+      "description": "Blocks applied to mitigate financial or fraud-related risks.\r\n\r\nComment:\r\nIncludes: Fraud suspicion, unusual activity\r\n\r\nExample: An account balance is partially blocked after unusual transaction patterns are identified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4493abd5-a643-f111-bb23-02179ab05665",
+      "name": "Authorization Block",
+      "description": "A temporary block placed on funds to secure a card or payment transaction before final settlement.\r\n\r\nComment:\r\nExamples:\r\nHotel check-in deposit\r\nFuel station pre-authorization\r\nOnline purchase pre-approval",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "445f3a06-a743-f111-bb23-02179ab05665",
+      "name": "Reservation Block",
+      "description": "Funds set aside for a future planned obligation initiated by customer or system.\r\n\r\nComment:\r\nExample: Reserved funds for rent payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f8e6612-a743-f111-bb23-02179ab05665",
+      "name": "Pending Settlement Block",
+      "description": "Funds held while a transaction is authorized but not yet fully cleared or posted.\r\n\r\nComment:\r\nExample: Card payment clearing delay",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3fb8bd2b-a743-f111-bb23-02179ab05665",
+      "name": "Minimum Balance Block",
+      "description": "Funds reserved to ensure a minimum required balance is maintained in an account.\r\n\r\nComment:\r\nExample: Savings account minimum balance requirement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53af7d36-a743-f111-bb23-02179ab05665",
+      "name": "Charge Block",
+      "description": "Funds reserved to cover expected or scheduled banking fees and charges.\r\n\r\nComment:\r\nExample: Monthly maintenance fee reservation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48028445-a743-f111-bb23-02179ab05665",
+      "name": "Sweep Block",
+      "description": "Funds temporarily restricted as part of a cash management or sweep arrangement between accounts.\r\n\r\nComment:\r\nExample: End-of-day cash sweep to master account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7984a857-a743-f111-bb23-02179ab05665",
+      "name": "Credit Protection Block",
+      "description": "Funds blocked to ensure credit exposure does not exceed approved limits.\r\n\r\nComment:\r\nExample: Blocking available balance to maintain credit buffer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78b1a974-a743-f111-bb23-02179ab05665",
+      "name": "Garnishment Block",
+      "description": "Funds restricted due to a legal claim or court order from a third party creditor.\r\n\r\nComment:\r\nExample: Wage garnishment order",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51ca9b88-a743-f111-bb23-02179ab05665",
+      "name": "Pledge Block",
+      "description": "Funds formally committed under a contractual pledge agreement as security for obligations.\r\n\r\nComment:\r\nExample: Pledged deposit for bank guarantee issuance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2162c699-a743-f111-bb23-02179ab05665",
+      "name": "Escrow Block",
+      "description": "Funds held in escrow until predefined conditions between parties are satisfied.\r\n\r\nComment:\r\nExample: Property purchase escrow funds",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

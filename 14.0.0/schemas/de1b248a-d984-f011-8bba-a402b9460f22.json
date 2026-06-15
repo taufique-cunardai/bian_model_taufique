@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "de1b248a-d984-f011-8bba-a402b9460f22",
+  "title": "PaymentAmountAndCurrencyTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4a2a1bcd-d984-f011-8bba-a402b9460f22",
+      "name": "Instructed Amount and Currency",
+      "description": "The amount the debtor asks their bank to transfer (e.g., “Send 100 EUR”).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c2a1bcd-d984-f011-8bba-a402b9460f22",
+      "name": "Equivalent Amount and Currency",
+      "description": "If the debtor’s account is in a different currency, this is the converted equivalent (e.g., 100 USD = 91 EUR).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d2a1bcd-d984-f011-8bba-a402b9460f22",
+      "name": "Debtor Account Amount and Currency",
+      "description": "The actual amount debited from the debtor’s account (after currency conversion, possibly including charges).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e2a1bcd-d984-f011-8bba-a402b9460f22",
+      "name": "Interbank Settlement Amount and Currency",
+      "description": "The amount exchanged/settled between the banks (may be in a different settlement currency, e.g., USD).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f2a1bcd-d984-f011-8bba-a402b9460f22",
+      "name": "Creditor Account Amount and Currency",
+      "description": "The amount credited to the creditor’s account in their account currency (e.g., GBP).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "502a1bcd-d984-f011-8bba-a402b9460f22",
+      "name": "Net / Received Amount and Currency",
+      "description": "The final amount the creditor actually receives after any deductions (e.g., fees).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

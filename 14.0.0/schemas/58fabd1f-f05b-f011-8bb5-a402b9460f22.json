@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "58fabd1f-f05b-f011-8bb5-a402b9460f22",
+  "title": "FeeCurrencyModalityTypeValues",
+  "description": "Describes the currency context in which the fee is applied.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8730de51-f05b-f011-8bb5-a402b9460f22",
+      "name": "Fixed Currency",
+      "description": "Fee is always applied in a specific currency (e.g. always in USD).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8930de51-f05b-f011-8bb5-a402b9460f22",
+      "name": "Transaction Currency",
+      "description": "Fee is in the same currency as the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a30de51-f05b-f011-8bb5-a402b9460f22",
+      "name": "Account Currency",
+      "description": "Fee is in the currency of the debited account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b30de51-f05b-f011-8bb5-a402b9460f22",
+      "name": "Converted Currency",
+      "description": "Fee defined in one currency but converted to another using FX.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

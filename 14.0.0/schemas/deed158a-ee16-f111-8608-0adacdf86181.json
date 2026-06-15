@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "deed158a-ee16-f111-8608-0adacdf86181",
+  "title": "CreditPlanInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c32799a9-ee16-f111-8608-0adacdf86181",
+      "name": "Borrower",
+      "description": "The individual or organization receiving the loan under the credit plan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f09963b2-ee16-f111-8608-0adacdf86181",
+      "name": "Lender",
+      "description": "The institution providing the credit, enforcing rules, and managing repayments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f59963b2-ee16-f111-8608-0adacdf86181",
+      "name": "Guarantor",
+      "description": "Additional party guaranteeing repayment or sharing liability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b7de4bc-ee16-f111-8608-0adacdf86181",
+      "name": "Credit Officer",
+      "description": "Bank staff responsible for approving and managing the loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "784f91ca-ee16-f111-8608-0adacdf86181",
+      "name": "Compliance Officer",
+      "description": "Ensures the credit plan is applied in accordance with bank policies and regulatory requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,843 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "033ad4ec-cd3d-ee11-8b35-a402b9460f22",
+  "title": "PaymentLocalInstumentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "076c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DirectDebitConfirmedElectronicMandate",
+      "description": "Transaction is related to a direct debit instruction authorized under a confirmed electronic mandate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "096c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DirectDebitPaperMandateWithPaperAuthorization",
+      "description": "Transaction is related to a direct debit instruction authorized under a paper based mandate, supported by paper authorization signed by the debtor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DirectDebitUnconfirmedElectronicMandate",
+      "description": "Transaction is related to a direct debit instruction authorized under an unconfirmed electronic mandate requiring confirmation by the debtor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BatchPaymentsAruba",
+      "description": "Transaction is related to an Instant Credit Transfer under the rules of the Centrale Bank van Aruba, based on the EPC SCT Inst scheme, with a specific batch time-out delay.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "InstantPaymentsAruba",
+      "description": "Transaction is related to an Instant Credit Transfer under the rules of the Centrale Bank van Aruba, based on the EPC SCT Inst scheme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CreditTransfers",
+      "description": "Transaction is related to credit transfers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "NonPreauthorisedDirectDebitAT",
+      "description": "Transaction is related to a direct debit that is not pre authorised (Einzugsermächtigung).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PreauthorisedDirectDebitAT",
+      "description": "Transaction is related to a direct debit that is pre authorised (Abbuchungsauftrag).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "106c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CashPerPost",
+      "description": "Transaction is related to cash per post.\r\nTransaction to ultimate recipient having no bank account. Primary beneficiary is a postal service provider. Funds are paid out by cash. Additional necessary information for address and delivery options need to be attached.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "116c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "ReturnedCreditTransfers",
+      "description": "Transaction is related to returned credit transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "126c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "TruncatedCreditTransfers",
+      "description": "Transaction is related to truncated credit transfers.\r\nConversion of physical instrument to electonric form for transmission to the paying bank and where the original paper document does not continue in the clearing process..The original instrument rules are retained throughout the life of the instrument.\r\nTransaction triggered by specific marked and populated paper slip.\r\nReconciliation reference is secured by check digits supporting secure optical recognition. All other remittance information is truncated prior transmission.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "136c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DirectDebits",
+      "description": "Transaction is related to direct debits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "146c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "ReturnedDirectDebits",
+      "description": "Transaction is related to returned direct debits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "156c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "TruncatedChecks",
+      "description": "Transaction is related to truncated checks.\r\nConversion of physical instrument to electonric form for transmission to the paying bank and where the original paper document does not continue in the clearing process..The original instrument rules are retained throughout the life of the instrument.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "166c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RevokedCreditTransfers",
+      "description": "Transaction is related to revoked credit transfers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "176c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RevokedDirectDebits",
+      "description": "Transaction is related to revoked direct debits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "186c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RevokedReturnedCreditTransfers",
+      "description": "Transaction is related to revoked returned credit transfers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "196c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RevokedReturnedDirectDebits",
+      "description": "Transaction is related to revoked returned direct debits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RevokedTruncatedChecks",
+      "description": "Transaction is related to revoked truncated checks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RevokedTruncatedCreditTransfers",
+      "description": "Transaction is related to revoked truncated credit transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CardClearing",
+      "description": "Transaction is related to card clearing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "NonPreauthorisedDirectDebitDE",
+      "description": "Transaction is related to a direct debit that is not pre authorised (Einzugsermächtigung).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PreauthorisedDirectDebitDE",
+      "description": "Transaction is related to a direct debit that is pre authorised (Abbuchungsauftrag).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "ImageBasedChequeCollection",
+      "description": "Transaction is related to the German Image-based Cheque Collection Procedure “Imagegestützter Scheckeinzug - ISE”",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "206c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaperlessChequeCollection",
+      "description": "Transaction is related to the German Paperless Cheque Collection procedure “Belegloser Scheckeinzug - BSE”",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "216c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BusinessToBusinessDirectDebit",
+      "description": "Transaction is related to a business-to-business direct debit (CSB58).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "226c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BusinessToCustomerDirectDebit",
+      "description": "Transaction is related to a business-to-customer direct debit (CSB19).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "236c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "AncillarySystemTransferInitiation",
+      "description": "Indicates that the payment is sent by an authorized third party on behalf of the participant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "246c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BackupPayment",
+      "description": "Indicates that the payment was initiated manually using a GUI (Graphical User Interface).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "256c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "MandatedPayment",
+      "description": "Indicates that the payment is sent by responsible Central Bank on behalf of the participant in case of contingency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "266c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SettlementBankTransferInitiation",
+      "description": "Indicates that the payment is submitted to move  liquidity to the technical account - dedicated to real-time settlement in an external system (for example ancillary system) . The payment is processed in a separate payment queue besides the normal processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "276c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PreauthorisedDirectDebitAccéléréAcceleratedClearing2DayOrdinaireNormalClearing4Day",
+      "description": "Transaction is related to an urgent direct debit that is pre authorised (Avis de Prélèvement accéléré).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "286c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PreauthorisedDirectDebitOrdinaireNormalClearing4Day",
+      "description": "Transaction is related to a direct debit that is pre authorised (Avis de Prélèvement).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "296c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PreauthorisedDirectDebitVérifiéVerifiedClearing",
+      "description": "Transaction is related to an urgent direct debit that is pre authorised (Avis de Prélèvement vérifié).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RecoveredBillofExchangeorPromissoryNote",
+      "description": "LCR - Lettre de Change Relevé (Recovered Bill of Exchange) and BOR - Billet à Orde Relevé (Promissory Note)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "NonPreauthorisedDirectDebitRIBA",
+      "description": "Transaction is related to a non-pre authorised collection (RIBA).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PreauthorisedRevocableDirectDebit",
+      "description": "Transaction is related to a direct debit that is pre authorised and revocable (RID Ordinario).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PreauthorisedRevocableUrgentDirectDebit",
+      "description": "Transaction is related to an urgent direct debit that is pre authorised and revocable (RID Veloce).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaymentsViaInternetOwnedByCurrence",
+      "description": "Transaction is related to payments via internet owned by Currence.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "InstantCreditTransferNotTimeCritical",
+      "description": "The transaction is related to a regular  Credit Transfer and will be instantly processed under the Dutch AOS on top of the EPC SCT scheme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "306c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "InstantCreditTransferTimeCritical",
+      "description": "The transaction is related to an Instant Credit Transfer under the rules of the Dutch AOS on top of the EPC SCT Inst scheme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "316c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaymentsViaInternetOwnedByCurrenceUsingInstantCreditTransfer",
+      "description": "Transaction is related to payments via internet owned by Currence which uses an Instant Credit Transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "326c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaymentsViaInternetOwnedByCurrenceUsingInstantCreditTransferNotTimeCritical",
+      "description": "Transaction is related to payments via internet owned by Currence which uses a regular  Credit Transfer and will be instantly processed under the Dutch AOS on top of the EPC SCT scheme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "336c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaymentsViaInternetOwnedByCurrenceUsingInstantCreditTransferTimeCritical",
+      "description": "Transaction is related to payments via internet owned by Currence which uses an Instant Credit Transfer under the rules of the Dutch AOS on top of the EPC SCT Inst scheme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "346c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DutchDomesticBulkPayment",
+      "description": "Transaction is related to a Domestic payment initiated by PAIN.001",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "356c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DutchUrgentPayment",
+      "description": "Transaction is related to a Domestic payment initiated by PAIN.001",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "366c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaymentViaAcceptgiroOwnedByCurrence",
+      "description": "Transaction is related to payments via Acceptgiro owned by Currence.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "376c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaymentsViaStandaardDigitaleNota",
+      "description": "Transaction is related to payments via a ‘Standaard Digitale Nota’ InvoiceAcceptgiro payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "386c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "IncidentManagementCorrection",
+      "description": "Transaction is related to an Incident Management Correction procedure based on the DD infrastructure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "396c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DirectDebitInitiatedByTheGovernmentWithSpecialConditions",
+      "description": "Transaction is related to direct debit scheme owned by the NVB.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "MassPaymentBeneficiary",
+      "description": "Transaction is related to mass payment beneficiary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "MassPaymentOurs",
+      "description": "Transaction is related to mass payment ours.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "MassPaymentShared",
+      "description": "Transaction is related to mass payment shared.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "StandingOrder",
+      "description": "Transaction is related to standing order.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "OneOffAuthorisation",
+      "description": "Transaction is related to one-off authorisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "OneOffAuthorisationCharities",
+      "description": "Transaction is related to one-off authorisation charities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "406c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "OneOffAuthorisationConstructionIndustry",
+      "description": "Transaction is related to one-off authorisation construction industry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "416c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "OneOffAuthorisationTuitionFees",
+      "description": "Transaction is related to one-off authorisation tuition fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "426c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "StandingAuthorisationCompanies",
+      "description": "Transaction is related to standing authorisation companies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "436c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "StandingAuthorisationCompaniesWithoutDebtorRevocationRight",
+      "description": "Transaction is related to standing authorisation companies without debtor revocation right.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "446c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "StandingAuthorisationGeneral",
+      "description": "Transaction is related to standing authorisation general.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "456c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "StandingAuthorisationLotteries",
+      "description": "Transaction is related to standing authorisation lotteries.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "466c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "ConvertedBankPayment",
+      "description": "Transaction is related to converted (bank) payment.\r\nConversion of physical instrument to electonric form for transmission to the paying bank and where the original paper document does not continue in the clearing process.The instrument rules change upon conversion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "476c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BusinessPayment",
+      "description": "Transaction is related to business payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "486c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CrossBorderCustomerCreditTransfer",
+      "description": "Transaction is related to cross border customer credit transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "496c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "Overnight",
+      "description": "Transaction is related to overnight clearing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PaymentWithERI",
+      "description": "Credit transfer contains Extended Remittance Information (ERI) as defined within the applicable scheme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SameDay",
+      "description": "Transaction is related to same day clearing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CoreNoRefund",
+      "description": "SEPA Core Direct Debit with ‘no refund’ option",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DirectDebitFixedAmount",
+      "description": "SEPA Fixed Amount Direct Debit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SEPADirectDebitCore",
+      "description": "Transaction is related to SEPA direct debit -core.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SEPAB2BDirectDebitAMI",
+      "description": "SEPA B2B Direct Debit AMI based on a paper mandate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "506c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SEPABusinessToBusinessDirectDebit",
+      "description": "Transaction is related to SEPA business to business direct debit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "516c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SEPACoreD1DirectDebitAMI",
+      "description": "Optional shorter time cycle (D-1) for SEPA Core Direct Debit AMI based on a paper mandate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "526c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SEPACoreDirectDebitAMI",
+      "description": "SEPA Core Direct Debit AMI based on a paper mandate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "536c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SEPADirectDebit1DaySettlement",
+      "description": "Optional shorter time cycle (D-1) for SEPA Core Direct Debit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "546c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "SEPAFADirectDebitAMI",
+      "description": "SEPA Fixed Amount Direct Debit AMI based on a paper mandate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "556c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "InstantCreditTransfer",
+      "description": "Transaction is related to an Instant Credit Transfer.\r\nUse case example: SEPA Instant Credit Transfer (SCT Inst)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "566c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "AuthenticatedDirectDebit",
+      "description": "Transaction is authenticated direct debit for domestic use.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "576c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "UnauthenticatedDirectDebit",
+      "description": "Transaction is unauthenticated direct debit for domestic use.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "586c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CashConcentrationIntragroup",
+      "description": "Transaction is related to an intra-group bank initiated cash management payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "596c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BankTransfer",
+      "description": "Transaction is related to a bank transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5a6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CheckSameDaySettlementWire",
+      "description": "Transaction is related to check same day settlement wire.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CustomerTransfer",
+      "description": "Transaction is related to customer transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5c6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CustomerTransferPlus",
+      "description": "Transaction is related to a customer transfer, which may include information related to a cover payment or extended remittance information.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DepositToSendersAccount",
+      "description": "Transaction is related to deposit to sender's account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "FedFundsReturned",
+      "description": "Transaction is related to Fed funds returned.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "FedFundsSold",
+      "description": "Transaction is related to Fed funds sold.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "606c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "NonValueServiceMessage",
+      "description": "Transaction is related to non-value service message.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "616c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "DrawdownResponseValueToHonorADrawdownRequest",
+      "description": "Transaction is related to drawdown response (value) to honor a drawdown request.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "626c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "BankToBankDrawdownRequestOrResponseNonvalue",
+      "description": "Transaction is related to bank-to-bank drawdown request or response (non-value)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "636c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CustomerOrCorporateDrawdownRequestOrResponseNonvalue",
+      "description": "Transaction is related to customer or corporate drawdown request or response (non-value).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "646c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "InternationalACH",
+      "description": "Transaction is related to international ACH.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "656c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CashConcentrationOrDisbursementCorporateCounterparty",
+      "description": "Transaction is related to cash concentration or disbursement corporate counterparty.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "666c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CorporateTradeExchange",
+      "description": "Transaction is related to corporate trade exchange.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "676c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PrearrangedPaymentOrDepositConsumerCounterparty",
+      "description": "Transaction is related to prearranged payment or deposit consumer counterparty.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "686c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "CustomerInitiatedEntry",
+      "description": "A credit entry initiated by or on behalf of the holder of a consumer account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "696c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "RepresentedCheckEntry",
+      "description": "Transaction is related to re-presented check entry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6a6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "AccountsReceivableCheck",
+      "description": "Transaction is related to accounts receivable check.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "InternetInitiatedEntry",
+      "description": "Transaction is related to internet initiated entry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PointOfPurchase",
+      "description": "Transaction is related to point-of-purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "PointOfSale",
+      "description": "Transaction is related to point-of-sale.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e6c5d6a-ce3d-ee11-8b35-a402b9460f22",
+      "name": "TelephoneInitiatedEntry",
+      "description": "Transaction is related to telephone initiated entry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

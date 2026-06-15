@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b74af251-4f64-ee11-8b40-a402b9460f22",
+  "title": "PhoneAddressTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "24fe3062-4f64-ee11-8b40-a402b9460f22",
+      "name": "PhoneNumber",
+      "description": "Collection of information that identifies a phone number, as defined by telecom services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26fe3062-4f64-ee11-8b40-a402b9460f22",
+      "name": "FaxNumber",
+      "description": "Collection of information that identifies a FAX number, as defined by telecom services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27fe3062-4f64-ee11-8b40-a402b9460f22",
+      "name": "MobileNumber",
+      "description": "Collection of information that identifies a mobile phone number, as defined by telecom services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

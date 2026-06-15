@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "60a0fa03-8148-f111-bb23-06f4feeeb951",
+  "title": "CollateralAgreementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3552da0c-8148-f111-bb23-06f4feeeb951",
+      "name": "Pledge Collateral Agreement",
+      "description": "Borrower keeps ownership, but possession/control is given to the lender or a custodian.\r\nUsed for: Financial assets (cash, securities).\r\n\r\nComment:\r\nExample: Shares held in a blocked account controlled by the bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74581342-8148-f111-bb23-06f4feeeb951",
+      "name": "Mortgage Collateral Agreement",
+      "description": "Borrower keeps ownership and possession, while the lender has a registered legal claim.\r\nUsed for: Real estate (houses, land).\r\n\r\nComment:\r\nExample: A home loan secured by a property mortgage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3007b354-8148-f111-bb23-06f4feeeb951",
+      "name": "Lien Collateral Agreement",
+      "description": "Lender has a right to retain or claim an asset until debt is repaid.\r\nUsed for: Deposits, accounts, or goods.\r\n\r\nComment:\r\nExample: Bank lien on a savings account securing an overdraft.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f931be66-8148-f111-bb23-06f4feeeb951",
+      "name": "Hypothecation Collateral Agreement",
+      "description": "Borrower retains ownership and possession, lender has a charge without control.\r\nUsed for: Movable assets (vehicles, inventory).\r\n\r\nComment:\r\nExample: Car loan where the borrower uses the car but it secures the loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

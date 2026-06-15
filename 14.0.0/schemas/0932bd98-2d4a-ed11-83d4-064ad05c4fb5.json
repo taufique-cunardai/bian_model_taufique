@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0932bd98-2d4a-ed11-83d4-064ad05c4fb5",
+  "title": "ClearingChannelTypeValues",
+  "description": "Specifies the clearing channel for the routing of the transaction, as part of the payment type identification. ISO20022",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "50d880ae-2d4a-ed11-83d4-064ad05c4fb5",
+      "name": "RealTimeGrossSettlementSystem",
+      "description": "Clearing channel is a real-time gross settlement system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52d880ae-2d4a-ed11-83d4-064ad05c4fb5",
+      "name": "RealTimeNetSettlementSystem",
+      "description": "Clearing channel is a real-time net settlement system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53d880ae-2d4a-ed11-83d4-064ad05c4fb5",
+      "name": "MassPaymentNetSystem",
+      "description": "Clearing channel is a mass payment net settlement system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54d880ae-2d4a-ed11-83d4-064ad05c4fb5",
+      "name": "BookTransfer",
+      "description": "Payment through internal book transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

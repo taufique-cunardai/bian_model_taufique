@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8cdb9bda-5a7b-eb11-8305-0629e4db26e7",
+  "title": "FinancialFacility",
+  "description": "TBD\r\n\r\n\r\nGuy's Definition: I see a financial facility as any type of ongoing arrangement - so a current account, credit card or even a loan account are all financial facilities - in that they persist over multiple possible transactions. Basically I think most banking products fall into two main categories - either: a financial transaction like a payment, a trade; or a financial facility.",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

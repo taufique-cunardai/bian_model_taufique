@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7f8106bf-4cb5-ea11-829f-06ddb95e6bc8",
+  "title": "ITSystemRiskCheckTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c55a62c5-4cb5-ea11-829f-06ddb95e6bc8",
+      "name": "FunctionalRiskCheck",
+      "description": "Test to ensure the system meets functional requirements (including compliance and usability)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0f956d6-4cb5-ea11-829f-06ddb95e6bc8",
+      "name": "ProductionRiskCheck",
+      "description": "Test to ensure the system meets production risk requirements - managing exposure to procedural failures",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4c99ce1-4cb5-ea11-829f-06ddb95e6bc8",
+      "name": "BusinessRiskCheck",
+      "description": "Test to ensure the system meets business risk requirements - managing exposure to commercial/business misuse",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa38046b-4eb5-ea11-829f-06ddb95e6bc8",
+      "name": "OperationalRiskCheck",
+      "description": "Test to ensure the system meets operational risk requirements - managing exposure to operational and platform/systems failures",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

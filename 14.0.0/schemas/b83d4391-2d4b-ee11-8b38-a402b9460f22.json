@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b83d4391-2d4b-ee11-8b38-a402b9460f22",
+  "title": "SettlementMethodTypeValues",
+  "description": "Specifies the type of method used to settle the payment instruction.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "510ff698-2d4b-ee11-8b38-a402b9460f22",
+      "name": "InstructedAgent",
+      "description": "Settlement is done by the agent instructed to execute a payment instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "530ff698-2d4b-ee11-8b38-a402b9460f22",
+      "name": "InstructingAgent",
+      "description": "Settlement is done by the agent instructing and forwarding the payment to the next party in the payment chain.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "540ff698-2d4b-ee11-8b38-a402b9460f22",
+      "name": "CoverMethod",
+      "description": "Settlement is done through a cover payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "550ff698-2d4b-ee11-8b38-a402b9460f22",
+      "name": "ClearingSystem",
+      "description": "Settlement is done through a payment clearing system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

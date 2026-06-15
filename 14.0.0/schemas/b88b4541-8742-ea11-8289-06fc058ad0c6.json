@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b88b4541-8742-ea11-8289-06fc058ad0c6",
+  "title": "FeeInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a1a9fd52-8742-ea11-8289-06fc058ad0c6",
+      "name": "Charge Bearer",
+      "description": "Party(ies) liable for a charge associated with the transfer of cash. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9a43969-8742-ea11-8289-06fc058ad0c6",
+      "name": "Charge Agent",
+      "description": "Party that takes the transaction charges or to which the transaction charges are due. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61149ca0-8742-ea11-8289-06fc058ad0c6",
+      "name": "Charge Recipient",
+      "description": "Party entitled to the amount of money resulting from a charge. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e55eaf7b-8842-ea11-8289-06fc058ad0c6",
+      "name": "Charge Account Agent",
+      "description": "Agent that services a charge account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

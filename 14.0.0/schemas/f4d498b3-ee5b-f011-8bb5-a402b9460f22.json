@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f4d498b3-ee5b-f011-8bb5-a402b9460f22",
+  "title": "FeeModalityTypeValues",
+  "description": "Fee modality types describe how, when, and under what conditions a fee is applied and calculated.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "aaff66c3-ee5b-f011-8bb5-a402b9460f22",
+      "name": "Fee Application Timing Modality",
+      "description": "Describes when the fee is applied.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f79e91fb-ee5b-f011-8bb5-a402b9460f22",
+      "name": "Fee Calculation Modality",
+      "description": "Describes how the fee is calculated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61a4711d-ef5b-f011-8bb5-a402b9460f22",
+      "name": "Fee Currency Modality",
+      "description": "Describes the currency context in which the fee is applied.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f879f53-ef5b-f011-8bb5-a402b9460f22",
+      "name": "Fee Posting Modality",
+      "description": "Describes how and when the fee is posted to the customer account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

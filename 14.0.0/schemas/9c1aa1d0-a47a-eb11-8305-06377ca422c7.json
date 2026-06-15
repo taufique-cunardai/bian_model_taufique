@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9c1aa1d0-a47a-eb11-8305-06377ca422c7",
+  "title": "ArrangementStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b73d7ee0-a47a-eb11-8305-06377ca422c7",
+      "name": "Requested",
+      "description": "The arrangement has been initiated or asked for, but no formal action or evaluation has taken place yet.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c0b20ed-a47a-eb11-8305-06377ca422c7",
+      "name": "Proposed",
+      "description": "The arrangement has been initiated or asked for, but no formal action or evaluation has taken place yet.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "310b20ed-a47a-eb11-8305-06377ca422c7",
+      "name": "Offered",
+      "description": "The arrangement has been formally presented to the relevant party for acceptance or rejection.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b8a21fe-a47a-eb11-8305-06377ca422c7",
+      "name": "Accepted",
+      "description": "The offered arrangement has been agreed to by all required parties and is approved to proceed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "308a21fe-a47a-eb11-8305-06377ca422c7",
+      "name": "Cancelled",
+      "description": "The arrangement has been withdrawn before completion, either by the provider or the recipient.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "daa1440c-a57a-eb11-8305-06377ca422c7",
+      "name": "Fulfilled",
+      "description": "The arrangement has been fully executed and all obligations or conditions have been completed successfully.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1940716-a57a-eb11-8305-06377ca422c7",
+      "name": "Terminated",
+      "description": "The arrangement has been ended before its natural completion, usually due to specific conditions, breaches, or mutual agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

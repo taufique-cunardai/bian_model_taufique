@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7a66285b-3aca-ed11-8401-0691c36b5c21",
+  "title": "StandingOrderTypeValues",
+  "description": "Specifies the type of standing order. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3acd4977-3aca-ed11-8401-0691c36b5c21",
+      "name": "User Defined Standing Order",
+      "description": "Liquidity transfer standing order type, that has been customised or defined to the specific need of the user.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e14db7d-3aca-ed11-8401-0691c36b5c21",
+      "name": "Predefined Standing Order",
+      "description": "Liquidity transfer standing order type, as predefined in the system. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

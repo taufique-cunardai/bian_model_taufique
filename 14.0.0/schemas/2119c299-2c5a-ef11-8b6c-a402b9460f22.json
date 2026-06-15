@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2119c299-2c5a-ef11-8b6c-a402b9460f22",
+  "title": "CompetitorAnalysisTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f886f7ad-2c5a-ef11-8b6c-a402b9460f22",
+      "name": "Peer Competitor Analysis",
+      "description": "The process of evaluating and comparing a company’s performance, strategies, and market position against those of its direct competitors, often referred to as \"peers.\" These peers typically operate within the same industry, offer similar products or services, and target the same customer segments. Focus: Analyzes businesses offering similar products or services that target the same customer base.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa86f7ad-2c5a-ef11-8b6c-a402b9460f22",
+      "name": "Product Competitive Analysis",
+      "description": "The process of evaluating and comparing a company's product or service against similar offerings from competitors",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb86f7ad-2c5a-ef11-8b6c-a402b9460f22",
+      "name": "Competitor Clustering or Grouping",
+      "description": "Clusters competitors into groups based on similar strategies, market positions, or other characteristics.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc86f7ad-2c5a-ef11-8b6c-a402b9460f22",
+      "name": "Competitor SWOT Analysis",
+      "description": "Evaluates a competitor's Strengths, Weaknesses, Opportunities, and Threats",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd86f7ad-2c5a-ef11-8b6c-a402b9460f22",
+      "name": "Competitive Benchmarking",
+      "description": "The process of comparing a company's performance, processes, products, or practices against those of its competitors",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

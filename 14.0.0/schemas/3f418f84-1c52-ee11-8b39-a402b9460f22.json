@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3f418f84-1c52-ee11-8b39-a402b9460f22",
+  "title": "PostalAddressTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cbcfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "Business",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2cfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "Correspondence",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7cfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "DeliveryTo",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dccfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "MailTo",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1cfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "POBox",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e6cfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "Postal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebcfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "Residential",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0cfa738-1d52-ee11-8b39-a402b9460f22",
+      "name": "Statement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e24844f1-3d38-ed11-83cc-063eaecd5279",
+  "title": "PaymentServiceTypeValues",
+  "description": "According to the payment services directive (PSD), the following activities, when carried out as a regular occupation or business activity, are payment services:\r\n1. Services enabling cash to be placed on a payment account and all of the operations required for operating a payment account; \r\n2. Services enabling cash withdrawals from a payment account and all of the operations required for operating a payment account; \r\n3. The execution of the following types of payment transaction:\r\n- direct debits, including one-off direct debits; \r\n- payment transactions executed through a payment card or a similar device; \r\n- credit transfers, including standing orders; \r\n4. The execution of the following types of payment transaction where the funds are covered by a credit line for the payment service user: \r\n- direct debits, including one-off direct debits; \r\n- payment transactions executed through a payment card or a similar device; \r\n- credit transfers, including standing orders; \r\n5. Issuing payment instruments or acquiring payment transactions; \r\n6. Money remittance; \r\n7. The execution of payment transactions where the consent of the payer to execute the payment transaction is given by means of any telecommunication, digital or IT device and the payment is made to the telecommunication, IT system or network operator acting only as an intermediary between the payment service user and the supplier of the goods or services.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fea1b101-3e38-ed11-83cc-063eaecd5279",
+      "name": "Credit Transfer Service",
+      "description": "A payment service allowing a payer to transfer fund to a beneficiary. (a proposed definition for BIAN BOM adapted from ECB)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f02cb22-3e38-ed11-83cc-063eaecd5279",
+      "name": "Standing Order Service",
+      "description": "A credit transfer service to make regular transfers on given dates to a named beneﬁciary. (a proposed definition for BIAN BOM adapted from ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b07c762b-3e38-ed11-83cc-063eaecd5279",
+      "name": "Direct Debit Service",
+      "description": "A payment service for debiting a payer's payment account, where a payment transaction is initiated by the payee on the basis of the payer's consent given to the payee, to the payee's payment service provider or to the payer's own payment service provider. (a proposed definition for BIAN BOM adapted from PSD)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a58614c-3e38-ed11-83cc-063eaecd5279",
+      "name": "Card Payment Service",
+      "description": "A payment service to execute payment transactions through a payment card, including online payments. (a proposed definition for BIAN BOM adapted from PSD)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f259e65-3e38-ed11-83cc-063eaecd5279",
+      "name": "Withdraw Service",
+      "description": "A payment service to take fund out of an account. (a proposed definition for BIAN BOM)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3bed3073-3e38-ed11-83cc-063eaecd5279",
+      "name": "Deposit Service",
+      "description": "A payment service to place funds into an account for safekeeping. (a proposed definition for BIAN BOM)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "41ede67a-3e38-ed11-83cc-063eaecd5279",
+      "name": "Overdraft Service",
+      "description": "A payment service that allows fund transfer even if there is no provision on the account. (a proposed definition for BIAN BOM)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a71bb81-3e38-ed11-83cc-063eaecd5279",
+      "name": "Money Remittance Service",
+      "description": "A payment service where funds are received from a payer, without any payment accounts being created in the name of the payer or the payee, for the sole purpose of transferring a corresponding amount to a payee or to another payment service provider acting on behalf of the payee, and/or where such funds are received on behalf of and made available to the payee. (a proposed definition for BIAN BOM adapted from PSD)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "559daa8d-3e38-ed11-83cc-063eaecd5279",
+      "name": "Statement Service",
+      "description": "A reporting service on payment transactions registered on an account. (a proposed definition for BIAN BOM)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

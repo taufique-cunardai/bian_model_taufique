@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fc1b9625-c41e-f111-8608-0247e3f120c3",
+  "title": "SavingsAccountProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "84b8373e-c41e-f111-8608-0247e3f120c3",
+      "name": "Regular Savings Account",
+      "description": "A standard savings account that allows customers to deposit money, earn interest, and withdraw funds when needed, usually with some withdrawal limitations.\r\n\r\nComment:\r\nExample:\r\nA customer deposits €3,000 and earns 1% annual interest while still being able to withdraw money through online banking.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "780bf164-c41e-f111-8608-0247e3f120c3",
+      "name": "High-Interest Savings Account",
+      "description": "A savings account that offers higher interest rates compared to standard savings accounts, often requiring a higher minimum balance.\r\n\r\nComment:\r\nExample:\r\n\r\nMinimum balance: €10,000\r\n\r\nInterest rate: 3% per year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce9ea673-c41e-f111-8608-0247e3f120c3",
+      "name": "Term Deposit",
+      "description": "Term Deposit (Fixed Deposit Account) A savings product where money is locked for a fixed period, and the bank pays a higher interest rate in return.\r\n\r\nComment:\r\nExample:\r\nA customer deposits €5,000 for 12 months at 3.5% interest, payable at maturity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "acc64790-c41e-f111-8608-0247e3f120c3",
+      "name": "Notice Savings Account",
+      "description": "A savings account where customers must give advance notice before withdrawing funds.\r\n\r\nComment:\r\nExample:\r\nA 60-day notice account requires the customer to inform the bank 60 days before withdrawing money.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a668f5a1-c41e-f111-8608-0247e3f120c3",
+      "name": "Youth Savings Account",
+      "description": "A savings account specifically designed for children or young adults, often with higher interest rates or savings incentives.\r\n\r\nComment:\r\nExample:\r\nAccounts for customers under 18 offering 2% interest and no maintenance fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64c5e3b0-c41e-f111-8608-0247e3f120c3",
+      "name": "Retirement Savings Account",
+      "description": "A long-term savings product designed to help customers accumulate funds for retirement, sometimes with tax benefits.\r\n\r\nComment:\r\nExample:\r\nA retirement savings plan where contributions grow until retirement age.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97e834c0-c41e-f111-8608-0247e3f120c3",
+      "name": "Goal-Based Savings Account",
+      "description": "A savings account designed to help customers save for a specific financial goal.\r\n\r\nComment:\r\nExample:\r\nSaving €10,000 over two years to buy a car, with bonus interest when the goal is achieved.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40ea63d0-c41e-f111-8608-0247e3f120c3",
+      "name": "Online Savings Account",
+      "description": "A savings account managed entirely through digital banking platforms, often offering higher interest rates due to lower operational costs.\r\n\r\nComment:\r\nExample:\r\nCustomers open and manage the account through mobile banking and earn higher interest than branch accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e55424e0-c41e-f111-8608-0247e3f120c3",
+      "name": "Loyalty Savings Account",
+      "description": "A savings account that rewards customers for keeping funds in the account for a long period without withdrawing them.\r\n\r\nComment:\r\nExample:\r\nA loyalty bonus interest paid after maintaining a balance for 12 months.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d282c5b8-72b7-ed11-83f9-062fd04be211",
+  "title": "MandateTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ebd5e5c5-72b7-ed11-83f9-062fd04be211",
+      "name": "Consent",
+      "description": "Permission or Agreement obtained from someone or something having authority or power\r\n\r\nPermission for something to happen or agreement to do something.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f68d23cc-72b7-ed11-83f9-062fd04be211",
+      "name": "Power Of Attorney",
+      "description": "A written authorization that transfers specific rights from a party to another party.\r\n\r\nDocument that transfers specific rights from a party to another party. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d6487e5-72b7-ed11-83f9-062fd04be211",
+      "name": "Direct Debit Mandate",
+      "description": "An agreement between a debtor and a creditor allowing the creditor to instruct the bank to debit the debtors account\r\n\r\nAuthorization in favour of the creditor given by the debtor to debit its own account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "287df305-73b7-ed11-83f9-062fd04be211",
+      "name": "Servicing Mandate",
+      "description": "An agreement between the customer and a service provider to authorise the service provider to access Products and Services on behalf of the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

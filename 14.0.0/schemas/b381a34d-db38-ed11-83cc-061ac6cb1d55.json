@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b381a34d-db38-ed11-83cc-061ac6cb1d55",
+  "title": "ServiceProviderArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "38163968-db38-ed11-83cc-061ac6cb1d55",
+      "name": "Product and Service Specific Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a6a91d76-db38-ed11-83cc-061ac6cb1d55",
+      "name": "Product and Service Delivery Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7953168b-db38-ed11-83cc-061ac6cb1d55",
+      "name": "Policy Term",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15b1d8a1-db38-ed11-83cc-061ac6cb1d55",
+      "name": "Regulatory Term",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "16b1d8a1-db38-ed11-83cc-061ac6cb1d55",
+      "name": "Legal Term",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

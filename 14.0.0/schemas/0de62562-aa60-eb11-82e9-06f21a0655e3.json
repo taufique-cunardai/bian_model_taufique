@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0de62562-aa60-eb11-82e9-06f21a0655e3",
+  "title": "ProductInventoryDistributionArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4c1be275-aa60-eb11-82e9-06f21a0655e3",
+      "name": "Mailing Distribution Arrangement",
+      "description": "Arrangements for the correspondence based distribution of inventory (with addressee details provided by fulfillment services)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f26bea9-aa60-eb11-82e9-06f21a0655e3",
+      "name": "Provisioning Arrangement",
+      "description": "Arrangements for the provisioning of product inventory to meet anticipated volume demands",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b11dddd-aa60-eb11-82e9-06f21a0655e3",
+      "name": "Distribution Arrangement",
+      "description": "Arrangement for the distribution of inventory across the business",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "264b8a46-ab60-eb11-82e9-06f21a0655e3",
+      "name": "Administrative Oversight Arrangement",
+      "description": "Arrangements specified to oversee the use and distribution of inventory across aspects of the operation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6c9e3438-59d2-e911-8296-0633d5e0e610",
+  "title": "PartyLocationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ce621f48-59d2-e911-8296-0633d5e0e610",
+      "name": "Location is Residential Address of Party",
+      "description": "Location from which the affairs of a company are directed or location in which a person resides (the place of a person's home). ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "551cc463-59d2-e911-8296-0633d5e0e610",
+      "name": "Location is Domicile Address of Party",
+      "description": "Location in which a person is permanently domiciled (the place of a person's permanent home). ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39ee9aea-b0b1-ec11-8382-06e7d2a3c91d",
+      "name": "Location is Place of Birth of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29ac1bf9-b0b1-ec11-8382-06e7d2a3c91d",
+      "name": "Location is Work Address of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46bf8d1e-b1b1-ec11-8382-06e7d2a3c91d",
+      "name": "Location is Delivery Point Address of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f88f24d0-8795-ed11-83f5-06ee4b528fbf",
+      "name": "Location is owned by Party",
+      "description": "Registered owner or title holder(s) of the property.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb74a6d6-8795-ed11-83f5-06ee4b528fbf",
+      "name": "Location is occupied by Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f3de0de-8795-ed11-83f5-06ee4b528fbf",
+      "name": "Party is Alliance Partner of Location",
+      "description": "Reference to the bank alliance partner with some kind of link association to the location (used for location based marketing).\r\nThe Location considers the Party to be a trusted partner with whom it has an established alliancethis could involve cooperation in operations, services, strategy, or other agreed areas.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72ff8942-1e2a-ee11-8b31-a402b9460f22",
+      "name": "Location is Contact Point Address of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bef3f9f6-723d-f111-8be5-a402b9460f22",
+      "name": "Location is Geografical Address of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b814b304-733d-f111-8be5-a402b9460f22",
+      "name": "Location is Telephonic Address of Party",
+      "description": "A telephonic address refers to a phone number (including landline, mobile, or fax) used for voice or text communication",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6140416-733d-f111-8be5-a402b9460f22",
+      "name": "Location is Electronic Address of Party",
+      "description": "An electronic address typically refers to digital contact identifiers, most commonly an email address",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ab38471-743d-f111-8be5-a402b9460f22",
+      "name": "Location is Invoicing Address of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

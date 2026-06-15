@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "209dbff3-ef5b-f011-8bb5-a402b9460f22",
+  "title": "FeeCalculationModalityTypeValues",
+  "description": "Describes how the fee is calculated",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "55bcb00b-f05b-f011-8bb5-a402b9460f22",
+      "name": "Fixed Amount",
+      "description": "A set fee regardless of transaction size or volume (e.g. $10 flat fee).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57bcb00b-f05b-f011-8bb5-a402b9460f22",
+      "name": "Percentage-Based",
+      "description": "A % of the transaction amount (e.g. 1.5% of transfer amount).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58bcb00b-f05b-f011-8bb5-a402b9460f22",
+      "name": "Tiered/Slab-Based",
+      "description": "Different rates depending on value ranges (e.g. 1% up to $1,000, then 0.5%).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59bcb00b-f05b-f011-8bb5-a402b9460f22",
+      "name": "Capped Fee",
+      "description": "Fee is calculated normally but cannot exceed a max amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5abcb00b-f05b-f011-8bb5-a402b9460f22",
+      "name": "Minimum Fee",
+      "description": "A lower limit is enforced (e.g. at least $1 even if % is small).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "63823b53-0817-f111-8608-0adacdf86181",
+  "title": "CreditPlanTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "aa03567d-0817-f111-8608-0adacdf86181",
+      "name": "Installment Credit Plan",
+      "description": "Credit is repaid in fixed periodic payments over a defined term.\r\n\r\nComment:\r\nExample:\r\nPersonal loan repaid monthly over 3 years.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebe11b94-0817-f111-8608-0adacdf86181",
+      "name": "Bullet Credit Plan",
+      "description": "Principal repaid at maturity.\r\n\r\nComment: \r\nExample: Corporate bridge loan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b26a59f-0817-f111-8608-0adacdf86181",
+      "name": "Balloon Credit Plan",
+      "description": "Smaller periodic payments with a large final payment at the end.\r\n\r\nComment: \r\nExample: auto financing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cef205b0-0817-f111-8608-0adacdf86181",
+      "name": "Revolving Credit Plan",
+      "description": "Flexible repayment within limit.\r\n\r\nComment: \r\nExample: credit card",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fa8ebbd-0817-f111-8608-0adacdf86181",
+      "name": "Interest-Only Plan",
+      "description": "Pay interest periodically, principal later.\r\n\r\nComment: \r\nExample: investment loan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d09e4161-f31d-f111-8608-0240c2737d75",
+      "name": "Overdraft Credit Plan",
+      "description": "Allows customers to withdraw more money than their account balance up to a predefined limit.\r\n\r\nComment:\r\nExample:\r\nCurrent account overdraft limit of €2,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04479a83-f31d-f111-8608-0240c2737d75",
+      "name": "Line of Credit Plan",
+      "description": "A flexible credit facility where funds can be drawn as needed within an approved limit.\r\n\r\nComment:\r\nExample:\r\nBusiness working capital credit line.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "04e38b77-dc14-ee11-8b2e-a402b9460f22",
+  "title": "PersonNameTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "49184581-dc14-ee11-8b2e-a402b9460f22",
+      "name": "First Name",
+      "description": "First name of a person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b184581-dc14-ee11-8b2e-a402b9460f22",
+      "name": "Family Name",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9853268c-dc14-ee11-8b2e-a402b9460f22",
+      "name": "Nike Name",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9953268c-dc14-ee11-8b2e-a402b9460f22",
+      "name": "Given Name",
+      "description": "A given name, also known as a first name or forename, is the name given to a person at birth. \r\n\r\n\"Given name\" is a synonym for the first name.\r\n\r\nFirst name of a person. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c855f96-dc14-ee11-8b2e-a402b9460f22",
+      "name": "Full Name",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5308a520-97fc-ee11-8b4c-a402b9460f22",
+      "name": "Middle Name",
+      "description": "Second name of a person. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d437990a-99fc-ee11-8b4c-a402b9460f22",
+      "name": "Birth Name",
+      "description": "Name received at birth (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

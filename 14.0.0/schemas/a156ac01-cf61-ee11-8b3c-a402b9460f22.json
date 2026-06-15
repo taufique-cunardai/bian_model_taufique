@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a156ac01-cf61-ee11-8b3c-a402b9460f22",
+  "title": "TermDepositTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1c358309-cf61-ee11-8b3c-a402b9460f22",
+      "name": "Fixed-Term Deposit",
+      "description": "This is the most basic type of term deposit, where you deposit a specific amount of money for a fixed period at a predetermined interest rate. The interest rate remains constant throughout the term.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "803e1514-cf61-ee11-8b3c-a402b9460f22",
+      "name": "Flexible-Term Deposit",
+      "description": "Some financial institutions offer flexibility in choosing the term length for your deposit. This allows you to select a term that suits your financial goals, ranging from a few months to several years.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

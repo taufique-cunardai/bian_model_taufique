@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5c29d66c-bf39-ed11-83cc-06205e829a1b",
+  "title": "QuotationInvolvementType",
+  "description": "Specifies each role played by a party in a quotation process. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "59b5bc80-bf39-ed11-83cc-06205e829a1b",
+      "name": "Quote Originator",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60b5bc80-bf39-ed11-83cc-06205e829a1b",
+      "name": "Quote Requestor",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "23193fb2-bf39-ed11-83cc-06205e829a1b",
+      "name": "Quoting Institution",
+      "description": "Source of the quote, party that proposes a rate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

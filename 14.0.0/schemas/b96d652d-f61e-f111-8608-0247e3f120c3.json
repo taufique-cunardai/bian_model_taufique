@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b96d652d-f61e-f111-8608-0247e3f120c3",
+  "title": "CreditPlanProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "63816e39-f61e-f111-8608-0247e3f120c3",
+      "name": "Revolving Credit Feature",
+      "description": "A feature that allows the borrower to reuse the available credit after repayment, up to a pre-approved limit.\r\n\r\nComment:\r\nExample:\r\n\r\nCredit card with a $5,000 limit where repayments restore available credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8ae1a56-f61e-f111-8608-0247e3f120c3",
+      "name": "Installment Credit Feature",
+      "description": "A feature that provides a fixed amount of credit to be repaid in regular installments over a defined period.\r\n\r\nComment:\r\nExample:\r\n\r\nPersonal loan of $10,000 repaid in 24 monthly installments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c93e65e-f61e-f111-8608-0247e3f120c3",
+      "name": "Line of Credit Feature",
+      "description": "A feature that offers a pre-approved maximum credit amount from which the borrower can draw as needed.\r\n\r\nComment:\r\nExample:\r\n\r\nOverdraft facility linked to a checking account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72d4906d-f61e-f111-8608-0247e3f120c3",
+      "name": "Secured Credit Feature",
+      "description": "A feature where credit is backed by collateral or assets to reduce risk.\r\n\r\nComment:\r\nExample:\r\n\r\nMortgage loan secured by real estate property.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e265247b-f61e-f111-8608-0247e3f120c3",
+      "name": "Unsecured Credit Feature",
+      "description": "A feature that provides credit without collateral, based on creditworthiness.\r\n\r\nComment\r\nExample:\r\n\r\nPersonal loan or credit card with no security deposit required.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8dea398d-f61e-f111-8608-0247e3f120c3",
+      "name": "Promotional Credit Feature",
+      "description": "A feature where credit comes with special incentives, reduced interest rates, or deferred charges.\r\n\r\nComment:\r\nExample:\r\n\r\n0% interest for the first 12 months on a new credit card balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d3b5f9c-f61e-f111-8608-0247e3f120c3",
+      "name": "Tiered Credit Feature",
+      "description": "A feature where credit limits or terms vary based on customer profile, risk assessment, or usage behavior.\r\n\r\nComment:\r\nExample:\r\n\r\nHigher credit limits or lower rates for premium customers or loyal clients.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e591ab3-f61e-f111-8608-0247e3f120c3",
+      "name": "Flexible Repayment Credit Feature",
+      "description": "A feature allowing variable repayment schedules or partial payment options.\r\n\r\nComment:\r\nExample:\r\n\r\nOption to pay minimum amounts on a credit card with interest applied to the remaining balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

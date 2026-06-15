@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a9280b0-9544-f111-bb23-0ab568f9332f",
+  "title": "AmountBlockScopeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9684f442-9644-f111-bb23-0ab568f9332f",
+      "name": "Full Balance Block",
+      "description": "The block applies to the entire available balance of the account.\r\n\r\nComment:\r\nExample: Legal freeze due to a court order",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b859a44f-9644-f111-bb23-0ab568f9332f",
+      "name": "Partial Balance Block",
+      "description": "Only a specific portion of the balance is blocked.\r\n\r\nComment:\r\nExample: €500 blocked on a €2,000 account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77dd8165-9644-f111-bb23-0ab568f9332f",
+      "name": "Target Amount Block",
+      "description": "A predefined amount is blocked, regardless of the total balance structure.\r\n\r\nComment:\r\nExample: €100 reserved for a pending transaction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7a0c272-9644-f111-bb23-0ab568f9332f",
+      "name": "Variable Block",
+      "description": "The blocked amount can change over time based on updates or conditions.\r\n\r\nComment:\r\nExample: Hotel authorization adjusted after final bill calculation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f454eab0-9644-f111-bb23-0ab568f9332f",
+      "name": "Segmented Block",
+      "description": "Funds are blocked in separate portions under different blocks.\r\n\r\nComment:\r\nExample: €300 (card hold) + €700 (loan collateral)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd1eefde-9644-f111-bb23-0ab568f9332f",
+      "name": "Conditional Scope Block",
+      "description": "The extent of the block depends on a condition.\r\n\r\nComment:\r\nExample: Additional funds blocked if transaction exceeds estimate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

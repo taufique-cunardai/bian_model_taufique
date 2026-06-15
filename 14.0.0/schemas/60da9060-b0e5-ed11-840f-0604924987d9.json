@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "60da9060-b0e5-ed11-840f-0604924987d9",
+  "title": "CorrespondentBankInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1b6b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Advising Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d6b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Beneficiary Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e6b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Reimbursing Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f6b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Refinancing Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "206b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Ordering Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "216b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Sender Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "226b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Paying Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "236b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Intermediary Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "246b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Sender Correspondent",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "256b258c-b0e5-ed11-840f-0604924987d9",
+      "name": "Receiver Correspondent",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

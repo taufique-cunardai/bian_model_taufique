@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0dd758f3-f74c-f011-8bb1-a402b9460f22",
+  "title": "PartnerArrangementTypeValues",
+  "description": "An agreement hat outlines the specific terms, conditions, roles, and responsibilities governing the collaboration between the bank and its partners. It includes contractual obligations, operational procedures, service level expectations, and financial arrangements related to the delivery of joint products or services to customers.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ebf208ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Financial Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f2f208ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Resourcing Commitment Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f7f208ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Servicing Commitment Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fcf208ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Party Access Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01f308ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Brand License Arrangement",
+      "description": "The partner grants the bank rights to use specific intellectual property, technology, or tools.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06f308ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Security (Confidentiality, Integrity, Availability) Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0bf308ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Dispute Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10f308ba-f84c-f011-8bb1-a402b9460f22",
+      "name": "Termination Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc62f2e1-f84c-f011-8bb1-a402b9460f22",
+      "name": "Legal Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e162f2e1-f84c-f011-8bb1-a402b9460f22",
+      "name": "Policy Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10e98cee-f84c-f011-8bb1-a402b9460f22",
+      "name": "Regulatory Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a28f49c-fb4c-f011-8bb1-a402b9460f22",
+      "name": "Compliance and Risk-Sharing Arrangement",
+      "description": "Specific agreement terms define how compliance obligations (e.g., AML, GDPR) and risks (e.g., fraud, data breach) are shared or managed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "321d9fa4-fb4c-f011-8bb1-a402b9460f22",
+      "name": "Strategic Alliance or Joint Venture Arrangement",
+      "description": "Long-term strategic collaboration involving shared investment, governance, and business development.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "213b95b0-fb4c-f011-8bb1-a402b9460f22",
+      "name": "Revenue Sharing Arrangement",
+      "description": "The bank and the partner share revenue generated through joint activities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "736376be-fb4c-f011-8bb1-a402b9460f22",
+      "name": "Outsourcing Arrangement",
+      "description": "A third-party partner performs operational functions or processes on behalf of the bank.\r\n\r\nExamples:\r\n\r\n- Call centers, back-office processing, or KYC/AML checks.\r\n- IT helpdesk support or infrastructure management.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8feace14-fc4c-f011-8bb1-a402b9460f22",
+      "name": "Co-Branding Arrangement",
+      "description": "Both the bank and the partner jointly market a product or service under both brands.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

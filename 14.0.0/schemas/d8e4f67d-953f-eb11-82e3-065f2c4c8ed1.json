@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d8e4f67d-953f-eb11-82e3-065f2c4c8ed1",
+  "title": "CustodyServiceArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d9e4f67d-953f-eb11-82e3-065f2c4c8ed1",
+      "name": "Custody Holdings Settlement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67af51b2-953f-eb11-82e3-065f2c4c8ed1",
+      "name": "Securities Safe Keeping",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68af51b2-953f-eb11-82e3-065f2c4c8ed1",
+      "name": "Custody Dividends and Interest",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5af9fc5-953f-eb11-82e3-065f2c4c8ed1",
+      "name": "Custody Securities Reporting",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c23a2d4-953f-eb11-82e3-065f2c4c8ed1",
+      "name": "Custody Service Fees",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

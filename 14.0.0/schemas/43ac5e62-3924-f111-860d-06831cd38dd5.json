@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "43ac5e62-3924-f111-860d-06831cd38dd5",
+  "title": "SweepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6487d585-3924-f111-860d-06831cd38dd5",
+      "name": "Liquidity Sweep",
+      "description": "A sweep that consolidates funds from multiple accounts into a central account to improve liquidity management and visibility.\r\n\r\nComment:\r\nExample:\r\nA company has multiple regional accounts. At the end of the day, all excess balances are swept into a head office master account to centralize cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb4ba4a1-3924-f111-860d-06831cd38dd5",
+      "name": "Target Balance Sweep",
+      "description": "A sweep that adjusts an account balance to reach a predefined target amount.\r\n\r\nComment:\r\nExample: At the end of each day, funds are moved to ensure the current account always maintains €5,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cb810b0-3924-f111-860d-06831cd38dd5",
+      "name": "Zero Balance Sweep",
+      "description": "A sweep that adjusts an account balance to zero (or a target balance) by transferring funds to or from a master account.\r\n\r\nComment:\r\nExample:\r\nA subsidiary account ends the day with €10,000. The system sweeps €10,000 to the master account, leaving the subsidiary account at €0.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91f40bc9-3924-f111-860d-06831cd38dd5",
+      "name": "Scheduled Sweep",
+      "description": "A sweep executed at predefined times or intervals regardless of balance conditions.\r\n\r\nComment:\r\nExample: Every Friday, €1,000 is transferred from a checking account to an investment account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1cc14d6-3924-f111-860d-06831cd38dd5",
+      "name": "Investment Sweep",
+      "description": "A sweep that moves excess funds into interest-bearing or investment accounts to maximize returns.\r\n\r\nComment:\r\nExample:\r\nA current account exceeds €50,000. The excess €20,000 is automatically swept into a money market fund overnight.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fbc995e4-3924-f111-860d-06831cd38dd5",
+      "name": "Debt Sweep",
+      "description": "Debt Sweep (Loan/Overdraft Sweep): A sweep that uses excess funds to reduce outstanding debt or overdraft balances.\r\n\r\nComment:\r\nExample:\r\nA business account has an overdraft of €15,000.\r\nAt day-end, €5,000 excess cash is swept to reduce the overdraft to €10,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de25a7f1-3924-f111-860d-06831cd38dd5",
+      "name": "Threshold Sweep",
+      "description": "A sweep triggered when account balance exceeds or falls below a defined threshold.\r\n\r\nComment:\r\nExample:\r\nIf balance exceeds €100,000, the excess is swept to a savings account.\r\nIf it drops below €20,000, funds are swept back.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5adfb3ff-3924-f111-860d-06831cd38dd5",
+      "name": "Notional Sweep",
+      "description": "Multi-Account / Notional Sweep: A sweep across multiple related accounts, often within the same organization or group.\r\n\r\nComment:\r\nExample: Balances from several regional accounts are swept into a parent company account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cd26c0e-3a24-f111-860d-06831cd38dd5",
+      "name": "Cross-Currency Sweep",
+      "description": "Cross-Currency Sweep: A sweep that transfers and converts funds between accounts in different currencies.\r\n\r\nComment:\r\nExample: USD balances are automatically converted and swept into a EUR account at end of day.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00de2f2e-3a24-f111-860d-06831cd38dd5",
+      "name": "Reverse Sweep",
+      "description": "A sweep that returns funds from a target account back to the source account when needed.\r\n\r\nComment\r\nExample:\r\nFunds were swept into an investment account.\r\nNext day, the current account is short €3,000 → funds are swept back automatically.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e3a54a5c-3b24-f111-860d-06831cd38dd5",
+      "name": "Event-Driven Sweep",
+      "description": "A sweep triggered by a specific transaction or event.\r\n\r\nComment\r\nExample:\r\nAfter receiving a large customer payment, excess funds are immediately swept into an investment account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

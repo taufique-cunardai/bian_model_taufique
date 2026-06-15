@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "28e112d9-b913-f111-8608-0a7a71d021eb",
+  "title": "PartnerPerformanceArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "31f2a1f9-b913-f111-8608-0a7a71d021eb",
+      "name": "Operational Performance Arrangement",
+      "description": "Measures the partners ability to deliver services efficiently, reliably, and within agreed service levels.\r\n\r\nFocus Areas:\r\nSystem uptime\r\nTransaction processing time\r\nError rate\r\nTurnaround time (TAT)\r\nService availability\r\n\r\nComment:\r\nExample KPIs:\r\n99.9% API availability\r\nLoan approval turnaround within 48 hours",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e19a20a-ba13-f111-8608-0a7a71d021eb",
+      "name": "Financial Performance Arrangement",
+      "description": "Measures the financial contribution and commercial outcomes of the partner relationship.\r\n\r\nFocus Areas:\r\nRevenue targets\r\nSales volumes\r\nProfitability margins\r\nCost efficiency\r\nCommission accuracy\r\n\r\nComment:\r\nExample KPIs:\r\nMonthly sales target of 1,000 accounts\r\nMinimum profitability margin of 15%",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0184e919-ba13-f111-8608-0a7a71d021eb",
+      "name": "Compliance Performance Arrangement",
+      "description": "Measures the partners adherence to regulatory, legal, and internal policy requirements.\r\n\r\nFocus Areas:\r\nAML/KYC compliance rate\r\nRegulatory reporting timeliness\r\nAudit findings\r\nData protection adherence\r\n\r\nComment:\r\nExample KPIs:\r\n100% KYC validation before onboarding\r\nZero critical audit findings",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ead5ae23-ba13-f111-8608-0a7a71d021eb",
+      "name": "Risk Performance Arrangement",
+      "description": "Measures the partners risk management effectiveness and exposure control.\r\n\r\nFocus Areas:\r\nFraud rate\r\nOperational risk incidents\r\nSecurity breaches\r\nCredit default rates (if applicable)\r\n\r\nComment:\r\nExample KPIs:\r\nFraud rate below 0.5%\r\nZero major cybersecurity incidents",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "097f5234-ba13-f111-8608-0a7a71d021eb",
+      "name": "Strategic Performance Arrangement",
+      "description": "Measures the partners contribution to long-term strategic objectives.\r\n\r\nFocus Areas:\r\nMarket expansion\r\nInnovation initiatives\r\nCustomer acquisition growth\r\nDigital transformation contribution\r\n\r\nComment\r\nExample KPIs:\r\n20% increase in digital customer base\r\nSuccessful launch of new co-branded product",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b970f33d-ba13-f111-8608-0a7a71d021eb",
+      "name": "Customer Experience Performance Arrangement",
+      "description": "Measures the quality of customer interaction and satisfaction delivered by the partner.\r\n\r\nFocus Areas:\r\nCustomer satisfaction (CSAT)\r\nNet Promoter Score (NPS)\r\nComplaint resolution time\r\nFirst-contact resolution rate\r\n\r\nComment:\r\nExample KPIs:\r\nNPS above 60\r\n95% complaints resolved within 3 days",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

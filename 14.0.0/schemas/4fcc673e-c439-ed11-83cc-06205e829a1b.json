@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4fcc673e-c439-ed11-83cc-06205e829a1b",
+  "title": "QuoteStatusValue",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "50cc673e-c439-ed11-83cc-06205e829a1b",
+      "name": "Accepted",
+      "description": "Indicates that the quote is accepted for further negotiation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52cc673e-c439-ed11-83cc-06205e829a1b",
+      "name": "CancelSymbol",
+      "description": "Indicates that all quotes are cancelled for a financial instrument's symbol.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "CancelSecurity",
+      "description": "Indicates that all quotes are cancelled for a specific security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "CancelUnderlying",
+      "description": "Indicates that all quotes are cancelled for an underlying financial instrument.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "CancelAll",
+      "description": "Indicates that all quotes are cancelled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "Rejected",
+      "description": "Indicates that the quote is not accepted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "RemovedFromMarket",
+      "description": "Indicates that all quotes are removed from the market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "Expired",
+      "description": "Indicates that the quote is not valid anymore.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "Query",
+      "description": "Indicates that the quote is being requested.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "QuoteNotFound",
+      "description": "Indicates that no quote can be computed or communicated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "Pending",
+      "description": "Indicates that the quote is being processed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "Pass",
+      "description": "Indicates that the counterparty is not interested in the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "LockedMarketWarning",
+      "description": "Warning due to a situation of locked market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "CrossMarketWarning",
+      "description": "Warning due to a situation of cross market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "CanceledDueToLockMarket",
+      "description": "Indicates that the quote is canceled due to a situation of locked market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90287e44-c439-ed11-83cc-06205e829a1b",
+      "name": "CanceledDueToCrossMarket",
+      "description": "Indicates that the quote is canceled due to a situation of cross market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

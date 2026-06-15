@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cf30838d-131e-f111-8608-0240c2737d75",
+  "title": "CreditPlanAssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0b54e598-131e-f111-8608-0240c2737d75",
+      "name": "KYC Assessment",
+      "description": "Details about the customer being evaluated.\r\n\r\nIncludes:\r\nCustomer identification\r\nCustomer type (individual, business)\r\nFinancial profile\r\nIncome or revenue information\r\n\r\nExample:\r\nA bank evaluates an individual earning €4,000 per month applying for a loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6a6865b4-131e-f111-8608-0240c2737d75",
+      "name": "Credit Request Assessment",
+      "description": "Information about the credit plan requested by the customer.\r\n\r\nIncludes:\r\nRequested credit amount\r\nCredit product type (loan, credit card, overdraft)\r\nRequested term or duration\r\nPurpose of the credit\r\n\r\nExample:\r\nCustomer requests a €15,000 personal loan for home renovation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77adbac2-131e-f111-8608-0240c2737d75",
+      "name": "Financial Evaluation",
+      "description": "Assessment of the customer's ability to repay the credit.\r\n\r\nIncludes:\r\nIncome analysis\r\nDebt-to-income ratio\r\nCash flow evaluation\r\nExisting liabilities\r\n\r\nExample:\r\nThe borrower has existing loan payments of €500 monthly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "599491d6-131e-f111-8608-0240c2737d75",
+      "name": "Creditworthiness Analysis",
+      "description": "Evaluation of the customer's past credit behavior.\r\n\r\nIncludes:\r\nCredit score\r\nCredit history\r\nPast repayment performance\r\nDefault or delinquency records\r\n\r\nExample:\r\nA customer with a credit score of 720 and no missed payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38519ded-131e-f111-8608-0240c2737d75",
+      "name": "Risk Assessment",
+      "description": "Determines the risk level of granting the credit plan.\r\n\r\nIncludes:\r\nRisk rating (low, medium, high)\r\nProbability of default\r\nInternal risk model results\r\n\r\nExample:\r\nA stable salaried employee is classified as low risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6739af9-131e-f111-8608-0240c2737d75",
+      "name": "Collateral Assessment",
+      "description": "Evaluation of assets pledged to secure the credit.\r\n\r\nIncludes:\r\nCollateral type (property, vehicle, securities)\r\nCollateral market value\r\nLoan-to-value ratio\r\n\r\nExample:\r\nA house valued at €300,000 securing a €240,000 mortgage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74a31908-141e-f111-8608-0240c2737d75",
+      "name": "Compliance Check",
+      "description": "Ensures the credit plan meets legal and regulatory requirements.\r\n\r\nIncludes:\r\nKYC verification\r\nAnti-money laundering (AML) checks\r\nInternal policy compliance\r\n\r\nExample:\r\nThe bank confirms the customer identity and legal eligibility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "646a9214-141e-f111-8608-0240c2737d75",
+      "name": "Credit Limit Determination",
+      "description": "Defines the amount of credit the bank is willing to approve.\r\n\r\nIncludes:\r\nMaximum allowable credit\r\nApproved credit amount\r\nCredit exposure limits\r\n\r\nExample:\r\nRequested €20,000 but approved €15,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "475d9dfa-2752-ee11-8b39-a402b9460f22",
+  "title": "CivilStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cecfb437-2852-ee11-8b39-a402b9460f22",
+      "name": "Single",
+      "description": "Person is single.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0cfb437-2852-ee11-8b39-a402b9460f22",
+      "name": "Married",
+      "description": "Person is married.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1cfb437-2852-ee11-8b39-a402b9460f22",
+      "name": "LegallyDivorced",
+      "description": "Person is legally divorced.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2cfb437-2852-ee11-8b39-a402b9460f22",
+      "name": "Divorced",
+      "description": "Person is divorced.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3cfb437-2852-ee11-8b39-a402b9460f22",
+      "name": "Widow",
+      "description": "Person is a widower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4cfb437-2852-ee11-8b39-a402b9460f22",
+      "name": "StableUnion",
+      "description": "Person is in a stable union.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5cfb437-2852-ee11-8b39-a402b9460f22",
+      "name": "Separated",
+      "description": "Person is separated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

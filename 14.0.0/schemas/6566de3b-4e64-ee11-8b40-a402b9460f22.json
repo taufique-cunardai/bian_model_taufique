@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6566de3b-4e64-ee11-8b40-a402b9460f22",
+  "title": "ElectronicAddressTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ad389b4b-4e64-ee11-8b40-a402b9460f22",
+      "name": "EmailAddress",
+      "description": "Address for electronic mail (e-mail).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af389b4b-4e64-ee11-8b40-a402b9460f22",
+      "name": "URLAddress",
+      "description": "Address for the Universal Resource Locator (URL), eg, used over the www (HTTP) service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0389b4b-4e64-ee11-8b40-a402b9460f22",
+      "name": "TelexAddress",
+      "description": "Address for a telex machine.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1389b4b-4e64-ee11-8b40-a402b9460f22",
+      "name": "TeletextAddress",
+      "description": "Address for a teletext.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2389b4b-4e64-ee11-8b40-a402b9460f22",
+      "name": "ISDNAddress",
+      "description": "Address for an Integrated Services Digital Network.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

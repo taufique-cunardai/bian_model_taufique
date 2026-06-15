@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c01115b7-a918-f111-8608-06f87af9db33",
+  "title": "RolloverTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "03670227-aa18-f111-8608-06f87af9db33",
+      "name": "Principal-Only Rollover",
+      "description": "Only the original principal is rolled over; accrued interest is paid out separately.\r\n\r\nComment:\r\nExample:\r\n\r\nTerm Deposit: €10,000 principal + €500 interest matures.\r\n\r\nRollover: €10,000 principal rolled into a new 12-month term; €500 interest paid to the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81becb59-9c1b-f111-8608-0a4a17d5d551",
+      "name": "Compound Rollover",
+      "description": "Compound Rollover (Principal plus Interest Rollover) Both principal and accrued interest are rolled over together, creating a compounded amount.\r\n\r\nComment:\r\nExample:\r\n\r\nTerm Deposit: €10,000 principal + €500 interest matures.\r\n\r\nRollover: €10,500 (principal + interest) becomes the new deposit, earning interest in the new term.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a069b7a-9c1b-f111-8608-0a4a17d5d551",
+      "name": "Partial Rollover",
+      "description": "Only a portion of the matured amount is rolled over; the rest is withdrawn or used differently.\r\n\r\nComment:\r\nExample:\r\n\r\nTerm Deposit: €10,000 principal + €500 interest matures.\r\n\r\nRollover: €5,000 rolled over; €5,500 paid out to the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de5b198a-9c1b-f111-8608-0a4a17d5d551",
+      "name": "Adjusted Balance Rollover",
+      "description": "The rollover amount is adjusted for fees, taxes, or charges before being renewed.\r\n\r\nComment:\r\nExample:\r\n\r\nTerm Deposit: €10,000 principal + €500 interest matures.\r\n\r\nBank deducts €50 tax or fees → €10,450 is rolled over for the next term.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc6e2197-9c1b-f111-8608-0a4a17d5d551",
+      "name": "Repriced Rollover",
+      "description": "The rollover occurs at a revised interest rate, which may differ from the original.\r\n\r\nComment:\r\nExample:\r\n\r\nTerm Deposit: €10,000 principal at 3% interest matures.\r\n\r\nRollover: Principal €10,000 renewed for 12 months at a new rate of 3.25%.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b7b4fa6-9c1b-f111-8608-0a4a17d5d551",
+      "name": "Conditional Rollover",
+      "description": "The rollover occurs only if certain conditions are met, such as minimum balance, customer consent, or regulatory requirements.\r\n\r\nComment:\r\nExample:\r\n\r\nBusiness Loan: €50,000 matures.\r\n\r\nRollover occurs only if the borrower has maintained a minimum account balance of €10,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

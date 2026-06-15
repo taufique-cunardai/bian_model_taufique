@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fea61a35-7d40-f011-8baf-a402b9460f22",
+  "title": "PaymentIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ac6e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "ExecutionIdentification",
+      "description": "Unique and unambiguous identifier for a payment execution, as assigned by the clearing agent or the initiating party. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad6e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "EndToEndIdentification",
+      "description": "Unique and unambiguous identifier for a payment as assigned by the originator. The payment transaction reference is used for reconciliation or to link tasks relating to the payment. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ae6e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "InstructionIdentification",
+      "description": "Unique identification assigned by an instructing party for an instructed party to unambiguously identify the instruction. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af6e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "TransactionIdentification",
+      "description": "Unique identification assigned by the first instructing agent to unambiguously identify the transaction and passed on, unchanged, throughout the entire interbank chain. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b06e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "ClearingSystemReference",
+      "description": "Unique and unambiguous identifier for a payment instruction, as assigned by the clearing system.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b16e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "CreditorReference",
+      "description": "Unique and unambiguous reference assigned by the creditor to refer to the payment obligation. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b26e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "UETR",
+      "description": "Universally unique identifier to provide an end-to-end reference of a payment transaction. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b36e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "CounterpartyReference",
+      "description": "Unambiguous identification of the trade allocated by the counterparty.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b46e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "Identification",
+      "description": "Reference assigned to the trade by the investor or the trading party. This reference will be used throughout the trade life cycle to access/update the trade details. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b56e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "CommonIdentification",
+      "description": "Unique reference agreed upon by the two trade counterparties to identify the trade. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b66e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "MatchingReference",
+      "description": "Reference assigned by a matching system when the trade is matched.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b76e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "UniqueTradeIdentifier",
+      "description": "This field specifies the unique transaction identifier (UTI) to be created at the time a transaction is first executed, shared with all registered entities and counterparties involved in the transaction, and used to track that particular transaction over its life. This identifier can also be known as the Unique Swap Identifier (USI). (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b86e4cd9-7d40-f011-8baf-a402b9460f22",
+      "name": "ClearingBrokerIdentification",
+      "description": "Reference number assigned by the clearing broker. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad83a961-a581-f011-8bb9-a402b9460f22",
+      "name": "Payment Order ID",
+      "description": "Internal unique identifier for the payment instruction, used within the bank’s systems to track the order from initiation through to execution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d183a961-a581-f011-8bb9-a402b9460f22",
+      "name": "Client Reference",
+      "description": "A reference provided by the customer (payer) to identify the payment (e.g., invoice number, transaction reference). Useful for reconciliation by the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "da83a961-a581-f011-8bb9-a402b9460f22",
+      "name": "End-to-End ID",
+      "description": "Identifier that stays the same across the entire payment chain (from ordering customer to beneficiary) to allow straight-through reconciliation. Common in ISO 20022 standards.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e383a961-a581-f011-8bb9-a402b9460f22",
+      "name": "External Reference",
+      "description": "Transaction identifier assigned by external schemes/networks (e.g., SWIFT MT/MX reference, SEPA End-to-End ID, clearing house reference).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec83a961-a581-f011-8bb9-a402b9460f22",
+      "name": "Instruction ID",
+      "description": "Unique identifier for a specific instruction within a batch of payment orders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f583a961-a581-f011-8bb9-a402b9460f22",
+      "name": "Transaction ID (Execution ID)",
+      "description": "Identifier created by the Payment Execution domain once the actual funds movement is initiated. Links execution to the originating order.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
