@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fd2242d5-1b34-ed11-83cc-0663e70158a3",
+  "title": "eTrading Workbench",
+  "description": "Asystem enables a customer to trade securities on their own account through the bank, to buy and sell securities independently, anytime and anywhere.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "3458f91e-1f34-ed11-83cc-0663e70158a3",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

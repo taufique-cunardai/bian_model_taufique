@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "efd77eeb-4a0b-f111-8602-0ad4a82ce56b",
+  "title": "Earn Instruction",
+  "description": "Is a Request to perform an action that results in the accrual, generation, or attribution of value (e.g., interest, rewards, points, fees, or income) to an account or beneficiary, based on the terms and arrangements defined in an agreement or program.\r\n\r\nAn instruction to fulfill a Earn Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "95cb3402-4b0b-f111-8602-0ad4a82ce56b",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2273ed2a-4b0b-f111-8602-0ad4a82ce56b",
+      "target": "00d816fc-4a0b-f111-8602-0ad4a82ce56b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

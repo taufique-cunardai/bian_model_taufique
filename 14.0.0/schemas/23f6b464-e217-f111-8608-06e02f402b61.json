@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "23f6b464-e217-f111-8608-06e02f402b61",
+  "title": "Rollover Service",
+  "description": "Is A Banking Product that enables the extension or renewal of a financial obligation or investment beyond its original maturity.\r\n\r\nA type of financial arrangement that allows the outstanding amount (such as a loan, deposit, or investment) to be carried forward into a new term under predefined conditions, including updated interest rates, duration, and repayment or settlement terms.\r\n\r\nComment:\r\nRollover Service contains the operational capabilities that allow a financial product (loan, term deposit, credit facility, etc.) to be renewed or extended at maturity.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "27c8685d-e217-f111-8608-06e02f402b61",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RolloverServiceType",
+    "RolloverOperationalRecording"
+  ],
+  "properties": {
+    "RolloverServiceType": {
+      "type": "string",
+      "description": "Whether the rollover happens automatically or based on certain triggers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RolloverServiceTypeValues",
+      "x-related-bo-id": "fca76cd0-7718-f111-8608-06f87af9db33",
+      "x-related-bo-name": "RolloverServiceTypeValues"
+    },
+    "RolloverOperationalRecording": {
+      "type": "string",
+      "description": "Accounting and system updates for the rollover transaction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4a7d35b4-a823-f111-860d-0a072f7aa82f",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76b6dda4-e217-f111-8608-06e02f402b61",
+      "target": "27c8685d-e217-f111-8608-06e02f402b61",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Rollover Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "870a113d-5570-eb11-82fd-061e1f234dd5",
+  "title": "Fiduciary Account",
+  "description": "Fiduciary accounts are deposit accounts established by a person or entity for the benefit of one or more other parties, also known as principals. The deposit account can be established for the benefit of a single owner or a commingled account may be established for the benefit of multiple owners. The individual or entity opening the account does not\r\nhave an ownership interest in the deposit. \r\nhttps://www.fdic.gov/regulations/laws/rules/2000-5400.html#fdic2000part330.5",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "2f80cc45-5570-eb11-82fd-061e1f234dd5",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

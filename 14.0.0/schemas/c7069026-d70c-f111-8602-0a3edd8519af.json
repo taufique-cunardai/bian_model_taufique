@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c7069026-d70c-f111-8602-0a3edd8519af",
+  "title": "Incentive Program Term and Condition",
+  "description": "An Incentive Program Term and Condition is a specific rule, policy, or guideline that governs the operation, participation, or management of an incentive program. It defines the rights, responsibilities, limitations, and requirements for participants and the organization offering the incentive.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncentiveProgramTermandConditionType"
+  ],
+  "properties": {
+    "IncentiveProgramTermandConditionType": {
+      "type": "string",
+      "description": "Incentive Program Terms and Conditions Types are the categorized governing rules, limitations, usage restrictions, legal provisions, and lifecycle controls that apply after a participant joins or qualifies for the program.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveProgramTermandConditionTypeValues",
+      "x-related-bo-id": "ec117ad7-db0c-f111-8602-0a3edd8519af",
+      "x-related-bo-name": "IncentiveProgramTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

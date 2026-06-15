@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "38035f03-673b-ed11-83cc-06c98b407011",
+  "title": "Trade Matching Operating Session",
+  "description": "The operation of a Trade Matching system",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "TradeMatchingOperatingSessionFunction",
+    "TradeMatchingOperatingSessionFunctionType"
+  ],
+  "properties": {
+    "TradeMatchingOperatingSessionFunction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Function",
+      "x-related-bo-id": "6b0bd834-f290-e911-823e-06f3e7d1f9c0",
+      "x-related-bo-name": "Function"
+    },
+    "TradeMatchingOperatingSessionFunctionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TradeMatchingOperatingSessionFunctionType",
+      "x-related-bo-id": "baaa6c2f-693b-ed11-83cc-06c98b407011",
+      "x-related-bo-name": "TradeMatchingOperatingSessionFunctionType"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "800002ff-673b-ed11-83cc-06c98b407011",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0aa03da3-683b-ed11-83cc-06c98b407011",
+      "target": "7b27eac8-64b1-ea11-829f-06cfa6a4383a",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

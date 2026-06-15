@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dad5499c-a622-f111-860d-022452cdfcff",
+  "title": "Credit Payment Modality",
+  "description": "Credit Payment / Disbursement Modality: Defines how credit funds are provided or paid out.\r\n\r\nComment:\r\nExample: Lump-sum disbursement, installment release, or revolving limit access.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1f8c54fa-a522-f111-860d-022452cdfcff",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditPaymentModalityType"
+  ],
+  "properties": {
+    "CreditPaymentModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CreditPaymentModalityTypeValues",
+      "x-related-bo-id": "85b286d5-a622-f111-860d-022452cdfcff",
+      "x-related-bo-name": "CreditPaymentModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2d3983b4-a622-f111-860d-022452cdfcff",
+      "target": "1f8c54fa-a522-f111-860d-022452cdfcff",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Credit Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

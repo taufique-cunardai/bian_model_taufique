@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9c5fc72c-d835-ed11-83cc-0657d4bfb985",
+  "title": "Notional Pooling Arrangement",
+  "description": "An arrangement which is committed to perform the Notional Pooling.\r\n\r\n\r\nIn Notional Pooling, the term arrangements refers to the specific terms and agreements set up between a company and its bank(s) for managing the cash balances of multiple accounts under a consolidated structure. These arrangements are designed to enable efficient liquidity management, often across different entities, accounts, or even currencies, without the actual transfer of funds. The arrangements typically define the way in which balances are aggregated and interest is calculated, and may include additional considerations like account setup, legal compliance, and operational processes.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "NotionalPoolingArrangementType"
+  ],
+  "properties": {
+    "NotionalPoolingArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "NotionalPoolingArrangementTypeValues",
+      "x-related-bo-id": "5dda7eda-da35-ed11-83cc-0657d4bfb985",
+      "x-related-bo-name": "NotionalPoolingArrangementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "f6a73ef3-d835-ed11-83cc-0657d4bfb985",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e54e9e91-d835-ed11-83cc-0657d4bfb985",
+      "target": "c89cc783-d835-ed11-83cc-0657d4bfb985",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "12703064-db35-ed11-83cc-0657d4bfb985",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "Arrangement\r\nAccount",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

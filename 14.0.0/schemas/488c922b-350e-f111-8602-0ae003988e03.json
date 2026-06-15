@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "488c922b-350e-f111-8602-0ae003988e03",
+  "title": "Issued Certificate Term and Condition",
+  "description": "Issued Certificate Term and Condition refers to the governing rules, usage limitations, validity controls, redemption procedures, and lifecycle constraints applied after a Rewards Certificate has been issued and recorded in the Issued Certificate Directory.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IssuedCertificateTermandConditionType"
+  ],
+  "properties": {
+    "IssuedCertificateTermandConditionType": {
+      "type": "string",
+      "description": "An Issued Certificate Term and Condition Type is a classification of the legal, operational, or usage rules that govern an issued certificate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IssuedCertificateTermandConditionTypeValues",
+      "x-related-bo-id": "bceacd2f-380e-f111-8602-0ae003988e03",
+      "x-related-bo-name": "IssuedCertificateTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

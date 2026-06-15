@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "db88a944-d9eb-f011-8bd9-a402b9460f22",
+  "title": "General Journal",
+  "description": "The general journal is a book of original entries, in which accountants and bookkeepers record raw business transactions, in the date order according to which events occur. A general journal is the first place where data is recorded, and every page in the item features dividing columns for dates and serial numbers, as well as debit or credit records. (Investopedia)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ffd04078-1fd6-e911-8296-06e1705194c6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ff69014b-d9eb-f011-8bd9-a402b9460f22",
+      "target": "ffd04078-1fd6-e911-8296-06e1705194c6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Journal",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

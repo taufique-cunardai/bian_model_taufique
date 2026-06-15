@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bf93aab4-c201-ed11-83b2-06c985aa5d3b",
+  "title": "Bank Plan",
+  "description": "A group of services and features packaged together for one fixed monthly fee.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "08a774bb-c201-ed11-83b2-06c985aa5d3b",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc693ec7-c301-ed11-83b2-06c985aa5d3b",
+      "target": "2b2f1dba-c301-ed11-83b2-06c985aa5d3b",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf7db7c8-c201-ed11-83b2-06c985aa5d3b",
+      "target": "10213275-c201-ed11-83b2-06c985aa5d3b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

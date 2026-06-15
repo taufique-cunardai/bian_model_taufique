@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b541c565-462a-f111-860d-021cfff80c05",
+  "title": "Cash Concentration Service Involvement",
+  "description": "Cash Concentration Service Involvement defines stakeholder roles in a cash concentration agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CashConcentrationServiceInvolvementTypeValues"
+  ],
+  "properties": {
+    "CashConcentrationServiceInvolvementTypeValues": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CashConcentrationServiceInvolvementTypeValues",
+      "x-related-bo-id": "321d8a9d-612a-f111-860d-0246b3679269",
+      "x-related-bo-name": "CashConcentrationServiceInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "008da24f-7b2a-f111-860d-023445d05c85",
+      "target": "ad78af8b-7c95-ec11-8378-0622eb50e93f",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "419e293d-7b2a-f111-860d-023445d05c85",
+      "target": "5d77995a-482a-f111-860d-021cfff80c05",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

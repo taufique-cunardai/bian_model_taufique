@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8deb5efe-61cc-f011-8bd5-a402b9460f22",
+  "title": "Subledger",
+  "description": "A \"book\" containing Subledger Accounts.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "03812fdf-3fc9-f011-8bd3-a402b9460f22",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SubledgerType"
+  ],
+  "properties": {
+    "SubledgerType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SubledgerTypeValues",
+      "x-related-bo-id": "c3dc8ddc-91ec-f011-8bd9-a402b9460f22",
+      "x-related-bo-name": "SubledgerTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c1325839-62cc-f011-8bd5-a402b9460f22",
+      "target": "03812fdf-3fc9-f011-8bd3-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Ledger",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0c413ab-bbce-f011-8bd6-a402b9460f22",
+      "target": "87863a8f-5dcc-f011-8bd5-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

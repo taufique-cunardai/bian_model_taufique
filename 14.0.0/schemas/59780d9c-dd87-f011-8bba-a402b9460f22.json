@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "59780d9c-dd87-f011-8bba-a402b9460f22",
+  "title": "Customer Contact Session Workstep",
+  "description": "Actions during a Customer Contact Session which are concrete business activities executed in response to customer needs, ranging from service fulfillment to data updates, communications delivery, and sales/relationship development.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f701c099-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerContactSessionWorkstepType"
+  ],
+  "properties": {
+    "CustomerContactSessionWorkstepType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerContactSessionWorkstepTypeValues",
+      "x-related-bo-id": "b0cdef9e-e187-f011-8bba-a402b9460f22",
+      "x-related-bo-name": "CustomerContactSessionWorkstepTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "95229cea-dd87-f011-8bba-a402b9460f22",
+      "target": "f701c099-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Workstep",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

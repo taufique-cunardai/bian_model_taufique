@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "79db0ca8-a622-f111-860d-022452cdfcff",
+  "title": "Credit Application Modality",
+  "description": "Credit Repayment / Application Modality: Specifies how repayments are applied to principal, interest, and fees.\r\n\r\nComment:\r\nExample: Payment applied first to interest, then principal, then fees.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1f8c54fa-a522-f111-860d-022452cdfcff",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditApplicationModalityType"
+  ],
+  "properties": {
+    "CreditApplicationModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CreditApplicationModalityTypeValues",
+      "x-related-bo-id": "ce783ded-a622-f111-860d-022452cdfcff",
+      "x-related-bo-name": "CreditApplicationModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "92817fbc-a622-f111-860d-022452cdfcff",
+      "target": "1f8c54fa-a522-f111-860d-022452cdfcff",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Credit Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

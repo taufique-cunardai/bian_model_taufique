@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "92e954b2-bf6a-eb11-82f6-06166de9742f",
+  "title": "Specific Pricing Term And Condition Directory",
+  "description": "A registry to record specific pricing conditions\r\n\r\nA directory to maintain a pricing list or conditions (with ranges and optional terms) categorized by various dimensions to impose exceptional product pricing conditions that override standard pricing terms (for special events/situations)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f09a608f-d877-e911-823e-067f69a9229a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "f4735fba-bf6a-eb11-82f6-06166de9742f",
+      "target": "f09a608f-d877-e911-823e-067f69a9229a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Directory",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65b536ca-bf6a-eb11-82f6-06166de9742f",
+      "target": "18be0e29-bf6a-eb11-82f6-06166de9742f",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

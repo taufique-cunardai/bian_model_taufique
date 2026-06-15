@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "041a54bc-b45c-eb11-82e9-065ba105bad3",
+  "title": "Withdrawal Service Modality",
+  "description": "The way in which a withdrawal service can happen.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "WithdrawalServiceModalityType"
+  ],
+  "properties": {
+    "WithdrawalServiceModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ModalityTypeValues",
+      "x-related-bo-id": "d22cd3dd-2ee6-eb11-8336-064164081b47",
+      "x-related-bo-name": "ModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4cef5dc3-b45c-eb11-82e9-065ba105bad3",
+      "target": "a61bbf01-e597-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2458bcd5-b45c-eb11-82e9-065ba105bad3",
+      "target": "8ce000ad-b35c-eb11-82e9-065ba105bad3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "06cc6a86-0a7d-f011-8bb9-a402b9460f22",
+  "title": "Product Pricing Term And Condition",
+  "description": "The complete framework that explains how a banking product is priced (rates, fees, charges) and under what contractual terms it is provided to the customer.\r\n\r\nThis covers the monetary aspects of the banking product, such as:\r\n\r\nInterest rate / profit rate (fixed, floating, or tiered).\r\nFees and charges (processing fee, annual fee, penalty charges, prepayment charges, etc.).\r\nExchange rates (for forex-related products).\r\nDiscounts, rebates, or incentives (if applicable).\r\nRepayment schedule and installment amounts (for loans).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ff366834-b97b-e911-823e-061c465efe24",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProductPricingTermAndConditionType"
+  ],
+  "properties": {
+    "ProductPricingTermAndConditionType": {
+      "type": "string",
+      "description": "In banking, Product Pricing Terms and Conditions (T&Cs) can be classified into several types, depending on the product and how pricing is structured.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProductPricingTermAndConditionTypeValues",
+      "x-related-bo-id": "36786503-0d7d-f011-8bb9-a402b9460f22",
+      "x-related-bo-name": "ProductPricingTermAndConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "924ae09b-0a7d-f011-8bb9-a402b9460f22",
+      "target": "ff366834-b97b-e911-823e-061c465efe24",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Term And Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

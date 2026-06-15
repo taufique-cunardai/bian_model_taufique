@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6f190dce-9ec1-ed11-83fd-06e351de867d",
+  "title": "Consent Arrangement",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "29331c34-9fc1-ed11-83fd-06e351de867d",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "733f6dad-9fc1-ed11-83fd-06e351de867d",
+      "target": "29331c34-9fc1-ed11-83fd-06e351de867d",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Servicing Mandate Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

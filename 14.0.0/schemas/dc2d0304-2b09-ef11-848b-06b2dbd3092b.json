@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dc2d0304-2b09-ef11-848b-06b2dbd3092b",
+  "title": "Portfolio Valuation",
+  "description": "Valuation information of the portfolio.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ValuationPeriod"
+  ],
+  "properties": {
+    "ValuationPeriod": {
+      "type": "string",
+      "description": "Period for which the valuation is calculated.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTimePeriod",
+      "x-related-bo-id": "0379c313-fb48-ea11-8289-064c9ffef37a",
+      "x-related-bo-name": "DateTimePeriod"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

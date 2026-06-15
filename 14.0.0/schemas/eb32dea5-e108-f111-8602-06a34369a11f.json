@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eb32dea5-e108-f111-8602-06a34369a11f",
+  "title": "Credit Term and Condition",
+  "description": "Credit terms and condition types refer to the different categories of rules that control how credit (money, interest, cashback, loan amount, or rewards) is granted and managed.\r\n\r\nComment:\r\nCredit terms and condition types are the categories of rules that control who can receive credit, how much they receive, when it is credited, and under what conditions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditTermandConditionType"
+  ],
+  "properties": {
+    "CreditTermandConditionType": {
+      "type": "string",
+      "description": "A Credit Terms and Condition Type is the classification of rules that govern how, when, and under what conditions a credit can be earned, applied, adjusted, or reversed.\r\n\r\nComment:\r\nIt defines the category of policy rules attached to a credit arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CreditTermandConditionTypeValues",
+      "x-related-bo-id": "a52ab621-e608-f111-8602-06a34369a11f",
+      "x-related-bo-name": "CreditTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e9e173bb-d71e-f111-8608-0247e3f120c3",
+      "target": "ea5f30a1-d71e-f111-8608-0247e3f120c3",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Credit Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d2802b5-e108-f111-8602-06a34369a11f",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

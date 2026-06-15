@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5f40a6de-7a19-f111-8608-060ba89e9853",
+  "title": "Posting Service",
+  "description": "A Posting Service is a banking service that executes the actual ledger-level recording of a transaction, updating account balances according to the rules of the bank and the product.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b39870d6-7a19-f111-8608-060ba89e9853",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PostingServiceType"
+  ],
+  "properties": {
+    "PostingServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PostingServiceTypeValues",
+      "x-related-bo-id": "e2965332-d41b-f111-8608-0a4a17d5d551",
+      "x-related-bo-name": "PostingServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2f55cae7-7a19-f111-8608-060ba89e9853",
+      "target": "b39870d6-7a19-f111-8608-060ba89e9853",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Posting Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
