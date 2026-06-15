@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5a906b46-8280-e911-823e-061de61e9206",
+  "title": "Maintenance Schedule Arrangement",
+  "description": "A schedule arranged in the collateral agreement to ensure maintenance the collateral item so that the value of the collateral item is maintained.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MaintenanceSchedule"
+  ],
+  "properties": {
+    "MaintenanceSchedule": {
+      "type": "string",
+      "description": "A schedule arranged in the collateral agreement to ensure maintenance the collateral item so that the value of the collateral item is maintained.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d3f524f9-7e80-e911-823e-061de61e9206",
+      "target": "d574ff8d-7e80-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

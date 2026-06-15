@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1be88c1d-e77a-e911-823e-06a71c6fe4c8",
+  "title": "Internal Credit Analysis",
+  "description": "An internal analysis for credit rating focusing on the internal product/service activities of customer.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "649550d7-177e-e911-823e-0621e465bcf2",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fed652db-ed7a-e911-823e-06a71c6fe4c8",
+      "target": "b3de196f-e47a-e911-823e-06a71c6fe4c8",
+      "modality": "1:1",
+      "required": false,
+      "description": "ResultOfInternalAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a7e4fab4-30d5-ed11-8405-0699a0ba7003",
+  "title": "Customer Position State Indicator",
+  "description": "An indicator used to measure current condition of customer position",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "df9aee43-30d5-ed11-8405-0699a0ba7003",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IndicatorType",
+    "ReportReference",
+    "AnalysisReference"
+  ],
+  "properties": {
+    "IndicatorType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerPositionStateIndicatorTypeValues",
+      "x-related-bo-id": "a8a15730-31d5-ed11-8405-0699a0ba7003",
+      "x-related-bo-name": "CustomerPositionStateIndicatorTypeValues"
+    },
+    "ReportReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Report",
+      "x-related-bo-id": "5314d145-3876-e911-823e-065f1d1f71b2",
+      "x-related-bo-name": "Report"
+    },
+    "AnalysisReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Analysis",
+      "x-related-bo-id": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "x-related-bo-name": "Analysis"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ba2fddbc-30d5-ed11-8405-0699a0ba7003",
+      "target": "df9aee43-30d5-ed11-8405-0699a0ba7003",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Indicator",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

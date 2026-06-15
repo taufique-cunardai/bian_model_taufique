@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "be9acfc4-7880-e911-823e-066c44d66510",
+  "title": "Case",
+  "description": "A specific occurrence or matter requiring discussion, decision, or investigation, as by officials or law-enforcement authorities.\r\n\r\nIs not synonym of Dispute. Dispute means:\r\n1) A serious argument or disagreement\r\n2) Disagreement followed by opposition against something. (Business Dictionary)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CaseCreationDateTime",
+    "CaseType",
+    "CaseLocation",
+    "CaseStatus",
+    "CaseDocument",
+    "CaseDateTime"
+  ],
+  "properties": {
+    "CaseCreationDateTime": {
+      "type": "string",
+      "description": "Creation date and time of the case. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "CaseType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CaseTypeValues",
+      "x-related-bo-id": "ec0ddc17-76c9-e911-8296-067806600528",
+      "x-related-bo-name": "CaseTypeValues"
+    },
+    "CaseLocation": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Location",
+      "x-related-bo-id": "063a0dcf-0561-e911-8237-068e13695e26",
+      "x-related-bo-name": "Location"
+    },
+    "CaseStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CaseStatusTypeValues",
+      "x-related-bo-id": "a3868999-75c9-e911-8296-067806600528",
+      "x-related-bo-name": "CaseStatusTypeValues"
+    },
+    "CaseDocument": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Document",
+      "x-related-bo-id": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Document"
+    },
+    "CaseDateTime": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1aae2376-8cc9-e911-8296-067806600528",
+      "target": "84506653-83c9-e911-8296-067806600528",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

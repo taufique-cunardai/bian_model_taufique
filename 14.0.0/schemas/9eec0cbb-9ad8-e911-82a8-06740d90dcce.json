@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9eec0cbb-9ad8-e911-82a8-06740d90dcce",
+  "title": "Corporate Treasury Domain",
+  "description": "A responsibility area of corporate treasury management\r\n\r\ne.g. liquidity management, funding, saucerization, setting Bank rates",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "95ab23a3-5dd9-e911-82a8-06d6bd4a6976",
+      "target": "617ffbe8-90d8-e911-82a8-06740d90dcce",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53f30b95-9bd8-e911-82a8-06740d90dcce",
+      "target": "35dc8ecc-91d8-e911-82a8-06740d90dcce",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "25d37948-9bd8-e911-82a8-06740d90dcce",
+      "target": "6897cf30-9bd8-e911-82a8-06740d90dcce",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

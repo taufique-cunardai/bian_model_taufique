@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d40bcd55-05cb-e911-8296-06112f0997f2",
+  "title": "Merchant Agreement",
+  "description": "An agreement between Acquiring Bank and Merchant for handling the Merchant Account and the specific terms and conditions for the merchant. \r\n\r\nA written contract between a merchant and an acquirer to honor or accept credit cards, or to transmit or process for payment credit card payments, for the purchase of goods or services or a charitable contribution. (Law and Legal Definition)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "f991f3e3-0bcb-e911-8296-06112f0997f2",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d27d92c-48ff-eb11-8340-06d34d81a6c3",
+      "target": "fad5cb09-48ff-eb11-8340-06d34d81a6c3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "287d659e-0fcb-e911-8296-06112f0997f2",
+      "target": "b69aa872-0fcb-e911-8296-06112f0997f2",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

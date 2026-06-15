@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c80f2ee6-f097-e911-827a-06d89370a58e",
+  "title": "Service Arrangement",
+  "description": "An arrangement into which is promised to deliver a specific service.\r\n\r\nComment: Most service arrangements are instantiations of Product Services",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "554eb769-b4a9-f011-8bc0-a402b9460f22",
+      "target": "3e041091-aca9-f011-8bc0-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Funeral Policy Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a23470ed-f097-e911-827a-06d89370a58e",
+      "target": "9b6243fa-53b5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84c5019e-d409-ee11-8b2c-a402b9460f22",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ff4946c-461a-ee11-8b2e-a402b9460f22",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "425884af-29cb-ee11-8b47-a402b9460f22",
+      "target": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b86f8b89-f197-e911-827a-06d89370a58e",
+      "target": "b6c65e81-f197-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "17cab616-ecdd-e911-82a8-0625a51efa7e",
+      "target": "5f92d1fa-ebdd-e911-82a8-0625a51efa7e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

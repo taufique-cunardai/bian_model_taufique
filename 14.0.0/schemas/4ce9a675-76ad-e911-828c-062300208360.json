@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4ce9a675-76ad-e911-828c-062300208360",
+  "title": "Open Item Procedure",
+  "description": "A procedure that governs the follow up of open items.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "fe59f1ba-76ad-e911-828c-062300208360",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33965619-d8ad-e911-828c-06d85504dbf0",
+      "target": "29b8ed91-d7ad-e911-828c-06d85504dbf0",
+      "modality": "M:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58c1a201-7bad-e911-828c-062300208360",
+      "target": "96bd6eed-7aad-e911-828c-062300208360",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

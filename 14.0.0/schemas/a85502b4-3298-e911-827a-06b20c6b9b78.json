@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a85502b4-3298-e911-827a-06b20c6b9b78",
+  "title": "Standing Order Service",
+  "description": "Is A Banking Product that allows a customer to instruct their bank to make regular, fixed payments from their account to a specified beneficiary.\r\n\r\nA type of payment arrangement that enables automated, scheduled transfers of a set amount at defined intervals (e.g., weekly, monthly), commonly used for rent, subscriptions, loan repayments, or other recurring obligations.\r\n\r\nComment:\r\nA credit transfer service to make regular transfers on given dates to a named beneﬁciary.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ca197cf7-e497-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "549c0271-a923-f111-860d-0a072f7aa82f",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8995531-e9ef-ed11-8414-0686909ee009",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77cd9f1e-fa48-ea11-8289-064c9ffef37a",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b13004fd-42ca-ed11-8401-0691c36b5c21",
+      "target": "ca197cf7-e497-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e684a337-e9ef-ed11-8414-0686909ee009",
+      "target": "ac535bd6-3298-e911-827a-06b20c6b9b78",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63450629-fa48-ea11-8289-064c9ffef37a",
+      "target": "4ec1a0e7-f948-ea11-8289-064c9ffef37a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

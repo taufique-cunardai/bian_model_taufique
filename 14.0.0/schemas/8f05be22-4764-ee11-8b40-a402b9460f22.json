@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8f05be22-4764-ee11-8b40-a402b9460f22",
+  "title": "Electronic Address",
+  "description": "Address which is accessed by electronic means. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9b5941a1-f2b1-ec11-8382-0675e4f5ee11",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ElectronicAddressType",
+    "ElectronicAdressDescription"
+  ],
+  "properties": {
+    "ElectronicAddressType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ElectronicAddressTypeValues",
+      "x-related-bo-id": "6566de3b-4e64-ee11-8b40-a402b9460f22",
+      "x-related-bo-name": "ElectronicAddressTypeValues"
+    },
+    "ElectronicAdressDescription": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "630c0131-4764-ee11-8b40-a402b9460f22",
+      "target": "9b5941a1-f2b1-ec11-8382-0675e4f5ee11",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Address",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

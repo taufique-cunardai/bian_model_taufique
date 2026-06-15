@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "22595223-6ca9-ea11-829f-06478228ed28",
+  "title": "Investment Account Product",
+  "description": "Is A Banking Product that allows a customer to hold, manage, and grow funds through various investment instruments.\r\n\r\nA type of account that enables the customer to invest in assets such as stocks, bonds, mutual funds, or other securities, track portfolio performance, receive returns, and manage risk according to the accounts terms and the customers investment objectives.\r\n\r\n\r\nA banking product offered to investors to manage an underlying investment portfolio\r\n-Services linked to an account which are available to the account owner or to the holder of a mandate. The exercise of these services may be submitted to a limit.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncomePreference",
+    "TaxWithholdingMethod",
+    "BeneficiaryCertificationCompletion"
+  ],
+  "properties": {
+    "IncomePreference": {
+      "type": "string",
+      "description": "Dividend option chosen by the account owner based on the options offered in the prospectus.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncomePreferenceTypeValues",
+      "x-related-bo-id": "87fead47-748c-ef11-84d7-0678aac16e6b",
+      "x-related-bo-name": "IncomePreferenceTypeValues"
+    },
+    "TaxWithholdingMethod": {
+      "type": "string",
+      "description": "Services linked to an account which are available to the account owner or to the holder of a mandate. The exercise of these services may be submitted to a limit.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TaxWithholdingMethodTypeValues",
+      "x-related-bo-id": "f3f690bf-748c-ef11-84d7-0678aac16e6b",
+      "x-related-bo-name": "TaxWithholdingMethodTypeValues"
+    },
+    "BeneficiaryCertificationCompletion": {
+      "type": "string",
+      "description": "Beneficial owner or its designated agent certifies that it complies with any holding or investment restrictions or requirements of the fund.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BeneficiaryCertificationCompletionTypeValues",
+      "x-related-bo-id": "c6b6f2ca-758c-ef11-84d7-0678aac16e6b",
+      "x-related-bo-name": "BeneficiaryCertificationCompletionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "976238e1-6da9-ea11-829f-06478228ed28",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02278379-6ca9-ea11-829f-06478228ed28",
+      "target": "edcae772-6ca9-ea11-829f-06478228ed28",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

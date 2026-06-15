@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7c7f00b7-f8aa-ea11-829f-0691f30ba14c",
+  "title": "Financial Advisory Service",
+  "description": "An advisory service that supports \r\n1) consumer customers by providing financial advice and recommendations for product selection, investments, tax optimization etc.\r\n2) institutional and corporate customers by providing a broad range of fee or commission based specialized financing advisory services (both tactical and strategic in nature).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialAdvisoryServiceType"
+  ],
+  "properties": {
+    "FinancialAdvisoryServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialAdvisoryServiceTypeValues",
+      "x-related-bo-id": "45c6c4ac-572f-ed11-83c8-0685bf75e215",
+      "x-related-bo-name": "FinancialAdvisoryServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d315a0e5-fdaa-ea11-829f-0691f30ba14c",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32b762c0-f8aa-ea11-829f-0691f30ba14c",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f255382-03ab-ea11-829f-0691f30ba14c",
+      "target": "37798c34-03ab-ea11-829f-0691f30ba14c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee991be6-04ab-ea11-829f-0691f30ba14c",
+      "target": "6a9a554a-04ab-ea11-829f-0691f30ba14c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "850c232b-0dab-ea11-829f-0691f30ba14c",
+      "target": "6e23c00f-efce-e911-8296-06bf764cb4bc",
+      "modality": "M:N",
+      "required": false,
+      "description": "Used\r\nAnalyticalMeasure",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b053cc39-feaa-ea11-829f-0691f30ba14c",
+      "target": "f95fcc09-feaa-ea11-829f-0691f30ba14c",
+      "modality": "1:N",
+      "required": false,
+      "description": "OperatingSession",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75790804-05ab-ea11-829f-0691f30ba14c",
+      "target": "6fd7e5af-04ab-ea11-829f-0691f30ba14c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e32f904a-05ab-ea11-829f-0691f30ba14c",
+      "target": "3ffd5d93-e297-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

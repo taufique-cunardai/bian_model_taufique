@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "92d3d130-d37e-e911-823e-0680d160e494",
+  "title": "Notification",
+  "description": "A communication notifying or reporting a change in position or circumstance of mutual interest\r\n\r\nExamples:\r\nnotification of an overdue payment\r\nnotification of a coming due date\r\nnotification of a change in lifecycle status of a product agreement.\r\nnotification of acceptance or rejection of a product offer.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "NotificationReference",
+    "NotificationType",
+    "NotificationContent"
+  ],
+  "properties": {
+    "NotificationReference": {
+      "type": "string",
+      "description": "An identifier that allows to uniquely refer to an instance of a notification.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Object",
+      "x-related-bo-id": "35b0af05-64ee-eb11-8336-06d08e9dabb9",
+      "x-related-bo-name": "Object"
+    },
+    "NotificationType": {
+      "type": "string",
+      "description": "The attribute value of Notification Type, specifies the kind of Notification for this occurrence of Notification.\r\n\r\nThe concept \"Notification Type\" is A Classification Hierarchy that distinguishes between Notification according to distinguishing characteristics. \r\n\r\nCharacteristics can be\r\n·    Medium (letter, SMS, e-mail ...)\r\n·    Content Type (due date notification, overdue notification, price drop notification, ...)\r\n·    Involved Party (bank notification, a customer notification, ...)\r\n·    Urgency (high priority, medium, low)\r\n·    Commercial or legal \r\n·    etc.\r\nasset position",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "NotificationContent": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

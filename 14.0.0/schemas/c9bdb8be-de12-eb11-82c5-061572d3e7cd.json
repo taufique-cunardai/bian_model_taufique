@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c9bdb8be-de12-eb11-82c5-061572d3e7cd",
+  "title": "Collateral Asset Liquidation Procedure Workstep",
+  "description": "A workstep of Collateral Asset Liquidation Procedure Workstep.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f701c099-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CollateralAssetLiquidationProcedureWorkstepType"
+  ],
+  "properties": {
+    "CollateralAssetLiquidationProcedureWorkstepType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "eb5fc36a-c11d-eb11-82d0-06b34584f073",
+      "target": "f701c099-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Workstep",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

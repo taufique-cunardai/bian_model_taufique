@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ccbe8f33-c67e-e911-823e-0680d160e494",
+  "title": "Location Type",
+  "description": "A Classification Hierarchy that distinguishes between locations according to specified viewpoint.\r\nTypical viewpoints are\r\n·    geographical areas\r\n·    political areas - countries, cities, ...\r\n·    economical areas \r\n·    business purposes such as sales areas\r\n·    juridical areas\r\n·    monetary areas\r\n·    ...\r\nOften the location is used as an address to refer to the position of something. In this case Location Type can also be viewed from the perspective of \"address type\" such as Postal Address, or GPS-coordinates, etc.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "70d88184-c87e-e911-823e-0680d160e494",
+      "target": "063a0dcf-0561-e911-8237-068e13695e26",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
