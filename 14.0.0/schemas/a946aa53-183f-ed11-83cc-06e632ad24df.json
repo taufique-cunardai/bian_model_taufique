@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a946aa53-183f-ed11-83cc-06e632ad24df",
+  "title": "Fund",
+  "description": "A fund is a pool of money that is allocated for a specific purpose.\r\nhttps://www.investopedia.com/terms/f/fund.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

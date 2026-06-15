@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "68fd13c7-f928-f111-860d-06b37ecc494f",
+  "title": "PositionTrackingPurposeTypeValues",
+  "description": "Tracking positions to support long-term business or investment decisions.\r\n\r\nComment:\r\nExample:\r\nAnalyzing net asset positions to inform mergers, acquisitions, or capital allocation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "64f2b0e7-f928-f111-860d-06b37ecc494f",
+      "name": "Operational Position Tracking",
+      "description": "Tracking used for daily transaction processing and operations.\r\n\r\nComment:\r\nExample:\r\nChecking available balance before processing a payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8cf98f5-f928-f111-860d-06b37ecc494f",
+      "name": "Risk Position Tracking",
+      "description": "Tracking focused on exposure and risk management.\r\n\r\nComment:\r\nExample:\r\nTracking foreign exchange exposure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a3a98001-fa28-f111-860d-06b37ecc494f",
+      "name": "Compliance Position Tracking",
+      "description": "Tracking used for regulatory and policy adherence.\r\n\r\nComment:\r\nExample:\r\nMonitoring capital adequacy positions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1717710d-fa28-f111-860d-06b37ecc494f",
+      "name": "Performance Position Tracking",
+      "description": "Tracking used to evaluate returns and efficiency.\r\n\r\nComment:\r\nExample:\r\nTracking portfolio returns over time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4355a1c-fa28-f111-860d-06b37ecc494f",
+      "name": "Liquidity Position Tracking",
+      "description": "Tracking ability to meet short-term obligations.\r\n\r\nComment:\r\nExample:\r\nMonitoring cash inflows and outflows.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ec4bf85-fa28-f111-860d-06b37ecc494f",
+      "name": "Forecasting Position Tracking",
+      "description": "Tracking positions to predict future financial states and support planning.\r\n\r\nComment:\r\nExample:\r\nProjecting cash positions for the next quarter to manage funding needs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "766ca197-fa28-f111-860d-06b37ecc494f",
+      "name": "Strategic Decision Support Position Tracking",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f77752b2-fa28-f111-860d-06b37ecc494f",
+      "name": "Audit Position Tracking",
+      "description": "Tracking positions to provide historical records for audit, accountability, and verification.\r\n\r\nComment:\r\nExample:\r\nMaintaining a log of all changes to portfolio holdings for regulatory audits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

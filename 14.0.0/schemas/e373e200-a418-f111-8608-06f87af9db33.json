@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e373e200-a418-f111-8608-06f87af9db33",
+  "title": "ChargebackPaymentModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "32054722-a418-f111-8608-06f87af9db33",
+      "name": "Cash Payment",
+      "description": "The chargeback amount is paid directly to the customer in cash or via bank transfer.\r\n\r\nComment:\r\nExample: €100 refunded to the customers bank account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4dd378a3-e722-f111-860d-0219f28f8465",
+      "name": "Account Credit Payment",
+      "description": "The refunded amount is credited to the customers account for immediate use.\r\n\r\nComment:\r\nExample: Cashback or chargeback credited to a current or card account balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48b5f2e4-e722-f111-860d-0219f28f8465",
+      "name": "Statement Offset Payment",
+      "description": "The chargeback is applied as a credit against an outstanding statement or balance.\r\n\r\nComment:\r\nExample: €50 chargeback applied to reduce a credit card statement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29ad24f7-e722-f111-860d-0219f28f8465",
+      "name": "Voucher Payment",
+      "description": "The refunded value is delivered as a voucher, coupon, or gift card instead of cash.\r\n\r\nComment:\r\nExample: €30 refunded as a store voucher.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eee2e106-e822-f111-860d-0219f28f8465",
+      "name": "Merchant Settlement Payment",
+      "description": "The chargeback is settled via a third party or merchant system rather than directly to the customer.\r\n\r\nComment:\r\nExample: Payment processor reverses the transaction to the merchant, and the merchant refunds the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06a47615-e822-f111-860d-0219f28f8465",
+      "name": "Partial Payment",
+      "description": "Only part of the chargeback amount is delivered via this payment method.\r\n\r\nComment:\r\nExample: €60 refunded now, remaining €40 pending verification.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa005c23-e822-f111-860d-0219f28f8465",
+      "name": "Scheduled Payment",
+      "description": "Chargeback is delivered at a later date or scheduled event.\r\n\r\nComment:\r\nExample: Refund applied at the next billing cycle.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c13f0930-e822-f111-860d-0219f28f8465",
+      "name": "Hybrid Payment",
+      "description": "Combination of multiple delivery methods.\r\n\r\nComment:\r\nExample: Partial cash refund + partial account credit or voucher.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

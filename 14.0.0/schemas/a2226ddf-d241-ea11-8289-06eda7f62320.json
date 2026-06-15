@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a2226ddf-d241-ea11-8289-06eda7f62320",
+  "title": "Fee Arrangement Modality",
+  "description": "- The way a fee arrangement is structured, applied, and calculated.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FeeModalityType"
+  ],
+  "properties": {
+    "FeeModalityType": {
+      "type": "string",
+      "description": "In banking, fee modality types describe how, when, and under what conditions a fee is applied and calculated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FeeModalityTypeValues",
+      "x-related-bo-id": "f4d498b3-ee5b-f011-8bb5-a402b9460f22",
+      "x-related-bo-name": "FeeModalityTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

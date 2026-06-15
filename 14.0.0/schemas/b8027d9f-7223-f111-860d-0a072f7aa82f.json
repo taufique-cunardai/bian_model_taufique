@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b8027d9f-7223-f111-860d-0a072f7aa82f",
+  "title": "EarnCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a73bfc10-7323-f111-860d-0a072f7aa82f",
+      "name": "Fixed Amount Calculation",
+      "description": "Rewards are earned as a predefined fixed value per transaction or activity.\r\n\r\nComment:\r\nExample: Earn 10 points per transaction regardless of amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a960a943-7323-f111-860d-0a072f7aa82f",
+      "name": "Percentage-Based Calculation",
+      "description": "Rewards are a percentage of a base value, like transaction amount.\r\n\r\nComment:\r\nExample: Earn 1% cashback on all purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "19e83c50-7323-f111-860d-0a072f7aa82f",
+      "name": "Tiered Calculation",
+      "description": "Reward rates vary across tiers or ranges of activity or spending.\r\n\r\nComment:\r\nExample: 1% cashback up to $1,000 spend, 2% above $1,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d021ee61-7323-f111-860d-0a072f7aa82f",
+      "name": "Volumne-Based Calculation",
+      "description": "Rewards depend on total accumulated activity over a period, not individual transactions.\r\n\r\nComment:\r\nExample: Earn 500 bonus points after spending $5,000 in a month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ebb9879-7323-f111-860d-0a072f7aa82f",
+      "name": "Frequency-Based Calculation",
+      "description": "Rewards are earned based on number of qualifying transactions.\r\n\r\nComment:\r\nExample: Earn 5 points for every 3 transactions completed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef1d9987-7323-f111-860d-0a072f7aa82f",
+      "name": "Threshold-Based Calculation",
+      "description": "Rewards are given when specific thresholds or milestones are reached.\r\n\r\nComment:\r\nExample: Bonus points after 10 transactions or $1,000 spend.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c825794-7323-f111-860d-0a072f7aa82f",
+      "name": "Bonus Calculation",
+      "description": "Extra rewards are earned using multipliers or bonus rates.\r\n\r\nComment:\r\nExample: Double points on dining transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1723b9a2-7323-f111-860d-0a072f7aa82f",
+      "name": "Periodic Calculation",
+      "description": "Rewards are earned based on time period or holding period.\r\n\r\nComment:\r\nExample: Points earned monthly based on average account balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "968916b3-7323-f111-860d-0a072f7aa82f",
+      "name": "Dynamic Calculation",
+      "description": "Rewards are calculated using a custom formula with multiple variables.\r\n\r\nComment:\r\nExample: Points = (Transaction Amount × Rate) + Bonus − Adjustments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

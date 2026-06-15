@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a80231c9-a622-f111-860d-022452cdfcff",
+  "title": "CreditCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "61c28b3a-a722-f111-860d-022452cdfcff",
+      "name": "Fixed Rate Credit Calculation",
+      "description": "Interest or repayment is calculated on a fixed principal or fixed rate.\r\n\r\nComment:\r\nExample: Loan interest of 5% per year on the original principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5654c154-a722-f111-860d-022452cdfcff",
+      "name": "Reducing Balance Credit Calculation",
+      "description": "Interest is calculated on the outstanding principal, which reduces as repayments are made.\r\n\r\nComment:\r\nExample: Home loan where interest decreases as principal is paid down.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32658f6f-a722-f111-860d-022452cdfcff",
+      "name": "Proportional Credit Calculation",
+      "description": "Charges or repayments calculated as a percentage of a reference value.\r\n\r\nComment:\r\nExample: 3% of outstanding credit limit charged monthly as service fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8666e82-a722-f111-860d-022452cdfcff",
+      "name": "Tiered Credit Calculation",
+      "description": "Different rates or amounts applied depending on thresholds or ranges.\r\n\r\nComment:\r\nExample: Credit card interest: 1% on first €1,000, 2% on the next €2,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b05f19d-a722-f111-860d-022452cdfcff",
+      "name": "Time-Based Credit Calculation",
+      "description": "Amounts accrue over time based on duration.\r\n\r\nComment:\r\nExample: Interest accrues daily and is posted monthly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "475abbb7-a722-f111-860d-022452cdfcff",
+      "name": "Conditional Credit Calculation",
+      "description": "Calculations triggered only under specific conditions or events.\r\n\r\nComment:\r\nExample: Penalty interest applied if repayment is late.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d727aec5-a722-f111-860d-022452cdfcff",
+      "name": "Cap Credit Calculation",
+      "description": "Calculated amount is limited to a maximum value.\r\n\r\nComment:\r\nExample: Monthly interest capped at €100 regardless of outstanding balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

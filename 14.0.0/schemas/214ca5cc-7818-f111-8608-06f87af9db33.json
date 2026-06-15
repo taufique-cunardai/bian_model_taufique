@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "214ca5cc-7818-f111-8608-06f87af9db33",
+  "title": "RolloverTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6b2ab84a-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Eligibility Criteria Condition",
+      "description": "The conditions that must be satisfied before a financial product is allowed to be rolled over.\r\n\r\nComment:\r\nExamples\r\nLoan payments must be up to date\r\n\r\nDeposit must reach maturity\r\n\r\nCustomer account must remain active\r\n\r\nNo regulatory restrictions on renewal",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "722ab84a-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Type Condition",
+      "description": "Specifies the form of rollover allowed for the product.\r\n\r\nComment:\r\nExample: A €10,000 deposit where €7,000 is rolled over and €3,000 withdrawn.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "834bba55-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Duration Condition",
+      "description": "Defines the length of the new period for which the product will continue after rollover.\r\n\r\nComment:\r\nExample: A 12-month term deposit automatically renewed for another 12 months.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2c25a5e-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Interest Rate Condition",
+      "description": "Defines how the interest rate is determined for the new rollover period.\r\n\r\nCommon rules include:\r\nOriginal interest rate maintained\r\nCurrent market rate applied\r\nNew negotiated rate\r\nTiered rate depending on amount",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86ac566d-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Calculation Method Condition",
+      "description": "The rule that determines how interest or financial amounts are calculated during the rollover period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4ad3476-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Fee and Charge Condition",
+      "description": "Defines any fees, penalties, or service charges associated with performing a rollover.\r\n\r\nComment:\r\nExamples:\r\nFixed rollover processing fee (€25)\r\n\r\nPercentage fee (0.5% of principal)\r\n\r\nNo-fee rollover for premium customers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77673186-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Customer Consent Condition",
+      "description": "Specifies whether the customer must approve or confirm the rollover before it is executed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8c1f990-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Limit Condition",
+      "description": "Defines the limit on how many times a product can be rolled over.\r\n\r\nComment:\r\nExample:\r\nLoan restructuring allowed only twice\r\n\r\nDeposit can be renewed indefinitely",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed1db49d-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Regulatory Restriction Condition",
+      "description": "Defines compliance or regulatory limitations that affect rollover eligibility.\r\n\r\nComment:\r\nExamples:\r\nCentral bank restrictions on loan restructuring\r\nAnti-money-laundering checks before deposit renewal",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43238fbc-7918-f111-8608-06f87af9db33",
+      "name": "Rollover Notification Condition",
+      "description": "Defines the obligation of the bank to notify the customer before rollover occurs.\r\n\r\nComment:\r\nExamples:\r\nNotification sent 7 days before maturity\r\n\r\nReminder through SMS or email",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

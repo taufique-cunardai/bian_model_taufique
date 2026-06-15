@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "79b89886-e929-f111-860d-02c79c2b30bd",
+  "title": "DividendTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a0e0da44-ea29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Declaration Transaction",
+      "description": "An action that records the announcement of a dividend, including amount, type, and key dates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a112d5cb-ed29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Entitlement Transaction",
+      "description": "An action that determines and records eligible shareholders and their dividend rights.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85bc65d4-ed29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Accrual Transaction",
+      "description": "An action that calculates and records the dividend amount payable to each entitled party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04f269e9-ed29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Reinvestment Transaction",
+      "description": "An action where dividends are reinvested into additional shares or units instead of being paid out.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77324cfa-ed29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Payment Transaction",
+      "description": "An action that distributes dividend amounts to shareholders in cash or other forms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e6e4d09-ee29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Adjustment Transaction",
+      "description": "An action that modifies dividend amounts or allocations due to corrections or changes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "018d7412-ee29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Reversal Transaction",
+      "description": "An action that reverses a previously recorded dividend transaction, restoring balances or correcting errors.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

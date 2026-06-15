@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b03d8c4d-782e-f111-860d-0a3b3de36819",
+  "title": "ClearingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2c59066b-782e-f111-860d-0a3b3de36819",
+      "name": "Account Payment Clearing",
+      "description": "Clearing of transactions initiated directly from bank accounts.\r\n\r\nComment:\r\nExamples\r\nSEPA Credit Transfer, Direct Debit, Standing Orders",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ab69283-782e-f111-860d-0a3b3de36819",
+      "name": "Card Payment Clearing",
+      "description": "Clearing of card-based transactions after authorization and fee calculation.\r\n\r\nComment:\r\nExamples\r\nPOS purchases, ATM withdrawals, refunds via Visa/Mastercard",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9177f492-782e-f111-860d-0a3b3de36819",
+      "name": "Digital Wallet Clearing",
+      "description": "Clearing of transactions made via mobile wallets or payment apps.\r\n\r\nComment:\r\nExamples:\r\nApple Pay, Google Pay, in-app payments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1a4fba1-782e-f111-860d-0a3b3de36819",
+      "name": "Real-Time Payment Clearing",
+      "description": "Clearing for instant payments where validation occurs immediately.\r\n\r\nComment:\r\nExamples:\r\nSEPA Instant Credit Transfer, Faster Payments Service",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "322f18b2-782e-f111-860d-0a3b3de36819",
+      "name": "Cheque Clearing",
+      "description": "Clearing of cheque-based payments, paper or digital.\r\n\r\nComment:\r\nExamples:\r\nDepositing a cheque, image-based cheque clearing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "116380c3-782e-f111-860d-0a3b3de36819",
+      "name": "Securities Clearing",
+      "description": "Clearing of financial trades before settlement.\r\n\r\nComment:\r\nExamples:\r\nEquity trades, bond trades, repo transactions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa774cd6-782e-f111-860d-0a3b3de36819",
+      "name": "Derivatives Clearing",
+      "description": "Clearing of derivative contracts with margin and collateral checks.\r\n\r\nComment:\r\nExamples:\r\nFutures, Options, Swaps",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df6ad4e7-782e-f111-860d-0a3b3de36819",
+      "name": "FX Clearing",
+      "description": "Clearing of currency exchange transactions ensuring both legs are validated.\r\n\r\nComment:\r\nExamples:\r\nSpot FX trades, forward contracts, cross-border payments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c925ef7-782e-f111-860d-0a3b3de36819",
+      "name": "Loan & Credit Clearing",
+      "description": "Clearing of loan disbursements, repayments, and interest settlements.\r\n\r\nComment:\r\nExamples:\r\nMortgage repayment, personal loan disbursement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f2d7608-792e-f111-860d-0a3b3de36819",
+      "name": "Treasury Clearing",
+      "description": "Clearing of bank treasury operations for liquidity management.\r\n\r\nComment:\r\nInterbank placements, money market instruments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e13d6319-792e-f111-860d-0a3b3de36819",
+      "name": "Collateral Clearing",
+      "description": "Clearing of transactions tied to collateral obligations.\r\n\r\nComment:\r\nExamples:\r\nMargin calls, securities lending, collateral transfer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "928c4b25-792e-f111-860d-0a3b3de36819",
+      "name": "Billing & Invoice Clearing",
+      "description": "Clearing of payments arising from bills or invoices.\r\n\r\nComment:\r\nExamples:\r\nCorporate billing settlements, subscription payments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60cd9a35-792e-f111-860d-0a3b3de36819",
+      "name": "Cross-Border Clearing",
+      "description": "Clearing of transactions between banks across different countries.\r\n\r\nComment:\r\nExamples:\r\nSWIFT payments, remittances, correspondent bank transfers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

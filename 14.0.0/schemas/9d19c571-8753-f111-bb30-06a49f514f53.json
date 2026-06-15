@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9d19c571-8753-f111-bb30-06a49f514f53",
+  "title": "CashbackAccrualMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ab2ed08b-8753-f111-bb30-06a49f514f53",
+      "name": "Transaction-Based Accrual",
+      "description": "Cashback is calculated and recorded for each individual eligible transaction.\r\n\r\nComment:\r\nExample: 2% cashback is accrued immediately after every purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a22e09e-8753-f111-bb30-06a49f514f53",
+      "name": "Daily Accrual",
+      "description": "Cashback is summed up and recorded once per day based on all eligible transactions that occurred that day.\r\n\r\nComment:\r\nExample: All grocery purchases of the day are totalled and cashback is applied once daily.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "21fdb6ae-8753-f111-bb30-06a49f514f53",
+      "name": "Billing Cycle Accrual",
+      "description": "Cashback is accumulated over a billing period (e.g., monthly statement cycle) and calculated at the end of the cycle.\r\n\r\nComment:\r\nExample: All eligible card spending in a month earns cashback, credited after statement closing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e8acfc0-8753-f111-bb30-06a49f514f53",
+      "name": "Event-Based Accrual",
+      "description": "Cashback is accrued when a specific event occurs, not necessarily tied to transactions.\r\n\r\nComment:\r\nExample: Cashback is accrued when a customer reaches €500 cumulative spend.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20b049d4-8753-f111-bb30-06a49f514f53",
+      "name": "Threshold-Based Accrual",
+      "description": "Cashback starts accruing only after a minimum spending threshold is met.\r\n\r\nComment:\r\nExample: 5% cashback applies only after spending exceeds €100.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0dfbe9dd-8753-f111-bb30-06a49f514f53",
+      "name": "Batch Accrual",
+      "description": "Cashback is calculated and accumulated in scheduled processing batches (e.g., end-of-day or end-of-week processing runs).\r\n\r\nComment:\r\nExample: Bank processes all cashback calculations every Sunday night.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46e1b7eb-8753-f111-bb30-06a49f514f53",
+      "name": "Real-Time Accrual",
+      "description": "Cashback is calculated and updated instantly at the time of transaction authorization or posting.\r\n\r\nComment:\r\nExample: Cashback balance updates immediately after card swipe approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

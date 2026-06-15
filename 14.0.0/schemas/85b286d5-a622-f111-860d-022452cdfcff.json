@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "85b286d5-a622-f111-860d-022452cdfcff",
+  "title": "CreditPaymentModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "497e8b24-a822-f111-860d-022452cdfcff",
+      "name": "Full Credit Payment Modality",
+      "description": "Lump-Sum / Full Payment Modality: Entire credit amount is disbursed or repaid in a single payment.\r\n\r\nComment:\r\nExample: One-time loan disbursement or full repayment at maturity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6cd914d-a822-f111-860d-022452cdfcff",
+      "name": "Partial Credit Payment Modality",
+      "description": "Installment / Partial Payment Modality: Credit is repaid or disbursed in multiple scheduled installments.\r\n\r\nComment:\r\nExample: Monthly EMI for a personal loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f06ecc61-a822-f111-860d-022452cdfcff",
+      "name": "Flexible Credit Payment Modality",
+      "description": "On-Demand / Flexible Payment Modality: Payments occur as requested by the borrower or lender.\r\n\r\nComment:\r\nExample: Revolving credit where the borrower draws and repays as needed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3000387c-a822-f111-860d-022452cdfcff",
+      "name": "Conditional Credit Payment Modality",
+      "description": "Conditional / Triggered Payment Modality: Payment occurs only if certain conditions are satisfied.\r\n\r\nComment:\r\nExample: Overdraft funds released only if account balance is insufficient.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "057b53a4-a822-f111-860d-022452cdfcff",
+      "name": "Proportional Credit Payment Modality",
+      "description": "Proportional / Percentage-Based Payment Modality: Payment amount is calculated as a percentage of a reference value.\r\n\r\nComment:\r\nExample: Repayment of 10% of outstanding balance monthly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d3348cd-a822-f111-860d-022452cdfcff",
+      "name": "Threshold Credit Payment Modality",
+      "description": "Threshold / Limit-Based Payment Modality: Payments are subject to maximum or minimum limits.\r\n\r\nComment:\r\nExample: Monthly repayment capped at €500 regardless of balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5cc3d4f3-a822-f111-860d-022452cdfcff",
+      "name": "Event-Based Credit Payment Modality",
+      "description": "Event-Based / Promotional Payment Modality: Payments are executed based on specific events or promotions.\r\n\r\nComment:\r\nExample: Bonus repayment applied after account milestone or promotional period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

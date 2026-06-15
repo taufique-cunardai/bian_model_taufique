@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6a13711d-5128-f111-860d-02cf10b7252b",
+  "title": "PositionTrackingInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fa866b29-5128-f111-860d-02cf10b7252b",
+      "name": "Position Creation Instruction",
+      "description": "A request to establish and record a new position resulting from a transaction or agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bff22535-5128-f111-860d-02cf10b7252b",
+      "name": "Position Update Instruction",
+      "description": "A request to modify an existing position due to changes in quantity, ownership, or attributes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "23f2be3e-5128-f111-860d-02cf10b7252b",
+      "name": "Position Valuation Instruction",
+      "description": "A request to calculate and update the financial value of a position (e.g., market value, PnL).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af3f8246-5128-f111-860d-02cf10b7252b",
+      "name": "Position Reconciliation Instruction",
+      "description": "A request to compare and align positions across systems, accounts, or counterparties to ensure consistency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84d6cc4e-5128-f111-860d-02cf10b7252b",
+      "name": "Position Transfer Instruction",
+      "description": "A request to move a position between accounts, portfolios, or entities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "476ecb57-5128-f111-860d-02cf10b7252b",
+      "name": "Position Adjustment Instruction",
+      "description": "A request to correct or amend position records due to errors, corporate actions, or reclassifications.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ade5fd60-5128-f111-860d-02cf10b7252b",
+      "name": "Position Aggregation Instruction",
+      "description": "A request to consolidate multiple positions for reporting, risk, or analysis purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a0d1ea6b-5128-f111-860d-02cf10b7252b",
+      "name": "Position Reporting Instruction",
+      "description": "A request to generate reports on positions, including holdings, exposures, and performance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5458ef71-5128-f111-860d-02cf10b7252b",
+      "name": "Conditional Position Tracking Instruction",
+      "description": "A request to update or monitor positions only when predefined conditions are met (e.g., price thresholds, risk limits).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8f7be7a-5128-f111-860d-02cf10b7252b",
+      "name": "Position Closure Instruction",
+      "description": "A request to close or remove a position when it is fully settled or no longer active.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

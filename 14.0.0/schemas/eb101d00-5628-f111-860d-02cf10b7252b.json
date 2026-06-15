@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eb101d00-5628-f111-860d-02cf10b7252b",
+  "title": "PositionValuationMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0ac77762-5628-f111-860d-02cf10b7252b",
+      "name": "Mark-to-Market Method",
+      "description": "Values the position based on current market prices. Reflects the real-time economic value of assets or liabilities.\r\n\r\nComment:\r\nOften used for Stocks, bonds, derivatives traded in liquid markets.\r\n\r\nExample:\r\nA portfolio holds 200 shares of a company.\r\nCurrent market price = $50 per share\r\nPosition value = 200 × 50 = $10,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6c34d25-5728-f111-860d-02cf10b7252b",
+      "name": "Mark-to-Model Method",
+      "description": "Values positions using financial models when market prices are unavailable or illiquid.\r\n\r\nComment:\r\nOften used for Illiquid derivatives, structured notes, exotic options.\r\n\r\nExample:\r\nA derivative contract has no active market.\r\nA pricing model estimates its value as $15,000.\r\nPosition value = $15,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8d4493b-5728-f111-860d-02cf10b7252b",
+      "name": "Amortized Cost Method",
+      "description": "Values positions based on initial cost adjusted over time using amortization or interest accrual.\r\n\r\nComment:\r\nOften used for Corporate bonds, loans.\r\n\r\nExample:\r\nA bond purchased for $10,000 with 5% annual interest, held for 1 year.\r\nPosition value = $10,000 + interest accrued = $10,500",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3511164e-5728-f111-860d-02cf10b7252b",
+      "name": "Fair Value Method",
+      "description": "Represents the price at which an orderly transaction would occur between knowledgeable market participants.\r\n\r\nComment:\r\nOften used for Securities and derivatives in regulated financial reporting.\r\n\r\nExample:\r\nA bond is valued based on current bid-ask prices in a regulated exchange.\r\nFair value = $10,200",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48646995-5728-f111-860d-02cf10b7252b",
+      "name": "Historical Cost Method",
+      "description": "Uses the original transaction cost of the position, ignoring current market fluctuations.\r\n\r\nComment:\r\nOften used for accounting or internal reporting for stable, long-term assets.\r\n\r\nExample:\r\nStock purchased at $8,000, market price now $9,000.\r\nHistorical cost valuation = $8,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2cd129ae-5728-f111-860d-02cf10b7252b",
+      "name": "Net Asset Value Method",
+      "description": "Values positions in a fund or pooled investment based on the total assets minus liabilities, divided by shares outstanding\r\n\r\nComment:\r\nOften used for Mutual funds, ETFs, investment funds.\r\n\r\nExample:\r\nFund total assets = $1,000,000, liabilities = $100,000, outstanding shares = 90,000\r\nNAV per share = ($1,000,000 − $100,000) / 90,000 = $10",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

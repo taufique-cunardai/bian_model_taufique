@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "54a9b1aa-7223-f111-860d-0a072f7aa82f",
+  "title": "EarnTimingModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bb3f58cd-7823-f111-860d-0a072f7aa82f",
+      "name": "Instant Timing",
+      "description": "Rewards are earned immediately at the time of transaction or activity.\r\n\r\nComment:\r\nExample: Points credited instantly after a card purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4b244df-7823-f111-860d-0a072f7aa82f",
+      "name": "Delayed Timing",
+      "description": "Rewards are earned at the time of activity but credited after a delay.\r\n\r\nComment:\r\nExample: Cashback credited 30 days after purchase settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "577a17f1-7823-f111-860d-0a072f7aa82f",
+      "name": "Batch Timing",
+      "description": "Rewards are accumulated over a period and applied in batches.\r\n\r\nComment:\r\nExample: Monthly points credited based on total spending in that month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67444700-7923-f111-860d-0a072f7aa82f",
+      "name": "Event-Based Timing",
+      "description": "Rewards are earned only when a specific event or milestone is achieved.\r\n\r\nComment:\r\nExample: Bonus points awarded after completing 10 transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac1c5d0c-7923-f111-860d-0a072f7aa82f",
+      "name": "Statement Timing",
+      "description": "Rewards are credited at the end of a billing or statement cycle.\r\n\r\nComment:\r\nExample: Credit card points posted at the end of the month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca81471b-7923-f111-860d-0a072f7aa82f",
+      "name": "Anniversary Timing",
+      "description": "Rewards are credited on specific dates or anniversaries.\r\n\r\nComment:\r\nExample: Bonus points on account anniversary or customer birthday.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "042d692c-7923-f111-860d-0a072f7aa82f",
+      "name": "Conditional Timing",
+      "description": "Rewards are credited only after certain conditions are verified or approved.\r\n\r\nComment:\r\nExample: Referral points credited after the referred customer activates their account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

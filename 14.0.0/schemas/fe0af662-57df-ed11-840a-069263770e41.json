@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fe0af662-57df-ed11-840a-069263770e41",
+  "title": "Permission",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PermissionExpirationDate",
+    "PermissionStatus",
+    "PermissionType"
+  ],
+  "properties": {
+    "PermissionExpirationDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "PermissionStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ConsentStatusTypeValues",
+      "x-related-bo-id": "38e253f9-1fc3-ed11-8401-0628ceb27c6f",
+      "x-related-bo-name": "ConsentStatusTypeValues"
+    },
+    "PermissionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PermissionTypeValues",
+      "x-related-bo-id": "304a75a1-1fc3-ed11-8401-0628ceb27c6f",
+      "x-related-bo-name": "PermissionTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

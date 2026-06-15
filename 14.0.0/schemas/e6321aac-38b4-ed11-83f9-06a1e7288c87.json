@@ -1,0 +1,235 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e6321aac-38b4-ed11-83f9-06a1e7288c87",
+  "title": "DateTimeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "61b7ceb4-38b4-ed11-83f9-06a1e7288c87",
+      "name": "Maturity Date",
+      "description": "The date when a financial instrument (e.g., loan, deposit) reaches its end and becomes payable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f98b8be-38b4-ed11-83f9-06a1e7288c87",
+      "name": "Initiated Date",
+      "description": "The date when a process or transaction is started or requested.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6498b8be-38b4-ed11-83f9-06a1e7288c87",
+      "name": "Requested Date",
+      "description": "The date specified by a party for execution or processing of an action.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7647cbca-38b4-ed11-83f9-06a1e7288c87",
+      "name": "Executed Date",
+      "description": "The date when a transaction is actually carried out or processed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34eb5dd3-38b4-ed11-83f9-06a1e7288c87",
+      "name": "Open Date",
+      "description": "The date when an account or contract is first established.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "902a28da-38b4-ed11-83f9-06a1e7288c87",
+      "name": "Close Date",
+      "description": "The date when an account or contract is officially terminated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "952a28da-38b4-ed11-83f9-06a1e7288c87",
+      "name": "Expiry Date",
+      "description": "The date when a contract, offer, or instrument ceases to be valid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75113a03-39b4-ed11-83f9-06a1e7288c87",
+      "name": "Effective Date",
+      "description": "The date when a change, condition, or transaction becomes legally or contractually valid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "588d011e-39b4-ed11-83f9-06a1e7288c87",
+      "name": "Creating Date",
+      "description": "The date when a record, transaction, or instruction is created in the system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "220a4d9c-39b4-ed11-83f9-06a1e7288c87",
+      "name": "Activation Date",
+      "description": "The date when a product, account, or arrangement becomes active and usable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27524dbf-39b4-ed11-83f9-06a1e7288c87",
+      "name": "Deactivation Date",
+      "description": "The date when a product or service is made inactive, but not necessarily closed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99a7b30e-03cc-ee11-8b47-a402b9460f22",
+      "name": "Blocking Date",
+      "description": "The date when funds, accounts, or services are restricted or blocked from use.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ba7b30e-03cc-ee11-8b47-a402b9460f22",
+      "name": "Sending Date",
+      "description": "The date when a payment, message, or instruction is dispatched.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ca7b30e-03cc-ee11-8b47-a402b9460f22",
+      "name": "Valid From Date",
+      "description": "The date from which a condition, rate, or rule starts to apply.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9da7b30e-03cc-ee11-8b47-a402b9460f22",
+      "name": "Valid To Date",
+      "description": "The date until which a condition, rate, or rule remains applicable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ea7b30e-03cc-ee11-8b47-a402b9460f22",
+      "name": "Receiving Date",
+      "description": "The date when a payment, message, or instruction is received by a party or system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9fa7b30e-03cc-ee11-8b47-a402b9460f22",
+      "name": "Signing Date",
+      "description": "The date when an agreement or contract is formally signed by involved parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b907f38-dfcf-ee11-8b47-a402b9460f22",
+      "name": "Due Date",
+      "description": "The date by which a payment or obligation must be fulfilled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "683705cd-dfcf-ee11-8b47-a402b9460f22",
+      "name": "Value Date",
+      "description": "The date when funds start or stop generating interest or become financially effective.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85c2a1ff-dfcf-ee11-8b47-a402b9460f22",
+      "name": "Fulfillment Date",
+      "description": "The date when an obligation is fully completed or satisfied.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67909af8-40c9-f011-8bd3-a402b9460f22",
+      "name": "Entry Date",
+      "description": "The date when a transaction is recorded (booked) in the account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3221d735-1838-f111-bb11-028ee44969e7",
+      "name": "Last Calculation Date",
+      "description": "The last calculation date is the most recent date on which a calculation (interest, tax, fee, accrual, etc.) was executed successfully for a product or account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d21d735-1838-f111-bb11-028ee44969e7",
+      "name": "Next Calculation Date",
+      "description": "The next calculation date is the scheduled or expected date when the next calculation cycle will be executed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73f88443-1838-f111-bb11-028ee44969e7",
+      "name": "Last Accrual Date",
+      "description": "The last accrual date is the most recent date up to which amounts (interest, tax, fees) have been accumulated and recorded in the system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36e1ec4c-1838-f111-bb11-028ee44969e7",
+      "name": "Next Accrual Date",
+      "description": "The next accrual date is the scheduled date when the system will continue accumulating the next portion of interest, tax, or fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c961c85-1838-f111-bb11-028ee44969e7",
+      "name": "Last Updated Date",
+      "description": "The last updated date is the date and time when a record, attribute, or dataset was most recently modified in the system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "561eff8b-1838-f111-bb11-028ee44969e7",
+      "name": "Next Updated Date",
+      "description": "The next updated date is the planned or scheduled date when the next update to a record or parameter is expected to occur.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

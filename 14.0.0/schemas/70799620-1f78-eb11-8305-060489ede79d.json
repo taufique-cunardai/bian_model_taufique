@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "70799620-1f78-eb11-8305-060489ede79d",
+  "title": "AnalysisTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3c910229-1f78-eb11-8305-060489ede79d",
+      "name": "Performance Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ab31c34-1f78-eb11-8305-060489ede79d",
+      "name": "Activity Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "31496d32-8138-ef11-8b65-a402b9460f22",
+      "name": "Revenue Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "590d0e43-8138-ef11-8b65-a402b9460f22",
+      "name": "Cost Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9220c1e0-7643-ef11-8b66-a402b9460f22",
+      "name": "Predictive Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f6a876d-7743-ef11-8b66-a402b9460f22",
+      "name": "Behavioral Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0bbfd16e-8d43-ef11-8b66-a402b9460f22",
+      "name": "Profitability Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1de4f428-1245-ef11-8b66-a402b9460f22",
+      "name": "Competitive Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b99ca543-1e45-ef11-8b66-a402b9460f22",
+      "name": "Cohort Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c29ca543-1e45-ef11-8b66-a402b9460f22",
+      "name": "Segment Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6f870f3-4256-ef11-8b6a-a402b9460f22",
+      "name": "SWOT Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8cb716b-4356-ef11-8b6a-a402b9460f22",
+      "name": "Benchmarking",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f9bcbe7d-4356-ef11-8b6a-a402b9460f22",
+      "name": "Positioning Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ec77b8d-4356-ef11-8b6a-a402b9460f22",
+      "name": "Scenario Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aab4669e-4356-ef11-8b6a-a402b9460f22",
+      "name": "Intelligence Gathering",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eec93709-4456-ef11-8b6a-a402b9460f22",
+      "name": "Profiling",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

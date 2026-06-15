@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5b0df028-0d2d-f111-860d-023aa191a9fb",
+  "title": "PostingInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d92fdb60-0d2d-f111-860d-023aa191a9fb",
+      "name": "Debit Posting Instruction",
+      "description": "A request to post a debit entry to an account, reducing its balance or increasing an asset/expense.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5422cf2c-0e2d-f111-860d-023aa191a9fb",
+      "name": "Credit Posting Instruction",
+      "description": "A request to post a credit entry to an account, increasing its balance or recognizing income/liability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "216df734-0e2d-f111-860d-023aa191a9fb",
+      "name": "Reversal Posting Instruction",
+      "description": "A request to reverse a previously posted entry to correct errors or cancel transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15a6c13f-0e2d-f111-860d-023aa191a9fb",
+      "name": "Adjustment Posting Instruction",
+      "description": "A request to modify posted entries due to corrections, recalculations, or reconciliations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c70a846-0e2d-f111-860d-023aa191a9fb",
+      "name": "Accrual Posting Instruction",
+      "description": "A request to post accrued income, interest, or expenses into the ledger.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7fc9fc4f-0e2d-f111-860d-023aa191a9fb",
+      "name": "Settlement Posting Instruction",
+      "description": "A request to post entries that finalize the transfer of funds or assets between parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06bbbf58-0e2d-f111-860d-023aa191a9fb",
+      "name": "Internal Transfer Posting Instruction",
+      "description": "A request to post movements between accounts within the same institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "baabf561-0e2d-f111-860d-023aa191a9fb",
+      "name": "Scheduled Posting Instruction",
+      "description": "A request to automatically post entries at predefined intervals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed4f7e6d-0e2d-f111-860d-023aa191a9fb",
+      "name": "Conditional Posting Instruction",
+      "description": "A request to post entries only when certain predefined conditions are met.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa07ce77-0e2d-f111-860d-023aa191a9fb",
+      "name": "Cross-Border Posting Instruction",
+      "description": "A request to post entries involving currency conversion or multiple jurisdictions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

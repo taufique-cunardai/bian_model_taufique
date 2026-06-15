@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "022e6b91-f232-ef11-8b65-a402b9460f22",
+  "title": "BusinessInitiativeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8d6a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Market Expansion",
+      "description": "Entering new geographic markets or targeting new customer segments to increase market share.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f6a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Diversification",
+      "description": "Expanding the company's product or service offerings to reduce risk and tap into new revenue streams.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "906a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Mergers and Acquisitions",
+      "description": "-    Acquiring or merging with other companies to achieve strategic growth or synergy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "916a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Process Improvement",
+      "description": "Enhancing efficiency and productivity by streamlining processes, adopting best practices, or implementing new technologies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "926a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Cost Reduction",
+      "description": "Identifying and eliminating unnecessary expenses to improve profitability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "936a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Quality Management",
+      "description": "Implementing quality control systems and continuous improvement practices to enhance product or service quality.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "946a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Revenue Growth",
+      "description": "Strategies focused on increasing sales and revenue, such as launching new products, enhancing sales techniques, or expanding marketing efforts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "956a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Cost Management",
+      "description": "-    Initiatives aimed at controlling and reducing costs to improve financial health.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "966a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Capital Optimization",
+      "description": "Improving the use of capital through better investment decisions, asset management, or debt restructuring",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "976a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Customer Experience Improvement",
+      "description": "Enhancing customer satisfaction and loyalty by improving customer service, user experience, or product quality",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "986a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Customer Retention",
+      "description": "Implementing programs and strategies to retain existing customers, such as loyalty programs, personalized marketing, or improved customer support",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "996a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Customer Acquisition",
+      "description": "Strategies to attract new customers, including marketing campaigns, promotional offers, and strategic partnerships",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a6a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Regulatory Compliance",
+      "description": "-    Ensuring that the company adheres to all relevant laws, regulations, and industry standards.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b6a54a1-f232-ef11-8b65-a402b9460f22",
+      "name": "Risk Management",
+      "description": "Identifying, assessing, and mitigating risks that could impact the business, including financial, operational, and strategic risks",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

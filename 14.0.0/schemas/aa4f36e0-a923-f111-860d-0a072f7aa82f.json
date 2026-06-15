@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "aa4f36e0-a923-f111-860d-0a072f7aa82f",
+  "title": "SweepInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "41434de9-a923-f111-860d-0a072f7aa82f",
+      "name": "Customer",
+      "description": "The person or entity that owns the account from which funds are swept (debited).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5be219f9-a923-f111-860d-0a072f7aa82f",
+      "name": "Source Bank",
+      "description": "The bank that holds the source account and transfers funds out during the sweep.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e45f907-aa23-f111-860d-0a072f7aa82f",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee sweep arrangements, ensuring compliance with banking regulations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d3e19c3-e53e-f111-bb1f-0a1024a329e3",
+      "name": "Beneficiary",
+      "description": "The person or entity that owns the account receiving the swept funds (credited).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0aa42d6-e53e-f111-bb1f-0a1024a329e3",
+      "name": "Beneficiary Bank",
+      "description": "The bank that holds the beneficiary account and receives the swept funds",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

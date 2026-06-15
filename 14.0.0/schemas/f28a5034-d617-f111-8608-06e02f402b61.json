@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f28a5034-d617-f111-8608-06e02f402b61",
+  "title": "RolloverInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "96a1203d-d617-f111-8608-06e02f402b61",
+      "name": "Customer",
+      "description": "Participation of the account holder, borrower, or depositor in deciding or authorizing the rollover.\r\n\r\nComment:\r\nExamples:\r\nBorrower agrees to extend a short-term loan for another term.\r\n\r\nDepositor authorizes a certificate of deposit (CD) to automatically renew at maturity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63ae8e48-d617-f111-8608-06e02f402b61",
+      "name": "Bank",
+      "description": "The bank or lenders role in initiating, approving, or executing the rollover.\r\n\r\nComment\r\nExamples:\r\nBank proposes a rollover of a maturing loan under new interest terms.\r\n\r\nBank automatically rolls over a fixed deposit if the customer has opted in.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71109a5e-d617-f111-8608-06e02f402b61",
+      "name": "Compliance Party",
+      "description": "Oversight or approvals needed to ensure the rollover adheres to legal and regulatory requirements.\r\n\r\nComment:\r\nExamples:\r\nCentral bank limits on rollover of loans in stressed sectors.\r\n\r\nMandatory reporting for rolled-over instruments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2eee5b70-d617-f111-8608-06e02f402b61",
+      "name": "Agent",
+      "description": "Other entities involved in processing or facilitating the rollover.\r\n\r\nComment:\r\nExamples:\r\nPayment processors for interest settlement during rollover.\r\n\r\nTrustees or custodians for investment products.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

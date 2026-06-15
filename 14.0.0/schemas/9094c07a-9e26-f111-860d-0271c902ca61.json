@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9094c07a-9e26-f111-860d-0271c902ca61",
+  "title": "SafeKeepingInstructionTypeValues",
+  "description": "A request to change the level of protection applied to assets, such as moving from standard to high-security custody.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b5bf3791-9e26-f111-860d-0271c902ca61",
+      "name": "Deposit Instruction",
+      "description": "A request to place an asset or security into safe keeping for custody or protection.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "892f299e-9e26-f111-860d-0271c902ca61",
+      "name": "Withdrawal Instruction",
+      "description": "A request to remove an asset from safe keeping, subject to authorization and agreement terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d229ea7-9e26-f111-860d-0271c902ca61",
+      "name": "Transfer Instruction",
+      "description": "A request to move assets between custodial accounts, locations, or owners while maintaining security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2f6c0b1-9e26-f111-860d-0271c902ca61",
+      "name": "Release Instruction",
+      "description": "A request to authorize the release of an asset to the owner or a designated party, often requiring single, dual, or agreement-based authorization.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "28b820ba-9e26-f111-860d-0271c902ca61",
+      "name": "Segregation Instruction",
+      "description": "A request to hold assets separately to ensure restricted access or enhanced protection (e.g., segregated custody).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1cd021c5-9e26-f111-860d-0271c902ca61",
+      "name": "Protection Adjustment Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0f4cad0-9e26-f111-860d-0271c902ca61",
+      "name": "Inventory or Audit Instruction",
+      "description": "A request to perform inspection, verification, or reporting of held assets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb74e8d9-9e26-f111-860d-0271c902ca61",
+      "name": "Scheduled Safe Keeping Instruction",
+      "description": "A request to perform periodic actions on assets (e.g., move, audit, or reconcile) according to a defined schedule.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4dd068e2-9e26-f111-860d-0271c902ca61",
+      "name": "Collateral Custody Instruction",
+      "description": "A request to hold collateral assets under safe keeping arrangements for secured transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6f756eb-9e26-f111-860d-0271c902ca61",
+      "name": "Recall Instruction",
+      "description": "A request to retrieve an asset from custody due to maturity, settlement, or change in agreement terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

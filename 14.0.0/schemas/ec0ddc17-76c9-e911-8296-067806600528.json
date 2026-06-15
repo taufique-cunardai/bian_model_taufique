@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ec0ddc17-76c9-e911-8296-067806600528",
+  "title": "CaseTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "66da1a2b-76c9-e911-8296-067806600528",
+      "name": "Card",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68da1a2b-76c9-e911-8296-067806600528",
+      "name": "Loan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "408f2432-76c9-e911-8296-067806600528",
+      "name": "Fraud",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bedf3538-76c9-e911-8296-067806600528",
+      "name": "Payment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfdf3538-76c9-e911-8296-067806600528",
+      "name": "Market",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e25b942-76c9-e911-8296-067806600528",
+      "name": "Security",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f25b942-76c9-e911-8296-067806600528",
+      "name": "Other",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "31ab9e39-9132-f111-bb06-0a7da8bdeb61",
+  "title": "InterestArrangementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "12043899-9132-f111-bb06-0a7da8bdeb61",
+      "name": "Customer",
+      "description": "The person or entity whose account or credit facility earns or is charged interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d9254ae-9132-f111-bb06-0a7da8bdeb61",
+      "name": "Bank",
+      "description": "The bank that calculates, applies, and manages interest on deposits, loans, or other financial products.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "332ba7b7-9132-f111-bb06-0a7da8bdeb61",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee interest practices, ensuring compliance with laws, rates, and disclosure requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

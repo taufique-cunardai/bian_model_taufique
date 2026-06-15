@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "de7114a0-82a1-ed11-83f5-06ea5014e0ef",
+  "title": "FeeCalculationBasisTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6af381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "Flat",
+      "description": "Charge/tax basis is a lump sum.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cf381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "PerUnit",
+      "description": "Charges/tax basis is per unit of financial instrument.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6df381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "Percentage",
+      "description": "Charge/tax basis is a percentage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ef381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "RatePerBrackets",
+      "description": "Charge/tax basis is a percentage which depends on the tax brackets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ff381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "RateWithMinimumAmount",
+      "description": "Rate with a minimum amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70f381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "RateWithMaximumAmount",
+      "description": "Rate with a maximum amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71f381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "Other",
+      "description": "Another type of taxation basis.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72f381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "GrossAmount",
+      "description": "Charge/Commission/tax basis is based on the gross amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73f381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "NetAmount",
+      "description": "Charge/commission/tax basis is based on the net amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74f381b3-82a1-ed11-83f5-06ea5014e0ef",
+      "name": "NetAssetValuePrice",
+      "description": "Charge/tax basis is the price.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

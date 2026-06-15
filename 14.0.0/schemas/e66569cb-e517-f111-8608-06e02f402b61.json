@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e66569cb-e517-f111-8608-06e02f402b61",
+  "title": "RolloverExecutionModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5652a2db-e517-f111-8608-06e02f402b61",
+      "name": "Automatic Rollover Execution",
+      "description": "The rollover is executed automatically by the system at maturity without requiring customer action.\r\n\r\nComment\r\nExample:\r\nA term deposit automatically renews for the same term at the prevailing rate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b07a0ec-e517-f111-8608-06e02f402b61",
+      "name": "Conditional Rollover Execution",
+      "description": "The rollover is executed automatically only if predefined conditions are satisfied.\r\n\r\nComment:\r\nExample:\r\nLoan automatically rolled over only if repayment history is clean.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c0a2049-e617-f111-8608-06e02f402b61",
+      "name": "Manual Rollover Execution",
+      "description": "The rollover is executed only when initiated by a bank officer or operations staff.\r\n\r\nComment:\r\nExample:\r\nCorporate loan rollover processed manually after credit committee approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62310a53-e617-f111-8608-06e02f402b61",
+      "name": "Scheduled Rollover Execution",
+      "description": "The rollover is pre-scheduled to execute on a specific date/time event.\r\n\r\nComment:\r\nExample:\r\nDeposit renewal scheduled at midnight on maturity date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cd1937fe-e717-f111-8608-06e02f402b61",
+      "name": "Customer-Initiated Execution Mode",
+      "description": "The rollover occurs only when the customer actively requests or confirms it.\r\n\r\nComment:\r\nExample:\r\nCustomer renews a fixed deposit through online banking before maturity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4d35e17-e817-f111-8608-06e02f402b61",
+      "name": "Approval-Based Execution Mode",
+      "description": "The rollover requires internal or external approval before execution.\r\n\r\nComment\r\nExample:\r\nSyndicated loan rollover requires majority lender approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4fa3728-e817-f111-8608-06e02f402b61",
+      "name": "Hybrid Execution Mode",
+      "description": "Combination of two or more execution modes.\r\n\r\nComment:\r\nExample:\r\nAutomatic but subject to condition check\r\nCustomer-initiated but requires approval",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

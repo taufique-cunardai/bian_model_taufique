@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e6bdb651-a22e-f111-860d-0a3b3de36819",
+  "title": "ClaimLifecycleStatusValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e6690a86-a22e-f111-860d-0a3b3de36819",
+      "name": "Initiated",
+      "description": "A claim request has been created and all initial documentation has been submitted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed690a86-a22e-f111-860d-0a3b3de36819",
+      "name": "Under Review",
+      "description": "The claim is actively being assessed and verified for eligibility and accuracy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1561638f-a22e-f111-860d-0a3b3de36819",
+      "name": "Pending Approval",
+      "description": "The claim assessment is complete, but final approval is required from the insurer or bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29656195-a22e-f111-860d-0a3b3de36819",
+      "name": "Approved",
+      "description": "The claim has been approved and is ready for payout, though payment may not yet have been issued.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e656195-a22e-f111-860d-0a3b3de36819",
+      "name": "Rejected",
+      "description": "The claim has been denied; the reason for rejection is documented.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5e3249d-a22e-f111-860d-0a3b3de36819",
+      "name": "Partially Paid",
+      "description": "A partial settlement of the claim has been issued, but some portion remains unpaid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eae3249d-a22e-f111-860d-0a3b3de36819",
+      "name": "Paid",
+      "description": "The full claim amount has been disbursed and the claim is closed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4147f5ab-a22e-f111-860d-0a3b3de36819",
+      "name": "Closed",
+      "description": "The claim has been withdrawn or voided by the initiator before completion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

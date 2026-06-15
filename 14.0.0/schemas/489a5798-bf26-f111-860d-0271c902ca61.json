@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "489a5798-bf26-f111-860d-0271c902ca61",
+  "title": "PositivePayServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "610be4b5-bf26-f111-860d-0271c902ca61",
+      "name": "Payment Verification Service",
+      "description": "Matches presented payments (e.g., checks) against a customer-issued file containing approved payment details (check number, date, amount, payee).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8154d7c9-bf26-f111-860d-0271c902ca61",
+      "name": "Exception Detection Service",
+      "description": "Identifies mismatches between presented payments and the authorized list. Flags these as exceptions for review.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fabd75e1-bf26-f111-860d-0271c902ca61",
+      "name": "Exception Handling Service",
+      "description": "Allows the customer to approve, reject, or review flagged transactions before processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e60d10ef-bf26-f111-860d-0271c902ca61",
+      "name": "Fraud Prevention Service",
+      "description": "Allows the customer to approve, reject, or review flagged transactions before processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8874ccfb-bf26-f111-860d-0271c902ca61",
+      "name": "Reporting & Audit Trail Service",
+      "description": "Provides detailed reports of matched, unmatched, and rejected transactions for transparency and compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

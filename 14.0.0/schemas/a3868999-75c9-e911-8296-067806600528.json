@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a3868999-75c9-e911-8296-067806600528",
+  "title": "CaseStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "422a78c4-75c9-e911-8296-067806600528",
+      "name": "Closed",
+      "description": "Case has been closed. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "442a78c4-75c9-e911-8296-067806600528",
+      "name": "Assigned",
+      "description": "Case has been assigned to another party. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dfdaf7d0-75c9-e911-8296-067806600528",
+      "name": "Under Investigation",
+      "description": "Case is currently under investigation. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b2762d8-75c9-e911-8296-067806600528",
+      "name": "Unknown",
+      "description": "Case has never been assigned before. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c9d5ae3-75c9-e911-8296-067806600528",
+      "name": "Overdue",
+      "description": "Investigation is taking too long. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "62746554-782e-f111-860d-0a3b3de36819",
+  "title": "ClearingMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fa4d691a-7a2e-f111-860d-0a3b3de36819",
+      "name": "ACH Clearing",
+      "description": "ACH (Automated Clearing House) clearing: Batch clearing of payments, typically processed in cycles, suitable for low-value or recurring transactions.\r\n\r\nComment:\r\nExamples:\r\nSEPA credit transfers, US ACH payroll payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b2c184f-7a2e-f111-860d-0a3b3de36819",
+      "name": "RTGS Clearing",
+      "description": "Real-Time Gross Settlement (RTGS) clearing: where each payment is processed individually and settled immediately. Used for high-value or time-critical payments.\r\n\r\nComment:\r\nExamples\r\nInterbank SWIFT payments, TARGET2 payments in the EU.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a64eaa5a-7a2e-f111-860d-0a3b3de36819",
+      "name": "Card Network Clearing",
+      "description": "Clearing through card networks or schemes for card-based transactions, including debit and credit cards.\r\n\r\nComment:\r\nExamples:\r\nVisa, Mastercard, American Express card transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab4eaa5a-7a2e-f111-860d-0a3b3de36819",
+      "name": "Internal Clearing",
+      "description": "Transactions cleared within the same bank (on-us), without involving external clearing systems.\r\n\r\nComment:\r\nExamples:\r\nTransferring funds between two accounts in the same bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "790e5567-7a2e-f111-860d-0a3b3de36819",
+      "name": "Correspondent Clearing",
+      "description": "Clearing through intermediary or correspondent banks, often for cross-border or foreign currency payments.    \r\n\r\nComment:\r\nExamples:\r\nUSD payment from a Belgian bank to a US bank via a correspondent bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

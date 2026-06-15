@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "de2498cb-6188-e911-823e-06b09c770f0c",
+  "title": "Jurisdiction",
+  "description": "Jurisdiction that will be assigned in case of legal dispute.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "5922045a-1694-e911-823e-069871e4ec9c",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c1554c8-e6af-ea11-829f-0681374b35cc",
+      "target": "cb9e2d6a-e5af-ea11-829f-0681374b35cc",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bbe4dc20-24a7-e911-8288-06c837085cb8",
+      "target": "41e81f1a-22a7-e911-8288-06c837085cb8",
+      "modality": "1:N",
+      "required": false,
+      "description": "Legal\r\nJurisdiction",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "74f92848-5528-f111-860d-02cf10b7252b",
+  "title": "PositionTrackingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "40ce469f-5528-f111-860d-02cf10b7252b",
+      "name": "Cash Position Tracking",
+      "description": "Tracking the amount of liquid funds available in accounts.\r\n\r\nComment:\r\nExample:\r\nMonitoring the daily cash balance of a corporate current account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa173d65-f928-f111-860d-06b37ecc494f",
+      "name": "Deposit Position Tracking",
+      "description": "Tracking customer deposit balances, including savings, checking, and term deposits.\r\n\r\nComment:\r\nExample: Total fixed deposits per branch or per customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0db4f674-f928-f111-860d-06b37ecc494f",
+      "name": "Loan & Credit Position Tracking",
+      "description": "Monitoring outstanding loans, credit facilities, and repayment status.\r\n\r\nComment:\r\nExample: Balance of a mortgage account or total credit exposure for a corporate borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f6e7fb80-f928-f111-860d-06b37ecc494f",
+      "name": "Investment & Securities Position Tracking",
+      "description": "Tracking holdings in financial instruments like stocks, bonds, and derivatives.\r\n\r\nComment:\r\nExample: Number of shares in a trading portfolio or market value of government bonds held.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "07b2b394-f928-f111-860d-06b37ecc494f",
+      "name": "Liability Position Tracking",
+      "description": "Monitoring amounts owed by the bank to other parties.\r\n\r\nComment:\r\nExample: Interbank borrowings, issued bonds, or accrued interest payable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd1658b4-fe28-f111-860d-06b37ecc494f",
+      "name": "Net Position Tracking",
+      "description": "Monitoring the difference between assets and liabilities in a specific category or overall.\r\n\r\nComment:\r\nExample: Net cash position = total cash inflows − outflows; net FX exposure per currency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4f036c1-fe28-f111-860d-06b37ecc494f",
+      "name": "Collateral Position Tracking",
+      "description": "Monitoring assets pledged or received as security for loans or trades.\r\n\r\nComment:\r\nExample: Collateral pledged against a corporate loan or securities held as margin for derivatives.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90d1f8d1-fe28-f111-860d-06b37ecc494f",
+      "name": "Porfolio Position Tracking",
+      "description": "Monitoring positions across multiple accounts, assets, or instruments in aggregate.\r\n\r\nComment:\r\nExample: Total investment portfolio value, or total loan exposure across all branches.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0dd34ae1-fe28-f111-860d-06b37ecc494f",
+      "name": "Derivative Position Tracking",
+      "description": "Tracking positions in derivative instruments used for risk management or trading.\r\n\r\nComment:\r\nExample: Open interest in FX forwards, interest rate swaps, or options contracts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a98ab5f8-fe28-f111-860d-06b37ecc494f",
+      "name": "Forecasted Position Tracking",
+      "description": "Estimating future positions based on expected transactions or market conditions.\r\n\r\nComment:\r\nExample: Projected cash balances for the next week or expected loan growth.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2967c009-ff28-f111-860d-06b37ecc494f",
+      "name": "Valuation-Based Position Tracking",
+      "description": "Tracking positions using different valuation methods such as book, market, or mark-to-market.\r\n\r\nComment:\r\nExample: Loan portfolio balance per ledger (book value) vs. trading securities at current market prices.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

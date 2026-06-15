@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "15d0dbde-a126-f111-860d-0271c902ca61",
+  "title": "MatchingAssessmentTypeValues",
+  "description": "All key attributes of a transaction must match exactly with the reference data.\r\n\r\nComment:\r\nExample: Check number, amount, and payee match exactly with the issued record → Approved automatically.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "06e066e6-a126-f111-860d-0271c902ca61",
+      "name": "Exact Match",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "802c0e22-a226-f111-860d-0271c902ca61",
+      "name": "Tolerance Match",
+      "description": "Allows small, predefined discrepancies between the transaction and reference data.\r\n\r\nComment:\r\nExample: Invoice amount differs by ±$5 from purchase order → Still considered a match.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8235de35-a226-f111-860d-0271c902ca61",
+      "name": "Duplicate Check",
+      "description": "Verifies that a transaction or payment has not already been processed.\r\n\r\nComment:\r\nExample: Same check number or payment ID presented twice → Flagged as duplicate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edd3e449-a226-f111-860d-0271c902ca61",
+      "name": "Conditional Match",
+      "description": "Matching is based on specific business rules or conditions beyond simple exact or tolerance checks.\r\n\r\nComment:\r\nExample: Payment approved if payee and account match, even if amount differs within tolerance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

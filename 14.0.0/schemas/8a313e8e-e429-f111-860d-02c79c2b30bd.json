@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8a313e8e-e429-f111-860d-02c79c2b30bd",
+  "title": "DividendServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "558178ac-e429-f111-860d-02c79c2b30bd",
+      "name": "Dividend Entitlement Determination Service",
+      "description": "Identifies eligible investors based on record date and holdings of the security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b757c91-e729-f111-860d-02c79c2b30bd",
+      "name": "Dividend Calculation Service",
+      "description": "Calculates the dividend amount payable based on the number of shares held and declared dividend rate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "838ee9c4-e729-f111-860d-02c79c2b30bd",
+      "name": "Collection from Issuer Service",
+      "description": "Receives dividend payments from the issuing company or market infrastructure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3998c8f1-e729-f111-860d-02c79c2b30bd",
+      "name": "Distribution Service",
+      "description": "Credits dividends to customer accounts in cash or additional shares (stock dividend).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a6e0504-e829-f111-860d-02c79c2b30bd",
+      "name": "Tax Handling Service",
+      "description": "Applies withholding tax or tax adjustments according to applicable regulations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f23d8d6-e829-f111-860d-02c79c2b30bd",
+      "name": "Corporate Actions Management Service",
+      "description": "Manages dividend-related events as part of corporate actions processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1e5a2df-e829-f111-860d-02c79c2b30bd",
+      "name": "Reporting & Notification Service",
+      "description": "Provides statements and notifications to customers regarding dividend payments and details.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

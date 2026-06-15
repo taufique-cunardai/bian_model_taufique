@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "81d6cd8a-8f2e-f111-860d-0a3b3de36819",
+  "title": "ClearingServiceTypeValues",
+  "description": "Provides records of cleared transactions for audit, reconciliation, and regulatory reporting.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fab702bb-8f2e-f111-860d-0a3b3de36819",
+      "name": "Transaction Validation Service",
+      "description": "Verifies transaction details (amount, parties, instruments) to ensure correctness and completeness.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01a30acc-8f2e-f111-860d-0a3b3de36819",
+      "name": "Matching & Confirmation Service",
+      "description": "Matches transaction instructions between counterparties to confirm agreement on trade details.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "caa078d9-8f2e-f111-860d-0a3b3de36819",
+      "name": "Netting of Obligations Service",
+      "description": "Aggregates and offsets multiple transactions to determine net payable or receivable positions, reducing the number of settlements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59bdedf7-8f2e-f111-860d-0a3b3de36819",
+      "name": "Risk Management Service",
+      "description": "Applies controls such as margin requirements, collateral checks, and exposure limits to reduce counterparty risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ea2fa04-902e-f111-860d-0a3b3de36819",
+      "name": "Preparation for Settlement Service",
+      "description": "Prepares transactions for final settlement by determining who owes what to whom.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4c37f13-902e-f111-860d-0a3b3de36819",
+      "name": "Intermediary Role Service",
+      "description": "Often involves clearing houses or central counterparties (CCPs) that act as intermediaries between buyers and sellers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5662c22e-902e-f111-860d-0a3b3de36819",
+      "name": "Reporting & Reconciliation Service",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

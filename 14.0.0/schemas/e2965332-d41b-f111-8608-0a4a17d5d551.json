@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e2965332-d41b-f111-8608-0a4a17d5d551",
+  "title": "PostingServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a54a0fbc-d41b-f111-8608-0a4a17d5d551",
+      "name": "Deposit Posting Service",
+      "description": "Records deposits into accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "daee80d5-d41b-f111-8608-0a4a17d5d551",
+      "name": "Transaction Recording",
+      "description": "Captures financial events and posts them to the relevant customer and ledger accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5db83fb-d41b-f111-8608-0a4a17d5d551",
+      "name": "Withdrawal Posting Service",
+      "description": "Records withdrawals from accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4b7a141-811c-f111-8608-0adbd3442159",
+      "name": "Interest Posting Service",
+      "description": "Applies interest accruals or charges to accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9b7a141-811c-f111-8608-0adbd3442159",
+      "name": "Fee Posting Service",
+      "description": "Posts fees, commissions, or charges to customer accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb4e1a48-811c-f111-8608-0adbd3442159",
+      "name": "Account Balance Update",
+      "description": "Updates the available and current balances after a transaction is posted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62ded551-811c-f111-8608-0adbd3442159",
+      "name": "Ledger Integration",
+      "description": "Ensures that postings are reflected in the banks general ledger for accounting and reporting purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c86c38fd-f01e-f111-8608-0247e3f120c3",
+      "name": "Validation & Controls",
+      "description": "Verifies transaction details, account status, and posting rules before recording the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1e8e607-f11e-f111-8608-0247e3f120c3",
+      "name": "Audit & Traceability",
+      "description": "Maintains a record of all postings for auditing, reconciliation, and regulatory compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

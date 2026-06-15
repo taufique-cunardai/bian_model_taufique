@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d26ea814-5928-f111-860d-02cf10b7252b",
+  "title": "PositionTrackingServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fc07ab2a-5928-f111-860d-02cf10b7252b",
+      "name": "Position Monitoring Service",
+      "description": "Tracks real-time and historical positions of assets (e.g., cash, securities) and liabilities (e.g., loans, derivatives).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02c3a844-5928-f111-860d-02cf10b7252b",
+      "name": "Position Aggregation Service",
+      "description": "Consolidates positions across multiple accounts, products, currencies, or business units.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "085b226d-5928-f111-860d-02cf10b7252b",
+      "name": "Valuation & Mark-to-Market Service",
+      "description": "Updates positions based on current market values to reflect accurate exposure and portfolio value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bdacca88-5928-f111-860d-02cf10b7252b",
+      "name": "Exposure & Risk Tracking Service",
+      "description": "Measures financial exposure, including credit, market, and liquidity risks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3cfed99d-5928-f111-860d-02cf10b7252b",
+      "name": "Transaction Impact Tracking Service",
+      "description": "Reflects how transactions (trades, payments, settlements) affect positions over time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d2fedaf-5928-f111-860d-02cf10b7252b",
+      "name": "Reconciliation & Accuracy Service",
+      "description": "Ensures positions match records from trading systems, custody, and accounting systems.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a30a3dbd-5928-f111-860d-02cf10b7252b",
+      "name": "Reporting & Analytics Service",
+      "description": "Provides reports on positions, exposures, performance, and trends for decision-making and compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

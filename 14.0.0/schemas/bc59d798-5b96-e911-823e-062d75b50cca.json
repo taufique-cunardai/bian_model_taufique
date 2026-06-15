@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bc59d798-5b96-e911-823e-062d75b50cca",
+  "title": "FinancialTransactionTypeValues",
+  "description": "A classification of Financial Transactions (business events) used in banking systems.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f6f2d2ac-5b96-e911-823e-062d75b50cca",
+      "name": "Pricing Transaction",
+      "description": "Calculates prices, rates, or charges for a product or service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "35d4fe6d-7296-e911-823e-062d75b50cca",
+      "name": "Fee Transaction",
+      "description": "Charges a service fee to a customer or counterparty.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4cbe8d84-7296-e911-823e-062d75b50cca",
+      "name": "Withdrawal Transaction",
+      "description": "Decreases funds held in a customer account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b927bf8d-7296-e911-823e-062d75b50cca",
+      "name": "Deposit Transaction",
+      "description": "Increases funds held by the bank on behalf of a customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64f795bc-e498-e911-827a-06decc849e90",
+      "name": "Payment Transaction",
+      "description": "Transfers funds from one party to another.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a3496d1-e498-e911-827a-06decc849e90",
+      "name": "Clearing Transaction",
+      "description": "Matches and confirms obligations between parties before final settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7aa42fd-e498-e911-827a-06decc849e90",
+      "name": "Settlement Transaction",
+      "description": "Finalizes obligations by exchanging funds or assets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51d364bc-d613-ed11-83b7-0696aac3fa19",
+      "name": "Repayment Transaction",
+      "description": "Reduces outstanding principal and/or interest on a loan or credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "078c8f97-21eb-f011-8bd8-a402b9460f22",
+      "name": "Interest Transaction",
+      "description": "Records earned or owed interest on financial products.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4c864d4-b5eb-f011-8bd9-a402b9460f22",
+      "name": "Reconciliation Transaction",
+      "description": "Compares balances between systems or parties to identify differences.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0fc964d4-b5eb-f011-8bd9-a402b9460f22",
+      "name": "Securities Transaction",
+      "description": "Buys, sells, or transfers financial instruments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

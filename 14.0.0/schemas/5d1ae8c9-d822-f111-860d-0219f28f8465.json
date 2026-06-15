@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5d1ae8c9-d822-f111-860d-0219f28f8465",
+  "title": "RedemptionCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5ae8beeb-d822-f111-860d-0219f28f8465",
+      "name": "Fixed Conversion Redemption Calculation",
+      "description": "A predefined, constant rate is used to convert rewards into value.\r\n\r\nComment:\r\nExample: 100 points = €1",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7832fa4a-d922-f111-860d-0219f28f8465",
+      "name": "Tiered Conversion Redemption Calculation",
+      "description": "The conversion rate varies based on thresholds or tiers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de15d67a-d922-f111-860d-0219f28f8465",
+      "name": "Dynamic Conversion Redemption Calculation",
+      "description": "The value of rewards fluctuates based on external or internal factors.\r\n\r\nInfluenced by demand, time, partner pricing, or promotions.\r\n\r\nComment:\r\nExample: Travel points worth more during off-peak periods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f43c9f9a-d922-f111-860d-0219f28f8465",
+      "name": "Market-Linked Conversion Redemption Calculation",
+      "description": "Redemption value is linked to real-time market prices or partner valuations.\r\n\r\nComment:\r\nExample: Points converted to airline tickets based on current ticket price.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72a664b5-d922-f111-860d-0219f28f8465",
+      "name": "Fixed Value Redemption Calculation",
+      "description": "Rewards correspond to specific predefined items or services, not a formula.\r\n\r\nComment:\r\nExample: 10,000 points = €100 voucher (fixed reward option).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "da9431cf-d922-f111-860d-0219f28f8465",
+      "name": "Partial Conversion Redemption Calculation",
+      "description": "Rewards can be redeemed in flexible amounts, calculated proportionally.\r\n\r\nComment:\r\nExample: 1 point = €0.01, allowing any redemption amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "911f3ef0-d922-f111-860d-0219f28f8465",
+      "name": "Full Redemption Calculation",
+      "description": "Redemption requires a complete set of points for a specific reward.\r\n\r\nComment:\r\nExample: 5,000 points required for a gift item.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1be55a06-da22-f111-860d-0219f28f8465",
+      "name": "Bonus-Adjusted Conversion Redemption Calculation",
+      "description": "The base calculation is enhanced by bonuses or multipliers.\r\n\r\nComment:\r\nExample: 20% extra value during promotions or for premium customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "320c491a-da22-f111-860d-0219f28f8465",
+      "name": "Hybrid Conversion Redemption Calculation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

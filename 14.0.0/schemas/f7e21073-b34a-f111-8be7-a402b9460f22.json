@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f7e21073-b34a-f111-8be7-a402b9460f22",
+  "title": "SavingsAccountInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1097aa7d-b34a-f111-8be7-a402b9460f22",
+      "name": "Savings Account Holder or Customer",
+      "description": "The party that owns, operates or is financially responsible for the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0358b5aa-b34a-f111-8be7-a402b9460f22",
+      "name": "Savings Account Servicer or Bank",
+      "description": "The financial institution responsible for administering and servicing the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ed2f324-c84a-f111-bb23-06669ed13d6f",
+      "name": "Joint Account Holder",
+      "description": "A party that shares ownership rights and responsibilities for the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "96f60933-c84a-f111-bb23-06669ed13d6f",
+      "name": "Beneficiary",
+      "description": "A party designated to receive benefits, funds or entitlements associated with the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd061e45-c84a-f111-bb23-06669ed13d6f",
+      "name": "Authorized Signatory",
+      "description": "A party authorized to approve, validate or initiate transactions relating to the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e0be157-c84a-f111-bb23-06669ed13d6f",
+      "name": "Nominee",
+      "description": "A party appointed to act on behalf of the account holder in relation to the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a5a1d67-c84a-f111-bb23-06669ed13d6f",
+      "name": "Regulatory Authority",
+      "description": "An external authority involved in supervision, compliance or regulatory oversight relating to the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bbbb578-c84a-f111-bb23-06669ed13d6f",
+      "name": "Account Administrator",
+      "description": "A party responsible for operational maintenance and administrative management of the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "404a1d8a-c84a-f111-bb23-06669ed13d6f",
+      "name": "Trustee",
+      "description": "A party that manages or oversees the savings account arrangement on behalf of another party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76d5689e-c84a-f111-bb23-06669ed13d6f",
+      "name": "Guarantor",
+      "description": "A party that provides assurance or financial backing associated with obligations linked to the savings account arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

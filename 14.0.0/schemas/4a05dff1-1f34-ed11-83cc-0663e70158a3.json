@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a05dff1-1f34-ed11-83cc-0663e70158a3",
+  "title": "InvestmentPortfolioAnalysisTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8957dc01-2034-ed11-83cc-0663e70158a3",
+      "name": "Investment Portfolio Valuation",
+      "description": "The analytical process of determining the current (or projected) worth of an investment portfolio (as financial instrument/asset).\r\n\r\nComment: \r\n- Valuation is a quantitative process of determining the fair value of an asset or a firm.https://www.investopedia.com/terms/v/valuation.asp\r\n\r\n- Portfolio valuation is challenging: It requires an in-depth understanding of markets, the asset in question, the company and its competitors, and financial and nonfinancial information. (Deloitte)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54a0501d-2034-ed11-83cc-0663e70158a3",
+      "name": "Investment Portfolio Sensitivity Analysis",
+      "description": "The analytical process of determining the Sensitivity of an investment portfolio (as financial instrument/asset).\r\n\r\nSensitivity refers to the impact on a security given a change in some relevant factor. Sensitivity analysis determines how different values of an independent variable affect a particular dependent variable under a given set of assumptions.\r\nhttps://www.investopedia.com/terms/s/sensitivityanalysis.asp",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8f7c74c-2034-ed11-83cc-0663e70158a3",
+      "name": "Investment Portfolio Performance Analysis",
+      "description": "The analytical process of determining the performace of an investment portfolio.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

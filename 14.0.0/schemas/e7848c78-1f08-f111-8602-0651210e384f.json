@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e7848c78-1f08-f111-8602-0651210e384f",
+  "title": "CashbackTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "74704487-1f08-f111-8602-0651210e384f",
+      "name": "Eligibility Criteria",
+      "description": "Eligibility Criteria\r\n- Who qualifies for cashback\r\n- Account status requirements (active, verified, etc.)\r\n- Eligible customers, employees, or partners",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ab480db-1f08-f111-8602-0651210e384f",
+      "name": "Qualifying Transactions",
+      "description": "Qualifying Transactions\r\n- Types of purchases or activities that earn cashback\r\n- Excluded transactions (fees, taxes, refunds, etc.)\r\n- Minimum spend requirements",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "178be6f2-1f08-f111-8602-0651210e384f",
+      "name": "Cashback Rate",
+      "description": "Cashback Rate\r\n- Percentage or fixed amount offered\r\n- Tiered rates (e.g., 2% standard, 5% promotional)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ad2e708-2008-f111-8602-0651210e384f",
+      "name": "Calculation Method",
+      "description": "Calculation Method\r\n- How cashback is calculated\r\n- Whether calculated before or after discounts/taxes\r\n- Rounding rules",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e55a51e-2008-f111-8602-0651210e384f",
+      "name": "Crediting Terms",
+      "description": "Crediting Terms\r\n- When cashback is credited (immediate, monthly, quarterly)\r\n- Pending or approval period",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b2c2334-2008-f111-8602-0651210e384f",
+      "name": "Redemption Rules",
+      "description": "Redemption Rules\r\n- Minimum redemption threshold\r\n- Redemption method (bank transfer, voucher, account credit)\r\n- Processing timelines",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7807d85f-2008-f111-8602-0651210e384f",
+      "name": "Expiry / Forfeiture",
+      "description": "Expiry / Forfeiture\r\n- Expiration period\r\n- Conditions under which cashback is cancelled",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f7cfd75-2008-f111-8602-0651210e384f",
+      "name": "Caps and Limits",
+      "description": "Caps and Limits:\r\n- Maximum cashback per transaction\r\n- Monthly or annual limits",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0efb9389-2008-f111-8602-0651210e384f",
+      "name": "Modification and Termination",
+      "description": "Modification and Termination\r\n- Right to amend terms\r\n- Conditions for suspension or termination",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

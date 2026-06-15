@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "168eae46-1ba3-ed11-83f5-06154008be8f",
+  "title": "FeeCalculationFrequencyValues",
+  "description": "How frequently the fee/charge is calculated. (Open Banking)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8587fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "OnClosing",
+      "description": "This fee is triggered on closing of a product",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8787fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "OnOpening",
+      "description": "This fee is triggered on opening of a product",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8887fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "ChargingPeriod",
+      "description": "This fee is triggered at the end of each charging period",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8987fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "Daily",
+      "description": "This fee is triggered every day",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a87fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerItem",
+      "description": "This fee is triggered by the processing of an item on the product",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b87fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "Monthly",
+      "description": "This fee is triggered monthly",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c87fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "OnAnniversary",
+      "description": "This fee is triggered on the anniversary of opening the product",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d87fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "Other",
+      "description": "Other Fee Frequency",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e87fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerHundredPounds",
+      "description": "This fee is triggered for every hundred pounds withdrawn",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f87fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerHour",
+      "description": "This fee is triggered every hour",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9087fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerOccurrence",
+      "description": "This fee is triggered per occurrence of the transaction or service. This differs from PerItem, in that if a batch of items is processed at the same time, a PerOccurrence fee would incur a single charge, whereas a PerItem fee would be charged for each item within the batch.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9187fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerSheet",
+      "description": "This fee is levied on every statement sheet",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9287fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerTransaction",
+      "description": "The fee is charged for each transaction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9387fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerTransactionAmount",
+      "description": "The amount stated is levied for each transaction processed",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9487fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "PerTransactionPercentage",
+      "description": "The fee amount is the given percentage of the transaction processed and is levied for each transaction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9587fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "Quarterly",
+      "description": "This fee is triggered at the end of every quarter",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9687fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "SixMonthly",
+      "description": "This fee is triggered at the end of every 6 month period",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9787fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "StatementMonthly",
+      "description": "This fee is triggered based on a monthly statement period",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9887fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "Weekly",
+      "description": "The fee is triggered weekly",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9987fd68-1ba3-ed11-83f5-06154008be8f",
+      "name": "Yearly",
+      "description": "This fee is triggered yearly",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

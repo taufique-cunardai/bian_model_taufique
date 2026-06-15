@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1dc04c92-f91e-f111-8608-0247e3f120c3",
+  "title": "FeeProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "467a2fb3-f91e-f111-8608-0247e3f120c3",
+      "name": "Transaction Fee Feature",
+      "description": "A fee charged for specific customer transactions.\r\n\r\nComment:\r\nExample:\r\n\r\nATM withdrawal fee\r\n\r\nFund transfer fee\r\n\r\nCard payment fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95e591c4-f91e-f111-8608-0247e3f120c3",
+      "name": "Maintenance Fee Feature",
+      "description": "Service / Maintenance Fee Feature: A fee charged for ongoing account or product maintenance.\r\n\r\nComment:\r\nExample:\r\n\r\nMonthly account maintenance fee\r\n\r\nAnnual credit card membership fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5c8746e1-f91e-f111-8608-0247e3f120c3",
+      "name": "Penalty Fee Feature",
+      "description": "A fee charged for failure to meet contractual obligations or deadlines.\r\n\r\nComment:\r\nExample:\r\n\r\nLate payment fee on a loan or credit card\r\n\r\nOverdraft fee for exceeding account balance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24d78af2-f91e-f111-8608-0247e3f120c3",
+      "name": "Subscription Fee Feature",
+      "description": "Subscription / Access Fee Feature: A periodic fee charged for access to premium services or benefits.\r\n\r\nComment:\r\nExample:\r\n\r\nSubscription fee for online banking premium features\r\n\r\nAnnual fee for access to concierge or exclusive services",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65265c11-fa1e-f111-8608-0247e3f120c3",
+      "name": "Usage-Based Fee Feature",
+      "description": "A fee based on the extent or frequency of product usage.\r\n\r\nComment:\r\nExample:\r\n\r\nCharges for exceeding a number of free transactions per month\r\n\r\nFee per international wire transfer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4331e920-fa1e-f111-8608-0247e3f120c3",
+      "name": "Compliance Fee Feature",
+      "description": "A fee applied to cover regulatory, legal, or compliance costs imposed by authorities.\r\n\r\nComment:\r\nExample:\r\n\r\nStamp duty on securities transactions\r\n\r\nKYC verification fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "25f3b72f-fa1e-f111-8608-0247e3f120c3",
+      "name": "Variable Fee Feature",
+      "description": "A fee structure where the amount or rate of the fee varies based on tiers, balances, or customer segments.\r\n\r\nComment:\r\nExample:\r\n\r\nHigher fees for lower account balances\r\n\r\nReduced fees for premium customers or loyalty tiers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8700c545-fa1e-f111-8608-0247e3f120c3",
+      "name": "One-Time Fee Feature",
+      "description": "One-Time / Setup Fee Feature: A single fee charged at the initiation of a product or service.\r\n\r\nComment:\r\nExample:\r\n\r\nLoan processing fee\r\n\r\nAccount opening fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

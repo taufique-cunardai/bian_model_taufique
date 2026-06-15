@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c64a5cb0-dd29-f111-860d-02c79c2b30bd",
+  "title": "DividendTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f3fc9041-de29-f111-860d-02c79c2b30bd",
+      "name": "Cash Dividend",
+      "description": "A dividend paid in cash directly to shareholders accounts.\r\n\r\nComment:\r\nExample\r\nA client holds 1,000 shares of a company paying €0.50 per share → Receives €500 cash dividend",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2208bd65-de29-f111-860d-02c79c2b30bd",
+      "name": "Stock Dividend",
+      "description": "A dividend paid in additional shares instead of cash.\r\n\r\nComment:\r\nExample\r\nA 10% stock dividend → Investor with 1,000 shares receives 100 extra shares",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1b43b7b-de29-f111-860d-02c79c2b30bd",
+      "name": "Property Dividend",
+      "description": "A dividend paid in assets other than cash or shares, such as securities or physical assets.\r\n\r\nComment:\r\nExample\r\nA company distributes shares of a subsidiary → Shareholders receive new company shares instead of cash",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfe6c090-de29-f111-860d-02c79c2b30bd",
+      "name": "Special Dividend",
+      "description": "A one-time, non-recurring dividend paid in addition to regular dividends.\r\n\r\nComment:\r\nCompany sells a business unit and pays €5 per share →\r\nThis is a special dividend",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "487f74b3-de29-f111-860d-02c79c2b30bd",
+      "name": "Interim Dividend",
+      "description": "A dividend paid before final annual profits are confirmed.\r\n\r\nComment:\r\nExample\r\nA company pays €0.30 mid-year → This is an interim dividend",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3e100d8-de29-f111-860d-02c79c2b30bd",
+      "name": "Final Dividend",
+      "description": "A dividend declared after annual results are finalized.\r\n\r\nComment:\r\nExample\r\nAfter year-end results, company pays €0.80 → This is a final dividend",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e60d6ed-de29-f111-860d-02c79c2b30bd",
+      "name": "Dividend Reinvestment",
+      "description": "A dividend where cash is automatically reinvested into additional shares.\r\n\r\nComment:\r\nExample\r\n€500 dividend is reinvested →Investor receives additional fractional shares",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

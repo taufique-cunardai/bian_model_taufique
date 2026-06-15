@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "962521bb-8d2e-f111-860d-0a3b3de36819",
+  "title": "IssuedDeviceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1731eb14-8e2e-f111-860d-0a3b3de36819",
+      "name": "Physical Payment Device",
+      "description": "Tangible devices used for transactions:\r\n\r\nComment:\r\nExamples:\r\nDebit cards, Credit cards, Prepaid cards, Smart cards",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2480d24-8e2e-f111-860d-0a3b3de36819",
+      "name": "Digital or Virtual Device",
+      "description": "Non-physical devices primarily used for digital access or payments\r\n\r\nComment:\r\nExamples:\r\nVirtual cards, Mobile wallets/Payment tokens",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a7480d24-8e2e-f111-860d-0a3b3de36819",
+      "name": "Access or Identification Device",
+      "description": "Used to verify identity or provide secure access\r\n\r\nComment:\r\nExamples:\r\nSecurity tokens, RFID card, SIM-based authenticaion devices",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9035d33-8e2e-f111-860d-0a3b3de36819",
+      "name": "Replacement Device",
+      "description": "Devices issued to replace or supplement existing ones\r\n\r\nComment:\r\nExamples:\r\nReplacement cards or tokens, backup devices",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

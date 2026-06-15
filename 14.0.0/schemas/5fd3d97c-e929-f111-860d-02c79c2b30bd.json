@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5fd3d97c-e929-f111-860d-02c79c2b30bd",
+  "title": "DividendInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5c1f179e-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Declaration Instruction",
+      "description": "A request to declare a dividend, including amount, type, and key dates (e.g., record date, payment date).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "19f749a9-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Entitlement Calculation Instruction",
+      "description": "A request to determine eligible holders and calculate their dividend amounts based on positions and entitlements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6ab6ab7-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Payment Instruction",
+      "description": "A request to distribute dividend amounts (cash or securities) to entitled parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbab6ab7-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Reinvestment Instruction",
+      "description": "A request to reinvest dividends into additional shares or units instead of paying cash (e.g., DRIP).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ae5f0c5-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Withholding Tax Instruction",
+      "description": "A request to calculate and deduct applicable taxes from dividend payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15412cce-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Adjustment Instruction",
+      "description": "A request to correct or modify dividend amounts due to errors, corporate actions, or changes in entitlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "140545d6-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Reversal Instruction",
+      "description": "A request to reverse previously processed dividend payments due to errors or cancellations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c323e1e0-e929-f111-860d-02c79c2b30bd",
+      "name": "Scheduled Dividend Instruction",
+      "description": "A request to process dividends automatically according to predefined schedules or corporate action timelines.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5f53fea-e929-f111-860d-02c79c2b30bd",
+      "name": "Conditional Dividend Instruction",
+      "description": "A request to execute dividend actions only when specific conditions are met (e.g., regulatory approval, profit thresholds).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f240f6f1-e929-f111-860d-02c79c2b30bd",
+      "name": "Dividend Reporting Instruction",
+      "description": "A request to generate reports on dividend declarations, payments, and entitlements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

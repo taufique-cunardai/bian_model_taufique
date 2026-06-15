@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "af7bb989-ab23-f111-860d-0a072f7aa82f",
+  "title": "SweepServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "27b9b9a2-ab23-f111-860d-0a072f7aa82f",
+      "name": "Automatic Fund Transfer",
+      "description": "Moves surplus cash from a primary account to another account or investment vehicle (e.g., savings, money market, or investment account).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6aa666b0-ab23-f111-860d-0a072f7aa82f",
+      "name": "Target Balance",
+      "description": "Sweeps are triggered when the primary account exceeds a predefined balance threshold or falls below a minimum required balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b1d79ba-ab23-f111-860d-0a072f7aa82f",
+      "name": "Interest Optimization",
+      "description": "Ensures excess funds are invested or earn interest instead of remaining idle in a low-interest account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eaefc8c4-ab23-f111-860d-0a072f7aa82f",
+      "name": "Overdraft Coverage",
+      "description": "Can also sweep funds into the primary account to cover shortfalls or overdrafts automatically.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b840c0d2-ab23-f111-860d-0a072f7aa82f",
+      "name": "Frequency & Timing",
+      "description": "Sweeps can occur daily, weekly, or in real-time, depending on bank rules and customer preference.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

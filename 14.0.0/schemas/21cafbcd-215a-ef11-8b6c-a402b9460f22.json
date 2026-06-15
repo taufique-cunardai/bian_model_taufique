@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "21cafbcd-215a-ef11-8b6c-a402b9460f22",
+  "title": "MarketResearchAnalysisTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c6165be4-215a-ef11-8b6c-a402b9460f22",
+      "name": "Customer Need Analysis",
+      "description": "Understanding the needs, preferences, buying behaviors, and decision-making processes of the target customers. This often includes analyzing customer demographics and psychographics",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8165be4-215a-ef11-8b6c-a402b9460f22",
+      "name": "Competitive Analysis",
+      "description": "Identifying key competitors in the market, assessing their strengths and weaknesses, and understanding their strategies. This helps in determining the competitive landscape and positioning a business accordingly",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9165be4-215a-ef11-8b6c-a402b9460f22",
+      "name": "Channel Distribution Analysis",
+      "description": "Analyzing how products or services are delivered to customers, including the effectiveness and efficiency of these channels",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca165be4-215a-ef11-8b6c-a402b9460f22",
+      "name": "Pricing Behavior Analsysis",
+      "description": "Analyzing pricing in the market, understanding how price affects consumer behavior, and determining the best pricing strategy for a product or service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb165be4-215a-ef11-8b6c-a402b9460f22",
+      "name": "Market Segmentation Analysis",
+      "description": "Customer segmentation involves dividing a customer base into distinct groups with similar characteristics. To effectively perform customer segmentation, various specific analyses are applied, each providing insights into different aspects of the customer base like Needs-Based Analysis, Value-Based Segmentation, Cohort Analysis.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cc165be4-215a-ef11-8b6c-a402b9460f22",
+      "name": "Market Forecasting",
+      "description": "Predicting future market conditions based on current data, trends, and statistical models. This can help businesses anticipate changes and plan accordingly",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

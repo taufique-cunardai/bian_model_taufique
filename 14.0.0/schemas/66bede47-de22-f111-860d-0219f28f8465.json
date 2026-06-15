@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "66bede47-de22-f111-860d-0219f28f8465",
+  "title": "RedemptionApplicationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ae7d84f0-de22-f111-860d-0219f28f8465",
+      "name": "Direct Balance Redemption Application",
+      "description": "The redeemed value is applied directly to an account balance.\r\n\r\nComment:\r\nExample: Cashback added to a current account balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c83284fd-de22-f111-860d-0219f28f8465",
+      "name": "Statement Offset Redemption Application",
+      "description": "The value is used to reduce an outstanding statement or liability.\r\n\r\nComment:\r\nExample: Rewards applied to reduce a credit card bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "464c4227-df22-f111-860d-0219f28f8465",
+      "name": "Transaction-Specific Redemption Application",
+      "description": "Redemption value is applied to a particular purchase or transaction chosen by the customer.\r\n\r\nComment:\r\nExample: Using points to pay for a specific online purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80411032-df22-f111-860d-0219f28f8465",
+      "name": "Full Redemption Application",
+      "description": "The redemption must be used entirely at once for a single purpose.\r\n\r\nComment:\r\nExample: A €50 voucher must be spent in one transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "30b78a4f-df22-f111-860d-0219f28f8465",
+      "name": "Partial Redemption Application",
+      "description": "Redeemed value can be applied partially and the remaining balance can be saved for later use.\r\n\r\nComment:\r\nExample: Redeeming 500 points for €5 now, keeping the rest for future use.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c30e664-df22-f111-860d-0219f28f8465",
+      "name": "Split Allocation Redemption Application",
+      "description": "Redeemed rewards are distributed across multiple targets or uses simultaneously.\r\n\r\nComment:\r\nExample: Half of points applied to a bill, half converted into a voucher.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2d3b284-df22-f111-860d-0219f28f8465",
+      "name": "Priority-Based Redemption Application",
+      "description": "Redemption is applied following a predefined priority sequence.\r\n\r\nComment:\r\nExample: Applied first to fees, then interest, then principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4a49b97-df22-f111-860d-0219f28f8465",
+      "name": "Conditional Redemption Application",
+      "description": "Redemption is applied only if certain conditions are met.\r\n\r\nComment:\r\nExample: Cashback applied only if a minimum purchase amount is reached.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8eed20a9-df22-f111-860d-0219f28f8465",
+      "name": "Merchant Redemption Application",
+      "description": "Redemption can be used only at selected merchants or partner networks.\r\n\r\nComment:\r\nExample: Loyalty points usable only at partner stores.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec788cb4-e022-f111-860d-0219f28f8465",
+      "name": "Automatic Redemption Application",
+      "description": "Redemption is applied automatically by the system without customer intervention.\r\n\r\nComment:\r\nExample: Rewards automatically credited to a statement at month-end.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "705132c3-e022-f111-860d-0219f28f8465",
+      "name": "Manual Selection Redemption Application",
+      "description": "The customer chooses how and where to apply the redeemed rewards.\r\n\r\nComment:\r\nExample: Selecting between cash, voucher, or donation options.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec57ebd3-e022-f111-860d-0219f28f8465",
+      "name": "Scheduled Redemption Application",
+      "description": "Redemption is applied at a later time or specific scheduled event.\r\n\r\nComment:\r\nExample: Points redeemed now but applied to the next billing cycle.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

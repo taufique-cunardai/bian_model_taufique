@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0326469d-5048-f111-bb23-06f4feeeb951",
+  "title": "SweepArrangementAccountTypeValues",
+  "description": "A sweep arrangement account is the account structure used to manage and execute the sweep logic, linking source and beneficiary accounts and controlling how funds are moved.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4b6918bf-5048-f111-bb23-06f4feeeb951",
+      "name": "Source Account",
+      "description": "Source Account used to transfer excess or required funds",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "270e8bc8-5048-f111-bb23-06f4feeeb951",
+      "name": "Beneficiary Account",
+      "description": "Beneficiary Account used to receive or provide funds based on sweep rules",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "534f1246-a22e-f111-860d-0a3b3de36819",
+  "title": "Claim MethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "da6b86f0-a22e-f111-860d-0a3b3de36819",
+      "name": "Branch Submission",
+      "description": "The claim is submitted in person at a bank branch or insurer office.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32e4faf6-a22e-f111-860d-0a3b3de36819",
+      "name": "Online Portal",
+      "description": "The claim is submitted digitally through the banks or insurers online platform or mobile application.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "37e4faf6-a22e-f111-860d-0a3b3de36819",
+      "name": "Mail",
+      "description": "The claim is submitted by sending required documents via postal mail or email.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

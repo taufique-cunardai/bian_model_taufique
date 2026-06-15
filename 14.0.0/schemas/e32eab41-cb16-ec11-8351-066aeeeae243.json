@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e32eab41-cb16-ec11-8351-066aeeeae243",
+  "title": "BudgetType",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BudgetTypeName",
+    "BudgetType"
+  ],
+  "properties": {
+    "BudgetTypeName": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Name",
+      "x-related-bo-id": "6bf573d1-14ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Name"
+    },
+    "BudgetType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BudgetTypeValues",
+      "x-related-bo-id": "3715fd9d-0b71-eb11-82fd-06e9e7239879",
+      "x-related-bo-name": "BudgetTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

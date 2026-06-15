@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "01451438-5d28-f111-860d-02cf10b7252b",
+  "title": "PositionTrackingAssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9f74d762-5d28-f111-860d-02cf10b7252b",
+      "name": "Valuation Assessment",
+      "description": "Is an Assessment that determines the current market value of positions using mark-to-market or mark-to-model methods to ensure accurate financial reporting and risk evaluation.\r\n\r\nComment:\r\nExample: A bank holds 1,000 shares of a stock. The system marks the position to the current market price of $50/share, so the total position value is $50,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d91450b7-5d28-f111-860d-02cf10b7252b",
+      "name": "Compliance Assessment",
+      "description": "Is an Assessment that verifies that positions are held in accordance with regulatory, contractual, or internal policy requirements, ensuring compliance and proper authorization.\r\n\r\nComment:\r\nExample: A mutual fund only allows investment-grade bonds. A newly purchased high-yield bond triggers an eligibility check to confirm it complies with fund policy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba848dcd-5d28-f111-860d-02cf10b7252b",
+      "name": "Risk Assessment",
+      "description": "Is an Assessment that evaluates exposure and risk by monitoring the concentration of positions across asset types, counterparties, or geographies, helping to manage and mitigate portfolio risk.\r\n\r\nComment:\r\nExample: A portfolio has 40% invested in a single technology stock. The system flags this concentration as high risk for review.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47a2d1dc-5d28-f111-860d-02cf10b7252b",
+      "name": "Reconciliation Assessment",
+      "description": "Is an Assessment that ensures all changes in positionsdue to trades, transfers, or collateral movementsare correctly recorded, reconciled, and aligned with supporting documentation.\r\n\r\nComment:\r\nExample: A derivative trade is executed, but the settlement record shows a mismatch in the notional amount. The reconciliation assessment flags this for correction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "067b5fe7-5d28-f111-860d-02cf10b7252b",
+      "name": "Liquidity Assessment",
+      "description": "Is an Assessment that checks whether positions can be converted into cash or collateral as required, supporting funding, margin, and settlement obligations.\r\n\r\nComment:\r\nExample: A bank needs to meet a $5 million margin call. It assesses whether its bond holdings can be liquidated quickly enough to cover the payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53c032f4-5d28-f111-860d-02cf10b7252b",
+      "name": "Discrepancy Assessment",
+      "description": "Is an Assessment that identifies errors, mismatches, or missing information in position records and flags them for review or correction to maintain data integrity.\r\n\r\nComment:\r\nExample: A security transfer shows a discrepancy between the trade instruction and custodian record. The exception assessment flags this for manual investigation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

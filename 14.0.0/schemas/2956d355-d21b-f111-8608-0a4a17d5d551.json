@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2956d355-d21b-f111-8608-0a4a17d5d551",
+  "title": "PostingTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "27d78e7f-d21b-f111-8608-0a4a17d5d551",
+      "name": "Eligibility Condition",
+      "description": "Criteria that must be met for posting to occur\r\n\r\nComment:\r\nExample\r\nPosting allowed only if account is active, or loan status is current; overdraft limit not exceeded",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74bc6ea0-d21b-f111-8608-0a4a17d5d551",
+      "name": "Timing Condition",
+      "description": "Rules about when a posting occurs, including business days, cut-off times, or posting schedules\r\n\r\nComment:\r\nExample\r\nLoan repayment posted only on working days; fund transfer scheduled at 2 PM daily cut-off",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b81fdb8-d21b-f111-8608-0a4a17d5d551",
+      "name": "Allocation Condition",
+      "description": "Rules about how the posted amount is split across accounts or components\r\n\r\nComment:\r\nExample\r\nPayment allocated first to fees, then interest, then principal; deposit split 60% to savings, 40% to term deposit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49cb1ad3-d21b-f111-8608-0a4a17d5d551",
+      "name": "Limit Condition",
+      "description": "Minimum or maximum amounts for posting execution\r\n\r\nComment:\r\nExample\r\nPosting only occurs if payment ≥ €10; maximum withdrawal posting capped at €5,000 per day",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c78bede5-d21b-f111-8608-0a4a17d5d551",
+      "name": "Conversion Condition",
+      "description": "Rules about which currency or FX rate to use\r\n\r\nComment:\r\nExample:\r\nForeign currency deposit posted using prevailing USD/EUR exchange rate; FX gain/loss calculated",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e5d1200-d31b-f111-8608-0a4a17d5d551",
+      "name": "Fee Application Condition",
+      "description": "Rules about when fees or charges are applied during posting\r\n\r\nComment:\r\nExample:\r\nLate payment fee applied only if repayment is after due date; monthly maintenance fee posted on first business day",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b69dc012-d31b-f111-8608-0a4a17d5d551",
+      "name": "Interest Condition",
+      "description": "Rules for interest calculation and posting\r\n\r\nComment:\r\nExample:\r\nInterest credited monthly on minimum balance; accrued daily but posted monthly",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f715df3c-d31b-f111-8608-0a4a17d5d551",
+      "name": "Approval Condition",
+      "description": "Requirement of prior approval for posting\r\n\r\nComment:\r\nExample:\r\nLarge fund transfer postings require manager approval; loan disbursement posting requires credit committee approval",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8a10a53-d31b-f111-8608-0a4a17d5d551",
+      "name": "Recurring Condition",
+      "description": "Rules for periodic or recurring postings\r\n\r\nComment:\r\nExample:\r\nMonthly standing instruction for rent, or weekly payroll posting",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "054b8369-d31b-f111-8608-0a4a17d5d551",
+      "name": "Event-Based Posting Condition",
+      "description": "Posting triggered by a specific event or condition\r\n\r\nComment:\r\nExample:\r\nInterest posted only if balance exceeds €1,000; loyalty reward credited when transactions > 5 per month",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c57507e-d31b-f111-8608-0a4a17d5d551",
+      "name": "Carry-Over Condition",
+      "description": "Rules for handling leftover amounts\r\n\r\nComment:\r\nExample:\r\nPartial payment applied to principal first, remainder carried forward to next posting cycle",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

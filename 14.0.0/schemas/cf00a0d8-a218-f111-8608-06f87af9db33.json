@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cf00a0d8-a218-f111-8608-06f87af9db33",
+  "title": "ChargebackCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c4bf37ee-a218-f111-8608-06f87af9db33",
+      "name": "Chargeback Full Amount Calculation",
+      "description": "The entire transaction amount is reversed.\r\n\r\nComment:\r\nExample:\r\nTransaction: €200\r\nChargeback amount: €200",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "887b5bfd-a218-f111-8608-06f87af9db33",
+      "name": "Chargeback Partial Amount Calculation",
+      "description": "Only a portion of the transaction amount is refunded.\r\n\r\nComment:\r\nExample:\r\nTransaction: €150\r\nDisputed portion: €60\r\nChargeback amount: €60",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f2f81109-a318-f111-8608-06f87af9db33",
+      "name": "Chargeback Fee-Inclusive Calculation",
+      "description": "Calculation includes administrative or processing fees along with the chargeback amount.\r\n\r\nComment:\r\nExample:\r\nDisputed transaction: €100\r\nChargeback fee: €20\r\nTotal impact: €120",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a12c6f14-a318-f111-8608-06f87af9db33",
+      "name": "Chargeback Currency-Adjusted Calculation",
+      "description": "Chargeback amount adjusted for currency exchange rates if original transaction and refund are in different currencies.\r\n\r\nComment:\r\nExample:\r\nTransaction: $100\r\nRefund in EUR: €95 based on FX rate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90a81b20-a318-f111-8608-06f87af9db33",
+      "name": "Chargeback Net Adjustment Calculation",
+      "description": "Final chargeback amount calculated after deducting previous refunds, partial settlements, or adjustments.\r\n\r\nComment:\r\nExample:\r\nTransaction: €200\r\nPrior refund: €50\r\nFinal chargeback: €150",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "586ac632-a318-f111-8608-06f87af9db33",
+      "name": "Chargeback Interest or Compensation Calculation",
+      "description": "Chargeback amount includes interest or compensation due to processing delays or regulatory requirements.\r\n\r\nComment:\r\nExample:\r\nDisputed €100 transaction\r\nAdditional €5 interest for delay\r\nTotal chargeback: €105",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

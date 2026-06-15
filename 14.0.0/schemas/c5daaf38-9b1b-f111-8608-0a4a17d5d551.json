@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c5daaf38-9b1b-f111-8608-0a4a17d5d551",
+  "title": "RolloverProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6800734f-9b1b-f111-8608-0a4a17d5d551",
+      "name": "Rollover Term Deposit",
+      "description": "Upon the maturity of a Certificate of Deposit (CD) or Fixed Deposit (FD), the bank automatically reinvests the principal (and sometimes the interest) into a new, similar term deposit.\r\n\r\nComment:\r\nExamples: A 1-year Fixed Deposit that, upon reaching 12 months, automatically renews for another 1-year term at the current interest rate, unless the customer instructs the bank otherwise.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4024c67-9b1b-f111-8608-0a4a17d5d551",
+      "name": "Rollover Loan",
+      "description": "A loan that is automatically renewed if not repaid in full by its maturity date. The remaining debt is carried over to a new loan contract.\r\n\r\nComment:\r\nExamples:\r\nPayday Loans: Short-term loans that, if unpaid, are extended to a new maturity date with additional fees.\r\nLombard Loans: Loans secured by collateral (like securities) that are rolled over continuously.\r\nRolling Credits/Revolving Credit: Credit facilities that automatically renew as they are paid off, such as credit cards.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a3f6980-9b1b-f111-8608-0a4a17d5d551",
+      "name": "Retirement Account Rollover",
+      "description": "The transfer of funds from one tax-advantaged retirement plan to another (e.g., from an old employers 401(k) to a new 401(k) or an Individual Retirement Account (IRA)) without incurring immediate taxes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "96ec639b-9b1b-f111-8608-0a4a17d5d551",
+      "name": "Forex Rollover",
+      "description": "In currency trading, this is the process of holding an open position overnight. Because forex positions must be settled in two days, a rollover closes the position at the end of the day and simultaneously opens it for the next day, avoiding physical delivery of the currency.\r\n\r\nComment:\r\nExamples: A trader holding a EUR/USD pair overnight will be credited or debited interest based on the interest rate difference between the Euro and the US Dollar",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0922f8ad-9b1b-f111-8608-0a4a17d5d551",
+      "name": "Rollover Mortgage",
+      "description": "A mortgage with a short-term maturity (e.g., 3, 6, or 12 months) that is automatically renewed at the prevailing interest rate\r\n\r\nComment:\r\nExample: A 5-year mortgage consisting of annual tranches (1-year contracts) that are automatically rolled over at the new, current rate each year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

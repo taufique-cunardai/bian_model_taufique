@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f37bf042-1f16-f111-8608-06d087c72731",
+  "title": "ComplianceAsssessmentTypeValues",
+  "description": "Ensures customer information is properly protected.\r\n\r\nIncludes:\r\nData security controls\r\nAccess management\r\nConfidentiality standards\r\nCybersecurity policy compliance",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1ee43474-1f16-f111-8608-06d087c72731",
+      "name": "Regulatory Compliance Assessment",
+      "description": "Evaluates adherence to laws and supervisory requirements.\r\n\r\nIncludes:\r\nCentral bank regulations\r\nCapital adequacy requirements\r\nLiquidity standards\r\nConsumer protection laws\r\nRegulatory reporting accuracy",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6359b394-1f16-f111-8608-06d087c72731",
+      "name": "AML & CFT Compliance Assessment",
+      "description": "Ensures compliance with Anti-Money Laundering and Counter-Terrorist Financing rules.\r\n\r\nIncludes:\r\nKYC (Know Your Customer) procedures\r\nCustomer due diligence (CDD)\r\nSuspicious transaction monitoring\r\nSanctions screening\r\nReporting suspicious activities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de7642b0-1f16-f111-8608-06d087c72731",
+      "name": "Internal Policy Compliance Assessment",
+      "description": "Checks whether employees follow internal policies and procedures.\r\n\r\nIncludes:\r\nCredit approval limits\r\nDelegation of authority\r\nOperational procedures\r\nCode of conduct compliance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7af7b3bb-1f16-f111-8608-06d087c72731",
+      "name": "Operational Compliance Assessment",
+      "description": "Ensures processes follow regulatory and internal standards.\r\n\r\nIncludes:\r\nTransaction processing compliance\r\nDocumentation accuracy\r\nRecord-keeping requirements\r\nSLA adherence",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c11fd2c8-1f16-f111-8608-06d087c72731",
+      "name": "Data Protection & Privacy Compliance Assessment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78847dda-1f16-f111-8608-06d087c72731",
+      "name": "Ethical & Governance Compliance Assessment",
+      "description": "Focuses on corporate governance and ethical standards.\r\n\r\nIncludes:\r\nConflict of interest management\r\nBoard oversight effectiveness\r\nWhistleblowing systems\r\nTransparency and disclosure practices",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2648d6e7-1f16-f111-8608-06d087c72731",
+      "name": "Audit & Control Compliance Assessment",
+      "description": "Conducted through internal or external audits.\r\n\r\nIncludes:\r\nInternal control testing\r\nAudit findings review\r\nIssue remediation tracking\r\nRisk control effectiveness",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

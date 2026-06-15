@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1a499401-341d-f111-8608-0a664c0a40fd",
+  "title": "OriginationTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "452ea8a5-341d-f111-8608-0a664c0a40fd",
+      "name": "Origination Eligibility Condition",
+      "description": "Conditions that the customer must meet to obtain the product.\r\n\r\nComment:\r\nExample: Minimum age 18, minimum income €2,000/month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "338f23bc-341d-f111-8608-0a664c0a40fd",
+      "name": "Origination Financial Condition",
+      "description": "Define interest rates, fees, repayment schedules, and limits.\r\n\r\nComment:\r\nExample: Loan interest = 5% annually, monthly installment €500.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1790c6d5-341d-f111-8608-0a664c0a40fd",
+      "name": "Origination Collateral Condition",
+      "description": "Requirements for securing the product, if applicable.\r\n\r\nComment:\r\nExample: Mortgage loan requires property as collateral.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb28e5e7-341d-f111-8608-0a664c0a40fd",
+      "name": "Origination Compliance Condition",
+      "description": "Regulatory and KYC obligations.\r\n\r\nComment:\r\nExample: Customer must submit proof of identity and address.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c024fff1-341d-f111-8608-0a664c0a40fd",
+      "name": "Origination Event-Based Condition",
+      "description": "Conditions that trigger specific actions during the product lifecycle.\r\n\r\nComment:\r\nExample: Loan repayment due date triggers automatic debit from the customers account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

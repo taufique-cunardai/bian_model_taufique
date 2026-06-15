@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6c0f7afa-da29-f111-860d-02c79c2b30bd",
+  "title": "DividendInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f89de51c-db29-f111-860d-02c79c2b30bd",
+      "name": "Issuer",
+      "description": "The organization that declares and pays the dividend to its shareholders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78a9cc42-db29-f111-860d-02c79c2b30bd",
+      "name": "Investor",
+      "description": "The person or entity that owns shares and is entitled to receive dividends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "17ee335d-db29-f111-860d-02c79c2b30bd",
+      "name": "Bank",
+      "description": "The bank or financial institution responsible for distributing dividend payments to shareholders on behalf of the company.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1f7be67-db29-f111-860d-02c79c2b30bd",
+      "name": "Custodian",
+      "description": "The bank or financial institution that holds shares on behalf of investors and facilitates receipt of dividends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "418a7474-db29-f111-860d-02c79c2b30bd",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee dividend declarations and payments to ensure compliance with corporate and financial regulations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

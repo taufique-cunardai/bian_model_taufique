@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "63696ee5-9618-f111-8608-06f87af9db33",
+  "title": "ChargebackInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ce26c8fd-9618-f111-8608-06f87af9db33",
+      "name": "Cardholder",
+      "description": "The individual or business that initiated the payment using a card and later disputes the transaction.\r\n\r\nComment:\r\nExample:\r\nA customer disputes a €200 online purchase because the goods were never delivered.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09a4d118-9718-f111-8608-06f87af9db33",
+      "name": "Issuing Bank",
+      "description": "The bank that issued the payment card (credit or debit) to the cardholder.\r\n\r\nComment:\r\nExample:\r\nThe customer's bank processes the dispute and sends the chargeback request to the network.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e14aff1e-9718-f111-8608-06f87af9db33",
+      "name": "Merchant",
+      "description": "The business or seller that accepted the card payment for goods or services.\r\n\r\nComment:\r\nExample:\r\nAn online store provides shipping proof to contest the chargeback.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e64aff1e-9718-f111-8608-06f87af9db33",
+      "name": "Acquirer",
+      "description": "The bank or payment institution that processes card payments on behalf of the merchant.\r\n\r\nComment:\r\nExample:\r\nThe merchants payment processor forwards the chargeback case.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90ef3abf-9718-f111-8608-06f87af9db33",
+      "name": "Card Network",
+      "description": "The payment network that connects issuing banks and acquiring banks and governs chargeback rules.\r\n\r\nComment:\r\nExamples: Visa, Mastercard, American Express.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

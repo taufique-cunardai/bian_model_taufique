@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f6cea758-a326-f111-860d-0271c902ca61",
+  "title": "SafeKeepingTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1135337b-a326-f111-860d-0271c902ca61",
+      "name": "Asset Deposit Transaction",
+      "description": "An action where assets are placed into safe keeping for protection or custody.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51a7de85-a326-f111-860d-0271c902ca61",
+      "name": "Asset Withdrawal Transaction",
+      "description": "An action where assets are removed from safe keeping, either partially or fully.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75fe7d90-a326-f111-860d-0271c902ca61",
+      "name": "Asset Release Transaction",
+      "description": "An action where assets are released according to authorization rules, such as dual or owner approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7afe7d90-a326-f111-860d-0271c902ca61",
+      "name": "Asset Allocation Transaction",
+      "description": "An action where assets are assigned or linked to specific agreements, obligations, or purposes while in safe keeping.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb5f4ca2-a326-f111-860d-0271c902ca61",
+      "name": "Security Update Transaction",
+      "description": "An action that applies or modifies the protection level of assets, such as high-security custody or restricted access.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58534eaf-a326-f111-860d-0271c902ca61",
+      "name": "Safe Keeping Adjustment Transaction",
+      "description": "An action that modifies asset records, corrects errors, or updates allocations in the safe keeping system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f2696b7-a326-f111-860d-0271c902ca61",
+      "name": "Safe Keeping Transfer Transaction",
+      "description": "An action where assets are moved between safe keeping accounts or locations while maintaining security and custody integrity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f85c6bf-a326-f111-860d-0271c902ca61",
+      "name": "Correction Transaction",
+      "description": "An action that reverses or corrects a previously recorded transaction related to assets in custody.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

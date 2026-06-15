@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "127644e1-331d-f111-8608-0a664c0a40fd",
+  "title": "OriginationServiceTypeValues",
+  "description": "Capturing the customers request for a product.\r\n\r\nComment:\r\nExample: A customer submits a loan application online or at the branch.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f4858e25-341d-f111-8608-0a664c0a40fd",
+      "name": "Application Submission Service",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed2ad842-341d-f111-8608-0a664c0a40fd",
+      "name": "Document Verification Service",
+      "description": "Verifying KYC, identity, and collateral documents.\r\n\r\nComment:\r\nExample: Checking ID, address proof, and property documents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6512b24c-341d-f111-8608-0a664c0a40fd",
+      "name": "Credit Assessment Service",
+      "description": "Evaluating the customers creditworthiness and risk.\r\n\r\nComment:\r\nExample: Calculating credit score and debt-to-income ratio.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af8dea59-341d-f111-8608-0a664c0a40fd",
+      "name": "Authorization Service",
+      "description": "Approval & Authorization Service: Approving or rejecting the origination request based on evaluation.\r\n\r\nComment:\r\nExample: Credit committee approves a mortgage loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbd6cf69-341d-f111-8608-0a664c0a40fd",
+      "name": "Product Activation Service",
+      "description": "Activating the financial product for customer use after approval.\r\n\r\nComment:\r\nExample: Disbursing funds for a loan or issuing a credit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbb93276-341d-f111-8608-0a664c0a40fd",
+      "name": "Notification Service",
+      "description": "Informing the customer about the status of the origination process.\r\n\r\nComment:\r\nExample: Email or SMS confirming loan approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

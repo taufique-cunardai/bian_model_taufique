@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a507356d-e617-f111-8608-06e02f402b61",
+  "title": "RolloverCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f2113879-e617-f111-8608-06e02f402b61",
+      "name": "Principal Only Rollover Calculation",
+      "description": "Only the original principal amount is rolled over into the new term, while the interest earned is paid out separately.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b73bbac1-3d19-f111-8608-060ba89e9853",
+      "name": "Principal Plus Interest Rollover Calculation",
+      "description": "Both principal and accrued interest are combined and rolled over into the new period, increasing the base amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1b780d8-3d19-f111-8608-060ba89e9853",
+      "name": "Partial Rollover Calculation",
+      "description": "Only a portion of the matured amount is rolled over, while the remainder is paid to the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34b2bae2-3d19-f111-8608-060ba89e9853",
+      "name": "Adjusted Balance Calculation",
+      "description": "The rollover amount is recalculated after deducting fees, taxes, or charges.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d5bd4ea-3d19-f111-8608-060ba89e9853",
+      "name": "Repriced Rollover Calculation",
+      "description": "The rollover amount remains the same, but interest is recalculated based on a new interest rate for the next period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

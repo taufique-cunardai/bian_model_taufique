@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "27757eca-db22-f111-860d-0219f28f8465",
+  "title": "RedemptionPaymentModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9f90f30e-dc22-f111-860d-0219f28f8465",
+      "name": "Cash Redemption Payment",
+      "description": "he redeemed value is paid out as cash.\r\n\r\nDelivered via bank transfer, ATM withdrawal, or over-the-counter.\r\n\r\nComment:\r\nExample: €50 cashback transferred to a bank account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99c0d5ed-dc22-f111-860d-0219f28f8465",
+      "name": "Account Credit Redemption Payment",
+      "description": "The value is credited directly to an account linked to the product.\r\n\r\nReduces balance or increases available funds.\r\n\r\nComment:\r\nExample: Cashback credited to a current account or card balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "141c2704-dd22-f111-860d-0219f28f8465",
+      "name": "Statement Credit Redemption Payment",
+      "description": "The redemption is applied as a credit against outstanding balances.\r\n\r\nCommon in credit cards to reduce dues.\r\n\r\nComment:\r\nExample: €30 applied to reduce the monthly statement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f89cb19-dd22-f111-860d-0219f28f8465",
+      "name": "Voucher Redemption Payment",
+      "description": "Voucher / Coupon Redemption Payment: The value is delivered as a voucher, coupon, or gift card.\r\n\r\nRedeemable at specific merchants or platforms.\r\n\r\nComment:\r\nExample: €25 retail gift card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fba10039-dd22-f111-860d-0219f28f8465",
+      "name": "Goods Fulfillment Redemption Payment",
+      "description": "Rewards are delivered as physical products.\r\n\r\nRequires logistics and delivery handling.\r\n\r\nComment:\r\nExample: Electronics, merchandise, or gifts shipped to the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c28f974c-dd22-f111-860d-0219f28f8465",
+      "name": "Service Fulfillment Redemption Payment",
+      "description": "The value is provided as a service or experience.\r\n\r\nComment:\r\nExample: Travel booking, subscription, or event access.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d30c159-dd22-f111-860d-0219f28f8465",
+      "name": "Digital Wallet Redemption Payment",
+      "description": "The redeemed value is transferred to a digital wallet or e-money account.\r\n\r\nComment:\r\nExample: Funds sent to a mobile wallet for spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1ebed69-dd22-f111-860d-0219f28f8465",
+      "name": "Third-Party Redemption Payment",
+      "description": "Payment is made to a designated third party on behalf of the customer.\r\n\r\nComment:\r\nExample: Paying a bill, loan installment, or merchant directly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9da2ca7a-dd22-f111-860d-0219f28f8465",
+      "name": "Points Transfer Redemption Payment",
+      "description": "Rewards are transferred to another loyalty or partner program instead of cashing out.\r\n\r\nComment:\r\nExample: Converting bank points to airline miles.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b713090-dd22-f111-860d-0219f28f8465",
+      "name": "Hybrid Redemption Payment",
+      "description": "A combination of multiple payment forms.\r\n\r\nComment:\r\nExample: Part cash + part voucher.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

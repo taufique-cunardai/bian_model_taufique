@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a5d05817-a118-f111-8608-06f87af9db33",
+  "title": "ChargebackReasonCodeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a817364f-a118-f111-8608-06f87af9db33",
+      "name": "Fraud-Related Chargeback",
+      "description": "These occur when the cardholder claims they did not authorize the transaction.\r\n\r\nComment:\r\nExamples\r\nCard-Not-Present Fraud (CNP Fraud): Unauthorized transaction in online, phone, or mail-order sales.\r\n\r\nCard-Present Fraud (Counterfeit/Skimming): Fraudulent use of a physical card in-store.\r\n\r\nAccount Takeover: The cardholders account was compromised, and transactions were made without consent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd88f761-a118-f111-8608-06f87af9db33",
+      "name": "Authorization-Related Chargeback",
+      "description": "These arise when the merchant processes a transaction without proper authorization.\r\n\r\nComment:\r\nExamples:\r\nTransaction Not Authorized: No prior approval from the cardholder or issuing bank.\r\n\r\nExpired Card: Card used was no longer valid.\r\n\r\nIncorrect Authorization Code: Authorization code did not match or was invalid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c288f761-a118-f111-8608-06f87af9db33",
+      "name": "Processing Error Chargeback",
+      "description": "Chargebacks in this category result from merchant or processor mistakes.\r\n\r\nComment:\r\nExamples:\r\nDuplicate Processing: Transaction posted more than once.\r\n\r\nIncorrect Transaction Amount: Charged more than the agreed or authorized amount.\r\n\r\nIncorrect Currency: Transaction processed in the wrong currency.\r\n\r\nInvalid Transaction: Transaction that does not meet network rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9673475-a118-f111-8608-06f87af9db33",
+      "name": "Consumer Dispute Chargeback",
+      "description": "These occur when the cardholder disputes the transaction due to dissatisfaction or non-receipt.\r\n\r\nComment:\r\nExamples:\r\n\r\nGoods/Services Not Received: Cardholder claims they never received the product or service.\r\n\r\nDefective/Not as Described: Product received but is damaged, defective, or different from what was advertised.\r\n\r\nCanceled Recurring Transaction: Subscription or recurring payment charged after cancellation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "020a1882-a118-f111-8608-06f87af9db33",
+      "name": "Refund Issue Chargeback",
+      "description": "Cardholder claims they should have been refunded but werent.\r\n\r\nComment:\r\nExamples:\r\n\r\nMerchandise Return Not Credited: Returned item but merchant did not refund.\r\n\r\nRefund Not Processed: Refund promised but not applied to card account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6fd5fe90-a118-f111-8608-06f87af9db33",
+      "name": "Complicance Chargeback",
+      "description": "Transactions disputed due to legal, network, or compliance reasons.\r\n\r\nComment\r\nExamples:\r\nIncorrect Merchant Category Code (MCC): Transaction posted under wrong business type.\r\n\r\nViolation of Network Rules: E.g., prohibited items sold, surcharge violations, or cardholder rights infringed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "23115ed8-a118-f111-8608-06f87af9db33",
+      "name": "Other Chargeback",
+      "description": "Catch-all for reasons that dont fit neatly into the above categories.\r\n\r\nComment:\r\nOften includes third-party processor errors, bank mistakes, or chargebacks due to system timeouts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

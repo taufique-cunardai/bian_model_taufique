@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1ad3c683-da1e-f111-8608-0247e3f120c3",
+  "title": "CreditProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c0124bb3-da1e-f111-8608-0247e3f120c3",
+      "name": "Revolving Credit Feature",
+      "description": "Allows the customer to borrow up to a pre-approved credit limit repeatedly, with repayments freeing up available credit for further use.\r\n\r\nComment:\r\nExample: Credit card facilities or overdraft accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72f99dce-da1e-f111-8608-0247e3f120c3",
+      "name": "Term Loan Feature",
+      "description": "Installment / Term Loan Feature: Provides a lump sum of funds that the customer repays over a fixed period through scheduled installments.\r\n\r\nComment:\r\nExample: Personal loans, auto loans, or mortgage loans.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "578a90e4-da1e-f111-8608-0247e3f120c3",
+      "name": "Secured Credit Feature",
+      "description": "Secured Credit Feature: Credit granted against collateral provided by the customer to mitigate risk.\r\n\r\nComment:\r\nExample: Mortgage loan secured by the property or auto loan secured by the vehicle.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb9d84ff-da1e-f111-8608-0247e3f120c3",
+      "name": "Unsecured Credit Feature",
+      "description": "Credit granted without requiring collateral, relying on the customers creditworthiness.\r\n\r\nComment:\r\nExample: Personal loans, credit cards without a deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "182b9312-db1e-f111-8608-0247e3f120c3",
+      "name": "Credit Limit Feature",
+      "description": "Credit Limit / Exposure Feature: Defines the maximum amount of credit a customer can access under a product.\r\n\r\nComment:\r\nExample: Credit card limit or overdraft limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d387ac2f-db1e-f111-8608-0247e3f120c3",
+      "name": "Interest Feature",
+      "description": "Interest / Pricing Feature: Determines how interest is calculated and applied to the borrowed amount.\r\n\r\nComment:\r\nExample: Fixed-rate mortgage vs. variable-rate personal loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "19d45843-db1e-f111-8608-0247e3f120c3",
+      "name": "Repayment Feature",
+      "description": "Repayment / Credit Plan Feature: Defines the schedule, method, and terms of repayment for borrowed funds.\r\n\r\nComment:\r\nExample: Monthly EMI, bullet repayment, or revolving repayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9098b6a-db1e-f111-8608-0247e3f120c3",
+      "name": "Credit Assessment Feature",
+      "description": "Risk / Credit Assessment Feature: Evaluates the customers ability to repay and determines creditworthiness before approval.\r\n\r\nComment:\r\nExample: Credit scoring and collateral evaluation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

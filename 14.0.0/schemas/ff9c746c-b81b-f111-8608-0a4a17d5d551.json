@@ -1,0 +1,275 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ff9c746c-b81b-f111-8608-0a4a17d5d551",
+  "title": "PostingTypeValues",
+  "description": "Posting recording interest earned on a customers deposit or savings account.\r\n\r\nComment:\r\nExample: €50 interest credited to a 12-month savings account.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ae9d648d-b81b-f111-8608-0a4a17d5d551",
+      "name": "Payment Posting",
+      "description": "Recording the actual debit/credit in ledger. \r\n\r\nComment:\r\nExample: Checking account debited €500, supplier account credited €500",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb4064b1-c51b-f111-8608-0a4a17d5d551",
+      "name": "Fund Transfer Posting",
+      "description": "Ledger entries for internal account transfer. \r\n\r\nComment:\r\nExample: Checking account debited, savings account credited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29a5e9b8-c51b-f111-8608-0a4a17d5d551",
+      "name": "Loan Disbursement Posting",
+      "description": "Loan account credited, cash/deposit account debited. \r\n\r\nComment:\r\nExample: Loan account credited €10,000, deposit account debited €10,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b84075d5-c51b-f111-8608-0a4a17d5d551",
+      "name": "Loan Repayment Posting",
+      "description": "Customer account debited, loan account credited. \r\n\r\nComment:\r\nExample: Checking account debited €500, loan account credited €500",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "110329e2-c51b-f111-8608-0a4a17d5d551",
+      "name": "Principal Prepayment Posting",
+      "description": "Additional principal recorded in loan account. \r\n\r\nComment:\r\nExample: Loan account credited €2,000, checking account debited €2,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3ebc80f6-c51b-f111-8608-0a4a17d5d551",
+      "name": "Fee Posting",
+      "description": "Fee recorded in customer and bank accounts. \r\n\r\nComment:\r\nExample: Customer account debited €10, fee income credited €10",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a220d00-c61b-f111-8608-0a4a17d5d551",
+      "name": "Interest Posting",
+      "description": "Interest posted to ledger accounts. \r\n\r\nComment:\r\nExample: Interest expense credited, deposit account credited €50",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f220d00-c61b-f111-8608-0a4a17d5d551",
+      "name": "Correction Posting",
+      "description": "Correcting ledger entries. \r\n\r\nComment:\r\nExample: Original debit reversed in ledger",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b237c60f-c61b-f111-8608-0a4a17d5d551",
+      "name": "Rollover Posting",
+      "description": "Update ledger for new maturity or renewed product. \r\n\r\nComment:\r\nExample: Term deposit principal and interest re-posted",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84a26d18-c61b-f111-8608-0a4a17d5d551",
+      "name": "Salary Credit Posting",
+      "description": "Debit employer account, credit employee accounts. \r\n\r\nComment:\r\nExample: Employer account debited, employee checking credited €3,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a262b21-c61b-f111-8608-0a4a17d5d551",
+      "name": "Wire Transfer Posting",
+      "description": "Record international or external payment in ledger.\r\n\r\nComment:\r\nExample: Customer account debited, bank correspondent account credited €2,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c30c4c28-c61b-f111-8608-0a4a17d5d551",
+      "name": "Provision Posting",
+      "description": "Funds posted to provision/reserve accounts. \r\n\r\nComment:\r\nExample: Provision account credited €500, expense account debited €500",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c80c4c28-c61b-f111-8608-0a4a17d5d551",
+      "name": "Dividend Posting",
+      "description": "Record payment in ledger. \r\n\r\nComment:\r\nExample: Dividend payable account debited, shareholder account credited €200",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "954d8533-c61b-f111-8608-0a4a17d5d551",
+      "name": "FX Posting",
+      "description": "Record FX gain/loss and currency movement. \r\n\r\nComment:\r\nExample: Customer USD account debited, EUR account credited, FX gain/loss posted",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c520ee3a-c61b-f111-8608-0a4a17d5d551",
+      "name": "Tax Posting",
+      "description": "Record tax deduction in ledger. \r\n\r\nComment:\r\nExample: Customer account debited €50, tax payable account credited €50",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca20ee3a-c61b-f111-8608-0a4a17d5d551",
+      "name": "Capital Posting",
+      "description": "Record equity movement. \r\n\r\nComment:\r\nExample: Share capital account credited €10,000, cash account debited €10,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "50780a45-c61b-f111-8608-0a4a17d5d551",
+      "name": "Suspense Posting",
+      "description": "Hold funds temporarily in suspense ledger account. \r\n\r\nComment:\r\nExample: Suspense account credited €300",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55780a45-c61b-f111-8608-0a4a17d5d551",
+      "name": "Recurring Transfer Posting",
+      "description": "Post transaction per schedule. \r\n\r\nComment:\r\nExample: Debit customer account €200, credit landlord account €200",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03a5f952-c61b-f111-8608-0a4a17d5d551",
+      "name": "Overdraft Posting",
+      "description": "Post overdraft to ledger. \r\n\r\nComment:\r\nExample: Customer account debited €500, overdraft liability credited €500",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7b4cc59-c61b-f111-8608-0a4a17d5d551",
+      "name": "Card Transaction Posting",
+      "description": "Record card transaction in ledger. \r\n\r\nComment:\r\nExample: Card account credited €150, merchant account debited €150",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcb4cc59-c61b-f111-8608-0a4a17d5d551",
+      "name": "Loan Restructure Posting",
+      "description": "Update loan account for new terms. \r\n\r\nComment:\r\nExample: Loan principal/interest schedules updated in ledger",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d4fe468-c61b-f111-8608-0a4a17d5d551",
+      "name": "Penalty Posting",
+      "description": "Record penalty in ledger. \r\n\r\nComment:\r\nExample: Customer account debited €100, penalty income credited €100",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bb0e1c7b-c61b-f111-8608-0a4a17d5d551",
+      "name": "Collateral Posting",
+      "description": "Record collateral movement in ledger. \r\n\r\nComment:\r\nExample: Collateral account credited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "30fd8288-c61b-f111-8608-0a4a17d5d551",
+      "name": "Investment Subscription Posting",
+      "description": "Record recurring investment in ledger. \r\n\r\nComment:\r\nExample: Customer investment account credited €500",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6015c896-c61b-f111-8608-0a4a17d5d551",
+      "name": "Investment Redemption Posting",
+      "description": "Record withdrawal/redemption in ledger. \r\n\r\nComment:\r\nExample: Investment account debited €2,000, cash/deposit credited €2,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5c63c3a2-c61b-f111-8608-0a4a17d5d551",
+      "name": "Commission Posting",
+      "description": "Record incentive in ledger. \r\n\r\nComment:\r\nExample: Bank expense account debited, agent account credited €50",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ecf9dab-c61b-f111-8608-0a4a17d5d551",
+      "name": "Foreign Remittance Posting",
+      "description": "Post interest to principal account. \r\n\r\nComment:\r\nExample: Term deposit principal credited €50, interest account debited €50",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bec493ba-c61b-f111-8608-0a4a17d5d551",
+      "name": "Loan Rollover Posting",
+      "description": "Post new principal and interest schedules. \r\n\r\nComment:\r\nExample: Loan/deposit account updated with new maturity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ae1b7d5-c61b-f111-8608-0a4a17d5d551",
+      "name": "Cheque Posting",
+      "description": "Record cheque transaction in ledger. \r\n\r\nComment:\r\nExample: Customer deposit account credited, cash account debited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80a818ea-c61b-f111-8608-0a4a17d5d551",
+      "name": "Direct Debit Posting",
+      "description": "Debit customer account, credit utility account. \r\n\r\nComment:\r\nExample: Customer account debited €100, utility account credited €100",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab3dd8f8-c61b-f111-8608-0a4a17d5d551",
+      "name": "Cash Posting",
+      "description": "Update cash and deposit accounts in ledger. \r\n\r\nComment:\r\nExample: Cash account debited, deposit account credited €1,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef48b238-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Interest Capitalization Posting",
+      "description": "Post interest to principal account. \r\n\r\nComment:\r\nExample: Term deposit principal credited €50, interest account debited €50",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

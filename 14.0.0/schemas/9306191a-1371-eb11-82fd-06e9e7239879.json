@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9306191a-1371-eb11-82fd-06e9e7239879",
+  "title": "Assignment",
+  "description": "Assignment of something to an InvolvedParty\r\n\r\nMake-up of staff allocation and delivery expectations !!!!",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PartyReference",
+    "PartyInvolvement",
+    "SubjectMatter"
+  ],
+  "properties": {
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    },
+    "PartyInvolvement": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party Role",
+      "x-related-bo-id": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Party Role"
+    },
+    "SubjectMatter": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Object",
+      "x-related-bo-id": "35b0af05-64ee-eb11-8336-06d08e9dabb9",
+      "x-related-bo-name": "Object"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

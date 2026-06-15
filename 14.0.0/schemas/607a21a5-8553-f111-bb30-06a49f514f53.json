@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "607a21a5-8553-f111-bb30-06a49f514f53",
+  "title": "CashbackTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fa4a09bc-8553-f111-bb30-06a49f514f53",
+      "name": "Percentage Cashback",
+      "description": "Cashback calculated as a percentage of the transaction amount.\r\n\r\nComment:\r\nExample: 5% cashback on grocery purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac2e8ede-8553-f111-bb30-06a49f514f53",
+      "name": "Fixed Amount Cashback",
+      "description": "A predefined cashback amount paid for qualifying transactions.\r\n\r\nComment:\r\nExample: €10 cashback for spending over €100.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f465e006-8653-f111-bb30-06a49f514f53",
+      "name": "Tiered Cashback",
+      "description": "Cashback rates that vary based on spending levels or customer tiers.\r\n\r\nComment\r\nExample: 1% cashback up to €500 spend and 3% above €500.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d77a30f-8653-f111-bb30-06a49f514f53",
+      "name": "Category-Based Cashback",
+      "description": "Cashback applied only to specific spending categories.\r\n\r\nComment:\r\nExample: 4% cashback on fuel purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfd7f01c-8653-f111-bb30-06a49f514f53",
+      "name": "Merchant-Specific Cashback",
+      "description": "Cashback offered for purchases with selected merchants or partners.\r\n\r\nComment:\r\nExample: 10% cashback at a partner supermarket.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3892252a-8653-f111-bb30-06a49f514f53",
+      "name": "Promotional Cashback",
+      "description": "Temporary cashback offered during campaigns or promotional periods.\r\n\r\nComment:\r\nExample: Double cashback during holiday sales.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b697439-8653-f111-bb30-06a49f514f53",
+      "name": "Recurring Cashback",
+      "description": "Cashback earned repeatedly on eligible ongoing transactions or subscriptions.\r\n\r\nComment:\r\nExample: Monthly cashback on utility bill payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d79e345-8653-f111-bb30-06a49f514f53",
+      "name": "Conditional Cashback",
+      "description": "Cashback granted only when specific conditions are met.\r\n\r\nComment:\r\nExample: Cashback after maintaining a minimum account balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "acf55352-8653-f111-bb30-06a49f514f53",
+      "name": "Welcome Cashback",
+      "description": "Cashback offered to new customers after account opening or first usage.\r\n\r\nComment:\r\nExample: €50 cashback after first opening account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df74249a-8653-f111-bb30-06a49f514f53",
+      "name": "Instant Cashback",
+      "description": "Cashback credited immediately at the time of purchase.\r\n\r\nComment:\r\nExample: Cashback deducted directly from the payment amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
