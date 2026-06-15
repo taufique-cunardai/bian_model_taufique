@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "16c08449-fcff-ee11-8482-066638c1bd83",
+  "title": "SecurityIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2944d7a5-5002-ef11-8482-067fad56c67d",
+      "name": "RIC",
+      "description": "Reuters Identification Code (RIC). A numbering system used within the Reuters system to identify instruments worldwide. The RIC contains an X-character market specific code (can be the CUSIP or EPIC codes) followed by a full stop, then the two-digit ISO country code, eg, IBM in UK is IBM.UK. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53efc3f9-5002-ef11-8482-067fad56c67d",
+      "name": "TickerSymbol",
+      "description": "Letters that identify a stock traded on a stock exchange. The Ticker Symbol is a short and convenient way of identifying a stock, eg, RTR.L for Reuters quoted in London. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29137e0a-5102-ef11-8482-067fad56c67d",
+      "name": "Bloomberg",
+      "description": "Identifier of a security assigned by the Bloomberg organisation.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be16b028-5102-ef11-8482-067fad56c67d",
+      "name": "CTA",
+      "description": "Identifier of a security assigned by the Consolidated Tape Association.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d82e181-5102-ef11-8482-067fad56c67d",
+      "name": "Common",
+      "description": "Identifier of securities issued in Luxembourg.  The common code is a 9-digit code that replaces the CEDEL (Clearstream) and Euroclear codes.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ba0c798-5102-ef11-8482-067fad56c67d",
+      "name": "Name",
+      "description": "Name of the financial instrument in free format text.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "222e15b2-5102-ef11-8482-067fad56c67d",
+      "name": "SEDOL",
+      "description": "Stock Exchange Daily Official List (SEDOL) number.  A code used by the London Stock Exchange to identify foreign stocks, especially those that aren't actively traded in the US and don't have a CUSIP number.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8721ac0-5102-ef11-8482-067fad56c67d",
+      "name": "CUSIP",
+      "description": "Committee on Uniform Securities and Identification Procedures (CUSIP). The standards body that created and maintains the securities classification system in the US. The CUSIP is composed of a 9-character number that uniquely identifies a particular security.  Non-US securities have a similar number called the CINS number.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "419653ce-5102-ef11-8482-067fad56c67d",
+      "name": "QUICK",
+      "description": "Identifier of a security assigned by the Japanese QUICK identification scheme for financial instruments.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "13d335db-5102-ef11-8482-067fad56c67d",
+      "name": "Wertpapier",
+      "description": "Wertpapier Kenn-nummer.  A number issued in Germany by the Wertpapier Mitteilungen. The Wertpapier Kenn-nummer, sometimes called WPK, contains 6-digits, but no check digit. There are different ranges of numbers representing different classes of securities.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99ef38ec-5102-ef11-8482-067fad56c67d",
+      "name": "Dutch",
+      "description": "Identifier for Dutch securities.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8b79401-5202-ef11-8482-067fad56c67d",
+      "name": "Valoren",
+      "description": "Identifier for Swiss securities assigned by Telekurs Financial, the Swiss numbering agency.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36978e16-5202-ef11-8482-067fad56c67d",
+      "name": "Sicovam",
+      "description": "Identifier for French securities assigned by the Societe Interprofessionnelle Pour La Compensation des Valeurs Mobilieres in France.  The Sicovam is composed of 5-digits.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61b6ef23-5202-ef11-8482-067fad56c67d",
+      "name": "Belgian",
+      "description": "Identifier for Belgian securities.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1489a30-5202-ef11-8482-067fad56c67d",
+      "name": "IdentificationSuffix",
+      "description": "Identifies the suffix of the security identification.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5bbf53f-5202-ef11-8482-067fad56c67d",
+      "name": "GenericIdentification",
+      "description": "Proprietary identification of a security assigned by an institution or organisation.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0876d059-5202-ef11-8482-067fad56c67d",
+      "name": "ValidityPeriod",
+      "description": "Specifies the period during which an identification is valid.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "869a2d66-5202-ef11-8482-067fad56c67d",
+      "name": "ApplicableTradingMarket",
+      "description": "Market(s) on which the trading identification is used.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa09fe77-5202-ef11-8482-067fad56c67d",
+      "name": "PrimeIdentification",
+      "description": "Specifies the main identification of a security.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fca1b286-5202-ef11-8482-067fad56c67d",
+      "name": "RelatedOtherIdentification",
+      "description": "Alternate security identification(s) related to the security trading identification.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b93c6e97-5202-ef11-8482-067fad56c67d",
+      "name": "TradingIdentification",
+      "description": "Security identifier specific to a trading market or markets, for example, Ticker.ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

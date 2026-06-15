@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3dc3a582-d1b4-f011-8bc2-a402b9460f22",
+  "title": "ClaimEligibilityCheckTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a0bdfc88-d1b4-f011-8bc2-a402b9460f22",
+      "name": "Policy Eligibility Check",
+      "description": "Verifies that the policy under which the claim is made is valid and active.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2bdfc88-d1b4-f011-8bc2-a402b9460f22",
+      "name": "Coverage Eligibility Check",
+      "description": "Confirms that the event type and circumstances are covered under the policy’s terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a3bdfc88-d1b4-f011-8bc2-a402b9460f22",
+      "name": "Waiting Period Check",
+      "description": "Checks if the required minimum time from policy inception to event has passed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4bdfc88-d1b4-f011-8bc2-a402b9460f22",
+      "name": "Claimant / Beneficiary Eligibility Check",
+      "description": "Verifies that the person submitting the claim is authorized to do so.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5bdfc88-d1b4-f011-8bc2-a402b9460f22",
+      "name": "Event Eligibility Check",
+      "description": "Confirms the occurrence and timing of the event align with policy coverage period and definitions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

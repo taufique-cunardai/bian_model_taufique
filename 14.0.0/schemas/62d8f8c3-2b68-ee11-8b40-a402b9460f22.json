@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "62d8f8c3-2b68-ee11-8b40-a402b9460f22",
+  "title": "KYCChekTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "52127602-2c68-ee11-8b40-a402b9460f22",
+      "name": "Ordinary",
+      "description": "Ordinary check, typically carried out on standard accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54127602-2c68-ee11-8b40-a402b9460f22",
+      "name": "Simple",
+      "description": "Simple check, typically carried out on accounts that have a low risk of anti-money laundering, such as an account owned by a financial institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55127602-2c68-ee11-8b40-a402b9460f22",
+      "name": "Enhanced",
+      "description": "Enhanced check, typically carried out on accounts that are considered high risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

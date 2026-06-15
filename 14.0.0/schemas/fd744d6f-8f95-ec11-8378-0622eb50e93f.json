@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fd744d6f-8f95-ec11-8378-0622eb50e93f",
+  "title": "VirtualAccountArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3a20df84-8f95-ec11-8378-0622eb50e93f",
+      "name": "Interest Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "12c11eea-8f95-ec11-8378-0622eb50e93f",
+      "name": "Standing Order Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "488fe9f6-8f95-ec11-8378-0622eb50e93f",
+      "name": "Credit Transfer Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be547906-9095-ec11-8378-0622eb50e93f",
+      "name": "Direct Debit Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43339015-9095-ec11-8378-0622eb50e93f",
+      "name": "Account Statement Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7a0f31c-9095-ec11-8378-0622eb50e93f",
+      "name": "Account Maintenance Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "949a9b24-9095-ec11-8378-0622eb50e93f",
+      "name": "Account Configuration Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fa7de71-9395-ec11-8378-0622eb50e93f",
+      "name": "Fee Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

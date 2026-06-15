@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0a966154-c287-ee11-8b42-a402b9460f22",
+  "title": "CardholderAddressVerificationResultTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "62dee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "AddressMatch",
+      "description": "Address numeric match.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64dee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "AddressNotMatch",
+      "description": "Address numerics do not match.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65dee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "AddressTechnical",
+      "description": "Address numeric not processed for technical reason.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66dee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "AddressNotTechnical",
+      "description": "Address numeric not processed for non-technical reason.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67dee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "AddressMissing",
+      "description": "Address numeric missing in request.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68dee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "AddressNotUsed",
+      "description": "Address numeric not used by issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69dee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "PostalMatch",
+      "description": "Postal code matches.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6adee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "PostalNotMatch",
+      "description": "Postal code does not match.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6bdee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "PostalTechnical",
+      "description": "Postal code not processed for technical reason.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cdee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "PostalNotTechnical",
+      "description": "Postal code not processed for non-technical reason.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ddee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "PostalMissing",
+      "description": "Postal code missing in request.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6edee25a-c287-ee11-8b42-a402b9460f22",
+      "name": "PostalNotUsed",
+      "description": "Postal code not used by issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

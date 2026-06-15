@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "854144d8-a267-eb11-82f6-06f5e4900cbd",
+  "title": "PlanTypeValues",
+  "description": "A Classification value that specifies type of Plan",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bbf5e2e2-a267-eb11-82f6-06f5e4900cbd",
+      "name": "Administrative Plan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "295f87ee-a267-eb11-82f6-06f5e4900cbd",
+      "name": "Management Plan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4ce0927-a767-eb11-82f6-06f5e4900cbd",
+      "name": "Stratgy Plan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e9545fd-7570-eb11-82fd-061e1f234dd5",
+      "name": "Financial Plan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49ee1131-f032-ef11-8b65-a402b9460f22",
+      "name": "Development Plan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b62d4e01-e158-f111-8be8-a402b9460f22",
+  "title": "CommunicationChannelTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1dcdfa08-e158-f111-8be8-a402b9460f22",
+      "name": "Telephone calls",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70dd9e11-e158-f111-8be8-a402b9460f22",
+      "name": "Emails",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cae3052c-e158-f111-8be8-a402b9460f22",
+      "name": "Chat applications",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cfe3052c-e158-f111-8be8-a402b9460f22",
+      "name": "Social media platforms",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1d38d08-fb58-f111-8be8-a402b9460f22",
+      "name": "Mobile App",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f97f0716-fb58-f111-8be8-a402b9460f22",
+      "name": "Web Browser",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54904c31-fb58-f111-8be8-a402b9460f22",
+      "name": "API Client",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

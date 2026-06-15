@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "abac7154-a07a-ef11-84d2-06539a1e3291",
+  "title": "PartialSettlementTypeValues",
+  "description": "Information about partial settlement.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e356678e-a07a-ef11-84d2-06539a1e3291",
+      "name": "Partial Settlement",
+      "description": "Confirmation is for partial settlement. Part of the transaction remains unsettled.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3997159e-a07a-ef11-84d2-06539a1e3291",
+      "name": "Previously Partial Confirmed",
+      "description": "Confirmation is for the remaining part of an instruction that was previously partially confirmed.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

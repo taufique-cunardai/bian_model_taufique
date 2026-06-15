@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ac5bbf19-d3b4-f011-8bc2-a402b9460f22",
+  "title": "ClaimEntitlementCheckTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "04835620-d3b4-f011-8bc2-a402b9460f22",
+      "name": "Benefit Type Check",
+      "description": "Determines the type of benefit applicable for the claim.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06835620-d3b4-f011-8bc2-a402b9460f22",
+      "name": "Benefit Eligibility Check",
+      "description": "Checks that the claimant qualifies for that specific benefit under the policy terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "07835620-d3b4-f011-8bc2-a402b9460f22",
+      "name": "Benefit Limit Check",
+      "description": "Verifies that the claim amount does not exceed the coverage limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "08835620-d3b4-f011-8bc2-a402b9460f22",
+      "name": "Sum Assured / Coverage Amount Calculation",
+      "description": "Calculates the entitled payout value according to policy rules or sum assured.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09835620-d3b4-f011-8bc2-a402b9460f22",
+      "name": "Deduction / Adjustment Check",
+      "description": "Applies deductions, offsets, or previous partial payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2737d921-1e68-ee11-8b40-a402b9460f22",
+  "title": "VerificationEntityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cc2cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "Acquirer",
+      "description": "Acquirer of the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce2cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "Agent",
+      "description": "Entity providing card payment processing services acting as an intermediary between (or on behalf of) an acquirer and an issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf2cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "Issuer",
+      "description": "Card issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d02cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "Acceptor",
+      "description": "Acceptor (for example signature verification by the attendant).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d12cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "OtherNational",
+      "description": "Other type of authentication entity defined at national level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d22cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "OtherPrivate",
+      "description": "Other type of authentication entity defined at private level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d32cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "Terminal",
+      "description": "Secure application in the terminal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d42cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "CardApplication",
+      "description": "Application in the smart card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d52cf739-1e68-ee11-8b40-a402b9460f22",
+      "name": "AcceptanceDevice",
+      "description": "Type of Device to accept payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

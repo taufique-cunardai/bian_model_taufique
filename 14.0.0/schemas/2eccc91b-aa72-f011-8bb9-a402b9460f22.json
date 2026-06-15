@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2eccc91b-aa72-f011-8bb9-a402b9460f22",
+  "title": "ProductAgreedTermAndConditionTypeValues",
+  "description": "Negotiated Terms and Conditions for Sold Banking Products",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d90cb56e-aa72-f011-8bb9-a402b9460f22",
+      "name": "Pricing Term and Condition",
+      "description": "Interest Rate: Adjusted rate based on negotiation or customer profile    \r\nBenchmark Margin: Custom spread over MCLR, SOFR, etc.    \r\nFX Rate Margin: Special forex rate offered\r\nFee Waivers/Discounts: Discount or waiver of charges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0351857f-aa72-f011-8bb9-a402b9460f22",
+      "name": "Fee-Related Term and Condition",
+      "description": "- Processing Fee: Waived or reduced\r\n- Annual/Renewal Fees: Discounted or removed\r\n- Foreclosure Charges:Reduced or eliminated\r\n- Prepayment Penalty: Customized repayment terms",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cd259751-ab72-f011-8bb9-a402b9460f22",
+      "name": "Limit and Exposure Term and Condition",
+      "description": "- Credit Limit: Higher/lower limit based on profile\r\n- Withdrawal Limits: Increased ATM or POS limits\r\n- Overdraft or Cash Credit Limits: Overdraft or cash credit customization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "700724a6-ab72-f011-8bb9-a402b9460f22",
+      "name": "Security and Collateral Term and Condition",
+      "description": "- Collateral Requirement: Waived or substituted\r\n- Guarantee Conditions: Flexible guarantor terms (e.g., Personal guarantee replaced with corporate)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5f9a2ca-ab72-f011-8bb9-a402b9460f22",
+      "name": "Bundling and Relationship-Based Term and Condition",
+      "description": "- Bundled Products: Cross-sell combinations at special terms (e.g., Loan + insurance bundle with premium waived)\r\n- Multi-Product Pricing: Special pricing for relationship customers\r\n- Group or Family Terms: Applied across accounts or family members",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "044192ba-ac72-f011-8bb9-a402b9460f22",
+      "name": "Renewal and Review Term and Condition",
+      "description": "- Auto-Renewal Terms: Customized rollover rules\r\n- Review Frequency: Relaxed reporting frequency",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86c9a78b-af72-f011-8bb9-a402b9460f22",
+      "name": "Contractual or Legal Term and Condition",
+      "description": "- Dispute Resolution: Arbitration or jurisdiction agreed upon\r\n- Governing Law: Customized legal framework\r\n- Exit or Termination Clause: Custom exit conditions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fff2c001-b072-f011-8bb9-a402b9460f22",
+      "name": "Confidential Term and Condition",
+      "description": "- Confidential Pricing: Not disclosed publicly\r\n- Volume-Based Commitments: Customer commits minimum usage\r\n- Rebate Clauses: Linked to performance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

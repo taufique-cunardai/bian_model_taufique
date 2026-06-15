@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2c5345a8-922e-f111-860d-0a3b3de36819",
+  "title": "ClearingLifecycleStatusValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "116966b3-922e-f111-860d-0a3b3de36819",
+      "name": "Initiated",
+      "description": "The clearing process has started; the payment instruction has been received but not yet validated.\r\n\r\nComment:\r\nExample: A customer submits an ACH transfer; the bank records it but has not yet checked the details.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5f88ae7-922e-f111-860d-0a3b3de36819",
+      "name": "Validating",
+      "description": "Payment is undergoing validation checks such as format, compliance, and funds verification.\r\n\r\nComment:\r\nExample: The system verifies that the IBAN is correct, the customer has sufficient balance, and no sanctions apply.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "faf88ae7-922e-f111-860d-0a3b3de36819",
+      "name": "Matched",
+      "description": "Payment details are successfully matched between sending and receiving institutions or internal systems. Ready for obligation calculation.\r\n\r\nComment:\r\nExample: A batch of SEPA payments has been reconciled with the receiving banks records.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bea3adf1-922e-f111-860d-0a3b3de36819",
+      "name": "Netting",
+      "description": "Obligations are being calculated and offset among institutions (applies to batch clearing systems).\r\n\r\nComment:\r\nExample: At the end of a day, multiple bank-to-bank payments are netted so only the net positions are settled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3a3adf1-922e-f111-860d-0a3b3de36819",
+      "name": "Cleared",
+      "description": "Clearing process completed successfully; the payment is ready for settlement.\r\n\r\nComment:\r\nExample: Funds from a wire transfer have been confirmed by all parties and are queued for final settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3515e9f7-922e-f111-860d-0a3b3de36819",
+      "name": "In Progress",
+      "description": "The clearing process is actively being processed; an intermediate state.\r\n\r\nComment:\r\nExample: A cross-border payment is being transmitted through correspondent banks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a15e9f7-922e-f111-860d-0a3b3de36819",
+      "name": "Failed",
+      "description": "Clearing could not be completed due to errors or issues.\r\n\r\nComment:\r\nExample: Payment failed because the beneficiary account number was invalid or a technical error occurred in the system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7d57402-932e-f111-860d-0a3b3de36819",
+      "name": "Rejected",
+      "description": "Clearing explicitly refused, typically due to invalid data or regulatory constraints.\r\n\r\nComment:\r\nExample: A payment is rejected because the account is closed or the transaction violates anti-money laundering rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcd57402-932e-f111-860d-0a3b3de36819",
+      "name": "Cancelled",
+      "description": "Clearing process stopped before completion, either by the sender or the bank.\r\n\r\nComment:\r\nExample: A customer cancels a scheduled payment before the bank validates it.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a1ab80a-932e-f111-860d-0a3b3de36819",
+      "name": "On Hold",
+      "description": "Temporarily paused for investigation or manual review.\r\n\r\nComment:\r\nExample: A large payment flagged by compliance for further verification before proceeding.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

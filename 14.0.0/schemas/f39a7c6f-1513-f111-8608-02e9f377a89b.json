@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f39a7c6f-1513-f111-8608-02e9f377a89b",
+  "title": "PartnerRelationshipTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bce855a9-1513-f111-8608-02e9f377a89b",
+      "name": "Operational Term",
+      "description": "Terms that define day-to-day operations, partner responsibilities, and service delivery.\r\n\r\nComment:\r\nPartner must provide 24/7 payment gateway services.\r\nBank provides customer onboarding and support.\r\nDelivery timelines for products or services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "231805c8-1513-f111-8608-02e9f377a89b",
+      "name": "Financial / Revenue Term",
+      "description": "Terms that govern payments, revenue sharing, fees, and financial responsibilities.\r\n\r\nComment:\r\nExamples:\r\nRevenue split: 70% bank / 30% partner.\r\nPartner bears infrastructure costs.\r\nPenalties for missed SLAs are deducted from payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad112cd4-1513-f111-8608-02e9f377a89b",
+      "name": "Service Level / Performance Term",
+      "description": "Terms that define measurable performance standards and expectations.\r\nIncludes: Penalty clauses for non-compliance.\r\n\r\nComment:\r\n\r\nExamples:\r\nAPI uptime ≥ 99.9% per month.\r\nMaximum transaction processing time ≤ 2 seconds.\r\nCustomer support response time ≤ 24 hours.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2112cd4-1513-f111-8608-02e9f377a89b",
+      "name": "Risk and Liability Term",
+      "description": "Terms that define which party is responsible for operational, financial, or regulatory risks.\r\n\r\nComment:\r\n\r\nExamples:\r\nPartner liable for data breaches originating from their systems.\r\nBank responsible for AML verification.\r\nInsurance coverage requirements for partner services",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95364cdc-1513-f111-8608-02e9f377a89b",
+      "name": "Compliance and Regulatory Term",
+      "description": "Terms that ensure the partner meets legal, regulatory, and internal policy requirements.\r\n\r\nComment:\r\n\r\nExamples:\r\nAdherence to AML/KYC, PCI DSS, GDPR.\r\nMandatory reporting and audit participation.\r\nCertification or licensing requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ffa41be6-1513-f111-8608-02e9f377a89b",
+      "name": "Confidentiality and Data Protection Term",
+      "description": "Terms that protect sensitive data and define how it is handled.\r\n\r\nComment:\r\n\r\nExamples:\r\nPartner cannot share customer financial data externally.\r\nEncryption of all data in transit and at rest.\r\nAccess restrictions and privacy policies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04a51be6-1513-f111-8608-02e9f377a89b",
+      "name": "Renegotiation and Renewal Term",
+      "description": "Terms governing the length of the agreement, renewal, and renegotiation.\r\n\r\nComment:\r\n\r\nExamples:\r\nInitial term: 3 years.\r\nRenewal contingent on performance reviews.\r\nRenegotiation triggered by regulatory or business changes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6daa82f0-1513-f111-8608-02e9f377a89b",
+      "name": "Termination and Exit Term",
+      "description": "Conditions under which the partnership can be ended.\r\n\r\nComment:\r\n\r\nExamples:\r\nSLA violations for three consecutive months.\r\nNon-compliance with legal/regulatory rules.\r\nMutual agreement or insolvency of partner.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10720bf8-1513-f111-8608-02e9f377a89b",
+      "name": "Dispute Resolution Term",
+      "description": "Terms that define how conflicts or disagreements will be handled.\r\n\r\nComment:\r\n\r\nExamples:\r\nMediation or arbitration procedures.\r\nGoverning law or jurisdiction.\r\nEscalation paths for unresolved disputes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "94dfadff-f112-f111-8608-02e9f377a89b",
+  "title": "PartnerRelationshipInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5d835090-f212-f111-8608-02e9f377a89b",
+      "name": "Strategic Alliances",
+      "description": "Long-term collaborations where both parties work closely to achieve shared business goals without forming a new legal entity.\r\n\r\nComment:\r\nExample: A bank partnering with a fintech to enhance digital lending capabilities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b50bbfcb-f212-f111-8608-02e9f377a89b",
+      "name": "Joint Ventures",
+      "description": "Two or more organizations create a new, jointly owned entity to pursue a specific business opportunity.\r\n\r\nComment:\r\nShared ownership\r\nShared risk and profits",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94b5bddb-f212-f111-8608-02e9f377a89b",
+      "name": "Bancassurance Partnerships",
+      "description": "Banks partner with insurance companies to sell insurance products through bank branches or digital platforms.\r\n\r\nComment:\r\nCross-selling financial products\r\nCommission or revenue-sharing model",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fa1c908-f312-f111-8608-02e9f377a89b",
+      "name": "Referral Partnerships",
+      "description": "The bank refers customers to a partner (or vice versa) and earns a referral fee.\r\n\r\nComment:\r\nTransaction-based relationship",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7abbda1c-f312-f111-8608-02e9f377a89b",
+      "name": "Outsourcing Partnerships",
+      "description": "Banks outsource specific functions (IT, call centers, payment processing) to third-party providers.\r\n\r\nComment:\r\nOperational focus",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47900a37-f312-f111-8608-02e9f377a89b",
+      "name": "Co-Branding Partnerships",
+      "description": "Banks collaborate with retail brands or organizations to issue co-branded credit or debit cards.\r\n\r\nComment:\r\nShared branding\r\nRevenue-sharing\r\nMarketing collaboration",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "999ce74d-f312-f111-8608-02e9f377a89b",
+      "name": "Embedded Finance Partnerships",
+      "description": "Banks integrate financial services into non-bank platforms (e.g., e-commerce, ride-sharing apps).\r\n\r\nComment:\r\nAPI-based integration\r\nTechnology-driven",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5232b65-f312-f111-8608-02e9f377a89b",
+      "name": "Correspondent Banking Relationships",
+      "description": "Banks partner with other banks (often internationally) to provide services where they do not have a physical presence.\r\n\r\nComment:\r\nCross-border transaction\r\nTrade finance support\r\nInternational settlement services",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

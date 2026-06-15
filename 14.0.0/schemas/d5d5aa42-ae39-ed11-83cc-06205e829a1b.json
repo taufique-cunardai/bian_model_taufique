@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d5d5aa42-ae39-ed11-83cc-06205e829a1b",
+  "title": "ProjectFinanceArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "26c87a4d-ae39-ed11-83cc-06205e829a1b",
+      "name": "Repayment Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86403160-ae39-ed11-83cc-06205e829a1b",
+      "name": "Placement Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5d0e57c-ae39-ed11-83cc-06205e829a1b",
+      "name": "Special Purpose Vehicle (SPV) Arrangement",
+      "description": "A special purpose vehicle, also called a special purpose entity (SPE), is a subsidiary created by a parent company to isolate financial risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4d00ccfb-2852-ee11-8b39-a402b9460f22",
+  "title": "OrganisationLegalStructureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8249d938-2952-ee11-8b39-a402b9460f22",
+      "name": "Corporation",
+      "description": "Legal structure is a corporation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8449d938-2952-ee11-8b39-a402b9460f22",
+      "name": "Individual",
+      "description": "Legal structure is an individual.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8549d938-2952-ee11-8b39-a402b9460f22",
+      "name": "Supranational",
+      "description": "Legal structure is a supranational.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8649d938-2952-ee11-8b39-a402b9460f22",
+      "name": "Sovereign",
+      "description": "Legal structure is a sovereign.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8749d938-2952-ee11-8b39-a402b9460f22",
+      "name": "Municipal",
+      "description": "Legal structure is a municipal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8849d938-2952-ee11-8b39-a402b9460f22",
+      "name": "Province",
+      "description": "Legal structure is a province.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8949d938-2952-ee11-8b39-a402b9460f22",
+      "name": "State",
+      "description": "Legal structure is a state.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a49d938-2952-ee11-8b39-a402b9460f22",
+      "name": "County",
+      "description": "Legal structure is a county.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b49d938-2952-ee11-8b39-a402b9460f22",
+      "name": "Partnership",
+      "description": "Legal structure is a partnership.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c49d938-2952-ee11-8b39-a402b9460f22",
+      "name": "FinancialInstitution",
+      "description": "Legal structure is a financial institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d49d938-2952-ee11-8b39-a402b9460f22",
+      "name": "National",
+      "description": "Legal structure is a state.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

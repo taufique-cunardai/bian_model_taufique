@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d0b54478-e970-ef11-84cd-062407ebb1ed",
+  "title": "SecuritiesAccountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5130eea9-e970-ef11-84cd-062407ebb1ed",
+      "name": "Margin",
+      "description": "Account is used when financing is done by the broker. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fab005b2-e970-ef11-84cd-062407ebb1ed",
+      "name": "Short Sale",
+      "description": "Account is used for short sale orders. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ffb005b2-e970-ef11-84cd-062407ebb1ed",
+      "name": "Abroad",
+      "description": "Account is located in a financial institution outside the country where the transaction is taking place. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e18838be-e970-ef11-84cd-062407ebb1ed",
+      "name": "Centralised",
+      "description": "Account and all its related positions are held in one location. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "194a71c5-e970-ef11-84cd-062407ebb1ed",
+      "name": "Cash DVP",
+      "description": "Account is used for settlement upon delivery, or a collection on a delivery basis. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "628304cc-e970-ef11-84cd-062407ebb1ed",
+      "name": "Physical",
+      "description": "Account is used for physical domestic safekeeping. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a33f8dd3-e970-ef11-84cd-062407ebb1ed",
+      "name": "Fungible",
+      "description": "Financial instruments in the safekeeping account are fungible. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8bc52da-e970-ef11-84cd-062407ebb1ed",
+      "name": "Non Fungible",
+      "description": "Financial instruments in the safekeeping account are not fungible. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

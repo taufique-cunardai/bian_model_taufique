@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "84c3ce8e-4c47-ea11-8289-0680d91fd4a4",
+  "title": "PaymentAccountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "56202297-4c47-ea11-8289-0680d91fd4a4",
+      "name": "Payee or Creditor Account",
+      "description": "Account of the creditor where the funds are to be credited. \r\n\r\nThe account of the creditor to which a credit entry will be posted as a result of the payment transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f8f534a3-4c47-ea11-8289-0680d91fd4a4",
+      "name": "Payer or Debtor Account",
+      "description": "Account of the debtor from where funds are to be taken for the payment order. \r\n\r\nthe account of the debtor to which a debit entry will be made as a result of the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7b252f3-ccb2-ed11-83f9-06c152f885fb",
+      "name": "Debtor Agent Account",
+      "description": "The account of the debtor's agent. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2945d9ff-ccb2-ed11-83f9-06c152f885fb",
+      "name": "Creditor Agent Account",
+      "description": "The account of the creditor agent at its servicing agent to which a credit entry will be made as a result of the payment transaction. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

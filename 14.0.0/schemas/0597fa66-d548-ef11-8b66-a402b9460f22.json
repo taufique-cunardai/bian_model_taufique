@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0597fa66-d548-ef11-8b66-a402b9460f22",
+  "title": "CustomerFinancialInsightTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4ebf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Customer Transactional Insight",
+      "description": "•    Examining purchase history, order frequency, average transaction value, and payment methods.•\r\n    Identifying high-value customers and understanding spending patterns.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Customer Lifetime Value",
+      "description": "•    The total revenue a business can expect to earn from a customer over the duration of their relationship.•\r\n     Helps in assessing the long-term value of customers, guiding marketing, and retention strategies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Customer Acquisition Cost",
+      "description": "•    The cost incurred to acquire a new customer, including marketing, sales, and promotional expenses.•\r\n     Evaluates the efficiency of acquisition efforts and helps in budgeting and resource allocation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Revenue per Customer",
+      "description": "•    The average revenue generated from each customer within a specific period.•\r\n     Understands revenue contributions and identifies opportunities for increasing customer spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Churn Cost",
+      "description": "•     The financial impact of losing a customer, including the loss of future revenue and the costs associated with replacing them.•\r\n     Understands the cost of customer retention efforts and the financial implications of customer turnover.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Retention Cost",
+      "description": "•    The costs associated with retaining existing customers, including loyalty programs, customer service, and engagement initiatives.•\r\n    Evaluates the effectiveness of retention strategies and determines the cost-effectiveness of customer loyalty efforts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Discount and Promotion Impact",
+      "description": "•    Analysis of how discounts and promotions affect customer purchasing behavior and overall revenue.•\r\n     Assesses the effectiveness of promotional strategies and understands their impact on profitability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Customer Profitability Analysis",
+      "description": "•    Evaluation of the profit generated from individual customers or customer segments after accounting for direct costs and expenses.•\r\n     Identifies high-value customers and informs strategies to enhance profitability through targeted actions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58bf9b7d-d548-ef11-8b66-a402b9460f22",
+      "name": "Segmented Financial Performance",
+      "description": "•    Analysis of financial performance across different customer segments, such as demographics, purchase behavior, or geographic location.•\r\n    Identifies which segments are more profitable and helps tailor marketing and sales strategies to high-value segments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

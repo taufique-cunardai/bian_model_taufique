@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a144b711-f81e-f111-8608-0247e3f120c3",
+  "title": "RolloverProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9d4ea61f-f81e-f111-8608-0247e3f120c3",
+      "name": "Principal Rollover Feature",
+      "description": "Automatically renews or reinvests the principal amount at the end of the term.\r\n\r\nComment:\r\nExample:\r\n\r\nA fixed deposit where the initial deposit amount is rolled over for another term.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab6d5836-f81e-f111-8608-0247e3f120c3",
+      "name": "Interest Rollover Feature",
+      "description": "Automatically adds or reinvests the interest earned into the principal or continues earning interest in a new term.\r\n\r\nComment:\r\nExample:\r\n\r\nInterest earned on a certificate of deposit (CD) is compounded into the principal for the next term.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3665848-f81e-f111-8608-0247e3f120c3",
+      "name": "Full Rollover Feature",
+      "description": "Both principal and accrued interest are rolled over into a new term.\r\n\r\nComment:\r\nExample:\r\n\r\nAt maturity, a term deposit with $10,000 principal and $500 interest is reinvested as $10,500 for the next term.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3546c256-f81e-f111-8608-0247e3f120c3",
+      "name": "Partial Rollover Feature",
+      "description": "Only a portion of principal and/or interest is rolled over; the remaining amount is withdrawn or allocated elsewhere.\r\n\r\nComment:\r\nExample:\r\n\r\n$5,000 principal is rolled over while $500 interest is paid out to the account holder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff969f62-f81e-f111-8608-0247e3f120c3",
+      "name": "Automatic Rollover Feature",
+      "description": "The rollover occurs automatically at maturity without customer intervention, based on predefined rules.\r\n\r\nComment:\r\nExample:\r\n\r\nA fixed deposit automatically renews for the same tenure at prevailing rates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c62516d-f81e-f111-8608-0247e3f120c3",
+      "name": "Conditional Rollover Feature",
+      "description": "Rollover occurs only if certain conditions are met, such as minimum balance, interest rates, or customer consent.\r\n\r\nComment:\r\nExample:\r\n\r\nTerm deposit rolls over only if the balance exceeds $1,000 and the interest rate meets a minimum threshold.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03061281-f81e-f111-8608-0247e3f120c3",
+      "name": "Tiered Rollover Feature",
+      "description": "Rollover terms or interest rates vary based on tiers, amounts, or product type.\r\n\r\nComment:\r\nExample:\r\n\r\nHigher principal amounts earn higher rollover rates upon reinvestment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

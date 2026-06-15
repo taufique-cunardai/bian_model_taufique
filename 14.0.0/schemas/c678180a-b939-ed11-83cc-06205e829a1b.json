@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c678180a-b939-ed11-83cc-06205e829a1b",
+  "title": "PublicOfferingArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dc6cc01f-b939-ed11-83cc-06205e829a1b",
+      "name": "Public Placement IPO and Underwriting Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00805827-b939-ed11-83cc-06205e829a1b",
+      "name": "Public Placement Roadshow and Marketing Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65658438-b939-ed11-83cc-06205e829a1b",
+      "name": "Public Placement Prospectus Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a86f7947-b939-ed11-83cc-06205e829a1b",
+      "name": "Public Placement Financial Assessment and Audit Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0adbd418-ba39-ed11-83cc-06205e829a1b",
+      "name": "Public Placement Instrument Registration Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5015f1f-ba39-ed11-83cc-06205e829a1b",
+      "name": "Public Placement Instrument Specification Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6e6aafc1-d7b4-f011-8bc2-a402b9460f22",
+  "title": "ClaimExternalAgencyCheckTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6f6aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Medical Examination / Medical Certification Check",
+      "description": "Verification of cause of death, medical history, or attending doctor’s certificate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "716aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Mortuary / Funeral Home Verification",
+      "description": "Confirmation from funeral homes or mortuaries regarding the deceased’s identity and handling.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "726aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Repatriation Service Provider Check",
+      "description": "Verification of international body transport services or repatriation documentation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "736aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Death Registration / Civil Authority Check",
+      "description": "Official government or registry validation of the death record.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "746aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Beneficiary / Identity Verification Agency",
+      "description": "Independent validation of claimant identity, KYC, or beneficiary status.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "756aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Legal / Notary Verification",
+      "description": "Validation from legal institutions or notaries for estate or inheritance-related claims.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "766aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Financial Institution Check",
+      "description": "Verification with banks for payment account validation or deceased account status.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "776aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Forensic / Investigation Agency Check",
+      "description": "Engaged in cases with suspicion of fraud or unclear circumstances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "786aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Insurance Regulator / Reinsurer Consultation",
+      "description": "External compliance or co-insurer validation for reinsurance or regulatory reporting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "796aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Employer / Association Verification",
+      "description": "External validation for group or employer-linked policies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a6aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Document Authentication Service",
+      "description": "Third-party document authentication or certification check.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b6aafc1-d7b4-f011-8bc2-a402b9460f22",
+      "name": "Law Enforcement / Coroner Check",
+      "description": "In cases of unnatural or accidental death, external legal authority provides report.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

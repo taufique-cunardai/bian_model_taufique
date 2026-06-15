@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3a1ebe5a-25b2-e911-828c-064878c57b7e",
+  "title": "OrganisationIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7af71494-26b2-e911-828c-064878c57b7e",
+      "name": "LEI",
+      "description": "Legal Entity Identifier is a code allocated to a party as described in ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\".",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ded8e9ac-26b2-e911-828c-064878c57b7e",
+      "name": "ELF",
+      "description": "Entity Legal Forms is a code allocated to a party as described in ISO 20275 \"Financial services  Entity legal forms (ELF)\".",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2e088d5-26b2-e911-828c-064878c57b7e",
+      "name": "MIC",
+      "description": "Market Identifier Code. Identification of a financial market, as stipulated in the norm ISO 10383 \"Codes for exchanges and market identifications\".",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d7763e0-26b2-e911-828c-064878c57b7e",
+      "name": "BICFI",
+      "description": "Code allocated to a financial institution by the ISO 9362 Registration Authority as described in ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\".",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "BankPartyIdentification",
+      "description": "Unique and unambiguous assignment made by a specific bank or similar financial institution to identify a relationship as defined between the bank and its client.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ecd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "CentralBankIdentificationNumber",
+      "description": "A unique identification number assigned by a central bank to identify an organisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "ClearingIdentificationNumber",
+      "description": "A unique identification number assigned by a clearing house to identify an organisation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "CertificateOfIncorporationNumber",
+      "description": "A unique identification number assigned by a designated authority to a certificate of incorporation and used to identify an organisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "CountryIdentificationCode",
+      "description": "Country authority given organisation identification (e.g., corporate registration number)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "92cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "CustomerNumber",
+      "description": "Number assigned by an issuer to identify a customer.\r\nNumber assigned by a party to identify a creditor or debtor relationship.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9bcd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "DataUniversalNumberingSystem",
+      "description": "A unique identification number provided by Dun & Bradstreet to identify an organisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "EmployerIdentificationNumber",
+      "description": "Number assigned by a registration authority to an employer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "adcd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "GS1GLNIdentifier",
+      "description": "Global Location Number. A non-significant reference number used to identify legal entities, functional entities, or physical entities according to GS1 numbering scheme rules.The number is used to retrieve detailed information that is linked to it.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "SIREN",
+      "description": "The SIREN number is a 9 digit code assigned by INSEE, the French National Institute for Statistics and Economic Studies, to identify an organisation in France.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfcd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "SIRET",
+      "description": "The SIRET number is a 14 digit code assigned by INSEE, the French National Institute for Statistics and Economic Studies, to identify an organisation unit in France. It consists of the SIREN number, followed by a five digit classification number, to identify the local geographical unit of that entity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8cd8edc-4e51-ee11-8b39-a402b9460f22",
+      "name": "TaxIdentificationNumber",
+      "description": "Number assigned by a tax authority to identify an organisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8170cc6b-5251-ee11-8b39-a402b9460f22",
+      "name": "EANGLN",
+      "description": "Global Location Number. A non-significant reference number used to identify legal entities, functional entities, or physical entities according to the European Association for Numbering (EAN) numbering scheme rules. The number is used to retrieve detailed information that is linked to it. (iso20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c3ba20b7-721f-eb11-82d0-06351b9f7777",
+  "title": "CashDistributionProcedureWorkstepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "28c225cc-721f-eb11-82d0-06351b9f7777",
+      "name": "Distribution Vehicle Administration",
+      "description": "Administer the vehicle fleet used to distribute funds around the branch/ATM locations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "266788e3-721f-eb11-82d0-06351b9f7777",
+      "name": "Distribution Planning",
+      "description": "Maintain and adjust the distribution schedule to meet cash movement demands across the branch/ATM network",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "da461bfb-721f-eb11-82d0-06351b9f7777",
+      "name": "Inventory Distribution Oversight",
+      "description": "Track the correct movement of cash and cash inventory maintenance throughout the branch/ATM network",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "349cfd3f-731f-eb11-82d0-06351b9f7777",
+      "name": "Inventory Provisioning",
+      "description": "Handle bulk movements of cash into and out of the banks central cash handling facility to support cash distribution activity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

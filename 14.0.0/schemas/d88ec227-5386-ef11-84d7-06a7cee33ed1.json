@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d88ec227-5386-ef11-84d7-06a7cee33ed1",
+  "title": "OrderOriginatorEligibilityTypeValues",
+  "description": "Specifies the type of the counterparties eligibility as defined by article 24 of the EU MiFID Directive applicable to transactions executed by investment firms for eligible counterparties.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4228af44-5386-ef11-84d7-06a7cee33ed1",
+      "name": "Eligible",
+      "description": "Eligible counterparty - MiFID classification of counterparty. Eligible customers are the most sophisticated level of investor, able to opt out of some the protections afforded by conduct of business rules defined under MiFID.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4928af44-5386-ef11-84d7-06a7cee33ed1",
+      "name": "Retail",
+      "description": "Retail client - MiFID classification of counterparty. Retail customers are the least sophisticated level of investor.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e644550-5386-ef11-84d7-06a7cee33ed1",
+      "name": "Professional",
+      "description": "Professional client - MiFID classification of counterparty. Professional customers are, for example, investment firms, credit institutions, insurance companies.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

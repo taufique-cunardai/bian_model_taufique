@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "79c40d48-d254-ef11-8b6a-a402b9460f22",
+  "title": "CustomerCampaignRuleSetTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c0a9800e-d354-ef11-8b6a-a402b9460f22",
+      "name": "Segmentation Criteria",
+      "description": "Rules for dividing the target audience into segments based on specific characteristics.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2a9800e-d354-ef11-8b6a-a402b9460f22",
+      "name": "Key Performance Indicators (KPIs)",
+      "description": "Metrics to measure campaign success (e.g., ROI, conversion rates).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3a9800e-d354-ef11-8b6a-a402b9460f22",
+      "name": "Optimization Criteria",
+      "description": "Conditions under which the campaign will be adjusted for better performance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4a9800e-d354-ef11-8b6a-a402b9460f22",
+      "name": "Compliance Rules",
+      "description": "Legal Requirements: Adherence to advertising laws and regulations.\r\nData Privacy: Ensuring compliance with data protection laws like GDPR or CCPA.\r\nIndustry Standards: Meeting industry-specific advertising standards.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5a9800e-d354-ef11-8b6a-a402b9460f22",
+      "name": "Interaction Guidelines",
+      "description": "How to engage with customers (e.g., tone, formality).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6a9800e-d354-ef11-8b6a-a402b9460f22",
+      "name": "Budget and Resource Rules",
+      "description": "Budget Allocation: How funds are distributed across different campaign elements.\r\nResource Management: Assigning tasks to team members or external partners.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7a9800e-d354-ef11-8b6a-a402b9460f22",
+      "name": "Engagement Rules",
+      "description": "Response Time: How quickly the brand responds to customer inquiries or comments.\r\nInteraction Guidelines: How to engage with customers (e.g., tone, formality).\r\nUser-Generated Content: Guidelines for sharing content created by customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

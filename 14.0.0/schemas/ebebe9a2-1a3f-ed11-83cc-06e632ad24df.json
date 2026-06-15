@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ebebe9a2-1a3f-ed11-83cc-06e632ad24df",
+  "title": "UnitTrustAdministrativePlannedActionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b77f2af8-1a3f-ed11-83cc-06e632ad24df",
+      "name": "Fund Management Fee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be7f2af8-1a3f-ed11-83cc-06e632ad24df",
+      "name": "Fund Investor, Middle and Back Office Service",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b13ac80d-1b3f-ed11-83cc-06e632ad24df",
+      "name": "Fund Financial Reporting",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76d47f1c-1b3f-ed11-83cc-06e632ad24df",
+      "name": "Fund Enrolment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebe3ec2c-1b3f-ed11-83cc-06e632ad24df",
+      "name": "Fund Tax Administration",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d44a3036-1b3f-ed11-83cc-06e632ad24df",
+      "name": "Fund Accounting",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

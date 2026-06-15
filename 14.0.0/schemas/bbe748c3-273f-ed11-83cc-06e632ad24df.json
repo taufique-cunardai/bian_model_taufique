@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bbe748c3-273f-ed11-83cc-06e632ad24df",
+  "title": "HedgeFundAdministrativePlannedActionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bde748c3-273f-ed11-83cc-06e632ad24df",
+      "name": "Fund Performance Fee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bee748c3-273f-ed11-83cc-06e632ad24df",
+      "name": "Fund Investor, Middle and Back Office Service",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfe748c3-273f-ed11-83cc-06e632ad24df",
+      "name": "Fund Financial Reporting",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c0e748c3-273f-ed11-83cc-06e632ad24df",
+      "name": "Fund Enrolment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1e748c3-273f-ed11-83cc-06e632ad24df",
+      "name": "Fund Tax Administration",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2e748c3-273f-ed11-83cc-06e632ad24df",
+      "name": "Fund Accounting",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4f0c206-283f-ed11-83cc-06e632ad24df",
+      "name": "Fund Management",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "605c2316-283f-ed11-83cc-06e632ad24df",
+      "name": "Fund Inflows and Outflow",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccb5861e-283f-ed11-83cc-06e632ad24df",
+      "name": "Fund Development",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

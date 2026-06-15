@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4bce5e7d-24b2-e911-828c-064878c57b7e",
+  "title": "PartyIdentificationTypeValues",
+  "description": "Specifies the type of alternate identification which can be used to give an alternate identification of the party identified. ISO20022",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4cce5e7d-24b2-e911-828c-064878c57b7e",
+      "name": "TaxIdentificationNumber",
+      "description": "Number assigned by a tax authority to an entity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58198390-24b2-e911-828c-064878c57b7e",
+      "name": "NationalRegistrationNumber",
+      "description": "Number assigned by a national registration authority to an entity. In Singapore this is known as the NRIC. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e798bf1-24b2-e911-828c-064878c57b7e",
+      "name": "RegistrationAuthorityIdentification",
+      "description": "An identifier for the Legal Entity in a business registry in the jurisdiction of legal registration, or in the appropriate registration authority. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f877deb4-3850-ea11-8289-06b8c2aff486",
+      "name": "LEI (Legal Entity Identifier)",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "AlienRegistrationNumber",
+      "description": "Number assigned by a government agency to identify foreign nationals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "PassportNumber",
+      "description": "Number assigned by a passport authority.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "TaxExemptIdentificationNumber",
+      "description": "Number assigned to a tax exempt entity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "CorporateIdentification",
+      "description": "Number assigned to a corporate entity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "DriverLicenseNumber",
+      "description": "Number assigned to a driver's license.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "ForeignInvestmentIdentityNumber",
+      "description": "Number assigned to a foreign investor (other than the alien number).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "SocialSecurityNumber",
+      "description": "Number assigned by a social security agency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9e583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "IdentityCardNumber",
+      "description": "Number assigned by a national authority to an identity card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cae583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "Concat",
+      "description": "Number assigned by an issuer to identify a customer via the concatenation of the birthdate and characters of the first name and surname.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbe583bd-9efb-ec11-83ad-065d8d549003",
+      "name": "NationalRegistrationIdentificationNumber",
+      "description": "National registration identification number. In Singapore this is known as the NRIC.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

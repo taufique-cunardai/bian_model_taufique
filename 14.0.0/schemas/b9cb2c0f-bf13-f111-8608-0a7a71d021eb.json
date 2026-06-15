@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b9cb2c0f-bf13-f111-8608-0a7a71d021eb",
+  "title": "PartnerAdministrationServiceReportTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "879d5741-bf13-f111-8608-0a7a71d021eb",
+      "name": "Operational Report",
+      "description": "Report tracking the day-to-day operations of partners and their transactions with the bank.\r\n\r\nComment:\r\nExamples:\r\nDaily report of ATM cash replenishment handled by a service partner\r\n\r\nTransactions processed by a remittance partner\r\n\r\nWeekly mobile wallet transaction reconciliation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfee8b49-bf13-f111-8608-0a7a71d021eb",
+      "name": "Issue Resolution Report",
+      "description": "Report detailing problems, disputes, or service interruptions involving partners.\r\n\r\nComment:\r\nExamples:\r\nTechnical outage of a payment gateway reported by the partner\r\n\r\nDispute over incorrect commission calculation\r\n\r\nDelayed transaction processing escalations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1a91650-bf13-f111-8608-0a7a71d021eb",
+      "name": "Financial Report",
+      "description": "Report focused on financial transactions, settlements, and reconciliations with partners.\r\n\r\nComment:\r\nExamples:\r\nMonthly commission statement for insurance agents\r\n\r\nReconciliation report for fund transfer service providers\r\n\r\nPayment summary for card processing partners",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a0f735b-bf13-f111-8608-0a7a71d021eb",
+      "name": "Compliance Report",
+      "description": "Report tracking partners adherence to banking regulations, internal policies, and contractual obligations.\r\n\r\nComment:\r\nExamples:\r\nPartner KYC verification status report\r\n\r\nQuarterly audit compliance report for correspondent banks\r\n\r\nRegulatory compliance checklist for third-party fintech integrations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d101464-bf13-f111-8608-0a7a71d021eb",
+      "name": "Performance Report",
+      "description": "Report evaluating the performance of partners against agreed KPIs or SLAs.\r\n\r\nComment:\r\nExamples:\r\nMonthly transaction volume report of remittance agents\r\n\r\nSLA performance report for ATM network vendors\r\n\r\nPartner onboarding and customer acquisition report",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42101464-bf13-f111-8608-0a7a71d021eb",
+      "name": "Partner Satisfaction Report",
+      "description": "Report assessing partner engagement, satisfaction, and collaboration quality.\r\n\r\nComment:\r\nExamples:\r\nPartner satisfaction survey results\r\n\r\nQuarterly meeting summary with top-performing branch agents\r\n\r\nComplaints raised by partners and their resolution status",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6eb5147a-bf13-f111-8608-0a7a71d021eb",
+      "name": "Executive Report",
+      "description": "High-level report summarizing partner activities for management or strategic decision-making.\r\n\r\nComment:\r\nExamples:\r\nAnnual partner performance dashboard for senior management\r\n\r\nRisk analysis report of underperforming correspondent banks\r\n\r\nStrategic growth report for fintech collaborations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

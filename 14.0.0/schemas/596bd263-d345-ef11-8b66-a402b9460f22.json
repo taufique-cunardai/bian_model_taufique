@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "596bd263-d345-ef11-8b66-a402b9460f22",
+  "title": "CustomerFinancialInsightInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0c09597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Financial Analysts",
+      "description": "They analyze financial data to identify trends, assess financial health, and provide insights into customer financial behavior.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e09597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Data Analysts",
+      "description": "They gather, process, and analyze financial data from various sources to uncover patterns and insights.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f09597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Business Intelligence Analysts",
+      "description": "They use data visualization and reporting tools to present financial insights in an understandable and actionable manner.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1009597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Risk Analysts",
+      "description": "They assess financial risks associated with customer behavior and predict potential future risks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1109597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Accountants",
+      "description": "They manage and analyze financial records to ensure accuracy and compliance, providing insights into financial performance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1209597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Customer Relationship Managers",
+      "description": "They use financial insights to enhance customer relationships and tailor financial products and services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1309597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Financial Advisors",
+      "description": "They provide personalized financial advice to customers based on their financial insights and needs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1409597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Data Scientists",
+      "description": "They develop models and algorithms to predict customer financial behavior and trends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1509597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Product Managers",
+      "description": "They use financial insights to develop and enhance financial products and services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1609597b-d345-ef11-8b66-a402b9460f22",
+      "name": "Compliance Officers",
+      "description": "They ensure that financial insights and practices comply with regulatory requirements and standards.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

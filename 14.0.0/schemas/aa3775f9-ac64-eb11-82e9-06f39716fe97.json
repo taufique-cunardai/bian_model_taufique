@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "aa3775f9-ac64-eb11-82e9-06f39716fe97",
+  "title": "QualityAssuranceTestTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f8bbe112-ad64-eb11-82e9-06f39716fe97",
+      "name": "Functional Consistency Check",
+      "description": "Test to confirm production behaviors match intended usage patterns",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3457b738-ad64-eb11-82e9-06f39716fe97",
+      "name": "Resiliency and Performance Check",
+      "description": "Test to confirm the service availability and response times meet agreed service levels",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "558e1c4d-ad64-eb11-82e9-06f39716fe97",
+      "name": "Processing Error and Integrity Check",
+      "description": "Test to confirm errors and product/service failure rates are within allowed limits",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38465e62-ad64-eb11-82e9-06f39716fe97",
+      "name": "Usability Check",
+      "description": "Test to confirm facilities are easily identifiable, service availability is resilient and access is sufficiently intuitive to users",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f9ae5f7f-f870-ef11-84cd-062407ebb1ed",
+  "title": "TerminationTypeValues",
+  "description": "Specifies the timing or method for terminating the agreement - for repos.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a8d3fd09-f970-ef11-84cd-062407ebb1ed",
+      "name": "Overnight",
+      "description": "Repo with a term of one day.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fab6611-f970-ef11-84cd-062407ebb1ed",
+      "name": "Term",
+      "description": "Repo with a term of more than one day.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abf9f217-f970-ef11-84cd-062407ebb1ed",
+      "name": "Flexible",
+      "description": "Identifies \"a classic term repo with the added feature that the cash is repaid to the buyer in installments\" (Definition from \"Mastering Repo Markets\" by Bob Steiner).(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0f9f217-f970-ef11-84cd-062407ebb1ed",
+      "name": "Open",
+      "description": "Repo which can be terminated by either party at any time, and which has an unspecified repurchase date.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

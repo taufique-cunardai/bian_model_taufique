@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b1f321ec-2f68-ee11-8b40-a402b9460f22",
+  "title": "PoliticallyExposedPersonStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e29b87f6-2f68-ee11-8b40-a402b9460f22",
+      "name": "NaturalPersonEntrusted",
+      "description": "Natural person who is or who has been entrusted with prominent public functions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "238837ff-2f68-ee11-8b40-a402b9460f22",
+      "name": "FamilyMember",
+      "description": "Family member of the politically exposed person. A family member includes: \r\n(a) the spouse, or a person considered to be equivalent to a spouse, of the politically exposed person,\r\n(b) the children and their spouses, or persons considered to be equivalent to a spouse, of the politically exposed person,\r\n(c) the parents of the politically exposed person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e629a12-3068-ee11-8b40-a402b9460f22",
+      "name": "CloseAssociate",
+      "description": "Person known to be a close associate of the politically exposed person. A person known to be a close associate includes: \r\n(a) a natural person who is known to have joint beneficial ownership of legal entities or legal arrangements, or any other close business relations, with the  politically exposed person,\r\n(b) a natural person who has sole beneficial ownership of a legal entity or legal arrangement which is known to have been set up for the de facto benefit of a politically exposed person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

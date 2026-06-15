@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6bbc4f66-fa70-ef11-84cd-062407ebb1ed",
+  "title": "DeliveryTypeValues",
+  "description": "Describes the delivery or custody arrangement for the underlying securities.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ee1df50d-fb70-ef11-84cd-062407ebb1ed",
+      "name": "Against Payment",
+      "description": "Indicates that the delivery is against payment.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49a19b1b-fb70-ef11-84cd-062407ebb1ed",
+      "name": "Free",
+      "description": "Indicates the delivery is free of payment.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78d84428-fb70-ef11-84cd-062407ebb1ed",
+      "name": "Triparty",
+      "description": "Indicates that a custodian bank or international clearing organization acts as an intermediary between the two parties to the repo.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "263da437-fb70-ef11-84cd-062407ebb1ed",
+      "name": "Hold In Custody",
+      "description": "Indicates that the collateral pledged by the (cash) borrower is not actually delivered to the cash lender. Rather, it is placed in an internal account (\"held in custody\") by the borrower, for the lender, throughout the duration of the trade.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac9f024a-fb70-ef11-84cd-062407ebb1ed",
+      "name": "Payment Vs Payment",
+      "description": "Indicates that the delivery is a Payment versus Payment.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

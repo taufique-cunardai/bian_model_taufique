@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8d79ba45-1e68-ee11-8b40-a402b9460f22",
+  "title": "VerificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "94d7d256-1e68-ee11-8b40-a402b9460f22",
+      "name": "Identity Verification/Proofing",
+      "description": "Identity proofing, also known as identity verification or identity authentication, is the process of confirming that an individual's claimed identity is accurate and valid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "37a91a88-1e68-ee11-8b40-a402b9460f22",
+      "name": "Document Verification",
+      "description": "Document verification is a process of verifying the authenticity and validity of documents presented by individuals or entities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cef59f7-a822-f111-8be1-a402b9460f22",
+      "name": "Proof of Address Check",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

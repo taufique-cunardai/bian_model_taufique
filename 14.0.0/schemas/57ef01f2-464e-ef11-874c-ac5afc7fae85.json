@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "57ef01f2-464e-ef11-874c-ac5afc7fae85",
+  "title": "ManagementReportTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "00dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "OKR (Objectives and Key Results)",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "SMART Goals",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "Hoshin Kanri (Policy Deployment)",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "Performance Prism",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "05dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "Strategy Map",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "Lean Six Sigma",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "07dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "BSC (Balanced Scorecard)",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "08dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "PEST Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09dca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "SWOT Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0adca90f-474e-ef11-874c-ac5afc7fae85",
+      "name": "Growth-Share Matrix (BCG Matrix)",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

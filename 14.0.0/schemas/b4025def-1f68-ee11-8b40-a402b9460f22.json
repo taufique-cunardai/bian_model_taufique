@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b4025def-1f68-ee11-8b40-a402b9460f22",
+  "title": "VerificationResultTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c10f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "TechnicalError",
+      "description": "Device or entity to perform the verification was unavailable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c30f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "Successful",
+      "description": "Verification was successful.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c40f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "PartialMatch",
+      "description": "Verification was partially successful.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c50f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "NotPerformed",
+      "description": "Verification has not been performed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c60f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "Missing",
+      "description": "Information required to perform the verification was missing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c70f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "Failed",
+      "description": "Verification failed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c80f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "FurtherAction",
+      "description": "Further action required.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c90f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "OtherNational",
+      "description": "Other result of verification defined at national level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca0f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "OtherPrivate",
+      "description": "Other result of verification defined at private level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb0f3e01-2068-ee11-8b40-a402b9460f22",
+      "name": "NotSupported",
+      "description": "Not support the verification type",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cd171dee-4788-e911-823e-06b09c770f0c",
+  "title": "ProductStandardTermAndConditionTypeValues",
+  "description": "Standard Terms and Conditions in a Banking Product Catalogue",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "18c6c91e-4888-e911-823e-06b09c770f0c",
+      "name": "Product General Term and Condition",
+      "description": "A value of Product TermAndCondition Type whereby product general terms and conditions will be defined.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49939730-4888-e911-823e-06b09c770f0c",
+      "name": "Product Context Specific Term and Condition",
+      "description": "A value of Product TermAndCondition Type whereby product context specific terms and conditions (e.g., regulation, market, sale) will be defined.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f050d93-9960-eb11-82e9-06f21a0655e3",
+      "name": "Product Combination Term and Condition",
+      "description": "Banks often offer product combinations (also called bundled products, composite products, or cross-sell packages)-and these do typically come with their own set of terms and conditions in addition to the standard T&Cs of each individual product.\r\n\r\nEligibility for the Combo\r\nCustomer must meet eligibility for each individual product\r\nSometimes limited to specific customer segments (e.g., salaried, NRIs, SMEs)\r\n\r\n2)   Bundled Benefits\r\nPreferential pricing (e.g., discounted interest rate on loan)\r\nWaiver of certain fees (e.g., annual fee on credit card if salary account is active)\r\nLinked rewards or loyalty programs\r\n\r\n3)   Conditional Benefits\r\nBenefits may apply only if all products are active\r\n\r\n4)  Cross-Product Dependencies\r\n\r\nClosure or default of one product (e.g., closing savings account) may:\r\nTrigger loss of benefit on other products\r\nCause re-pricing of interest rates\r\nLead to automatic closure or cancellation of linked product(s)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c62998c0-bd6a-eb11-82f6-06166de9742f",
+      "name": "Product Pricing and Fee Term and Condition",
+      "description": "Interest rates (fixed/variable; APR for loans)\r\n\r\nFee structure:\r\n\r\nAccount opening fee\r\nMaintenance charges\r\nPrepayment/foreclosure charges\r\nProcessing fees (for loans/credit)\r\n\r\nPenalties (e.g., late payment, insufficient funds)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ad0c4da-1f6d-eb11-82f6-0653aca742a3",
+      "name": "Product Matching Term and Condition",
+      "description": "A Product Matching Condition is a set of predefined eligibility and suitability criteria used to identify and recommend products or bundled offerings that align with a customers profile, needs, and risk tolerance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "05ebb80f-b86c-ed11-83e5-06d79b876595",
+      "name": "Product Eligibility Term and Condition",
+      "description": "Minimum age requirement\r\nResidency/citizenship\r\nIncome/employment conditions (for credit products)\r\nKYC compliance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8451c4f6-9f72-f011-8bb9-a402b9460f22",
+      "name": "Product Repayment Term and Condition",
+      "description": "EMI schedule\r\nGrace period\r\nEarly payment terms\r\nInterest calculation method (reducing balance, flat rate)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7781f76f-a072-f011-8bb9-a402b9460f22",
+      "name": "Product Documentation Required Term and Condition",
+      "description": "Proof of identity\r\nProof of address\r\nIncome documents (if applicable)\r\nProduct-specific forms",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

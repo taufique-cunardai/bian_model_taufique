@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "84beaee8-f612-f111-8608-02e9f377a89b",
+  "title": "PartnerRelationshipDevelopmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3cd1a3e7-f712-f111-8608-02e9f377a89b",
+      "name": "Transactional Relationship",
+      "description": "A basic, short-term, service-based interaction focused on specific deliverables.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef3deff0-f712-f111-8608-02e9f377a89b",
+      "name": "Operational Relationship",
+      "description": "Partners work together more consistently to support ongoing operations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd508b03-f812-f111-8608-02e9f377a89b",
+      "name": "Collaborative Relationship",
+      "description": "Both parties actively work together to improve processes, products, or services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1533910-f812-f111-8608-02e9f377a89b",
+      "name": "Strategic Relationship",
+      "description": "A long-term, high-value relationship aligned with core business objectives.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac6f7717-f812-f111-8608-02e9f377a89b",
+      "name": "Alliance Relationship",
+      "description": "The highest level of development, where partners innovate and create new business models together.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

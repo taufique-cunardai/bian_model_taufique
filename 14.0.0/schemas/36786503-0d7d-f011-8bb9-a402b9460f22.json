@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "36786503-0d7d-f011-8bb9-a402b9460f22",
+  "title": "ProductPricingTermAndConditionTypeValues",
+  "description": "In banking, Product Pricing Terms and Conditions (T&Cs) can be classified into several types, depending on the product and how pricing is structured.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "242e0067-0d7d-f011-8bb9-a402b9460f22",
+      "name": "Interest Rate Term and Condition",
+      "description": "Defines how interest/profit is calculated and applied (fixed, floating, tiered, risk-based, linked to benchmark rates).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "262e0067-0d7d-f011-8bb9-a402b9460f22",
+      "name": "Fees & Charges Term and Condition",
+      "description": "Covers all non-interest costs such as processing fees, annual/renewal fees, transaction charges, penalties, and prepayment/early settlement fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "272e0067-0d7d-f011-8bb9-a402b9460f22",
+      "name": "Tenure & Repayment Term and Condition",
+      "description": "Specifies the product duration (tenure/maturity) and repayment or payout structure (installments, bullet payment, frequency, grace periods).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "282e0067-0d7d-f011-8bb9-a402b9460f22",
+      "name": "Collateral & Security Term and Condition",
+      "description": "Conditions related to security backing the product (secured vs. unsecured, guarantees, liens, pledges, hypothecation).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "292e0067-0d7d-f011-8bb9-a402b9460f22",
+      "name": "Usage & Operational Term and Condition",
+      "description": "Rules governing how the product can be used (withdrawal/credit limits, currency restrictions, product-specific conditions, minimum balances).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a2e0067-0d7d-f011-8bb9-a402b9460f22",
+      "name": "Regulatory & Compliance Term and Condition",
+      "description": "Mandatory legal/regulatory requirements (disclosure of APR/effective rate, KYC/AML checks, central bank pricing caps/floors, deposit insurance).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
