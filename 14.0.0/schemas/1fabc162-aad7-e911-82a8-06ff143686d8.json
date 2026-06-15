@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1fabc162-aad7-e911-82a8-06ff143686d8",
+  "title": "Voice Channel Session",
+  "description": "A Session of a VoiceChannel",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "VoiceChannelServiceMenue",
+    "VoiceChannelSessionDirection",
+    "VoiceChannelSessionDeviceReference",
+    "VoiceChannelSessionDeviceRole"
+  ],
+  "properties": {
+    "VoiceChannelServiceMenue": {
+      "type": "string",
+      "description": "Reference to the Voice Channel Service Menu used in the session",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "VoiceChannelSessionDirection": {
+      "type": "string",
+      "description": "Indication of where the EBranchChannelSession was originated (inbound or outbound)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ChannelSessionDirection",
+      "x-related-bo-id": "7c6979d4-b7d0-e911-8296-0616e6ad87a8",
+      "x-related-bo-name": "ChannelSessionDirection"
+    },
+    "VoiceChannelSessionDeviceReference": {
+      "type": "string",
+      "description": "Reference to a device used the VoiceChannelSession \r\n\r\n- needs to be understood combined with \"role\", e.g. authentication, authorisation, connection...",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "VoiceChannelSessionDeviceRole": {
+      "type": "string",
+      "description": "The role a device plays in a channel session\r\n\r\ne.g. authentication, authorisation, connection...",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "cb40fd6d-49a6-ea11-829f-063187a0cc58",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ce429a3-add7-e911-82a8-06ff143686d8",
+      "target": "5d35477a-add7-e911-82a8-06ff143686d8",
+      "modality": "1:N",
+      "required": false,
+      "description": "Session\r\nEvent",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f0b8684-aad7-e911-82a8-06ff143686d8",
+      "target": "b000c71e-178d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cfc19863-add7-e911-82a8-06ff143686d8",
+      "target": "150e1a34-add7-e911-82a8-06ff143686d8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9085d1b-add7-e911-82a8-06ff143686d8",
+      "target": "0263db4b-0761-e911-8237-068e13695e26",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

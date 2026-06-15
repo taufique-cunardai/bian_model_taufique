@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a195db4-5e90-ea11-8295-062b57ab2c80",
+  "title": "Customer Campaign Rule Set",
+  "description": "A set of rules to guide and direct the Customer Campaign. \r\n\r\nCustomer campaign rule sets refer to the guidelines and parameters that govern how a campaign is executed and managed. These rules ensure that the campaign is consistent, targeted, and effective. \r\n\r\nFor example:\r\n\r\n\"Execution Guideline\": The guideline for the execution of the campaign.\r\n\r\n\"Eligibility Criteria\": The eligibility criteria to be applied to select suitable candidates for the customer campaign. (Note candidate lists are developed by Campaign Execution)\r\n\r\n\"Interaction Guide\": The guideline that provides the structured narrative and any pricing/negotiating frameworks which are used in the execution of the campaign. \r\n\r\nRule sets involved in customer campaigns are the predefined guidelines and criteria used to design, implement, and measure the effectiveness of marketing efforts",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a89ab5c4-598b-e911-823e-0680522666ec",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e8f78970-5a4b-ef11-8b66-a402b9460f22",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Rule Set",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9833ec8-5e90-ea11-8295-062b57ab2c80",
+      "target": "6650b4d8-d157-ea11-8289-060c7a9911f6",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

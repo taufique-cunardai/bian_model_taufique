@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "628428f3-2a5a-ea11-8290-06eaa2e18406",
+  "title": "Competitor Analysis",
+  "description": "An assessment of the strengths and weaknesses of current and potential competitors\r\n\r\nCompetitor analysis is a strategic practice where a business evaluates its competitors to understand their strengths, weaknesses, strategies, and market positioning.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CompetitorAnalysisType"
+  ],
+  "properties": {
+    "CompetitorAnalysisType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CompetitorAnalysisTypeValues",
+      "x-related-bo-id": "2119c299-2c5a-ef11-8b6c-a402b9460f22",
+      "x-related-bo-name": "CompetitorAnalysisTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "7d73983b-bf99-ea11-8295-06af1d004f9a",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f23fc1de-a98f-ea11-8295-06a675516730",
+      "target": "d6bc4925-a88f-ea11-8295-06a675516730",
+      "modality": "M:N",
+      "required": false,
+      "description": "UsedToAssess",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a3b131f-2b5a-ea11-8290-06eaa2e18406",
+      "target": "3b9f7138-2f5a-ea11-8290-06eaa2e18406",
+      "modality": "M:N",
+      "required": false,
+      "description": "UsedToAssess",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e216aa93-c999-ea11-8295-06af1d004f9a",
+      "target": "653e3a86-c999-ea11-8295-06af1d004f9a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e864977d-c899-ea11-8295-06af1d004f9a",
+      "target": "e1bf3e5c-3876-e911-823e-065f1d1f71b2",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01c39461-4256-ef11-8b6a-a402b9460f22",
+      "target": "ba4cfa5d-3976-e911-823e-065f1d1f71b2",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49a1c685-9755-ef11-8b6a-a402b9460f22",
+      "target": "498913ec-8a55-ef11-8b6a-a402b9460f22",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

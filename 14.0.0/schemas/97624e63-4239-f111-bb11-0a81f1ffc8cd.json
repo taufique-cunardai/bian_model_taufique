@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "97624e63-4239-f111-bb11-0a81f1ffc8cd",
+  "title": "Deposit Arrangement Account",
+  "description": "Represents the association between a deposit arrangement and an account, defining how the account participates in and supports the deposit arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DepositArrangementAccountType"
+  ],
+  "properties": {
+    "DepositArrangementAccountType": {
+      "type": "string",
+      "description": "Specifies the role or purpose of the account in the context of the deposit arrangement (for example, primary, funding, or settlement account).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DepositArrangementAccountTypeValues",
+      "x-related-bo-id": "fc3df95d-4439-f111-bb11-0a81f1ffc8cd",
+      "x-related-bo-name": "DepositArrangementAccountTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "9d5502ad-4539-f111-bb11-0a81f1ffc8cd",
+      "target": "01d64189-5c96-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

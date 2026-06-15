@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6f3dbb5d-9132-f111-bb06-0a7da8bdeb61",
+  "title": "Interest Arrangement Involvement",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InterestArrangementInvolvementType"
+  ],
+  "properties": {
+    "InterestArrangementInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InterestArrangementInvolvementTypeValues",
+      "x-related-bo-id": "31ab9e39-9132-f111-bb06-0a7da8bdeb61",
+      "x-related-bo-name": "InterestArrangementInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5e31813c-daaf-ea11-829f-0681374b35cc",
+  "title": "Information Service Report",
+  "description": "Refers to the content record provided by the external information service provider in whatever form suitable",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5314d145-3876-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "8cef10b1-daaf-ea11-829f-0681374b35cc",
+      "target": "5314d145-3876-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Report",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71897244-daaf-ea11-829f-0681374b35cc",
+      "target": "1ffe1e31-bcd7-e911-82a8-06ff143686d8",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

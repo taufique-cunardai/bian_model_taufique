@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a58d2e5e-c2d3-e911-8296-0699dd1a0780",
+  "title": "Economic Model Analysis",
+  "description": "An analysis for evaluation the economic impact.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "806bfeb7-c2d3-e911-8296-0699dd1a0780",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

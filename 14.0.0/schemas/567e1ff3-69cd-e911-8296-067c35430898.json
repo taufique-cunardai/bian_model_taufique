@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "567e1ff3-69cd-e911-8296-067c35430898",
+  "title": "Card Settlement",
+  "description": "A settlement process for card-based transaction (transactions between the Issuers and the Acquirers through the Card Networks).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0b1bb11e-6bcd-e911-8296-067c35430898",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CardSettlementType"
+  ],
+  "properties": {
+    "CardSettlementType": {
+      "type": "string",
+      "description": "Defines the type of settlement process (e.g. scheduled processing, ad-hoc processing)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CardSettlementTypeValues",
+      "x-related-bo-id": "ddaa2827-b0d0-ee11-846e-0647ee4fa799",
+      "x-related-bo-name": "CardSettlementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ecc4df25-6bcd-e911-8296-067c35430898",
+      "target": "0b1bb11e-6bcd-e911-8296-067c35430898",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Settlement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e98ef4b-70cd-e911-8296-067c35430898",
+      "target": "b5f6e3a8-69cd-e911-8296-067c35430898",
+      "modality": "1:1",
+      "required": false,
+      "description": "Supporting\r\nProcedure",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbf3c1b9-78cd-e911-8296-067c35430898",
+      "target": "be5b5bac-78cd-e911-8296-067c35430898",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e6dde15-78cd-e911-8296-067c35430898",
+      "target": "18be1517-756a-e911-8237-061b75d0d318",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

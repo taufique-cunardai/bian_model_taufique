@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d16fa97c-588d-eb11-8310-068d732c0449",
+  "title": "Feature Modality",
+  "description": "The way in which a feature can happen.\r\nFeature can be a Service or Condition",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FeatureModalityType"
+  ],
+  "properties": {
+    "FeatureModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ModalityTypeValues",
+      "x-related-bo-id": "d22cd3dd-2ee6-eb11-8336-064164081b47",
+      "x-related-bo-name": "ModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b10dc7fb-5d8d-eb11-8310-068d732c0449",
+      "target": "e2cc80ca-5c8d-eb11-8310-068d732c0449",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

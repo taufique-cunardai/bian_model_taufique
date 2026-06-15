@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f9de363b-b986-e911-823e-062687e6a904",
+  "title": "Product Usage",
+  "description": "The use of a product by a customer (in a specific customer relationship) over a specified time period.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProductUsageDateTime",
+    "ProductUsageVolume",
+    "ProductUsageIndicator"
+  ],
+  "properties": {
+    "ProductUsageDateTime": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "ProductUsageVolume": {
+      "type": "string",
+      "description": "Usage volume/frequency for in-force product.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "ProductUsageIndicator": {
+      "type": "string",
+      "description": "An indicator specifying if the whether the customer has bought  the banking product or not.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "YesNoIndicator",
+      "x-related-bo-id": "89768269-789d-ed11-83f5-0646adb79515",
+      "x-related-bo-name": "YesNoIndicator"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "a16363cf-bfd3-e911-8296-0699dd1a0780",
+      "target": "53e7a583-b5d3-e911-8296-0699dd1a0780",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "089e9be2-3750-ea11-8289-06b8c2aff486",
+      "target": "3500ccc6-af9d-e911-827a-06c73ecc951a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

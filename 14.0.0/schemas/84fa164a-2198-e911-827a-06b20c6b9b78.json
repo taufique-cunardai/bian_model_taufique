@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "84fa164a-2198-e911-827a-06b20c6b9b78",
+  "title": "Interest Calculation Arrangement Modality",
+  "description": "Modality to calculate the interest",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "808f0597-3bf1-eb11-8336-06948965ca21",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InterestCalculationMethod",
+    "InterestCalculationFrequency",
+    "InterestCalculationDate",
+    "InterestCalculationParameter",
+    "InterestCalculationMethodType"
+  ],
+  "properties": {
+    "InterestCalculationMethod": {
+      "type": "string",
+      "description": "A method has to be used for calculating the interest",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "InterestCalculationFrequency": {
+      "type": "string",
+      "description": "The periodicity of the calculation of the interest. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Frequency",
+      "x-related-bo-id": "10ff97d4-70fb-eb11-833a-069538764ea9",
+      "x-related-bo-name": "Frequency"
+    },
+    "InterestCalculationDate": {
+      "type": "string",
+      "description": "The calculation date of the interest amount. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "InterestCalculationParameter": {
+      "type": "string",
+      "description": "A parameter used to calculate the interest",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "InterestCalculationMethodType": {
+      "type": "string",
+      "description": "Specifies whether the interest calculation method is simple or compounding. (ISO20022)\r\n\r\nSimple: Calculation method by which interest is calculated on the original principal only. Accumulated interest from prior periods is not used in calculations for the following periods. (ISO20022)\r\n\r\nCompounding: Calculation method by which interest is calculated each period on the original principal and all interest accumulated during past periods. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InterestCalculationMethodTypeValues",
+      "x-related-bo-id": "927d6c60-6498-eb11-8314-06ae79c35e8d",
+      "x-related-bo-name": "InterestCalculationMethodTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1d305b05-3cf1-eb11-8336-06948965ca21",
+      "target": "808f0597-3bf1-eb11-8336-06948965ca21",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Interest Arrangement Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

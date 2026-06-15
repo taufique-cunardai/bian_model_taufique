@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "259b037c-9d23-f111-860d-0a072f7aa82f",
+  "title": "Sweep Involvement",
+  "description": "A specific Party who plays a specific role in Sweep arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SweepInvolvementType"
+  ],
+  "properties": {
+    "SweepInvolvementType": {
+      "type": "string",
+      "description": "Account Holder / Customer: The person owns the accounts and authorizes the automatic transfer (sweep) of funds between them.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SweepInvolvementTypeValues",
+      "x-related-bo-id": "aa4f36e0-a923-f111-860d-0a072f7aa82f",
+      "x-related-bo-name": "SweepInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

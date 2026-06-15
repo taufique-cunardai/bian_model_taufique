@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d0d63e5b-3e00-f111-8bdd-a402b9460f22",
+  "title": "Savings Account Involvement",
+  "description": "Specific role played by a party in a Savings Account Agreement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SavingsAccountInvolvementType"
+  ],
+  "properties": {
+    "SavingsAccountInvolvementType": {
+      "type": "string",
+      "description": "Specifies the role or capacity in which a party participates in the savings account agreement (e.g., account holder, joint holder, servicing institution).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SavingsAccountInvolvementTypeValues",
+      "x-related-bo-id": "f7e21073-b34a-f111-8be7-a402b9460f22",
+      "x-related-bo-name": "SavingsAccountInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

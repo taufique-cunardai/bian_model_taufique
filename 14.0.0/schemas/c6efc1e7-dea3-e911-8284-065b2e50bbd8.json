@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c6efc1e7-dea3-e911-8284-065b2e50bbd8",
+  "title": "Correspondent Access System",
+  "description": "System providing access to a correspondent network\r\n\r\ne.g. a Swift Gateway",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CirrespondentSystemIdentifier"
+  ],
+  "properties": {
+    "CirrespondentSystemIdentifier": {
+      "type": "string",
+      "description": "Identification of the correspondent service system",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "24432654-dfa3-e911-8284-065b2e50bbd8",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

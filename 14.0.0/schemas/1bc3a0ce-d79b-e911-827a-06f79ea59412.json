@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1bc3a0ce-d79b-e911-827a-06f79ea59412",
+  "title": "Point Of Service",
+  "description": "Point at which a service is offered and/or fulfilled.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "131472d6-d79b-e911-827a-06f79ea59412",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d33b18f2-d79b-e911-827a-06f79ea59412",
+      "target": "8b771fe4-d79b-e911-827a-06f79ea59412",
+      "modality": "1:N",
+      "required": false,
+      "description": "Operating\r\nSession",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a303b66-259c-e911-827a-06f79ea59412",
+      "target": "b000c71e-178d-e911-823e-067b7da9d714",
+      "modality": "1:N",
+      "required": false,
+      "description": "CustomerInteractionSession\r\nHandledByPoS",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e98364c-b9a3-e911-8284-06b7f5ab5bd4",
+      "target": "0858d1e2-0891-e911-823e-06f3e7d1f9c0",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24828eed-b4a4-e911-8284-06aa98c8c004",
+      "target": "1716f2c4-b4a4-e911-8284-06aa98c8c004",
+      "modality": "M:N",
+      "required": false,
+      "description": "TrackedByPoS",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "150e1a34-add7-e911-82a8-06ff143686d8",
+  "title": "Voice Channel Session Report",
+  "description": "Information about a Voice Channel Operating Session\r\n\r\nMaintained during and accessible during the session",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a68b4bcf-97d0-e911-8296-061886980330",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "fe86c85b-add7-e911-82a8-06ff143686d8",
+      "target": "a68b4bcf-97d0-e911-8296-061886980330",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session Report",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "94885b0f-22f7-e911-82bd-06554362bd22",
+  "title": "Employee Agreement",
+  "description": "A formal agreement that specifies the terms and conditions of the relationship between an employee and an employer including compensation and expectations. (Business Dictionary)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "58ba7155-65fa-e911-82bd-060c1aa554c0",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "549cc215-a11a-f011-8ba4-a402b9460f22",
+      "target": "4581d2e5-a01a-f011-8ba4-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0457b99-6bfa-e911-82bd-060c1aa554c0",
+      "target": "a9d93263-2ff7-e911-82bd-06554362bd22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9507a48b-6bfa-e911-82bd-060c1aa554c0",
+      "target": "b5e4b61f-6afa-e911-82bd-060c1aa554c0",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "243b6284-6afa-e911-82bd-060c1aa554c0",
+      "target": "6a51e05c-2ef7-e911-82bd-06554362bd22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

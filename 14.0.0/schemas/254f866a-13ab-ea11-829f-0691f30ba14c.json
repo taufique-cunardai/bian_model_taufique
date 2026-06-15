@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "254f866a-13ab-ea11-829f-0691f30ba14c",
+  "title": "Securities Order Involvement",
+  "description": "PartyRole which is involved in the securities order \r\n\r\nRole played by a party associated with an order to buy or sell securities. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SecuritiesOrderInvolvementType"
+  ],
+  "properties": {
+    "SecuritiesOrderInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SecuritiesOrderInvolvementTypeValues",
+      "x-related-bo-id": "2fbf043a-53b1-ea11-829f-06cfa6a4383a",
+      "x-related-bo-name": "SecuritiesOrderInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4988630c-1fab-ea11-829f-0691f30ba14c",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "871443f2-6f33-ed11-83c8-060992c204f9",
+  "title": "Customer Proposition Arrangement",
+  "description": "An arrangement within the Customer Proposition Agreement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerPropositionArrangementType",
+    "CustomerPropositionTermandConditionType"
+  ],
+  "properties": {
+    "CustomerPropositionArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ArrangementTypeValues",
+      "x-related-bo-id": "b1719e80-5124-eb11-82d4-06982365eacb",
+      "x-related-bo-name": "ArrangementTypeValues"
+    },
+    "CustomerPropositionTermandConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProductTermAndConditionType",
+      "x-related-bo-id": "eaaa1bc4-4788-e911-823e-06b09c770f0c",
+      "x-related-bo-name": "ProductTermAndConditionType"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "583017da-7233-ed11-83c8-060992c204f9",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5a795355-84a9-ea11-829f-06478228ed28",
+  "title": "Securities Position",
+  "description": "The state of owning or owing a security",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9d47b86e-88d1-ea11-82b1-061e3979cf2c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SecuritiesPositionType"
+  ],
+  "properties": {
+    "SecuritiesPositionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SecuritiesPositionTypeValues",
+      "x-related-bo-id": "da8df90e-90e2-ec11-83a0-06cf426798a1",
+      "x-related-bo-name": "SecuritiesPositionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c3a85646-822a-ec11-8359-06a1ae9c59bb",
+      "target": "9d47b86e-88d1-ea11-82b1-061e3979cf2c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account Position",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e7c02c1-84a9-ea11-829f-06478228ed28",
+      "target": "574a8ba1-84a9-ea11-829f-06478228ed28",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f7bc9c9-3387-ef11-84d7-06460b98147d",
+      "target": "087f4fb1-716b-ef11-8b6f-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52cde680-90e2-ec11-83a0-06cf426798a1",
+      "target": "a46a9d71-90e2-ec11-83a0-06cf426798a1",
+      "modality": "1:N",
+      "required": false,
+      "description": "Trading\r\nPosition",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9202876-84a9-ea11-829f-06478228ed28",
+      "target": "ffe016a6-7ba9-ea11-829f-06478228ed28",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

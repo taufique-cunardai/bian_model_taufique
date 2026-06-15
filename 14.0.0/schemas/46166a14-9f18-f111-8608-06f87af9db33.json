@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "46166a14-9f18-f111-8608-06f87af9db33",
+  "title": "Credit Plan Instruction",
+  "description": "Is a Request to perform an action related to the creation, configuration, modification, or execution of a credit plan, based on the terms and arrangements defined in a credit agreement.\r\n\r\nAn instruction to fulfill a Credit Plan arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditPlanInstructionType"
+  ],
+  "properties": {
+    "CreditPlanInstructionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CreditPlanInstructionTypeValues",
+      "x-related-bo-id": "bc440941-b222-f111-860d-022452cdfcff",
+      "x-related-bo-name": "CreditPlanInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "67f09a44-9f18-f111-8608-06f87af9db33",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9643c172-501d-f111-8608-0a664c0a40fd",
+      "target": "5b18dd29-95d8-e911-82a8-06740d90dcce",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a43c172-501d-f111-8608-0a664c0a40fd",
+      "target": "86e0e873-aa4a-ef11-8b66-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4536e49e-501d-f111-8608-0a664c0a40fd",
+      "target": "3e960185-501d-f111-8608-0a664c0a40fd",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aee02552-9f18-f111-8608-06f87af9db33",
+      "target": "6c1a204b-9f18-f111-8608-06f87af9db33",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

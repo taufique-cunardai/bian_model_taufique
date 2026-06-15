@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "506769af-0594-e911-823e-069871e4ec9c",
+  "title": "Current Account Product",
+  "description": "Is A Banking Product that is meant for day to day payment services.\r\nA type of payment account that enables the consumer to place funds, withdraw cash and execute and receive payment transactions to and from a third party. (Adapted from PSD)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CurrentAccountProductType"
+  ],
+  "properties": {
+    "CurrentAccountProductType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CurrentAccountTypeValues",
+      "x-related-bo-id": "8144492c-d6a3-ed11-83f5-061115f6e2b9",
+      "x-related-bo-name": "CurrentAccountTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "37f569ba-0594-e911-823e-069871e4ec9c",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2780cba8-ee97-e911-827a-06d89370a58e",
+      "target": "30f9849a-e297-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c84bdcee-0594-e911-823e-069871e4ec9c",
+      "target": "cdca7e45-1bab-ea11-829f-0691f30ba14c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34c54d9a-ee97-e911-827a-06d89370a58e",
+      "target": "0250b837-e797-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce61e8a0-ee97-e911-827a-06d89370a58e",
+      "target": "a61bbf01-e597-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df838589-ee97-e911-827a-06d89370a58e",
+      "target": "6ecbaa2f-e597-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4a2a582-ee97-e911-827a-06d89370a58e",
+      "target": "ca197cf7-e497-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc1610b0-ee97-e911-827a-06d89370a58e",
+      "target": "3ffd5d93-e297-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "973032b7-ee97-e911-827a-06d89370a58e",
+      "target": "3ff13944-e797-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

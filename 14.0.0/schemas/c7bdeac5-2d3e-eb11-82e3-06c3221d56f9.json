@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c7bdeac5-2d3e-eb11-82e3-06c3221d56f9",
+  "title": "Currency Exchange Service",
+  "description": "A service offered for the exchange of one currency for another\r\n\r\nA service for the swapping of one currency for another. (AccountingTool)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "7a060c4d-4370-eb11-82fd-061e1f234dd5",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf4d5ecc-2d3e-eb11-82e3-06c3221d56f9",
+      "target": "059e1fae-2d3e-eb11-82e3-06c3221d56f9",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

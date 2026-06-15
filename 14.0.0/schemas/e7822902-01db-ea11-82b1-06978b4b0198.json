@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e7822902-01db-ea11-82b1-06978b4b0198",
+  "title": "Channel Access Arrangement",
+  "description": "An arrangement that allows or restricts the access to a channel through a specific access point",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "c5b1fa24-01db-ea11-82b1-06978b4b0198",
+      "target": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Access Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e0ea145-01db-ea11-82b1-06978b4b0198",
+      "target": "153e71ae-c762-ea11-8290-0614a0f38526",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

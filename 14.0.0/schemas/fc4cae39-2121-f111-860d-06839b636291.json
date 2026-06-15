@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fc4cae39-2121-f111-860d-06839b636291",
+  "title": "Deposit Arrangement Involvement",
+  "description": "A specific party who plays a specific role in the Deposit Service process.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DepositServiceArrangementInvolvementType"
+  ],
+  "properties": {
+    "DepositServiceArrangementInvolvementType": {
+      "type": "string",
+      "description": "Defines the category or type of party involved in the deposit arrangement, identifying the nature of the entity participating in the deposit service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DepositServiceArrangementInvolvementTypeValues",
+      "x-related-bo-id": "b518ae8f-2121-f111-860d-06839b636291",
+      "x-related-bo-name": "DepositServiceArrangementInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}
