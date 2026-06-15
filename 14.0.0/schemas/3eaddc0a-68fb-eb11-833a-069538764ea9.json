@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3eaddc0a-68fb-eb11-833a-069538764ea9",
+  "title": "LimitTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8ef9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "Multilateral",
+      "description": "Limit is a maximum amount value applied to, or by, a participant to a set of counterparties. The multilateral limit is taken into account by the transaction administrator to contain the risk in the system. With the help of the multilateral limit, the direct participant restricts the use of liquidity when clearing payments with all other direct participants for which no bilateral limit is set.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "Bilateral",
+      "description": "Limit is applied by one party to a specific counterparty, and corresponds to the maximum amount of traffic party setting the limit can send to that counterparty. The limit can be expressed as a debit or a credit limit. With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9af9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "NetBilateral",
+      "description": "Limit is applied by one party to a specific counterparty, and corresponds to the maximum net balance acceptable by the party that is setting the limit. The limit is calculated as an arithmetic sum in value of the bilateral flows exchanged between the two parties. The net bilateral limit can be expressed as a debit or a credit balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ff9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "IndirectBilateral",
+      "description": "Limit is a maximum value set by a direct participant with respect to its indirect participant. The limit represents the maximum amount the indirect participant can use to settle its operations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "Global",
+      "description": "Maximum value set by either the transaction administrator or by a member for the participation of a member in the system. The global limit may be expressed as a credit or debit maximum value and is taken into account by the transaction administrator when processing transaction inside the system. With the help of the global limit, the direct participant may limit the use of liquidity when clearing specific type of payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a9f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "MandatoryBilateral",
+      "description": "Mandatory part of the bilateral limit applied by one party to a specific counterparty, and corresponds to the maximum amount of traffic party setting the limit can send to that counterparty. The limit can be expressed as a debit or a credit limit. With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aef9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "DiscretionaryBilateral",
+      "description": "Discretionary part of the bilateral limit applied by one party to a specific counterparty, and corresponds to the maximum amount of traffic party setting the limit can send to that counterparty. The limit can be expressed as a debit or a credit limit. With the help of a bilateral limit, the direct participant restricts the use of liquidity when clearing payments with another direct participant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "DirectDebit",
+      "description": "Limit not to be exceeded for direct debit operations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "SingleCustomerDirectDebit",
+      "description": "Single direct debit payment limit not to be exceeded by any single direct debit transaction by a customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bdf9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "SingleFinancialInstitutionDirectDebit",
+      "description": "Single direct debit payment limit not to be exceeded by any single direct debit transaction initiated by a financial institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "TotalDailyCustomerDirectDebit",
+      "description": "Total daily payments limit for customer direct debits not to be exceeded by the total of all direct debit transactions initiated by customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "TotalDailyFinancialInstitutionDirectDebit",
+      "description": "Total daily payments limit for financial institutions direct debits not to be exceeded by the total of all direct debit transactions initiated by financial institutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccf9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "AutoCollateralisation",
+      "description": "Limit is related to a credit operation that is or can be triggered when a buyer does not have a sufficient amount of money to settle a securities transaction in order to improve its cash position for the next settlement cycle. The credit provided can be secured using securities already held by the buyer (“collateral stocks”) or the securities that are being purchased (“collateral flows”).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "UnsecuredCredit",
+      "description": "Limit is related to a cap amount granted by a national central bank or a settlement bank, but generally unsecured outside of the market infrastructure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6f9b753-2fb4-ed11-83f9-06a1e7288c87",
+      "name": "ExternalGuarantee",
+      "description": "Limit is related to a cap amount granted by a national central bank or a settlement bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

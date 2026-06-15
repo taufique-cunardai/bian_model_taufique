@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9fe79648-445a-eb11-82e3-0696e5690f15",
+  "title": "LeaseArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b0f17888-445a-eb11-82e3-0696e5690f15",
+      "name": "Fee Arrangement",
+      "description": "An arrangement which specifies to charge fees when banking transactions did take place, accompanied by the modalities to calculate and charge the fees and the related terms and conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2f17888-445a-eb11-82e3-0696e5690f15",
+      "name": "Interest Arrangement",
+      "description": "An arrangement into which both parties confirm on an interest feature.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3f17888-445a-eb11-82e3-0696e5690f15",
+      "name": "Lien Arrangement",
+      "description": "An arrangement that grants a creditor the right to use an asset as a guarantee for an underlying obligation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4f17888-445a-eb11-82e3-0696e5690f15",
+      "name": "Sweep Arrangement",
+      "description": "Arrangement in which funds are transferred from one deposit account to another when a certain threshold is reached.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5f17888-445a-eb11-82e3-0696e5690f15",
+      "name": "Deposit Arrangement",
+      "description": "An arrangement which specifies the acceptance of deposits, accompanied by the modalities to deposit money.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6f17888-445a-eb11-82e3-0696e5690f15",
+      "name": "Withdrawal Arrangement",
+      "description": "An arrangement which specifies the acceptance of withdrawals, accompanied by the modalities to withdraw money.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7f17888-445a-eb11-82e3-0696e5690f15",
+      "name": "Payment Arrangement",
+      "description": "An arrangement which specifies the promise to offer the payment service, accompanied by the payment modalities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e480dcb-445a-eb11-82e3-0696e5690f15",
+      "name": "Collateral Asset Arrangement",
+      "description": "An arrangement within an agreement where an Asset is provided as security for a payment or repayment of an obligation. (BIAN)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f480dcb-445a-eb11-82e3-0696e5690f15",
+      "name": "Device Arrangement",
+      "description": "Arrangement on the provision and use of product instruments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60480dcb-445a-eb11-82e3-0696e5690f15",
+      "name": "Corporate Action Arrangement",
+      "description": "A decision of a corporation's board of directors that brings or could bring an actual change to the existing corporate capital structure or financial condition. (Adapted from ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "876536e5-445a-eb11-82e3-0696e5690f15",
+      "name": "Leasing Asset Arrangement",
+      "description": "An arrangement is specifying the asset that is financed in the leasing agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

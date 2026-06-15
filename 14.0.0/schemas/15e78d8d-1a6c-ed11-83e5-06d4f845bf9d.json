@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "15e78d8d-1a6c-ed11-83e5-06d4f845bf9d",
+  "title": "CollateralAssetStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1d96dceb-1a6c-ed11-83e5-06d4f845bf9d",
+      "name": "Offered",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e96dceb-1a6c-ed11-83e5-06d4f845bf9d",
+      "name": "Under assessment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f96dceb-1a6c-ed11-83e5-06d4f845bf9d",
+      "name": "Transferred",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2096dceb-1a6c-ed11-83e5-06d4f845bf9d",
+      "name": "Allocated",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2196dceb-1a6c-ed11-83e5-06d4f845bf9d",
+      "name": "Free for allocation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2296dceb-1a6c-ed11-83e5-06d4f845bf9d",
+      "name": "Allocated to another loan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2396dceb-1a6c-ed11-83e5-06d4f845bf9d",
+      "name": "Issued for execution",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

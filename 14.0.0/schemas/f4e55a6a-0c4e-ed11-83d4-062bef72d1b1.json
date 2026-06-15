@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f4e55a6a-0c4e-ed11-83d4-062bef72d1b1",
+  "title": "AuthenticationResultTypeValues",
+  "description": "Specifies the result of authentication done. \r\n\r\nReference:\r\nhttps://www.iso20022.org/standardsrepository/type/AuthenticationResultCode",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a2298483-0c4e-ed11-83d4-062bef72d1b1",
+      "name": "Denial",
+      "description": "The authentication didn’t succeed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4298483-0c4e-ed11-83d4-062bef72d1b1",
+      "name": "NonParticipation",
+      "description": "The card does not participate in the authentication programme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5298483-0c4e-ed11-83d4-062bef72d1b1",
+      "name": "UnableToAuthenticate",
+      "description": "The authentication couldn’t be carried out.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a6298483-0c4e-ed11-83d4-062bef72d1b1",
+      "name": "MerchantNotEnroled",
+      "description": "Merchant not enrolled in the authentication programme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a7298483-0c4e-ed11-83d4-062bef72d1b1",
+      "name": "WithCryptogram",
+      "description": "Authentication succeeded with a cryptogram.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8298483-0c4e-ed11-83d4-062bef72d1b1",
+      "name": "WithoutCryptogram",
+      "description": "Authentication succeeded without a cryptogram.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

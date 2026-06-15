@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "93921fc5-f987-f011-8bba-a402b9460f22",
+  "title": "DialogueSessionRequestedActionOutcomeStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "724bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Success",
+      "description": "Action executed successfully, requested result delivered.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "744bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Pending",
+      "description": "Action accepted but not yet fully executed; requires background processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "754bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Requires_authentication",
+      "description": "Action cannot proceed until customer re-authenticates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "764bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Requires_approval",
+      "description": "Action paused awaiting manual or automated approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "774bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Failed_validation",
+      "description": "Request failed due to invalid/missing input parameters.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "784bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Failed_authentication",
+      "description": "Request failed due to incorrect or missing authentication.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "794bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Rejected",
+      "description": "Action explicitly denied due to business rules or risk controls.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a4bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Cancelled",
+      "description": "Action was initiated but then stopped before completion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b4bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Error_system",
+      "description": "Request could not be completed due to a technical/system error.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c4bebcd-f987-f011-8bba-a402b9460f22",
+      "name": "Error_unknown",
+      "description": "Request failed for an unspecified or unexpected reason.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

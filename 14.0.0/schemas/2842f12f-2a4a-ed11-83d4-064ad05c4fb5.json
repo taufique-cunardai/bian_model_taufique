@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2842f12f-2a4a-ed11-83d4-064ad05c4fb5",
+  "title": "PriorityValueTypes",
+  "description": "Specifies the priority level of an event. ISO20022",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3897d56e-2a4a-ed11-83d4-064ad05c4fb5",
+      "name": "Urgent",
+      "description": "Priority level is urgent (highest priority possible).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a97d56e-2a4a-ed11-83d4-064ad05c4fb5",
+      "name": "High",
+      "description": "Priority level is high.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b97d56e-2a4a-ed11-83d4-064ad05c4fb5",
+      "name": "Normal",
+      "description": "Priority level is normal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c97d56e-2a4a-ed11-83d4-064ad05c4fb5",
+      "name": "Low",
+      "description": "Priority level is low.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "72e133cf-f0c0-ee11-8b47-a402b9460f22",
+  "title": "SystemStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7556e6f3-f0c0-ee11-8b47-a402b9460f22",
+      "name": "Suspended",
+      "description": "System is suspended, that is, not operational.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c56e6f3-f0c0-ee11-8b47-a402b9460f22",
+      "name": "Active",
+      "description": "System is functioning normally, that is, operational.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8156e6f3-f0c0-ee11-8b47-a402b9460f22",
+      "name": "Closed",
+      "description": "System is closed (eg. normal closure of an RTGS).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8656e6f3-f0c0-ee11-8b47-a402b9460f22",
+      "name": "Closing",
+      "description": "System needs to wait for completion of intermediate internal activities before going to a status Closed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b56e6f3-f0c0-ee11-8b47-a402b9460f22",
+      "name": "ReserveMaintenancePeriodStart",
+      "description": "System is starting a new maintenance period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

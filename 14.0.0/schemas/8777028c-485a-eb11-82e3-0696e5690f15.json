@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8777028c-485a-eb11-82e3-0696e5690f15",
+  "title": "LeaseTransactionTypeValue",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0a9d1feb-485a-eb11-82e3-0696e5690f15",
+      "name": "Payment Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c9d1feb-485a-eb11-82e3-0696e5690f15",
+      "name": "Deposit Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d9d1feb-485a-eb11-82e3-0696e5690f15",
+      "name": "Withdrawal Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e9d1feb-485a-eb11-82e3-0696e5690f15",
+      "name": "Fee Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f9d1feb-485a-eb11-82e3-0696e5690f15",
+      "name": "Interest Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

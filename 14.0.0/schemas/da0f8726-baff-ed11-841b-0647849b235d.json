@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "da0f8726-baff-ed11-841b-0647849b235d",
+  "title": "OBAccountRoleTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cb9c9050-baff-ed11-841b-0647849b235d",
+      "name": "Principal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cd9c9050-baff-ed11-841b-0647849b235d",
+      "name": "Secondary owner",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce9c9050-baff-ed11-841b-0647849b235d",
+      "name": "Beneficiary",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf9c9050-baff-ed11-841b-0647849b235d",
+      "name": "Power of attorney",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d09c9050-baff-ed11-841b-0647849b235d",
+      "name": "Legal guardian",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d19c9050-baff-ed11-841b-0647849b235d",
+      "name": "Custodian for minor",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d29c9050-baff-ed11-841b-0647849b235d",
+      "name": "Successor on death",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d39c9050-baff-ed11-841b-0647849b235d",
+      "name": "Administrator",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d49c9050-baff-ed11-841b-0647849b235d",
+      "name": "Other party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d59c9050-baff-ed11-841b-0647849b235d",
+      "name": "Granter",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d69c9050-baff-ed11-841b-0647849b235d",
+      "name": "Settlor",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d79c9050-baff-ed11-841b-0647849b235d",
+      "name": "Senior managing official",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d89c9050-baff-ed11-841b-0647849b235d",
+      "name": "Protector",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d99c9050-baff-ed11-841b-0647849b235d",
+      "name": "Registered shareholder name",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

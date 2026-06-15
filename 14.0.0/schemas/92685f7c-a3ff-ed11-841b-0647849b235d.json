@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "92685f7c-a3ff-ed11-841b-0647849b235d",
+  "title": "UK.OB.FinancialInstitutionIdentificationValues",
+  "description": "This is the Data Type for Agent/SchemeName and used to identify the type of Identification used to identify an agent.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9e94bba1-a3ff-ed11-841b-0647849b235d",
+      "name": "BICFI",
+      "description": "Valid BICs for financial institutions are registered by the ISO 9362 Registration Authority in the BIC directory, and consist of eight (8) or eleven (11) contiguous characters.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a094bba1-a3ff-ed11-841b-0647849b235d",
+      "name": "NCC",
+      "description": "Valid NCC (National Clearing Code) as an option for the accounts that don't have an IBAN, registered in the country identified by the 2 letter ISO-3166 Country code. For example, transfer to India may have Scheme Name as UK.OBIE.NCC.IN and Identification can be the IFSC code of the bank/branch in India.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

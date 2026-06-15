@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "547556e3-bd14-ec11-834b-067bd6b7fb1d",
+  "title": "TransactionStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9986cb55-be14-ec11-834b-067bd6b7fb1d",
+      "name": "Initiated",
+      "description": "Indicates that the transaction has been created but processing has not yet begun.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a086cb55-be14-ec11-834b-067bd6b7fb1d",
+      "name": "Executed",
+      "description": "Indicates that the transaction has been carried out and funds have been processed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c9cab66-be14-ec11-834b-067bd6b7fb1d",
+      "name": "Cancelled",
+      "description": "Indicates that the transaction has been withdrawn or stopped before completion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "519cab66-be14-ec11-834b-067bd6b7fb1d",
+      "name": "Confirmed",
+      "description": "Indicates that the transaction has been successfully verified and acknowledged by the system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "004de45d-d513-ed11-83b7-0696aac3fa19",
+      "name": "Suspended",
+      "description": "Indicates that the transaction is temporarily on hold due to conditions or restrictions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64178a65-d513-ed11-83b7-0696aac3fa19",
+      "name": "Pending",
+      "description": "Indicates that the transaction is awaiting processing or further action.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2652972-d513-ed11-83b7-0696aac3fa19",
+      "name": "Completed",
+      "description": "Indicates that the transaction has been fully processed and finalized.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "754d617a-d513-ed11-83b7-0696aac3fa19",
+      "name": "Notified",
+      "description": "Indicates that relevant parties have been informed about the transaction status.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3ac40471-b603-ee11-841f-0698214c0ded",
+      "name": "Booked",
+      "description": "Indicates that the transaction has been recorded in the system and the corresponding financial entry has been posted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fc40471-b603-ee11-841f-0698214c0ded",
+      "name": "Rejected",
+      "description": "Indicates that the transaction was not accepted during processing and has not been executed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

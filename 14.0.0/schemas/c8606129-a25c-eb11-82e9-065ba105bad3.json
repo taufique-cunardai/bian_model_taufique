@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c8606129-a25c-eb11-82e9-065ba105bad3",
+  "title": "DepositTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9e37d132-a25c-eb11-82e9-065ba105bad3",
+      "name": "Cash Deposit",
+      "description": "Amount of money representing a value paid by a debtor to an agent bank. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "facd433c-a25c-eb11-82e9-065ba105bad3",
+      "name": "Security Deposit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c804697-a25c-eb11-82e9-065ba105bad3",
+      "name": "Pawn Deposit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a9d7026f-97e4-eb11-8336-06d9a016f15b",
+      "name": "Call/Notice Deposit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76c686e4-98e4-eb11-8336-06d9a016f15b",
+      "name": "Fixed Term Deposit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bb4d162-35b4-ed11-83f9-06a1e7288c87",
+      "name": "Demand Deposit",
+      "description": "A demand deposit account is essentially a checking account in which you can withdraw funds at any time. (Investopedia)\r\nhttps://www.investopedia.com/terms/d/demanddeposit.asp#:~:text=our%20editorial%20policies-,What%20Is%20a%20Demand%20Deposit%3F,are%20common%20types%20of%20DDAs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "658c8e9d-35b4-ed11-83f9-06a1e7288c87",
+      "name": "Time Deposit",
+      "description": "Time deposits are those with a fixed time and usually pay a fixed interest rate (Investopedia)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef4e8b93-36b4-ed11-83f9-06a1e7288c87",
+      "name": "Card Deposit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a236ef25-3f01-ee11-841b-06fb181657f1",
+  "title": "OBStatementFeeFrequencyValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "63d24dac-3f01-ee11-841b-06fb181657f1",
+      "name": "ChargingPeriod",
+      "description": "This fee is triggered at the end of each charging period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65d24dac-3f01-ee11-841b-06fb181657f1",
+      "name": "PerTransactionAmount",
+      "description": "The amount stated is levied for each transaction processed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66d24dac-3f01-ee11-841b-06fb181657f1",
+      "name": "PerTransactionPercentage",
+      "description": "The fee amount is the given percentage of the transaction processed and is levied for each transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67d24dac-3f01-ee11-841b-06fb181657f1",
+      "name": "StatementMonthly",
+      "description": "This fee is triggered based on a monthly statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68d24dac-3f01-ee11-841b-06fb181657f1",
+      "name": "Quarterly",
+      "description": "This fee is triggered at the end of every quarter.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69d24dac-3f01-ee11-841b-06fb181657f1",
+      "name": "Weekly",
+      "description": "The fee is triggered weekly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6efd9566-f05b-f011-8bb5-a402b9460f22",
+  "title": "FeeCondition-BasedModalityTypeValues",
+  "description": "Fee is applied based on rules or criteria.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f38bfc88-f05b-f011-8bb5-a402b9460f22",
+      "name": "Threshold-Based",
+      "description": "Applied only if certain limits are exceeded (e.g. >3 withdrawals/month).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f58bfc88-f05b-f011-8bb5-a402b9460f22",
+      "name": "Channel-Based",
+      "description": "Different fees for online, branch, ATM, or mobile usage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f68bfc88-f05b-f011-8bb5-a402b9460f22",
+      "name": "Location-Based",
+      "description": "Domestic vs international (e.g. foreign ATM fees).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f78bfc88-f05b-f011-8bb5-a402b9460f22",
+      "name": "Profile-Based",
+      "description": "Waived for premium customers or applied to basic accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

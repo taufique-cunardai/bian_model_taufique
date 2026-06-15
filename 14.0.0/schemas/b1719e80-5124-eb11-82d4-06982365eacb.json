@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b1719e80-5124-eb11-82d4-06982365eacb",
+  "title": "ArrangementTypeValues",
+  "description": "Specifies the category/type/class of arrangement like deposit arrangement, withdraw arrangement, etc. Arrangement type is very often referred to Service e.g., transfer, withdraw, deposit and etc. An arrangement can be classified based on 1) Subject type like time arrangement, cost arrangement, tax arrangement; and 2) Action Type like payment arrangement, transfer arrangement, exchange arrangement, delivery arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4106f8c1-5124-eb11-82d4-06982365eacb",
+      "name": "Sweep Arrangement",
+      "description": "An arrangement into which is promised for the set-up and execution of structured sweeps to and from the facility to a linked account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4306f8c1-5124-eb11-82d4-06982365eacb",
+      "name": "Withdrawal Arrangement",
+      "description": "An arrangement into which is promised to deliver Withdraw Service  to take fund out of an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4406f8c1-5124-eb11-82d4-06982365eacb",
+      "name": "Deposit Arrangement",
+      "description": "An arrangement into which is promised to deliver Deposit Service  to place funds into an account for safekeeping.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4506f8c1-5124-eb11-82d4-06982365eacb",
+      "name": "Interest Arrangement",
+      "description": "An arrangement into which is promised to apply a pricing element expressed in a percentage  to a principal amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4606f8c1-5124-eb11-82d4-06982365eacb",
+      "name": "Fee Arrangement",
+      "description": "An arrangement into which is promised to apply a charge for services rendered.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4706f8c1-5124-eb11-82d4-06982365eacb",
+      "name": "Lien Arrangement",
+      "description": "An arrangement into which is promised for placing a lien or block on the account for a specified purpose, amount, and period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0698c4c8-5124-eb11-82d4-06982365eacb",
+      "name": "Information Arrangement",
+      "description": "An arrangement concerning the information the bank will provide about the agreement/account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b06332dd-5124-eb11-82d4-06982365eacb",
+      "name": "Payment Arrangement",
+      "description": "An arrangement into which is promised to deliver a specific payment service including regular payments, standing orders, direct debits and bill pay instructions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be20656c-0725-eb11-82d4-06df8a4a2891",
+      "name": "Entitlement Arrangement",
+      "description": "Right or obligation linked to the involvement of a party in an agreement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26e061b8-0825-eb11-82d4-06df8a4a2891",
+      "name": "Period Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f3eaaada-c901-ed11-83b2-06c985aa5d3b",
+      "name": "Collateral Arrangement",
+      "description": "An arrangement into which is promised for handling the oversight of the allocation, valuation and administration of collateral associated with the facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "730985e5-c901-ed11-83b2-06c985aa5d3b",
+      "name": "Limit Arrangement",
+      "description": "An arrangement to limit something\r\ne.g., the number of transaction per week, the amount of money allowed to withdraw per week/day and etc.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f9d3091c-4d12-ed11-83b7-06db69cb3de5",
+      "name": "Access Arrangement",
+      "description": "An arrangement that allows or restricts the access to a service or product, channel or device through a specific access point",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7a19238-4d12-ed11-83b7-06db69cb3de5",
+      "name": "Card Payment Arrangement",
+      "description": "An arrangement into which is promised to deliver Card payment Service to execute payment transactions through a payment card, including online payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73e2d34b-4d12-ed11-83b7-06db69cb3de5",
+      "name": "Standing Order Arrangement",
+      "description": "An arrangement into which is promised to deliver Standing Order Service to make regular transfers on given dates to a named beneﬁciary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "227a7457-4d12-ed11-83b7-06db69cb3de5",
+      "name": "Overdraft Arrangement",
+      "description": "An arrangement into which is promised to deliver Overdraft Service  that allows fund transfer even if there is no provision on the account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b8e23b7-5312-ed11-83b7-06db69cb3de5",
+      "name": "Repayment Arrangement",
+      "description": "An arrangement into which is promised for paying back money previously borrowed from a lender.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d760a60-5412-ed11-83b7-06db69cb3de5",
+      "name": "Statement Arrangement",
+      "description": "An arrangement into which is promised to deliver a reporting service on payment transactions registered on an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22e9462c-5512-ed11-83b7-06db69cb3de5",
+      "name": "Credit Transfer Arrangement",
+      "description": "An arrangement into which is promised to allow a payer to transfer fund to a beneficiary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95a23d37-7033-ed11-83c8-060992c204f9",
+      "name": "Product and Service Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a1822bd-3234-ed11-83cc-0663e70158a3",
+      "name": "Factoring Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8efbe25b-bd4f-ed11-83d8-0679bc75434d",
+      "name": "Rollover Arrangement",
+      "description": "Arrangement stipulating the modalities for an automatic renewal of the agreement\r\n\r\ni.e. the replacement of the agreement with a new one without renewed negociation and witout explicit agreement of the customer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3abbb97-d365-ed11-83e1-063ef7468809",
+      "name": "Restructuring Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39640076-a069-ed11-83e5-06708708bdfd",
+      "name": "Insurance Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83173d05-a169-ed11-83e5-06708708bdfd",
+      "name": "Collection Arrangement",
+      "description": "An arrangement into which is promised to collect past-due debts from borrowers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e7bfddb-b269-ed11-83e5-06708708bdfd",
+      "name": "Underwriting Arrangement",
+      "description": "A contractual agreement between parties that commits the underwriter to assuming risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97cbdbb0-b15b-ee11-8b3a-a402b9460f22",
+      "name": "Termination Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df1317ba-b15b-ee11-8b3a-a402b9460f22",
+      "name": "Maturity Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7319f88d-dabb-f011-8bc4-a402b9460f22",
+      "name": "Administrative Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00ec8f04-7e27-f111-8be1-a402b9460f22",
+      "name": "Application Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

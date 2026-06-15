@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4f8540ce-3e01-ee11-841b-06fb181657f1",
+  "title": "OBStatementInterestFrequencyValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "168d45fc-3e01-ee11-841b-06fb181657f1",
+      "name": "Daily",
+      "description": "Calculated and/or applied daily.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "188d45fc-3e01-ee11-841b-06fb181657f1",
+      "name": "HalfYearly",
+      "description": "Calculated and/or applied half yearly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "198d45fc-3e01-ee11-841b-06fb181657f1",
+      "name": "Monthly",
+      "description": "Calculated and/or applied monthly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a8d45fc-3e01-ee11-841b-06fb181657f1",
+      "name": "PerStatementDate",
+      "description": "Calculated and/or applied on the statement date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b8d45fc-3e01-ee11-841b-06fb181657f1",
+      "name": "Quarterly",
+      "description": "This fee is triggered at the end of every quarter.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c8d45fc-3e01-ee11-841b-06fb181657f1",
+      "name": "Weekly",
+      "description": "The fee is triggered weekly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d8d45fc-3e01-ee11-841b-06fb181657f1",
+      "name": "Yearly",
+      "description": "Calculated and/or applied annually.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0b4f629b-cdff-ed11-841b-0647849b235d",
+  "title": "UK.OB.ProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "257ae9b0-cdff-ed11-841b-0647849b235d",
+      "name": "BusinessCurrentAccount",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "277ae9b0-cdff-ed11-841b-0647849b235d",
+      "name": "CommercialCreditCard",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "287ae9b0-cdff-ed11-841b-0647849b235d",
+      "name": "Other",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "297ae9b0-cdff-ed11-841b-0647849b235d",
+      "name": "PersonalCurrentAccount",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a7ae9b0-cdff-ed11-841b-0647849b235d",
+      "name": "SMELoan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

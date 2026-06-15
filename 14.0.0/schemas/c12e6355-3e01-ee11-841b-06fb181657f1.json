@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c12e6355-3e01-ee11-841b-06fb181657f1",
+  "title": "OBStatementInterestRateTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "46c54e89-3e01-ee11-841b-06fb181657f1",
+      "name": "BOEBaseRate",
+      "description": "Interest rate shown is linked to the Bank of England Base Rate shown at http://www.bankofengland.co.uk/Pages/home.aspx. Typically defined as a % above the 'Current Bank Rate', but may also be below or equal to bank rate for certain Loan products.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48c54e89-3e01-ee11-841b-06fb181657f1",
+      "name": "FixedRate",
+      "description": "Fixed rate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49c54e89-3e01-ee11-841b-06fb181657f1",
+      "name": "Gross",
+      "description": "Interest rate shown is before any tax deducted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ac54e89-3e01-ee11-841b-06fb181657f1",
+      "name": "LoanProviderBaseRate",
+      "description": "Loan provider base rate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4bc54e89-3e01-ee11-841b-06fb181657f1",
+      "name": "Net",
+      "description": "Interest rate shown is after tax is deducted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

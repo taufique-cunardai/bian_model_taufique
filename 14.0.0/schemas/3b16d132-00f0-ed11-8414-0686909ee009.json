@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3b16d132-00f0-ed11-8414-0686909ee009",
+  "title": "DirectDebitStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e27e7e3b-00f0-ed11-8414-0686909ee009",
+      "name": "Active",
+      "description": "The mandate is active.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7739eb59-00f0-ed11-8414-0686909ee009",
+      "name": "Inactive",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "520be3fa-2647-ee11-8b35-a402b9460f22",
+      "name": "Created",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "128d110b-2747-ee11-8b35-a402b9460f22",
+      "name": "Pending Approval",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f8d110b-2747-ee11-8b35-a402b9460f22",
+      "name": "Cancelled",
+      "description": "The mandate is cancelled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a116f212-2747-ee11-8b35-a402b9460f22",
+      "name": "Expired",
+      "description": "The mandate has passed the end date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70ac6a1e-2747-ee11-8b35-a402b9460f22",
+      "name": "Rejected",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7dac6a1e-2747-ee11-8b35-a402b9460f22",
+      "name": "Completed",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abc81426-2747-ee11-8b35-a402b9460f22",
+      "name": "Archived",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8c81426-2747-ee11-8b35-a402b9460f22",
+      "name": "Failed",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b70d634-3347-ee11-8b35-a402b9460f22",
+      "name": "Suspended",
+      "description": "The mandate is put on hold.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dac054e1-2394-e911-823e-069871e4ec9c",
+  "title": "AccountIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7e1e0eff-2394-e911-823e-069871e4ec9c",
+      "name": "BBAN",
+      "description": "Basic Bank Account Number (BBAN) - identifier used nationally by financial institutions, ie, in individual countries, generally as part of a National Account Numbering Scheme(s), to uniquely identify the account of a customer. (ISO20022)\r\n\r\n.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "31d4820b-2494-e911-823e-069871e4ec9c",
+      "name": "IBAN",
+      "description": "International Bank Account Number (IBAN) - identifier used internationally by financial institutions to uniquely identify the account of a customer. Further specifications of the format and content of the IBAN can be found in the standard ISO 13616 \"Banking and related financial services - International Bank Account Number (IBAN)\" version 1997-10-01, or later revisions. (ISO20022)\r\n\r\nAn identifier used internationally by financial institutions to uniquely identify the account of a customer at a financial institution, as described in the latest edition of the international standard ISO 13616. \"Banking and related financial services - International Bank Account Number (IBAN)\". (OBExternalAccountIdentification4Code)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85afbb3c-2494-e911-823e-069871e4ec9c",
+      "name": "UPIC",
+      "description": "Universal Payment Identification Code (UPIC) - identifier used by the New York Clearing House to mask confidential data, such as bank accounts and bank routing numbers. UPIC numbers remain with business customers, regardless of banking relationship changes. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7bb62460-2494-e911-823e-069871e4ec9c",
+      "name": "Account Number",
+      "description": "String of characters (mainly numbers) used to identify an account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "db081a2c-89cd-ed11-8401-0670ac0f383f",
+      "name": "PAN",
+      "description": "Primary Account Number - identifier scheme used to identify a card account. (OBExternalAccountIdentification4Code)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10a7e600-a0ff-ed11-841b-0647849b235d",
+      "name": "Paym",
+      "description": "Paym Scheme to make payments via mobile (OBExternalAccountIdentification4Code)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fa7b11e-a0ff-ed11-841b-0647849b235d",
+      "name": "Wallet",
+      "description": "A primary and unique account identifier used to identify a wallet.\r\nAn ASPSP must document on their developer portal, the payment methods that supports this account identifier.(OBExternalAccountIdentification4Code)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de54c5be-9fd4-ee11-8b49-a402b9460f22",
+      "name": "Sort Code and Account Number",
+      "description": "Sort Code and Account Number - identifier scheme used in the UK by financial institutions to identify the account of a customer. The identifier is the concatenation of the 6 digit UK sort code and 8 digit account number. (UK Open Banking)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b24afed4-6e6c-f011-8559-06934331622d",
+      "name": "AIIN",
+      "description": "IssuerIdentificationNumber",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81e8a7e4-6e6c-f011-8559-06934331622d",
+      "name": "CUID",
+      "description": "CHIPSUniversalIdentifier",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

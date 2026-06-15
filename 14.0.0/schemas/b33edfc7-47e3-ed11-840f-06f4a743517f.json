@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b33edfc7-47e3-ed11-840f-06f4a743517f",
+  "title": "UK.OB.AccountSwitchStatusTypeValues",
+  "description": "The switch status for the account. (Open Banking)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fa152719-48e3-ed11-840f-06f4a743517f",
+      "name": "Not Switched",
+      "description": "Indicator to show that the account has not been switched to another ASPSP(Open Banking)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c84a026-48e3-ed11-840f-06f4a743517f",
+      "name": "Switch Completed",
+      "description": "Indicator to show that the account has been switched and the switching process is completed. (Open Banking)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

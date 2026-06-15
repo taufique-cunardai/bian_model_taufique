@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6c309c60-58a9-ed11-83f5-063802d1c599",
+  "title": "TokenStorageLocationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9047f4c1-58a9-ed11-83f5-063802d1c599",
+      "name": "Device",
+      "description": "Stored in device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9247f4c1-58a9-ed11-83f5-063802d1c599",
+      "name": "OnFile",
+      "description": "Storage is on file.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9347f4c1-58a9-ed11-83f5-063802d1c599",
+      "name": "CardAcceptorWallet",
+      "description": "Storage is in wallet managed by card acceptor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9447f4c1-58a9-ed11-83f5-063802d1c599",
+      "name": "IssuerWallet",
+      "description": "Storage is in wallet managed by Issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9547f4c1-58a9-ed11-83f5-063802d1c599",
+      "name": "ThirdPartyWallet",
+      "description": "Storage location is in wallet managed by a third party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9647f4c1-58a9-ed11-83f5-063802d1c599",
+      "name": "OtherPrivate",
+      "description": "Code defined by private agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9747f4c1-58a9-ed11-83f5-063802d1c599",
+      "name": "OtherNational",
+      "description": "Code defined by national standards organisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

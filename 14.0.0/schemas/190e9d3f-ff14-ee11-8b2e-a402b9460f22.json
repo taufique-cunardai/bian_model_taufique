@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "190e9d3f-ff14-ee11-8b2e-a402b9460f22",
+  "title": "UK.OB.Servicer",
+  "description": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account.",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SchemeName",
+    "Identification"
+  ],
+  "properties": {
+    "SchemeName": {
+      "type": "string",
+      "description": "Name of the identification scheme, in a coded form as published in an external list.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "UK.OB.FinancialInstitutionIdentificationValues",
+      "x-related-bo-id": "92685f7c-a3ff-ed11-841b-0647849b235d",
+      "x-related-bo-name": "UK.OB.FinancialInstitutionIdentificationValues"
+    },
+    "Identification": {
+      "type": "string",
+      "description": "Unique and unambiguous identification of the servicing institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

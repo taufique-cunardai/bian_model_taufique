@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e67a4c23-a7b2-ed11-83f9-06c152f885fb",
+  "title": "TaxRateTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bfdebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Fixed",
+      "description": "Rate is fixed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Forfeit",
+      "description": "No specific repurchase rate applies to the transaction Repo, only a forfeit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Variable",
+      "description": "Rate is variable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Open",
+      "description": "Rate has not been established.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Unknown",
+      "description": "Rate is unknown by the sender or has not been established.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "NilPayment",
+      "description": "Rate will not be paid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "AdditionalTax",
+      "description": "Rate used for additional tax that cannot be categorised.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Charges",
+      "description": "Rate used to calculate the amount of the charges/fees that cannot be categorised.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "CashInLieuOfSecurities",
+      "description": "Rate used to calculate the cash disbursement in lieu of a fractional quantity of, for example, equity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Gross",
+      "description": "Cash dividend per equity before deductions or allowances have been made.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cadebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "CashIncentive",
+      "description": "Rate of the cash premium made available if the securities holder consents or participates to an event, for example, consent fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbdebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Net",
+      "description": "Relates to the netting of settlement instructions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccdebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Sollication",
+      "description": "Cash rate made available in an offer in order to encourage participation in the offer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cddebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "StampDuty",
+      "description": "Financial instrument has not been stamped and/or duly signed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cedebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "StockExchangeTax",
+      "description": "Rate of stock exchange tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cfdebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "WithholdingTax",
+      "description": "Relates to a tax refund from the authorities on the associated corporate action event.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "TransferTax",
+      "description": "Transaction has been generated due to transformation following a corporate action.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "TransactionTax",
+      "description": "Rate used to calculate the amount of transaction tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "TaxDeferred",
+      "description": "Rate relating to the underlying security for which tax is deferred.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "TaxFeeAmount",
+      "description": "Rate relating to the underlying security which is not taxable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "WithholdingOfForeignTax",
+      "description": "Rate at which the income will be withheld by the jurisdiction in which the income was originally paid, for which relief at source and/or reclaim may be possible.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "WithholdingOfLocalTax",
+      "description": "Rate at which the income will be withheld by the jurisdiction in which the account owner is located, for which relief at source and/or reclaim may be possible.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Imputed",
+      "description": "Imputed tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Precompte",
+      "description": "Rate is a precompte.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "OneTierTax",
+      "description": "Rate is a one tier tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9debe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "LocalTax",
+      "description": "Interest liable for interest down payment tax (proportion of gross interest per unit/interim profits that is not covered by the credit in the interest pool).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dadebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Scheduled",
+      "description": "Rate of the scheduled payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbdebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "Unscheduled",
+      "description": "Rate of the unscheduled payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcdebe37-a7b2-ed11-83f9-06c152f885fb",
+      "name": "AnyAndAll",
+      "description": "Any and all rate is sought.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

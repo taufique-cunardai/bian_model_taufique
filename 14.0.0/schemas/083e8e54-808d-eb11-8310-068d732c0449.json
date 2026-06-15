@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "083e8e54-808d-eb11-8310-068d732c0449",
+  "title": "InterestTypeValues",
+  "description": "Specifies the type of interest associated with a trade. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ea90085b-808d-eb11-8310-068d732c0449",
+      "name": "Fixed",
+      "description": "Indicates that the type of interest is fixed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1fb21e78-808d-eb11-8310-068d732c0449",
+      "name": "FloatingRateNote",
+      "description": "Indicates that the type of interest is a floating rate note.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb2acb8b-808d-eb11-8310-068d732c0449",
+      "name": "DualBasis",
+      "description": "Indicates that the type of interest is a dual basis.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab29bd93-808d-eb11-8310-068d732c0449",
+      "name": "Index",
+      "description": "Indicates that the type of interest is index.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e2188a3-808d-eb11-8310-068d732c0449",
+      "name": "Discounted",
+      "description": "Indicates that the type of interest is discounted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "632188a3-808d-eb11-8310-068d732c0449",
+      "name": "ZeroCoupon",
+      "description": "Indicates that the type of interest is a zero coupon.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be00a5b8-808d-eb11-8310-068d732c0449",
+      "name": "ExInterest",
+      "description": "Indicates deal price excluding accrued interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14f94cd0-808d-eb11-8310-068d732c0449",
+      "name": "CumInterest",
+      "description": "Indicates deal price including accrued interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

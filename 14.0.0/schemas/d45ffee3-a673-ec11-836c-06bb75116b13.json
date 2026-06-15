@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d45ffee3-a673-ec11-836c-06bb75116b13",
+  "title": "AccountStatusTypeValues",
+  "description": "Specifies the current state of an account. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ce5da08e-b473-ec11-836c-06bb75116b13",
+      "name": "Enabled",
+      "description": "Account can be used for its intended purpose.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d55da08e-b473-ec11-836c-06bb75116b13",
+      "name": "Disabled",
+      "description": "Account cannot be used for its intended purpose, either temporarily or permanently.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "da5da08e-b473-ec11-836c-06bb75116b13",
+      "name": "Deleted",
+      "description": "Account cannot be used any longer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df5da08e-b473-ec11-836c-06bb75116b13",
+      "name": "ProForma",
+      "description": "Account is temporary and can be partially used for its intended purpose. The account will be fully available for use when the account servicer has received all relevant documents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e45da08e-b473-ec11-836c-06bb75116b13",
+      "name": "Pending",
+      "description": "Account change is pending approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

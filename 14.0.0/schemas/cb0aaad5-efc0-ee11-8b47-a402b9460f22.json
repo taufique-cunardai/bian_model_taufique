@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cb0aaad5-efc0-ee11-8b47-a402b9460f22",
+  "title": "SystemIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "eed95e39-f0c0-ee11-8b47-a402b9460f22",
+      "name": "Model",
+      "description": "Identification of a model for a given manufacturer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5d95e39-f0c0-ee11-8b47-a402b9460f22",
+      "name": "SerialNumber",
+      "description": "Serial number of a component.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fad95e39-f0c0-ee11-8b47-a402b9460f22",
+      "name": "ApprovalNumber",
+      "description": "Unique approval number for a component, delivered by a certification body.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ffd95e39-f0c0-ee11-8b47-a402b9460f22",
+      "name": "SystemVersion",
+      "description": "Version of the system, eg, \"4.0.1\" to indicate version 4.0.1.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04da5e39-f0c0-ee11-8b47-a402b9460f22",
+      "name": "SystemName",
+      "description": "Name by which a system is known.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09da5e39-f0c0-ee11-8b47-a402b9460f22",
+      "name": "Identification",
+      "description": "Identification of a system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

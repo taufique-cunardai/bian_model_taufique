@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ea5ab8ba-26fd-ec11-83ad-0635e6952d6f",
+  "title": "ProductAgreementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7a6ee6f0-26fd-ec11-83ad-0635e6952d6f",
+      "name": "Current Account Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f6081fb-26fd-ec11-83ad-0635e6952d6f",
+      "name": "Savings Account Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49acc405-27fd-ec11-83ad-0635e6952d6f",
+      "name": "Brokered Product Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57ceb111-27fd-ec11-83ad-0635e6952d6f",
+      "name": "Consumer Loan Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "acfad423-27fd-ec11-83ad-0635e6952d6f",
+      "name": "Mortgage Loan Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf11dcff-4d47-ee11-8b35-a402b9460f22",
+      "name": "Direct Debit Service Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "751b7cf3-d566-ef11-8b6f-a402b9460f22",
+      "name": "Term Deposit Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eb36b875-51a1-ec11-837e-061d0db0fbbb",
+  "title": "FinancialInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3dbfa98c-51a1-ec11-837e-061d0db0fbbb",
+      "name": "Deposit Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fbb79993-51a1-ec11-837e-061d0db0fbbb",
+      "name": "Withdraw Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2bb6ef9c-51a1-ec11-837e-061d0db0fbbb",
+      "name": "Money Transfer Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4cb70e8-51a1-ec11-837e-061d0db0fbbb",
+      "name": "Standing Order/Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15e74366-2d13-ed11-83b7-06456d6440ef",
+      "name": "Settlement Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1c78272-2d13-ed11-83b7-06456d6440ef",
+      "name": "Payment Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a32e1284-2d13-ed11-83b7-06456d6440ef",
+      "name": "Repayment Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

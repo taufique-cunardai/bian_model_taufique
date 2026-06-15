@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "aa2e6813-99ff-ed11-841b-0647849b235d",
+  "title": "UK.OB.AccountSubTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "eb89091f-99ff-ed11-841b-0647849b235d",
+      "name": "ChargeCard",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "16570f6b-99ff-ed11-841b-0647849b235d",
+      "name": "CreditCard",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ba5357b-99ff-ed11-841b-0647849b235d",
+      "name": "CurrentAccount",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7300b28e-99ff-ed11-841b-0647849b235d",
+      "name": "EMoney",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7400b28e-99ff-ed11-841b-0647849b235d",
+      "name": "Loan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c514a97-99ff-ed11-841b-0647849b235d",
+      "name": "Mortgage",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "420c80b6-99ff-ed11-841b-0647849b235d",
+      "name": "PrePaidCard",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67dd09c5-99ff-ed11-841b-0647849b235d",
+      "name": "Savings",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

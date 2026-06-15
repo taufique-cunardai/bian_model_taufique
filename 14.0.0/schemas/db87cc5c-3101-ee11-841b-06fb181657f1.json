@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "db87cc5c-3101-ee11-841b-06fb181657f1",
+  "title": "OBStatementAmountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9e4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "ArrearsClosingBalance",
+      "description": "The balance that is in arrears at the end of the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "AvailableBalance",
+      "description": "The available balance is the difference between the credit limit and the account balance – how much is available to spend.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a04fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "AverageBalanceWhenInCredit",
+      "description": "The average daily balance when the account is in credit during the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a14fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "AverageBalanceWhenInDebit",
+      "description": "The average daily balance when the account is in debit during the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a24fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "AverageDailyBalance",
+      "description": "The average daily balance during the statement period. An average daily balance adds the closing balances at the end of each day in a given period of time and divides the sum by the number of calendar days in that period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a34fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "BalanceTransferClosingBalance",
+      "description": "The component of balance that relates to balance transfers at the end of the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a44fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "CashClosingBalance",
+      "description": "The component of balance that relates to cash at the end of the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a54fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "ClosingBalance",
+      "description": "The ending balance or closing balance at the end of the current statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a64fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "CreditLimit",
+      "description": "The credit limit is the total amount of credit available to a borrower, including any amount already borrowed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a74fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "CurrentPayment",
+      "description": "The total payments received since the last period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a84fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "DirectDebitPaymentDue",
+      "description": "The total direct debit payments due for current statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a94fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "FSCSInsurance",
+      "description": "The amount under which the FSCS scheme will protect consumers when authorised financial services firms fail.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "MinimumPaymentDue",
+      "description": "The minimum payment required for the current statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "PendingTransactionsBalance",
+      "description": "The total pending transactions balance at the end of the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "PreviousClosingBalance",
+      "description": "The closing balance of the previous statement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "PreviousPayment",
+      "description": "The previous payment amount in the last statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ae4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "PurchaseClosingBalance",
+      "description": "The component of balance that relates to purchases at the end of the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af4fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "StartingBalance",
+      "description": "The new balance or starting balance carried forward since last statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b04fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "TotalAdjustments",
+      "description": "Total adjustments to the account during the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b14fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "TotalCashAdvances",
+      "description": "A cash advance is a short-term loan from a bank or alternative lender. The term also refers to a service provided by many credit card issuers allowing cardholders to withdraw a certain amount of cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b24fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "TotalCharges",
+      "description": "The total charges including interest, late payment fee during the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b34fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "TotalCredits",
+      "description": "Total amount credited in the account during the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b44fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "TotalDebits",
+      "description": "Total amount debited (money taken out from account) from the account during the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b54fff5c-3301-ee11-841b-06fb181657f1",
+      "name": "TotalPurchases",
+      "description": "The total transactions made during that statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

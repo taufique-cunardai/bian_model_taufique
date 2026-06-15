@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "db176fe5-3d01-ee11-841b-06fb181657f1",
+  "title": "OBStatementInterestTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "12aeae14-3e01-ee11-841b-06fb181657f1",
+      "name": "BalanceTransfer",
+      "description": "Interest on balance transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14aeae14-3e01-ee11-841b-06fb181657f1",
+      "name": "Cash",
+      "description": "Interest on cash advances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15aeae14-3e01-ee11-841b-06fb181657f1",
+      "name": "EstimatedNext",
+      "description": "The estimated interest that will be charged if the closing balance is not paid in full.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "16aeae14-3e01-ee11-841b-06fb181657f1",
+      "name": "Purchase",
+      "description": "Interest on purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "17aeae14-3e01-ee11-841b-06fb181657f1",
+      "name": "Total",
+      "description": "Total interest charges during the statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

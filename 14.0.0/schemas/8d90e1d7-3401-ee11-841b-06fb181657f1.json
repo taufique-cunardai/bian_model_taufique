@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8d90e1d7-3401-ee11-841b-06fb181657f1",
+  "title": "OBStatementDateTimeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "97144217-3501-ee11-841b-06fb181657f1",
+      "name": "BalanceTransferPromoEnd",
+      "description": "The date the balance transfer promo rate will end.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99144217-3501-ee11-841b-06fb181657f1",
+      "name": "DirectDebitDue",
+      "description": "The date that the direct debit payment is due for the current statement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a144217-3501-ee11-841b-06fb181657f1",
+      "name": "LastPayment",
+      "description": "The date that an account holder must make the payment for the previous statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b144217-3501-ee11-841b-06fb181657f1",
+      "name": "LastStatement",
+      "description": "The date on which the last statement was made available to account holder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9c144217-3501-ee11-841b-06fb181657f1",
+      "name": "NextStatement",
+      "description": "The date on which the next statement will be made available to account holder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d144217-3501-ee11-841b-06fb181657f1",
+      "name": "PaymentDue",
+      "description": "The date that an account holder must make the payment for the current statement period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e144217-3501-ee11-841b-06fb181657f1",
+      "name": "PurchasePromoEnd",
+      "description": "The date the purchase promo rate will end.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f144217-3501-ee11-841b-06fb181657f1",
+      "name": "StatementAvailable",
+      "description": "The date on which the current statement was made available to account holder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bf9352c5-aeff-ed11-841b-0647849b235d",
+  "title": "OBBalanceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e790ba2a-afff-ed11-841b-0647849b235d",
+      "name": "ClosingAvailable",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e990ba2a-afff-ed11-841b-0647849b235d",
+      "name": "ClosingBooked",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea90ba2a-afff-ed11-841b-0647849b235d",
+      "name": "ClosingCleared",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb90ba2a-afff-ed11-841b-0647849b235d",
+      "name": "Expected",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec90ba2a-afff-ed11-841b-0647849b235d",
+      "name": "ForwardAvailable",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed90ba2a-afff-ed11-841b-0647849b235d",
+      "name": "Information",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee90ba2a-afff-ed11-841b-0647849b235d",
+      "name": "InterimAvailable",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef90ba2a-afff-ed11-841b-0647849b235d",
+      "name": "InterimBooked",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f090ba2a-afff-ed11-841b-0647849b235d",
+      "name": "InterimCleared",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f190ba2a-afff-ed11-841b-0647849b235d",
+      "name": "OpeningAvailable",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f290ba2a-afff-ed11-841b-0647849b235d",
+      "name": "OpeningBooked",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f390ba2a-afff-ed11-841b-0647849b235d",
+      "name": "OpeningCleared",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f490ba2a-afff-ed11-841b-0647849b235d",
+      "name": "PreviouslyClosedBooked",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

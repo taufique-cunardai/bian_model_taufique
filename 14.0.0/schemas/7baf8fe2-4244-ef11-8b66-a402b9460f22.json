@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7baf8fe2-4244-ef11-8b66-a402b9460f22",
+  "title": "CustomerPortfolioAnalysisTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3d834251-4344-ef11-8b66-a402b9460f22",
+      "name": "Profitability Analysis",
+      "description": "It involves evaluating the profitability of different customer segments (cohorts) over time. This analysis helps businesses understand how various customer groups contribute to overall profitability.\r\n\r\nAssess which customer segments contribute the most to the company's profits and identify less profitable segments\r\n\r\nPurpose:\r\n\r\nTo assess the financial contribution of different customer segments over time.\r\nTo identify high-value customer groups and optimize profitability.\r\n\r\nThe main goal is to determine the profitability of individual customers or customer segments. \r\nIt assesses how much profit a company earns from each customer after accounting for the costs associated with acquiring and serving them.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f834251-4344-ef11-8b66-a402b9460f22",
+      "name": "Performance Analysis",
+      "description": "Customer cohort performance analysis combines the principles of cohort analysis with performance metrics to assess and optimize customer behavior and business outcomes over time. This approach helps businesses understand how different cohorts perform in terms of revenue generation, engagement, and other key performance indicators (KPIs).\r\n\r\nPurpose:\r\n\r\nTo evaluate and understand customer behavior over time.\r\nTo track various performance metrics that indicate customer engagement, satisfaction, and retention.\r\n\r\nThe primary aim is to evaluate and understand how individual customers or customer segments interact with a business's products or services.\r\nIt focuses on metrics related to customer behavior, satisfaction, engagement, and retention.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

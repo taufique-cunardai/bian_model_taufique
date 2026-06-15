@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e5df87cf-acc1-ed11-83fd-06e351de867d",
+  "title": "OBAccountAccessPermissionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ae3f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadAccountsBasic",
+      "description": "Ability to read basic account information",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b03f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadAccountsDetail",
+      "description": "Ability to read account identification details",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b13f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadBalances",
+      "description": "Ability to read all balance information",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b23f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadBeneficiariesBasic",
+      "description": "Ability to read basic beneficiary details",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b33f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadBeneficiariesDetail",
+      "description": "Ability to read account identification details for the beneficiary",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b43f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadDirectDebits",
+      "description": "Ability to read all direct debit information",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b53f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadOffers",
+      "description": "Ability to read all offer information",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b63f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadPAN",
+      "description": "Request to access PAN in the clear across the available endpoints.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b73f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadParty",
+      "description": "Ability to read party information on the account owner.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b83f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadPartyPSU",
+      "description": "Ability to read party information on the PSU logged in.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b93f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadProducts",
+      "description": "Ability to read all product information relating to the account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba3f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadScheduledPaymentsBasic",
+      "description": "Ability to read basic statement details",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bb3f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadScheduledPaymentsDetail",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc3f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadStandingOrdersBasic",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd3f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadStandingOrdersDetail",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be3f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadStatementsBasic",
+      "description": "Ability to read basic statement details",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf3f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadStatementsDetail",
+      "description": "Ability to read statement data elements which may leak other information about the account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c03f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadTransactionsBasic",
+      "description": "Ability to read basic transaction information",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c13f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadTransactionsCredits",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c23f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadTransactionsDebits",
+      "description": "Ability to read only debit transactions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c33f75df-acc1-ed11-83fd-06e351de867d",
+      "name": "ReadTransactionsDetail",
+      "description": "Ability to read transaction data elements which may hold silent party details",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
