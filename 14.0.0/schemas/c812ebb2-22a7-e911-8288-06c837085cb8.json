@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c812ebb2-22a7-e911-8288-06c837085cb8",
+  "title": "Policy",
+  "description": "Rule that governs business execution.\r\n\r\nThe set of basic principles and associated guidelines, formulated and enforced by the governing body of an organization, to direct and limit its actions in pursuit of long-term goals. (Business Dictionary)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a89ab5c4-598b-e911-823e-0680522666ec",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PolicyType"
+  ],
+  "properties": {
+    "PolicyType": {
+      "type": "string",
+      "description": "Classification of a policy according to the subject",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PolicyTypeValues",
+      "x-related-bo-id": "47e4b643-e9d6-ee11-8b49-a402b9460f22",
+      "x-related-bo-name": "PolicyTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ca011f46-23a7-e911-8288-06c837085cb8",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Rule Set",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e4bf267-5cd6-ee11-8b49-a402b9460f22",
+      "target": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+      "modality": "1:N",
+      "required": false,
+      "description": "AppliedAccessPolicy",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca9759ac-c7ab-ea11-829f-067a4ad4fc9c",
+      "target": "74f61336-c7ab-ea11-829f-067a4ad4fc9c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

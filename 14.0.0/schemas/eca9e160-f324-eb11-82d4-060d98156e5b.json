@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eca9e160-f324-eb11-82d4-060d98156e5b",
+  "title": "Branch Location",
+  "description": "The location of a branch",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BranchReference",
+    "LocationReference"
+  ],
+  "properties": {
+    "BranchReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Branch",
+      "x-related-bo-id": "291e5767-0e28-eb11-82d4-06b1e967d8ed",
+      "x-related-bo-name": "Branch"
+    },
+    "LocationReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Location",
+      "x-related-bo-id": "063a0dcf-0561-e911-8237-068e13695e26",
+      "x-related-bo-name": "Location"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2b6fe0cc-f424-eb11-82d4-060d98156e5b",
+      "target": "b5e678bc-f424-eb11-82d4-060d98156e5b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d94d512d-a825-eb11-82d4-06ebae2b1c25",
+      "target": "3f6fadf1-a725-eb11-82d4-06ebae2b1c25",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

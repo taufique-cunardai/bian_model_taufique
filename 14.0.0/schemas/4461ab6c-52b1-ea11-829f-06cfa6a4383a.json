@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4461ab6c-52b1-ea11-829f-06cfa6a4383a",
+  "title": "Market Order Instruction",
+  "description": "An order to buy or sell a specified amount of a security at the best price available.\r\n\r\nA request by an investor - usually made through a broker or brokerage service - to buy or sell a security at the best available price in the current market.\r\nhttps://www.investopedia.com/terms/m/marketorder.asp\r\n\r\n\r\nA buy or sell order in which the broker is to execute the order at the best price currently available.\r\n\r\nRead more: http://www.investorwords.com/2983/market_order.html#ixzz6PiOvXQsv",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MarketOrderType",
+    "MarketOrderDate",
+    "MarketOrderDateType"
+  ],
+  "properties": {
+    "MarketOrderType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "MarketOrderDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Date",
+      "x-related-bo-id": "9dde3a72-faed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Date"
+    },
+    "MarketOrderDateType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "3f1b64d8-59b1-ea11-829f-06cfa6a4383a",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2eb8d4ae-57b1-ea11-829f-06cfa6a4383a",
+      "target": "682388a6-57b1-ea11-829f-06cfa6a4383a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "626f6e26-2234-ed11-83cc-0663e70158a3",
+      "target": "08b9a5fa-1e34-ed11-83cc-0663e70158a3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fb53673-52b1-ea11-829f-06cfa6a4383a",
+      "target": "d24985c1-11ab-ea11-829f-0691f30ba14c",
+      "modality": "1:N",
+      "required": false,
+      "description": "Underlying\r\nMarketOrder",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

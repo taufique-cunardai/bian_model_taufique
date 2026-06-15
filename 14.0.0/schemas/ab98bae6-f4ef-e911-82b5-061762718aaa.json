@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ab98bae6-f4ef-e911-82b5-061762718aaa",
+  "title": "Organisation Involvement",
+  "description": "Party who plays a role in the organisation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3b99a8bc-5afc-ec11-83ad-06cd3bb6cbfd",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "OrganisationInvolvementType",
+    "OrganisationReference",
+    "PartyReference"
+  ],
+  "properties": {
+    "OrganisationInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.183Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "OrganisationInvolvementTypeValues",
+      "x-related-bo-id": "bcf7c909-f6ef-e911-82b5-061762718aaa",
+      "x-related-bo-name": "OrganisationInvolvementTypeValues"
+    },
+    "OrganisationReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.183Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Organisation",
+      "x-related-bo-id": "fbc0b4fa-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Organisation"
+    },
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.183Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "62840322-f5ef-e911-82b5-061762718aaa",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f23cdf3-911d-ef11-843d-182649298eba",
+      "target": "3b99a8bc-5afc-ec11-83ad-06cd3bb6cbfd",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party_Party Relationship",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b64392be-1657-ea11-8289-06a605eb4d64",
+  "title": "Customer Case Management Plan",
+  "description": "A management plan to handle customer case and to track the effectiveness and impact of case resolution",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a03dec86-6675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "cd5c98c8-1657-ea11-8289-06a605eb4d64",
+      "target": "a03dec86-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Management Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

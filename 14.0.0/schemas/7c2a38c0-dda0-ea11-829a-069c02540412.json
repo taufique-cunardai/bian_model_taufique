@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7c2a38c0-dda0-ea11-829a-069c02540412",
+  "title": "Credit Facility Agreement",
+  "description": "A (debt) Agreement specifying the terms and conditions for borrowing and lending a limited amount of money in the future.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditFacilityStatus"
+  ],
+  "properties": {
+    "CreditFacilityStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AccountStatusTypeValues",
+      "x-related-bo-id": "d45ffee3-a673-ec11-836c-06bb75116b13",
+      "x-related-bo-name": "AccountStatusTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "209dd4e1-dda0-ea11-829a-069c02540412",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d894ebe7-dda0-ea11-829a-069c02540412",
+      "target": "e1c01d16-d9a0-ea11-829a-069c02540412",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d0466d5-b6be-ee11-8b47-a402b9460f22",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "16cf4561-eba0-ea11-829a-069c02540412",
+      "target": "5e8ac218-7780-e911-823e-061de61e9206",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

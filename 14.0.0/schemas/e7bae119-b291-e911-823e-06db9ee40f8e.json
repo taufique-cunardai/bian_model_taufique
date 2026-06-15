@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e7bae119-b291-e911-823e-06db9ee40f8e",
+  "title": "Access Preference Arrangement",
+  "description": "A term (arrangement) which specifies the preference on the access/usage of channel or device.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AccessPreferenceType",
+    "PreferencedChannelDevice",
+    "ProductServiceType",
+    "AccessPreferenceDescription"
+  ],
+  "properties": {
+    "AccessPreferenceType": {
+      "type": "string",
+      "description": "The type of preference (e.g. for correspondence)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "PreferencedChannelDevice": {
+      "type": "string",
+      "description": "Details the specific device or channel with the preference",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "ProductServiceType": {
+      "type": "string",
+      "description": "The types of product and service to which this preference applies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "AccessPreferenceDescription": {
+      "type": "string",
+      "description": "Details the preference (e.g. no paper correspondence, no solicitations)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d8bab8d4-1fdb-ea11-82b1-06978b4b0198",
+      "target": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Access Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

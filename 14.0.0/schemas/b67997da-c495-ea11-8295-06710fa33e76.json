@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b67997da-c495-ea11-8295-06710fa33e76",
+  "title": "Brand Management Plan",
+  "description": "A management plan for maintaining, improving, and upholding a brand\r\n\r\n\r\nBrand management is a function of marketing that uses techniques to increase the perceived value of a product line or brand over time (Investopedia).\r\nhttps://www.investopedia.com/terms/b/brand-management.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a03dec86-6675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e1a5e408-c595-ea11-8295-06710fa33e76",
+      "target": "a03dec86-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Management Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f6404351-cb95-ea11-8295-06710fa33e76",
+      "target": "b00c5eb3-ca95-ea11-8295-06710fa33e76",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d330fc58-cb95-ea11-8295-06710fa33e76",
+      "target": "7966d6b9-ca95-ea11-8295-06710fa33e76",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

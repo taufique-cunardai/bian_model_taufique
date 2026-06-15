@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0120d195-d877-e911-823e-067f69a9229a",
+  "title": "Directory Entry",
+  "description": "An entry in a directory. \r\n\r\nA registry of items recording key reference information and properties relating to each. (BIAN SL)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DirectoryEntryDateType",
+    "DirectoryEntryDate",
+    "DirectoryEntryStatus"
+  ],
+  "properties": {
+    "DirectoryEntryDateType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DirectoryEntryDateTypeValues",
+      "x-related-bo-id": "1ea89689-348f-ec11-8378-068d4d160e55",
+      "x-related-bo-name": "DirectoryEntryDateTypeValues"
+    },
+    "DirectoryEntryDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Date",
+      "x-related-bo-id": "9dde3a72-faed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Date"
+    },
+    "DirectoryEntryStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Status",
+      "x-related-bo-id": "c7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Status"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "9ac1b80d-f3ad-e911-828c-06b8556a313a",
+      "target": "287985f8-f2ad-e911-828c-06b8556a313a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f9eabd1-4dad-e911-828c-06a421ebc0a4",
+      "target": "5267c49f-4dad-e911-828c-06a421ebc0a4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

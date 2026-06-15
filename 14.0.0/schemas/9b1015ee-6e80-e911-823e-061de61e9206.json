@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9b1015ee-6e80-e911-823e-061de61e9206",
+  "title": "Object Party Role Class",
+  "description": "A value of PartyRoleType expressing the relationship between a party and an associated object type.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9bc7af8d-d46f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ff001f1c-6f80-e911-823e-061de61e9206",
+      "target": "9bc7af8d-d46f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role Type",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

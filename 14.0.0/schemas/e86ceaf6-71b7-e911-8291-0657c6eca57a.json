@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e86ceaf6-71b7-e911-8291-0657c6eca57a",
+  "title": "Card Clearing Term And Condition",
+  "description": "Term and condition defined for clearing of a card based transaction or a batch of card based transactions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0db6609c-70b7-e911-8291-0657c6eca57a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "fca470ed-b1ba-ee11-8b46-a402b9460f22",
+      "target": "0db6609c-70b7-e911-8291-0657c6eca57a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Clearing Term And Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

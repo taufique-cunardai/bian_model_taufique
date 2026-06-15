@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9fb6e873-26cf-e911-8296-06bf764cb4bc",
+  "title": "Country",
+  "description": "Nation with its own government. ISO20022",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "NationalRegulatoryAuthority",
+    "CountryName",
+    "CountryCode",
+    "NationalRegulatoryAuthority"
+  ],
+  "properties": {
+    "NationalRegulatoryAuthority": {
+      "type": "string",
+      "description": "Regulatory authority of the country. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.190Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InvolvedParty",
+      "x-related-bo-id": "9fd62abb-7870-eb11-82fd-061e1f234dd5",
+      "x-related-bo-name": "InvolvedParty"
+    },
+    "CountryName": {
+      "type": "string",
+      "description": "Name by which a country is known. It is normally the name attached to the ISO country code.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Name",
+      "x-related-bo-id": "6bf573d1-14ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Name"
+    },
+    "CountryCode": {
+      "type": "string",
+      "description": "Identifies a nation with its own government (ISO 3166).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CountryCode",
+      "x-related-bo-id": "c7f8d62f-c067-f011-8bb9-a402b9460f22",
+      "x-related-bo-name": "CountryCode"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "da3a356d-02f0-e911-82b5-061762718aaa",
+      "target": "04c123f4-8257-e911-8237-0645314e65ac",
+      "modality": "M:N",
+      "required": true,
+      "description": "Citizen",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22a3f594-26cf-e911-8296-06bf764cb4bc",
+      "target": "af80eb56-23cf-e911-8296-06bf764cb4bc",
+      "modality": "1:N",
+      "required": false,
+      "description": "PostalAddressSpecification",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

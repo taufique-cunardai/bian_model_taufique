@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cf68473f-cacf-e911-8296-06957f3f468a",
+  "title": "Customer Tax Report",
+  "description": "A year-end tax report for the customer for products and services which are provided by the bank.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5314d145-3876-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "896509ea-cacf-e911-8296-06957f3f468a",
+      "target": "5314d145-3876-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Report",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bb209662-cacf-e911-8296-06957f3f468a",
+      "target": "3a47d869-c1cf-e911-8296-06957f3f468a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

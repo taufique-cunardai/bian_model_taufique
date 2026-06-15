@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "06ca4e9b-abf1-e911-82b5-06f9534b74c8",
+  "title": "Person Location",
+  "description": "A place to locate a person.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PersonLocationType",
+    "PersonReference",
+    "LocationReference"
+  ],
+  "properties": {
+    "PersonLocationType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PersonLocationTypeValues",
+      "x-related-bo-id": "26dfbbc5-abf1-e911-82b5-06f9534b74c8",
+      "x-related-bo-name": "PersonLocationTypeValues"
+    },
+    "PersonReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Person",
+      "x-related-bo-id": "04c123f4-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Person"
+    },
+    "LocationReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Location",
+      "x-related-bo-id": "063a0dcf-0561-e911-8237-068e13695e26",
+      "x-related-bo-name": "Location"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3cec66ee-8ad8-e911-82a8-06d35e1e0220",
+  "title": "Servicing Resource Allocation",
+  "description": "An assignment of a resource to handle a servicing session.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3b624c41-1c91-e911-823e-06f3e7d1f9c0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "5ffb05f6-8ad8-e911-82a8-06d35e1e0220",
+      "target": "3b624c41-1c91-e911-823e-06f3e7d1f9c0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Resource Allocation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e628d8b3-8bd8-e911-82a8-06d35e1e0220",
+      "target": "72f082d3-3cb4-e911-828c-0615b1d713aa",
+      "modality": "1:1",
+      "required": true,
+      "description": "ServicingSession",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

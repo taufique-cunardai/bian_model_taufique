@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "70244c62-05aa-e911-8288-06812ee60d2a",
+  "title": "Standing Order Facility Arrangement",
+  "description": "Arrangement concerning the ability to use the ProducSalesAgreement as a source account for a StandingOrderArrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a6ea66b8-8596-e911-823e-062d75b50cca",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "c4c9e629-12ab-e911-828c-0605e339c9ac",
+      "target": "a6ea66b8-8596-e911-823e-062d75b50cca",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8afb104e-12ab-e911-828c-0605e339c9ac",
+      "target": "cd2b1465-06aa-e911-8288-06812ee60d2a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a76fddfc-05aa-e911-8288-06812ee60d2a",
+      "target": "ac535bd6-3298-e911-827a-06b20c6b9b78",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

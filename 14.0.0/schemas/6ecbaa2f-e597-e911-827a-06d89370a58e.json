@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6ecbaa2f-e597-e911-827a-06d89370a58e",
+  "title": "Deposit Service",
+  "description": "A Service for transfer of money to another party for safekeeping. However, a deposit can refer to a portion of money used as security or collateral for the delivery of a good.\r\n\r\nComment:\r\n\r\n- A deposit is a financial term with multiple definitions.\r\n- One definition of deposit refers to when a portion of funds is used as security or collateral for the delivery of goods or services.\r\n- Another kind of deposit involves a transfer of funds to another party, such as a bank, for safekeeping.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f629d849-639e-e911-827a-06e8627b9e66",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DepositType"
+  ],
+  "properties": {
+    "DepositType": {
+      "type": "string",
+      "description": "Type of a defined deposit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DepositTypeValues",
+      "x-related-bo-id": "c8606129-a25c-eb11-82e9-065ba105bad3",
+      "x-related-bo-name": "DepositTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d3441142-3cb4-ed11-83f9-06a1e7288c87",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1754029f-699e-e911-827a-06e8627b9e66",
+      "target": "f629d849-639e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Savings Account Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5eb5d9bb-ae5c-eb11-82e9-065ba105bad3",
+      "target": "f4ff74b0-ae5c-eb11-82e9-065ba105bad3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2626833a-b555-eb11-82e3-06afd984332d",
+      "target": "01d64189-5c96-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

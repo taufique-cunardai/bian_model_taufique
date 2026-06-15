@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bf5fe725-e77a-e911-823e-06a71c6fe4c8",
+  "title": "External Credit Rating Service",
+  "description": "An external service for credit rating.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "581e7d46-e97a-e911-823e-06a71c6fe4c8",
+      "target": "b4cb8aee-e27a-e911-823e-06a71c6fe4c8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fda1d84f-f67a-e911-823e-06a71c6fe4c8",
+      "target": "f72ab425-f67a-e911-823e-06a71c6fe4c8",
+      "modality": "1:1",
+      "required": false,
+      "description": "ResultOfExternalRating",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

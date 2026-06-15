@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1529d802-d241-ea11-8289-06eda7f62320",
+  "title": "Fee Product Feature Modality",
+  "description": "The way a fee feature is structured, applied, and calculated.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e2cc80ca-5c8d-eb11-8310-068d732c0449",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FeeModalityType"
+  ],
+  "properties": {
+    "FeeModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FeeModalityTypeValues",
+      "x-related-bo-id": "f4d498b3-ee5b-f011-8bb5-a402b9460f22",
+      "x-related-bo-name": "FeeModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2c74173a-668d-eb11-8310-068d732c0449",
+      "target": "e2cc80ca-5c8d-eb11-8310-068d732c0449",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f168e3a-d341-ea11-8289-06eda7f62320",
+      "target": "a2226ddf-d241-ea11-8289-06eda7f62320",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e1265bb-6e39-eb11-82e3-06552f30ee75",
+      "target": "a3048aa7-6e39-eb11-82e3-06552f30ee75",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

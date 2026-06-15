@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6da76096-18a3-e911-8280-06760b39b086",
+  "title": "Dunning Subject Involvement Analysis",
+  "description": "Analysis of the parties involved in the subject of a dunning procedure",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DunningSubjectInvolvedPartyReference",
+    "DunningSubjectInvolvedPartyRole",
+    "DunningSubjectInvolvedPartyObligation/Entitlement"
+  ],
+  "properties": {
+    "DunningSubjectInvolvedPartyReference": {
+      "type": "string",
+      "description": "Reference to the party that is involved in the subject of the dunning procedure at the time of the dunning analysis",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "DunningSubjectInvolvedPartyRole": {
+      "type": "string",
+      "description": "Type of involvement (Role) of the party in relation to the subject of the dunning procedure at the time of analysis",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "DunningSubjectInvolvedPartyObligation/Entitlement": {
+      "type": "string",
+      "description": "Obligation or entitlement of the party involved in the subject of the dunning procedure at the time of the analysis",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

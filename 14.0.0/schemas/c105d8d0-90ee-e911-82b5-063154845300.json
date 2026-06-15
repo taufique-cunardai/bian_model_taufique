@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c105d8d0-90ee-e911-82b5-063154845300",
+  "title": "Customer Contact Center",
+  "description": "A central point from which all customer contacts are managed.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e01fe931-41ef-e911-82b5-06766225a0aa",
+      "target": "90f79517-41ef-e911-82b5-06766225a0aa",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55c93355-51ef-e911-82b5-06766225a0aa",
+      "target": "f3739ff0-4cef-e911-82b5-06766225a0aa",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bcb9ee40-51ef-e911-82b5-06766225a0aa",
+      "target": "c1640f35-4bef-e911-82b5-06766225a0aa",
+      "modality": "1:N",
+      "required": false,
+      "description": "ServicingResource",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "539e890e-4aef-e911-82b5-06766225a0aa",
+      "target": "1bc3a0ce-d79b-e911-827a-06f79ea59412",
+      "modality": "1:N",
+      "required": false,
+      "description": "ServicingPosition",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d655951f-41ef-e911-82b5-06766225a0aa",
+      "target": "70a78445-90ee-e911-82b5-063154845300",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ad003c2-30ef-e911-82b5-06766225a0aa",
+      "target": "5e65899d-30ef-e911-82b5-06766225a0aa",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1b50d3a-3def-e911-82b5-06766225a0aa",
+      "target": "8b6a1333-3def-e911-82b5-06766225a0aa",
+      "modality": "1:N",
+      "required": false,
+      "description": "HandlingCenter",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1526e26-30ef-e911-82b5-06766225a0aa",
+      "target": "0858d1e2-0891-e911-823e-06f3e7d1f9c0",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "634a474e-2eef-e911-82b5-06766225a0aa",
+      "target": "56af07d7-8575-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": false,
+      "description": "InboundContact",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8324da84-2eef-e911-82b5-06766225a0aa",
+      "target": "56af07d7-8575-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": false,
+      "description": "OutboundContact",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ffcf85f-56ef-e911-82b5-06766225a0aa",
+      "target": "d557a9ce-8ad8-e911-82a8-06d35e1e0220",
+      "modality": "1:N",
+      "required": false,
+      "description": "HandlingCenter",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
