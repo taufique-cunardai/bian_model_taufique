@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "99958582-0940-ed11-83cc-06a671485e75",
+  "title": "RuleSet_RuleSetRelationshipTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "43121aa0-0940-ed11-83cc-06a671485e75",
+      "name": "Rule Set replaces Rule Set",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9f14bb1-0940-ed11-83cc-06a671485e75",
+      "name": "Rule Set is equvalent to Rule Set",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a16470bb-0940-ed11-83cc-06a671485e75",
+      "name": "Rule Set has priority over Rule Set",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1769acf-0940-ed11-83cc-06a671485e75",
+      "name": "Rule Set supports Rule Set",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

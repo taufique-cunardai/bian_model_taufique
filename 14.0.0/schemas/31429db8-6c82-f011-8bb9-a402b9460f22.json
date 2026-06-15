@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "31429db8-6c82-f011-8bb9-a402b9460f22",
+  "title": "ClaimAssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ea28ac0a-6d82-f011-8bb9-a402b9460f22",
+      "name": "Policy Verification",
+      "description": "Ensure the policy is valid and active\r\n\r\nExamples in Funeral Insurance:\r\n- Confirm policy exists and is in-force\r\n- Verify sum assured and coverage type\r\n- Check beneficiary details",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec28ac0a-6d82-f011-8bb9-a402b9460f22",
+      "name": "Event Verification",
+      "description": "Confirm the insured event occurred and is covered\r\n\r\nExamples in Funeral Insurance:\r\n- Verify death occurred within coverage period\r\n- Check cause of death against exclusions (e.g., suicide in first year)\r\n- Confirm date of death",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed28ac0a-6d82-f011-8bb9-a402b9460f22",
+      "name": "Claim Documentation Check",
+      "description": "Ensure all required documents are submitted and authentic\r\n\r\nExamples in Funeral Insurance:\r\n- Death certificate\r\n- Medical records / hospital discharge summary\r\n- Police or accident report (if accidental death)\r\n- ID of policyholder/beneficiary",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee28ac0a-6d82-f011-8bb9-a402b9460f22",
+      "name": "Claim Compliance Check",
+      "description": "Confirm claim meets all rules and regulations\r\n\r\nExamples in Funeral Insurance:\r\n- Claim submitted within allowed timeframe\r\n- Complete and accurate documents\r\n- Fraud indicators or inconsistencies checked\r\n- Regulatory compliance (reporting large payouts)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef28ac0a-6d82-f011-8bb9-a402b9460f22",
+      "name": "Financial Assessment",
+      "description": "Determine correct payout amount\r\n\r\nExamples in Funeral Insurance:\r\n- Calculate sum assured\r\n- Deduct unpaid premiums or policy loans\r\n- Apply optional add-ons (repatriation, tombstone, counselling)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f028ac0a-6d82-f011-8bb9-a402b9460f22",
+      "name": "Internal Approval / Risk Check",
+      "description": "Ensure proper authorization and risk mitigation\r\n\r\nExamples in Funeral Insurance:\r\n- Reviewed by claims officer or underwriter\r\n- Managerial approval for large claims\r\n- Verification against anti-fraud and risk control policies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e2ecd99c-afb4-f011-8bc2-a402b9460f22",
+      "name": "Claim Eligibility Check",
+      "description": "The Claim Eligibility Check is a type of assessment used to determine whether a claim meets all the necessary preconditions for assessment and payment, based on the policy terms, coverage, and event validity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7903bba5-afb4-f011-8bc2-a402b9460f22",
+      "name": "Claim Entitlement Check",
+      "description": "Claim Entitlement Check is tan assessment that determines what benefits (if any) a claimant is entitled to receive under the terms of the insurance agreement, based on the verified event, coverage, and policy conditions.\r\n\r\nA Claim Entitlement Check is the evaluation of the scope, value, and conditions of the benefit that the claimant is entitled to receive, once eligibility has been confirmed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33b362b3-afb4-f011-8bc2-a402b9460f22",
+      "name": "Claim External Agency Check",
+      "description": "A Claim External Agency Check is an assessment involving an independent or third-party organization to perform specific validations, evaluations, or verifications related to a claim.\r\nThese checks provide objective evidence or specialized expertise to support claim assessment and decisioning.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

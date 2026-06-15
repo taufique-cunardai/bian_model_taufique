@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "46a6dc2b-247c-f011-8bb9-a402b9460f22",
+  "title": "InsuranceProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5e9ac23c-247c-f011-8bb9-a402b9460f22",
+      "name": "Life Insurance",
+      "description": "Pays beneficiaries a lump sum when the insured person dies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "609ac23c-247c-f011-8bb9-a402b9460f22",
+      "name": "Funeral Policy",
+      "description": "Covers funeral and burial/cremation costs, often paying out quickly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "619ac23c-247c-f011-8bb9-a402b9460f22",
+      "name": "Health Insurance",
+      "description": "Covers medical expenses such as doctor visits, hospitalization, and treatments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "629ac23c-247c-f011-8bb9-a402b9460f22",
+      "name": "Car/Vehicle Insurance",
+      "description": "Covers damage to a car, theft, or liability in case of accidents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "639ac23c-247c-f011-8bb9-a402b9460f22",
+      "name": "Homeowners Insurance",
+      "description": "Covers damage to a house or contents due to fire, theft, or natural disasters.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "649ac23c-247c-f011-8bb9-a402b9460f22",
+      "name": "Travel Insurance",
+      "description": "Covers trip cancellations, medical emergencies abroad, lost luggage, and travel disru",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03ce0ab4-ccd5-f011-8bd6-a402b9460f22",
+      "name": "Disability Insurance",
+      "description": "Provides income replacement or financial support if the insured becomes unable to work due to illness, injury, or disability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32ce0ab4-ccd5-f011-8bd6-a402b9460f22",
+      "name": "Critical Illness Insurance",
+      "description": "Pays a lump sum benefit if the insured is diagnosed with a serious medical condition listed in the policy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

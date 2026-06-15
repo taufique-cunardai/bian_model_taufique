@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "074cabf2-6f3e-ed11-83cc-066e39caf441",
+  "title": "MarketTradeSettlementWorkstepType",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "38cf21ff-6f3e-ed11-83cc-066e39caf441",
+      "name": "Market Trade Settlement Confirmation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "35816d0d-703e-ed11-83cc-066e39caf441",
+      "name": "Market Trade Securities Settlement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f2f4d21-703e-ed11-83cc-066e39caf441",
+      "name": "Market Trade Cash Settlement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

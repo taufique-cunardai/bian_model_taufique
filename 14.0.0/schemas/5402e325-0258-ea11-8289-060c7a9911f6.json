@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5402e325-0258-ea11-8289-060c7a9911f6",
+  "title": "CustomerSurveyTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "82cd3042-0258-ea11-8289-060c7a9911f6",
+      "name": "FocusGroup",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84cd3042-0258-ea11-8289-060c7a9911f6",
+      "name": "Questionnaire",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06dcb111-3048-ef11-8b66-a402b9460f22",
+      "name": "Customer Satisfaction Survey",
+      "description": "Measure overall satisfaction with a product or service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2702cd30-3048-ef11-8b66-a402b9460f22",
+      "name": "Product or Service Feedback Survey",
+      "description": "Gather detailed feedback on specific products or services",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79a98344-3048-ef11-8b66-a402b9460f22",
+      "name": "Market Research Survey",
+      "description": "Explore customer needs and market trends",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d97d415e-3048-ef11-8b66-a402b9460f22",
+      "name": "Customer Effort Score",
+      "description": "Assesses how easy it is for customers to interact with the company and resolve issues",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

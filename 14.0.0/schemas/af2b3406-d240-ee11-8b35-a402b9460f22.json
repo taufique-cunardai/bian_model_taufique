@@ -1,0 +1,779 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "af2b3406-d240-ee11-8b35-a402b9460f22",
+  "title": "PaymentPurposeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e220631b-d440-ee11-8b35-a402b9460f22",
+      "name": "SalaryPayment",
+      "description": "Transaction is the payment of salaries.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e420631b-d440-ee11-8b35-a402b9460f22",
+      "name": "TreasuryPayment",
+      "description": "Transaction is related to treasury operations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e520631b-d440-ee11-8b35-a402b9460f22",
+      "name": "AdvancePayment",
+      "description": "Transaction is an advance payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e620631b-d440-ee11-8b35-a402b9460f22",
+      "name": "AgriculturalTransfer",
+      "description": "Transaction is related to the agricultural domain.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e720631b-d440-ee11-8b35-a402b9460f22",
+      "name": "AlimonyPayment",
+      "description": "Transaction is the payment of alimony.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e820631b-d440-ee11-8b35-a402b9460f22",
+      "name": "ChildBenefit",
+      "description": "Transaction is related to a payment made to assist parent/guardian to maintain child.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e920631b-d440-ee11-8b35-a402b9460f22",
+      "name": "UnemploymentDisabilityBenefit",
+      "description": "Transaction is related to a payment to a person who is unemployed/disabled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "BonusPayment.",
+      "description": "Transaction is related to payment of a bonus.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CashManagementTransfer",
+      "description": "Transaction is a general cash management instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CapitalBuilding",
+      "description": "Transaction is related to capital building fringe fortune, ie capital building for retirement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CharityPayment",
+      "description": "Transaction is a payment for charity reasons.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CollectionPayment",
+      "description": "Transaction is a collection of funds initiated via a credit transfer or direct debit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CommodityTransfer",
+      "description": "Transaction is payment of commodities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f020631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CommercialPayment",
+      "description": "Transaction is related to a payment of commercial credit or debit. (formerly CommercialCredit).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f120631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Commission",
+      "description": "Transaction is payment of commission.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f220631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Costs",
+      "description": "Transaction is related to payment of costs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f320631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Copyright",
+      "description": "Transaction is payment of copyright.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f420631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Dividend",
+      "description": "Transaction is payment of dividends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f520631b-d440-ee11-8b35-a402b9460f22",
+      "name": "ForeignExchange",
+      "description": "Transaction is related to a foreign exchange operation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f620631b-d440-ee11-8b35-a402b9460f22",
+      "name": "PurchaseSaleOfGoods",
+      "description": "Transaction is related to purchase and sale of goods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f720631b-d440-ee11-8b35-a402b9460f22",
+      "name": "GovernmentPayment",
+      "description": "Transaction is a payment to or from a government department.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f820631b-d440-ee11-8b35-a402b9460f22",
+      "name": "InstalmentHirePurchaseAgreement",
+      "description": "Transaction is payment for an installment/hire-purchase agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f920631b-d440-ee11-8b35-a402b9460f22",
+      "name": "IntraCompanyPayment",
+      "description": "Transaction is an intra-company payment, ie, a payment between two companies belonging to the same group.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "InsurancePremium",
+      "description": "Transaction is payment of an insurance premium.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Interest",
+      "description": "Transaction is payment of interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "LicenseFee",
+      "description": "Transaction is payment of a license fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Loan",
+      "description": "Transaction is related to transfer of loan to borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "LoanRepayment",
+      "description": "Transaction is related to repayment of loan to lender.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff20631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Netting",
+      "description": "Transaction is related to a netting operation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0021631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Payroll",
+      "description": "Transaction is related to the payment of payroll.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0121631b-d440-ee11-8b35-a402b9460f22",
+      "name": "PensionPayment",
+      "description": "Transaction is the payment of pension.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0221631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Refund",
+      "description": "Transaction is the payment of a refund.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0321631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Rent",
+      "description": "Transaction is the payment of rent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0421631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Royalties",
+      "description": "Transaction is the payment of royalties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0521631b-d440-ee11-8b35-a402b9460f22",
+      "name": "PurchaseSaleOfServices",
+      "description": "Transaction is related to purchase and sale of services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0621631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Securities",
+      "description": "Transaction is the payment of securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0721631b-d440-ee11-8b35-a402b9460f22",
+      "name": "SocialSecurityBenefit",
+      "description": "Transaction is a social security benefit, ie payment made by a government to support individuals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0821631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Subscription",
+      "description": "Transaction is related to a payment of information or entertainment services either in printed or electronic form.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0921631b-d440-ee11-8b35-a402b9460f22",
+      "name": "TaxPayment",
+      "description": "Transaction is the payment of taxes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "ValueAddedTaxPayment",
+      "description": "Transaction is the payment of value added tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "ConsumerThirdPartyConsolidatedPayment",
+      "description": "Transaction is a payment used by a third party who can collect funds to pay on behalf of consumers, ie credit counseling or bill payment companies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "DebitCollectionPayment",
+      "description": "Collection of funds initiated via a debit transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "SupplierPayment",
+      "description": "Transaction is related to a payment to a supplier.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Hedging",
+      "description": "Transaction is related to a hedging operation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "MultipleServiceTypes",
+      "description": "Transaction is related to a payment for multiple service types.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1021631b-d440-ee11-8b35-a402b9460f22",
+      "name": "NotOtherwiseSpecified",
+      "description": "Transaction is related to a payment for type of services not specified elsewhere.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1121631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CardPayment",
+      "description": "Transaction is related to a payment of credit card account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1221631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CreditCardBill",
+      "description": "Transaction is related to a payment of credit card bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1321631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Ferry",
+      "description": "Transaction is a payment for ferry related business.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1421631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Air",
+      "description": "Transaction is a payment for air transport related business.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1521631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Bus",
+      "description": "Transaction is a payment for bus transport related business.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1621631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Railway",
+      "description": "Transaction is a payment for railway transport related business.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1721631b-d440-ee11-8b35-a402b9460f22",
+      "name": "ConvalescentCareFacility",
+      "description": "Transaction is a payment for convalescence care facility services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1821631b-d440-ee11-8b35-a402b9460f22",
+      "name": "DentalServices",
+      "description": "Transaction is a payment for dental services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1921631b-d440-ee11-8b35-a402b9460f22",
+      "name": "AnesthesiaServices",
+      "description": "Transaction is a payment for anesthesia services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "HomeHealthCare",
+      "description": "Transaction is a payment for home health care services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "HospitalCare",
+      "description": "Transaction is a payment for hospital care services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "IntermediateCareFacility",
+      "description": "Transaction is a payment for intermediate care facility services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "LongTermCareFacility",
+      "description": "Transaction is a payment for long-term care facility services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "MedicalServices",
+      "description": "Transaction is a payment for medical care services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "VisionCare",
+      "description": "Transaction is a payment for vision care services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2021631b-d440-ee11-8b35-a402b9460f22",
+      "name": "DurableMedicaleEquipment",
+      "description": "Transaction is a payment is for use of durable medical equipment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2121631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CableTVBill",
+      "description": "Transaction is related to a payment of cable TV bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2221631b-d440-ee11-8b35-a402b9460f22",
+      "name": "ElectricityBill",
+      "description": "Transaction is related to a payment of electricity bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2321631b-d440-ee11-8b35-a402b9460f22",
+      "name": "GasBill",
+      "description": "Transaction is related to a payment of gas bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2421631b-d440-ee11-8b35-a402b9460f22",
+      "name": "TelephoneBill",
+      "description": "Transaction is related to a payment of telephone bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2521631b-d440-ee11-8b35-a402b9460f22",
+      "name": "OtherTelecomRelatedBill",
+      "description": "Transaction is related to a payment of other telecom related bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2621631b-d440-ee11-8b35-a402b9460f22",
+      "name": "WaterBill",
+      "description": "Transaction is related to a payment of water bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2721631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Study",
+      "description": "Transaction is related to a payment of study/tuition costs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2821631b-d440-ee11-8b35-a402b9460f22",
+      "name": "PricePayment",
+      "description": "Transaction is related to a payment of a price.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2921631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Installment",
+      "description": "Transaction is related to a payment of an installment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "RecurringInstallmentPayment",
+      "description": "Transaction is related to a payment of a recurring installment made at regular intervals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "OpeningFee",
+      "description": "Transaction is related to a payment of opening fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CancellationFee",
+      "description": "Transaction is related to a payment of cancellation fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "GovernmentInsurance",
+      "description": "Transaction is related to a payment of government insurance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "InsurancePremiumCar",
+      "description": "Transaction is a payment of car insurance premium.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "LaborInsurance",
+      "description": "Transaction is a payment of labor insurance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3021631b-d440-ee11-8b35-a402b9460f22",
+      "name": "LifeInsurance",
+      "description": "Transaction is a payment of life insurance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3121631b-d440-ee11-8b35-a402b9460f22",
+      "name": "PropertyInsurance",
+      "description": "Transaction is a payment of property insurance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3221631b-d440-ee11-8b35-a402b9460f22",
+      "name": "HealthInsurance",
+      "description": "Transaction is a payment of health insurance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3321631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CarLoanPrincipalRepayment",
+      "description": "Transaction is a payment of car loan principal payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3421631b-d440-ee11-8b35-a402b9460f22",
+      "name": "HousingLoanRepayment",
+      "description": "Transaction is related to a payment of housing loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3521631b-d440-ee11-8b35-a402b9460f22",
+      "name": "CompanySocialLoanPaymentToBank",
+      "description": "Transaction is a payment by a company to a bank for financing social loans to employees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3621631b-d440-ee11-8b35-a402b9460f22",
+      "name": "EstateTax",
+      "description": "Transaction is related to a payment of estate tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3721631b-d440-ee11-8b35-a402b9460f22",
+      "name": "HousingTax",
+      "description": "Transaction is related to a payment of housing tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3821631b-d440-ee11-8b35-a402b9460f22",
+      "name": "IncomeTax",
+      "description": "Transaction is related to a payment of income tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3921631b-d440-ee11-8b35-a402b9460f22",
+      "name": "NetIncomeTax",
+      "description": "Transaction is related to a payment of net income tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "BusinessExpenses",
+      "description": "Transaction is related to a payment of business expenses.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "TrustFund",
+      "description": "Transaction is related to a payment of a trust fund.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "NetworkCharge",
+      "description": "Transaction is related to a payment of network charges.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "NetworkCommunication",
+      "description": "Transaction is related to a payment of network communication.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "ReceiptPayment",
+      "description": "Transaction is related to a payment of receipt.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f21631b-d440-ee11-8b35-a402b9460f22",
+      "name": "PaymentTerms",
+      "description": "Transaction is related to payment terms specifications.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4021631b-d440-ee11-8b35-a402b9460f22",
+      "name": "Other",
+      "description": "Other payment purpose.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4121631b-d440-ee11-8b35-a402b9460f22",
+      "name": "WithHolding",
+      "description": "Transaction is related to a payment of withholding tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

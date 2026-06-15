@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "689e0829-1194-e911-823e-069871e4ec9c",
+  "title": "InformationServiceType",
+  "description": "A classification that distinguishes between instances of Banking Services according to providing information as a service.\r\n\r\nThis service gives the possibility to offer information as a service. In the banking environment this is known in the form of advisory services and reporting services. More and more offering data and insight information is offered as a service.\r\n\r\nIncludes following services (e.g.)\r\n1. Reporting Services\r\n2. Advisory Services\r\n3. Financial Information Services",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InformationServiceTypeValues"
+  ],
+  "properties": {
+    "InformationServiceTypeValues": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InformationServiceTypeValues",
+      "x-related-bo-id": "4a23455a-1194-e911-823e-069871e4ec9c",
+      "x-related-bo-name": "InformationServiceTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

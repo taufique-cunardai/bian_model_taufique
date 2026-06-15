@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7f1c6d0d-8cab-e911-828c-06e8cb19aef2",
+  "title": "InstructionRelationshipTypeValues",
+  "description": "Values of an instruction relationship type",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "959a0038-8cab-e911-828c-06e8cb19aef2",
+      "name": "Is Original Instruction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58849242-8cab-e911-828c-06e8cb19aef2",
+      "name": "Is Previous",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b6e5d4b-8cab-e911-828c-06e8cb19aef2",
+      "name": "Is Fee for",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

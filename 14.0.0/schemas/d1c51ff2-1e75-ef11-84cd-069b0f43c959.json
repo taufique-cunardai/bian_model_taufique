@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d1c51ff2-1e75-ef11-84cd-069b0f43c959",
+  "title": "SecuritiesSettlementTypeValues",
+  "description": "Specifies how the transaction is to be settled.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5881a107-1f75-ef11-84cd-069b0f43c959",
+      "name": "Separate Settlement",
+      "description": "Settlement of the financial instrument and cash is separate.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5f3a121-1f75-ef11-84cd-069b0f43c959",
+      "name": "Against Payment Settlement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

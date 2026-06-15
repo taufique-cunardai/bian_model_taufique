@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d8d1c6ab-9207-ef11-848b-062b09d0f7b7",
+  "title": "FinancialInstrumentDateTime",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialInstrumentDate",
+    "FinancialInstrumentDateType"
+  ],
+  "properties": {
+    "FinancialInstrumentDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "FinancialInstrumentDateType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialInstrumentDateTimeTypeValues",
+      "x-related-bo-id": "c11f9738-9307-ef11-848b-062b09d0f7b7",
+      "x-related-bo-name": "FinancialInstrumentDateTimeTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

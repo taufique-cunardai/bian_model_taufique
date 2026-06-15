@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e2769f6b-ce10-f111-8602-02d28cff2161",
+  "title": "PartnerCompensationRateTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b7142a7b-ce10-f111-8602-02d28cff2161",
+      "name": "Fixed Fee",
+      "description": "A set amount per reward provided or redeemed.\r\n\r\nComment:\r\n$10 per gift card redeemed",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b44d1688-ce10-f111-8602-02d28cff2161",
+      "name": "Percentage",
+      "description": "A percentage of the reward value or transaction facilitated.\r\n\r\nComment:\r\n5% of purchase value for cashback programs",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ae88bb97-ce10-f111-8602-02d28cff2161",
+      "name": "Tiered Rate",
+      "description": "Compensation varies based on performance, volume, or redemption thresholds.\r\n\r\nComment:\r\n3% commission for first 100 redemptions, 5% above 100",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "989dcdab-ce10-f111-8602-02d28cff2161",
+      "name": "Cost Coverage",
+      "description": "Covers the cost incurred by the partner to provide the reward or service.\r\n\r\nComment:\r\nHotel reimbursed $200 per booked night",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

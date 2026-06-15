@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "93d0d151-da98-ed11-83f5-0689f3e6234d",
+  "title": "UndertakingIssuanceTypeValues",
+  "description": "Specifies undertaking issuance type. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "644d6d64-da98-ed11-83f5-0689f3e6234d",
+      "name": "CounterUndertakingRequestForLocalUndertaking",
+      "description": "Counter-undertaking issued to a correspondent with a request to issue a local undertaking.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "664d6d64-da98-ed11-83f5-0689f3e6234d",
+      "name": "CounterUndertakingRequestForCounterUndertaking",
+      "description": "Counter-undertaking issued to a correspondent with a request to issue another counter-undertaking.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "674d6d64-da98-ed11-83f5-0689f3e6234d",
+      "name": "UndertakingIssuedDirect",
+      "description": "Undertaking issued direct to the beneficiary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "684d6d64-da98-ed11-83f5-0689f3e6234d",
+      "name": "UndertakingIssuedViaConfirmingParty",
+      "description": "Undertaking issued to the beneficiary via a confirming party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "694d6d64-da98-ed11-83f5-0689f3e6234d",
+      "name": "UndertakingViaAdvisingParty",
+      "description": "Undertaking issued to the beneficiary via an advising party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

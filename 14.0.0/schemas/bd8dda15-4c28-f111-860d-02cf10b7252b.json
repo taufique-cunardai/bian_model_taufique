@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bd8dda15-4c28-f111-860d-02cf10b7252b",
+  "title": "AllocationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6cf6e91c-4c28-f111-860d-02cf10b7252b",
+      "name": "Collateral Allocation",
+      "description": "Assigning collateral for obligations, such as loans, derivatives, or secured transactions.\r\n\r\nComment:\r\nExample: 40 shares of a stock allocated as collateral for a derivative contract.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89c6058f-4c28-f111-860d-02cf10b7252b",
+      "name": "Reserve Allocation",
+      "description": "Assigning specific trading strategies, portfolios, or internal accounting purposes.\r\n\r\nComment:\r\nExample: 500 bonds allocated to a fixed-income trading desk portfolio.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "190c86a8-4c28-f111-860d-02cf10b7252b",
+      "name": "Hedged Allocation",
+      "description": "Assigning a short position or derivative exposure is backed by a specific asset to cover potential obligations.\r\n\r\nComment:\r\nExample: A short equity position covered by cash or related shares.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "777b0dd7-4c28-f111-860d-02cf10b7252b",
+      "name": "Custom Allocation",
+      "description": "Any allocation defined by institution-specific rules, contractual obligations, or regulatory requirements.\r\n\r\nComment:\r\nExample: A portion of cash reserved for tax obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

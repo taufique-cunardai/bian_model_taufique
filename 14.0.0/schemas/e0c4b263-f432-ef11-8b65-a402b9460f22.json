@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e0c4b263-f432-ef11-8b65-a402b9460f22",
+  "title": "ProjectDareTimeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c25ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Kickoff Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c45ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Approval Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c55ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Start Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c65ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Completion Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c75ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Final Review Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c85ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Project Closure Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c95ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Review Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca5ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Audit Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb5ccdbe-f432-ef11-8b65-a402b9460f22",
+      "name": "Deliverable Handover Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

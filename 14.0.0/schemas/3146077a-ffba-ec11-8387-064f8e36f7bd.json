@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3146077a-ffba-ec11-8387-064f8e36f7bd",
+  "title": "UndertakingTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3346077a-ffba-ec11-8387-064f8e36f7bd",
+      "name": "Payment Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3446077a-ffba-ec11-8387-064f8e36f7bd",
+      "name": "Issuing Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3546077a-ffba-ec11-8387-064f8e36f7bd",
+      "name": "Booking Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3646077a-ffba-ec11-8387-064f8e36f7bd",
+      "name": "Collateral Allocation Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "124e8dd1-d798-ed11-83f5-0689f3e6234d",
+      "name": "Termination Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e877fde2-d798-ed11-83f5-0689f3e6234d",
+      "name": "Amendment Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

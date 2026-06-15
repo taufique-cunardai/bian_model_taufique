@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "450ec62e-1109-ee11-8b2c-a402b9460f22",
+  "title": "PaymentInitiationServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1ac44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "Single payments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1cc44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "Scheduled payments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1dc44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "Standing orders",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ec44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "File payments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1fc44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "Future dated single payments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20c44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "Bulk payments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "21c44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "Recurring payments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22c44b74-1109-ee11-8b2c-a402b9460f22",
+      "name": "Payment cancellation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

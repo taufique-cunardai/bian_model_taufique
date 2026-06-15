@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "545a0927-0948-ea11-8289-062ea3b80f12",
+  "title": "BalanceTypeValues",
+  "description": "Specifies the nature of the balance.\r\nhttps://www.iso20022.org/standardsrepository/type/BalanceTypeCode",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9f78a931-0948-ea11-8289-062ea3b80f12",
+      "name": "Opening Balance",
+      "description": "Book balance of the account at the beginning of the account servicer's business day. It always equals the closing book balance from the previous business day. Note: the available balance at the beginning of the account servicer's business day may be different from the closing book balance from the previous business day. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e07db44-0948-ea11-8289-062ea3b80f12",
+      "name": "Closing Balance",
+      "description": "Balance of the account at the end of the account servicer's business day. It is the sum of the opening balance at the beginning of the day and all entries booked to the account during the account servicer's business day. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84ba747f-0a48-ea11-8289-062ea3b80f12",
+      "name": "Current Balance",
+      "description": "Balance of the account at a precise moment in time. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "408e7aa8-0a48-ea11-8289-062ea3b80f12",
+      "name": "Available Balance",
+      "description": "Balance of money or securities that is at the disposal of the account owner on the date specified. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "686bc722-1d48-ea11-8289-062ea3b80f12",
+      "name": "Ledger Balance",
+      "description": "Ledger balance refers to posted transactions (e.g. limit authorisation amount - posted transactions). (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9a91b6f-1d48-ea11-8289-062ea3b80f12",
+      "name": "Reserve Balance",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "914d6e93-1d48-ea11-8289-062ea3b80f12",
+      "name": "Free Balance",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9680a842-0571-eb11-82fd-06e9e7239879",
+      "name": "Principal Balance",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0206d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Closing Available",
+      "description": "Closing balance of amount of money that is at the disposal of the account owner on the date specified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0306d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Closing Booked",
+      "description": "Balance of the account at the end of the pre-agreed account reporting period. It is the sum of the opening booked balance at the beginning of the period and all entries booked to the account during the pre-agreed account reporting period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0406d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Forward Available",
+      "description": "Forward available balance of money that is at the disposal of the account owner on the date specified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0506d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Information",
+      "description": "Balance for informational purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0606d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Interim Available",
+      "description": "Available balance calculated in the course of the account servicer's business day, at the time specified, and subject to further changes during the business day. The interim balance is calculated on the basis of booked credit and debit items during the calculation time/period specified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0706d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Interim Booked",
+      "description": "Balance calculated in the course of the account servicer's business day, at the time specified, and subject to further changes during the business day. The interim balance is calculated on the basis of booked credit and debit items during the calculation time/period specified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0806d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Opening Available",
+      "description": "Opening balance of amount of money that is at the disposal of the account owner on the date specified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0906d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Opening Booked",
+      "description": "Book balance of the account at the beginning of the account reporting period. It always equals the closing book balance from the previous report.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a06d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Previously Closed Booked",
+      "description": "Balance of the account at the previously closed account reporting period. The opening booked balance for the new period has to be equal to this balance.\r\nUsage: the previously booked closing balance should equal (inclusive date) the booked closing balance of the date it references and equal the actual booked opening balance of the current date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b06d217-2502-ef11-8b4e-a402b9460f22",
+      "name": "Expected",
+      "description": "Balance, composed of booked entries and pending items known at the time of calculation, which projects the end of day balance if everything is booked on the account and no other entry is posted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f04a42cc-9c0d-f111-8602-0aabfe3b0785",
+  "title": "RewardTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "55f42b4a-9e0d-f111-8602-0aabfe3b0785",
+      "name": "Reward Redemption Term",
+      "description": "Rules on how rewards can be redeemed\r\n\r\nComment\r\nPoints can be redeemed via app, online portal, or in-branch only",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "44ce775a-9e0d-f111-8602-0aabfe3b0785",
+      "name": "Reward Usage Restriction Term",
+      "description": "Conditions limiting where, how, or for whom a reward can be used.\r\n\r\nComment:\r\nValid at partner merchants only\r\nNot applicable to cash withdrawal or fees\r\nNon-transferable to other accounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15949962-9e0d-f111-8602-0aabfe3b0785",
+      "name": "Reward Expiration / Forfeiture Term",
+      "description": "Specify validity periods and conditions for losing rewards.\r\n\r\nComment:\r\nPoints expire after 12 months; promotional points valid for 3 months only",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d35d16b-9e0d-f111-8602-0aabfe3b0785",
+      "name": "Reward Value Term",
+      "description": "Rules defining the financial or point value of a reward.\r\n\r\nComment:\r\n$50 cashback reward applied as statement credit\r\n1,000 bonus points added to loyalty account\r\nPartial redemption not allowed",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77ca6287-9e0d-f111-8602-0aabfe3b0785",
+      "name": "Reward Compliance Term",
+      "description": "Legal framework governing reward display and redemption.\r\n\r\nComment:\r\nSubject to banking laws and program regulations\r\nBank reserves right to modify menu\r\nDispute resolution clause applies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7aef044b-400e-f111-8602-0ae003988e03",
+      "name": "Reward Maintenance Term",
+      "description": "Maintenance Term refers to the rules, conditions, and processes that govern the ongoing management, upkeep, and lifecycle of rewards, reward menus, or loyalty program offerings.\r\n\r\nComment:\r\nMaintenance Term is the set of conditions and processes that govern the ongoing management and lifecycle of rewards, including adding, updating, retiring, or renewing rewards to ensure program effectiveness and compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83cafd38-be10-f111-8602-02d28cff2161",
+      "name": "Reward Eligibility Term",
+      "description": "Defines who can earn rewards.\r\n\r\nComment::\r\nMust hold a Platinum credit card; account must be active",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4dcb48a7-c910-f111-8602-02d28cff2161",
+      "name": "Reward Redemption Qualification Criteria",
+      "description": "These defines the conditions that must be met to qualify for reward\r\n\r\nComment:\r\nPoints / Balance Threshold  Must have accumulated a minimum number of points, miles, or cash-back balance.\r\n\r\nTransaction Requirements  Certain transactions may be required (e.g., spend $500 in a billing cycle to qualify for a reward).\r\n\r\nTier Level  Some rewards are restricted to premium or elite customers based on account type or loyalty tier.\r\n\r\nTime-Based Conditions  Rewards may require activity within a specific period to qualify. \r\n\r\nExample: A customer must have at least 10,000 reward points to redeem for a flight ticket.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10f403c8-cc10-f111-8602-02d28cff2161",
+      "name": "Rewards Notification Term",
+      "description": "Rewards notifications are system-generated alerts sent to participants or administrators to inform them about the status of rewards in the program. These notifications help ensure timely action and awareness regarding reward availability and validity.\r\n\r\nComment:\r\nLow Inventory Alerts: notifies when the stock of a reward item falls below a predefined threshold.\r\n\r\nExpiration Alerts: notifies when a reward or points are approaching their expiration date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80646b13-d110-f111-8602-02d28cff2161",
+      "name": "Reward Points Transfer Term",
+      "description": "Govern the transfer of points to partner programs.\r\n\r\nComment:\r\nConversion rate (1 point = 0.8 airline mile), min/max transfer, eligible partners, fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "091e4e42-d110-f111-8602-02d28cff2161",
+      "name": "Reward Partner Term",
+      "description": "Define rules related to third-party partners.\r\n\r\ncomment:\r\nPartner compensation, availability of rewards, regional restrictions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

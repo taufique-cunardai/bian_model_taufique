@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f8fd3476-caf0-e911-82b5-06d1970e916c",
+  "title": "RuleSetInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f9fd3476-caf0-e911-82b5-06d1970e916c",
+      "name": "Rule Set is published by Party",
+      "description": "Publication Agency = Agency that publishes the rule.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36a4dfbe-caf0-e911-82b5-06d1970e916c",
+      "name": "Rule Set is Authorized by Party",
+      "description": "A public authority or government agency responsible for exercising autonomous authority over something in a regulatory or supervisory capacity. (FIBO)\r\n\r\nA regulatory body is a public organization or government agency that is set up to exercise a regulatory function. This involves imposing requirements, conditions or restrictions, setting the standard for activities, and enforcing in these areas or obtaining compliance. Regulatory bodies cover a wide variety of professions, but not all professions are regulated and may be self-regulated. A regulatory body might also be referred to as a regulatory agency, a regulatory authority or a regulator.\r\n\r\nhttps://www.safeopedia.com/definition/625/regulatory-body\r\n\r\nRegulatory Agency = An agency enforcing legislation and setting rules governing certain actions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "455ce15e-5d65-eb11-82ee-06b6c49a40d9",
+      "name": "Rule Set is defined by Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a258177e-5f65-eb11-82ee-06b6c49a40d9",
+      "name": "Rule Set is monitored by Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c972324f-0c40-ed11-83cc-06a671485e75",
+      "name": "Rule Set is issued by Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

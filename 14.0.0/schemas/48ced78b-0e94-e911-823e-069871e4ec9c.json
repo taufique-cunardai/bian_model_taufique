@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "48ced78b-0e94-e911-823e-069871e4ec9c",
+  "title": "BankingServiceType",
+  "description": "A classification that distinguishes between instances of product features according to the core banking services, functionality and/or objectives of banking.\r\n\r\ne.g. deposit services, exchange services, etc.\r\n\r\nThe primary reason for the contract with the client are the banking services. These services can be classified as follows:\r\n1. Selling services\r\n2. Financial Instruments Exchange\r\n3. Financial Stock Management\r\n4. Financial Transfers\r\n5. Financial Risk Transfer\r\n6. Business Operating\r\n7. Advisory\r\n8. Reporting",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BankingServiceTypeValues"
+  ],
+  "properties": {
+    "BankingServiceTypeValues": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BankingServiceTypeValues",
+      "x-related-bo-id": "343a4e99-0e94-e911-823e-069871e4ec9c",
+      "x-related-bo-name": "BankingServiceTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

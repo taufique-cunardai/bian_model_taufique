@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "747e62d7-a645-ef11-8b66-a402b9460f22",
+  "title": "CustomerInsightTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6f8bc4c1-a945-ef11-8b66-a402b9460f22",
+      "name": "Customer Behavioral Insight",
+      "description": "Understanding how customers interact with products, services, and brands.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "708bc4c1-a945-ef11-8b66-a402b9460f22",
+      "name": "Customer Demographic Insight",
+      "description": "Analyzing customer characteristics such as age, gender, income, education, and location.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "718bc4c1-a945-ef11-8b66-a402b9460f22",
+      "name": "Customer Psychographic Insight",
+      "description": "Exploring customers' lifestyles, values, interests, and attitudes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "728bc4c1-a945-ef11-8b66-a402b9460f22",
+      "name": "Customer Transactional Insight",
+      "description": "Examining purchase history, order frequency, average transaction value, and payment methods",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "738bc4c1-a945-ef11-8b66-a402b9460f22",
+      "name": "Customer Feedback and Sentiment Insight",
+      "description": "Gathering and analyzing customer feedback through surveys, reviews, social media, and customer support interactions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "748bc4c1-a945-ef11-8b66-a402b9460f22",
+      "name": "Customer Journey Insight",
+      "description": "Mapping the entire customer journey from awareness to purchase and beyond",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "758bc4c1-a945-ef11-8b66-a402b9460f22",
+      "name": "Customer Retention and Churn Insight",
+      "description": "Understanding the factors that influence customer retention and attrition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b49a4493-ae45-ef11-8b66-a402b9460f22",
+      "name": "Customer Financial Insight",
+      "description": "Customer financial insights refer to the analysis and understanding of the financial aspects related to customer interactions and behaviors.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "76a3c44b-cd10-f111-8602-02d28cff2161",
+  "title": "RewardsPartnerInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "94b26f80-cd10-f111-8602-02d28cff2161",
+      "name": "Retail Partner",
+      "description": "Provide products, gift cards, or merchandise rewards.\r\n\r\nComment:\r\nAmazon, Walmart, Best Buy",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94cc1193-cd10-f111-8602-02d28cff2161",
+      "name": "Hospitality Partner",
+      "description": "Provide travel, hotel stays, or experiential rewards.\r\n\r\nComment:\r\nAirlines, Hotels, Travel Agencies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1be3aca2-cd10-f111-8602-02d28cff2161",
+      "name": "Financial Partner",
+      "description": "Collaborate for co-branded cards, cashback, or financial rewards.\r\n\r\nComment:\r\nVisa, Mastercard, local banks",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fafb31aa-cd10-f111-8602-02d28cff2161",
+      "name": "Service Provider",
+      "description": "Offer professional services, subscriptions, or training programs.\r\n\r\nComment:\r\nOnline courses, gyms, wellness programs",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f562cb3-cd10-f111-8602-02d28cff2161",
+      "name": "Internal Partner",
+      "description": "Departments within the organization that contribute resources or services.\r\n\r\nComment:\r\nHR, Sales, Marketing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

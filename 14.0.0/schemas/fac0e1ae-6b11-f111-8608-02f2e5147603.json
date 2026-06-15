@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fac0e1ae-6b11-f111-8608-02f2e5147603",
+  "title": "ServiceDrivenRewardTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d1a44e43-6c11-f111-8608-02f2e5147603",
+      "name": "Travel / Experiences",
+      "description": "Tickets, vacations, or experiential rewards.\r\n\r\nComment:\r\nAirport lounge access, free hotel stays",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4513e74c-6c11-f111-8608-02f2e5147603",
+      "name": "Training / Education",
+      "description": "Courses, webinars, or skill-building opportunities\r\n\r\nComment:\r\nFinancial literacy workshop, online investment course",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a13e74c-6c11-f111-8608-02f2e5147603",
+      "name": "Exclusive Banking Privileges / VIP Access",
+      "description": "Special services or access within the bank\r\n\r\nComment:\r\nPremium account features, waived fees, VIP advisory sessions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d587857-6c11-f111-8608-02f2e5147603",
+      "name": "Service Credits",
+      "description": "Credits usable toward banking services\r\n\r\nComment:\r\nFree fund transfers, bonus account services, waived maintenance fees",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94e9bb5d-6c11-f111-8608-02f2e5147603",
+      "name": "Recognition / Awards",
+      "description": "Non-monetary acknowledgment of achievement or loyalty\r\n\r\nComment:\r\nLoyalty tier certificates, employee recognition plaques",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "704a53fd-9493-eb11-8314-0620279967a9",
+  "title": "FeatureTypeValues",
+  "description": "Features in banking and business can be classified into different categories based on their purpose, functionality, and the value they provide. Here's a structured way to classify them:\r\n\r\n1. Based on Functionality\r\nCore Features: Essential functionalities required for the basic operation of a product or service.\r\nExamples: Account creation, deposits, withdrawals, balance inquiries in banking.\r\nValue-Added Features: Additional services that enhance customer experience and satisfaction.\r\nExamples: Cashback rewards, financial planning tools, or loyalty programs.\r\n\r\n2. Based on Service Type\r\nCustomer-Facing Features: Visible to customers and directly used by them.\r\nExamples: Mobile banking apps, self-service kiosks, and chatbots.\r\nBack-End Features: Operational features that support business processes but are not directly visible to customers.\r\nExamples: Fraud detection systems, transaction monitoring, and risk assessment tools.\r\n\r\n\r\n3. Based on Delivery Channel\r\nDigital Features: Offered through online platforms or apps.\r\nExamples: Biometric login, real-time notifications, and online fund transfers.\r\nPhysical Features: Provided at physical locations or through tangible means.\r\nExamples: ATM cash withdrawal, in-branch consultations.\r\n\r\n4. Based on the Target Audience\r\nRetail Features: Designed for individual customers or small businesses.\r\nExamples: Personal loans, savings accounts, and credit cards.\r\nCorporate Features: Tailored for businesses or large organizations.\r\nExamples: Cash management solutions, trade financing, and payroll processing.\r\n\r\n5. Based on Purpose\r\nTransactional Features: Facilitate day-to-day transactions.\r\nExamples: Payments, transfers, or POS (Point of Sale) services.\r\nAnalytical Features: Provide insights, reports, or tracking capabilities.\r\nExamples: Expense categorization, investment performance analysis.\r\nSupport Features: Assist customers in resolving issues or queries.\r\nExamples: 24/7 customer support, AI-powered chatbots.\r\n\r\n6. Based on Innovation Level\r\nStandard Features: Common across most competitors in the industry.\r\nExamples: Basic savings accounts, ATM access.\r\nDifferentiating Features: Unique or advanced features that set a company apart.\r\nExamples: Cryptocurrency wallets, eco-friendly investment options.\r\n\r\n7. Based on Technology\r\nAI-Driven Features: Leverage artificial intelligence for smarter operations.\r\nExamples: Fraud detection, personalized financial advice.\r\nCloud-Based Features: Hosted on cloud platforms for better scalability and availability.\r\nExamples: Online document storage, remote account management.\r\n\r\n8. Based on Compliance\r\nRegulatory Features: Designed to comply with laws and regulations.\r\nExamples: KYC (Know Your Customer) verification, AML (Anti-Money Laundering) checks.\r\nSecurity Features: Protect customer data and transactions.\r\nExamples: Encryption, two-factor authentication.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6f403c07-9593-eb11-8314-0620279967a9",
+      "name": "Fee Feature",
+      "description": "This refers to the functionality in a system or platform that manages, calculates, or displays fees associated with specific transactions or services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2fbbc00e-9593-eb11-8314-0620279967a9",
+      "name": "Interest Feature",
+      "description": "This feature calculates and tracks interest earnings or charges on accounts, loans, or investments over time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34bbc00e-9593-eb11-8314-0620279967a9",
+      "name": "Withdrawal Feature",
+      "description": "The withdraw feature typically refers to an option or functionality that allows users to retrieve or remove something from a system or platform.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4df2f620-9593-eb11-8314-0620279967a9",
+      "name": "Deposit Feature",
+      "description": "This refers to a functionality that allows users to add funds to an account or system, often by transferring money from another source.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6b67c86-9593-eb11-8314-0620279967a9",
+      "name": "Sweep Feature",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bbb67c86-9593-eb11-8314-0620279967a9",
+      "name": "Lien Feature",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38d104b0-9593-eb11-8314-0620279967a9",
+      "name": "Payment Feature",
+      "description": "This refers to the functionality that facilitates or tracks the transfer of funds for a purchase or settlement of dues.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3dd104b0-9593-eb11-8314-0620279967a9",
+      "name": "Repayment Feature",
+      "description": "This feature facilitates or manages the process of paying back borrowed funds, such as loans, credit card balances, or advances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d42fce2-9593-eb11-8314-0620279967a9",
+      "name": "Limit Feature",
+      "description": "This feature sets, monitors, or enforces restrictions on the maximum amount that can be accessed, spent, or transacted within a system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eafb1efe-bc97-eb11-8314-06a0ecbf308d",
+      "name": "Overdraft Feature",
+      "description": "This functionality allows users to withdraw more money than what is available in their account balance, often up to a predefined limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f31a9a3-c501-ed11-83b2-06c985aa5d3b",
+      "name": "Statement Feature",
+      "description": "The statement feature refers to a functionality in banking, finance, or digital platforms that provides users with a detailed record of their transactions or activities over a specific period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "265b4099-c801-ed11-83b2-06c985aa5d3b",
+      "name": "Currency Exchange Feature",
+      "description": "This feature enables users to convert funds from one currency to another at prevailing exchange rates, often within financial or payment platforms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c79f1b7-a7b7-ef11-8b90-a402b9460f22",
+      "name": "Price Feature",
+      "description": "This feature involves displaying or managing the price of goods, services, or financial instruments within a platform.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

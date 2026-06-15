@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bd9e9bda-44cd-ed11-8401-0670ac0f383f",
+  "title": "StandingOrderDateTimeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b7d57107-45cd-ed11-8401-0670ac0f383f",
+      "name": "First Payment Date Time",
+      "description": "The date on which the first payment for a Standing Order schedule will be made. (Open Banking)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bed57107-45cd-ed11-8401-0670ac0f383f",
+      "name": "Next Payment Date Time",
+      "description": "The date on which the next payment for a Standing Order schedule will be made. (Open Banking)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2eadcc8d-45cd-ed11-8401-0670ac0f383f",
+      "name": "Last Payment Date Time",
+      "description": "The date on which the last (most recent) payment for a Standing Order schedule was made. (Open Banking)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1904fed5-4acd-ed11-8401-0670ac0f383f",
+      "name": "Final Payment Date Time",
+      "description": "The date on which the final payment for a Standing Order schedule will be made. (Open Banking)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

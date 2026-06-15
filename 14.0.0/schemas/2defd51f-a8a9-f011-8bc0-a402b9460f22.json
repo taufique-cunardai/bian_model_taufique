@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2defd51f-a8a9-f011-8bc0-a402b9460f22",
+  "title": "FuneralPolicyProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c6db592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Individual Funeral Policy",
+      "description": "Covers a single person (the policyholder or insured). The benefit is paid to the nominated beneficiary upon the insured’s death.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8db592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Family Funeral Policy",
+      "description": "Covers the policyholder and immediate family members (spouse, children). Premiums are based on age and number of dependents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9db592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Extended Family Funeral Policy",
+      "description": "Expands coverage to include extended relatives such as parents, siblings, in-laws, or grandparents — common in many African markets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cadb592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Group Funeral Policy",
+      "description": "Covers members of an organization, company, or association (e.g., employees, church members, unions) under a single master policy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbdb592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Assistance / Service-Based Policy",
+      "description": "Instead of a cash payout, the insurer provides funeral services directly (coffin, transport, ceremony arrangements, etc.) through partner providers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccdb592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Cash Benefit (Lump Sum) Policy",
+      "description": "Pays out a fixed lump sum amount to the beneficiary for them to manage funeral expenses themselves.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cddb592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Employer Funeral Benefit Policy",
+      "description": "Provided by employers as part of employee benefits, covering the employee (and sometimes family members) for funeral-related expenses.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cedb592a-a8a9-f011-8bc0-a402b9460f22",
+      "name": "Micro Funeral Policy",
+      "description": "Low-cost version of funeral insurance targeting low-income individuals; offers limited cover with simplified underwriting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

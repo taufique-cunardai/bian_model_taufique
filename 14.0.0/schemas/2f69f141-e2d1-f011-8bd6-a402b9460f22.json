@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2f69f141-e2d1-f011-8bd6-a402b9460f22",
+  "title": "ClaimTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a444e34a-e2d1-f011-8bd6-a402b9460f22",
+      "name": "Financial Claim Transaction",
+      "description": "Execution of monetary obligations associated with a claim.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10e0b313-e3d1-f011-8bd6-a402b9460f22",
+      "name": "Service Claim Transaction",
+      "description": "Execution of non-financial service activities linked to a claim.\r\n\r\nDelivery of services instead of (or in addition to) cash.\r\n\r\nFuneral service delivery\r\nBody transport/repatriation\r\nBurial or cremation arrangement\r\nMortuary service provisioning",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d69eed42-e3d1-f011-8bd6-a402b9460f22",
+      "name": "Administrative Claim Transaction",
+      "description": "Record-keeping or operational actions triggered by a claim instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b829120-e7d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Document Transaction",
+      "description": "Represents the administrative transaction of sourcing, retrieving, or managing documents related to a claim.\r\n\r\nExamples: uploading death certificate, retrieving invoices, verifying supporting documents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "974fef38-e7d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Communication Transaction",
+      "description": "Represents the administrative transaction of sending or recording communications related to a claim.\r\n\r\nExamples: sending settlement confirmation, notifying claimant of missing documents, logging inbound correspondence.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

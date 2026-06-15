@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "03d37818-1c16-f111-8608-06d087c72731",
+  "title": "RiskAssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6bc1d14d-1c16-f111-8608-06d087c72731",
+      "name": "Credit Risk Assessment",
+      "description": "Evaluation of borrower default.\r\n\r\nIncludes:\r\nBorrower creditworthiness analysis\r\nCredit scoring & rating models\r\nDebt-to-income ratio analysis\r\nCollateral evaluation\r\nProbability of Default (PD)\r\nLoss Given Default (LGD)\r\nNon-Performing Loan (NPL) ratio",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f7bf362-1c16-f111-8608-06d087c72731",
+      "name": "Market Risk Assessment",
+      "description": "Risk of losses due to market price changes.\r\n\r\nIncludes:\r\nInterest rate risk\r\nForeign exchange risk\r\nEquity price risk\r\nCommodity price risk\r\nValue at Risk (VaR) calculation\r\nStress testing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1cdcf875-1c16-f111-8608-06d087c72731",
+      "name": "Liquidity Risk Assessment",
+      "description": "Risk that the bank cannot meet short-term obligations.\r\n\r\nIncludes:\r\nLiquidity Coverage Ratio (LCR)\r\nNet Stable Funding Ratio (NSFR)\r\nCash flow gap analysis\r\nFunding concentration risk\r\nContingency funding plan review",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4544ce4f-611d-f111-8608-0a664c0a40fd",
+      "name": "Operational Risk Assessment",
+      "description": "Risk from internal process or system failures.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39bb9e67-611d-f111-8608-0a664c0a40fd",
+      "name": "Strategic Risk Assessment",
+      "description": "Risk arising from adverse business decisions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

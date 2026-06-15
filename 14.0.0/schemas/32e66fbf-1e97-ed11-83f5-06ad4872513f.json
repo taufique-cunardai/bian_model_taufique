@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "32e66fbf-1e97-ed11-83f5-06ad4872513f",
+  "title": "UndertakingInvolvementTypeValues",
+  "description": "Role played by a party in the context of an undertaking or in the context of the business linked to the undertaking. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ea180e2e-1f97-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Advising Party",
+      "description": "Party that advises the undertaking at the request of the issuer. For further clarification, reference the applicable rules to which the undertaking is subject. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ea73d50-1f97-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Applicant",
+      "description": "Party named in an undertaking as the party on whose behalf the undertaking is issued. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0cb7c074-1f97-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Beneficiary",
+      "description": "Party in whose favour the undertaking (or counter-undertaking) is issued. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d1823af-1f97-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Confirmer",
+      "description": "Party that adds its confirmation to the undertaking.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0ff44f3-1f97-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Instructing Party",
+      "description": "Party that instructs the issuance of the undertaking. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b21a915-2097-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Issuer",
+      "description": "Party that issues the undertaking (or counter-undertaking). (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bf68c3a-2097-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Presenter",
+      "description": "Party that makes the presentation. (ISO2002)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9390ace1-2e97-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Obligor",
+      "description": "Party obligated to reimburse the issuer. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

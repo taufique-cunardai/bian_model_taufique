@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a23455a-1194-e911-823e-069871e4ec9c",
+  "title": "InformationServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5db38469-1194-e911-823e-069871e4ec9c",
+      "name": "Advisory Service",
+      "description": "A classification that distinguishes between instances of Information Services according to purpose of advising the destinee of the information.\r\n\r\nAdvisory is the contracted service to deliver customized advice (once or regularly) in a specific way and for a specific purpose. This service is explicitly negotiated and agreed upon and therefore essentially different from a selling service. This does not mean that it should be priced separately as it can be integrated in a total offer towards clients. Advisory are all products that can be classified as decision support for the clients. In this sense there is an overlap with selling services as some selling services are also advisory although not (always) negotiated.\r\n\r\nIncludes following services (e.g.)\r\n1. Key Plan/Vario Plan\r\n2. Financial Advisory\r\n3. SME Advisory \r\n4. Portfolio Management\r\n5. Client Care \r\n6. Subsidies Advisory\r\n\r\nGeneric Services are:\r\n1. Information Build\r\nThis is the service where for the specific purpose of decision support, data is transformed to information that is structured in a way that the client can easily understand and overview his situation. E.g. a consolidated portfolio overview or a risk profile of the client\r\n2. Knowledge Build\r\nThe service where information is built into knowledge. Included are all analysis methods that give a client an in-depth knowledge of his (benchmarked) position. E.g. All different tools for risk analysis and portfolio ratios.\r\n3. Personalized Advice\r\nBuild on information about the clients situation and an analysis, a personalized advice can be delivered. An advice is the description of the actions that the client can take to optimize his position. E.g. advice to align portfolio on risk profile.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5652112a-1294-e911-823e-069871e4ec9c",
+      "name": "Reporting Service",
+      "description": "A classification that distinguishes between instances of Information Services according to purpose of reporting with regard to operational and managerial aspects of banking product or service agreements, relations, portfolio's, etc.\r\n\r\nReporting are all the services, linked to a specific product or to the whole of the product portfolio that clients have bought. \r\n\r\nIncludes following services (e.g.)\r\n1. Statement (Transactional Overview)\r\n2. Balance Inquiry\r\n3. Portfolio (Position Overview)\r\n4. GSM alerts\r\n\r\nGeneric Services are:\r\n1. Transactions Reporting\r\nThe reporting of all transactions that are done on the level of a client or a product (account). Distinction should be made for all channels that are used for the transactions.\r\n2. Position Reporting\r\nThe reporting of the (balance) position of an account or a set of accounts.\r\n3. Event Reporting\r\nThis service is linked to both services above. If a transaction cannot be executed because insufficient balance on the account is one example of an event.  This event reporting can be configured by the client.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4918d343-1294-e911-823e-069871e4ec9c",
+      "name": "Financial Information Service",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

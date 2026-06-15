@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e0aaeca6-5dac-ed11-83f9-069364c3eef1",
+  "title": "DeviceIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d0b79d67-5eac-ed11-83f9-069364c3eef1",
+      "name": "IMEI",
+      "description": "International Mobile Equipment Identity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2b79d67-5eac-ed11-83f9-069364c3eef1",
+      "name": "SerialNumber",
+      "description": "Device serial number.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3b79d67-5eac-ed11-83f9-069364c3eef1",
+      "name": "SecureElementIdentification",
+      "description": "Secure element ID.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4b79d67-5eac-ed11-83f9-069364c3eef1",
+      "name": "OtherNational",
+      "description": "Other nationally assigned code.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5b79d67-5eac-ed11-83f9-069364c3eef1",
+      "name": "OtherPrivate",
+      "description": "Other privately assigned code.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

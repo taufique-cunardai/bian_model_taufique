@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1dc7222b-5ad2-e911-8296-0633d5e0e610",
+  "title": "ContactPointTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "980f1f36-5ad2-e911-8296-0633d5e0e610",
+      "name": "Electronic Address",
+      "description": "Address which is accessed by electronic means. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c174445-5ad2-e911-8296-0633d5e0e610",
+      "name": "Postal Address",
+      "description": "Information that locates and identifies a specific address. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63f0ef67-5ad2-e911-8296-0633d5e0e610",
+      "name": "Phone Number",
+      "description": "Collection of information that identifies a phone address. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "18097b7f-5ad2-e911-8296-0633d5e0e610",
+      "name": "SocialNetworkAddress",
+      "description": "A social network such as Facebook, Twitter, etc.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

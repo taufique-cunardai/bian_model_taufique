@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dbdd4334-96fb-ec11-83ad-065d8d549003",
+  "title": "OrganisationDateTime",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "OrganisatioDate",
+    "OrganisatioDateType"
+  ],
+  "properties": {
+    "OrganisatioDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "OrganisatioDateType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "OrganisationDateTimeTypeValues",
+      "x-related-bo-id": "5dd30173-96fb-ec11-83ad-065d8d549003",
+      "x-related-bo-name": "OrganisationDateTimeTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

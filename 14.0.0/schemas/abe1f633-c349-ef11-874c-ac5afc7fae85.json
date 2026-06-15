@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "abe1f633-c349-ef11-874c-ac5afc7fae85",
+  "title": "MarketResearchAspectTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bdea806c-c349-ef11-874c-ac5afc7fae85",
+      "name": "Market Size",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfea806c-c349-ef11-874c-ac5afc7fae85",
+      "name": "Markt Trends",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c0ea806c-c349-ef11-874c-ac5afc7fae85",
+      "name": "Target Market",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1ea806c-c349-ef11-874c-ac5afc7fae85",
+      "name": "Consumer Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Competitive Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Product or Service Analysis",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4aa14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Pricing Strategy",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ba14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Distribution Channels",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ca14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Marketing and Advertising",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4da14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Branding and Positioning",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ea14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Customer Demographics",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fa14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Customer Psychographics",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "50a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Technology and Innovation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Regulatory Factors",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Environmental Factors",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Customer Journey and Experience",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Market Entry",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55a14dea-c349-ef11-874c-ac5afc7fae85",
+      "name": "Market Expansion",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

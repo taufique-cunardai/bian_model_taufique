@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0c869c33-7670-eb11-82fd-061e1f234dd5",
+  "title": "ActionTypeValues",
+  "description": "A Classification value that specifies type of action",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "172d41b6-39a1-ec11-837e-061d0db0fbbb",
+      "name": "Initiate",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a541cfbd-39a1-ec11-837e-061d0db0fbbb",
+      "name": "Execute",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67364ec8-39a1-ec11-837e-061d0db0fbbb",
+      "name": "Create",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81a67ad1-39a1-ec11-837e-061d0db0fbbb",
+      "name": "Transfer",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4cdead7-39a1-ec11-837e-061d0db0fbbb",
+      "name": "Pay",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "107979c0-3aa1-ec11-837e-061d0db0fbbb",
+      "name": "Deliver",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec829fa8-5512-ed11-83b7-06db69cb3de5",
+      "name": "Apply",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0e701af-5512-ed11-83b7-06db69cb3de5",
+      "name": "Calculate",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

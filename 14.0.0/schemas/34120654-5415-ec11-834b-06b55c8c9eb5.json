@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "34120654-5415-ec11-834b-06b55c8c9eb5",
+  "title": "SessionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bd07695d-5415-ec11-834b-06b55c8c9eb5",
+      "name": "Contact Handling Session",
+      "description": "A Session that manages and supports interactions, communications, and service handling activities between a customer and an organization.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "618ffb83-5415-ec11-834b-06b55c8c9eb5",
+      "name": "Customer Dialogue Session",
+      "description": "A Session that facilitates an ongoing conversational interaction or exchange of information between a customer and the institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09fc9592-5415-ec11-834b-06b55c8c9eb5",
+      "name": "Channel Operating Session",
+      "description": "A Session that controls and manages operational activities for a customer interaction or service delivery channel.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c3d40aa-5415-ec11-834b-06b55c8c9eb5",
+      "name": "Gateway Operating Session",
+      "description": "A Session that manages the routing, connectivity, translation, and operational exchange of messages or transactions between systems or networks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "235104b4-5415-ec11-834b-06b55c8c9eb5",
+      "name": "Switch Operating Session",
+      "description": "A Session that controls the routing, authorization, and switching of financial transactions between connected payment or transaction networks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d48407cf-6815-ec11-834b-06b55c8c9eb5",
+      "name": "Device Operating Session",
+      "description": "A Session that manages the operational use, connectivity, status, and servicing activities of a physical or digital device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc2c032b-6915-ec11-834b-06b55c8c9eb5",
+      "name": "Interbank Transaction Operating Session",
+      "description": "A Session that manages operational interactions, transaction exchanges, and processing activities between banking institutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1713b68a-6915-ec11-834b-06b55c8c9eb5",
+      "name": "Correspondence Operating Session",
+      "description": "A Session that manages operational communications, document exchanges, notifications, or formal correspondence activities between parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "93dedf42-6b15-ec11-834b-06b55c8c9eb5",
+      "name": "Interactive Help Operating Session",
+      "description": "A Session that provides operational support, guidance, assistance, or help interaction services to users or customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4bf1964e-6b15-ec11-834b-06b55c8c9eb5",
+      "name": "ACH Operating Session",
+      "description": "A Session that manages automated clearing house processing, routing, clearing, and settlement activities for electronic payment transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

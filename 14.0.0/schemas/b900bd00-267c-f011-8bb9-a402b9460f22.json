@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b900bd00-267c-f011-8bb9-a402b9460f22",
+  "title": "InsuranceInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d2dcff13-267c-f011-8bb9-a402b9460f22",
+      "name": "Insurer (Insurance Company)",
+      "description": "The company that provides coverage, assumes the risk, and pays out claims.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4dcff13-267c-f011-8bb9-a402b9460f22",
+      "name": "Policyholder",
+      "description": "The person or entity that owns the policy and pays premiums.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5dcff13-267c-f011-8bb9-a402b9460f22",
+      "name": "Insured Life or Person",
+      "description": "The individual whose life, health, or property is covered.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6dcff13-267c-f011-8bb9-a402b9460f22",
+      "name": "Beneficiary",
+      "description": "The person(s) or entity who receive the benefit or payout when a claim occurs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7dcff13-267c-f011-8bb9-a402b9460f22",
+      "name": "Intermediary / Broker / Agent",
+      "description": "A licensed professional who sells the policy, advises clients, and facilitates the agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8dcff13-267c-f011-8bb9-a402b9460f22",
+      "name": "Regulator or Authority",
+      "description": "The government body overseeing insurance companies to ensure compliance and protect consumers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e04ad3ee-47b3-f011-8bc2-a402b9460f22",
+      "name": "Claims Assessor or Officer or Adjuster",
+      "description": "Internal party (within the insurer) responsible for evaluating the validity and entitlement of a claim.\r\n\r\nThe person responsible for:\r\n\r\nverifying claim\r\nreviewing claim evidence\r\ndetermining eligibility",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "31924a2d-c7d5-f011-8bd6-a402b9460f22",
+      "name": "Claimant",
+      "description": "The person who initiates the claim.\r\n\r\nCould be:\r\n\r\nbeneficiary\r\npolicyholder\r\nfuneral service provider\r\nexecutor/administrator of estate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09a27681-c7d5-f011-8bd6-a402b9460f22",
+      "name": "Claims Processor or Claims Administrator",
+      "description": "Operational role executing:\r\n\r\nclaim registration\r\nupdates\r\ndocumentation\r\npayments queueing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "087457a7-c7d5-f011-8bd6-a402b9460f22",
+      "name": "Claim Approver",
+      "description": "Authorizes the claim decision based on rules and assessment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d863fc63-cad5-f011-8bd6-a402b9460f22",
+      "name": "Underwriter",
+      "description": "Evaluates and accepts the risk before issuing the policy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

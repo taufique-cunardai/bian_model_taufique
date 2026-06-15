@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1046500b-6482-f011-8bb9-a402b9460f22",
+  "title": "InsuranceBenefitArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3d2d6125-6482-f011-8bb9-a402b9460f22",
+      "name": "Lump Sum",
+      "description": "A one-time payment made to beneficiaries or the insured upon a specified event, such as death, accident, or critical illness.\r\nApplicability: Common in many insurance products (life, funeral, accident).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95a5e832-6482-f011-8bb9-a402b9460f22",
+      "name": "Immediate Expenses",
+      "description": "A quick-access cash payment provided shortly after the insured event to cover urgent or short-term needs.\r\nApplicability: Mostly specific to funeral insurance to help with immediate funeral-related costs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "736e054f-6482-f011-8bb9-a402b9460f22",
+      "name": "Repatriation",
+      "description": "Coverage that pays for the transportation of the deceased from the place of death to the chosen burial site, including necessary permits and logistics.\r\nApplicability: Unique to funeral insurance policies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f7fe764-6482-f011-8bb9-a402b9460f22",
+      "name": "Add-ons",
+      "description": "Optional additional benefits that can be added to the base insurance policy for an extra premium; the type of add-on depends on the insurance product.\r\nApplicability: Exists in most insurance types, but the content differs (e.g., groceries or tombstone in funeral, roadside assistance in motor, hospital cash in health).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "94eaafd0-641d-f111-8608-0a664c0a40fd",
+  "title": "RiskAssessmentMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "849010e7-641d-f111-8608-0a664c0a40fd",
+      "name": "Initial Assessment",
+      "description": "The first risk evaluation conducted when a customer applies for credit.\r\n\r\nComment \r\nExamples\r\nA new mortgage application is evaluated before approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f03e59ee-641d-f111-8608-0a664c0a40fd",
+      "name": "Periodic Review",
+      "description": "A scheduled risk review conducted regularly during the life of a credit facility.\r\n\r\nComment:\r\nExample\r\nBank reviews borrower risk every year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81d513f6-641d-f111-8608-0a664c0a40fd",
+      "name": "Reassessment",
+      "description": "A new evaluation performed when significant changes occur.\r\n\r\nComment:\r\nExample\r\nCustomer requests a higher loan limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7792b5fd-641d-f111-8608-0a664c0a40fd",
+      "name": "Porfolio Review",
+      "description": "Risk assessment performed on a group of loans in the bank's credit portfolio.\r\n\r\nComment:\r\nBank reviews all SME loans for risk exposure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

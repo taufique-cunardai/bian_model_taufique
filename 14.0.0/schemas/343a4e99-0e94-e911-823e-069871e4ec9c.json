@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "343a4e99-0e94-e911-823e-069871e4ec9c",
+  "title": "BankingServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "da8b93eb-0f94-e911-823e-069871e4ec9c",
+      "name": "Selling Service",
+      "description": "A classification that distinguishes between instances of Banking Services according to delivering services without the need for a formal (written) agreement.\r\n\r\nSelling services are services that are delivered at clients and prospects without a written contract. These services are used as a means to build-up or broaden the relationship with clients and prospects. Some of these services are advisory services as described separately.\r\n\r\nIncludes following services (e.g.)\r\n1. Information Services\r\n2. E-purse and PaySec\r\n3. Mortgage Advice\r\n4. Calculators\r\n\r\nGeneric Services are:\r\n1. Elementary Services\r\nThe elementary services are easily accessible and make it possible to start already a relationship with prospects without directly starting the extensive procedure of client identification. These services are flexible and should therefore not be integrated in the expensive, complex and robust processes of the other products. E.g. the data quality will be different.\r\nElementary services can be made available for real clients. In this case the elementary services can be extended to the normal services.\r\n2. Help-me-buy services\r\nThese are services to help the client to match his needs to the product&services offering in the brand. \r\n3. Offering Services\r\nThese are services in the context of a concrete product to decide if the offering is adequate to the concrete situation of the client. A concrete example is a simulation of a loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8f6af12-1094-e911-823e-069871e4ec9c",
+      "name": "Financial Instrument Exchange Service",
+      "description": "A classification that distinguishes between instances of Banking Services according to the sale or trade of financial instruments.\r\n\r\nFinancial Instruments Exchange are the services where the bank is a point of sale for the exchange/trade of financial instruments. Essentially, these are services that are not directly related with an account, although they can be integrated with products that are linked to accounts. The essential elements are the management of the rates that are used, the commissioning for the trade transaction and the valuation of (more complex) financial instruments \r\n\r\nIncludes following services (e.g.)\r\n1. Foreign Exchange\r\n2. Buy/Sell funds\r\n3. Buy/Sell shares\r\n\r\nGeneric Services are:\r\n1. Buy/Sell\r\nThe trade of financial instruments against another financial instrument. This can be in the same class, such as foreign exchange, but can also be in different classes, such as shares for cash. \r\nThe process behind the trade can be different.\r\n2. Broker Services\r\nThese services are comparable with Buy/Sell. The difference is that the bank is only the broker and doesnt have the risk of intake\r\n3. Valuation\r\nLinked to a portfolio of Financial Instruments the valuation for clients of the owned values is an essential service (not for cash)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e9c3a2f-1094-e911-823e-069871e4ec9c",
+      "name": "Financial Stock Management Service",
+      "description": "A classification that distinguishes between instances of Banking Services according to depositing of financial instruments.\r\n\r\nFinancial Stock Management is the offer to clients of an account to keep their cash or other financial instruments. As stock management offers the availability of the infrastructure to keep instruments, this includes also all services to manage the instruments.  Although the word stock refers to a physical preservation, also negative preservation, as in credits can be included.\r\n\r\nIncludes following services (e.g.)\r\n1. Cash Handling\r\n2. Custody\r\n\r\nGeneric Services are\r\n1. Deposit/Withdraw\r\nDeposit or withdraw the instruments on or from an account. \r\n2. Define/Change limits\r\nAs accounts are a sort of financial stock, limits of minima and maxima can be defined to facilitate the financial stock management. There are limits that can be defined for deposit and withdrawal (e.g. debit card limit). The limit for deposit means that every surplus above the limit will lead to a transfer to a given account or another action. These limits should be at least dependent on the (type of) channel and on the account itself (multiple limits are needed).\r\nIf limits are reached an action should be taken. Feedback to the order responsible and the client should be made. E.g. credits limits should be variable in time.\r\n3. Accrual interest (for lending and saving)\r\nFor each account arrangements can be made on the compensation of interest (in two directions: surplus and shortages). Penalty interest for late repayments is a specific example\r\n4. Financial Instruments Maintenance\r\nThe maintenance of financial instruments (mainly coupon of bonds)..",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cefb763-1094-e911-823e-069871e4ec9c",
+      "name": "Financial Transfer Service",
+      "description": "A classification that distinguishes between instances of Banking Services according to transfer of financial instruments between accounts.\r\n\r\nFinancial transfer is the transfer between two accounts of instruments (cash or other values)\r\nIncludes following services (e.g.)\r\n1. Payment\r\n2. Direct Debit\r\n3. Standing Order\r\n\r\nGeneric Services are:\r\n1. Outgoing transfers\r\nThe possibility to do transfers from one account to another account. In case of cash accounts, these are payments. But other transfers can be foreseen (e.g. at asset accounts). The range of accounts where transfers can go will change this service and the process behind it. (Domestic payments, international payments, etc.)\r\n2. Incoming transfers\r\nThe possibility to accept transfers from other accounts. The availability of the account for other accounts (and also different payment systems) to do payments is the determining factor of this service\r\n3. Multiple Transfer Set-up\r\nThe possibility to set-up future transfers following different criteria. A difference should be made in the invoke procedure. Is the future payment invoked by an agreed event (direct debit) or is it invoked automatically at a specific time (standing order)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f10bf8c-1094-e911-823e-069871e4ec9c",
+      "name": "Financial Risk Transfer Service",
+      "description": "A classification that distinguishes between instances of Banking Services according to transfer of financial risks between parties.\r\n\r\nThis service gives the possibility to transfer the financial consequences of a risk to the financial services provider. In the banking environment this is limited to transfer of financial risks. But examples of more extended services can be found in the insurance industry.\r\n\r\nIncludes following services (e.g.)\r\n1. No recourse factoring\r\n2. Guaranteed Funds\r\n3. Life Insurances\r\n4. Non-life Insurances\r\n\r\nGeneric Services\r\n1. Customer Risk Valuation\r\nThis is the service to evaluate the risk of the event covered. This should help the client to know exactly the remaining risk for him and have no hassle when an event occurs.\r\nThe evaluation of collateral is also included here.\r\n2. Claims Handling\r\nIs the treatment of the intake of a claim, the evaluation of the causing claim event and the financial loss. For most services in the banking environment this should be standardized.\r\n3. Risk Changing Adaptations\r\nThe change of the factors that determine the risk should lead to a adaptation of the coverage (e.g. depreciation of an insured asset). If the client is responsible to report these changes, a service should be available to alert him and facilitate this reporting. He can also voluntary change his cover.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9127a4bd-1094-e911-823e-069871e4ec9c",
+      "name": "Business Operating Service",
+      "description": "A classification that distinguishes between instances of Banking Services according to taking over business operations from client.\r\n\r\nBusiness operating is the service to take over some activities of the client linked to the management of a risk where the client transferred the financial risk.  Business operating is present in the leasing and factoring.\r\n\r\nIncludes following services (e.g.)\r\n1. Maintenance of an asset (Leasing)\r\n2. Collection of receivables\r\n3. (Early) buy-in of an asset.\r\n\r\nGeneric Services are:\r\n1. Asset Rental\r\nThe service to rent the asset from the financial institution and therefore avoid the formal buy transaction. \r\n2. Asset Maintenance Activities\r\nThe outsourcing of the activities with the goal to maintain the value of the asset. In leasing this is the physical maintenance of the asset. In factoring, it is the activity to maintain the value of the account receivables for the client.\r\n3. Deferred Asset Acquisition\r\nThis is the possibility to acquire the asset at the end of the rental contract at agreed conditions or at market value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48c54afd-1094-e911-823e-069871e4ec9c",
+      "name": "Information Service",
+      "description": "A classification that distinguishes between instances of Banking Services according to providing information as a service.\r\n\r\nThis service gives the possibility to offer information as a service. In the banking environment this is known in the form of advisory services and reporting services. More and more offering data and insight information is offered as a service.\r\n\r\nIncludes following services (e.g.)\r\n1. Reporting Services\r\n2. Advisory Services\r\n3. Financial Information Services",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa3caca7-5986-ef11-8b79-a402b9460f22",
+      "name": "Payment Service",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

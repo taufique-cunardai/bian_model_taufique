@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "69e31683-4d3c-ee11-8440-06fceca49739",
+  "title": "ProductServiceAgreementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6be31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Principal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ce31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Secondary owner",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6de31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Beneficiary",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ee31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Power of attorney",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6fe31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Legal guardian",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Custodian for minor",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Successor on death",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Administrator",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Other party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Granter",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Settlor",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Senior managing official",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Protector",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78e31683-4d3c-ee11-8440-06fceca49739",
+      "name": "Registered shareholder name",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

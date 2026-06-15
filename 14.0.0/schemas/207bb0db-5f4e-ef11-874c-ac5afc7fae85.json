@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "207bb0db-5f4e-ef11-874c-ac5afc7fae85",
+  "title": "PricingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7b626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Cost-Based Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Value-Based Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Competition-Based Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Dynamic Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Psychological Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Segmented Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "82626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Promotional Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Geographical Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Bundling and Unbundling",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85626ef6-5f4e-ef11-874c-ac5afc7fae85",
+      "name": "Freemium and Subscription Pricing",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

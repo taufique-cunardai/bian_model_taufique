@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "537556e3-bd14-ec11-834b-067bd6b7fb1d",
+  "title": "TransactionStatus",
+  "description": "Data type that specifies the LifecycleStatus of transaction (e.g., initiated, executed, confirmed, cancelled, etc.)",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "TransactionStatus",
+    "TransactionStatusType"
+  ],
+  "properties": {
+    "TransactionStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Status",
+      "x-related-bo-id": "c7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Status"
+    },
+    "TransactionStatusType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TransactionStatusTypeValues",
+      "x-related-bo-id": "547556e3-bd14-ec11-834b-067bd6b7fb1d",
+      "x-related-bo-name": "TransactionStatusTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "00818514-4678-f011-8bb9-a402b9460f22",
+  "title": "DataStandardTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f452ea34-4678-f011-8bb9-a402b9460f22",
+      "name": "Currency Data",
+      "description": "ISO 4217 currency codes (e.g., USD = US Dollar, JPY = Japanese Yen, EUR = Euro)\r\nDecimal precision rules (e.g., JPY has no fractional units; USD has 2 decimal places)\r\nCurrency symbols ($, ¥, €)\r\nCurrency holidays or settlement calendars",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb52ea34-4678-f011-8bb9-a402b9460f22",
+      "name": "Country Data",
+      "description": "ISO 3166-1 alpha-2 / alpha-3 country codes (US / USA, GB / GBR)\r\nOfficial country names in multiple languages\r\nCountry-to-currency mappings (e.g., Japan → JPY)\r\nCountry risk classifications (e.g., OECD ratings, sanctions lists)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47daf453-4678-f011-8bb9-a402b9460f22",
+      "name": "Market and Segment Identifiers",
+      "description": "MIC codes (ISO 10383) for market identification , e.g., XNYS (New York Stock Exchange), XLON (London Stock Exchange)\r\nIndustry classification schemes, e.g., GICS (Global Industry Classification Standard) or NAICS codes\r\nMarket segment IDs (retail, institutional, corporate)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79a46df4-4778-f011-8bb9-a402b9460f22",
+      "name": "Instrument Reference Data",
+      "description": "ISINs (International Securities Identification Number)\r\nSEDOLs, CUSIPs\r\nBloomberg Tickers, Reuters RIC codes\r\nInstrument type classifications (bond, equity, derivative)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1fb2519-4878-f011-8bb9-a402b9460f22",
+      "name": "Regulatory and Compliance Reference Data",
+      "description": "LEIs (Legal Entity Identifiers)\r\nFATCA country classifications\r\nSanctions and embargo lists (OFAC, EU, UN)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

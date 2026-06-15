@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d1d92b71-1294-e911-823e-069871e4ec9c",
+  "title": "PriceFeatureType",
+  "description": "A classification that distinguishes between instances of product features according to the cost/profit that is related to Banking Products or Services.\r\n\r\nIn all commercial offerings, there is a agreed cost for both parties (e.g. the interest arrangements are in both directions). The pricing structure of products or packages is a service that gives the possibility to the client to adapt his costs to his individual situation.\r\nWe see different generic categories in the pricing structure of the different products.\r\n1. Compensations\r\n2. Prices\r\n3. Fees\r\n4. Discounts",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PriceFeatureTypeValues"
+  ],
+  "properties": {
+    "PriceFeatureTypeValues": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PriceFeatureTypeValues",
+      "x-related-bo-id": "5056028a-1294-e911-823e-069871e4ec9c",
+      "x-related-bo-name": "PriceFeatureTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

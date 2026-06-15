@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0811bfa6-0048-ea11-8289-062ea3b80f12",
+  "title": "ProductIdentificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6fc014b6-0048-ea11-8289-062ea3b80f12",
+      "name": "ISIN Code",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ffdb7bc0-0048-ea11-8289-062ea3b80f12",
+      "name": "Package Code",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "151d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "BuyersItemNumber",
+      "description": "Product identifier assigned by the buyer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "221d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "CommercialDescriptionCodeName",
+      "description": "A code to identify a product based on applicable commercial conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f1d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "EAN",
+      "description": "The unique EAN (European Article Number) code.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c1d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "HarmonizedTariffCodeName",
+      "description": "Classification of goods as developed by the Customs Cooperation council.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "491d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "ManufacturersItemNumber",
+      "description": "Product identifier as assigned by the manufacturer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "561d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "ModelNumber",
+      "description": "Reference number assigned by the manufacturer to differentiate variations in similar products in a class or group.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "631d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "PartNumber",
+      "description": "Reference assigned by the manufacturer to a product part.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "701d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "QuotaCategory",
+      "description": "Product identifier used by the retail industry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d1d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "StyleNumber",
+      "description": "Identification of the style of a product.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a1d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "SuppliersItemNumber",
+      "description": "Number assigned to an article by the supplier of that article.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "971d5210-7b66-ed11-83e1-06f33f30d0f7",
+      "name": "UniversalProductCode",
+      "description": "Number assigned to a manufacturer's product by the Product Code Council.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

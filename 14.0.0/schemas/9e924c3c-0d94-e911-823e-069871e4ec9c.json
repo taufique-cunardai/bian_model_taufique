@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9e924c3c-0d94-e911-823e-069871e4ec9c",
+  "title": "ProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9f924c3c-0d94-e911-823e-069871e4ec9c",
+      "name": "BankingService",
+      "description": "A classification that distinguishes between instances of product features according to the core banking services, functionality and/or objectives of banking.\r\n\r\ne.g. deposit services, exchange services, etc.\r\n\r\nThe primary reason for the contract with the client are the banking services. These services can be classified as follows:\r\n1. Selling services\r\n2. Financial Instruments Exchange\r\n3. Financial Stock Management\r\n4. Financial Transfers\r\n5. Financial Risk Transfer\r\n6. Business Operating\r\n7. Advisory\r\n8. Reporting",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1dab3b67-0d94-e911-823e-069871e4ec9c",
+      "name": "AdministrationService",
+      "description": "A classification that distinguishes between instances of product features according to administrative tasks related to the Banking Product or Service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d81a637a-0d94-e911-823e-069871e4ec9c",
+      "name": "AccessService",
+      "description": "A classification that distinguishes between product features according to way of the banking services can be accessed.\r\n\r\nThe access to services becomes more and more important in the evolving markets. \r\nWe need to separate different parts:\r\n1. The physical access to the infrastructure that allows access to the bank (where)\r\n2. The authorization of different parties to use the services of the bank (who)\r\n3. The agreed procedure to have access to different services (how)\r\n4. The services that are available for the different parties (what)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bde6c68f-0d94-e911-823e-069871e4ec9c",
+      "name": "PriceFeature",
+      "description": "A classification that distinguishes between instances of product features according to the cost/profit that is related to Banking Products or Services.\r\n\r\nIn all commercial offerings, there is an agreed cost for both parties (e.g. the interest arrangements are in both directions). The pricing structure of products or packages is a service that gives the possibility to the client to adapt his costs to his individual situation.\r\nWe see different generic categories in the pricing structure of the different products.\r\n1. Compensations\r\n2. Prices\r\n3. Fees\r\n4. Discounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

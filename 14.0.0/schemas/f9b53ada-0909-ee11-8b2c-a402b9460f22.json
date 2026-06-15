@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f9b53ada-0909-ee11-8b2c-a402b9460f22",
+  "title": "AccountInformationServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b7fc2bed-0909-ee11-8b2c-a402b9460f22",
+      "name": "Beneficiaries",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f357c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Accounts",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f457c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Balances",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f557c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Transactions",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f657c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Direct Debits",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f757c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Standing Orders",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f957c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Offers",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa57c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Scheduled Payments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb57c6ab-0a09-ee11-8b2c-a402b9460f22",
+      "name": "Statements",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90489cee-cc0a-ee11-8b2c-a402b9460f22",
+      "name": "Parties",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95489cee-cc0a-ee11-8b2c-a402b9460f22",
+      "name": "Products",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

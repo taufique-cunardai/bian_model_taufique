@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "91c55eca-1e50-ef11-84c4-0609ade254b5",
+  "title": "MarketResearchInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5e3fa8f3-1e50-ef11-84c4-0609ade254b5",
+      "name": "Market Research Firms",
+      "description": "Specialized agencies that conduct research on behalf of their clients. They design studies, collect data, analyze results, and provide insights.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3e7e80b-1f50-ef11-84c4-0609ade254b5",
+      "name": "Internal Market Research Departments",
+      "description": "Teams within a company that handle research tasks. They may conduct their own studies or collaborate with external firms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39e7e920-1f50-ef11-84c4-0609ade254b5",
+      "name": "Clients/Businesses",
+      "description": "Companies seeking to understand market trends, consumer behaviour, and competitive landscapes. They use the research to inform their business strategies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f42db93b-1f50-ef11-84c4-0609ade254b5",
+      "name": "Survey Respondents",
+      "description": "Individuals who participate in surveys, focus groups, or interviews. Their feedback and opinions are crucial for gathering primary data.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1f91250-1f50-ef11-84c4-0609ade254b5",
+      "name": "Data Analysts",
+      "description": "Professionals who interpret and analyze the collected data to extract meaningful insights and trends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ea40963-1f50-ef11-84c4-0609ade254b5",
+      "name": "Field Researchers",
+      "description": "Individuals who collect primary data through various means, such as face-to-face interviews, phone surveys, or online questionnaires.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d93bf977-1f50-ef11-84c4-0609ade254b5",
+      "name": "Consultants",
+      "description": "Experts who provide advice on how to utilize market research findings to make strategic business decisions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b617f8c-1f50-ef11-84c4-0609ade254b5",
+      "name": "Marketing Teams",
+      "description": "Departments within a company that use market research to develop marketing strategies, campaigns, and product development plans.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1cc4eca4-1f50-ef11-84c4-0609ade254b5",
+      "name": "Product Development Teams",
+      "description": "Groups that use market research insights to design and improve products to meet consumer needs and preferences.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0672f3b7-1f50-ef11-84c4-0609ade254b5",
+      "name": "Sales Teams",
+      "description": "Teams that leverage market research to understand customer needs, refine sales tactics, and identify potential opportunities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b2eaacc-1f50-ef11-84c4-0609ade254b5",
+      "name": "Investors/Stakeholders",
+      "description": "Individuals or entities that use market research to assess the viability and potential success of a company or product.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e41de0e2-1f50-ef11-84c4-0609ade254b5",
+      "name": "Regulatory Bodies",
+      "description": "Government agencies that may require market research for compliance, policy-making, or to understand industry trends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b544aafc-1f50-ef11-84c4-0609ade254b5",
+      "name": "Competitors",
+      "description": "Other companies in the market that may indirectly benefit from publicly available research findings or conduct their own competitive analysis.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

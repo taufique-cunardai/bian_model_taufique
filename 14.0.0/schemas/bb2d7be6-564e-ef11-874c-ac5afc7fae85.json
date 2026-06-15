@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bb2d7be6-564e-ef11-874c-ac5afc7fae85",
+  "title": "CustomerBehaviorTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e088e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Complex Buying Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e288e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Habitual Buying Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e388e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Variety-Seeking Buying Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e488e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Loyal Consumers",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e588e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Discount Consumers",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e688e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Impulse Consumers",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e788e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Need-Based Consumers",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e888e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Wandering Consumers",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e988e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Rational Decision-Making",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea88e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Emotional Decision-Making",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb88e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Compulsive Decision-Making",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec88e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Socially-Driven Decision-Making",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed88e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Occasion-Based Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee88e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Benefit-Based Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef88e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Usage Rate Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f088e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Loyalty Status Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f188e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Cultural Factor Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f288e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Social Factor Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f388e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Personal Factor Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f488e308-574e-ef11-874c-ac5afc7fae85",
+      "name": "Psychological Factor Behavior",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

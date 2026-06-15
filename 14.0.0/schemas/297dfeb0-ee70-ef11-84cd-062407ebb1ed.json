@@ -1,0 +1,195 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "297dfeb0-ee70-ef11-84cd-062407ebb1ed",
+  "title": "SecuritiesEntryTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b28062d8-ee70-ef11-84cd-062407ebb1ed",
+      "name": "Blocked",
+      "description": "Balance of securities that are blocked or frozen. A financial instrument may be unavailable due to external circumstances such as a court order, death of beneficiary or account owner, or bankruptcy. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c2e90de-ee70-ef11-84cd-062407ebb1ed",
+      "name": "Borrowed",
+      "description": "Balance of securities that have been borrowed from another party.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4970be5-ee70-ef11-84cd-062407ebb1ed",
+      "name": "CollateralIn",
+      "description": "Balance of securities that belong to a third party and that are held for the purpose of collateralisation.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9970be5-ee70-ef11-84cd-062407ebb1ed",
+      "name": "CollateralOut",
+      "description": "Balance of securities that belong to the safekeeping account indicated within this message, and are deposited with a third party for the purpose of collateralisation.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b528bf1-ee70-ef11-84cd-062407ebb1ed",
+      "name": "OnLoan",
+      "description": "Balance of securities that have been loaned to a third party.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "746402fb-ee70-ef11-84cd-062407ebb1ed",
+      "name": "Pending Delivery",
+      "description": "Balance of securities that are pending delivery.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cb40a02-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Pending Receipt",
+      "description": "Balance of securities that are pending receipt.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00888b08-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Pledged",
+      "description": "Balance of securities that are pledged, for example, a financial instrument is unavailable because it has been used or given as a guarantee.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "307c8d0f-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Out For Registration",
+      "description": "Balance of securities currently being processed by the institution responsible for registering the new beneficial owner (or nominee) of securities after a transaction has settled.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80480919-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Unclassified",
+      "description": "Balance of securities that is unclassified, ie, is not identified with one of the existing sub-balance types.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3145671f-ef70-ef11-84cd-062407ebb1ed",
+      "name": "InTransshipment",
+      "description": "Balance of physical securities that are in transshipment, eg, in the process of being transferred from one depository or agent to another.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3645671f-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Eligible",
+      "description": "Total number of securities eligible for this event.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91cefb2a-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Registered",
+      "description": "Balance of securities that are registered (in the name of a nominee or of the beneficial owner).(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6fe8f31-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Street Position",
+      "description": "Balance of securities that remain registered in the name of the prior beneficial owner of securities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b35b239-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Unregistered",
+      "description": "Balance of securities that could not be registered due to foreign ownership limitation.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b217ac3f-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Waiting Documentation",
+      "description": "Financial instrument is unavailable due to missing or incomplete documentation pertaining to the account, or due to a missing or incomplete order.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e94acb46-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Settlement Position",
+      "description": "Balance of securities representing only settled transactions; pending transactions not included.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0748354d-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Being Transferred",
+      "description": "Financial instrument is unavailable as a result of a transfer order, pending movement in the shareholders' register.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78a33054-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Settled",
+      "description": "Balance of securities representing only settled transactions.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7da33054-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Traded",
+      "description": "Balance of securities representing traded transactions.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a85115e-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Uninstructed Balance",
+      "description": "Balance of uninstructed position.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "11afa165-ef70-ef11-84cd-062407ebb1ed",
+      "name": "Instructed Balance",
+      "description": "Balance of instructed position.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

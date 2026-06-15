@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "212aee31-e4d1-f011-8bd6-a402b9460f22",
+  "title": "AdministrativeClaimTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d70f8151-e4d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Status Update Transaction",
+      "description": "Monitoring progress and state transitions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76a4e2c1-e4d1-f011-8bd6-a402b9460f22",
+      "name": "Case Initiation Transaction",
+      "description": "Starting and managing the administrative case for a claim",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ae3c4ce-e4d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Adjustment Transaction",
+      "description": "Administrative correction of amounts, parties, or timelines",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a029dd8-e4d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Escalation Transaction",
+      "description": "Raising the claim for higher-level review",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c74ba0e5-e4d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Referral Transaction",
+      "description": "Handoff of claim to another authority, e.g., underwriter",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56c8dfec-e4d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Closure Transaction",
+      "description": "Final administrative closing of the claim",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bc8dfec-e4d1-f011-8bd6-a402b9460f22",
+      "name": "Claim Reopen Transaction",
+      "description": "Reactivating a previously closed claim",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf815afb-e4d1-f011-8bd6-a402b9460f22",
+      "name": "SLA Management Transaction",
+      "description": "Managing processing timelines and service-level obligations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

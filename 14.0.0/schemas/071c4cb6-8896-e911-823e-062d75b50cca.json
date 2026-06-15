@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "071c4cb6-8896-e911-823e-062d75b50cca",
+  "title": "MoneyTransferInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "081c4cb6-8896-e911-823e-062d75b50cca",
+      "name": "Payee",
+      "description": "Party who is the intended recipient of funds which have been the subject of a payment transaction. (adapted from PSD)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec1dd6bd-8896-e911-823e-062d75b50cca",
+      "name": "Payer",
+      "description": "Party who holds a payment account and allows a payment order from that payment account, or, where there is no payment account, a party who gives a payment order;",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed1dd6bd-8896-e911-823e-062d75b50cca",
+      "name": "Payee Bank",
+      "description": "Financial institution servicing an account for the payee. (adapted from ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d35a6c7-8896-e911-823e-062d75b50cca",
+      "name": "Payer Bank",
+      "description": "Financial institution servicing an account for the payer. (adapted from ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49a89def-eb98-e911-827a-06decc849e90",
+      "name": "Initiator",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c25cb601-ec98-e911-827a-06decc849e90",
+      "name": "Correspondent Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "670cdc14-c1ab-e911-828c-0679464e26a4",
+      "name": "Money Source",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6dc1e31f-c1ab-e911-828c-0679464e26a4",
+      "name": "Money Target",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

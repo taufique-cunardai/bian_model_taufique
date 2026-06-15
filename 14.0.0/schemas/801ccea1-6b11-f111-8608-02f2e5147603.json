@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "801ccea1-6b11-f111-8608-02f2e5147603",
+  "title": "ValueDrivenRewardTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f74c7116-6c11-f111-8608-02f2e5147603",
+      "name": "Cashback",
+      "description": "Direct credit or cash reward based on account activity or transactions\r\n\r\nComment:\r\n$50 cashback for spending $500 on a credit card",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "297e211f-6c11-f111-8608-02f2e5147603",
+      "name": "Gift Cards / Vouchers",
+      "description": "Prepaid cards usable at retail stores or online platforms.\r\n\r\nComment:\r\nAmazon gift card, Starbucks voucher",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f2bdf29-6c11-f111-8608-02f2e5147603",
+      "name": "Merchandise / Physical Goods",
+      "description": "Tangible items customers can receive.\r\n\r\nComment:\r\nHeadphones, smartwatches, bank-branded merchandise",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "060a5431-6c11-f111-8608-02f2e5147603",
+      "name": "Points / Loyalty Credits",
+      "description": "Program-specific points that can be redeemed or transferred to partners.\r\n\r\nComment:\r\n1,000 bank points = $10 or 750 airline miles",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a783c638-6c11-f111-8608-02f2e5147603",
+      "name": "Discounts / Rebates",
+      "description": "Financial reduction on banking services or partner products.\r\n\r\nComment:\r\n20% discount on insurance premium, $50 rebate on account fees",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

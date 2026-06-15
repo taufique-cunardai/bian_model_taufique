@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "35328c76-7546-ea11-8289-06f8a6a00ed0",
+  "title": "PaymentInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5cf3db7c-7546-ea11-8289-06f8a6a00ed0",
+      "name": "Payer or Debtor",
+      "description": "Party who holds a payment account and allows a payment order from that payment account, or, where there is no payment account, a party who gives a payment order.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0af165c3-7846-ea11-8289-06f8a6a00ed0",
+      "name": "Payee Bank or Creditor Agent",
+      "description": "Financial institution servicing an account for the payee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d431d046-a646-ea11-8289-06b8f115a03a",
+      "name": "Payee or Creditor",
+      "description": "Party who is the intended recipient of funds which have been the subject of a payment transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5a06fcbe-a646-ea11-8289-06b8f115a03a",
+      "name": "Payer Bank or Debtor Agent",
+      "description": "Financial institution servicing an account for the payer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00fcfd29-b48e-ea11-8295-06417761d128",
+      "name": "Initiator",
+      "description": "Party initiating the payment to an agent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bae1e3c2-6fb7-ed11-83f9-062fd04be211",
+      "name": "PSU",
+      "description": "PSU means a natural or legal person making use of a payment service in the capacity of payer or payee; (PSD)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "344ed2ca-6fb7-ed11-83f9-062fd04be211",
+      "name": "PSP",
+      "description": "PSP means a payment service provider falling under any of the categories referred to in Article 1(1) of Directive 2007/64/EC and the legal and natural persons referred to in Article 26 of Directive 2007/64/EC, but excludes the bodies listed in Article 2 of Directive 2006/48/EC of the European Parliament and of the Council of 14 June 2006 relating to the taking up and pursuit of the business of credit institutions ( 1 ) benefiting from a waiver under Article 2(3) of Directive 2007/64/EC; (PSD)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2b25125-f840-ee11-8b35-a402b9460f22",
+      "name": "Ultimate Debtor",
+      "description": "Ultimate party that owes an amount of money to the (ultimate) creditor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "efb25125-f840-ee11-8b35-a402b9460f22",
+      "name": "Ultimate Creditor",
+      "description": "Ultimate party to which an amount of money is due.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
