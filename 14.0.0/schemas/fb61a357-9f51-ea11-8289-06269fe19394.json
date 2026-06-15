@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fb61a357-9f51-ea11-8289-06269fe19394",
+  "title": "Project",
+  "description": "A sequence of tasks that must be completed to attain a certain outcome (PMBOK)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProjectName",
+    "ProjectType",
+    "ProjectDescription",
+    "ProjectSchedule",
+    "ProjectDateTime"
+  ],
+  "properties": {
+    "ProjectName": {
+      "type": "string",
+      "description": "The name of project",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Name",
+      "x-related-bo-id": "6bf573d1-14ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Name"
+    },
+    "ProjectType": {
+      "type": "string",
+      "description": "A classification of the project",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "ProjectDescription": {
+      "type": "string",
+      "description": "A description of the scope, goal and make-up of the project",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "ProjectSchedule": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Schedule",
+      "x-related-bo-id": "d7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Schedule"
+    },
+    "ProjectDateTime": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProjectDateTime",
+      "x-related-bo-id": "922e8635-f432-ef11-8b65-a402b9460f22",
+      "x-related-bo-name": "ProjectDateTime"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b3e4f664-a051-ea11-8289-06269fe19394",
+      "target": "5be8a55c-a051-ea11-8289-06269fe19394",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

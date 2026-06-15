@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "153e71ae-c762-ea11-8290-0614a0f38526",
+  "title": "Channel",
+  "description": "An interface through which parties can communicate or exchange goods or services.  \r\n\r\nComment: A channel can be internal or external.\r\nChannel identifies the different delivery and communications mechanisms through which products, and services are made available to parties and by which the parties communicate with each other. \r\n\r\nExamples: Shop, a web shop, email, television screens in the shops, servicedesk, e-mail, phone,  …",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ChannelType",
+    "ChannelIdentification"
+  ],
+  "properties": {
+    "ChannelType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ChannelTypeValues",
+      "x-related-bo-id": "64447c85-569e-ed11-83f5-06035b5f414d",
+      "x-related-bo-name": "ChannelTypeValues"
+    },
+    "ChannelIdentification": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

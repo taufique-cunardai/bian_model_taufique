@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d626f3bd-2716-f111-8608-06d087c72731",
+  "title": "Incentive Product Feature",
+  "description": "Is a Product Feature that defines the rewards, benefits a bank provides to encourage a customer to use, maintain, or increase activity on a particular product or service.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncentiveProductFeatureType"
+  ],
+  "properties": {
+    "IncentiveProductFeatureType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveProductFeatureTypeValues",
+      "x-related-bo-id": "521216da-e51e-f111-8608-0247e3f120c3",
+      "x-related-bo-name": "IncentiveProductFeatureTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6de68252-3916-f111-8608-06d087c72731",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "445c72fb-6e18-f111-8608-06f87af9db33",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5531723f-3916-f111-8608-06d087c72731",
+      "target": "07076ed9-4dfa-e911-82bd-06e507138132",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "745f6caa-3916-f111-8608-06d087c72731",
+      "target": "35c9169a-3916-f111-8608-06d087c72731",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

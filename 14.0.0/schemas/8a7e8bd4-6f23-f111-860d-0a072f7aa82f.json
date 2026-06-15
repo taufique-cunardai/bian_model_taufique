@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8a7e8bd4-6f23-f111-860d-0a072f7aa82f",
+  "title": "Burn Delivery Modality",
+  "description": "Burn Delivery Modality defines how earned rewards, points, or benefits are applied or consumed when being spent or redeemed. It is about executing the payment or usage of rewards.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "2ca40489-6f23-f111-860d-0a072f7aa82f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BurnDeliveryModalityType"
+  ],
+  "properties": {
+    "BurnDeliveryModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BurnDeliveryModalityTypeValues",
+      "x-related-bo-id": "3b2f78f5-6f23-f111-860d-0a072f7aa82f",
+      "x-related-bo-name": "BurnDeliveryModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4c84eede-6f23-f111-860d-0a072f7aa82f",
+      "target": "2ca40489-6f23-f111-860d-0a072f7aa82f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Burn Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

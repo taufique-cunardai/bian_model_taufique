@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c412fec5-26f7-e911-82bd-06554362bd22",
+  "title": "Employee Relationship",
+  "description": "A relationship between an employer and its employee focused on enabling employee to collaborate on typical managerial tasks with its employer.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "fa6490a1-8957-e911-8237-0645314e65ac",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "28ac1222-41fa-e911-82bd-06e507138132",
+      "target": "fa6490a1-8957-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Relationship",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f2b7db32-41fa-e911-82bd-06e507138132",
+      "target": "5b5afda9-27f7-e911-82bd-06554362bd22",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "98fefe6f-3ffa-e911-82bd-06e507138132",
+      "target": "94885b0f-22f7-e911-82bd-06554362bd22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e48d266-3ffa-e911-82bd-06e507138132",
+      "target": "da39738d-3efa-e911-82bd-06e507138132",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7422d229-74fa-e911-82bd-060c1aa554c0",
+      "target": "e7ee84d3-73fa-e911-82bd-060c1aa554c0",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0b86713-42fa-e911-82bd-06e507138132",
+      "target": "1fa3dd1a-2bf7-e911-82bd-06554362bd22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4af9afd-4ffa-e911-82bd-06e507138132",
+      "target": "5fe59fe3-4ffa-e911-82bd-06e507138132",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7b89b1b-42fa-e911-82bd-06e507138132",
+      "target": "ae015f0d-2bf7-e911-82bd-06554362bd22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

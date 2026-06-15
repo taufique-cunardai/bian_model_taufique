@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "76c7c3bc-5d19-f111-8608-060ba89e9853",
+  "title": "Incentive Allocation Modality",
+  "description": "Incentive Allocation Modality defines how the incentive amount is distributed across different components, recipients, or accounts under an incentive program.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "35c9169a-3916-f111-8608-06d087c72731",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncnetiveAllocationModalityType"
+  ],
+  "properties": {
+    "IncnetiveAllocationModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveAllocationModalityTypeValues",
+      "x-related-bo-id": "35ce18d6-5d19-f111-8608-060ba89e9853",
+      "x-related-bo-name": "IncentiveAllocationModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6dd1d10e-5e19-f111-8608-060ba89e9853",
+      "target": "35c9169a-3916-f111-8608-06d087c72731",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Incentive Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

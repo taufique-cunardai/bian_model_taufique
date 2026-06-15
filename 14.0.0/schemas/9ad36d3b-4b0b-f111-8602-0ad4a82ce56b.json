@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9ad36d3b-4b0b-f111-8602-0ad4a82ce56b",
+  "title": "Burn Instruction",
+  "description": "Is a Request to perform an action that results in the consumption, deduction, or utilization of accumulated value (e.g., rewards, points, credits, or balances) from an account, based on the terms and arrangements defined in an agreement or program.\r\n\r\nAn instruction to fulfill a Burn Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BurnInstructionType"
+  ],
+  "properties": {
+    "BurnInstructionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BurnInstructionTypeValues",
+      "x-related-bo-id": "95aa141d-4d0b-f111-8602-0ad4a82ce56b",
+      "x-related-bo-name": "BurnInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "88fe6943-4b0b-f111-8602-0ad4a82ce56b",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4952d25d-4b0b-f111-8602-0ad4a82ce56b",
+      "target": "4078b84a-4b0b-f111-8602-0ad4a82ce56b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

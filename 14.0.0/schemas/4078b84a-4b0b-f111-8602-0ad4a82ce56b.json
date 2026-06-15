@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4078b84a-4b0b-f111-8602-0ad4a82ce56b",
+  "title": "Burn Transaction",
+  "description": "Is an Action that consumes or deducts accumulated value such as rewards, points, credits, or benefits. It represents any event that reduces the available earned balance through usage or conversion.\r\n\r\n\r\nTransaction that is the result of fulfilling a Burn Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BurnTransactionType"
+  ],
+  "properties": {
+    "BurnTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BurnTransactionTypeValues",
+      "x-related-bo-id": "2b1aa015-4e0b-f111-8602-0ad4a82ce56b",
+      "x-related-bo-name": "BurnTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4552d25d-4b0b-f111-8602-0ad4a82ce56b",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3ecdcb4b-cd1e-f111-8608-0247e3f120c3",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

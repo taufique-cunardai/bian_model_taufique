@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b62be7b6-fb60-e911-8237-068e13695e26",
+  "title": "Card Acceptor",
+  "description": "Entity accepting payment related cards. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9c3b00ce-7a6a-e911-8237-061b75d0d318",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "d26a5088-ff60-e911-8237-068e13695e26",
+      "target": "524614a8-f560-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Card Payment Agreement Involvement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9cb38096-7b6a-e911-8237-061b75d0d318",
+      "target": "9c3b00ce-7a6a-e911-8237-061b75d0d318",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Card Payment Involvement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

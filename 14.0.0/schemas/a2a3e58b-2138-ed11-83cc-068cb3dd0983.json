@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a2a3e58b-2138-ed11-83cc-068cb3dd0983",
+  "title": "Operational Gateway Operating Session",
+  "description": "The operation of an operational gateway for a bounded period of time.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "79d39d8b-2538-ed11-83cc-068cb3dd0983",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7788a153-2738-ed11-83cc-068cb3dd0983",
+      "target": "3bb27a38-2738-ed11-83cc-068cb3dd0983",
+      "modality": "M:N",
+      "required": false,
+      "description": "Exchanged\r\nIn",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

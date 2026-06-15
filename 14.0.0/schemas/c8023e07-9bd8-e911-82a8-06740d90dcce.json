@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c8023e07-9bd8-e911-82a8-06740d90dcce",
+  "title": "Corporate Treasurymanagement Input Guidance",
+  "description": "The way a type of information is to be used as input for corporate treasury management",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "1c11b81b-9bd8-e911-82a8-06740d90dcce",
+      "target": "b5b45b32-9ad8-e911-82a8-06740d90dcce",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

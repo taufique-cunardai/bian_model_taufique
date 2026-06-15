@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8a3d24d1-903f-eb11-82e3-065f2c4c8ed1",
+  "title": "Custody Service",
+  "description": "A service provided by a bank typically include the settlement, safekeeping, and reporting of customers' marketable securities and cash.\r\n\r\nA service in which a  financial institution holds securities on behalf of the client. Custody provides an investor a place to store assets. Assets in custody are not fungible for the brokerage because they remain on the client's name.\r\nhttps://www.iso20022.org/standardsrepository/type/CustodyService",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "55e20d2a-963f-eb11-82e3-065f2c4c8ed1",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8835a4d7-903f-eb11-82e3-065f2c4c8ed1",
+      "target": "776fd13e-8b3f-eb11-82e3-065f2c4c8ed1",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

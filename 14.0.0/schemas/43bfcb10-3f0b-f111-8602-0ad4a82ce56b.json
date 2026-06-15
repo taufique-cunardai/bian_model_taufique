@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "43bfcb10-3f0b-f111-8602-0ad4a82ce56b",
+  "title": "Burn Term and Condition",
+  "description": "Burn Terms and Conditions are the set of rules that define how, when, and under what circumstances earned incentives can be used, converted, or redeemed.\r\n\r\nThey govern the usage (consumption) side of an incentive program.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dbd6077d-ca1e-f111-8608-0247e3f120c3",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BurnTermandConditionType"
+  ],
+  "properties": {
+    "BurnTermandConditionType": {
+      "type": "string",
+      "description": "Burn Term and Condition Type is the classification of rules that control how, when, and under what conditions incentives (points, miles, cashback, rewards) can be redeemed or used.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BurnTermandConditionTypeValues",
+      "x-related-bo-id": "412a5525-410b-f111-8602-0ad4a82ce56b",
+      "x-related-bo-name": "BurnTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "bfc27c2f-3f0b-f111-8602-0ad4a82ce56b",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bcec6ec7-cc1e-f111-8608-0247e3f120c3",
+      "target": "dbd6077d-ca1e-f111-8608-0247e3f120c3",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Burn Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

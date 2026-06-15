@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "45637450-7318-f111-8608-06f87af9db33",
+  "title": "Incentive Calculation Modality",
+  "description": "Incentive Calculation Modality defines the method or rule used to determine the value of an incentive based on predefined criteria, performance metrics, or transactions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "35c9169a-3916-f111-8608-06d087c72731",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncentiveCalculationModalityType"
+  ],
+  "properties": {
+    "IncentiveCalculationModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveCalculationModalityTypeValues",
+      "x-related-bo-id": "adfd07d1-3e16-f111-8608-06d087c72731",
+      "x-related-bo-name": "IncentiveCalculationModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "a14d656b-7318-f111-8608-06f87af9db33",
+      "target": "35c9169a-3916-f111-8608-06d087c72731",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Incentive Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

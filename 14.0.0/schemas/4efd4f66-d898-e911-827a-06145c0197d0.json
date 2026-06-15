@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4efd4f66-d898-e911-827a-06145c0197d0",
+  "title": "Agreement_Agreement Relationship",
+  "description": "A characteristic of agreement which refers to its related agreements.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Agreement_AgreementRelationshipType",
+    "FromAgreement",
+    "ToAgreement"
+  ],
+  "properties": {
+    "Agreement_AgreementRelationshipType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Agreement_AgreementRelationshipTypeValues",
+      "x-related-bo-id": "b89c762f-a07d-eb11-8309-06f448ba7707",
+      "x-related-bo-name": "Agreement_AgreementRelationshipTypeValues"
+    },
+    "FromAgreement": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Agreement",
+      "x-related-bo-id": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Agreement"
+    },
+    "ToAgreement": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Agreement",
+      "x-related-bo-id": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Agreement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "9915c076-d898-e911-827a-06145c0197d0",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

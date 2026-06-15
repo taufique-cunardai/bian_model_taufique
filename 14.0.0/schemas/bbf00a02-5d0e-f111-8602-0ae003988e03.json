@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bbf00a02-5d0e-f111-8602-0ae003988e03",
+  "title": "Payee Alias Term and Condition",
+  "description": "Payee Alias Term and Condition is the legal, contractual, and policy-based rules that govern the creation, use, management, and liability of a payee alias within a banking or payment system.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PayeeAliasTermandConditionType"
+  ],
+  "properties": {
+    "PayeeAliasTermandConditionType": {
+      "type": "string",
+      "description": "Payee Alias Term and Condition Type defines the rules, obligations, and legal requirements that govern how a payee alias can be used by a customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PayeeAliasTermandConditionTypeValues",
+      "x-related-bo-id": "46aeafcb-5c0e-f111-8602-0ae003988e03",
+      "x-related-bo-name": "PayeeAliasTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e127f024-9380-e911-823e-061de61e9206",
+  "title": "Collateral Asset Administrative Plan",
+  "description": "An administrative plan derived from the arrangements in one or more collateral agreements.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2167574-8f80-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "24be01b3-9380-e911-823e-061de61e9206",
+      "target": "a2167574-8f80-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Administrative Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a45b80d3-bd80-e911-823e-065e8061d7e6",
+      "target": "5e8ac218-7780-e911-823e-061de61e9206",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

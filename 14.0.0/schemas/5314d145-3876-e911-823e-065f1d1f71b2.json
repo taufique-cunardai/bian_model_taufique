@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5314d145-3876-e911-823e-065f1d1f71b2",
+  "title": "Report",
+  "description": "A unique and specific set of information containing the content for communications.\r\n\r\nThe term Report is mostly used as communication about a particular subject matter, often in the form of an official document, after thorough investigation or consideration by an appointed person or body.\r\n\r\nA document containing information organized in a narrative, graphic, or tabular form, prepared on ad hoc, periodic, recurring, regular, or as required basis. Reports may refer to specific periods, events, occurrences, or subjects, and may be communicated or presented in oral or written form. (Business Dictionary)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ReportType",
+    "ReportValidityPeriod",
+    "ReportVersion",
+    "ReportDateTime",
+    "ReportFormat"
+  ],
+  "properties": {
+    "ReportType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ReportTypeValues",
+      "x-related-bo-id": "1e774519-9fd3-ed11-8405-06a5b9a1698d",
+      "x-related-bo-name": "ReportTypeValues"
+    },
+    "ReportValidityPeriod": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTimePeriod",
+      "x-related-bo-id": "0379c313-fb48-ea11-8289-064c9ffef37a",
+      "x-related-bo-name": "DateTimePeriod"
+    },
+    "ReportVersion": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Number",
+      "x-related-bo-id": "31e6f820-15ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Number"
+    },
+    "ReportDateTime": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "ReportFormat": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6b131948-ff4f-ef11-8b68-a402b9460f22",
+      "target": "8806b58b-fc94-ea11-8295-06c610ca3b44",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0328bae4-21b2-e911-828c-064878c57b7e",
+      "target": "c39cf169-21b2-e911-828c-064878c57b7e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a5192f1-22b2-e911-828c-064878c57b7e",
+      "target": "8a0549e0-22b2-e911-828c-064878c57b7e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "caf94a36-56d9-e911-82a8-06d6bd4a6976",
+      "target": "3500ccc6-af9d-e911-827a-06c73ecc951a",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e613878-23b2-e911-828c-064878c57b7e",
+      "target": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "modality": "M:N",
+      "required": false,
+      "description": "Representing\r\nDocument",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d52bdb49-cecf-e911-8296-06957f3f468a",
+      "target": "5314d145-3876-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": false,
+      "description": "Consolidated\r\nReport",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b69f27cd-a759-f111-8be8-a402b9460f22",
+      "target": "aaf886eb-95d0-e911-8296-061886980330",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

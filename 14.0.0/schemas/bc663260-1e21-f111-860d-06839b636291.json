@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bc663260-1e21-f111-860d-06839b636291",
+  "title": "Repayment Application Modality",
+  "description": "Repayment Application Modality defines how the received repayment is applied to the loan account.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "12a6af9f-84ac-e911-828c-067d207d65e6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RepaymentApplicationModalityType"
+  ],
+  "properties": {
+    "RepaymentApplicationModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RepaymentApplicationModalityTypeValues",
+      "x-related-bo-id": "4f4a4c8b-1e21-f111-860d-06839b636291",
+      "x-related-bo-name": "RepaymentApplicationModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "a1f88072-1e21-f111-860d-06839b636291",
+      "target": "12a6af9f-84ac-e911-828c-067d207d65e6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Repayment Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fd410cff-fb1e-f111-8608-0247e3f120c3",
+  "title": "Repayment Term and Condition",
+  "description": "Repayment Term and Condition is a set of agreed rules that define how, when, and under what circumstances a borrower must repay a financial obligation (such as a loan or credit facility).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6ecec372-fb1e-f111-8608-0247e3f120c3",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RepaymentTermandConditionType"
+  ],
+  "properties": {
+    "RepaymentTermandConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RedemptionTermandConditionTypeValues",
+      "x-related-bo-id": "0c656c58-0f08-f111-8602-0651210e384f",
+      "x-related-bo-name": "RedemptionTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "921b8608-fc1e-f111-8608-0247e3f120c3",
+      "target": "6ecec372-fb1e-f111-8608-0247e3f120c3",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Repayment Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

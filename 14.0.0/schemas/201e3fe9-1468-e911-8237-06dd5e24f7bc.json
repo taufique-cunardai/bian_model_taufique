@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "201e3fe9-1468-e911-8237-06dd5e24f7bc",
+  "title": "Payment Transaction Involvement",
+  "description": "A party role which is involved in the payment transaction.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InvolvementType",
+    "PartyReference",
+    "PaymentTransactionReference"
+  ],
+  "properties": {
+    "InvolvementType": {
+      "type": "string",
+      "description": "The role that a party plays in a payment transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PaymentInvolvementTypeValues",
+      "x-related-bo-id": "35328c76-7546-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "PaymentInvolvementTypeValues"
+    },
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    },
+    "PaymentTransactionReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Payment Transaction",
+      "x-related-bo-id": "e00fb730-fd60-e911-8237-068e13695e26",
+      "x-related-bo-name": "Payment Transaction"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "fae4528e-1568-e911-8237-06dd5e24f7bc",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

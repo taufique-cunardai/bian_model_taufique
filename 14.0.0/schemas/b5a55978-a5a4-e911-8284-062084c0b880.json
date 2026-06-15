@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b5a55978-a5a4-e911-8284-062084c0b880",
+  "title": "Fee Arrangement Fulfillment Event",
+  "description": "An even that triggers the fulfilment of a fee arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FeeAmount",
+    "FeeDueDate",
+    "FeeEventDescription"
+  ],
+  "properties": {
+    "FeeAmount": {
+      "type": "string",
+      "description": "Amount of fee that is charged. \r\n\r\nAmount of money that results from the application of an adjustment (charges. fees, discount or allowance) to the amount due. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "FeeDueDate": {
+      "type": "string",
+      "description": "Date on which the fee needs to be paid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "FeeEventDescription": {
+      "type": "string",
+      "description": "Information about the fee transaction, such as reason, period, applied formula...",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "95b2bcc4-06ab-ea11-829f-0691f30ba14c",
+      "target": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement Fulfillment Event",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f8c4941-7aac-e911-828c-064985deff14",
+      "target": "92910269-8dab-e911-828c-06e8cb19aef2",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66b8b1d1-0aaa-e911-8288-06812ee60d2a",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

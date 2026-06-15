@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3dcb97cd-9931-ec11-835e-069b580e7d8b",
+  "title": "Repayment Service",
+  "description": "Repayment Service is a banking service that manages the collection and processing of customer repayments for credit products. \r\n\r\nIt ensures that principal, interest, fees, and other charges are collected according to the terms of the credit agreement, and that customer accounts and ledgers are updated accurately.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9e6e153d-5997-e911-823e-065ba593ba6e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RepaymentServiceType"
+  ],
+  "properties": {
+    "RepaymentServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RepaymentServiceTypeValues",
+      "x-related-bo-id": "a92c4173-fc1e-f111-8608-0247e3f120c3",
+      "x-related-bo-name": "RepaymentServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "8939b4d6-fb1e-f111-8608-0247e3f120c3",
+      "target": "6ecec372-fb1e-f111-8608-0247e3f120c3",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Repayment Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03b60f7e-9a31-ec11-835e-069b580e7d8b",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

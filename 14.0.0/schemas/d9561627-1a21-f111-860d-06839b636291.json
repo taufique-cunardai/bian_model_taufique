@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d9561627-1a21-f111-860d-06839b636291",
+  "title": "Repayment Calculation Modality",
+  "description": "Repayment Calculation Modality defines how the repayment amount is determined or calculated.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "12a6af9f-84ac-e911-828c-067d207d65e6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RepaymentCalculationModalityType"
+  ],
+  "properties": {
+    "RepaymentCalculationModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RepaymentCalculationModalityTypeValues",
+      "x-related-bo-id": "842bee50-1a21-f111-860d-06839b636291",
+      "x-related-bo-name": "RepaymentCalculationModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "14789536-1a21-f111-860d-06839b636291",
+      "target": "12a6af9f-84ac-e911-828c-067d207d65e6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Repayment Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

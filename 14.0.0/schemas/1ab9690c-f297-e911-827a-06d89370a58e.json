@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1ab9690c-f297-e911-827a-06d89370a58e",
+  "title": "Agreement Term and Condition",
+  "description": "Condition is a premise upon which the fulfillment of an agreement depends \r\n\r\nCondition is applied to an instance of an agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AgreementConditionType",
+    "ConditionReference",
+    "AgreementReference"
+  ],
+  "properties": {
+    "AgreementConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AgreementTermAndConditionTypeValues",
+      "x-related-bo-id": "3eab48e3-8fa0-ec11-837e-0673ec901f3d",
+      "x-related-bo-name": "AgreementTermAndConditionTypeValues"
+    },
+    "ConditionReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Condition",
+      "x-related-bo-id": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Condition"
+    },
+    "AgreementReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Agreement",
+      "x-related-bo-id": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Agreement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "63d9bc4d-20db-ea11-82b1-06978b4b0198",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

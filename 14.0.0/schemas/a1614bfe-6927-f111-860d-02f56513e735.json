@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a1614bfe-6927-f111-860d-02f56513e735",
+  "title": "Compliance Service",
+  "description": "A Compliance Service is a banking or financial service that ensures the institution and its customers adhere to regulatory, legal, and internal policy requirements. It helps prevent violations, manage risks, and maintain the integrity of financial operations.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9941bbeb-6927-f111-860d-02f56513e735",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ComplianceServiceType"
+  ],
+  "properties": {
+    "ComplianceServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ComplianceServiceTypeValues",
+      "x-related-bo-id": "dcf80a4e-8227-f111-860d-02f56513e735",
+      "x-related-bo-name": "ComplianceServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "61684815-6a27-f111-860d-02f56513e735",
+      "target": "9941bbeb-6927-f111-860d-02f56513e735",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Compliance Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

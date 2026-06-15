@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9dd961f0-479f-ea11-829a-068b70783c3c",
+  "title": "Asset And Liability Portfolio Strategy",
+  "description": "A strategy plan to direct the bank's asset & liability portfolio",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b1cb007b-fa94-ea11-8295-06c610ca3b44",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "58b12142-489f-ea11-829a-068b70783c3c",
+      "target": "b1cb007b-fa94-ea11-8295-06c610ca3b44",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Strategy",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

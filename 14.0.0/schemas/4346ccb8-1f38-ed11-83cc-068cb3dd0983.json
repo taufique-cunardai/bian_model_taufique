@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4346ccb8-1f38-ed11-83cc-068cb3dd0983",
+  "title": "Gateway",
+  "description": "Something that serves as an entrance or a means of access\r\nhttps://www.thefreedictionary.com/gateway\r\n\r\nA device that acts as a gate among various available networks.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "GatewayType"
+  ],
+  "properties": {
+    "GatewayType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "GatewayTypeValues",
+      "x-related-bo-id": "02fcad22-2038-ed11-83cc-068cb3dd0983",
+      "x-related-bo-name": "GatewayTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}
