@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6da956a7-82b9-ec11-8382-06d577125049",
+  "title": "Bank Draft",
+  "description": "Bank draft is a payment instruction represented by a document where the holder (bearer) of document can instruct the bank to pay on behalf of the payer and the payment is guaranteed by the issuing bank. \r\n\r\nA bank draft is a type of check that guarantees payment by the issuing bank after verifying the requesting customer has enough funds to cover it. (Investopedia)\r\n\r\nA negotiable instrument where payment is guaranteed by the issuing bank. (Investopedia)\r\n\r\nA bank draft is a payment on behalf of the payer, which is guaranteed by the issuing bank. A draft is used when the payee wants a highly secure form of payment. (Accounting Tool)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b8dea578-b5b9-ec11-8382-06d577125049",
+      "target": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Document",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e7654ac0-26bb-ec11-8387-064f8e36f7bd",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

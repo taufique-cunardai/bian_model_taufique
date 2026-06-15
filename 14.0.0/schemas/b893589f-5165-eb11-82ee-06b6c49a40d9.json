@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b893589f-5165-eb11-82ee-06b6c49a40d9",
+  "title": "Data Standard",
+  "description": "A standard that specifies reference data and definitions associated with market activity such as currency, country and segment identifiers",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e42f60da-2b54-eb11-82e3-06d9eff808b9",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DataStandardType"
+  ],
+  "properties": {
+    "DataStandardType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DataStandardTypeValues",
+      "x-related-bo-id": "00818514-4678-f011-8bb9-a402b9460f22",
+      "x-related-bo-name": "DataStandardTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1c589cb1-5165-eb11-82ee-06b6c49a40d9",
+      "target": "e42f60da-2b54-eb11-82e3-06d9eff808b9",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Standard",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d6a55a7-5165-eb11-82ee-06b6c49a40d9",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5006853-5365-eb11-82ee-06b6c49a40d9",
+      "target": "5a07f946-5365-eb11-82ee-06b6c49a40d9",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

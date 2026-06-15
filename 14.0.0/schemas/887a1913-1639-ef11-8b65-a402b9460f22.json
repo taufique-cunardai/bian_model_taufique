@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "887a1913-1639-ef11-8b65-a402b9460f22",
+  "title": "Business Development Involvement",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BusinessDevelopmentInvolvementType"
+  ],
+  "properties": {
+    "BusinessDevelopmentInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BusinessDevelopmentInvolvementTypeValues",
+      "x-related-bo-id": "b85a1b1f-1739-ef11-8b65-a402b9460f22",
+      "x-related-bo-name": "BusinessDevelopmentInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "bde55fa1-1639-ef11-8b65-a402b9460f22",
+      "target": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

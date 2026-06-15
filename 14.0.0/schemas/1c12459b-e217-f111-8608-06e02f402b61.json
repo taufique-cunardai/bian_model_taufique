@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1c12459b-e217-f111-8608-06e02f402b61",
+  "title": "Rollover Term and Condition",
+  "description": "Rollover Terms and Conditions define the rules, limitations, and contractual parameters that determine when a rollover can occur, how it is applied, and under what constraints it operates for financial products such as loans or term deposits.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "27c8685d-e217-f111-8608-06e02f402b61",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RolloverTermandConditionType"
+  ],
+  "properties": {
+    "RolloverTermandConditionType": {
+      "type": "string",
+      "description": "Conditions that must be satisfied for rollover to be allowed",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RolloverTermandConditionTypeValues",
+      "x-related-bo-id": "214ca5cc-7818-f111-8608-06f87af9db33",
+      "x-related-bo-name": "RolloverTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2c8f1b32-ac23-f111-860d-0a072f7aa82f",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "107b4dad-e217-f111-8608-06e02f402b61",
+      "target": "27c8685d-e217-f111-8608-06e02f402b61",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Rollover Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

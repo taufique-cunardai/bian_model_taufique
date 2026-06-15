@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "55d9a7fb-d235-ed11-83cc-0657d4bfb985",
+  "title": "Mutual Fund Administrative Plan",
+  "description": "A plan to administer the Mutual Fund to handle all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2167574-8f80-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MutualFundAdministrativePlannedAction",
+    "MutualFundAdministrativePlannedActionType"
+  ],
+  "properties": {
+    "MutualFundAdministrativePlannedAction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Planned Action",
+      "x-related-bo-id": "5536bb98-a367-eb11-82f6-06f5e4900cbd",
+      "x-related-bo-name": "Planned Action"
+    },
+    "MutualFundAdministrativePlannedActionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "MutualFundAdministrativePlannedActionTypeValues",
+      "x-related-bo-id": "643230ee-d435-ed11-83cc-0657d4bfb985",
+      "x-related-bo-name": "MutualFundAdministrativePlannedActionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "22c6dcda-d335-ed11-83cc-0657d4bfb985",
+      "target": "a2167574-8f80-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Administrative Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

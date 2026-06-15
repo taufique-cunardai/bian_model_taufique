@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "63b8c743-6391-eb11-8310-069c6e24f8ad",
+  "title": "Fee Modality",
+  "description": "The way in which a fee or charge can be applied for a service. \r\nThe way a fee is structured, applied, and calculated.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FeeModalityType"
+  ],
+  "properties": {
+    "FeeModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FeeModalityTypeValues",
+      "x-related-bo-id": "f4d498b3-ee5b-f011-8bb5-a402b9460f22",
+      "x-related-bo-name": "FeeModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5550f55a-6391-eb11-8310-069c6e24f8ad",
+      "target": "1529d802-d241-ea11-8289-06eda7f62320",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

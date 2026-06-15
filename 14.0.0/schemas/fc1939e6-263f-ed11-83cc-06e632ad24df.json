@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fc1939e6-263f-ed11-83cc-06e632ad24df",
+  "title": "Hedge Fund",
+  "description": "Is A Banking Product that pools capital from accredited or institutional investors to pursue high-return investment strategies.\r\n\r\nA type of alternative investment fund that enables investors to gain exposure to diverse asset classes and employ techniques such as leverage, short selling, derivatives, and arbitrage, with the goal of generating absolute or relative returns, typically under less regulated structures than traditional investment funds.\r\n\r\nComment:\r\nA hedge fund is an investment vehicle that uses pooled money to invest in securities and other assets.\r\n\r\nWhat Is a Hedge Fund?\r\nA hedge fund is a limited partnership of private investors whose money is managed by professional fund managers who use a wide range of strategies, including leveraging or trading of non-traditional assets, to earn above-average investment returns.\r\nhttps://www.investopedia.com/terms/h/hedgefund.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "4b5f2cc2-1b3f-ed11-83cc-06e632ad24df",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "c4580315-a923-f111-860d-0a072f7aa82f",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0cb5947-273f-ed11-83cc-06e632ad24df",
+      "target": "4b5f2cc2-1b3f-ed11-83cc-06e632ad24df",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Investment Fund",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "034b6ca0-273f-ed11-83cc-06e632ad24df",
+      "target": "a950c54f-273f-ed11-83cc-06e632ad24df",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

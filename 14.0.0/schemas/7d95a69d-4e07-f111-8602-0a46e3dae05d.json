@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7d95a69d-4e07-f111-8602-0a46e3dae05d",
+  "title": "Redemption Instruction",
+  "description": "Is a Request that enables the conversion, exchange, or utilization of accumulated rewards, points, benefits, or credits into goods, services, or monetary value, based on the rules and arrangements defined in an agreement or program.\r\n\r\nAn instruction to fulfill a Redemption Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RedemptionInstructionType"
+  ],
+  "properties": {
+    "RedemptionInstructionType": {
+      "type": "string",
+      "description": "Redemption instruction type is the classification of the operational instruction used to execute a redemption.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RedemptionInstructionTypeValues",
+      "x-related-bo-id": "b4a37a3e-4f07-f111-8602-0a46e3dae05d",
+      "x-related-bo-name": "RedemptionInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6042a7f3-4e07-f111-8602-0a46e3dae05d",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ad3582a-4f07-f111-8602-0a46e3dae05d",
+      "target": "53e3c020-4f07-f111-8602-0a46e3dae05d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

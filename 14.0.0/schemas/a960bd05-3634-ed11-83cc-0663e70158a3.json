@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a960bd05-3634-ed11-83cc-0663e70158a3",
+  "title": "Financial Instrument Valuation Procedure",
+  "description": "A procedure that provides a range of financial asset valuation services/worksteps",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialInstrumentValuationProcedureWorkstep",
+    "FinancialInstrumentValuationProcedureWorkstepType"
+  ],
+  "properties": {
+    "FinancialInstrumentValuationProcedureWorkstep": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Workstep",
+      "x-related-bo-id": "f701c099-2b81-e911-823e-06e80039c878",
+      "x-related-bo-name": "Workstep"
+    },
+    "FinancialInstrumentValuationProcedureWorkstepType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "FinancialInstrumentValuationProcedureWorkstepType",
+      "x-related-bo-id": "b4e2071e-3734-ed11-83cc-0663e70158a3",
+      "x-related-bo-name": "FinancialInstrumentValuationProcedureWorkstepType"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e1feed9c-3734-ed11-83cc-0663e70158a3",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

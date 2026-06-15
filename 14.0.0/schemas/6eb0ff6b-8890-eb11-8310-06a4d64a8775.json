@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6eb0ff6b-8890-eb11-8310-06a4d64a8775",
+  "title": "...",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "023a3898-8890-eb11-8310-06a4d64a8775",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

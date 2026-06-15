@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a46a9d71-90e2-ec11-83a0-06cf426798a1",
+  "title": "Trading Position Management Plan",
+  "description": "Management Plan to oversee the bank's trading book",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a03dec86-6675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "acb984de-90e2-ec11-83a0-06cf426798a1",
+      "target": "a03dec86-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Management Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

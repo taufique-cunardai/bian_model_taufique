@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5d60eaf1-d135-ed11-83cc-0657d4bfb985",
+  "title": "Mutual Fund",
+  "description": "Is A Banking Product that pools funds from multiple investors to invest in a diversified portfolio of securities.\r\n\r\nA type of investment fund that allows retail and institutional investors to participate in a diversified portfolio of stocks, bonds, or other assets, with returns distributed proportionally to each investor based on their shareholding, and typically operates under regulatory oversight to ensure transparency and investor protection.\r\n\r\nA mutual fund is a type of investment vehicle consisting of a portfolio of stocks, bonds, or other securities. \r\nhttps://www.investopedia.com/terms/m/mutualfund.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "4b5f2cc2-1b3f-ed11-83cc-06e632ad24df",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "978a0422-a923-f111-860d-0a072f7aa82f",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e3c71eb8-1c3f-ed11-83cc-06e632ad24df",
+      "target": "4b5f2cc2-1b3f-ed11-83cc-06e632ad24df",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Investment Fund",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d42ae705-d335-ed11-83cc-0657d4bfb985",
+      "target": "55d9a7fb-d235-ed11-83cc-0657d4bfb985",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

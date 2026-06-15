@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2f9a5a74-d431-ec11-835e-069b580e7d8b",
+  "title": "Debit Card Transaction",
+  "description": "A payment transaction initiated by a debit card.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e00fb730-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "f590f389-d531-ec11-835e-069b580e7d8b",
+      "target": "18be1517-756a-e911-8237-061b75d0d318",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Card Payment Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f79beeb0-d431-ec11-835e-069b580e7d8b",
+      "target": "e00fb730-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d52b4ec7-d431-ec11-835e-069b580e7d8b",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

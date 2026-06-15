@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5c9d0d42-bfce-f011-8bd6-a402b9460f22",
+  "title": "Subledger Account Entry",
+  "description": "An Account Entry on a Subledger Account\r\n\r\nA subledger account entry is a single debit or credit record that captures the financial impact of a business transaction on a specific subledger account, providing detailed, transaction-level accounting information that is later summarized and posted to the General Ledger.\r\n\r\n\r\nA subledger account entry is the atomic debit or credit posting that records detailed financial activity for a specific subledger account and rolls up to the general ledger.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "69ad2f0a-0061-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "1d758c49-bfce-f011-8bd6-a402b9460f22",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account Entry",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

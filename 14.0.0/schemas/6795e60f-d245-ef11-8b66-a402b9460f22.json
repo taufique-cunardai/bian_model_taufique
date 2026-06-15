@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6795e60f-d245-ef11-8b66-a402b9460f22",
+  "title": "Customer Behavior Insight Involvement",
+  "description": "Party who plays a key roel in Customer Behavior insights",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerBehaviorInsightInvolvementType"
+  ],
+  "properties": {
+    "CustomerBehaviorInsightInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerBehaviorInsightInvolvementTypeValues",
+      "x-related-bo-id": "649f538e-d245-ef11-8b66-a402b9460f22",
+      "x-related-bo-name": "CustomerBehaviorInsightInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

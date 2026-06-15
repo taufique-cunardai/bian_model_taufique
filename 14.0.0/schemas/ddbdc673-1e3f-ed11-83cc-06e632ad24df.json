@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ddbdc673-1e3f-ed11-83cc-06e632ad24df",
+  "title": "Investment Fund Involvement",
+  "description": "Specifies each role linked to an investment fund and played by a party in that context.\r\nhttps://www.iso20022.org/standardsrepository/type/InvestmentFundPartyRole",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InvestmentFundInvolvementType"
+  ],
+  "properties": {
+    "InvestmentFundInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InvestmentFundInvolvementTypeValues",
+      "x-related-bo-id": "86c2ec7c-203f-ed11-83cc-06e632ad24df",
+      "x-related-bo-name": "InvestmentFundInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4ccb8d14-243f-ed11-83cc-06e632ad24df",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

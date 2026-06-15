@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2bc3e6a9-f33a-eb11-82e3-06a412e5ead5",
+  "title": "Credit Risk Model",
+  "description": "A model used to determine the level of credit risk associated with extending credit to a borrower.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e48b3c8e-b4ae-e911-828c-06d72c197ec4",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "3fb73ef6-f33a-eb11-82e3-06a412e5ead5",
+      "target": "e48b3c8e-b4ae-e911-828c-06d72c197ec4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Model",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee575575-f43a-eb11-82e3-06a412e5ead5",
+      "target": "bbc8b42d-f43a-eb11-82e3-06a412e5ead5",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

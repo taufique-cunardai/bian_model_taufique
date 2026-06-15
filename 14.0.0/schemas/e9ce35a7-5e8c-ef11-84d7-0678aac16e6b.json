@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e9ce35a7-5e8c-ef11-84d7-0678aac16e6b",
+  "title": "Investment Account Involvement",
+  "description": "Specifies roles played by a party that are related to an investment account.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InvestmentAccountInvolvementType"
+  ],
+  "properties": {
+    "InvestmentAccountInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InvestmentAccountInvlvementTypeValues",
+      "x-related-bo-id": "d52247f3-5f8c-ef11-84d7-0678aac16e6b",
+      "x-related-bo-name": "InvestmentAccountInvlvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

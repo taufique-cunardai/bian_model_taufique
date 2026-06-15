@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "53e3c020-4f07-f111-8602-0a46e3dae05d",
+  "title": "Redemption Transaction",
+  "description": "Is an Action that allows the consumer to convert, redeem, or utilize accumulated rewards, points, benefits, or credits. It represents any event that affects the balance or utilization of the redeemable assets under the arrangement.\r\n\r\nTransaction that is the result of fulfilling a redemption arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RedemptionTransactionType"
+  ],
+  "properties": {
+    "RedemptionTransactionType": {
+      "type": "string",
+      "description": "A Redemption Transaction Type is a classification of transaction that records how accumulated incentives (such as cashback, reward points, or benefits) are consumed, converted, or applied when a redemption is fulfilled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RedemptionTransactionTypeValues",
+      "x-related-bo-id": "cd239d54-f908-f111-8602-06a34369a11f",
+      "x-related-bo-name": "RedemptionTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "3f6a8fef-0d08-f111-8602-0651210e384f",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67ae4dbc-cb1e-f111-8608-0247e3f120c3",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

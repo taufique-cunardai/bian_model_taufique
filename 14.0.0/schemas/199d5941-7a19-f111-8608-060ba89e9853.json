@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "199d5941-7a19-f111-8608-060ba89e9853",
+  "title": "Posting Instruction",
+  "description": "Is a Request to record or transfer a financial transaction, entry, or movement of funds from a source account to a target account in the ledger or accounting system, based on the terms and arrangements defined in an agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PostingInstructionType"
+  ],
+  "properties": {
+    "PostingInstructionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PostingInstructionTypeValues",
+      "x-related-bo-id": "5b0df028-0d2d-f111-860d-023aa191a9fb",
+      "x-related-bo-name": "PostingInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e4e73772-7b19-f111-8608-060ba89e9853",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47da286a-7a19-f111-8608-060ba89e9853",
+      "target": "a882a351-7a19-f111-8608-060ba89e9853",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

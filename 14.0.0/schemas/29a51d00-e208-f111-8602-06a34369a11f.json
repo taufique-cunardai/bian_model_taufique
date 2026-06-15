@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "29a51d00-e208-f111-8602-06a34369a11f",
+  "title": "Credit Transaction",
+  "description": "Is an Action in the context of providing, utilizing, managing, or repaying a credit arrangement. It represents any event that affects the credit balance, obligations, or terms between a lender and a borrower.\r\n\r\nTransaction that is the result of fulfilling a Credit Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditTransactionType"
+  ],
+  "properties": {
+    "CreditTransactionType": {
+      "type": "string",
+      "description": "A credit transaction type is the category of transaction that records the addition of money or incentives to an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CreditTransactionTypeValues",
+      "x-related-bo-id": "9a79bda9-fb08-f111-8602-06a34369a11f",
+      "x-related-bo-name": "CreditTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ce940e9b-fc08-f111-8602-06a34369a11f",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f7338467-d71e-f111-8608-0247e3f120c3",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

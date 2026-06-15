@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5493fd3b-4a04-ee11-841f-06e2f9911ab7",
+  "title": "Customer Product Match",
+  "description": "A set of preferred product(s) for which a customer is eligible in a specific servicing situation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "de68cfaa-5b1e-ef11-84c7-0691b168fa5f",
+      "target": "1803596c-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2228d1c6-3b09-ee11-8b2c-a402b9460f22",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

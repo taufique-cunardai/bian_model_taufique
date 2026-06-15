@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2b55d41f-cc67-eb11-82f6-06f5e4900cbd",
+  "title": "Financial Instrument Involvement",
+  "description": "A specific role which is played by a spacific party in the context of FinancialInstrument",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialInstrumentInvolvementType"
+  ],
+  "properties": {
+    "FinancialInstrumentInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialInstrumentInvolvementTypeValues",
+      "x-related-bo-id": "09dac0a7-df67-eb11-82f6-06f5e4900cbd",
+      "x-related-bo-name": "FinancialInstrumentInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b0504034-cd67-eb11-82f6-06f5e4900cbd",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c686466c-cc67-eb11-82f6-06f5e4900cbd",
+      "target": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

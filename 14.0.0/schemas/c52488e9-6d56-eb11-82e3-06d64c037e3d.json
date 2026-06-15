@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c52488e9-6d56-eb11-82e3-06d64c037e3d",
+  "title": "Corporate Action Involvement",
+  "description": "Role played by a party in the context of a corporate action. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CorporateActionInvolvementType"
+  ],
+  "properties": {
+    "CorporateActionInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CorporateActionInvolvementTypeValues",
+      "x-related-bo-id": "ce9f8d4b-6e56-eb11-82e3-06d64c037e3d",
+      "x-related-bo-name": "CorporateActionInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "97efd938-7156-eb11-82e3-06d64c037e3d",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "663692f8-da5f-ef11-84c8-06f4aaa4db71",
+      "target": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

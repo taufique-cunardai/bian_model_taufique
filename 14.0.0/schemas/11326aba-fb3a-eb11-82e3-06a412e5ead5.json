@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "11326aba-fb3a-eb11-82e3-06a412e5ead5",
+  "title": "Credit Risk",
+  "description": "The possibility of a loss resulting from a borrower's failure to repay a loan or meet contractual obligations. (Investopedia)\r\nhttps://www.investopedia.com/terms/c/creditrisk.asp\r\n\r\n\r\nCredit risk, or default risk, is the risk that a financial loss will be incurred if a counterparty to a (derivatives) transaction does not fulfil its financial obligations in a timely manner. \r\nhttps://www.risk.net/definition/credit-risk",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "3d95bbc3-fb3a-eb11-82e3-06a412e5ead5",
+      "target": "2bc3e6a9-f33a-eb11-82e3-06a412e5ead5",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8b38689e-a164-eb11-82e9-06f39716fe97",
+  "title": "Product Training Procedure",
+  "description": "A training procedure defined for a banking product",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "a349afae-a164-eb11-82e9-06f39716fe97",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cecc352f-a364-eb11-82e9-06f39716fe97",
+      "target": "b5b7be20-a364-eb11-82e9-06f39716fe97",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

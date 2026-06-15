@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "abb24011-631f-eb11-82d0-06351b9f7777",
+  "title": "Cash Allocation",
+  "description": "The allocation of cash",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1856b69e-cb80-e911-823e-065e8061d7e6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "5a49479b-816c-eb11-82f6-06a4f8a91e0d",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "609c3d17-631f-eb11-82d0-06351b9f7777",
+      "target": "1856b69e-cb80-e911-823e-065e8061d7e6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Allocation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d8839bd-2428-eb11-82d4-06b1e967d8ed",
+      "target": "eaf41287-e028-eb11-82d9-06a44deb104b",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
