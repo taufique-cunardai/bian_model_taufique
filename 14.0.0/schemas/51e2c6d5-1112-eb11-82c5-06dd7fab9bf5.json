@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "51e2c6d5-1112-eb11-82c5-06dd7fab9bf5",
+  "title": "AccountsReceivableProcedureWorkstepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1ea5fdec-1112-eb11-82c5-06dd7fab9bf5",
+      "name": "Receivables Evaluation",
+      "description": "A workstep to assess the status of the expected account payment and define receivable schedule",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20a5fdec-1112-eb11-82c5-06dd7fab9bf5",
+      "name": "Customer Negotiation",
+      "description": "A workstep to contact the customer and request/chase payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5e94ff9-1112-eb11-82c5-06dd7fab9bf5",
+      "name": "Payment",
+      "description": "A workstep to respond to (notification of) payments received on the account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd82e201-1212-eb11-82c5-06dd7fab9bf5",
+      "name": "Resolution",
+      "description": "A workstep to resolve accounts receivable status - for example either settled or written down/sent for recovery handling.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dcf80a4e-8227-f111-860d-02f56513e735",
+  "title": "ComplianceServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "652d7ed5-8227-f111-860d-02f56513e735",
+      "name": "Regulatory Compliance Service",
+      "description": "Ensures that products, operations, and processes comply with applicable laws, regulations, and supervisory requirements in relevant jurisdictions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b078c53-8827-f111-860d-02f56513e735",
+      "name": "AML Compliance Service",
+      "description": "Focuses on preventing and detecting money laundering and terrorist financing activities.\r\nIncludes transaction monitoring, suspicious activity reporting, and customer due diligence.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2175336c-8827-f111-860d-02f56513e735",
+      "name": "Sanctions Compliance Service",
+      "description": "Ensures that the institution does not engage with prohibited individuals, entities, or countries listed on sanctions lists.\r\nIncludes screening, filtering, and blocking transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b3e3573-8827-f111-860d-02f56513e735",
+      "name": "Customer Due Diligence Service",
+      "description": "Verifies customer identity and assesses risk before and during the relationship.\r\nIncludes onboarding checks, identity verification, and ongoing due diligence.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0157628b-8827-f111-860d-02f56513e735",
+      "name": "Transaction Monitoring Compliance Service",
+      "description": "Monitors customer transactions to detect unusual or suspicious behavior that may indicate financial crime or regulatory breaches.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "988b0394-8827-f111-860d-02f56513e735",
+      "name": "Tax Compliance Service",
+      "description": "Ensures adherence to tax reporting and withholding obligations.\r\nIncludes compliance with frameworks such as CRS (Common Reporting Standard) and FATCA (Foreign Account Tax Compliance Act).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b35a69c-8827-f111-860d-02f56513e735",
+      "name": "Data Protection & Privacy Compliance Service",
+      "description": "Ensures that customer and transaction data is collected, processed, stored, and shared in accordance with data protection laws (e.g., GDPR).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a495d2a6-8827-f111-860d-02f56513e735",
+      "name": "Conduct & Consumer Protection Compliance Service",
+      "description": "Ensures fair treatment of customers and transparency of products and services.\r\nIncludes disclosures, suitability checks, and complaint handling.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e48024b1-8827-f111-860d-02f56513e735",
+      "name": "Reporting & Regulatory Filing Compliance Service",
+      "description": "Manages the preparation and submission of required reports to regulators.\r\nIncludes financial, risk, and compliance reporting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4afe51bb-8827-f111-860d-02f56513e735",
+      "name": "Internal Policy & Governance Compliance Service",
+      "description": "Ensures adherence to internal policies, procedures, and corporate governance standards.\r\nIncludes internal audits and control frameworks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4bf4fc4-8827-f111-860d-02f56513e735",
+      "name": "Risk Assessment & Compliance Review Service",
+      "description": "Evaluates compliance risks before and during product lifecycle.\r\nIncludes compliance assessments, reviews, and approvals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c33fdd0-8827-f111-860d-02f56513e735",
+      "name": "Licensing & Authorization Compliance Service",
+      "description": "Ensures that the institution and its activities are properly licensed and authorized by regulators.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "19b9b4db-8827-f111-860d-02f56513e735",
+      "name": "Fraud Prevention Compliance Service",
+      "description": "Detects and prevents fraudulent activities affecting customers or the institution.\r\nIncludes fraud monitoring and investigation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f3978e5-8827-f111-860d-02f56513e735",
+      "name": "Audit & Assurance Compliance Service",
+      "description": "Provides independent verification that compliance controls and processes are effective and functioning as intended.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

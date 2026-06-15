@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c831ef6e-7724-f111-860d-06831cd38dd5",
+  "title": "UnderwritingAssessmentTypeValues",
+  "description": "Determine the value and sufficiency of assets pledged as security.\r\n\r\nComponents:\r\nAsset valuation (real estate, inventory, securities)\r\nOwnership verification\r\nLiquidity of collateral\r\nLegal enforceability\r\n\r\nComment:\r\nExample: Checking that pledged equipment for a loan is worth at least the loan amount.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0230de84-7724-f111-860d-06831cd38dd5",
+      "name": "Credit Assessment",
+      "description": "Evaluate the borrowers or issuers ability to repay debt or fulfill financial obligations.\r\n\r\nComponents:\r\nCredit history / credit score\r\nExisting debt obligations\r\nPayment history\r\nDebt-to-income or leverage ratios\r\n\r\nComment:\r\nExample: Checking a corporate borrowers ability to service a $10 million loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "16b13bac-7724-f111-860d-06831cd38dd5",
+      "name": "Financial Assessment",
+      "description": "Assess financial stability and profitability of the issuer or borrower.\r\n\r\nComponents:\r\nBalance sheet analysis\r\nIncome statement analysis\r\nCash flow evaluation\r\nKey financial ratios (liquidity, solvency, profitability)\r\n\r\nComment:\r\nExample: Reviewing a companys audited statements before underwriting a bond issuance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c560babb-7724-f111-860d-06831cd38dd5",
+      "name": "Risk Assessment",
+      "description": "Identify potential risks that could impact repayment or investment performance.\r\n\r\nComponents:\r\nMarket risk (interest rates, FX fluctuations)\r\nOperational risk (business processes, management)\r\nLegal/regulatory risk\r\nCounterparty risk\r\n\r\nComment:\r\nExample: Evaluating the risk of default if the borrowers revenue depends on volatile commodity prices.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "712469d2-7724-f111-860d-06831cd38dd5",
+      "name": "Collateral Assessment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ddbafdde-7724-f111-860d-06831cd38dd5",
+      "name": "Market Assessment",
+      "description": "Analyze the environment in which the issuer or borrower operates.\r\n\r\nComponents:\r\nIndustry trends and outlook\r\nCompetitor analysis\r\nRegulatory environment\r\nEconomic conditions\r\n\r\nComment:\r\nExample: Evaluating the real estate sector before underwriting a mortgage-backed security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4756effe-7724-f111-860d-06831cd38dd5",
+      "name": "Compliance Assessment",
+      "description": "Ensure the transaction complies with all laws and regulations.\r\n\r\nComponents:\r\nReview of contracts and agreements\r\nRegulatory filings\r\nLicenses and permits\r\nLitigation or legal risks\r\n\r\nComment:\r\nExample: Ensuring a securities offering meets SEC or local financial regulations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "214a1013-7824-f111-860d-06831cd38dd5",
+      "name": "Pricing and Terms Assessment",
+      "description": "Decide appropriate underwriting fee, interest rate, or spread to compensate for risk.\r\n\r\nComponents:\r\nRisk-adjusted return calculation\r\nFee structures\r\nMarket comparables\r\n\r\nComment:\r\nExample: Setting the underwriting spread for a corporate bond based on credit risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

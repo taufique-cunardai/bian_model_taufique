@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0e4f679d-7824-f111-860d-06831cd38dd5",
+  "title": "UnderwritingTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cb2348b1-7824-f111-860d-06831cd38dd5",
+      "name": "Commitment Transaction",
+      "description": "An action that records the underwriters commitment to subscribe to or guarantee a portion of a financial instrument or offering.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "93bf99c2-7824-f111-860d-06831cd38dd5",
+      "name": "Allocation Transaction",
+      "description": "An action that assigns underwritten amounts to specific investors or accounts as part of the underwriting process.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a0d68ccb-7824-f111-860d-06831cd38dd5",
+      "name": "Underwriting Fee Transaction",
+      "description": "An action that applies or records fees earned by the underwriter for providing underwriting services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3a7f3d3-7824-f111-860d-06831cd38dd5",
+      "name": "Commission Transaction",
+      "description": "An action that records commissions payable to parties involved in distributing the underwritten instrument.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "455741dd-7824-f111-860d-06831cd38dd5",
+      "name": "Underwriting Adjustment Transaction",
+      "description": "An action that modifies underwriting amounts, allocations, or terms due to changes in agreements or errors.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a35aade5-7824-f111-860d-06831cd38dd5",
+      "name": "Underwriting Settlement Transaction",
+      "description": "An action that finalizes the underwriting process, including settlement of funds and delivery of securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ab4b3ee-7824-f111-860d-06831cd38dd5",
+      "name": "Underwriting Cancellation Transaction",
+      "description": "An action that terminates the underwriters commitment or releases any unused allocated amounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

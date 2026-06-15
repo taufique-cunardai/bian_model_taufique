@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5b6e0264-8f1c-f111-8608-0adbd3442159",
+  "title": "CashTransferDeliveryModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ca8b1d48-901c-f111-8608-0adbd3442159",
+      "name": "Account Credit Delivery Modality",
+      "description": "A delivery method where the transferred funds are credited directly to the beneficiarys bank account.\r\n\r\nComment:\r\nExample:\r\n\r\nA customer transfers €500 to another persons savings account, and the money is credited to that account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ca5a451-901c-f111-8608-0adbd3442159",
+      "name": "Cash Pickup Delivery Modality",
+      "description": "A delivery method where the beneficiary collects the transferred money in physical cash from a bank branch or authorized agent.\r\n\r\nComment:\r\nExample:\r\n\r\nA sender transfers €300 through a remittance service, and the recipient collects the money in cash at a branch.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f3f64763-901c-f111-8608-0adbd3442159",
+      "name": "Mobile Wallet Delivery Modality",
+      "description": "A delivery method where the funds are transferred to the beneficiarys mobile wallet or digital wallet account.\r\n\r\nComment:\r\nExample:\r\n\r\nSending €100 to a mobile wallet account through a mobile banking application.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "50815a70-901c-f111-8608-0adbd3442159",
+      "name": "Card Credit Delivery Modality",
+      "description": "A delivery method where the transferred funds are credited directly to a debit or credit card account.\r\n\r\nComment:\r\nExample:\r\n\r\nA refund of €200 credited back to the customers debit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e2c1647d-901c-f111-8608-0adbd3442159",
+      "name": "Cheque Delivery Modality",
+      "description": "A delivery method where the funds are delivered through a cheque issued to the beneficiary.\r\n\r\nComment:\r\nExample:\r\n\r\nA bank issues a cheque of €1,000 to a beneficiary as payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5757f386-901c-f111-8608-0adbd3442159",
+      "name": "Third-Party Delivery Modality",
+      "description": "A delivery method where the funds are delivered through an authorized intermediary such as a payment agent or money transfer operator.\r\n\r\nComment:\r\nExample:\r\n\r\nA transfer sent through a money transfer company, and the recipient collects the funds from an authorized agent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

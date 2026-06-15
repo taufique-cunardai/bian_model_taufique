@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c4d7aca0-c638-f111-bb11-0a0f15d787ad",
+  "title": "TaxCalculationMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ababa4cf-c638-f111-bb11-0a0f15d787ad",
+      "name": "Percentage-based Tax Calculation",
+      "description": "Tax is a percentage of the base amount\r\n\r\nComment:\r\nExample\r\nInterest earned: €200\r\nTax rate: 25%→\r\n Tax = €50",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d6baa13-c738-f111-bb11-0a0f15d787ad",
+      "name": "Fixed Amount Tax Calculation",
+      "description": "Tax is a fixed value regardless of base\r\n\r\nComment:\r\nExample\r\nTax per transaction: €3→\r\n Every transaction → Tax = €3",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3df83227-c738-f111-bb11-0a0f15d787ad",
+      "name": "Tiered Tax Calculation",
+      "description": "Different tax rates apply to different portions of the base\r\n\r\nComment:\r\nExample\r\nFirst €100 → 10% = €10\r\nRemaining €100 → 20% = €20→\r\n Total Tax = €30",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1bd71834-c738-f111-bb11-0a0f15d787ad",
+      "name": "Inclusive Tax Calculation",
+      "description": "Tax is already included in the amount and must be extracted\r\n\r\nComment:\r\nExample\r\nTotal amount: €120 (includes tax)\r\nTax rate: 20%→\r\n Tax = €20",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "444c0695-c738-f111-bb11-0a0f15d787ad",
+      "name": "Exclusive Tax Calculation",
+      "description": "Tax is added on top of the base amount\r\n\r\nComment:\r\nExample\r\nFee: €100\r\nTax rate: 20%→\r\n Tax = €20→\r\n Total = €120",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c90d55af-c738-f111-bb11-0a0f15d787ad",
+      "name": "Threshold-Based Tax Calculation",
+      "description": "Tax applies only if a threshold is exceeded\r\n\r\nComment:\r\nExample\r\nInterest = €80 → No tax\r\nInterest = €150 → Tax applies on €150",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

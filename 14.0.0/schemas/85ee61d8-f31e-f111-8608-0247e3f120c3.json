@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "85ee61d8-f31e-f111-8608-0247e3f120c3",
+  "title": "TaxProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7a258dfc-f31e-f111-8608-0247e3f120c3",
+      "name": "Direct Tax Feature",
+      "description": "A feature that applies taxes directly to the income or earnings of the customer.\r\n\r\nComment:\r\nExample:\r\n\r\nWithholding tax on interest earned from a savings account.\r\n\r\nTax on dividends received from investment products.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60e1b40f-f41e-f111-8608-0247e3f120c3",
+      "name": "Indirect Tax Feature",
+      "description": "A feature that applies taxes on transactions, purchases, or service usage rather than directly on income.\r\n\r\nComment:\r\nExample:\r\n\r\nVAT or GST applied to banking service fees.\r\n\r\nSales tax applied on financial product purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24dfaa1a-f41e-f111-8608-0247e3f120c3",
+      "name": "Withholding Tax Feature",
+      "description": "A feature where the bank deducts tax at source on specific earnings before disbursing funds to the customer.\r\n\r\nComment:\r\nExample:\r\n\r\nDeducting tax on interest payments or fixed deposit maturity amounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f2cdf27-f41e-f111-8608-0247e3f120c3",
+      "name": "Deferred Tax Feature",
+      "description": "Deferred / Exempt Tax Feature: A feature that delays taxation or exempts certain transactions or earnings from immediate tax liability.\r\n\r\nComment:\r\nExample:\r\n\r\nTax-deferred retirement accounts (interest accrues without immediate taxation).\r\n\r\nCertain government bonds that are tax-exempt.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22cadd44-f41e-f111-8608-0247e3f120c3",
+      "name": "Transaction-Based Tax Feature",
+      "description": "A feature that calculates tax per individual financial transaction.\r\n\r\nComment:\r\nExample:\r\n\r\nTax applied to fund transfers above a certain threshold.\r\n\r\nStamp duty applied on securities purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36997a56-f41e-f111-8608-0247e3f120c3",
+      "name": "Regulatory Reporting Tax Feature",
+      "description": "A feature that ensures the banking product generates reports for tax compliance and submission to authorities.\r\n\r\nComment:\r\nExample:\r\n\r\nAnnual statements of interest income for tax filing.\r\n\r\nReports for withholding taxes deducted at source.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bf91a63-f41e-f111-8608-0247e3f120c3",
+      "name": "Progressive Tax Feature",
+      "description": "Tiered / Progressive Tax Feature: A feature that applies tax rates based on thresholds, tiers, or progressive scales.\r\n\r\nComment:\r\nExample:\r\n\r\nInterest income taxed at different rates depending on total annual interest.\r\n\r\nProgressive tax on large transactions or high account balances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6237a118-f42c-f111-860d-020a7916b3f9",
+  "title": "BookingInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "03c9ee31-f42c-f111-860d-020a7916b3f9",
+      "name": "Initial Booking Instruction",
+      "description": "A request to record a new transaction, obligation, or asset in the system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5022ef40-f42c-f111-860d-020a7916b3f9",
+      "name": "Adjustment Booking Instruction",
+      "description": "A request to modify a previously recorded entry to correct errors, update amounts, or reflect changes in terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1889844a-f42c-f111-860d-020a7916b3f9",
+      "name": "Reversal Booking Instruction",
+      "description": "A request to reverse an earlier booking due to cancellation, error, or transaction rollback.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b1a675b-f42c-f111-860d-020a7916b3f9",
+      "name": "Scheduled Booking Instruction",
+      "description": "A request to automatically record transactions at predefined dates or intervals (e.g., recurring accruals, interest postings).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "701a675b-f42c-f111-860d-020a7916b3f9",
+      "name": "Internal Transfer Booking Instruction",
+      "description": "A request to record transfers of funds, assets, or obligations between accounts within the same institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5a60706c-f42c-f111-860d-020a7916b3f9",
+      "name": "Settlement Booking Instruction",
+      "description": "A request to record the settlement of a transaction, including the transfer of funds or assets to finalize obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dda58c75-f42c-f111-860d-020a7916b3f9",
+      "name": "Accrual Booking Instruction",
+      "description": "A request to record accrued income, expenses, interest, or fees that are recognized but not yet settled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcb85981-f42c-f111-860d-020a7916b3f9",
+      "name": "Conditional Booking Instruction",
+      "description": "A request to record a transaction only when certain predefined conditions or triggers are met.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1b85981-f42c-f111-860d-020a7916b3f9",
+      "name": "Cross-Border Booking Instruction",
+      "description": "A request to record transactions involving multiple currencies or jurisdictions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2fb1da91-f42c-f111-860d-020a7916b3f9",
+      "name": "Audit or Reporting Booking Instruction",
+      "description": "A request to create bookings for reconciliation, reporting, or regulatory compliance purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

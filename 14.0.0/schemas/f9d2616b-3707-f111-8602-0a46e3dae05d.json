@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f9d2616b-3707-f111-8602-0a46e3dae05d",
+  "title": "IncentiveAccountInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dbc1c8b2-3707-f111-8602-0a46e3dae05d",
+      "name": "Incentive Account Setup Instruction",
+      "description": "A request to create and initialize an incentive account for a participant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de22a138-e22c-f111-860d-020a7916b3f9",
+      "name": "Incentive Credit Instruction",
+      "description": "A request to add earned incentives (e.g., points, bonuses, cashback) to the incentive account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "356abe41-e22c-f111-860d-020a7916b3f9",
+      "name": "Incentive Debit Instruction",
+      "description": "A request to deduct incentives from the account due to usage, redemption, or expiration.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a13b749-e22c-f111-860d-020a7916b3f9",
+      "name": "Incentive Transfer Instruction",
+      "description": "A request to move incentive value between accounts, participants, or programs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02fcd151-e22c-f111-860d-020a7916b3f9",
+      "name": "Incentive Balance Adjustment Instruction",
+      "description": "A request to correct or modify the incentive account balance due to errors or recalculations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78698a5a-e22c-f111-860d-020a7916b3f9",
+      "name": "Incentive Expiry Instruction",
+      "description": "A request to remove incentives that have expired according to program rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b058b62-e22c-f111-860d-020a7916b3f9",
+      "name": "Incentive Redemption Instruction",
+      "description": "A request to utilize incentive balances for goods, services, or monetary value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "632ee26a-e22c-f111-860d-020a7916b3f9",
+      "name": "Conditional Incentive Account Instruction",
+      "description": "A request to perform actions on the incentive account only when predefined conditions are met (e.g., eligibility, thresholds).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "44ed2875-e22c-f111-860d-020a7916b3f9",
+      "name": "Scheduled Incentive Account Instruction",
+      "description": "A request to execute account-related actions at predefined intervals (e.g., periodic credits or expirations).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a9bf4f7e-e22c-f111-860d-020a7916b3f9",
+      "name": "Incentive Account Closure Instruction",
+      "description": "A request to close the incentive account and settle any remaining balances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

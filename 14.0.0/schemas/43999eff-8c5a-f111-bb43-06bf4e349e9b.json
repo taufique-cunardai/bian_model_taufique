@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "43999eff-8c5a-f111-bb43-06bf4e349e9b",
+  "title": "ServiceDirectoryEntryTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "eede8f56-8d5a-f111-bb43-06bf4e349e9b",
+      "name": "Payment Service Entry",
+      "description": "Represents services that enable money movement between accounts or parties\r\n\r\nComment:\r\nExample:\r\nDirect Debit, Wire Transfer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0250bc75-8d5a-f111-bb43-06bf4e349e9b",
+      "name": "Digital Banking Service Entry",
+      "description": "Represents access channels and digital platforms for banking interaction\r\n\r\nComment:\r\nExample:\r\nMobile Banking, eBranch Access",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a0db28f-8d5a-f111-bb43-06bf4e349e9b",
+      "name": "Customer Support Service Entry",
+      "description": "Represents assistance services that support customer interactions and issue handling\r\n\r\nComment:\r\nExample: Contact Center, Customer Wrokbench",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72ba07b5-8d5a-f111-bb43-06bf4e349e9b",
+      "name": "Compliance and Security Service Entry",
+      "description": "Represents controls ensuring regulatory compliance and transaction security\r\n\r\nComment:\r\nExample: AML monitoring, Amount Block",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "adfec3d4-8d5a-f111-bb43-06bf4e349e9b",
+      "name": "Trade Finance Service Entry",
+      "description": "Represents services supporting international trade and guarantees\r\n\r\nComment:\r\nExample: Letter of credit, bank guarantee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "573f38f5-8d5a-f111-bb43-06bf4e349e9b",
+      "name": "Treasury Service Entry",
+      "description": "Represents operational services for liquidity, cash, and funding management\r\n\r\nComment:\r\nExample: sweep arrangement, cash management",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1fdfa17-8e5a-f111-bb43-06bf4e349e9b",
+      "name": "Card Service Entry",
+      "description": "Represents operational services enabling card usage\r\n\r\nComment:\r\nExample: Authorization service, ATM withdrawal service",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c9bb048-8e5a-f111-bb43-06bf4e349e9b",
+      "name": "Notification Service Entry",
+      "description": "Represents communication services that inform customers about events or changes\r\n\r\nComment:\r\nExample: SMS alerts, email notifications",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

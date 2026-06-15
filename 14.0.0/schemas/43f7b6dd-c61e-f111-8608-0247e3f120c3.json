@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "43f7b6dd-c61e-f111-8608-0247e3f120c3",
+  "title": "IncentiveAccountProductTypeValues",
+  "description": "A savings account that provides rewards when a customer reaches a predefined savings target.\r\n\r\nComment:\r\nExample:\r\n\r\nSave €10,000 in 24 months and receive a €100 bonus.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b5b6ff06-c71e-f111-8608-0247e3f120c3",
+      "name": "Cashback Reward Account",
+      "description": "A bank account that provides cashback rewards on eligible transactions, such as debit card or credit card purchases.\r\n\r\nComment:\r\nExample:\r\n\r\n1% cashback on grocery purchases\r\n\r\n0.5% cashback on utility payments made from the account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74b55f50-c71e-f111-8608-0247e3f120c3",
+      "name": "Bonus Interest Savings Account",
+      "description": "A savings account that provides extra interest when certain conditions are met, such as maintaining a minimum balance or making regular deposits.\r\n\r\nComment:\r\nExample:\r\n\r\nBase interest: 1%\r\n\r\nBonus interest: +1% if monthly deposits exceed €500.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "28e61560-c71e-f111-8608-0247e3f120c3",
+      "name": "Loyalty Reward Account",
+      "description": "An account that rewards customers for keeping funds in the account for a long time.\r\n\r\nComment:\r\nExample:\r\n\r\nAdditional interest after funds remain in the account for 12 months.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0dc7a46d-c71e-f111-8608-0247e3f120c3",
+      "name": "Salary Incentive Account",
+      "description": "A current account that offers benefits when a customer's salary is deposited regularly.\r\n\r\nComment:\r\nExample:\r\n\r\nFee waiver if salary is credited monthly\r\n\r\nMonthly cashback or reward points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1ac2d86-c71e-f111-8608-0247e3f120c3",
+      "name": "Transaction Reward Account",
+      "description": "An account that gives rewards based on the number or value of transactions performed.\r\n\r\nComment:\r\nExample:\r\n\r\nPoints earned for every debit card payment\r\n\r\nRewards for using digital banking services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f790f95-c71e-f111-8608-0247e3f120c3",
+      "name": "Goal-Based Incentive Savings Account",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d1cdea6-c71e-f111-8608-0247e3f120c3",
+      "name": "Referral Reward Account",
+      "description": "An account that rewards customers for referring new customers to the bank.\r\n\r\nComment:\r\nExample:\r\n\r\n€50 credited to the account for each successful referral.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

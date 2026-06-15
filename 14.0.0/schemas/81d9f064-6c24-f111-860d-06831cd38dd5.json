@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "81d9f064-6c24-f111-860d-06831cd38dd5",
+  "title": "UnderwritingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3ddcf781-6c24-f111-860d-06831cd38dd5",
+      "name": "Firm Commitment Underwriting",
+      "description": "The underwriter purchases the entire issue from the issuer and resells it to investors. The underwriter assumes full financial risk for any unsold securities.\r\n\r\nComment:\r\nExample:\r\nGlobalTech issues €500M in bonds. AlphaBank (lead underwriter) buys all €500M and resells it to investors. If some bonds remain unsold, AlphaBank bears the loss.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09593166-6e24-f111-860d-06831cd38dd5",
+      "name": "Best Efforts Underwriting",
+      "description": "The underwriter does not guarantee the full subscription. They make their best effort to sell securities but the issuer receives only what is sold.\r\n\r\nComment:\r\nExample:\r\nA start-up issues €10M in shares. BetaBank underwrites on a best-efforts basis; if only €7M is sold, the issuer receives €7M, and the underwriter has no liability for the unsold €3M.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fbb6cf8f-6e24-f111-860d-06831cd38dd5",
+      "name": "Standby Underwriting",
+      "description": "The underwriter agrees to purchase any securities not subscribed by existing investors. Often used in rights issues or pre-emptive offerings.\r\n\r\nComment:\r\nExample:\r\nGlobalTech offers new shares to existing shareholders. GammaCapital stands by to buy any shares not taken up, ensuring the company raises the full amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88bad0c0-6e24-f111-860d-06831cd38dd5",
+      "name": "All-or-None Underwriting",
+      "description": "All-or-None (AON): The deal proceeds only if the entire issue is fully subscribed. If minimum subscription is not reached, the issue is canceled.\r\n\r\nComment:\r\nExample:\r\nA municipal bond of €100M will only be issued if all €100M is subscribed; otherwise, the underwriting is void, and no funds are raised.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f48e723-6f24-f111-860d-06831cd38dd5",
+      "name": "Mini-Max Underwriting",
+      "description": "A hybrid type where a minimum amount must be sold, and the underwriter guarantees a maximum capped amount.\r\n\r\ncomment:\r\nExample:\r\nAn IPO with a minimum subscription of €20M and a maximum of €50M; the underwriter purchases up to €50M, but the issuer must reach at least €20M to proceed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

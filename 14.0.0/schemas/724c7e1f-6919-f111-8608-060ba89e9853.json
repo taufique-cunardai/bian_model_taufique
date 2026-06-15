@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "724c7e1f-6919-f111-8608-060ba89e9853",
+  "title": "TaxServiceTypeValues",
+  "description": "Tracks taxes that are accrued but postponed for payment or reporting at a later date.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0e3fb891-6919-f111-8608-060ba89e9853",
+      "name": "Tax Calculation Service",
+      "description": "Tax Calculation Service: A service where the bank calculates the applicable taxes on financial products or transactions based on prevailing tax laws, rates, and customer-specific conditions.\r\n\r\nComment:\r\nExample:\r\nCalculating withholding tax on interest income from a savings account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff434354-6a19-f111-8608-060ba89e9853",
+      "name": "Tax Withholding Service",
+      "description": "Tax Withholding / Deduction Service: A service where the bank deducts taxes at the source from payments to customers or investors, ensuring compliance with legal requirements.\r\n\r\nComment:\r\nExample:\r\nWithholding 30% tax on deposit interest before crediting it to the customers account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "41ff7e73-6a19-f111-8608-060ba89e9853",
+      "name": "Tax Reporting Service",
+      "description": "Tax Reporting Service: A service where the bank prepares and submits reports on taxable transactions or income to the tax authorities and, if required, provides statements to customers.\r\n\r\nComment:\r\nExample:\r\nReporting annual interest income of all customers to the revenue authority.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a91f8283-6a19-f111-8608-060ba89e9853",
+      "name": "Tax Payment Service",
+      "description": "Tax Remittance / Payment Service: A service where the bank transfers collected or withheld taxes to the appropriate tax authority within the required deadlines.\r\n\r\nComment:\r\nExample:\r\nMonthly remittance of withholding tax deducted from customer accounts to the national tax office.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7bd8f7a9-6a19-f111-8608-060ba89e9853",
+      "name": "Tax Advisory Service",
+      "description": "Tax Advisory / Compliance Service: A service where the bank provides guidance, statements, or assistance to help customers understand their tax obligations, exemptions, and compliance requirements.\r\n\r\nComment:\r\nExample:\r\nProviding a tax statement for interest and dividends earned in the year, or guidance on tax treaties for foreign investors.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cec472c0-6a19-f111-8608-060ba89e9853",
+      "name": "Tax Exemption Service",
+      "description": "Tax Exemption/ Relief Service: A service where the bank applies tax exemptions, reduced rates, or treaty benefits on behalf of eligible customers.\r\n\r\nComment: \r\nExample:\r\nApplying a double taxation treaty benefit for an international client, reducing withholding tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eceae7a5-f41e-f111-8608-0247e3f120c3",
+      "name": "Deferred Tax Management",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

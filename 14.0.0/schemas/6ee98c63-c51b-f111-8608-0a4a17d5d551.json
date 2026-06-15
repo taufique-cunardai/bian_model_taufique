@@ -1,0 +1,275 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6ee98c63-c51b-f111-8608-0a4a17d5d551",
+  "title": "BookingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f96acc7d-c51b-f111-8608-0a4a17d5d551",
+      "name": "Payment Booking",
+      "description": "Instruction to pay funds from one account to another.\r\n\r\nComment:\r\nExample: Customer schedules €500 payment to supplier",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c14232a4-c51b-f111-8608-0a4a17d5d551",
+      "name": "Transfer Booking",
+      "description": "Instruction to move funds between accounts. \r\n\r\nComment:\r\nExample: €1,000 transferred from checking to savings",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24a5e9b8-c51b-f111-8608-0a4a17d5d551",
+      "name": "Loan Booking",
+      "description": "Instruction to disburse a loan. \r\n\r\nComment:\r\nExample: €10,000 personal loan approved",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9bc1b3cc-c51b-f111-8608-0a4a17d5d551",
+      "name": "Loan Repayment Booking",
+      "description": "Instruction to repay a loan. \r\n\r\nComment:\r\nExample: €500 monthly mortgage repayment scheduled",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c0329e2-c51b-f111-8608-0a4a17d5d551",
+      "name": "Loan Prepayment Booking",
+      "description": "Early repayment instruction. \r\n\r\nComment:\r\nExample: Customer pays extra €2,000 principal",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "384a0bef-c51b-f111-8608-0a4a17d5d551",
+      "name": "Fee Booking",
+      "description": "Instruction to apply bank fees. \r\n\r\nComment:\r\nExample: €10 monthly maintenance fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4d01bc7-c61b-f111-8608-0a4a17d5d551",
+      "name": "Interest Booking",
+      "description": "Instruction to credit or accrue interest. \r\n\r\nComment:\r\nExample: €50 interest on savings",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4c1477c-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Correction Booking",
+      "description": "Instruction to adjust previous booking. \r\n\r\nComment:\r\nExample: Reverse €100 wrongly debited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9c1477c-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Rollover Booking",
+      "description": "Instruction to extend or renew product. \r\n\r\nComment\r\nExample: Term deposit €10,500 rolled over",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65597386-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Salary Booking",
+      "description": "Instruction to credit employee salaries. \r\n\r\nComment:\r\nExample: €3,000 salary scheduled",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20b7128f-cc1b-f111-8608-0a4a17d5d551",
+      "name": "External Payment Booking",
+      "description": "Instruction to pay third parties outside bank. \r\n\r\nComment:\r\nExample: €2,000 SWIFT transfer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47120597-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Provision Booking",
+      "description": "Instruction to set aside funds for provisions. \r\n\r\nComment:\r\nExample: €500 loan loss provision",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8a0729e-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Payout Booking",
+      "description": "Instruction to pay dividends. \r\n\r\nComment:\r\nExample: €200 shareholder dividend",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ef791a4-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Conversion Booking",
+      "description": "Instruction for currency exchange. \r\n\r\nComment;\r\nExample: €1,000 USD→EUR",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c688ab7-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Tax Booking",
+      "description": "Instruction to deduct or accrue taxes. \r\n\r\nComment:\r\nExample: €50 withholding tax",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "012221c0-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Capital Booking",
+      "description": "Instruction affecting capital accounts. \r\n\r\nComment:\r\nExample: €10,000 capital injection",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "062221c0-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Suspense Booking",
+      "description": "Instruction for unidentified transactions. \r\n\r\nComment:\r\nExample: €300 received with unknown origin",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d914e0cc-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Recurring Booking",
+      "description": "Recurring transfer/payment. \r\n\r\nComment:\r\nExample: €200 monthly rent",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e2b95d9-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Overdraft Booking",
+      "description": "Instruction to record overdraft usage. \r\n\r\nComment:\r\nExample: €500 overdraft utilized",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1bf1ece4-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Card Transaction Booking",
+      "description": "Instruction for card usage. \r\n\r\nComment:\r\nExample: €150 credit card payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f6abded-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Cheque Booking",
+      "description": "Instruction to process cheques or drafts. \r\n\r\nComment:\r\nExample: €1,000 cheque deposited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "707a59f6-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Direct Debit Booking",
+      "description": "Instruction for third-party debit. \r\n\r\nComment:\r\nExample: €100 utility bill",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c14964ff-cc1b-f111-8608-0a4a17d5d551",
+      "name": "Cash Deposit Booking",
+      "description": "Instruction for cash movement. \r\n\r\nComment:\r\nExample: €1,000 deposited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2afe400b-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Loan Restructure Booking",
+      "description": "Instruction to modify loan terms. \r\n\r\nComment:\r\nExample: Extend loan tenure 12 months",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcc99915-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Penalty Booking",
+      "description": "Instruction to apply penalties. \r\n\r\nComment:\r\nExample: €100 late payment fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6fb3501c-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Collateral Booking",
+      "description": "Instruction related to collateral/guarantee. \r\n\r\nComment:\r\nExample: Collateral release",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20d63c2a-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Investment Subscription Booking",
+      "description": "Instruction for recurring investment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1d20e88-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Investment Redemption Booking",
+      "description": "Instruction to redeem investments. \r\n\r\nComment:\r\nExample: €2,000 fixed deposit redemption",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52001e97-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Commission Booking",
+      "description": "Instruction to credit commissions or incentives. \r\n\r\nComment:\r\nExample: €50 agent commission",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d031e39d-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Interest Capitalization Booking",
+      "description": "Instruction to add interest to principal. \r\n\r\nComment:\r\nExample: €50 interest added",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff4779ac-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Foreign Remittance Booking",
+      "description": "Instruction for international payment. \r\n\r\nComment:\r\nExample: €5,000 SWIFT payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60592bb7-cd1b-f111-8608-0a4a17d5d551",
+      "name": "Loan Rollover Booking",
+      "description": "Instruction to extend or renew loan/deposit. \r\n\r\nComment:\r\nExample: €10,500 rolled over",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

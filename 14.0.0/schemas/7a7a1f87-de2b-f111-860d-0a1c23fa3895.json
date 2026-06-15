@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7a7a1f87-de2b-f111-860d-0a1c23fa3895",
+  "title": "CorporateCardTypeValues",
+  "description": "A set of standardized values that describe the type of corporate card issued to an organization or its employees, specifying its purpose, liability, and operational scope.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7c7a1f87-de2b-f111-860d-0a1c23fa3895",
+      "name": "T&E Card",
+      "description": "Travel, lodging, meals: specifically tailored for managing travel-related expenses. They simplify the process of booking travel and tracking expenses incurred during business trips, providing features like travel insurance and rewards for travel-related purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d7a1f87-de2b-f111-860d-0a1c23fa3895",
+      "name": "P-Card",
+      "description": "Procurement & vendor payments: P-cards are designed for frequent, low-value transactions, allowing employees to make purchases for everyday business needs, such as office supplies and equipment. They help streamline the purchasing process and provide better control over spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e7a1f87-de2b-f111-860d-0a1c23fa3895",
+      "name": "Virtual Card",
+      "description": "Online/one-time transactions: Virtual cards are digital cards that can be used for online transactions. They offer enhanced security by generating a unique card number for each transaction, reducing the risk of fraud. Virtual cards are ideal for businesses that frequently make online purchases or need to manage subscriptions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f7a1f87-de2b-f111-860d-0a1c23fa3895",
+      "name": "Fleet Card",
+      "description": "A corporate fleet card, also known as a fuel card, is a business credit card issued to employees or vehicles for purchasing fuel and other vehicle-related expenses. These cards allow companies to track spending, manage receipts, and control purchases by individual card, including limits on when, where, and what can be purchased. They are particularly useful for businesses operating multiple vehicles, helping streamline accounting and reduce administrative workload.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "807a1f87-de2b-f111-860d-0a1c23fa3895",
+      "name": "Lodged Card",
+      "description": "Centralized travel booking",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "817a1f87-de2b-f111-860d-0a1c23fa3895",
+      "name": "Ghost Card",
+      "description": "Vendor-specific recurring spend",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "827a1f87-de2b-f111-860d-0a1c23fa3895",
+      "name": "Purchase Cards",
+      "description": "Procurement cards are dedicated to operational purchases, such as equipment and supplies. They provide organizations with more control over spending and help streamline the procurement process, reducing bureaucracy and enhancing flexibility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

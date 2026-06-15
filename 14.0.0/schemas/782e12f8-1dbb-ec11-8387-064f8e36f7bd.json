@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "782e12f8-1dbb-ec11-8387-064f8e36f7bd",
+  "title": "BankGuaranteeInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a3cc3121-1ebb-ec11-8387-064f8e36f7bd",
+      "name": "Applicant",
+      "description": "The party that requests a bank guarantee from the bank and borrows from a creditor",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "19a642ca-1ebb-ec11-8387-064f8e36f7bd",
+      "name": "Beneficiary",
+      "description": "The party that receives a partial guarantee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d6e15f4-1ebb-ec11-8387-064f8e36f7bd",
+      "name": "Bank",
+      "description": "The party that agrees to sign and assures payment in case the applicant fails to repay the loan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edf95687-92c4-ec11-8387-06714589d571",
+      "name": "Guarantor",
+      "description": "Legal entity, other than the issuer, who gives a guarantee. The guarantor becomes liable in case of default.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

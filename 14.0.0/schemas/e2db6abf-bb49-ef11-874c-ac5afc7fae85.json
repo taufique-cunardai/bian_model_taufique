@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e2db6abf-bb49-ef11-874c-ac5afc7fae85",
+  "title": "SurveyAspectTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "83677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Demographics",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Product or Service Usage",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Satisfaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Experience",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Product or Service Quality",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Brand Perception",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Price",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Competitor",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Communication Preferences",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Accessibility",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Loyalty",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f677099-bc49-ef11-874c-ac5afc7fae85",
+      "name": "Environmental and Social Responsibility",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

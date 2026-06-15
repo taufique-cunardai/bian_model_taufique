@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8cbd9e8d-1797-ed11-83f5-06ad4872513f",
+  "title": "UndertakingDateTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9ea749dd-1797-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Termination Date",
+      "description": "Date when the undertaking terminates. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4777c0f-1897-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Advice Date",
+      "description": "Date on which the undertaking or its amendment is advised. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9337bb48-1a97-ed11-83f5-06ad4872513f",
+      "name": "Undertaking Expiry Date",
+      "description": "Date and time when the expiry of the undertaking takes effect. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb2ab72b-d998-ed11-83f5-0689f3e6234d",
+      "name": "Undertaking Issuance Date",
+      "description": "Date on which the undertaking is issued. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

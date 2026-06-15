@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0294f082-1dbb-ec11-8387-064f8e36f7bd",
+  "title": "BankGuaranteeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "eb696a89-1dbb-ec11-8387-064f8e36f7bd",
+      "name": "Deferred payment guarantee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "801bda91-1dbb-ec11-8387-064f8e36f7bd",
+      "name": "Financial guarantee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e59849b-1dbb-ec11-8387-064f8e36f7bd",
+      "name": "Advance payment guarantee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91758ea4-1dbb-ec11-8387-064f8e36f7bd",
+      "name": "Foreign bank guarantee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "408d77b4-1dbb-ec11-8387-064f8e36f7bd",
+      "name": "Performance guarantee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67fc63bd-1dbb-ec11-8387-064f8e36f7bd",
+      "name": "Bid bond guarantee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f8706119-ce22-f111-860d-0219f28f8465",
+  "title": "DebitCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c14f2931-ce22-f111-860d-0219f28f8465",
+      "name": "Fixed Amount Debit Calculation",
+      "description": "The debit amount is a predefined fixed value set for the transaction or service.\r\n\r\nComment:\r\nExample:\r\nMonthly account maintenance fee of $10 automatically debited from a checking account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abcd6a0f-cf22-f111-860d-0219f28f8465",
+      "name": "Percentage-Based Debit Calculation",
+      "description": "The debit amount is calculated as a percentage of a base value, such as transaction amount, account balance, or loan amount.\r\n\r\nComment:\r\nExample:\r\nDebit 2% of a transaction amount as a service charge.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f59c82b-cf22-f111-860d-0219f28f8465",
+      "name": "Tiered Debit Calculation",
+      "description": "The debit amount is determined based on tiers, slabs, or ranges of transaction amounts or balances.\r\n\r\nExample:\r\n$5 fee for withdrawals up to $500, $10 for $501$1,000, and $15 for above $1,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a3537b5-cf22-f111-860d-0219f28f8465",
+      "name": "Periodic Debit Calculation",
+      "description": "The debit amount is calculated based on time, duration, or period elapsed.\r\n\r\nComment\r\nExample:\r\nDaily interest on an overdraft or monthly service fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c8b39c5-cf22-f111-860d-0219f28f8465",
+      "name": "Conditional Debit Calculation",
+      "description": "The debit amount is calculated only when certain conditions or events are met.\r\n\r\nComment:\r\nExample:\r\nDebit a penalty fee if an overdraft occurs or if minimum balance is not maintained.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a5fe7e7-cf22-f111-860d-0219f28f8465",
+      "name": "Dynamic Debit Calculation",
+      "description": "The debit amount is determined using a mathematical formula or dynamic calculation that may include multiple variables.\r\n\r\nComment:\r\nExample:\r\nDebit calculated as: (Transaction Amount × 1.5%) + $2 processing fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

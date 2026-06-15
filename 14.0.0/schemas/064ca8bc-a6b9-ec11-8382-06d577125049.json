@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "064ca8bc-a6b9-ec11-8382-06d577125049",
+  "title": "UndertakingArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "074ca8bc-a6b9-ec11-8382-06d577125049",
+      "name": "Pricing Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea82bdd3-a6b9-ec11-8382-06d577125049",
+      "name": "Demand Payment Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4560ddc8-aeb9-ec11-8382-06d577125049",
+      "name": "Collateral Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f805b4a-f8ba-ec11-8387-064f8e36f7bd",
+      "name": "Payout Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3281b0a-20e7-ec11-83a4-06381b7c5301",
+      "name": "Delivery Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fd48d0c-3297-ed11-83f5-06ad4872513f",
+      "name": "Amendment Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0247480b-3397-ed11-83f5-06ad4872513f",
+      "name": "Expiry Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51e1232d-799d-ed11-83f5-0646adb79515",
+      "name": "Termination Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48f967b9-799d-ed11-83f5-0646adb79515",
+      "name": "Issuance Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

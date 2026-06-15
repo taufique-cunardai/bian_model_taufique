@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c62e61e3-4507-f111-8602-0a46e3dae05d",
+  "title": "IncentiveAccountTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "18793a71-4607-f111-8602-0a46e3dae05d",
+      "name": "Incentive Earn Transaction",
+      "description": "An action that credits incentives to the account based on predefined rules such as spending, performance, or promotions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d87e6d33-e32c-f111-860d-020a7916b3f9",
+      "name": "Incentive Burn Transaction",
+      "description": "An action where incentives are used or redeemed, reducing the account balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1713541-e32c-f111-860d-020a7916b3f9",
+      "name": "Incentive Transfer Transaction",
+      "description": "An action that moves incentives between accounts or participants, where permitted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bab85b47-e32c-f111-860d-020a7916b3f9",
+      "name": "Incentive Adjustment Transaction",
+      "description": "An action that modifies the incentive balance due to corrections, recalculations, or policy updates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd83f460-e32c-f111-860d-020a7916b3f9",
+      "name": "Incentive Expiry Transaction",
+      "description": "An action that removes incentives from the account after a defined validity period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7fc9656a-e32c-f111-860d-020a7916b3f9",
+      "name": "Incentive Reversal Transaction",
+      "description": "An action that reverses a previous incentive transaction, restoring or correcting the balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "534af272-e32c-f111-860d-020a7916b3f9",
+      "name": "Incentive Bonus Transaction",
+      "description": "An action that credits additional incentives as part of campaigns, rewards programs, or special conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

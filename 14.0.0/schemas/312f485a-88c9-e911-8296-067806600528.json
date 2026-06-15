@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "312f485a-88c9-e911-8296-067806600528",
+  "title": "CaseInvestigationInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "322f485a-88c9-e911-8296-067806600528",
+      "name": "Case Assigner",
+      "description": "Party who assigns the case. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8591383-88c9-e911-8296-067806600528",
+      "name": "Case Asignee",
+      "description": "Party to which the case is assigned. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4748e8a7-88c9-e911-8296-067806600528",
+      "name": "Case Creator",
+      "description": "Party who initiates the case. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e215e5fe-12d6-e911-8296-06e1705194c6",
+      "name": "Case Investigator",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

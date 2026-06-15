@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "93b5a694-691c-f111-8608-0adbd3442159",
+  "title": "CashTransferTypeValues",
+  "description": "A transfer where funds are moved and available to the receiver almost immediately.\r\n\r\nComment:\r\nExample:\r\nSending €50 instantly through mobile banking.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8f309bab-691c-f111-8608-0adbd3442159",
+      "name": "Internal Transfer",
+      "description": "A transfer of money between accounts within the same bank.\r\n\r\nComment:\r\nExample:\r\nA customer transfers €500 from a savings account to a checking account in the same bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5143f0be-691c-f111-8608-0adbd3442159",
+      "name": "External Transfer",
+      "description": "A transfer of funds between accounts in different banks.\r\n\r\nComment:\r\nExample:\r\nSending €1,000 from Bank A to a friends account in Bank B.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b73220d0-691c-f111-8608-0adbd3442159",
+      "name": "Domestic Transfer",
+      "description": "A cash transfer within the same country.\r\n\r\nComment:\r\nExample:\r\nTransferring €200 to a supplier within Belgium.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20015eb4-6b1c-f111-8608-0adbd3442159",
+      "name": "International Transfer",
+      "description": "A transfer of funds between accounts located in different countries.\r\n\r\nComment:\r\nExample:\r\nSending €2,000 from Belgium to a beneficiary in the United States.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d77b302-6c1c-f111-8608-0adbd3442159",
+      "name": "Wire Transfer",
+      "description": "An electronic bank-to-bank transfer of funds through a secure financial network.\r\n\r\nComment:\r\nExample:\r\nA company sends €50,000 to an overseas supplier via wire transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54dab314-6c1c-f111-8608-0adbd3442159",
+      "name": "Standing Order",
+      "description": "Standing Order (Scheduled Transfer) A pre-arranged automatic transfer executed at regular intervals.\r\n\r\nComment:\r\nExample:\r\nA customer transfers €800 monthly for rent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3959428-6c1c-f111-8608-0adbd3442159",
+      "name": "Direct Debit",
+      "description": "A transfer where the payee automatically collects funds from the payers account with prior authorization.\r\n\r\nComment:\r\nExample:\r\nA utility company automatically deducts €120 monthly for electricity bills.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "143cef37-6c1c-f111-8608-0adbd3442159",
+      "name": "Instant Transfer",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dda0e24e-6c1c-f111-8608-0adbd3442159",
+      "name": "Remittance Transfer",
+      "description": "A transfer of money typically sent by individuals to family or relatives in another location or country.\r\n\r\nComment\r\nExample:\r\nA worker sends €300 to family members abroad.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f00cf95b-6c1c-f111-8608-0adbd3442159",
+      "name": "Bulk Transfer",
+      "description": "A transfer where multiple payments are processed in a single transaction batch.\r\n\r\nComment:\r\nExample:\r\nA company paying monthly salaries to employees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

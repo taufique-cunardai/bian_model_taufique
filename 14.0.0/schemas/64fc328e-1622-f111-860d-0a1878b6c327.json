@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "64fc328e-1622-f111-860d-0a1878b6c327",
+  "title": "DebitTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6f717419-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Eligibility Condition",
+      "description": "Debit Eligibility Condition in a debit term and condition defines who, which accounts, or under what circumstances a debit arrangement can be applied.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c889f028-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Amount Condition",
+      "description": "Specifies how much money will be withdrawn per debit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a40fb13d-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Schedule Condition",
+      "description": "Defines when the debit occurs (e.g., specific date, recurring intervals).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a90fb13d-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Frequency Condition",
+      "description": "Determines how often debits take place (daily, weekly, monthly, or one-time).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80f56d50-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Method Condition",
+      "description": "Defines the channel or mechanism used for the debit (direct debit, card payment, online transfer).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "191bd759-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Trigger Condition",
+      "description": "Identifies the event or circumstance that initiates the debit (bill due, automatic repayment, threshold reached).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5011ed62-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Limit Condition",
+      "description": "Sets maximum or minimum amounts that can be debited in a single transaction or period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bb5aab6e-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Authorization Condition",
+      "description": "Specifies required approvals or consents before the debit can occur.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15381379-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Fee Condition",
+      "description": "Debit Penalty / Fee Condition: Defines any fees or penalties applicable if the debit fails or conditions are not met.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be70b791-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Adjustment Condition",
+      "description": "Debit Prepayment or Adjustment Condition: Rules for modifying or adjusting debit amounts (e.g., early repayment or partial debit).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f20485a0-1722-f111-860d-0a1878b6c327",
+      "name": "Debit Restriction Condition",
+      "description": "Lists situations where debits are not allowed (e.g., account frozen, insufficient funds).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

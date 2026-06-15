@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ff3a4da6-8e18-f111-8608-06f87af9db33",
+  "title": "BookingTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "12fb2a2f-9018-f111-8608-06f87af9db33",
+      "name": "Booking Instruction Validation Condition",
+      "description": "Rules that determine whether a booking instruction is valid before processing.\r\n\r\nIncludes:\r\nVerification of account numbers and transaction types\r\nAuthorization checks (signatures, approvals)\r\nCompliance with product-specific rules\r\n\r\nComment:\r\nExample:\r\nA loan repayment instruction is only processed if the loan account is active and authorized.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52f68a40-9018-f111-8608-06f87af9db33",
+      "name": "Booking Transaction Posting Condition",
+      "description": "Guidelines on how transactions are mapped to ledger accounts and posted.\r\n\r\nIncludes:\r\nDebit and credit account mapping\r\nFee allocation\r\nInterest accrual posting\r\nHandling of reversals\r\n\r\nComment:\r\nExample:\r\nProcessing a term deposit interest accrual: debit interest expense, credit customer account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87c5d749-9018-f111-8608-06f87af9db33",
+      "name": "Booking Cut-off and Timing Condition",
+      "description": "Specifies when transactions can be booked, including daily or periodic cut-offs.\r\n\r\nComment:\r\nExamples:\r\nEnd-of-day processing at 5:00 PM\r\n\r\nTransactions after cut-off posted next business day\r\n\r\nBatch processing schedules",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02d89651-9018-f111-8608-06f87af9db33",
+      "name": "Booking Fee and Charge Application Condition",
+      "description": "Rules that determine what fees or charges apply to bookings and how they are calculated.\r\n\r\nIncludes:\r\nTransaction fees\r\nService charges\r\nLate payment penalties\r\n\r\nComment:\r\nExample:\r\nA €2 fee applies for each manual transfer booking.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3718c45a-9018-f111-8608-06f87af9db33",
+      "name": "Booking Correction Policy Condition",
+      "description": "Rules that govern how errors are corrected or reversed after booking.\r\n\r\nIncludes:\r\nAuthorization required for corrections\r\nTime limits for reversals\r\nAudit logging of changes\r\n\r\nComment\r\nExample:\r\nDuplicate transaction can be reversed within 24 hours with supervisor approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70cb5768-9018-f111-8608-06f87af9db33",
+      "name": "Booking Exception Handling Condition",
+      "description": "Defines how transactions that cannot be booked normally are handled.\r\n\r\nIncludes:\r\nSuspicious transaction flagging\r\nTransactions with insufficient funds\r\nError logging and manual review\r\n\r\nComment:\r\nExample:\r\nA payment exceeding the account balance is flagged for manual processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42b62572-9018-f111-8608-06f87af9db33",
+      "name": "Booking Regulatory Condition",
+      "description": "Ensures that booking practices comply with legal and regulatory requirements.\r\n\r\nComment:\r\nExamples:\r\nAnti-money laundering (AML) checks\r\n\r\nCentral bank reporting requirements\r\n\r\nStatutory ledger and accounting standards",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "12bdfe7e-9018-f111-8608-06f87af9db33",
+      "name": "Booking Notification Condition",
+      "description": "Specifies when and how customers or stakeholders are notified about booked transactions.\r\n\r\nIncludes:\r\nConfirmation messages\r\nAlerts for failed transactions\r\nPeriodic account statements",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6b2ff88-9018-f111-8608-06f87af9db33",
+      "name": "Booking Settlement Condition",
+      "description": "Rules for finalizing and settling transactions between accounts or external parties.\r\n\r\nIncludes:\r\nInterbank settlements\r\nClearing house instructions\r\nFX transaction settlement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4732e90-9018-f111-8608-06f87af9db33",
+      "name": "Booking Authorization Condition",
+      "description": "Rules that define who can approve or authorize bookings, especially for high-value or exceptional transactions.\r\n\r\nComment:\r\nExamples:\r\nManager approval for transactions above €50,000\r\n\r\nDual authorization for manual bookings\r\n\r\nOnline authentication for electronic bookings",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

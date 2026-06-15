@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1388e251-1c97-ed11-83f5-06ad4872513f",
+  "title": "UndertakingStatusTypeValues",
+  "description": "Specifies the undertaking status.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "595bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "AcceptedTechnicalValidation",
+      "description": "Accepted in accordance with technical validation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b5bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "Accepted",
+      "description": "Accepted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5c5bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "Pending",
+      "description": "Pending further processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d5bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "Received",
+      "description": "Received.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e5bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "Rejected",
+      "description": "Rejected.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f5bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "NonConfirmation",
+      "description": "Undertaking not confirmed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "605bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "Withdrawn",
+      "description": "Demand has been withdrawn.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "615bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "UndertakingAmountChange",
+      "description": "Change to undertaking amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "625bf186-1d97-ed11-83f5-06ad4872513f",
+      "name": "CounterUndertakingAmountChange",
+      "description": "Change to counter-undertaking amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

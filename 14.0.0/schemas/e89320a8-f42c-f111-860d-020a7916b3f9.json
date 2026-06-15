@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e89320a8-f42c-f111-860d-020a7916b3f9",
+  "title": "BookingTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "87eae6c6-f42c-f111-860d-020a7916b3f9",
+      "name": "Debit Booking Transaction",
+      "description": "An action that records a debit entry to reflect a decrease in funds or recognition of an obligation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cbe3cd0-f42c-f111-860d-020a7916b3f9",
+      "name": "Credit Booking Transaction",
+      "description": "An action that records a credit entry to reflect an increase in funds or recognition of an asset.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e79a0d8-f42c-f111-860d-020a7916b3f9",
+      "name": "Adjustment Booking Transaction",
+      "description": "An action that modifies previously booked entries to correct errors or update amounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04757ee0-f42c-f111-860d-020a7916b3f9",
+      "name": "Reversal Booking Transaction",
+      "description": "An action that reverses a previously booked transaction, restoring prior balances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ef143e8-f42c-f111-860d-020a7916b3f9",
+      "name": "Settlement Booking Transaction",
+      "description": "An action that records the completion of a transaction or obligation, such as loan disbursement or payment settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d17bbcef-f42c-f111-860d-020a7916b3f9",
+      "name": "Allocation Booking Transaction",
+      "description": "An action that books or assigns amounts to specific accounts, arrangements, or purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

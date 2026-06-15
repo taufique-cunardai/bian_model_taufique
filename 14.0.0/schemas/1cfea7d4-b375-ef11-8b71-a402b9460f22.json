@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1cfea7d4-b375-ef11-8b71-a402b9460f22",
+  "title": "FactoringAgreementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4d9fee71-b475-ef11-8b71-a402b9460f22",
+      "name": "Seller",
+      "description": "The business (seller) that is selling its invoices.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "549fee71-b475-ef11-8b71-a402b9460f22",
+      "name": "Factor",
+      "description": "The factoring company (factor) that is purchasing the invoices and providing funding.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

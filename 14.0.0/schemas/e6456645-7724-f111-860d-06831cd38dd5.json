@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e6456645-7724-f111-860d-06831cd38dd5",
+  "title": "UnderwritingInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f8021b4f-7724-f111-860d-06831cd38dd5",
+      "name": "Initial Underwriting Instruction",
+      "description": "A request to commence the underwriting process, including evaluating risk, setting terms, and determining the underwriting capacity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46cf422b-7824-f111-860d-06831cd38dd5",
+      "name": "Commitment Instruction",
+      "description": "A request to confirm or adjust the underwriting commitment amount for a specific transaction or issuance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "952d2433-7824-f111-860d-06831cd38dd5",
+      "name": "Allocation Instruction",
+      "description": "A request to allocate portions of the underwritten amount to investors or participants according to pre-defined rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94ac933e-7824-f111-860d-06831cd38dd5",
+      "name": "Underwriting Fee Instruction",
+      "description": "A request to calculate, apply, or distribute underwriting fees and commissions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99ac933e-7824-f111-860d-06831cd38dd5",
+      "name": "Amendment Instruction",
+      "description": "A request to modify underwriting terms, commitments, or allocations due to market or agreement changes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6757234c-7824-f111-860d-06831cd38dd5",
+      "name": "Underwriting Settlement Instruction",
+      "description": "A request to execute the final settlement of the underwritten transaction, including fund transfers and documentation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f158a057-7824-f111-860d-06831cd38dd5",
+      "name": "Risk Adjustment Instruction",
+      "description": "A request to adjust allocations or commitments based on updated risk assessments or credit evaluations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56decc5f-7824-f111-860d-06831cd38dd5",
+      "name": "Termination or Release Instruction",
+      "description": "A request to release or cancel underwriting obligations once conditions are met or if the transaction is withdrawn.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43dd7f71-7824-f111-860d-06831cd38dd5",
+      "name": "Follow-on Underwriting Instruction",
+      "description": "A request for additional underwriting actions, such as subsequent tranches or renewals of commitments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

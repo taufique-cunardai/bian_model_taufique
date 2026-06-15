@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cdb97f02-9155-ef11-8b6a-a402b9460f22",
+  "title": "MarketResearchAnalysisInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d7f43618-9155-ef11-8b6a-a402b9460f22",
+      "name": "Market Research Analyst",
+      "description": "Role: The core of the market research process, this professional collects, analyzes, and interprets data related to market conditions, customer behavior, and trends.\r\n\r\nResponsibilities:\r\nDesigning research methodologies (e.g., surveys, interviews).\r\nAnalyzing data using statistical tools and software.\r\nInterpreting data to provide actionable insights.\r\nCreating reports and presentations to communicate findings to stakeholders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d419830-9155-ef11-8b6a-a402b9460f22",
+      "name": "Data Scientist / Data Analyst",
+      "description": "Role: Often involved in more technical aspects of market research, especially in handling large datasets, data modeling, and advanced statistical analysis.\r\n\r\nResponsibilities:\r\nCleaning, organizing, and processing large datasets.\r\nUsing machine learning algorithms and data models to identify patterns and trends.\r\nCreating dashboards and visualizations to make data more accessible.\r\nCollaborating with market research analysts to ensure accurate data interpretation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "41a55a04-9255-ef11-8b6a-a402b9460f22",
+      "name": "Survey Designer",
+      "description": "Role: Specializes in creating effective and unbiased surveys or research tools that accurately capture the needed data.\r\n\r\nResponsibilities:\r\nDesigning questionnaires and survey instruments.\r\nEnsuring that questions are clear, unbiased, and relevant to the research objectives.\r\nDetermining sampling methods and sizes.\r\nAnalyzing survey results and ensuring validity and reliability of data.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24172211-9255-ef11-8b6a-a402b9460f22",
+      "name": "Field Researcher / Data Collector",
+      "description": "Role: Responsible for gathering data through various means, such as interviews, focus groups, or observations, especially for primary research.\r\n\r\nResponsibilities:\r\nConducting face-to-face or virtual interviews.\r\nOrganizing and moderating focus groups.\r\nObserving consumer behavior in real-world settings.\r\nCollecting and recording data accurately in the field.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38c3d227-9255-ef11-8b6a-a402b9460f22",
+      "name": "Focus Group Moderator",
+      "description": "Role: Facilitates focus group discussions to gather qualitative insights on consumer opinions, perceptions, and attitudes.\r\n\r\nResponsibilities:\r\nRecruiting participants that match the target demographic.\r\nLeading discussions in a neutral manner to encourage honest feedback.\r\nAnalyzing group dynamics and extracting key insights from discussions.\r\nReporting findings to inform broader research analysis.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb4d6e37-9255-ef11-8b6a-a402b9460f22",
+      "name": "Market Research Manager",
+      "description": "Role: Oversees the entire market research project, coordinating between different teams and ensuring the research aligns with business objectives.\r\n\r\nResponsibilities:\r\nDefining research goals and objectives in collaboration with stakeholders.\r\nManaging budgets and timelines.\r\nSupervising the research process from data collection to final analysis.\r\nPresenting final reports and recommendations to senior management.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f9edc4c-9255-ef11-8b6a-a402b9460f22",
+      "name": "Consumer Insights Specialist",
+      "description": "Role: Focuses on understanding consumer behavior, preferences, and trends to help tailor products or marketing strategies.\r\n\r\nResponsibilities:\r\nAnalyzing consumer data to identify trends and patterns.\r\nWorking closely with marketing and product teams to translate insights into strategies.\r\nTracking changes in consumer behavior over time.\r\nUsing psychographic and demographic data to segment the market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

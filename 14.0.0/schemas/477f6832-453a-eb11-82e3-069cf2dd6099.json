@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "477f6832-453a-eb11-82e3-069cf2dd6099",
+  "title": "ComplianceReportingInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2c53e3cf-453a-eb11-82e3-069cf2dd6099",
+      "name": "Compliance Officer",
+      "description": "A compliance officer is an individual who ensures that a company complies with its outside regulatory and legal requirements as well as internal policies and bylaws.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

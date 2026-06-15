@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b2b76095-a364-eb11-82e9-06f39716fe97",
+  "title": "ProductTrainingWorkstepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f5a8ae9b-a364-eb11-82e9-06f39716fe97",
+      "name": "Content Development",
+      "description": "Assemble and format training content for all suitable media",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a0e38bf-a364-eb11-82e9-06f39716fe97",
+      "name": "Service Scheduling",
+      "description": "Schedule training, allocating available training resources to meet demand",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5e67e6e-a464-eb11-82e9-06f39716fe97",
+      "name": "Service Delivery",
+      "description": "Execute training sessions and self service training using al appropriate mechanisms",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9f94180-a464-eb11-82e9-06f39716fe97",
+      "name": "Service Evaluation",
+      "description": "Solicit trainee feedback and assess the impact of training efforts to guide future content development",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

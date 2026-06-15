@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "483d11ea-c01b-f111-8608-0a4a17d5d551",
+  "title": "BookingProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2eb245f3-c01b-f111-8608-0a4a17d5d551",
+      "name": "Loan Product",
+      "description": "Bookings related to loans or credit facilities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33d5f7fa-c01b-f111-8608-0a4a17d5d551",
+      "name": "Credit Card Product",
+      "description": "Bookings related to credit card accounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38d5f7fa-c01b-f111-8608-0a4a17d5d551",
+      "name": "Overdraft Product",
+      "description": "Bookings related to overdraft facilities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "318ed606-c11b-f111-8608-0a4a17d5d551",
+      "name": "Fee Product",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d229db11-c11b-f111-8608-0a4a17d5d551",
+      "name": "Investment Product",
+      "description": "Booking related to investments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9dea4d19-c11b-f111-8608-0a4a17d5d551",
+      "name": "Provision Product",
+      "description": "Postings for provisions or reserves",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "853ffc20-c11b-f111-8608-0a4a17d5d551",
+      "name": "Deposit Product",
+      "description": "Bookings related to products where customers place money in the bank.\r\n\r\nExamples\r\nSavings account\r\nCurrent account\r\nTerm deposit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

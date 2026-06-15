@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1de9d289-3307-f111-8602-0a46e3dae05d",
+  "title": "IncentiveAccountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b33f21d6-3307-f111-8602-0a46e3dae05d",
+      "name": "Rewards Checking Account",
+      "description": "Provides cash back on debit card purchases or higher interest rates if specific criteria are met, such as a minimum number of transactions or direct deposits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d93280e0-3307-f111-8602-0a46e3dae05d",
+      "name": "High-Yield Savings Account",
+      "description": "Offer significantly higher interest rates (Annual Percentage Yield) than standard accounts to encourage saving, sometimes featuring bonus rates for consistent, monthly deposits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "031557e7-3307-f111-8602-0a46e3dae05d",
+      "name": "Cashback/Rewards Credit Account",
+      "description": "Reward users with cash back, points, or travel miles on everyday spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff39a205-3407-f111-8602-0a46e3dae05d",
+      "name": "Sign-up Bonus Account",
+      "description": "New checking or savings accounts that offer cash bonuses for opening an account and meeting requirements, such as a minimum direct deposit amount within a set timeframe.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "208d1b0d-3407-f111-8602-0a46e3dae05d",
+      "name": "Referral Account",
+      "description": "Existing customers receive cash incentives for referring friends or family who open a new account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "258d1b0d-3407-f111-8602-0a46e3dae05d",
+      "name": "Tiered/Premium Account",
+      "description": "Provide enhanced benefits-such as waived ATM fees, free checks, or, in some cases, lower interest rates on loans-for holding high balances or having a long-term relationship with the bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1254e18-3407-f111-8602-0a46e3dae05d",
+      "name": "Specialty/Targeted Account",
+      "description": "Include student accounts with specific perks (like discounts) or youth savings accounts designed to reward regular saving habits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

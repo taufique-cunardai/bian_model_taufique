@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "24022263-5086-ef11-84d7-06a7cee33ed1",
+  "title": "CorporateActionChangeTypeValues",
+  "description": "Specifies the type of changes.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c3049a79-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Bear To Registered",
+      "description": "Change from bearer into registered form.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00121581-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Certificates",
+      "description": "Change of all instruments into certificates.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "05121581-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Dematerialised To Physical",
+      "description": "Change from dematerialised into physical form.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85f8068e-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Global Permanent To Physical",
+      "description": "Change from global permanent to physical form.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ada23599-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Global Temporary To Global Permanent",
+      "description": "Change from global temporary to global permanent form.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fae54a6-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Global Temporary To Physical",
+      "description": "Change from global temporary to physical form.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6aa51eb0-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Name",
+      "description": "The issuing company changes its name. CA event shows the change from old name to new name and may involve surrendering physical shares with the old name to the registrar.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6fa51eb0-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Physical To Dematerialised",
+      "description": "Change from physical into dematerialised form.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6eb964be-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Registered To Bearer",
+      "description": "Change from registered into bearer form.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8ebdec5-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Terms",
+      "description": "Change in the terms of the security.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ddebdec5-5086-ef11-84d7-06a7cee33ed1",
+      "name": "Decimalisation",
+      "description": "Process of changing the accounting method of a security, for example, mutual fund, from units to a quantity with decimals.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

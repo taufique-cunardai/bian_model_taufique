@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ede9eaff-482a-f111-860d-021cfff80c05",
+  "title": "CashConcentrationServiceArrangementTypeValues",
+  "description": "CashConcentrationServiceArrangementTypeValues refers to the standardized set of arrangement types defined by BIAN (Banking Industry Architecture Network) for cash concentration services. These values classify the different ways cash concentration can be structured, such as Sweeping, Aggregation/Transfer, and related mechanisms.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "efe9eaff-482a-f111-860d-021cfff80c05",
+      "name": "Sweeping Arrangement",
+      "description": "A sweep account automatically transfers cash funds into a safe but higher interest-earning investment option at the close of each business day, e.g., into a money market fund. (Investopedia)\r\n\r\nSweeping Arrangements are of 2 Types\r\n\r\nPhysical (Zero-Balance) Sweeping Arrangement\r\nActual transfer of funds from subsidiary accounts into a central concentration account, leaving sub-accounts at zero balance\r\n\r\n\r\nTarget-Balance Sweeping Arrangement\r\nTransfers funds but leaves a predefined minimum balance in sub-accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0e9eaff-482a-f111-860d-021cfff80c05",
+      "name": "Notional Pooling Arrangement",
+      "description": "No physical transfer; balances are offset virtually to calculate interest on the net position.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1e9eaff-482a-f111-860d-021cfff80c05",
+      "name": "Cash Concentration & Disbursement (CCD) Arrangement",
+      "description": "Electronic funds transfer system consolidating cash into a central account and redistributing as needed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f2e9eaff-482a-f111-860d-021cfff80c05",
+      "name": "Hybrid Arrangement",
+      "description": "Combination of sweeping and pooling mechanisms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f3e9eaff-482a-f111-860d-021cfff80c05",
+      "name": "Cross-Border Cash Concentration Arrangement",
+      "description": "Specialized arrangements for multinational firms, complying with FX controls and tax rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4e9eaff-482a-f111-860d-021cfff80c05",
+      "name": "Aggregation/ Transfer Arrangement",
+      "description": "Specifies how balances from multiple accounts are collected and transferred into the concentration account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e342ca4f-d6ae-ed11-83f9-0659fdac17f5",
+  "title": "InstructionStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a74d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "PendingProcessing",
+      "description": "Processing of the instruction is pending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a94d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "AcknowledgedAccepted",
+      "description": "Instruction has been acknowledged and accepted and is validated for further processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa4d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "Rejected",
+      "description": "Instruction has been rejected.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab4d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "Accepted",
+      "description": "Instruction has been accepted and is validated for further processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac4d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "Completed",
+      "description": "Processing has been completed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad4d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "NotReceived",
+      "description": "No instruction has been received (to be used in a reminder).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ae4d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "Cancelled",
+      "description": "Instruction has been cancelled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af4d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "BeingCancelled",
+      "description": "Cancel request is being processed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b04d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "ReceivedByIssuerOrRegistrar",
+      "description": "Instruction has been received by Issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b14d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "Pending",
+      "description": "Instruction is pending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b24d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "StandingInstruction",
+      "description": "Standing instruction is applied.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b34d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "Queued",
+      "description": "Instruction is queued.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b44d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "CancelledBySubcustodian",
+      "description": "Instruction has been cancelled by the agent, for example, due to an event deadline extension.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b54d0f9a-d6ae-ed11-83f9-0659fdac17f5",
+      "name": "Forwarded",
+      "description": "Accepted and sent along the chain.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

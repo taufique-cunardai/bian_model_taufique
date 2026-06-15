@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cd2acc27-b326-f111-860d-0271c902ca61",
+  "title": "UnderwritingServiceTypeValues",
+  "description": "Evaluates the creditworthiness, financial stability, or risk profile of the borrower, issuer, or counterparty.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6d9dbc45-b326-f111-860d-0271c902ca61",
+      "name": "Risk Assessment Underwriting Service",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d649b76-b326-f111-860d-0271c902ca61",
+      "name": "Commitment & Guarantee Underwriting Service",
+      "description": "Provides a guarantee to fund or purchase all or part of a financial transaction, such as a loan, bond issue, or IPO.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56580f8d-b326-f111-860d-0271c902ca61",
+      "name": "Pricing & Structuring Underwriting Service",
+      "description": "Determines interest rates, fees, spreads, or terms of the product. Structures repayment schedules, covenants, or allocation rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b29d37b6-b326-f111-860d-0271c902ca61",
+      "name": "Distribution & Placement Underwriting Service",
+      "description": "Facilitates the sale or allocation of securities, loans, or products to investors, clients, or syndicates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5919dbc8-b326-f111-860d-0271c902ca61",
+      "name": "Documentation & Compliance Underwriting Service",
+      "description": "Prepares and verifies legal and regulatory documents to ensure compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "618c6ae1-b326-f111-860d-0271c902ca61",
+      "name": "Monitoring & Reporting Underwriting Service",
+      "description": "Tracks underwriting commitments, fees, and disbursements. Provides reports for internal management, regulators, and investors.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

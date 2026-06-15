@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eb9ee771-8d7d-eb11-8309-06f448ba7707",
+  "title": "ClearingInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "00605879-8d7d-eb11-8309-06f448ba7707",
+      "name": "Clearing House",
+      "description": "The organization that facilitates the exchange, reconciliation, and netting of payment instructions between banks.\r\n\r\nComment:\r\nA common entity (or a common processing mechanism) through which participants agree to exchange transfer instructions for funds, securities or other instruments. (ECB)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba68d856-4a96-ed11-83f5-063fc5204841",
+      "name": "Correspondent Bank",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36305214-712e-f111-860d-0a3b3de36819",
+      "name": "Payee",
+      "description": "The person or organization that receives the payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "19723e71-712e-f111-860d-0a3b3de36819",
+      "name": "Payer",
+      "description": "The person or entity that initiates the payment to settle an obligation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4910427f-712e-f111-860d-0a3b3de36819",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee clearing processes to ensure stability, security, and compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

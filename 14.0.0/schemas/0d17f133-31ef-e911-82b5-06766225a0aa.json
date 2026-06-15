@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0d17f133-31ef-e911-82b5-06766225a0aa",
+  "title": "CustomerContactCenterInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0e17f133-31ef-e911-82b5-06766225a0aa",
+      "name": "Customer",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f45ff53c-31ef-e911-82b5-06766225a0aa",
+      "name": "ContactCenterAgent",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5a1893af-49ef-e911-82b5-06766225a0aa",
+      "name": "CustomerServiceRepresentative",
+      "description": "Customer service representatives interact with customers on behalf of an organization. They provide information about products and services, take orders, respond to customer complaints, and process returns. Many customer service representatives work in customer contact centers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5056028a-1294-e911-823e-069871e4ec9c",
+  "title": "PriceFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f2d9e49d-1294-e911-823e-069871e4ec9c",
+      "name": "CompensationTimingsFeature",
+      "description": "A classification that distinguishes between instances of Banking Services according to when costs/revenues will be applied.\r\n\r\nThe timing of the compensation (when clients really pay for the service) is one of the essential elements of the pricing structure.\r\nFor each of the other components the Compensation Timings will be defined. \r\n\r\nGeneric Components are:\r\n1. Periodicity\r\nThe period wherein the price is calculated. Annual, monthly, daily. \r\n2. Payment Timing\r\nThe concrete timing of the payment for the client. This can be independent of the periodicity and the variability of the cost drivers\r\n3. Variability\r\nThe variability of the cost driver reflects in fact the used cost drivers of the cost that are made visible towards clients. This can be event driven, based on time passed, time spent, etc.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "253d94b5-1294-e911-823e-069871e4ec9c",
+      "name": "PricingFeature",
+      "description": "A classification that distinguishes between instances of Price Features according to the type of price.\r\n\r\nPricing Arrangements are the intrinsic prices for financial instruments or financial services. They reflect the value of the instrument or service that is bought.\r\n\r\nGeneric Components are\r\n1. Buying Prices\r\nThese are prices for financial instruments or currency exchanges. The principle of price lists is used.\r\n2. Interest\r\nInterest rates have a particular treatment for different products. From client point of view the interest calculation is important for its costs. The technical establishment of the interest rate is of lesser importance \r\n3. Renting Fees\r\nRenting fees are for example used for leasing and safe boxes.\r\n4. Risk Pricing\r\nThe pricing of financial risk transfer towards the bank. Used in insurances in all forms, but also in credits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d903bdcb-1294-e911-823e-069871e4ec9c",
+      "name": "FeeFeature",
+      "description": "A classification that distinguishes between instances of Price Features according to the type of fee.\r\n\r\nFees are costs that are paid by clients to use the infrastructure of the bank to organize and structure their financial management and to do their financial transactions. They are different from the intrinsic costs of financial activities. We describe here the different fees we recognized. These are all costs as clients experience them, and they do not have to reflect the real costs for the bank.\r\nA lot of the components will follow the structure of the underlying pricing Arrangements (e.g. the costs for a credit can be expressed as an increase of the interest rate or commissions are expressed as a percentage of the insurance premium)\r\n\r\nGeneric Components are:\r\n1. Set-up fee Inc. fee for changes\r\nThe fee that is paid by the client to set-up a service. (e.g. Contract Costs for a mortgage)\r\n2. Management Fee\r\nThe fee that is paid by the client to maintain the infrastructure so that this is available for clients (e.g. price for a bundle)\r\n3. Transactions Fee\r\nThe fee that is paid for the execution of a transaction by clients (e.g. withdrawal)\r\n4. Communication Fee\r\nThe fee that is paid for the communication towards clients. This fee is mostly for reporting and information (e.g. sms-alerts)\r\n5. Taxes\r\nThe tax that is immediately paid by clients on the price of interest and fees (e.g. tax deducted directly by the bank on interest).\r\n6. Commissions\r\nThe fee that is paid to the bank as an intermediary for financial instruments or other (financial) services (e.g. commissions for funds or insurances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "239f16f3-1294-e911-823e-069871e4ec9c",
+      "name": "DiscountFeature",
+      "description": "A classification that distinguishes between instances of Price Features according to type of discounts.\r\n\r\nIn the one hand, discount Arrangements are the commercial instruments to adapt the cost of the client to his personal situation. On the other hand, discount arrangement is used in marketing campaigns. Especially these arrangements can be over different products and it should be possible to link them to different parameters.  \r\n\r\nGeneric Components:\r\n1.    Package Discount\r\nThe discount of buying different services in one package.\r\n2.    Subscription\r\nThe discount when the use of a service is guaranteed over an agreed time period (safe box over 3 years)\r\n3.    Maximum /Fixed Cost\r\nThe discount expressed as a maximum/fixed cost if the cost driver crosses a fixed limit, mostly related to transactions \r\n4.    Absolute/Relative Discount\r\nThe discount at the level of a product or collection of products expressed in percentage or absolute amount.\r\n5.    Loyalty Schemes\r\nThe accumulation of units that can be exchanged for benefits of other discounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

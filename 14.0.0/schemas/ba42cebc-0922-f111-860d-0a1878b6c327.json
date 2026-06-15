@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ba42cebc-0922-f111-860d-0a1878b6c327",
+  "title": "DebitInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "709c91ce-0922-f111-860d-0a1878b6c327",
+      "name": "Account Holder",
+      "description": "The person or entity whose account is debited and who authorizes or is subject to the debit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5e60033-0a22-f111-860d-0a1878b6c327",
+      "name": "Debiting Bank",
+      "description": "Debiting Bank (Customers Bank): The bank that holds the customers account and deducts the funds.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "050fc47f-0a22-f111-860d-0a1878b6c327",
+      "name": "Creditor",
+      "description": "Creditor / Beneficiary: The person or organization that receives the funds from the debit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f9b888f-0a22-f111-860d-0a1878b6c327",
+      "name": "Creditor’s Bank",
+      "description": "Creditors Bank (Receiving Bank): The bank that receives the funds and credits them to the beneficiarys account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bafe8f9d-0a22-f111-860d-0a1878b6c327",
+      "name": "Merchant",
+      "description": "Merchant / Service Provider: The business that initiates the debit request for payment (e.g., for goods, services, or bills).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e3cf7bc-0a22-f111-860d-0a1878b6c327",
+      "name": "Regulatory Authority",
+      "description": "A government or official body that ensures the debit arrangement complies with financial laws and regulations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

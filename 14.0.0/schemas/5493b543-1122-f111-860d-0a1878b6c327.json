@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5493b543-1122-f111-860d-0a1878b6c327",
+  "title": "DebitTypeValues",
+  "description": "A debit initiated manually by the account holder or an authorized person.\r\n\r\nComment:\r\nExample: Writing a check or instructing a bank teller to withdraw funds.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b468b949-1122-f111-860d-0a1878b6c327",
+      "name": "Manual Debit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3dc6255a-1122-f111-860d-0a1878b6c327",
+      "name": "Automated Debit",
+      "description": "A debit that occurs automatically according to pre-agreed rules, without manual intervention for each transaction.\r\n\r\nComment:\r\nExample: Recurring subscription payments, standing orders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1342e68-1122-f111-860d-0a1878b6c327",
+      "name": "Direct Debit",
+      "description": "A debit initiated by a third party (payee) who is authorized by the account holder to collect funds directly.\r\n\r\nComment:\r\nExample: Utility bills, insurance premiums collected by the service provider.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48bb1476-1122-f111-860d-0a1878b6c327",
+      "name": "Standing Order Debit",
+      "description": "A pre-set debit instruction given by the account holder to the bank to pay a fixed amount regularly to a recipient. Unlike direct debit, the bank executes it automatically.\r\n\r\nComment:\r\nExample: Monthly rent transfers to a landlord.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "add61186-1122-f111-860d-0a1878b6c327",
+      "name": "POS Debit",
+      "description": "Point-of-Sale (POS) Debit: A debit made when a card or payment device is used at a merchant terminal, with immediate deduction from the account.\r\n\r\nCommnent:\r\nExample: Grocery or retail purchases using a debit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ff72f9b-1122-f111-860d-0a1878b6c327",
+      "name": "Online Debit",
+      "description": "Debits made through internet banking or mobile apps, initiated by the account holder.\r\n\r\nComment:\r\nExample: Online bill payments or e-commerce purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d14a7a9-1122-f111-860d-0a1878b6c327",
+      "name": "Conditional Debit",
+      "description": "A debit that occurs only when certain conditions are met, such as account balance thresholds or specific transaction triggers.\r\n\r\nComment:\r\nExample: Automatic transfer to savings when account balance exceeds a limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1fb724c4-1122-f111-860d-0a1878b6c327",
+      "name": "Loan Debit",
+      "description": "Loan/Repayment Debit: Debits specifically linked to loan or credit repayment schedules, often fixed and recurring.\r\n\r\nComment:\r\nExample: Monthly mortgage or personal loan repayments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

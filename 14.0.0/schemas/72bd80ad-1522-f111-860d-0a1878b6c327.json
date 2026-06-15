@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "72bd80ad-1522-f111-860d-0a1878b6c327",
+  "title": "DebitServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8bb81bc3-1522-f111-860d-0a1878b6c327",
+      "name": "Cash Withdrawal Service",
+      "description": "Allows customers to withdraw cash from ATMs using their debit card.\r\n\r\nComment:\r\nMay include network-specific access and daily withdrawal limits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a7f8fad0-1522-f111-860d-0a1878b6c327",
+      "name": "POS Payment Service",
+      "description": "Enables payments directly at retail stores, restaurants, or online merchants.\r\n\r\nComment:\r\nExamples\r\nUses PIN, signature, or digital authentication.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b048be7-1522-f111-860d-0a1878b6c327",
+      "name": "Online Payment Service",
+      "description": "Enables bill payments, peer-to-peer transfers, or e-commerce purchases via mobile apps or web banking.\r\n\r\nComment:\r\nExamples:\r\nMay include real-time payments or scheduled payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80c4ccfe-1522-f111-860d-0a1878b6c327",
+      "name": "Recurring Debit Service",
+      "description": "Automatically debits funds at predefined intervals for recurring obligations like subscriptions or loan repayments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de772a0f-1622-f111-860d-0a1878b6c327",
+      "name": "Funds Transfer Service",
+      "description": "Allows internal transfers (within the same bank) or external transfers (domestic or international).\r\n\r\nComment:\r\nCan include instant transfers or batch processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c51fe18-1622-f111-860d-0a1878b6c327",
+      "name": "Overdraft Debit Service",
+      "description": "Allows spending beyond available balance using linked overdraft or credit facilities.\r\n\r\nComment:\r\nFees and interest may apply.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15b7b22f-1622-f111-860d-0a1878b6c327",
+      "name": "Tiered Debit Service",
+      "description": "Provides enhanced features such as higher transaction limits, fee waivers, or international ATM access for premium customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ab7b22f-1622-f111-860d-0a1878b6c327",
+      "name": "Balance Inquiry & Account Management Service",
+      "description": "Lets customers check account balances, transaction history, or update personal information via ATM, POS, or online channels.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a784164a-1622-f111-860d-0a1878b6c327",
+      "name": "Alerts & Notifications Service",
+      "description": "Sends SMS, email, or app notifications for debit transactions, low balances, or overdraft activity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

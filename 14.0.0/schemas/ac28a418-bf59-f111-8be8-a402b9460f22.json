@@ -1,0 +1,267 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ac28a418-bf59-f111-8be8-a402b9460f22",
+  "title": "StatusTrackingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5e115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Lifecycle",
+      "description": "Tracks the progression state of a product, arrangement, transaction, case, or servicing activity throughout its business lifecycle from initiation to closure or termination.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Balance",
+      "description": "Tracks the financial position, available funds, outstanding obligations, or monetary standing associated with a product arrangement or account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Limit",
+      "description": "Tracks the allocation, consumption, availability, breach, or utilization condition of authorized operational, financial, or risk exposure limits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Amount",
+      "description": "Tracks the progression, accumulation, settlement, disbursement, repayment, or fulfillment of specific monetary amounts associated with a business process or financial obligation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "WorkStep",
+      "description": "Tracks the execution progress, completion state, sequencing, or operational status of workflow tasks, activities, process steps, or servicing actions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Fulfillment",
+      "description": "Tracks the completion, delivery, provisioning, activation, or servicing progress of a requested product, instruction, order, or customer service outcome.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Settlement",
+      "description": "Tracks the clearing, reconciliation, confirmation, and final settlement status of financial transactions, obligations, or payment exchanges.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Compliance",
+      "description": "Tracks adherence to regulatory, policy, legal, risk, audit, KYC, AML, or governance requirements and associated control states.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Exception",
+      "description": "Tracks abnormal, failed, escalated, suspended, breached, or unresolved business or operational conditions requiring remediation or investigation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Usage",
+      "description": "Tracks the consumption, utilization frequency, service access, transaction activity, or resource usage associated with a product or service arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Eligibility",
+      "description": "Tracks qualification, entitlement, approval readiness, or criteria satisfaction for accessing products, services, transactions, or operational capabilities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6a115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Authorization",
+      "description": "Tracks approval, consent, permission, authentication, or delegated authority states governing execution rights or access permissions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Risk",
+      "description": "Tracks assessed exposure, risk condition, rating, threshold breach, or risk evaluation state associated with a customer, product, transaction, or operational process.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Performance",
+      "description": "Tracks operational efficiency, SLA adherence, throughput, responsiveness, productivity, or service quality conditions for processes or servicing activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Capacity",
+      "description": "Tracks resource availability, allocation, utilization saturation, operational bandwidth, or processing capability conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Document",
+      "description": "Tracks document preparation, submission, validation, approval, expiration, or verification status associated with servicing or compliance processes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Verification",
+      "description": "Tracks identity, account, transaction, data, or instruction verification states including validation outcomes and confirmation progress.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Fraud",
+      "description": "Tracks fraud assessment, detection, investigation, monitoring, or fraud mitigation states associated with transactions or customer activity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Collection",
+      "description": "Tracks delinquency recovery, repayment follow-up, collection actions, recovery progression, or debt remediation activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Collateral",
+      "description": "Tracks valuation, perfection, eligibility, release, substitution, monitoring, or enforcement status of pledged collateral assets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Dispute",
+      "description": "Tracks investigation, resolution, escalation, adjudication, or closure progress for disputed transactions, claims, or servicing issues.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Provisioning",
+      "description": "Tracks technical or operational setup, configuration, enablement, onboarding, or activation progress for products or services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Migration",
+      "description": "Tracks conversion, transfer, onboarding, transition, or portfolio migration progress between systems, products, or operational environments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Monitoring",
+      "description": "Tracks ongoing observation, surveillance, health assessment, threshold evaluation, or operational supervision conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Recovery",
+      "description": "Tracks restoration, remediation, fallback, continuity, or operational recovery progression following disruptions or failures.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Reconciliation",
+      "description": "Tracks matching, balancing, verification, discrepancy resolution, and consistency validation across financial or operational records.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Pricing",
+      "description": "Tracks pricing determination, adjustment, approval, eligibility, or application states associated with products, offers, or transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "InvestmentPosition",
+      "description": "Tracks valuation, exposure, holding condition, market position, or investment portfolio status for treasury or wealth management activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "Liquidity",
+      "description": "Tracks funding availability, liquidity coverage, cash positioning, liquidity utilization, or short-term funding conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "CreditExposure",
+      "description": "Tracks current and projected exposure conditions associated with lending, counterparty, or credit-related financial obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d115d26-bf59-f111-8be8-a402b9460f22",
+      "name": "CaseResolution",
+      "description": "Tracks investigation, handling, escalation, decisioning, and closure progression for operational or customer service cases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

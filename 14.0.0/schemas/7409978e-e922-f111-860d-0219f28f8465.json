@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7409978e-e922-f111-860d-0219f28f8465",
+  "title": "CashTransferCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5c61fdab-e922-f111-860d-0219f28f8465",
+      "name": "Fixed Amount Modality",
+      "description": "The transfer amount is predefined and constant.\r\n\r\nComment:\r\nExample: A scheduled transfer of €100 every month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "633b8bc8-e922-f111-860d-0219f28f8465",
+      "name": "Customer-Entered Amount Modality",
+      "description": "The transfer amount is specified by the sender at the time of the transfer.\r\n\r\nComment:\r\nExample: User decides to send €250 to a friend.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab46dde6-e922-f111-860d-0219f28f8465",
+      "name": "Percentage-Based Modality",
+      "description": "The transfer amount is calculated as a percentage of a base value.\r\n\r\nComment:\r\nExample: 10% of account balance is transferred automatically to a savings account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "23cdfdf1-e922-f111-860d-0219f28f8465",
+      "name": "Fee-Inclusive Modality",
+      "description": "The transfer amount includes service fees, charges, or taxes.\r\n\r\nComment:\r\nExample: Sending €100 with a €2 fee, total debit from sender = €102.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ce3caff-e922-f111-860d-0219f28f8465",
+      "name": "Fee-Exclusive Modality",
+      "description": "Fees are separate from the transfer amount, so the recipient receives the full intended amount.\r\n\r\nComment:\r\nExample: Sender pays €100, and the €2 fee is deducted separately from the senders account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24cfc510-ea22-f111-860d-0219f28f8465",
+      "name": "Currency Conversion Modality",
+      "description": "For cross-currency transfers, the transfer amount is calculated based on exchange rates.\r\n\r\nComment:\r\nExample: €100 sent from Europe is converted to $108 for the recipient based on the current FX rate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "004ca21b-ea22-f111-860d-0219f28f8465",
+      "name": "Conditional Modality",
+      "description": "The transfer amount depends on certain conditions or limits.\r\n\r\nComment:\r\nExample: Maximum daily transfer limit = €1,000; if balance > €1,000, only €1,000 is sent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b4a682f-ea22-f111-860d-0219f28f8465",
+      "name": "Dynamic Modality",
+      "description": "The transfer amount may fluctuate based on market conditions or partner pricing.\r\n\r\nComment:\r\nExample: Remittance sent via a payment platform that adjusts the amount based on real-time FX or fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef7f513c-ea22-f111-860d-0219f28f8465",
+      "name": "Hybrid Modality",
+      "description": "A combination of multiple calculation approaches.\r\n\r\nComment:\r\nExample: Base transfer amount + percentage of balance + conditional fee adjustments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

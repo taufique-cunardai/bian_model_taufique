@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c357619c-8e18-f111-8608-06f87af9db33",
+  "title": "BookingServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6a4f2568-8f18-f111-8608-06f87af9db33",
+      "name": "Reservation Booking Service",
+      "description": "Reserves funds for a transaction \r\n\r\nComment:\r\n(e.g., card authorization).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f316ec87-8f18-f111-8608-06f87af9db33",
+      "name": "Provisional Booking Service",
+      "description": "Temporarily books an entry until final confirmation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2cb7cf99-8f18-f111-8608-06f87af9db33",
+      "name": "Loan Booking Service",
+      "description": "Books loan disbursements, repayments, or schedules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf3650ad-8f18-f111-8608-06f87af9db33",
+      "name": "Deposit Booking Service",
+      "description": "Books deposits before final posting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c85fefb9-8f18-f111-8608-06f87af9db33",
+      "name": "Transaction Registration Service",
+      "description": "Captures and registers financial events such as payments, deposits, withdrawals, or loan disbursements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "241300c2-8f18-f111-8608-06f87af9db33",
+      "name": "Commitment Recording Service",
+      "description": "Records financial commitments or agreements such as loan approvals, credit utilization, or investment allocations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45f1cd4f-f11e-f111-8608-0247e3f120c3",
+      "name": "Validation and Control Service",
+      "description": "Ensures that booking follows predefined rules, limits, and product conditions before the transaction is confirmed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "967d7a57-f11e-f111-8608-0247e3f120c3",
+      "name": "Traceability and Audit Service",
+      "description": "Maintains a record of all bookings to support monitoring, reconciliation, and compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

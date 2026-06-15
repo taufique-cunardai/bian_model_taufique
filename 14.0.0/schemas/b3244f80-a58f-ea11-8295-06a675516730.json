@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b3244f80-a58f-ea11-8295-06a675516730",
+  "title": "ProspectCampaignManagementWorkTaskType",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dd4c5c8b-a58f-ea11-8295-06a675516730",
+      "name": "MarketTracking",
+      "description": "Tracking multiple sources of intelligence that is used to assess the competitive coverage and performance of the prospect campaign portfolio",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf9407ac-a58f-ea11-8295-06a675516730",
+      "name": "PerformanceAssessment",
+      "description": "Performance assessment of the prospect campaigns making up the portfolio",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b5834c5-a58f-ea11-8295-06a675516730",
+      "name": "CampaignDirection",
+      "description": "Direct prospect campaign design and execution activity (based on market insights and assessed performance)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0aa53db1-1217-f111-8608-0adacdf86181",
+  "title": "BookingInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5e7c18d2-1217-f111-8608-0adacdf86181",
+      "name": "Customer",
+      "description": "Beneficiary or initiator of booking.\r\n\r\nComment:\r\nExample: Loan applicant",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "460ae77f-1317-f111-8608-0adacdf86181",
+      "name": "Account/Product",
+      "description": "Target account or product impacted\r\n\r\nComment:\r\nExample: Loan account, deposit account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f45be86-1317-f111-8608-0adacdf86181",
+      "name": "Bank System",
+      "description": "Processing engine or ledger\r\n\r\nComment:\r\nExample: CBS, General Ledger, Interest Engine",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a5fa08d-1317-f111-8608-0adacdf86181",
+      "name": "Staff",
+      "description": "Bank personnel managing booking\r\n\r\nComment:\r\nExample: Teller, Loan Officer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b21d197-1317-f111-8608-0adacdf86181",
+      "name": "Audit",
+      "description": "Compliance monitoring or approval\r\n\r\nComment:\r\nExample: Internal Audit, Regulator",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7021d197-1317-f111-8608-0adacdf86181",
+      "name": "External",
+      "description": "External systems or organizations involved\r\n\r\nComment:\r\nExample: SWIFT, Payment gateways",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

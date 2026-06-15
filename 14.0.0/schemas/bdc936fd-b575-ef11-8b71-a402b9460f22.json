@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bdc936fd-b575-ef11-8b71-a402b9460f22",
+  "title": "FactoringAgreementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "059c8e17-b675-ef11-8b71-a402b9460f22",
+      "name": "Recourse Factoring Agreement",
+      "description": "The business is liable for any unpaid invoices. If a customer fails to pay, the business must either repay the advance or replace the unpaid invoice with another invoice of equivalent value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba88991e-b675-ef11-8b71-a402b9460f22",
+      "name": "Non-Recourse Factoring Agreement",
+      "description": "The factoring company assumes the risk of non-payment. If the customer defaults, the business is not liable for repaying the advance. However, this option typically comes with higher fees and may only apply in cases of customer insolvency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

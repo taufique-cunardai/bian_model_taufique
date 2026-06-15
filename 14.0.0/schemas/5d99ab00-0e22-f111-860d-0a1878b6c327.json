@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5d99ab00-0e22-f111-860d-0a1878b6c327",
+  "title": "DebitInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9ba5a416-0e22-f111-860d-0a1878b6c327",
+      "name": "Debit Payment Instruction",
+      "description": "A request to transfer funds from an account to a beneficiary to fulfill a payment obligation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0843324-0e22-f111-860d-0a1878b6c327",
+      "name": "Direct Debit Instruction",
+      "description": "A request (usually pre-authorized) allowing a third party to collect funds from an account on agreed dates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5466282e-0e22-f111-860d-0a1878b6c327",
+      "name": "Cash Withdrawal Instruction",
+      "description": "A request to withdraw cash from an account (e.g., ATM or over-the-counter).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c5fcf39-0e22-f111-860d-0a1878b6c327",
+      "name": "Debit Card Transaction Instruction",
+      "description": "A request to debit funds from an account following a card-based purchase or transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9cf374b8-0e22-f111-860d-0a1878b6c327",
+      "name": "Fee Debit Instruction",
+      "description": "A request to deduct fees (e.g., maintenance, service, penalty fees) from an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0234dc5-0e22-f111-860d-0a1878b6c327",
+      "name": "Tax Debit Instruction",
+      "description": "A request to deduct taxes or statutory charges from an account as per applicable regulations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "915b6ad2-0e22-f111-860d-0a1878b6c327",
+      "name": "Standing Order Debit Instruction",
+      "description": "A request to execute recurring payments of a fixed amount at predefined intervals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "08b1a8de-0e22-f111-860d-0a1878b6c327",
+      "name": "Debit Authorization Hold Instruction",
+      "description": "A request to temporarily block or earmark funds (e.g., pre-authorization for card transactions).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "268cbbe8-0e22-f111-860d-0a1878b6c327",
+      "name": "Internal Transfer Debit Instruction",
+      "description": "A request to move funds from one account to another within the same institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b8c7dfe-0e22-f111-860d-0a1878b6c327",
+      "name": "Reversal Debit Instruction",
+      "description": "A request to debit funds to reverse a previously credited transaction (e.g., corrections, chargebacks).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

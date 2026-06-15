@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c9632b9a-f974-ef11-8b71-a402b9460f22",
+  "title": "LetterOfCreditArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "720bd386-0375-ef11-8b71-a402b9460f22",
+      "name": "Collateral Arangement",
+      "description": "- Collateral from the Applicant: The issuing bank may require the applicant (buyer) to provide collateral, such as cash, securities, or a lien on assets, to mitigate the risk of default by the applicant. This collateral backs the issuing banks commitment to pay.\r\n\r\n- Security for the Beneficiary: If the LC is confirmed, the beneficiary has double security since both the issuing and confirming banks guarantee payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60ad25a4-0375-ef11-8b71-a402b9460f22",
+      "name": "Fee Arrangement",
+      "description": "The costs associated with issuing and processing a Letter of Credit include:\r\n\r\n- Issuance Fees: Paid by the applicant to the issuing bank for creating the LC.\r\n\r\n- Confirmation Fees: Charged by the confirming bank (if used) and may be borne by the applicant or the beneficiary, depending on their agreement.\r\n\r\n- Advising Fees: Paid to the advising bank for notifying the beneficiary of the LCs issuance.\r\nDocument Handling Fees: For reviewing and processing the documents submitted by the beneficiary.\r\n\r\n- Negotiation Fees: Charged by the negotiating bank for discounting the documents and providing early payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1060c7b0-0375-ef11-8b71-a402b9460f22",
+      "name": "Payment Arrangement",
+      "description": "The LC specifies exact conditions under which the issuing bank will release payment to the beneficiary. These conditions must be met precisely for the payment to be made. Some of these conditions include:\r\n\r\n- Compliance with Documentation Requirements: The seller must provide all required documents in a format that matches the exact terms of the LC (e.g., matching descriptions, values, and dates).\r\n\r\n- Shipping Terms: The LC may specify delivery terms (e.g., CIF, FOB) or a specific delivery deadline.\r\n\r\n- Quality and Quantity of Goods: The goods must meet the specifications outlined in the sales contract and be confirmed through inspection reports, if required.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8287feb8-0375-ef11-8b71-a402b9460f22",
+      "name": "Termination Arrangement",
+      "description": "- Expiry Date: Every LC has an expiry date by which the beneficiary must present the documents to claim payment. If the documents are not presented by this date, the LC becomes void.\r\n\r\n- Automatic Termination: The LC automatically terminates when payment is made, the expiry date passes, or the underlying contract is fulfilled.\r\n\r\n- Early Termination: The LC may be canceled early if all parties (buyer, seller, and banks) agree to the termination, typically when the obligations are completed earlier than expected.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "aeb3eb79-1fbb-ec11-8387-064f8e36f7bd",
+  "title": "BankGuaranteeArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b0b3eb79-1fbb-ec11-8387-064f8e36f7bd",
+      "name": "Pricing Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1b3eb79-1fbb-ec11-8387-064f8e36f7bd",
+      "name": "Payment Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2b3eb79-1fbb-ec11-8387-064f8e36f7bd",
+      "name": "Collateral Arrangement",
+      "description": "- Collateral Requirement: The bank typically requires the applicant to provide some form of security (collateral) to back the guarantee. This can be in the form of cash, fixed assets, or other guarantees (such as personal or corporate guarantees).\r\n\r\n- Collateral Evaluation: The bank evaluates the applicants creditworthiness, the nature of the transaction, and the collaterals value before agreeing to issue the guarantee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3b3eb79-1fbb-ec11-8387-064f8e36f7bd",
+      "name": "Payout Arrangement",
+      "description": "A Bank Guarantee Payout refers to the process by which a bank, acting as the guarantor, pays the beneficiary a specified sum of money when the applicant (the party that requested the guarantee) fails to fulfill their obligations under a contract. It is essentially the bank fulfilling its promise to cover the default of its customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4bcd297d-ec74-ef11-8b71-a402b9460f22",
+      "name": "Fee Arrangement",
+      "description": "- Issuance Fee: The applicant pays a fee to the bank for issuing the guarantee, often a percentage of the guaranteed amount.\r\n\r\n- Annual Renewal Fee: If the guarantee is valid for a longer duration, there may be renewal fees, typically charged annually.\r\nOther Charges: There may be additional administrative or processing fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "175fcbe5-f274-ef11-8b71-a402b9460f22",
+      "name": "Termination Arrangement",
+      "description": "- Successful Fulfillment: The guarantee is canceled once the applicant fulfills their contractual obligations, and the beneficiary provides a release letter to the bank.\r\n\r\n- Claim and Payout: If the applicant defaults and the bank pays out the guarantee, the guarantee is terminated upon payment, though the applicant remains liable to the bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

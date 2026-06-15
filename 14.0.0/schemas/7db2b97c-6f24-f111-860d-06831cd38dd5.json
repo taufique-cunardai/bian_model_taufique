@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7db2b97c-6f24-f111-860d-06831cd38dd5",
+  "title": "UnderwritingFeeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "76844b89-6f24-f111-860d-06831cd38dd5",
+      "name": "Fixed Fee",
+      "description": "A pre-agreed flat amount paid to the underwriter regardless of the total issue size or proceeds.\r\n\r\nComment:\r\nExample:\r\nAlphaBank charges a fixed fee of €500,000 for managing a €100M bond issuance, irrespective of the number of bonds sold.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e724d5a3-6f24-f111-860d-06831cd38dd5",
+      "name": "Percentage-Based Fee",
+      "description": "Calculated as a percentage of the total underwritten amount, incentivizing the underwriter to maximize subscription and manage risk efficiently.\r\n\r\nComment:\r\nExample:\r\nFor a €500M bond issuance, AlphaBank charges 0.5% as the underwriting fee → €2,500,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "db1fbcaf-6f24-f111-860d-06831cd38dd5",
+      "name": "Tiered Fee",
+      "description": "The fee varies based on thresholds of the underwritten amount. Larger deals may pay lower percentages for higher amounts.\r\n\r\nComment:\r\nExample:\r\n\r\nFirst €100M: 0.6% fee\r\n\r\nNext €200M: 0.5% fee\r\n\r\nAbove €300M: 0.4% fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2feac3c2-6f24-f111-860d-06831cd38dd5",
+      "name": "Success-Based Fee",
+      "description": "The fee is paid only if the issuance is successfully subscribed or certain milestones are met.\r\n\r\nComment:\r\nExample:\r\nBetaBank charges 0.5% of underwritten bonds only if the minimum subscription of €400M is achieved.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ed90ce9-6f24-f111-860d-06831cd38dd5",
+      "name": "Embedded Fee",
+      "description": "The fee is included in the difference between the issue price and the offer price (the spread/margin). The underwriter earns indirectly through the profit from resale.\r\n\r\nComment:\r\nExample:\r\nIssue price: €99.50, Offer price: €100 → €0.50 per bond is earned as fee/profit by the underwriter.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b4b3cfab-c638-f111-bb11-0a0f15d787ad",
+  "title": "TaxAccrualMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fec01e06-c838-f111-bb11-0a0f15d787ad",
+      "name": "Periodic Tax Accrual",
+      "description": "Tax is accrued at regular intervals\r\n\r\nComment:\r\nExample (daily accrual)\r\nDaily interest: €10\r\nTax rate: 30%→\r\n Daily tax accrual = €3\r\n\r\nAfter 5 days:→\r\n Accrued tax = €15",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a0e8c011-c838-f111-bb11-0a0f15d787ad",
+      "name": "Event-Based Tax Accrual",
+      "description": "Tax is accrued only when a specific event occurs\r\n\r\nComment:\r\nExample\r\nInterest is paid monthly\r\nTax applied only at payment date\r\n→\r\n No daily accrual→\r\n Full tax accrued at once at month-end",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fdbfd42-c838-f111-bb11-0a0f15d787ad",
+      "name": "Deferred Tax Accrual",
+      "description": "Tax is calculated but not accrued until a later trigger\r\n\r\nComment:\r\nExample\r\nTax calculated monthly\r\nAccrued only at maturity of deposit\r\n→\r\n Accumulation happens at the end, not during the period",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de4e5055-c838-f111-bb11-0a0f15d787ad",
+      "name": "Continuous Tax Accrual",
+      "description": "Tax accrues continuously along with the underlying amount (e.g., interest)\r\n\r\nComment:\r\nExample\r\nLoan interest accrues daily\r\nTax on interest also accrues daily\r\n→\r\n Tax grows in sync with interest",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dfeb0565-c838-f111-bb11-0a0f15d787ad",
+      "name": "Threshold-Based Tax Accrual",
+      "description": "Tax accrues only when a minimum threshold is reached\r\n\r\nComment:\r\nExample\r\nTax applied only if interest > €100\r\nDay 19: interest < €100 → no accrual\r\nDay 10: interest = €120 → tax starts accruing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

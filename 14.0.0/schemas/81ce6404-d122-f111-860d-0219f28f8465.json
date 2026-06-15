@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "81ce6404-d122-f111-860d-0219f28f8465",
+  "title": "DebitApplicationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3752fe1b-d122-f111-860d-0219f28f8465",
+      "name": "Automatic Debit Application",
+      "description": "Debit features are applied automatically without customer intervention whenever conditions are met.\r\n\r\nComment:\r\nExample: Overdraft protection activates automatically when the account balance is insufficient.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ba77833-d122-f111-860d-0219f28f8465",
+      "name": "Manual Debit Application",
+      "description": "Debit features are applied only when requested by the customer.\r\n\r\nComment:\r\nExample: Customer manually activates cashback rewards or initiates a special debit transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9fa0d747-d122-f111-860d-0219f28f8465",
+      "name": "Conditional Debit Application",
+      "description": "Debit features are applied only if specific conditions or rules are satisfied.\r\n\r\nComment:\r\nExample: Daily withdrawal limit increases during promotional periods or for premium account holders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2388c25a-d122-f111-860d-0219f28f8465",
+      "name": "Scheduled Debit Application",
+      "description": "Debit features are applied at predefined times or intervals.\r\n\r\nComment:\r\nExample: Monthly interest on negative balances is applied at month-end.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e387e79-d122-f111-860d-0219f28f8465",
+      "name": "Sequential Debit Application",
+      "description": "Determines the order in which multiple debit features are applied when multiple rules are relevant.\r\n\r\nComment:\r\nExample: Scheduled bill payments are prioritized over ad-hoc payments if funds are insufficient.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0db0798a-d122-f111-860d-0219f28f8465",
+      "name": "Exception Debit Application",
+      "description": "Debit features are applied differently under special conditions, overriding standard rules.\r\nExample: Waiving daily limits or fees for emergency transactions or VIP customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

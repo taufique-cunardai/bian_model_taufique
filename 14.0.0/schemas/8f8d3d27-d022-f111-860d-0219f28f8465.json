@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8f8d3d27-d022-f111-860d-0219f28f8465",
+  "title": "DebitPaymentModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f474d342-d022-f111-860d-0219f28f8465",
+      "name": "Real-Time Payment Modality",
+      "description": "Payments are executed and settled instantly when initiated.\r\n\r\nComment:\r\nExample: Debit card purchase at a store or instant mobile wallet transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e12c857-d022-f111-860d-0219f28f8465",
+      "name": "Scheduled Payment Modality",
+      "description": "ayments are initiated on a specified future date rather than immediately.\r\n\r\nComment:\r\nExample: Pre-scheduled utility bill or loan repayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b2e1969-d022-f111-860d-0219f28f8465",
+      "name": "Standing Order Payment Modality",
+      "description": "Payments that repeat automatically at regular intervals according to a predefined schedule.\r\n\r\nComment:\r\nExample: Monthly subscription fees or rent payments debited automatically.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "274e4c76-d022-f111-860d-0219f28f8465",
+      "name": "Batch Payment Modality",
+      "description": "Multiple payments are grouped and processed together at specific intervals.\r\n\r\nComment:\r\nExample: Payroll debits or bulk vendor payments processed overnight.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d886585-d022-f111-860d-0219f28f8465",
+      "name": "P2P Payment Modality",
+      "description": "Peer-to-Peer (P2P) Payment Modality: Payments directly transferred between individuals using debit accounts, often via apps or online banking.\r\n\r\nComment:\r\nExample: Sending money to a friend via a banking app using your debit account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a9bc69b-d022-f111-860d-0219f28f8465",
+      "name": "POS Payment Modality",
+      "description": "Point-of-Sale (POS) Payment Modality: Payments made in-person using a debit card at a merchant location.\r\n\r\nComment:\r\nExample: Swipe, tap, or insert debit card for in-store purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f8f60ae-d022-f111-860d-0219f28f8465",
+      "name": "Direct Debit Modality",
+      "description": "Automated Clearing House (ACH) / Direct Debit Modality  Payments initiated electronically via authorization to pull funds from the debit account.\r\n\r\nComment:\r\nExample: Direct debit for utility bills or insurance premiums.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad100ec3-d022-f111-860d-0219f28f8465",
+      "name": "Conditional Payment Modality",
+      "description": "Exception / Conditional Payment Modality: Payments executed under special conditions or with modifications to standard rules.\r\n\r\nComment:\r\nExample: Fee-waived payments during promotions or emergency fund transfers with priority processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

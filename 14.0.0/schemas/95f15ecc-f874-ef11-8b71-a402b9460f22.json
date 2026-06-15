@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "95f15ecc-f874-ef11-8b71-a402b9460f22",
+  "title": "LetterOfCreditInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7724c0db-f874-ef11-8b71-a402b9460f22",
+      "name": "Applicant (Buyer)",
+      "description": "The party requesting the Letter of Credit, usually the buyer or importer. The applicant arranges for the issuing bank to provide the LC to guarantee payment to the seller.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60f767e7-f874-ef11-8b71-a402b9460f22",
+      "name": "Beneficiary (Seller)",
+      "description": "The party in whose favor the LC is issued, typically the seller or exporter. The beneficiary is assured of payment once they present the required documents that comply with the LC terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f60dfdfe-f874-ef11-8b71-a402b9460f22",
+      "name": "Issuing Bank",
+      "description": "The bank of the applicant (buyer) that issues the LC. It commits to paying the beneficiary once the terms of the LC are met.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9663e30e-f974-ef11-8b71-a402b9460f22",
+      "name": "Advising Bank",
+      "description": "A bank (usually in the sellers country) that receives the LC from the issuing bank and informs (advises) the beneficiary of its terms. It may or may not take on additional responsibilities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

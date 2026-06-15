@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a0d03e5a-8f1c-f111-8608-0adbd3442159",
+  "title": "CashTransferPaymentModalityTypeValues",
+  "description": "A payment method where funds are transferred electronically between banks through secure financial networks.\r\n\r\nComment:\r\nExample:\r\n\r\nSending €10,000 internationally through bank wire.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2dd4e3c0-8f1c-f111-8608-0adbd3442159",
+      "name": "Account-to-Account Payment Modality",
+      "description": "A payment method where funds are debited from the payers bank account and credited directly to the beneficiarys bank account.\r\n\r\nComment:\r\nExample:\r\n\r\nCustomer transfers €500 from their checking account to another persons savings account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d69ab9d4-8f1c-f111-8608-0adbd3442159",
+      "name": "Cash Payment Modality",
+      "description": "A payment method where the payer provides physical cash to initiate the transfer, and the beneficiary may receive funds in cash or in an account.\r\n\r\nComment:\r\nExample:\r\n\r\nCustomer deposits €1,000 cash at a branch to send money to another person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1c104e7-8f1c-f111-8608-0adbd3442159",
+      "name": "Card Payment Modality",
+      "description": "A payment method where the transfer is initiated using a debit or credit card.\r\n\r\nComment:\r\nExample:\r\n\r\nSending money through a mobile app using a debit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9d2fbf6-8f1c-f111-8608-0adbd3442159",
+      "name": "Direct Debit Payment Modality",
+      "description": "A payment method where the beneficiary (payee) is authorized to collect funds directly from the payers account.\r\n\r\nComment:\r\nExample:\r\n\r\nUtility company automatically debits €120 for electricity bills.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91e94705-901c-f111-8608-0adbd3442159",
+      "name": "Standing Order Payment Modality",
+      "description": "A payment method where the payer instructs the bank to automatically transfer a fixed amount at regular intervals.\r\n\r\nComment:\r\nExample:\r\n\r\nMonthly €800 rent payment automatically transferred to landlord.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff461612-901c-f111-8608-0adbd3442159",
+      "name": "Instant Payment Modality",
+      "description": "A payment method where funds are transferred and made available to the recipient almost immediately.\r\n\r\nComment:\r\nExample:\r\n\r\nSending €50 through an instant payment system, received within seconds.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56812b24-901c-f111-8608-0adbd3442159",
+      "name": "Wire Transfer Payment Modality",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "189b652e-901c-f111-8608-0adbd3442159",
+      "name": "Digital Wallet Payment Modality",
+      "description": "A payment method where transfers are initiated through mobile applications or digital wallets.\r\n\r\nComment:\r\nExample:\r\n\r\nSending money using a mobile banking app or digital wallet.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

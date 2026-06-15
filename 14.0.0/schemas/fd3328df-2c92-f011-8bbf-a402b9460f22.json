@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fd3328df-2c92-f011-8bbf-a402b9460f22",
+  "title": "DiscountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b83776e5-2c92-f011-8bbf-a402b9460f22",
+      "name": "Percentage Discount",
+      "description": "Reduces the standard price by a fixed percentage (e.g., 10% off).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba3776e5-2c92-f011-8bbf-a402b9460f22",
+      "name": "Fixed Amount Discount",
+      "description": "Reduces the price by a fixed monetary value (e.g., $5 off).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bb3776e5-2c92-f011-8bbf-a402b9460f22",
+      "name": "Fee Waiver",
+      "description": "Eliminates a specific fee entirely (e.g., no account maintenance fee).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc3776e5-2c92-f011-8bbf-a402b9460f22",
+      "name": "Tiered/Volume Discount",
+      "description": "Discount depends on volume, balances, or transaction count.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd3776e5-2c92-f011-8bbf-a402b9460f22",
+      "name": "Promotional/Time-bound",
+      "description": "Temporary discount applied for a defined period (e.g., 3-month offer).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

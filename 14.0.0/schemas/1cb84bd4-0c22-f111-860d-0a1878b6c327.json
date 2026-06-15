@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1cb84bd4-0c22-f111-860d-0a1878b6c327",
+  "title": "DebitTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1758eaee-0c22-f111-860d-0a1878b6c327",
+      "name": "Cash Withdrawal Transaction",
+      "description": "An action where funds are removed in cash from the account, typically via ATM or teller.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "825afdfa-0c22-f111-860d-0a1878b6c327",
+      "name": "POS Payment Transaction",
+      "description": "An action where funds are debited to pay for goods or services at a merchant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c83dbf21-0d22-f111-860d-0a1878b6c327",
+      "name": "Bill Payment Transaction",
+      "description": "An action where funds are debited to pay bills, subscriptions, or online purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce956e91-0d22-f111-860d-0a1878b6c327",
+      "name": "Transfer Transaction",
+      "description": "An action where funds are moved from one account to another, either within the same bank or externally.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7268d19b-0d22-f111-860d-0a1878b6c327",
+      "name": "Standing Order Transaction",
+      "description": "An action where a recurring debit is made automatically at predefined intervals for a fixed amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5f7eaad-0d22-f111-860d-0a1878b6c327",
+      "name": "Direct Debit Transaction",
+      "description": "An action where funds are automatically debited by a third party with prior authorization.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26b1a2b7-0d22-f111-860d-0a1878b6c327",
+      "name": "Fee Transaction",
+      "description": "An action where the bank deducts fees such as maintenance, overdraft, or transaction charges.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1e07bc4-0d22-f111-860d-0a1878b6c327",
+      "name": "Penalty Transaction",
+      "description": "An action where funds are debited as a penalty for non-compliance with account terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e699f9cd-0d22-f111-860d-0a1878b6c327",
+      "name": "Reversal Adjustment Transaction",
+      "description": "An action where a previous debit is corrected or reversed, returning funds to the account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

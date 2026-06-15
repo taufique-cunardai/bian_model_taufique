@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9b7a2a17-841c-f111-8608-0adbd3442159",
+  "title": "CashTransferTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a2155e86-841c-f111-8608-0adbd3442159",
+      "name": "Transfer Limit Condition",
+      "description": "Rules defining maximum and minimum amounts for a single transfer, daily transfers, or cumulative periods.\r\n\r\nComment:\r\nExamples:\r\n\r\nMax €5,000 per transaction\r\n\r\nDaily cumulative limit of €10,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51f6fef3-841c-f111-8608-0adbd3442159",
+      "name": "Processing Time Condition",
+      "description": "Rules specifying the latest time for processing transfers for same-day execution and expected completion times.\r\n\r\nComment:\r\nExamples:\r\n\r\nTransfers submitted after 5 PM are processed the next business day\r\n\r\nInternational wire: 13 business days processing time",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1be7f302-851c-f111-8608-0adbd3442159",
+      "name": "Fee and Charge Condition",
+      "description": "Rules defining fees, commissions, or service charges applied to the transfer.\r\n\r\nComment:\r\nExamples:\r\n\r\nDomestic transfer fee: €2\r\n\r\nInternational wire fee: €15 + currency conversion cost",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33db7211-851c-f111-8608-0adbd3442159",
+      "name": "Currency Condition",
+      "description": "Rules for handling currencies, exchange rates, and conversion costs for transfers in foreign currencies.\r\n\r\nComment:\r\nExamples:\r\n\r\nCurrency conversion based on banks daily rate\r\n\r\nOnly supported currencies can be used",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a56f9220-851c-f111-8608-0adbd3442159",
+      "name": "Approval Condition",
+      "description": "Rules defining who must approve the transfer, authentication requirements, and limits requiring additional signatories.\r\n\r\nComment:\r\nExamples:\r\n\r\nTwo-factor authentication required\r\n\r\nManager approval for transfers > €10,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "962bcc2a-851c-f111-8608-0adbd3442159",
+      "name": "Eligibility Condition",
+      "description": "Rules ensuring transfers comply with legal, regulatory, or bank policy requirements.\r\n\r\nComment:\r\nExamples:\r\n\r\nKYC (Know Your Customer) verification must be completed\r\n\r\nAML (Anti-Money Laundering) checks mandatory\r\n\r\nTransfers blocked for sanctioned accounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f70f2039-851c-f111-8608-0adbd3442159",
+      "name": "Cancellation Condition",
+      "description": "Rules governing when and how transfers can be reversed or canceled.\r\n\r\nComment:\r\nExamples:\r\n\r\nTransfers canceled only before cut-off time\r\n\r\nReversal allowed in case of duplicate payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15bd064e-851c-f111-8608-0adbd3442159",
+      "name": "Settlement Condition",
+      "description": "Rules specifying how funds are debited, credited, and settled between accounts or banks.\r\n\r\nComment:\r\nExamples:\r\n\r\nReal-time debit and credit for instant transfers\r\n\r\nT+1 settlement for domestic ACH transfers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa100b57-851c-f111-8608-0adbd3442159",
+      "name": "Notification Condition",
+      "description": "Rules for notifying parties about transfer status, confirmations, and errors.\r\n\r\nComment:\r\nExamples:\r\n\r\nSMS/email alert on completion\r\n\r\nDaily transfer report for corporate customers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0eb5e56b-851c-f111-8608-0adbd3442159",
+      "name": "Risk Condition",
+      "description": "Rules defining responsibility and liability in case of errors, delays, or fraud.\r\n\r\nComment:\r\nExamples:\r\n\r\nBank liable for errors in processing\r\n\r\nCustomer liable for incorrect beneficiary details",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

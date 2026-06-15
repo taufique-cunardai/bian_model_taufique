@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b03c97a2-5d46-ee11-8b35-a402b9460f22",
+  "title": "DirectDebitFrequencyValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b23c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Annual",
+      "description": "Event takes place every year or once a year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b33c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Monthly",
+      "description": "Event takes place every month or once a month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b43c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Quarterly",
+      "description": "Event takes place every three months or four times a year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b63c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Weekly",
+      "description": "Event takes place once a week.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b73c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Daily",
+      "description": "Event takes place every day.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b83c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Adhoc",
+      "description": "Event takes place on request or as necessary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc3c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Fortnightly",
+      "description": "Event takes place every two weeks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c33c97a2-5d46-ee11-8b35-a402b9460f22",
+      "name": "Hourly",
+      "description": "Event takes place every hours.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "900affe5-5d46-ee11-8b35-a402b9460f22",
+      "name": "Half-yearly",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

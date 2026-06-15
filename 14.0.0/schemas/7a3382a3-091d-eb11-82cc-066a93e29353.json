@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7a3382a3-091d-eb11-82cc-066a93e29353",
+  "title": "ATM-NetworkOperatingSessionFunctionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b2c53fb0-091d-eb11-82cc-066a93e29353",
+      "name": "Network Operation",
+      "description": "Handle the scheduled operation of the ATM network, load-balancing communication devices and detecting outages/errors",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87550fcb-091d-eb11-82cc-066a93e29353",
+      "name": "Device Tracking",
+      "description": "Track the status of ATM devices, tracking available cash and non-cash inventory to support distribution planning",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ee4b5f9-091d-eb11-82cc-066a93e29353",
+      "name": "Cash Distribution",
+      "description": "Handle the physical cash inventory deposited and available for withdrawal at the ATMs",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2aa76be-0a1d-eb11-82cc-066a93e29353",
+      "name": "Financial Document Handling",
+      "description": "Handle the generation and capture of documentation associated with financial transactions executed at the ATM",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ced04deb-0a1d-eb11-82cc-066a93e29353",
+      "name": "Financial Transaction Capture",
+      "description": "Handle the routing of financial transactions initiated through the ATM channel/device",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

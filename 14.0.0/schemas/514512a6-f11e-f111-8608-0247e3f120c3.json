@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "514512a6-f11e-f111-8608-0247e3f120c3",
+  "title": "BookingProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d020cdd0-f11e-f111-8608-0247e3f120c3",
+      "name": "Account Booking Feature",
+      "description": "A booking feature that records the creation or registration of a financial entry in a specific account.\r\n\r\nComment:\r\nExample:\r\n\r\nBooking a deposit into a savings account\r\n\r\nRecording a loan disbursement into a customer account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0c028db-f11e-f111-8608-0247e3f120c3",
+      "name": "Transaction Booking Feature",
+      "description": "A booking feature that records a specific financial transaction associated with a banking product.\r\n\r\nComment:\r\nExample:\r\n\r\nBooking a fund transfer between accounts\r\n\r\nBooking a card payment transaction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "809410e2-f11e-f111-8608-0247e3f120c3",
+      "name": "Commitment Booking Feature",
+      "description": "A booking feature used to record financial commitments or obligations that will result in future transactions.\r\n\r\nComment:\r\nExample:\r\n\r\nBooking a loan commitment before disbursement\r\n\r\nBooking a credit line approval",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3dd22e03-f21e-f111-8608-0247e3f120c3",
+      "name": "Reservation Booking Feature",
+      "description": "A booking feature that temporarily reserves or earmarks funds for a future transaction.\r\n\r\nComment:\r\nExample:\r\n\r\nReserving funds for a card authorization\r\n\r\nBooking a hold on a deposit for a pending payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "002f1210-f21e-f111-8608-0247e3f120c3",
+      "name": "Installment Booking Feature",
+      "description": "A booking feature that records scheduled payments or installments associated with a financial product.\r\n\r\nComment:\r\nExample:\r\n\r\nBooking monthly loan repayments\r\n\r\nBooking installment payments for a credit purchase",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0589531f-f21e-f111-8608-0247e3f120c3",
+      "name": "Contract Booking Feature",
+      "description": "A booking feature that records the financial contract or agreement associated with a banking product.\r\n\r\nComment:\r\nExample:\r\n\r\nBooking a loan agreement\r\n\r\nBooking a deposit contract",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5c98f55-f21e-f111-8608-0247e3f120c3",
+      "name": "Allocation Booking Feature",
+      "description": "A booking feature that records how a financial amount is distributed across accounts, products, or obligations.\r\n\r\nComment:\r\nExample:\r\n\r\nAllocating a payment across principal, interest, and fees in a loan\r\n\r\nDistributing a deposit into multiple sub-accounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

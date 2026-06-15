@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9ba3ed51-9c55-eb11-82e3-06afd984332d",
+  "title": "ArrangementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "888ca567-9c55-eb11-82e3-06afd984332d",
+      "name": "Party is Obligee in Arrangement",
+      "description": "A person to whom an obligation is owed under a contract or other legal procedure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d63fb36d-9c55-eb11-82e3-06afd984332d",
+      "name": "Party is Obligor in Arrangement",
+      "description": "A person who owes or undertakes an obligation to another by contract or other legal procedure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

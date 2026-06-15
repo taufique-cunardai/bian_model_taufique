@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d773f9b0-831c-f111-8608-0adbd3442159",
+  "title": "CashTransferServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ea08f3cd-831c-f111-8608-0adbd3442159",
+      "name": "Fund Movement",
+      "description": "Transfers money between accounts, customers, or financial institutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f108f3cd-831c-f111-8608-0adbd3442159",
+      "name": "International Transfer Service",
+      "description": "Transfers of money between parties in different countries.\r\n\r\nComment:\r\nExamples:\r\n\r\nSWIFT Transfers  banks sending money internationally using the SWIFT network.\r\n\r\nWestern Union or MoneyGram  cash-based remittances to other countries.\r\n\r\nWise (formerly TransferWise)  online platform offering cheaper currency exchange and transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b23bcdc-831c-f111-8608-0adbd3442159",
+      "name": "Mobile Money Transfer Service",
+      "description": "Transfers made via mobile wallets or mobile banking apps, often without needing a traditional bank account.\r\n\r\nComment:\r\nExamples:\r\n\r\nM-Pesa in Kenya  users send and receive money via mobile phones.\r\n\r\nGCash in the Philippines  mobile wallet for transfers and payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a023bcdc-831c-f111-8608-0adbd3442159",
+      "name": "Remittance Transfer Service",
+      "description": "Transfers where the recipient receives cash at a designated location, instead of into a bank account.\r\n\r\nComment:\r\nExamples:\r\n\r\nWestern Union Cash Pickup  recipient collects cash at an agent location.\r\n\r\nMoneyGram  allows worldwide cash pickups.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad0fc5e7-831c-f111-8608-0adbd3442159",
+      "name": "Transfer Processing",
+      "description": "Handles the initiation, authorization, and settlement of transfer transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e333d2ed-831c-f111-8608-0adbd3442159",
+      "name": "Card-Based Transfer Service",
+      "description": "Transfers using debit or credit cards, often through online services or ATMs.\r\n\r\nComment:\r\nExamples:\r\n\r\nVisa Direct  sends money directly to a recipients debit card.\r\n\r\nMastercard Send  instant person-to-person or business-to-consumer payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d5ad3f3-831c-f111-8608-0adbd3442159",
+      "name": "Cryptocurrency Transfer Service",
+      "description": "Digital currency transfers using blockchain networks.\r\n\r\nComment:\r\nExamples:\r\n\r\nSending Bitcoin or Ethereum between wallets.\r\n\r\nUsing USDT (Tether) for stable-value transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "92cd6001-861c-f111-8608-0adbd3442159",
+      "name": "Notification Transfer Service",
+      "description": "Notification Cash Transfer Service is a service where the bank or financial system sends alerts or notifications to the parties involved in a cash transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72da46d6-f21e-f111-8608-0247e3f120c3",
+      "name": "Account Verification",
+      "description": "Ensures the senders account has sufficient funds and validates the recipients account details.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "545863df-f21e-f111-8608-0247e3f120c3",
+      "name": "Security and Authorization",
+      "description": "Applies authentication, fraud detection, and approval mechanisms to ensure secure transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6faab40f-f31e-f111-8608-0247e3f120c3",
+      "name": "Security and Authorization",
+      "description": "Applies authentication, fraud detection, and approval mechanisms to ensure secure transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45aa551e-f31e-f111-8608-0247e3f120c3",
+      "name": "Transaction Tracking and Reporting",
+      "description": "Records transfer details for monitoring, reconciliation, and regulatory reporting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

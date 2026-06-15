@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4bfb619c-621c-f111-8608-0adbd3442159",
+  "title": "CashTransferInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c80d584c-6e1c-f111-8608-0adbd3442159",
+      "name": "Payer",
+      "description": "Payer (Sender) The party initiating the cash transfer to fulfill a financial obligation or make a payment.\r\n\r\nComment:\r\nExample:\r\nA customer sending €500 to pay a supplier.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a71a205b-6e1c-f111-8608-0adbd3442159",
+      "name": "Payee",
+      "description": "Payee (Receiver / Beneficiary) The party receiving the funds from the transfer.\r\n\r\nComment:\r\nExample:\r\nA supplier receiving €500 for goods delivered.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca22207c-6e1c-f111-8608-0adbd3442159",
+      "name": "Bank",
+      "description": "Bank or Financial Institution (Sending Bank) The bank that executes the transfer on behalf of the payer.\r\n\r\nComment:\r\nExample:\r\nBank A processes a domestic wire transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "35f0998b-6e1c-f111-8608-0adbd3442159",
+      "name": "Intermediary Bank",
+      "description": "Receiving Bank or Intermediary Bank: The bank that receives the transferred funds and credits the payee, especially in external or international transfers.\r\n\r\nComment:\r\nExample:\r\nBank B in another country receiving international remittance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1082aa4-6e1c-f111-8608-0adbd3442159",
+      "name": "Payment Processor",
+      "description": "An intermediary or network that facilitates the transfer, clearing, and settlement of funds.\r\n\r\nComment:\r\nExample:\r\nSWIFT network for international wire transfers\r\nSEPA for European euro transfers\r\nAutomated Clearing House (ACH) for batch transfers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
