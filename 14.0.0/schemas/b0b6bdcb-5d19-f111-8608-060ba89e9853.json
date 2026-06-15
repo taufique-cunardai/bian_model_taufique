@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b0b6bdcb-5d19-f111-8608-060ba89e9853",
+  "title": "IncentivePaymentModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d6c02169-5e19-f111-8608-060ba89e9853",
+      "name": "Cash Payment Modality",
+      "description": "Specifies that the incentive is paid in cash or direct monetary transfer to the participants account.\r\n\r\nComment:\r\nExample:\r\nA €500 quarterly performance bonus transferred to an employees bank account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "435afb75-5e19-f111-8608-060ba89e9853",
+      "name": "Bank Transfer Modality",
+      "description": "Specifies that incentive payments are made via direct bank transfer.\r\n\r\nComment:\r\nExample:\r\nCashback reward credited directly to a customers checking account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a771f8f-5e19-f111-8608-060ba89e9853",
+      "name": "Cheque Payment Modality",
+      "description": "Specifies that incentives are paid via cheque or bank draft, which must be deposited or cashed by the participant.\r\n\r\nComment:\r\nExample:\r\nSales contest winner receives a cheque for €1,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86da09d4-5e19-f111-8608-060ba89e9853",
+      "name": "Voucher Payment Modality",
+      "description": "Voucher / Coupon Payment Modality specifies that the incentive is delivered as a voucher, gift card, or coupon instead of cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4a632e9-5e19-f111-8608-060ba89e9853",
+      "name": "Point Payment Modality",
+      "description": "Points / Loyalty Program Modality specifies that incentives are credited as points in a loyalty or rewards program.\r\n\r\nComment:\r\nExample:\r\nCustomer earns 500 reward points for using a credit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c077300f-5f19-f111-8608-060ba89e9853",
+      "name": "Scheduled Payment Modality",
+      "description": "Deferred / Scheduled Payment Modality specifies that incentive payment is delayed or scheduled to be paid at a later date.\r\n\r\nComment:\r\nExample:\r\nAnnual sales bonus paid after fiscal year-end.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b9f392f-5f19-f111-8608-060ba89e9853",
+      "name": "Conditional Payment Modality",
+      "description": "Conditional / Performance-Based Payment Modality specifies that payment depends on meeting specific conditions, targets, or performance criteria\r\n\r\nComment:\r\nExample:\r\nSales incentive paid only if 120% of target sales is achieved..",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

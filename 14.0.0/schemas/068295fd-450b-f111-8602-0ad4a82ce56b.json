@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "068295fd-450b-f111-8602-0ad4a82ce56b",
+  "title": "BurnMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dace8106-460b-f111-8602-0ad4a82ce56b",
+      "name": "Real-Time Burn",
+      "description": "Incentives deducted and fulfilled instantly.\r\n\r\nComment:\r\nExample: Immediate cashback conversion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59622621-460b-f111-8602-0ad4a82ce56b",
+      "name": "Batch Burn",
+      "description": "Redemptions processed at scheduled intervals.\r\n\r\nComment:\r\nExample: Monthly cashback payout.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "35ca3a31-460b-f111-8602-0ad4a82ce56b",
+      "name": "Manual Burn",
+      "description": "Redemption processed by an operator.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e021b03b-460b-f111-8602-0ad4a82ce56b",
+      "name": "Provisional Burn",
+      "description": "Temporary deduction pending confirmation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f9105d44-460b-f111-8602-0ad4a82ce56b",
+      "name": "Partner-Integrated Burn",
+      "description": "Requires external partner system validation and confirmation.\r\n\r\nComment:\r\nExample: Airline miles transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "31155656-460b-f111-8602-0ad4a82ce56b",
+      "name": "Auto-Burn",
+      "description": "Automatic deduction when a condition is met.\r\n\r\nComment:\r\nExample: Auto-apply points to statement balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91be9165-460b-f111-8602-0ad4a82ce56b",
+      "name": "Conditional Burn",
+      "description": "Executed only after eligibility or threshold validation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

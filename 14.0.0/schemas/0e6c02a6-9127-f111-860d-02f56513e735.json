@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0e6c02a6-9127-f111-860d-02f56513e735",
+  "title": "AmountBlockInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dc0ad7b2-9127-f111-860d-02f56513e735",
+      "name": "Customer",
+      "description": "The person or entity whose funds are being blocked or restricted for a specific purpose.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "902725c4-9127-f111-860d-02f56513e735",
+      "name": "Bank",
+      "description": "The bank that places and manages the block on the account, ensuring the specified amount cannot be used until released.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10044fdb-9127-f111-860d-02f56513e735",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee banking operations and ensure the block is legally enforceable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "23af8ea7-7444-f111-bb23-02b18526ecd1",
+      "name": "Beneficiary",
+      "description": "The person or organization for whom the blocked amount is reserved or secured (e.g., merchant, lender, or counterparty).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

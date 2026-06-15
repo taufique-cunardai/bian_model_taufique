@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4f4a4c8b-1e21-f111-860d-06839b636291",
+  "title": "RepaymentApplicationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8f815ea7-1e21-f111-860d-06839b636291",
+      "name": "Full Repayment Application",
+      "description": "The repayment amount is applied to fully settle the outstanding loan balance.\r\n\r\nComment:\r\nExample:\r\nA borrower pays the entire remaining loan amount and closes the loan account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bde818bb-1e21-f111-860d-06839b636291",
+      "name": "Partial Repayment Application",
+      "description": "Only part of the outstanding loan balance is applied, and the loan remains active.\r\n\r\nComment:\r\nExample:\r\nA borrower pays €500 toward a €10,000 loan balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f89d0ecb-1e21-f111-860d-06839b636291",
+      "name": "Installment Repayment Application",
+      "description": "Repayment is applied to cover a scheduled installment according to the repayment schedule.\r\n\r\nComment:\r\nExample:\r\nA monthly mortgage payment applied to the current installment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd82b9da-1e21-f111-860d-06839b636291",
+      "name": "Advance Repayment Application",
+      "description": "Repayment is applied before the scheduled due date, reducing future obligations.\r\n\r\nComment:\r\nExample:\r\nA borrower pays the next months loan installment in advance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d036d06-1f21-f111-860d-06839b636291",
+      "name": "Overdue Repayment Application",
+      "description": "Repayment is applied to clear overdue or past-due amounts first.\r\n\r\nComment:\r\nExample:\r\nA payment used to settle a missed loan installment from the previous month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4d85b2a-1f21-f111-860d-06839b636291",
+      "name": "Component-Specific Repayment Application",
+      "description": "Repayment is applied to a specific loan component such as principal, interest, fees, or penalties.\r\n\r\nComment:\r\nExample:\r\nA borrower pays only outstanding interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "012c2839-1f21-f111-860d-06839b636291",
+      "name": "Prepayment Repayment Application",
+      "description": "Repayment is applied toward reducing the principal earlier than scheduled, often shortening the loan term.\r\n\r\nComment:\r\nExample:\r\nA borrower makes a lump-sum payment to reduce the remaining loan balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1620f4b-1f21-f111-860d-06839b636291",
+      "name": "Settlement Repayment Application",
+      "description": "Repayment is applied to fully settle the loan including principal, interest, fees, and penalties, leading to loan closure.\r\n\r\nComment:\r\nExample:\r\nA borrower pays all outstanding amounts to terminate the loan contract.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

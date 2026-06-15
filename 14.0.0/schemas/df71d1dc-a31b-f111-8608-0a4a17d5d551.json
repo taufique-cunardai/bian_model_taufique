@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "df71d1dc-a31b-f111-8608-0a4a17d5d551",
+  "title": "RepaymentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5d2acdeb-a31b-f111-8608-0a4a17d5d551",
+      "name": "Scheduled Repayment",
+      "description": "Payment made according to the original loan or credit plan schedule.\r\n\r\nComment:\r\nExample: Monthly mortgage installment of €500 due on the 15th of each month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e06be04-a41b-f111-8608-0a4a17d5d551",
+      "name": "Early Repayment",
+      "description": "Payment made before the scheduled due date, partially or in full, to reduce principal.\r\n\r\nComment:\r\nExample: Borrower pays €5,000 toward a loan before the next scheduled installment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab56c917-a41b-f111-8608-0a4a17d5d551",
+      "name": "Partial Repayment",
+      "description": "Payment that covers only a portion of the scheduled amount.\r\n\r\nComment:\r\nExample: Monthly installment is €500, but the borrower pays €300.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "37d8762f-a41b-f111-8608-0a4a17d5d551",
+      "name": "Final Repayment",
+      "description": "Payment that completely settles the outstanding balance of the loan or credit plan.\r\n\r\nComment:\r\nExample: Last installment of €10,000 paid to close a term loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba1ded3d-a41b-f111-8608-0a4a17d5d551",
+      "name": "Interest-Only Repayment",
+      "description": "Payment covering interest due without reducing principal.\r\n\r\nComment:\r\nExample: €200 interest paid on a €10,000 loan; principal remains €10,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "900c6c50-a41b-f111-8608-0a4a17d5d551",
+      "name": "Penalty Repayment",
+      "description": "Fee or Penalty Repayment: Payment made to settle fees or penalties associated with the credit plan.\r\n\r\nExample: €25 late payment fee paid along with regular installment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "35dcd15d-a41b-f111-8608-0a4a17d5d551",
+      "name": "Rollover-Linked Repayment",
+      "description": "Payment associated with a rollover arrangement, adjusting principal, interest, or new schedule.\r\n\r\nComment:\r\nExample: Partial repayment of principal rolled into the new term after term deposit rollover.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

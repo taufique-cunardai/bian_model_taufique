@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1bed483e-cf5f-eb11-82e9-061efd29a677",
+  "title": "LoanInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1ced483e-cf5f-eb11-82e9-061efd29a677",
+      "name": "Loan Lender",
+      "description": "Party that has accepted under specific requirements to provide a monetary or securities loan to a borrower. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4827464b-cf5f-eb11-82e9-061efd29a677",
+      "name": "Loan Borrower",
+      "description": "Party that has applied, met specific requirements, and received a monetary or securities loan from a lender. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8b80a2a-f56a-eb11-82f6-0687cfa2c9e3",
+      "name": "Syndicate",
+      "description": "A syndicate is a temporary alliance formed by professionals to handle a large transaction that would be impossible to execute individually. https://www.investopedia.com/terms/s/syndicate.asp\r\n\r\nA syndicate is a self-organizing group of individuals, companies, corporations or entities formed to transact some specific business, to pursue or promote a shared interest.\r\nhttps://en.wikipedia.org/wiki/Syndicate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "21d1b89d-b63c-f111-bb11-0ada63c11f89",
+      "name": "Co-Borrower",
+      "description": "A person or entity that shares responsibility for repaying the loan together with the main borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34c81ca7-b63c-f111-bb11-0ada63c11f89",
+      "name": "Guarantor",
+      "description": "A person or organization that agrees to repay the loan if the borrower defaults.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f3f05cb0-b63c-f111-bb11-0ada63c11f89",
+      "name": "Collateral Provider",
+      "description": "The person or entity that provides assets as security for the loan, which may be the borrower or a third party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e5748bb-b63c-f111-bb11-0ada63c11f89",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee lending activities to ensure compliance, fairness, and financial stability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d05b641d-e642-f111-bb23-0206bbcf926f",
+      "name": "Supplier",
+      "description": "The person or organization that sells goods to the borrower, often indirectly linked because the loan finances these purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cb923397-1321-f111-860d-06839b636291",
+  "title": "RepaymentInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2a4d0504-1421-f111-860d-06839b636291",
+      "name": "Borrower",
+      "description": "Borrower (Debtor): The primary party responsible for repaying the loan according to the repayment terms and conditions.\r\n\r\nComment:\r\nExample:\r\nA customer who takes a personal loan and makes monthly repayments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aea07141-1521-f111-860d-06839b636291",
+      "name": "Lender",
+      "description": "Lender (Creditor): The financial institution or entity that provided the loan and receives the repayment.\r\n\r\nComment:\r\nExample:\r\nA bank receiving mortgage repayments from a borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ae8dfc5b-1521-f111-860d-06839b636291",
+      "name": "Co-Borrower",
+      "description": "A person who shares responsibility for repaying the loan along with the primary borrower.\r\n\r\nComment:\r\nExample:\r\nTwo spouses jointly repaying a home loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "82627b73-1521-f111-860d-06839b636291",
+      "name": "Guarantor",
+      "description": "A third party who agrees to repay the loan if the borrower fails to meet repayment obligations.\r\n\r\nComment:\r\nExample:\r\nA parent acting as guarantor for a student loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "520e26a9-1521-f111-860d-06839b636291",
+      "name": "Payer",
+      "description": "Payer / Payment Initiator: The person or entity that actually initiates the repayment transaction.\r\n\r\nComment:\r\nExample:\r\nAn employer deducting a loan installment from an employees salary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7dc865fa-1521-f111-860d-06839b636291",
+      "name": "Collection Agent",
+      "description": "An authorized entity responsible for collecting overdue repayments on behalf of the lender.\r\n\r\nComment:\r\nExample:\r\nA debt collection agency recovering missed loan payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e345015-1621-f111-860d-06839b636291",
+      "name": "Loan Servicer",
+      "description": "The organization responsible for managing loan administration, including repayment processing, statements, and account updates.\r\n\r\nComment:\r\nExample:\r\nA loan servicing company managing mortgage repayments for a bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

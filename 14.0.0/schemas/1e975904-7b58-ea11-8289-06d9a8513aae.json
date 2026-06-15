@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1e975904-7b58-ea11-8289-06d9a8513aae",
+  "title": "SurveyInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "641c4539-7b58-ea11-8289-06d9a8513aae",
+      "name": "Survey Participant",
+      "description": "The primary respondents who provide the data through their answers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "661c4539-7b58-ea11-8289-06d9a8513aae",
+      "name": "Survey Designer",
+      "description": "This party is responsible for creating the survey.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6331b8fc-a24a-ef11-8b66-a402b9460f22",
+      "name": "Survey Administrator",
+      "description": "Often responsible for distributing the survey and ensuring it reaches the intended audience.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "db4658b5-046a-ef11-8b6f-a402b9460f22",
+      "name": "Survey Executor",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

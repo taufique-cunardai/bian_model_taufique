@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "02fcad22-2038-ed11-83cc-068cb3dd0983",
+  "title": "GatewayTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b21f352a-2038-ed11-83cc-068cb3dd0983",
+      "name": "Network Gateway",
+      "description": "A network gateway is a device or node that connects disparate networks by translating communications from one protocol to another.\r\nhttps://www.cisco.com/c/en/us/products/routers/what-is-a-network-gateway.html",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3338d430-2038-ed11-83cc-068cb3dd0983",
+      "name": "Financial Gateway",
+      "description": "A System that supports the connection to \r\nfinancial networks that support interbank and financial institution connectivity.\r\n \r\nThis includes SWIFT, ACH gateways, and market regulatory reporting connections.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94647837-2038-ed11-83cc-068cb3dd0983",
+      "name": "Operational Gateway",
+      "description": "A Gateway to exchange information with external parties for non-financial messages/transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c54d5c52-2038-ed11-83cc-068cb3dd0983",
+      "name": "eCommerce Gateway",
+      "description": "A system for processing of e-commerce transactions for authentication, authorization and capture of the financial transactions.\r\n\r\nAn ecommerce payment gateway is a service that authorizes credit card payments and processes them securely with a users merchant account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

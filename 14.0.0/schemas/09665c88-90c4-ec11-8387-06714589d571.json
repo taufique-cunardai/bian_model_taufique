@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "09665c88-90c4-ec11-8387-06714589d571",
+  "title": "ISO20022GuarantyTypeValues",
+  "description": "Specifies the type of credit enhancement. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "24c59fa8-90c4-ec11-8387-06714589d571",
+      "name": "Simple",
+      "description": "Simple guaranty.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26c59fa8-90c4-ec11-8387-06714589d571",
+      "name": "Joint",
+      "description": "Joint guaranty.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27c59fa8-90c4-ec11-8387-06714589d571",
+      "name": "Collateral",
+      "description": "Security is guaranteed by collateral, ie, assets pledged to a lender until a loan is repaid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "28c59fa8-90c4-ec11-8387-06714589d571",
+      "name": "Government",
+      "description": "Security is guaranteed by the government.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29c59fa8-90c4-ec11-8387-06714589d571",
+      "name": "Lien",
+      "description": "Security is guaranteed by a lien, ie, a creditor's claim against property, for example, a mortgage is a lien against a house.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ac59fa8-90c4-ec11-8387-06714589d571",
+      "name": "LetterOfCredit",
+      "description": "Security is guaranteed by a letter of credit, ie, a document issued by a bank guaranteeing the payment up to a stated amount for a specified period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2bc59fa8-90c4-ec11-8387-06714589d571",
+      "name": "NegativePledge",
+      "description": "Security has a negative pledge, ie, the issuer will not pledge any assets if doing so would result in less security for the investors.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2cc59fa8-90c4-ec11-8387-06714589d571",
+      "name": "Insurance",
+      "description": "Security is guaranteed by an insurance policy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

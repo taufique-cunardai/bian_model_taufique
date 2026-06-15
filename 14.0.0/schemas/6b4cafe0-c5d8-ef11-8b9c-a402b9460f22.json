@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6b4cafe0-c5d8-ef11-8b9c-a402b9460f22",
+  "title": "TaxArrangementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "279789ed-c5d8-ef11-8b9c-a402b9460f22",
+      "name": "Tax Recipient",
+      "description": "Party that receives the tax. The recipient of, and the party entitled to, the tax may be two different parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a85bbfd-c5d8-ef11-8b9c-a402b9460f22",
+      "name": "Tax Payer",
+      "description": "Party that settles tax amounts. May be different from the tax debtor and tax creditor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8aee5c25-c6d8-ef11-8b9c-a402b9460f22",
+      "name": "Credit Side Tax Debtor",
+      "description": "Party on the credit side of the transaction to which the tax applies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba8e5d41-c6d8-ef11-8b9c-a402b9460f22",
+      "name": "Debit Side Tax Debtor",
+      "description": "Party on the debit side of the transaction to which the tax applies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

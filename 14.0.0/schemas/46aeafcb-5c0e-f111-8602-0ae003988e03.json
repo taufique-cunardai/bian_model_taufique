@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "46aeafcb-5c0e-f111-8602-0ae003988e03",
+  "title": "PayeeAliasTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7787c697-5e0e-f111-8602-0ae003988e03",
+      "name": "Payee Alias Usage Term",
+      "description": "Define how the alias can be used for payments.\r\n\r\nComment:\r\nAlias can only be used by the registered customer.\r\nAllowed transaction types (instant transfer, recurring payment, bulk payment).\r\nRestrictions on cross-border or high-risk payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0dd0fba9-5e0e-f111-8602-0ae003988e03",
+      "name": "Payee Alias Liability Term",
+      "description": "pecify responsibility in case of errors, fraud, or misuse.\r\n\r\nComment:\r\nBank is not liable if a payment is sent to the wrong alias due to customer error.\r\nCustomer is responsible for keeping alias information accurate.\r\nDispute resolution process in case of incorrect payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6bebd4bc-5e0e-f111-8602-0ae003988e03",
+      "name": "Payee Alias Security Term",
+      "description": "Rules to ensure safe use and compliance with regulations.\r\n\r\nComment:\r\nCustomer must maintain security of their login credentials.\r\nPayments via alias are subject to AML (Anti-Money Laundering) and fraud monitoring.\r\nBank may suspend or block aliases if suspicious activity is detected.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a36418c8-5e0e-f111-8602-0ae003988e03",
+      "name": "Payee Alias Modification Term",
+      "description": "Rules for changing or deactivating aliases.\r\n\r\nComment:\r\nCustomer can update or delete an alias.\r\nBank may deactivate an alias for security or regulatory reasons.\r\nEffective date and notice period for changes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0bc3f6d0-5e0e-f111-8602-0ae003988e03",
+      "name": "Payee Alias Notification Term",
+      "description": "How the bank communicates about alias usage.\r\n\r\nComment::\r\nAlerts for payments sent to or received from an alias.\r\nNotifications for failed or suspicious transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b8b3cdd-5e0e-f111-8602-0ae003988e03",
+      "name": "Payee Alias Regulatory Term",
+      "description": "Ensure the alias adheres to legal and regulatory requirements.\r\n\r\nComment::\r\nAlias usage must comply with local banking laws.\r\nCertain alias types may require KYC verification.\r\nAlias cannot be used for illegal activities (sanctions, fraud, or money laundering).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26118001-c310-f111-8602-02d28cff2161",
+      "name": "Payee Alias Eligibility Term",
+      "description": "Confirm that the alias is valid and controlled by the correct payee.\r\n\r\nComment::\r\nOTP (one-time password) sent to phone/email.\r\nLinking alias to a verified bank account.\r\nKYC verification required for certain alias types (corporate accounts, high-risk categories).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7596d347-7d93-ea11-8295-0678c1dc520e",
+  "title": "CampaignProcedureWorkstepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b9611858-7d93-ea11-8295-0678c1dc520e",
+      "name": "Candidate Selection",
+      "description": "The initial selection and confirmation of active customers that are to be included in the campaign",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39122661-7d93-ea11-8295-0678c1dc520e",
+      "name": "Execution",
+      "description": "Execution of the customer interaction, presenting the campaign details, recording the customer response",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a122661-7d93-ea11-8295-0678c1dc520e",
+      "name": "Analysis Feedback",
+      "description": "Analyzing the impact of the campaign and providing feedback to help refine/recalibrate the campaign specification",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e36c101d-fd1e-f111-8608-0247e3f120c3",
+  "title": "RepaymentTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1bf3c342-fd1e-f111-8608-0247e3f120c3",
+      "name": "Repayment Schedule Condition",
+      "description": "The timeline for repayment, e.g., monthly, quarterly, or a one-time lump sum.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cbed662-fd1e-f111-8608-0247e3f120c3",
+      "name": "Repayment Amount Condition",
+      "description": "The principal and interest amounts to be paid in each installment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64410175-fd1e-f111-8608-0247e3f120c3",
+      "name": "Interest Rate and Charge Condition",
+      "description": "The cost of borrowing and any additional fees",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4507b47f-fd1e-f111-8608-0247e3f120c3",
+      "name": "Prepayment Condition",
+      "description": "Whether early repayment is allowed and if any penalties apply",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfe1a08c-fd1e-f111-8608-0247e3f120c3",
+      "name": "Default and Late Payment Condition",
+      "description": "Consequences for missing payments, such as penalties, increased interest, or legal action.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ada8a297-fd1e-f111-8608-0247e3f120c3",
+      "name": "Mode of Repayment Condition",
+      "description": "Accepted payment methods, e.g., bank transfer, direct debit, or cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3549ffda-fd1e-f111-8608-0247e3f120c3",
+      "name": "Repayment Eligibility Condition",
+      "description": "Repayment eligibility refers to the criteria and conditions a borrower must meet to be allowed to make repayments on a loan or credit facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

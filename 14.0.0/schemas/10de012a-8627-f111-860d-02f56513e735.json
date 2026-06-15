@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "10de012a-8627-f111-860d-02f56513e735",
+  "title": "ComplianceArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c15caa34-8627-f111-860d-02f56513e735",
+      "name": "Regulatory Adherence Arrangement",
+      "description": "An arrangement that defines how a product or service complies with applicable laws, regulations, and regulatory frameworks.\r\n\r\nComment:\r\nFocus: External obligations\r\n\r\nIncludes:\r\nAML / CTF requirements\r\nSanctions compliance\r\nTax regulations (e.g., CRS, FATCA)\r\nData protection laws",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2a62568-8627-f111-860d-02f56513e735",
+      "name": "Customer Compliance Arrangement",
+      "description": "An arrangement that defines the obligations and responsibilities of the customer to enable regulatory compliance.\r\n\r\nComment:\r\nFocus: Customer duties\r\n\r\nIncludes:\r\nKYC / KYB information provision\r\nRepresentations and warranties (e.g., not sanctioned)\r\nOngoing disclosure obligations\r\nNotification of changes (ownership, control, status)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d402e7d-8627-f111-860d-02f56513e735",
+      "name": "Monitoring & Control Arrangement",
+      "description": "An arrangement that establishes the mechanisms and rules for monitoring activities and detecting non-compliance or risk.\r\n\r\nComment:\r\nFocus: Detection and prevention\r\n\r\nIncludes\r\nTransaction monitoring rules\r\nRisk scoring models\r\nAlert generation and investigation triggers\r\nFraud and AML detection controls",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "388b4791-8627-f111-860d-02f56513e735",
+      "name": "Reporting & Regulatory Interaction Arrangement",
+      "description": "An arrangement that governs how and when information is reported to regulators and how interactions with authorities are handled.\r\n\r\nComment:\r\nFocus: Regulatory communication\r\n\r\nIncludes:\r\nSuspicious Activity Reports (SAR/STR)\r\nRegulatory disclosures and filings\r\nCooperation with authorities\r\nInformation-sharing obligations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ec762a9-8627-f111-860d-02f56513e735",
+      "name": "Third-Party Compliance Arrangement",
+      "description": "An arrangement that defines how third-party providers are used to support compliance processes and how data is shared with them.\r\n\r\nComment:\r\nFocus: Outsourcing and external support\r\n\r\nIncludes:\r\nIdentity verification services\r\nSanctions screening providers\r\nFraud/AML platforms\r\nOutsourcing terms and responsibilities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e72ac6be-8627-f111-860d-02f56513e735",
+      "name": "Audit & Assurance Arrangement",
+      "description": "An arrangement that ensures compliance activities are documented, traceable, and verifiable through audits and reviews.\r\n\r\nComment:\r\nFocus: Evidence and verification\r\n\r\nIncludes\r\nRecord-keeping requirements\r\nAudit rights and obligations\r\nCompliance reviews\r\nDocumentation and traceability",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a965e4d2-8627-f111-860d-02f56513e735",
+      "name": "Enforcement & Remediation Arrangement",
+      "description": "An arrangement that defines the actions, rights, and processes applied when compliance risks or breaches occur.\r\n\r\nComment:\r\nFocus: Response to non-compliance\r\n\r\nIncludes\r\nTransaction refusal or blocking\r\nAccount suspension or termination\r\nRemediation actions\r\nLiability and risk mitigation clauses",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f44e600-8727-f111-860d-02f56513e735",
+      "name": "Data Governance & Privacy Arrangement",
+      "description": "An arrangement that governs how data is collected, processed, shared, and retained in compliance with data protection laws.\r\n\r\nComment:\r\nFocus: Data compliance\r\n\r\nIncludes:\r\nData usage for compliance purposes\r\nData sharing with regulators and third parties\r\nRetention and deletion policies\r\nCross-border data transfers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

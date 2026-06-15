@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2b1aa015-4e0b-f111-8602-0ad4a82ce56b",
+  "title": "BurnTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "622e3cd2-4f0b-f111-8602-0ad4a82ce56b",
+      "name": "Reward Burn Transaction",
+      "description": "An action where points or rewards are used to obtain goods, services, or cash equivalents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "632afc29-5e27-f111-860d-02f56513e735",
+      "name": "Partial Burn Transaction",
+      "description": "An action where only a portion of the accumulated balance is consumed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b3a8531-5e27-f111-860d-02f56513e735",
+      "name": "Full Burn Transaction",
+      "description": "An action where the entire available balance is consumed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1f3e23a-5e27-f111-860d-02f56513e735",
+      "name": "Cash Conversion Burn Transaction",
+      "description": "An action where rewards or points are converted into monetary value or account credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65d23343-5e27-f111-860d-02f56513e735",
+      "name": "Fee Payment Burn Transaction",
+      "description": "An action where rewards or credits are used to pay fees or charges.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88e38d4a-5e27-f111-860d-02f56513e735",
+      "name": "Burn Reversal Transaction",
+      "description": "An action that reverses a previous burn, restoring the consumed value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f04b0452-5e27-f111-860d-02f56513e735",
+      "name": "Burn Adjustment Transaction",
+      "description": "An action that modifies the burned amount due to corrections or recalculations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

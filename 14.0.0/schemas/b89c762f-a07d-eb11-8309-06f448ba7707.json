@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b89c762f-a07d-eb11-8309-06f448ba7707",
+  "title": "Agreement_AgreementRelationshipTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f5225b47-a07d-eb11-8309-06f448ba7707",
+      "name": "Agreement is Framework for Agreement",
+      "description": "Agreement is framework for Agreement (e.g. a purchase order is within the frame of a supplier agreement)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4b713b6-a07d-eb11-8309-06f448ba7707",
+      "name": "Agreement is Warranty for Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d32fb8e1-600f-ed11-83b7-062db63cd35d",
+      "name": "Agreement is Amendment to Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "604522fe-600f-ed11-83b7-062db63cd35d",
+      "name": "Agreement is Subject of Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bced2940-630f-ed11-83b7-062db63cd35d",
+      "name": "Agreement is Collateral to Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "267e1452-630f-ed11-83b7-062db63cd35d",
+      "name": "Agreement is Within Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6472f5a3-fc00-f111-8bdd-a402b9460f22",
+      "name": "Agreement is Mandate for Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

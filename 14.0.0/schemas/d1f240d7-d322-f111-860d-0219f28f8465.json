@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d1f240d7-d322-f111-860d-0219f28f8465",
+  "title": "IncentiveAccrualModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "17858a22-d422-f111-860d-0219f28f8465",
+      "name": "Transaction-Based Incentive Accrual",
+      "description": "Incentives are earned per individual transaction.\r\n\r\nComment:\r\nExample: Earn 1 point for every purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff352175-d522-f111-860d-0219f28f8465",
+      "name": "Volume-Based Incentive Accrual",
+      "description": "Incentives are based on the total value or volume of activity.\r\n\r\nComment:\r\nExample: Earn 1% cashback on total monthly spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cc120d8c-d522-f111-860d-0219f28f8465",
+      "name": "Time-Based Incentive Accrual",
+      "description": "Incentives accrue over time based on duration or holding period.\r\n\r\nComment:\r\nExample: Interest-like rewards for maintaining a balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5791149b-d522-f111-860d-0219f28f8465",
+      "name": "Tiered Incentive Accrual",
+      "description": "Accrual rates vary based on predefined tiers or levels.\r\n\r\nComment\r\nExample: Higher spending leads to higher points per transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43ccc5c2-d522-f111-860d-0219f28f8465",
+      "name": "Threshold-Based Incentive Accrual",
+      "description": "Incentives are accrued only after reaching a minimum level.\r\n\r\nComment:\r\nExample: Earn rewards only after spending €500.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "067e87e6-d522-f111-860d-0219f28f8465",
+      "name": "Event-Based Incentive Accrual",
+      "description": "Incentives are earned when specific events occur.\r\n\r\nComment:\r\nExample: Bonus points for signing up or referring a friend.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52f6c3f9-d522-f111-860d-0219f28f8465",
+      "name": "Progressive Incentive Accrual",
+      "description": "Accrual increases progressively as activity grows.\r\n\r\nComment:\r\nExample: The more you spend, the higher the reward rate.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc34ae08-d622-f111-860d-0219f28f8465",
+      "name": "Fixed Incentive Accrual",
+      "description": "A fixed amount of incentive is earned regardless of activity size.\r\n\r\nComment:\r\nExample: Earn 10 points per transaction, no matter the amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a09a6c16-d622-f111-860d-0219f28f8465",
+      "name": "Conditional Incentive Accrual",
+      "description": "Incentives accrue only if certain conditions are met.\r\n\r\nComment:\r\nExample: Rewards earned only if minimum balance is maintained.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba766d26-d622-f111-860d-0219f28f8465",
+      "name": "Capped Incentive Accrual",
+      "description": "Accrual is limited up to a maximum value.\r\n\r\nComment:\r\nExample: Cashback capped at €100 per month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

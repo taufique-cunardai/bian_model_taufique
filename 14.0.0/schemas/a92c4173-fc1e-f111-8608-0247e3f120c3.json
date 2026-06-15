@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a92c4173-fc1e-f111-8608-0247e3f120c3",
+  "title": "RepaymentServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8592a193-fc1e-f111-8608-0247e3f120c3",
+      "name": "Repayment Scheduling",
+      "description": "Tracks repayment schedules for loans, credit cards, or overdrafts, including installment amounts and due dates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d62b1a3-fc1e-f111-8608-0247e3f120c3",
+      "name": "Payment Processing",
+      "description": "Accepts and processes customer repayments via multiple channels such as cash, transfer, direct debit, or online payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8ceaaaf-fc1e-f111-8608-0247e3f120c3",
+      "name": "Interest & Fee Allocation",
+      "description": "Applies repayments to outstanding principal, interest, and any associated fees according to the product rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0de20ebe-fc1e-f111-8608-0247e3f120c3",
+      "name": "Overdue & Penalty Management",
+      "description": "Identifies late payments and applies penalties, notifications, or escalation processes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfa27cc9-fc1e-f111-8608-0247e3f120c3",
+      "name": "Account Update & Reporting",
+      "description": "Updates the customers account balance, loan ledger, and generates statements or regulatory reports.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

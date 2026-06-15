@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "adfd07d1-3e16-f111-8608-06d087c72731",
+  "title": "IncentiveCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d2c4c1f6-3e16-f111-8608-06d087c72731",
+      "name": "Incentive Fixed Method",
+      "description": "A set amount regardless of performance beyond threshold.\r\n\r\nComment:\r\nExample: €100 bonus for opening an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a886ea12-3f16-f111-8608-06d087c72731",
+      "name": "Incentive Percentage Method",
+      "description": "Incentive is a % of the transaction or target.\r\n\r\nComment:\r\nExample: 2% cashback on credit card spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c870d43-3f16-f111-8608-06d087c72731",
+      "name": "Incentive Tiered Method",
+      "description": "Reward increases in steps as performance grows.\r\n\r\nComment:\r\nExample: 1% for first €1,000, 2% for next €1,000, 3% beyond €2,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c17a3c5c-3f16-f111-8608-06d087c72731",
+      "name": "Incentive Performance-Based Method",
+      "description": "Linked to specific KPIs or metrics.\r\n\r\nComment:\r\nExample: Bonus based on achieving ≥ 95% SLA compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67585f76-3f16-f111-8608-06d087c72731",
+      "name": "Incentive Hybrid Method",
+      "description": "Combines two or more calculation methods.\r\n\r\nComment:\r\nExample: Fixed €50 + 1% of transactions exceeding €5,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

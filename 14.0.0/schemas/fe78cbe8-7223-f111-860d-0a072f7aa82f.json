@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fe78cbe8-7223-f111-860d-0a072f7aa82f",
+  "title": "BurnCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "38a6d864-7723-f111-860d-0a072f7aa82f",
+      "name": "Fixed Amount Deduction",
+      "description": "Redemption consumes a predefined fixed value of rewards.\r\n\r\nComment:\r\nExample: Redeem 500 points to pay for a $10 item.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1898325c-7823-f111-860d-0a072f7aa82f",
+      "name": "Percentage-Based Deduction",
+      "description": "Deduction is a percentage of the transaction value or payable amount.\r\n\r\nComment:\r\nExample: Use 10% of your total bill via points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5a8bf70-7823-f111-860d-0a072f7aa82f",
+      "name": "Tiered Deduction",
+      "description": "Deduction rate varies based on transaction amount or points applied.\r\n\r\nComment:\r\nExample: 100 points per $10 for purchases up to $100, 90 points per $10 above $100.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5822f7f-7823-f111-860d-0a072f7aa82f",
+      "name": "Conditional Deduction",
+      "description": "Points are deducted only if specific conditions are met.\r\n\r\nComment:\r\nExample: Redeem points only if transaction amount exceeds $50.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99c88e90-7823-f111-860d-0a072f7aa82f",
+      "name": "Dynamic Deduction",
+      "description": "Deduction is calculated using a custom formula involving transaction amount, points balance, or multipliers.\r\n\r\nComment:\r\nExample: Points consumed = (Transaction Amount × Conversion Rate) − Discounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b1d909e-7823-f111-860d-0a072f7aa82f",
+      "name": "Full or Partial Redemption",
+      "description": "Rules specify whether all points or only part of the points are burned.\r\n\r\nComment:\r\nExample: Option to pay fully with points or partially with points and cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

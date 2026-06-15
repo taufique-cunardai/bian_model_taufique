@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8a3f4f40-aa43-f111-bb23-02179ab05665",
+  "title": "AmountBlockArrangementAccountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e6d3a969-aa43-f111-bb23-02179ab05665",
+      "name": "Source Account",
+      "description": "The account where funds are reserved/blocked (e.g., current or savings account)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a4842b3-7444-f111-bb23-02b18526ecd1",
+      "name": "Beneficiary Account",
+      "description": "The account of the party that will eventually receive the funds once the block is lifted and the transaction is executed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a569c08c-f7c9-f011-8bd4-a402b9460f22",
+  "title": "JournalTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f4171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "General Journal",
+      "description": "Used for non-routine or manual entries: accruals, adjustments, corrections, reclassifications.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f6171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Recurring Journal",
+      "description": "Templates that repeat periodically (monthly rent, amortization, depreciation top-side postings).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f7171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Accrual Journal",
+      "description": "Used for period-end accruals and deferrals (expenses, revenues). Often reverses automatically.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f8171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Adjustment Journal",
+      "description": "Audit adjustments, top-side entries, year-end true-ups. Usually restricted access.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f9171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Reversing Journal",
+      "description": "Entries created with reversal logic for the next period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Subledger Journal",
+      "description": "Auto-generated entries from sub-ledgers (AP, AR, FA, Inventory, Payroll).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Sales Journal",
+      "description": "Contains high-volume repetitive sales-related transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Purchases Journal",
+      "description": "Contains high-volume repetitive purchase-related transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Cash Receipts Journal",
+      "description": "Records cash inflows (customer payments).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Cash Disbursements Journal",
+      "description": "Records cash outflows (supplier payments).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff171899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Payroll Journal",
+      "description": "Records payroll expenses, taxation, benefits, and liabilities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00181899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Intercompany Journal",
+      "description": "Used for intercompany transactions and eliminations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01181899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Consolidation Journal",
+      "description": "Used during group consolidation for eliminations and adjustments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02181899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Tax Journal",
+      "description": "Tax-specific postings separate from GAAP/IFRS books.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03181899-f7c9-f011-8bd4-a402b9460f22",
+      "name": "Budget Journal",
+      "description": "Stores budget or forecast values (not actual transactions).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "35ce18d6-5d19-f111-8608-060ba89e9853",
+  "title": "IncentiveAllocationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "02ea7e4c-5f19-f111-8608-060ba89e9853",
+      "name": "Single Recipient Allocation Modality",
+      "description": "Single Recipient Allocation Modality specifies that the entire incentive amount is allocated to a single recipient or account.\r\n\r\nComment:\r\nExample:\r\nAn employee receives a €1,000 bonus directly in their payroll account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8a41e65-5f19-f111-8608-060ba89e9853",
+      "name": "Split Allocation Modality",
+      "description": "Multiple Recipient / Split Allocation Modality specifies that the incentive is split among multiple recipients according to predefined ratios or rules.\r\n\r\nComment:\r\nExample:\r\nA €5,000 sales bonus split among 5 team members equally (€1,000 each) or based on performance metrics.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bbf6fb7f-5f19-f111-8608-060ba89e9853",
+      "name": "Pro-Rata Allocation Modality",
+      "description": "Pro-Rata Allocation Modality specifies that the incentive is allocated proportionally based on contribution, performance, or predefined criteria.\r\n\r\nComment:\r\nExample:\r\nA €2,000 incentive distributed among employees according to percentage of target achieved: 60%, 25%, 15%.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01207e9f-5f19-f111-8608-060ba89e9853",
+      "name": "Conditional Allocation Modality",
+      "description": "Conditional / Rule-Based Allocation Modality specifies that incentives are allocated only if certain conditions, thresholds, or rules are met.\r\n\r\nComment:\r\nExample:\r\nIncentive only allocated to employees who achieved >100% of sales target; others receive nothing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a88425b8-5f19-f111-8608-060ba89e9853",
+      "name": "Tiered Allocation Modality",
+      "description": "Tiered Allocation Modality specifies that incentives are allocated in tiers based on performance or ranking.\r\n\r\nComment:\r\nExample:\r\nTop 10% of salespeople get 50% of the incentive pool, next 20% get 30%, remaining get 20%.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9fb84d2-5f19-f111-8608-060ba89e9853",
+      "name": "Component-Based Allocation Modality",
+      "description": "Component-Based Allocation Modality specifies that incentives are allocated across different components such as base bonus, performance bonus, or non-cash rewards.\r\n\r\nComment:\r\nExample:\r\n€1,000 incentive: €600 cash bonus, €200 gift voucher, €200 loyalty points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

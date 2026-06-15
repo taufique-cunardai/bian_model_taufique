@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "58dcb83d-93d3-ed11-8405-06a5b9a1698d",
+  "title": "UnderwritingInvolvementType",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ac7e977c-93d3-ed11-8405-06a5b9a1698d",
+      "name": "Lead Underwriter",
+      "description": "Main party that is awarded the mandate by a borrower to raise money via a new issue. The lead manager guarantees the liquidity of the deal, arranges the syndication of the issue and undertakes a major underwriting and distribution commitment. Also called Lead Manager. (ISO20022)\r\n\r\nComment:\r\nCoordinates syndication and allocation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8cc4c9c-93d3-ed11-8405-06a5b9a1698d",
+      "name": "Underwriter",
+      "description": "The party that forms, together with the lead underwriter, a syndicate of co-lead managers, co-managers and underwriters in order to raise money for a borrower via a new issue. (ISO20022)\r\n\r\nComment:\r\nAssumes the financial risk and distributes the securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "314b7857-4a24-f111-860d-06831cd38dd5",
+      "name": "Issuer",
+      "description": "The person or organization seeking to raise funds (e.g., via securities, loans, or insurance) and offers them to investors or policyholders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eda4e07a-4a24-f111-860d-06831cd38dd5",
+      "name": "Syndicate Member",
+      "description": "Other underwriters participating in the risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd6360d1-6c24-f111-860d-06831cd38dd5",
+      "name": "Investor",
+      "description": "Individuals who ultimately purchase the securities from underwriters.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a1098f3-6c24-f111-860d-06831cd38dd5",
+      "name": "Compliance Advisor",
+      "description": "Parties that ensure the underwriting meets regulatory and contractual obligations.\r\n\r\nComment:\r\nExample: Law firm advising on bond prospectus and underwriting agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

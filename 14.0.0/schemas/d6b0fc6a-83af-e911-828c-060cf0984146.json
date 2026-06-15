@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d6b0fc6a-83af-e911-828c-060cf0984146",
+  "title": "ChannelActivityAnalysisAlgorithmTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1b1d8b7b-83af-e911-828c-060cf0984146",
+      "name": "CustomerFraudAnalysisAlgorithm",
+      "description": "Algorithms applied to activity records that highlight potential customer fraud.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9159ff8d-83af-e911-828c-060cf0984146",
+      "name": "MerchantFraudAnalysisAlgorithm",
+      "description": "Algorithms applied that highlight possible merchant fraud",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d0ab7a5-83af-e911-828c-060cf0984146",
+      "name": "CustomerBehaviorAnalysisAlgorithm",
+      "description": "Algorithms applied that highlight out-of-pattern customer activity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04f420c8-83af-e911-828c-060cf0984146",
+      "name": "BotDetectionAnalysisAlgorithm",
+      "description": "Algorithms applied that detect unwanted (ro)bot access.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "880f640e-84af-e911-828c-060cf0984146",
+      "name": "DeviceErrorDetectionAnalysisAlgorithm",
+      "description": "Algorithms applied that detect possible channel or communication device errors.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d74e60b-88af-e911-828c-060cf0984146",
+      "name": "MerchantBehaviorAnalysisAlgorithm",
+      "description": "Algorithms applied that highlight out of pattern merchant activity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

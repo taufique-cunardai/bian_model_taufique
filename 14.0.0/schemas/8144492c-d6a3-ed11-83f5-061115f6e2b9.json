@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8144492c-d6a3-ed11-83f5-061115f6e2b9",
+  "title": "CurrentAccountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "27e42938-d6a3-ed11-83f5-061115f6e2b9",
+      "name": "Business Current Account",
+      "description": "Supports business transactions, payroll, invoicing, often with higher transaction limits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd0d5f41-d6a3-ed11-83f5-061115f6e2b9",
+      "name": "Personal Current Account",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "657c845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Standard Current Account",
+      "description": "Basic account for everyday banking: deposits, withdrawals, bill payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a7c845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Premium or Packaged Current Account",
+      "description": "Offers extra benefits (insurance, travel perks, preferential rates) for a monthly fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af7c845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Student Current Account",
+      "description": "Tailored for students, usually with no fees, free overdraft, and student-related perks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d47c845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Youth Current Account",
+      "description": "Simplified accounts with parental oversight, limited features, no overdraft.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f97c845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Joint Current Account",
+      "description": "Shared between two or more account holders with equal access.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e7d845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Salary Account",
+      "description": "Designed for salary deposits from employer, may include benefits like instant overdraft.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "437d845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Foreign Currency Current Account",
+      "description": "Maintains balances in foreign currencies (USD, EUR, etc.) for international needs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "687d845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Islamic Current Account",
+      "description": "Shariah-compliant account without interest, may include profit-sharing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d7d845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Basic Bank Account",
+      "description": "Minimal feature account, no overdraft, designed for financial inclusion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b27d845c-9781-f011-8bb9-a402b9460f22",
+      "name": "Private Banking Current Account",
+      "description": "High-value account with personalized RM support, wealth management integration.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

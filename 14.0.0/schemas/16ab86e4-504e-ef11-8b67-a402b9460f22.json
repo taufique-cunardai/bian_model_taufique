@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "16ab86e4-504e-ef11-8b67-a402b9460f22",
+  "title": "CustomerIncidentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dca283f8-504e-ef11-8b67-a402b9460f22",
+      "name": "Product Issues",
+      "description": "Defective or malfunctioning products.\r\nIncorrect or damaged items received.\r\nIssues with product performance or quality.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bafb840a-514e-ef11-8b67-a402b9460f22",
+      "name": "Service Issues",
+      "description": "Poor customer service interactions.\r\nDelays in service delivery or support.\r\nIncorrect or inadequate service provided.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66f14522-514e-ef11-8b67-a402b9460f22",
+      "name": "Billing and Payment Issues",
+      "description": "Incorrect charges or billing errors.\r\nProblems with refunds or returns.\r\nIssues with payment processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52b36837-514e-ef11-8b67-a402b9460f22",
+      "name": "Technical Issues",
+      "description": "Problems with software or applications.\r\nWebsite outages or functionality issues.\r\nDifficulty in accessing services or accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8445247-514e-ef11-8b67-a402b9460f22",
+      "name": "Logistics and Delivery Issues",
+      "description": "Delayed or lost shipments.\r\nIncorrect delivery addresses.\r\nProblems with delivery tracking.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20d90f57-514e-ef11-8b67-a402b9460f22",
+      "name": "Policy and Procedure Issues",
+      "description": "Disputes over company policies.\r\nMiscommunication or lack of clarity about terms and conditions.\r\nIssues with warranties or guarantees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a293e10a-ba58-ef11-8b6c-a402b9460f22",
+      "name": "Relationship Issues",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

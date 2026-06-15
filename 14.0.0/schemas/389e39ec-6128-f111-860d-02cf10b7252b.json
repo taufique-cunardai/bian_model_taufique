@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "389e39ec-6128-f111-860d-02cf10b7252b",
+  "title": "FinancialStatusTrackingInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3dc5eb05-6228-f111-860d-02cf10b7252b",
+      "name": "Account Holder",
+      "description": "The person or entity whose financial status (balances, exposures, or obligations) is being tracked.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd74ff11-6228-f111-860d-02cf10b7252b",
+      "name": "Bank",
+      "description": "The bank that maintains accounts, monitors transactions, and tracks the overall financial status of the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24222319-6228-f111-860d-02cf10b7252b",
+      "name": "Account Officer",
+      "description": "The person responsible for overseeing the customers accounts and providing updates on their financial status.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3c74a2c-6228-f111-860d-02cf10b7252b",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that require reporting or oversight of financial positions to ensure compliance and financial stability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

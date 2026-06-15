@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "842bee50-1a21-f111-860d-06839b636291",
+  "title": "RepaymentCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "35367270-1a21-f111-860d-06839b636291",
+      "name": "Amortized Repayment Calculation",
+      "description": "Repayment is calculated so that each installment includes both principal and interest, gradually reducing the loan balance until it reaches zero by the end of the term.\r\n\r\nComment:\r\nExample:\r\nA home loan where the borrower pays a fixed monthly EMI containing both principal and interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dfcd4594-1a21-f111-860d-06839b636291",
+      "name": "Interest-Only Repayment Calculation",
+      "description": "The borrower pays only the interest during the loan term, and the full principal amount is repaid at maturity.\r\n\r\nComment:\r\nExample:\r\nA commercial loan where the borrower pays monthly interest and repays the entire principal after 3 years.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c3e19a5-1a21-f111-860d-06839b636291",
+      "name": "Equal Principal Repayment Calculation",
+      "description": "Each repayment includes a fixed amount of principal, while the interest decreases over time as the outstanding balance reduces.\r\n\r\nComment:\r\nExample:\r\nA loan where the borrower repays €1,000 principal every month, and interest is calculated on the remaining balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "123dc8c1-1a21-f111-860d-06839b636291",
+      "name": "Bullet Repayment Calculation",
+      "description": "The principal and interest are calculated and paid in a single lump-sum payment at the end of the loan term.\r\n\r\nComment:\r\nExample:\r\nA short-term bridge loan repaid fully after 12 months.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eea0b3d4-1a21-f111-860d-06839b636291",
+      "name": "Balloon Payment Repayment Calculation",
+      "description": "Repayments are calculated so that smaller installments are paid during the loan period, with a large final payment (balloon payment) covering most of the principal.\r\n\r\nComment:\r\nExample:\r\nA business loan where monthly payments cover interest and a portion of principal, with a large final repayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0625aaf4-1a21-f111-860d-06839b636291",
+      "name": "Step-Up Repayment Calculation",
+      "description": "Repayment amounts are calculated to increase gradually over time, usually aligned with expected growth in the borrowers income.\r\n\r\nComment:\r\nExample:\r\nA young professionals home loan where payments increase every year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85e89c10-1b21-f111-860d-06839b636291",
+      "name": "Step-Down Repayment Calculation",
+      "description": "Repayment amounts decrease over time, usually because higher payments are made in the earlier period.\r\n\r\nComment:\r\nExample:\r\nA loan where the borrower pays larger installments in the first few years.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d64e772e-1b21-f111-860d-06839b636291",
+      "name": "Flexible Repayment Calculation",
+      "description": "Flexible / Variable Repayment Calculation: Repayment amounts vary depending on interest rate changes, outstanding balance, or borrower payments.\r\n\r\nComment:\r\nExample:\r\nA variable-rate loan where installment amounts change when the interest rate changes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a710c65c-1b21-f111-860d-06839b636291",
+      "name": "Minimum Payment Repayment Calculation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

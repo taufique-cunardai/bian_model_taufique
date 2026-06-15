@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5397ae17-f8c9-f011-8bd4-a402b9460f22",
+  "title": "JournalStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5cf87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Draft or In Progress",
+      "description": "The journal is being created. Lines may be added or modified. Not yet submitted for approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ef87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Submitted or Pending Approval",
+      "description": "The journal has been completed by the preparer and is awaiting review and approval. No further editing allowed unless returned.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ff87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Rejected or Returned",
+      "description": "Approver rejected the journal; it must be corrected and resubmitted. Editing is allowed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60f87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Approved",
+      "description": "Journal has passed approval workflow and is ready for posting. Locked for content changes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61f87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Scheduled",
+      "description": "Journal is approved and set for a future posting date (common for recurring/reversing journals).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62f87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Posted",
+      "description": "Journal has been successfully posted to the general ledger and impacts financial balances. Cannot be edited; may only be reversed or adjusted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63f87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Partially Posted",
+      "description": "System posted some lines but not all due to errors—rare but possible in multi-ledger or multi-entity postings. Requires correction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64f87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Reversed",
+      "description": "A reversal journal has been created and posted, negating the original entry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65f87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Voided or Canceled",
+      "description": "Journal is canceled before posting. No impact on ledger.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66f87629-f8c9-f011-8bd4-a402b9460f22",
+      "name": "Archived or Closed",
+      "description": "Journal is locked after period close. Retained only for record and audit purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

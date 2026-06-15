@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "95aa141d-4d0b-f111-8602-0ad4a82ce56b",
+  "title": "BurnInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9795703e-4d0b-f111-8602-0ad4a82ce56b",
+      "name": "Redemption Burn Instruction",
+      "description": "A request to deduct value when rewards or credits are redeemed for goods, services, or cash equivalents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64cf6b9a-5d27-f111-860d-02f56513e735",
+      "name": "Payment Application Burn Instruction",
+      "description": "A request to apply accumulated value (e.g., points or credits) toward a payment obligation, reducing the payable amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1f1b7a2-5d27-f111-860d-02f56513e735",
+      "name": "Fee Payment Burn Instruction",
+      "description": "A request to use accumulated value to settle fees or charges.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e7edfaa-5d27-f111-860d-02f56513e735",
+      "name": "Partial Burn Instruction",
+      "description": "A request to consume only a portion of the available value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "834c46b2-5d27-f111-860d-02f56513e735",
+      "name": "Full Burn Instruction",
+      "description": "A request to consume all available value in a single action.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc8684b9-5d27-f111-860d-02f56513e735",
+      "name": "Scheduled Burn Instruction",
+      "description": "A request to deduct value automatically at predefined intervals or events.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6a2abcc2-5d27-f111-860d-02f56513e735",
+      "name": "Conditional Burn Instruction",
+      "description": "A request to trigger value consumption only when specific conditions are met (e.g., thresholds, eligibility rules).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d3527ca-5d27-f111-860d-02f56513e735",
+      "name": "Expiration Burn Instruction",
+      "description": "A request to remove value that has expired according to program rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa5b3ad2-5d27-f111-860d-02f56513e735",
+      "name": "Reversal Burn Instruction",
+      "description": "A request to reverse a previous burn (e.g., canceled redemption or error correction).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9530adb-5d27-f111-860d-02f56513e735",
+      "name": "Adjustment Burn Instruction",
+      "description": "A request to correct or modify previously deducted value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

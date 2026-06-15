@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cf9d43d8-7223-f111-860d-0a072f7aa82f",
+  "title": "BurnTimingModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "25d7ea4d-7923-f111-860d-0a072f7aa82f",
+      "name": "Instant Timing",
+      "description": "Rewards are applied immediately when the transaction occurs.\r\n\r\nComment:\r\nExample: Using points instantly to pay at a partner merchant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a315b60-7923-f111-860d-0a072f7aa82f",
+      "name": "Scheduled Timing",
+      "description": "Rewards can be used at a future date or scheduled for redemption.\r\n\r\nComment:\r\nExample: Scheduling points to pay a recurring bill next month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36b73471-7923-f111-860d-0a072f7aa82f",
+      "name": "Event-Based Timing",
+      "description": "Rewards can be redeemed only when a specific event occurs.\r\n\r\nComment:\r\nExample: Redeem points only during a promotional campaign.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8da00e81-7923-f111-860d-0a072f7aa82f",
+      "name": "Expiry Timing",
+      "description": "Rewards must be burned before they expire.\r\n\r\nComment:\r\nExample: Points expiring at the end of the year must be used before that date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55f33996-7923-f111-860d-0a072f7aa82f",
+      "name": "Conditional Timing",
+      "description": "Rewards can be redeemed only if certain conditions are met or approval is given.\r\n\r\nComment:\r\nExample: Points can be applied only if the transaction exceeds a minimum value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "140f8413-7418-f111-8608-06f87af9db33",
+  "title": "IncentiveTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "504ba141-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Eligibility Criteria Condition",
+      "description": "The set of conditions that customers, accounts, or partners must meet to qualify for an incentive.\r\n\r\nComment:\r\nExamples\r\nMinimum transaction amount (€100 purchase)\r\nMaintaining a minimum balance (€5,000 savings)\r\nOpening a new account\r\nUsing a credit card a certain number of times",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "574ba141-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Threshold Condition",
+      "description": "The minimum level of activity or performance required before an incentive becomes applicable.\r\n\r\nComment:\r\nExamples\r\n\r\nSpend €500 per month to qualify for cashback\r\n\r\nMaintain €10,000 balance to earn bonus interest",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9c628d4c-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Calculation Method Condition",
+      "description": "The rule that determines how the incentive value is calculated.\r\n\r\nComment:\r\nExample: €200 transaction × 3% cashback = €6 reward.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40ce9852-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Reward Type Condition",
+      "description": "The form in which the incentive benefit is provided to the beneficiary.\r\n\r\nComment:\r\nExamples\r\nCashback\r\nBonus interest\r\nLoyalty points\r\nFee waiver\r\nDiscount or voucher",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79c6e259-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Reward Limit Condition",
+      "description": "he maximum value of incentive that can be earned within a specific period.\r\n\r\nComment:\r\nExamples\r\nMaximum cashback €50 per month\r\nMaximum loyalty points 10,000 per year",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ec6e259-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Validity Period Condition",
+      "description": "The time frame during which the incentive program is active.\r\n\r\nComment:\r\nExample: Incentive valid from 1 January to 31 March.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dfd1ed63-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Payout Frequency Condition",
+      "description": "Specifies when the incentive is paid or credited.\r\n\r\nComment:\r\nExample: Cashback credited at the end of each month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4d1ed63-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Redemption Condition",
+      "description": "Conditions governing how accumulated incentives can be used or redeemed.\r\n\r\nComment:\r\nExamples\r\nMinimum 1,000 points required for redemption\r\nPoints expire after 24 months\r\nCashback automatically credited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7abdc372-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Expiry Condition",
+      "description": "Defines when unused rewards or points expire and become invalid.\r\n\r\nComment:\r\nExample\r\nLoyalty points expire after 12 months\r\n\r\nPromotional cashback must be used within 90 days",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "692dda79-7418-f111-8608-06f87af9db33",
+      "name": "Incentive Participation Restriction Condition",
+      "description": "Limits or exclusions determining who cannot participate in the incentive program.\r\n\r\nComment:\r\nExamples\r\nEmployees excluded from promotional incentives\r\n\r\nIncentive valid only for new customers\r\n\r\nIncentive limited to specific product types",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

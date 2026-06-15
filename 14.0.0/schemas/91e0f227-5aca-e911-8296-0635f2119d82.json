@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "91e0f227-5aca-e911-8296-0635f2119d82",
+  "title": "DocumentInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "92e0f227-5aca-e911-8296-0635f2119d82",
+      "name": "Document Capturer",
+      "description": "Party that captures a document.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7dce5b50-5aca-e911-8296-0635f2119d82",
+      "name": "Document Issuer",
+      "description": "Party that issues a document.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e6fa54c1-c3f1-ea11-82b8-06a3e705455d",
+      "name": "Document Responsible Party",
+      "description": "Identification of the party who is responsible for the certificate. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a039d43f-e43f-ed11-83cc-06a671485e75",
+      "name": "Document Signatory",
+      "description": "Person who binds himself or herself, or the entity he or she is authorized to represent, by his or her signature on the document. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f67457e-e63f-ed11-83cc-06a671485e75",
+      "name": "Document Notifying Party",
+      "description": "Identifies the party that notifies the content of a document to a third party. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edf31fa0-e63f-ed11-83cc-06a671485e75",
+      "name": "Document Checking Party",
+      "description": "Identification of the person who checked the document and/or the signature. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "170694c4-e63f-ed11-83cc-06a671485e75",
+      "name": "Document Validating Party",
+      "description": "Identification of the person who validated the signature. ISO20022",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

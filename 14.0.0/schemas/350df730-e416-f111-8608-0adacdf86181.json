@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "350df730-e416-f111-8608-0adacdf86181",
+  "title": "IncentiveArrangementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c4377846-e416-f111-8608-0adacdf86181",
+      "name": "Customer",
+      "description": "The recipient or target of the incentive",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0341f5c-e416-f111-8608-0adacdf86181",
+      "name": "Financial Institution",
+      "description": "The party designing, funding, and managing the incentive",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c478286b-e416-f111-8608-0adacdf86181",
+      "name": "Third-Party Vendor",
+      "description": "External entities involved in delivering or co-funding the incentive",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf29477e-e416-f111-8608-0adacdf86181",
+      "name": "Operator",
+      "description": "The person or system responsible for executing, monitoring, and reporting the incentive.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

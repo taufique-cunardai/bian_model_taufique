@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "873049c8-7223-f111-860d-0a072f7aa82f",
+  "title": "BurnApplicationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b000fefb-7923-f111-860d-0a072f7aa82f",
+      "name": "Full Reward Application",
+      "description": "Rewards are applied to fully cover the transaction or redemption.\r\n\r\nComment:\r\nExample: Paying for a $50 item entirely with points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3eda805-7a23-f111-860d-0a072f7aa82f",
+      "name": "Partial Application",
+      "description": "Rewards are applied partially along with another payment method.\r\n\r\nComment:\r\nExample: Using points for $30 and paying the rest with a card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b201014-7a23-f111-860d-0a072f7aa82f",
+      "name": "Statement Offset Application",
+      "description": "Rewards are applied to reduce outstanding balances or statements.\r\n\r\nComment:\r\nExample: Points used to reduce a credit card bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c22b5e25-7a23-f111-860d-0a072f7aa82f",
+      "name": "Auto-Debit Application",
+      "description": "Rewards are automatically applied when a qualifying transaction occurs.\r\n\r\nComment:\r\nExample: Points automatically used for recurring subscription payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e57312e-7a23-f111-860d-0a072f7aa82f",
+      "name": "Manual Application",
+      "description": "Rewards are applied only when the customer chooses to redeem them.\r\n\r\nComment:\r\nExample: Customer manually selects points to pay for an order.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27d9b339-7a23-f111-860d-0a072f7aa82f",
+      "name": "Tiered Application",
+      "description": "Rewards are applied based on priority, tiers, or categories.\r\n\r\nComment:\r\nExample: Premium customer points are applied first, standard customer points applied later.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

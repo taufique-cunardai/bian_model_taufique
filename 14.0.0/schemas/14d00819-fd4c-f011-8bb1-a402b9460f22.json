@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "14d00819-fd4c-f011-8bb1-a402b9460f22",
+  "title": "PartnerAgreementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e3ea202c-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Referral Agreement",
+      "description": "To formalize a relationship where the partner refers potential customers to the bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5034238-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Distribution Agreement",
+      "description": "Enables the partner to distribute or resell the banks products or services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77bbeb45-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Co-Branding or Co-Marketing Agreement",
+      "description": "Jointly market a product or service under both the bank's and partners brands.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e3cd125b-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Outsourcing Agreement",
+      "description": "Formalizes outsourcing of business or IT functions to a third-party partner.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af9f196d-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Technology or Service Provider Agreement",
+      "description": "Engages a partner to provide a technology platform, software, or operational services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cd0d5d7c-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Joint Venture or Strategic Alliance Agreement",
+      "description": "Defines a long-term partnership to create and operate a shared business initiative.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52224993-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Revenue Sharing Agreement",
+      "description": "Establishes how revenue generated through the partnership will be split.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2e537a2-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Licensing Agreement",
+      "description": "Grants the bank rights to use the partners technology, brand, or IP.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e39a9ab1-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Data Sharing or Data Access Agreement",
+      "description": "Enables secure and compliant sharing of data between the bank and the partner.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04d8e9c0-fd4c-f011-8bb1-a402b9460f22",
+      "name": "Aggregator or Platform Partnership Agreement",
+      "description": "Formalizes a relationship with partners that aggregate financial services (e.g., fintech marketplaces or super apps).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

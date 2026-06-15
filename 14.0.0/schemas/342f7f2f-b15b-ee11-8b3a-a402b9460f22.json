@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "342f7f2f-b15b-ee11-8b3a-a402b9460f22",
+  "title": "TermDepositInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b04cff40-b15b-ee11-8b3a-a402b9460f22",
+      "name": "Customer or Account Holder or Investor or Depositor",
+      "description": "The account holder, also known as the investor or depositor, is an individual or entity (such as a business or organization) that opens and maintains the Term Deposit account. This party deposits a specific sum of money into the account and agrees to the terms and conditions outlined in the deposit agreement. The account holder is the one who benefits from the interest earned on the deposit, and they are entitled to receive the original principal amount along with the interest when the deposit matures.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76b0c659-b15b-ee11-8b3a-a402b9460f22",
+      "name": "Bank or Financial Institution",
+      "description": "The financial institution that accepts the deposit, pays interest, and protects the principal sum until maturity. \r\n\r\n\r\nThe financial institution, often a bank or credit union, is the entity that provides and manages the Term Deposit service. This institution receives and holds the deposited funds for the specified term, pays interest to the account holder based on the agreed-upon interest rate, and ensures the secure operation of the account. The financial institution is responsible for drafting and providing the Term Deposit Agreement, which outlines the terms, conditions, and rules governing the deposit. They also maintain the account records and facilitate any necessary transactions related to the Term Deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

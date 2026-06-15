@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3bc73da2-7218-f111-8608-06f87af9db33",
+  "title": "IncentiveServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "10de63d3-7218-f111-8608-06f87af9db33",
+      "name": "Incentive Eligibility Evaluation",
+      "description": "The process that determines whether a customer, partner, or account qualifies for an incentive based on predefined criteria.\r\n\r\nComment:\r\nExamples:\r\nMinimum transaction amount\r\nAccount balance threshold\r\nProduct ownership\r\nTransaction volume",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "25c6d8da-7218-f111-8608-06f87af9db33",
+      "name": "Incentive Calculation",
+      "description": "The function that determines the value of the incentive based on the defined calculation method.\r\n\r\nComment:\r\nExample:\r\n€200 purchase × 5% cashback = €10 reward.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ac6d8da-7218-f111-8608-06f87af9db33",
+      "name": "Incentive Accrual",
+      "description": "The process of accumulating earned incentives over time before they are paid or redeemed.\r\n\r\nComment:\r\nExample\r\nLoyalty points accumulate monthly based on spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72a31de5-7218-f111-8608-06f87af9db33",
+      "name": "Incentive Payout",
+      "description": "The operational process of delivering the incentive benefit to the customer or beneficiary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c21d65ed-7218-f111-8608-06f87af9db33",
+      "name": "Incentive Tracking and Monitoring",
+      "description": "The function that records and monitors incentive activities, ensuring transparency and compliance.\r\n\r\nIncludes\r\nincentive transactions\r\nreward balances\r\nredemption history\r\naudit logs",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04e497f6-7218-f111-8608-06f87af9db33",
+      "name": "Incentive Notification",
+      "description": "The service that informs customers or partners about incentive eligibility, rewards earned, or payouts.\r\n\r\nChannels\r\nMobile banking alerts\r\nEmail notifications\r\nSMS alerts\r\nOnline banking dashboard\r\n\r\nComment:\r\nExample:\r\nCongratulations! You earned €15 cashback this month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09e497f6-7218-f111-8608-06f87af9db33",
+      "name": "Incentive Redemption Management",
+      "description": "The function that allows customers to redeem accumulated rewards or incentives.\r\n\r\nComment:\r\nExamples\r\nRedeem loyalty points for gifts\r\nConvert reward points to cashback\r\nUse points for travel bookings",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5598001-7318-f111-8608-06f87af9db33",
+      "name": "Incentive Reporting",
+      "description": "The process of generating reports related to incentive programs for management, accounting, and regulatory purposes.\r\n\r\nComment:\r\nTypical reports\r\nIncentive cost reports\r\nProgram performance reports\r\nCustomer reward summaries",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "562c43fe-e61e-f111-8608-0247e3f120c3",
+      "name": "Incentive Behavioral Triggers",
+      "description": "Rewards are linked to specific actions, such as transactions, deposits, referrals, or product enrollment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

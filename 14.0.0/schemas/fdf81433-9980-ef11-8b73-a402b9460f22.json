@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fdf81433-9980-ef11-8b73-a402b9460f22",
+  "title": "AssessmentInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "08832d44-9980-ef11-8b73-a402b9460f22",
+      "name": "Assessor",
+      "description": "The person or entity responsible for carrying out the assessment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2aa4a651-9980-ef11-8b73-a402b9460f22",
+      "name": "Assessee",
+      "description": "The individual or group being assessed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b05ba85-9980-ef11-8b73-a402b9460f22",
+      "name": "Evaluator",
+      "description": "In some cases, an evaluator may be distinct from the assessor. They may oversee or validate the quality and fairness of the assessment process.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f36dc98-9980-ef11-8b73-a402b9460f22",
+      "name": "Reviewer",
+      "description": "A third-party or external individual who may review the assessment process or the results to provide an additional layer of objectivity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbe95dab-9980-ef11-8b73-a402b9460f22",
+      "name": "Stakeholder",
+      "description": "Individuals or groups that have an interest in the outcome of the assessment, even if they are not directly involved.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5052b15a-3355-f111-bb30-063b903354d1",
+      "name": "External Auditor or Regulator",
+      "description": "Independent authority validating compliance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7352b15a-3355-f111-bb30-063b903354d1",
+      "name": "Observer",
+      "description": "Monitors qualification process without direct involvement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1bfc17c-3355-f111-bb30-063b903354d1",
+      "name": "Decision Authority",
+      "description": "Approves or rejects based on assessment outcome",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e2e3a02d-5dc9-f011-8bd4-a402b9460f22",
+  "title": "LedgerTypeValues",
+  "description": "A structured representation of an organizations financial year, defining how the year is divided into accounting periods used for recording, posting, and reporting transactions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c4036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Primary",
+      "description": "The main accounting ledger used for official financial reporting under the required accounting framework (e.g., US GAAP). All core postings flow here.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Secondary",
+      "description": "A parallel ledger used to maintain alternate accounting treatments (e.g., IFRS vs GAAP), or additional adjustments not stored in the primary ledger.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Statutory",
+      "description": "Ledger required by local laws or national regulations, often different from corporate GAAP (e.g., country-specific accounting rules).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Management",
+      "description": "Ledger used for internal management reporting, operational accounting, and performance analysis; not used for external financial reporting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Budget",
+      "description": "Ledger that stores budget, forecast, or planning figures; used to compare against actuals but does not hold real accounting transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Tax",
+      "description": "Ledger for tax-specific accounting entries (e.g., tax-basis depreciation, taxable income calculations) separate from GAAP/IFRS books.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Consolidation",
+      "description": "Ledger that holds elimination entries, intercompany adjustments, and consolidated-level postings for group reporting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cc036238-5dc9-f011-8bd4-a402b9460f22",
+      "name": "Adjustment",
+      "description": "Ledger for audit adjustments, closing adjustments, top-side entries, or correcting postings that should not appear in operational ledgers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

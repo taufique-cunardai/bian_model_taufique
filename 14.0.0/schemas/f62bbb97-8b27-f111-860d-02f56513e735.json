@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f62bbb97-8b27-f111-860d-02f56513e735",
+  "title": "ComplianceTransactionApplicabilityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "579baea7-8b27-f111-860d-02f56513e735",
+      "name": "Deposit",
+      "description": "Incoming funds placed into an account, such as cash, check, or electronic deposits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3eb604bc-8b27-f111-860d-02f56513e735",
+      "name": "Withdrawal",
+      "description": "Outgoing funds from an account, including cash withdrawals or electronic transfers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5887f6c3-8b27-f111-860d-02f56513e735",
+      "name": "Transfer",
+      "description": "Movement of funds between accounts, either within the same institution or to another account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a3c2ecb-8b27-f111-860d-02f56513e735",
+      "name": "Cross Border",
+      "description": "Transactions involving parties in different jurisdictions or countries. Often subject to enhanced monitoring for AML or sanctions compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95842bd4-8b27-f111-860d-02f56513e735",
+      "name": "Loan Origination",
+      "description": "Initiation of a new loan or credit facility, requiring compliance checks on the borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aed63bdf-8b27-f111-860d-02f56513e735",
+      "name": "Investment Purchase",
+      "description": "Acquisition of investment products (e.g., securities, bonds, mutual funds), which may trigger regulatory and suitability checks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

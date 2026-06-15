@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e2d6a7c0-412e-ef11-8b60-a402b9460f22",
+  "title": "CustomerRelationshipLifecyclePhaseValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "79ed17db-412e-ef11-8b60-a402b9460f22",
+      "name": "Lead",
+      "description": "A lead is an individual or organization that has shown interest in a companys products or services. This could be through filling out a form, subscribing to a newsletter, or any other initial engagement. Leads are typically the starting point in the sales funnel and require further qualification to determine their potential as a customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80ed17db-412e-ef11-8b60-a402b9460f22",
+      "name": "Prospect",
+      "description": "A prospect is a lead that has been qualified, meaning that the lead has been assessed and determined to have a higher likelihood of becoming a customer. This qualification often involves verifying that the prospect meets certain criteria, such as having the budget, authority, need, and timeline to make a purchase (often referred to as BANT criteria).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e6962ee4-412e-ef11-8b60-a402b9460f22",
+      "name": "Customer",
+      "description": "A customer is a prospect who has completed a purchase or has entered into a formal business relationship with the company. Customers are individuals or organizations that have decided to buy the company's products or services, and the focus now shifts to maintaining and enhancing the relationship to encourage repeat business.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb962ee4-412e-ef11-8b60-a402b9460f22",
+      "name": "Loyal Customer",
+      "description": "A loyal customer is one who not only makes repeated purchases but also demonstrates a strong, positive relationship with the company. Loyal customers often advocate for the brand, provide valuable feedback, and have a higher lifetime value. They are the result of successful customer relationship management, where the company consistently meets or exceeds their expectations.\r\n\r\n\r\n\r\nA loyal customer is someone who consistently chooses your brand's products or services over competitors, often due to positive past experiences, emotional connections, and trust built over time. Loyal customers are valuable to businesses as they typically contribute to a significant portion of revenue, are more likely to make repeat purchases, and can act as brand advocates, promoting the brand to others.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e86646e2-d322-f111-860d-0219f28f8465",
+  "title": "IncentiveRedemptionModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "35e07d74-d422-f111-860d-0219f28f8465",
+      "name": "Direct Monetary Incentive Redemption",
+      "description": "The incentive is converted directly into money.\r\n\r\nComment:\r\nExample: Cashback credited to an account or used as statement credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cbc86c8-d422-f111-860d-0219f28f8465",
+      "name": "Product or Service Incentive Redemption",
+      "description": "The incentive is exchanged for goods or services.\r\n\r\nComment:\r\nExample: Using points to purchase items, travel tickets, or subscriptions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "461e26e1-d422-f111-860d-0219f28f8465",
+      "name": "Voucher Incentive Redemption",
+      "description": "Voucher / Coupon Redemption: The incentive is converted into vouchers, gift cards, or discount coupons.\r\n\r\nComment:\r\nExample: Redeeming points for retail or online store vouchers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97efe1f8-d422-f111-860d-0219f28f8465",
+      "name": "Bill Payment Incentive Redemption",
+      "description": "The incentive is used to reduce or pay outstanding obligations.\r\n\r\nComment:\r\nExample: Using rewards to pay utility bills or credit card balances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61e9f111-d522-f111-860d-0219f28f8465",
+      "name": "Transfer Incentive Redemption",
+      "description": "The incentive is transferred to another account, program, or user.\r\n\r\nComment:\r\nExample: Converting bank points into airline miles or sending points to another customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "808fad28-d522-f111-860d-0219f28f8465",
+      "name": "Automatic Incentive Redemption",
+      "description": "The incentive is redeemed automatically once certain conditions are met.\r\n\r\nComment:\r\nExample: Cashback automatically credited at the end of each month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f833d438-d522-f111-860d-0219f28f8465",
+      "name": "Partial Incentive Redemption",
+      "description": "The incentive can be used in combination with other payment methods.\r\n\r\nComment:\r\nExample: Paying part of a purchase with points and the rest with cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3eb2aa49-d522-f111-860d-0219f28f8465",
+      "name": "Tier-Based Incentive Redemption",
+      "description": "Redemption options depend on the customers tier or level.\r\n\r\nComment:\r\nExample: Premium customers get access to exclusive rewards or better conversion rates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

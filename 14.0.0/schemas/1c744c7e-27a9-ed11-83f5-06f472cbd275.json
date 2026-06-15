@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1c744c7e-27a9-ed11-83f5-06f472cbd275",
+  "title": "AccountEntryDateTimeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c846a59a-27a9-ed11-83f5-06f472cbd275",
+      "name": "Entry Date",
+      "description": "Date and time at which an entry is posted to an account on the account servicer's books.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71da3d0e-28a9-ed11-83f5-06f472cbd275",
+      "name": "Value Date",
+      "description": "Date and time assets become available to the account owner (in a credit entry), or cease to be available to the account owner (in a debit entry).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0be91ed-03ca-f011-8bd4-a402b9460f22",
+      "name": "Posting Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1d9bb370-6b27-f111-860d-02f56513e735",
+  "title": "ComplianceInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "46b2e68e-6b27-f111-860d-02f56513e735",
+      "name": "Bank",
+      "description": "The bank implements and follows compliance policies to meet legal, regulatory, or internal requirements",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be8f51a7-6b27-f111-860d-02f56513e735",
+      "name": "Compliance Officer",
+      "description": "The person responsible for monitoring, managing, and enforcing compliance within the organization or bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "950998b3-6b27-f111-860d-02f56513e735",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that set rules, conduct inspections, and enforce compliance with laws and regulations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aec16bbd-6b27-f111-860d-02f56513e735",
+      "name": "Auditor",
+      "description": "Persons or teams that review, assess, and report on compliance adherence.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3782da1d-6c27-f111-860d-02f56513e735",
+      "name": "Monitored Party",
+      "description": "Individuals, business units, or accounts subject to compliance checks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

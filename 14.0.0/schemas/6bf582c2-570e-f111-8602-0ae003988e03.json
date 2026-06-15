@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6bf582c2-570e-f111-8602-0ae003988e03",
+  "title": "PayeeAliasTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "85a2b0dc-570e-f111-8602-0ae003988e03",
+      "name": "Phone Number Alias",
+      "description": "The payee can be identified by a mobile or landline number.\r\n\r\nComment:\r\nUse Case: Instant payment systems like mobile wallets or UPI (India), where the phone number is linked to the payees account.\r\n\r\nExample: +1-555-123-4567",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9830b2f0-570e-f111-8602-0ae003988e03",
+      "name": "Email Address Alias",
+      "description": "The payee is identified via an email address.\r\n\r\nComment:\r\nUse Case: Peer-to-peer payment apps or e-invoices where payments are sent using email.\r\n\r\nExample: payee@example.com",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d30b2f0-570e-f111-8602-0ae003988e03",
+      "name": "IBAN / Account Number Alias",
+      "description": "A shorter or masked version of the actual bank account number.\r\n\r\nComment:\r\nUse Case: Systems that dont want to expose full account numbers for security.\r\n\r\nExample: IBAN: DE89 **** **** 1234 5678 90",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce1934f9-570e-f111-8602-0ae003988e03",
+      "name": "UPI ID / Mobile Wallet ID Alias",
+      "description": "Identifier for payment systems like UPI, PayPal ID, or other digital wallets.\r\n\r\nComment:\r\nUse Case: Digital and instant payments.\r\n\r\nExample: payee@upi or john.doe@paypal",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4d8d30b-580e-f111-8602-0ae003988e03",
+      "name": "Customer Reference Alias",
+      "description": "A bank-specific or corporate-assigned code for the payee.\r\n\r\nComment:\r\nUse Case: Corporate payments or recurring billers.\r\n\r\nExample: VEND1234 or UTILITY9876",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3be9a015-580e-f111-8602-0ae003988e03",
+      "name": "QR Code / Token Alias",
+      "description": "The payee alias is represented as a QR code or token that maps to an account.\r\n\r\nComment:\r\nUse Case: Mobile and contactless payments in apps.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

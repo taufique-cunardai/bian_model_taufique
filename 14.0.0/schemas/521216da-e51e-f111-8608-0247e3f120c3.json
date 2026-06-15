@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "521216da-e51e-f111-8608-0247e3f120c3",
+  "title": "IncentiveProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3f1df7ef-e51e-f111-8608-0247e3f120c3",
+      "name": "Cash Incentive",
+      "description": "Provides a direct cash reward or credit to the customer for meeting certain conditions.\r\n\r\nComment:\r\nExample: A $50 cash bonus for opening a new savings account or making a first deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f396c52f-e61e-f111-8608-0247e3f120c3",
+      "name": "Points Incentive",
+      "description": "Points / Reward-Based Incentive: Customers earn loyalty points, reward credits, or benefits for performing predefined activities.\r\n\r\nComment:\r\nExample: Earning 1,000 points for using a credit card for $500 in spending.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3eee7b50-e61e-f111-8608-0247e3f120c3",
+      "name": "Interest Incentive",
+      "description": "Interest / Rate-Based Incentive: Offers enhanced interest rates, cashback rates, or yield benefits as a reward.\r\n\r\nComment:\r\nExample: A higher savings account interest rate for customers maintaining a balance above $10,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "13f33166-e61e-f111-8608-0247e3f120c3",
+      "name": "Fee Waiver Incentive",
+      "description": "Reduces or eliminates fees for certain services as a reward for customer behavior.\r\n\r\nComment:\r\nExample: Waiving annual maintenance fees for credit cards or account services after meeting transaction targets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e288717c-e61e-f111-8608-0247e3f120c3",
+      "name": "Non-Monetary Incentive",
+      "description": "Non-Monetary / Benefit-Based Incentive: Offers exclusive privileges, perks, or services instead of direct monetary reward.\r\n\r\nComment:\r\nExample: Priority customer support, concierge services, or access to special events.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3dd96c93-e61e-f111-8608-0247e3f120c3",
+      "name": "Promotional Incentive",
+      "description": "Promotional / Campaign-Based Incentive: Provides temporary rewards linked to specific campaigns or marketing promotions.\r\n\r\nComment:\r\nExample: Double points during a festive season or limited-time bonus for new product adoption.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca4a09ba-e61e-f111-8608-0247e3f120c3",
+      "name": "Tiered Incentive",
+      "description": "Tiered / Milestone Incentive: Rewards are structured based on reaching milestones or loyalty tiers.\r\n\r\nComment:\r\nExample: Unlocking higher rewards levels after spending $5,000, $10,000, etc., within a program year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9bed38d1-e61e-f111-8608-0247e3f120c3",
+      "name": "Referral Incentive",
+      "description": "Referral / Network Incentive: Rewards customers for referring new clients or encouraging product adoption.\r\n\r\nComment:\r\nExample: Earning $25 or bonus points when a referred friend opens an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bcecf5ed-3650-ea11-8289-06b8c2aff486",
+  "title": "DateTimeRelevanceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5ca6e433-3750-ea11-8289-06b8c2aff486",
+      "name": "Opening Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ea6e433-3750-ea11-8289-06b8c2aff486",
+      "name": "Closing Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fa6e433-3750-ea11-8289-06b8c2aff486",
+      "name": "Blocking Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60a6e433-3750-ea11-8289-06b8c2aff486",
+      "name": "Sending Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61a6e433-3750-ea11-8289-06b8c2aff486",
+      "name": "Receiving Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62a6e433-3750-ea11-8289-06b8c2aff486",
+      "name": "Signing Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1f04199-3950-ea11-8289-06b8c2aff486",
+      "name": "Valid From Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ca8bea3-3950-ea11-8289-06b8c2aff486",
+      "name": "Valid To Date",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

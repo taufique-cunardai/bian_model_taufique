@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e00f9389-a41b-f111-8608-0a4a17d5d551",
+  "title": "RepaymentProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "08fa41b8-a41b-f111-8608-0a4a17d5d551",
+      "name": "Term Loan",
+      "description": "Repayments of loans with a fixed principal and interest schedule over a defined term.\r\n\r\nComment:\r\nExample: €50,000 auto loan with monthly installments of €1,000 for 5 years.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "18b5d5c7-a41b-f111-8608-0a4a17d5d551",
+      "name": "Credit Line",
+      "description": "Repayments on a flexible, reusable credit facility where amounts repaid become available again.\r\n\r\nComment:\r\nExample: €10,000 business credit line; €2,000 repayment replenishes available credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4bc275da-a41b-f111-8608-0a4a17d5d551",
+      "name": "Overdraft Facility",
+      "description": "Repayments that cover negative balances on accounts up to an approved limit.\r\n\r\nComment:\r\nExample: €500 overdraft repayment on a checking account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be7953f0-a41b-f111-8608-0a4a17d5d551",
+      "name": "Credit Card",
+      "description": "Repayments toward credit card balances or retail financing plans.\r\n\r\nComment:\r\nExample: €250 monthly repayment for a credit card outstanding balance of €1,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0a564fe-a41b-f111-8608-0a4a17d5d551",
+      "name": "Term Deposit",
+      "description": "Repayment or withdrawal of term deposits before or at maturity.\r\n\r\nComment:\r\nExample: €10,500 returned at maturity after a 12-month term deposit (principal + interest).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b81a00b-a51b-f111-8608-0a4a17d5d551",
+      "name": "Loan Rollover",
+      "description": "Repayment amounts that are part of a rollover arrangement, adjusting principal, interest, or duration.\r\n\r\nComment:\r\nExample: Partial repayment of a short-term loan rolled into a new term.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

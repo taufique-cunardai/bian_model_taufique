@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "02ac5d3f-4020-f011-8ba5-a402b9460f22",
+  "title": "IncentiveAccountInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "55191e69-4020-f011-8ba5-a402b9460f22",
+      "name": "Account Holder (Customer / Participant)",
+      "description": "The individual or entity who opens and maintains the incentive account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5c191e69-4020-f011-8ba5-a402b9460f22",
+      "name": "Financial Institution (Bank / Service Provider)",
+      "description": "The bank or financial institution offering the incentive account and managing the associated program.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "101cc672-4020-f011-8ba5-a402b9460f22",
+      "name": "Program Administrator",
+      "description": "A team or department within the bank responsible for managing and overseeing the incentive program, ensuring compliance, tracking performance, and handling disputes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e051e97c-4020-f011-8ba5-a402b9460f22",
+      "name": "Third-Party Service Provider",
+      "description": "External partners involved in the delivery or management of the incentive (e.g., payment processors, reward point vendors, mobile app partners).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

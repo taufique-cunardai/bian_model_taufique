@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f1bfaf79-f5b1-ec11-8382-0675e4f5ee11",
+  "title": "GeographicalAreaTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "565e508e-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "Continent",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd7c539f-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "Country",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3164ccad-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "State",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3664ccad-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "District",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ead17bc-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "Province",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fc6cfc9-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "Town",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84a16ad2-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "City",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89a16ad2-f5b1-ec11-8382-0675e4f5ee11",
+      "name": "Region",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

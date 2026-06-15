@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "65b635d6-2228-f111-860d-061bb3da1acd",
+  "title": "AmountBlockServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "740a8ff5-2228-f111-860d-061bb3da1acd",
+      "name": "Blocking Service",
+      "description": "Places a hold on a specific amount in an account, making it unavailable for general use.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ab99b1f-2328-f111-860d-061bb3da1acd",
+      "name": "Purpose Specification Service",
+      "description": "Defines why the amount is blocked, such as pending transactions, regulatory compliance, disputes, or collateral for loans.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5aefc726-2328-f111-860d-061bb3da1acd",
+      "name": "Duration Management Service",
+      "description": "Duration Management",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2792632f-2328-f111-860d-061bb3da1acd",
+      "name": "Monitoring & Notification Service",
+      "description": "Monitors blocked amounts and notifies the customer or relevant internal teams.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ff6313b-2328-f111-860d-061bb3da1acd",
+      "name": "Reporting & Audit Service",
+      "description": "Maintains records of all blocked amounts for compliance, reconciliation, and auditing purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "08e31442-2328-f111-860d-061bb3da1acd",
+      "name": "Conditional Release Service",
+      "description": "Releases funds when the triggering condition is resolved, e.g., dispute settled or collateral requirement met.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

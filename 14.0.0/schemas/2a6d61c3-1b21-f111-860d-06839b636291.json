@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2a6d61c3-1b21-f111-860d-06839b636291",
+  "title": "RepaymentTimingModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8db6c4bb-1c21-f111-860d-06839b636291",
+      "name": "Periodic Repayment Timing",
+      "description": "Repayments are made at regular intervals throughout the loan term.\r\n\r\nExamples:\r\nMonthly payments: A personal loan repaid monthly for 36 months.\r\nQuarterly payments\r\nAnnual payments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4848ecdb-1c21-f111-860d-06839b636291",
+      "name": "Maturity Repayment Timing",
+      "description": "Lump-Sum (Maturity) Repayment Timing: The entire repayment occurs at the end of the loan term.\r\n\r\nComment:\r\nExample:\r\nA short-term loan where the borrower repays the full amount after 12 months.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3447b242-1d21-f111-860d-06839b636291",
+      "name": "Grace Period Timing",
+      "description": "Repayments start after a specified delay following loan disbursement.\r\n\r\nComment:\r\nExample:\r\nA student loan where repayments begin 6 months after graduation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1109005c-1d21-f111-860d-06839b636291",
+      "name": "Balloon Payment Timing",
+      "description": "Repayments occur periodically, but a large final payment is due at the end of the loan term.\r\n\r\nComment:\r\nExample:\r\nA business loan with small monthly payments and a large final payment after 5 years.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90fa1f68-1d21-f111-860d-06839b636291",
+      "name": "Step Timing",
+      "description": "Repayment timing or frequency changes at predefined stages during the loan term.\r\n\r\nComment:\r\nExample:\r\nQuarterly payments during the first year and monthly payments afterward.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4aecb81-1d21-f111-860d-06839b636291",
+      "name": "On-Demand Repayment Timing",
+      "description": "Repayment must be made whenever the lender requests it.\r\n\r\nComment:\r\nExample:\r\nCertain overdraft facilities where the bank may demand repayment at any time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e1220ca-1d21-f111-860d-06839b636291",
+      "name": "Event-Based Repayment Timing",
+      "description": "Repayment is triggered by a specific event rather than a fixed schedule.\r\n\r\nComment:\r\nExamples:\r\nSale of collateral\r\nCompletion of a project\r\nReceipt of business revenue",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "044a24e2-1d21-f111-860d-06839b636291",
+      "name": "Flexible Repayment Timing",
+      "description": "Borrowers can repay at any time within the credit term, provided they meet minimum repayment requirements.\r\n\r\nComment:\r\nExample:\r\nCredit card repayments where the borrower can repay any amount above the minimum at any time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

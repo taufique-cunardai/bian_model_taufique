@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "412a5525-410b-f111-8602-0ad4a82ce56b",
+  "title": "BurnTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8fd9764e-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Eligibility Condition",
+      "description": "Who is allowed to use incentives.\r\n\r\nComment:\r\nExample: Only active accounts can redeem.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c891d75-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Minimum Redemption Threshold Condition",
+      "description": "Minimum balance required to burn.\r\n\r\nComment:\r\nExample: At least 1,000 points required.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3da89987-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Conversion Condition",
+      "description": "How incentives convert to value.\r\n\r\nComment:\r\nExample: 100 points = $1 cashback.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ac58195-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Redemption Method Condition",
+      "description": "How incentives can be used.\r\n\r\nComment:\r\nExample: Cashback, voucher, transfer, fee waiver.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "799b1ea9-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Fee and Charge Condition",
+      "description": "Any fees applied during redemption.\r\n\r\nComment\r\nExample: $5 processing fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edea68be-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Balance Validation Condition",
+      "description": "Must have sufficient available balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8338bca-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Validity Condition",
+      "description": "Expired incentives cannot be burned.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5152a6d7-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Reversal Condition",
+      "description": "When a burn transaction may be reversed.\r\n\r\nComment:\r\nExample: Failed voucher delivery reinstates points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "927696e6-410b-f111-8602-0ad4a82ce56b",
+      "name": "Burn Limit and Cap Condition",
+      "description": "Maximum redemption per day or month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

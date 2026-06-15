@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f25a96a4-2d4c-f011-8bb1-a402b9460f22",
+  "title": "AgreementDocumentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7cbd21ae-2d4c-f011-8bb1-a402b9460f22",
+      "name": "Principal Agreement Document",
+      "description": "The core legal document that outlines the terms and obligations of the parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4847acc4-2d4c-f011-8bb1-a402b9460f22",
+      "name": "Annexes or Appendices",
+      "description": "These are documents attached to the main agreement to provide supporting details.\r\n\r\nExamples:\r\nTechnical specifications\r\nPricing schedules\r\nProduct lists\r\nProcess diagrams\r\nOrganizational charts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f66e2d0-2d4c-f011-8bb1-a402b9460f22",
+      "name": "Disclosure Schedules",
+      "description": "Often used in mergers and acquisitions (M&A), these schedules list exceptions or detailed information relevant to representations and warranties in the main agreement.\r\n\r\nExamples:\r\n\r\nList of contracts\r\nPending litigation\r\nEmployee details\r\nIntellectual property owned",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "597cb622-2e4c-f011-8bb1-a402b9460f22",
+      "name": "Confidentiality or Non-Disclosure Agreements (NDAs)",
+      "description": "Separate agreements to protect sensitive information shared during negotiation or performance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d26fb33-2e4c-f011-8bb1-a402b9460f22",
+      "name": "Amendments or Addendums",
+      "description": "Documents that modify or add to the original agreement, without replacing it.\r\n\r\nAmendment: Alters terms (e.g., payment date)\r\nAddendum: Adds new terms or clauses",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5d7665c-2e4c-f011-8bb1-a402b9460f22",
+      "name": "Side Letters or Side Agreements",
+      "description": "Agreements made outside but related to the main agreement, often clarifying or customizing certain provisions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c97bb6f-2e4c-f011-8bb1-a402b9460f22",
+      "name": "Consent or Waiver Letters",
+      "description": "Formal acknowledgment where a party gives up a right or consents to a change, such as a deadline extension.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3409f686-2e4c-f011-8bb1-a402b9460f22",
+      "name": "Due Diligence Documents",
+      "description": "In deals like acquisitions or partnerships, these documents support the evaluation of the other party.\r\n\r\nExamples:\r\n\r\nFinancial statements\r\nTax filings\r\nEmployment contracts\r\nLegal compliance reports",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86d0f2af-2e4c-f011-8bb1-a402b9460f22",
+      "name": "Termination Letters or Notices",
+      "description": "Used to formally end or exit the agreement according to its terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f08e0dba-2e4c-f011-8bb1-a402b9460f22",
+      "name": "Proof of Authority or Corporate Documents",
+      "description": "To show that a party has the legal power to sign or enforce the agreement.\r\n\r\nExamples:\r\n\r\nBoard resolutions\r\nPower of attorney\r\nCertificates of incorporation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

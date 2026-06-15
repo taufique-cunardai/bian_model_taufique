@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3e6ecaa6-3c16-f111-8608-06d087c72731",
+  "title": "IncentiveTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e86601cc-3c16-f111-8608-06d087c72731",
+      "name": "Monetary Incentive",
+      "description": "Incentive that provides direct financial benefits.\r\n\r\nComment:\r\nExamples:\r\nCash bonuses for employees meeting targets\r\nCashback on credit card spending\r\nFee waivers or discounts\r\nInterest rate benefits on deposits or loans",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9da690f2-3c16-f111-8608-06d087c72731",
+      "name": "Non-Monetary Incentive",
+      "description": "Incentive that provides value without cash, such as recognition, privileges, or goods.\r\n\r\nComment:\r\nExamples:\r\nReward points redeemable for merchandise, travel, or services\r\nVIP account privileges or premium services\r\nCertificates, awards, or recognition programs\r\nAccess to exclusive events or experiences",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95be410e-3d16-f111-8608-06d087c72731",
+      "name": "Performance-Based Incentive",
+      "description": "Incentive linked to specific actions, milestones, or performance metrics.\r\n\r\nComment:\r\nExamples:\r\nTiered rewards based on spending or transactions\r\nMilestone bonuses for opening multiple accounts\r\nReferral rewards for bringing in new customers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01884b28-3d16-f111-8608-06d087c72731",
+      "name": "Hybrid Incentive",
+      "description": "Incentives that combine two or more types (monetary + non-monetary, or performance-based).\r\n\r\nComment:\r\nExamples:\r\nCash bonus + reward points for achieving a sales target\r\nTiered rewards with both cashback and VIP privileges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

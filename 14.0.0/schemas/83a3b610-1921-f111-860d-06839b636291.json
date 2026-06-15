@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "83a3b610-1921-f111-860d-06839b636291",
+  "title": "RepaymentPaymentModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6413cd36-1921-f111-860d-06839b636291",
+      "name": "Direct Debit Modality",
+      "description": "Repayment is automatically deducted from the borrowers bank account on a scheduled due date.\r\n\r\nComment:\r\nExample:\r\nA mortgage payment automatically debited from the borrowers salary account every month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f8d9d661-1921-f111-860d-06839b636291",
+      "name": "Standing Order Modality",
+      "description": "The borrower sets up a recurring payment instruction with their bank to transfer a fixed amount regularly to the lender.\r\n\r\nComment:\r\nExample:\r\nA borrower sets a monthly transfer to repay a personal loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f00e2c7a-1921-f111-860d-06839b636291",
+      "name": "Manual Payment Modality",
+      "description": "The borrower manually initiates each repayment transaction through a bank branch, online banking, or mobile banking.\r\n\r\nComment:\r\nExample:\r\nA customer logs into online banking each month to transfer the loan repayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c1e9e8c-1921-f111-860d-06839b636291",
+      "name": "Payroll Deduction Modality",
+      "description": "Loan repayments are deducted directly from the borrowers salary by the employer and transferred to the lender.\r\n\r\nComment:\r\nExample:\r\nEmployee loan repayments automatically deducted from monthly payroll.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b44d329b-1921-f111-860d-06839b636291",
+      "name": "Card Payment Modality",
+      "description": "Repayment is made using a debit card or credit card transaction.\r\n\r\nComment:\r\nExample:\r\nA borrower pays the loan installment through a debit card payment on the banks website.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a0cfd7af-1921-f111-860d-06839b636291",
+      "name": "Cash Payment Modality",
+      "description": "Repayment is made in physical cash at a bank branch or payment center.\r\n\r\nComment:\r\nExample:\r\nA customer visits the branch to pay a loan installment in cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef9d1dc8-1921-f111-860d-06839b636291",
+      "name": "Cheque Payment Modality",
+      "description": "Repayment is made using a cheque issued by the borrower and deposited by the lender.\r\n\r\nComment:\r\nExample:\r\nA borrower submits post-dated cheques for monthly loan payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56fb94d6-1921-f111-860d-06839b636291",
+      "name": "Account Transfer Modality",
+      "description": "Repayment is made by transferring funds from another account owned by the borrower within the same bank or another bank.\r\n\r\nComment:\r\nExample:\r\nA customer transfers funds from a savings account to a loan account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab56e5e5-1921-f111-860d-06839b636291",
+      "name": "Third-Party Payment Modality",
+      "description": "Repayment is made by a third party on behalf of the borrower, such as a guarantor or sponsor.\r\n\r\nComment:\r\nExample:\r\nA parent repays a student loan installment for their child.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "378ca5fc-1921-f111-860d-06839b636291",
+      "name": "Digital Wallet Modality",
+      "description": "Digital Wallet / Payment Platform Modality: Repayment is made using electronic payment platforms or digital wallets.\r\n\r\nComment:\r\nExample:\r\nA borrower repays a loan using a mobile wallet or payment app.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
