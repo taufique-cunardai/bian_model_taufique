@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e93cd913-f419-f011-8ba4-a402b9460f22",
+  "title": "Current Account Involvement",
+  "description": "Specific role played by a party in a Current Account Agreement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CurrentAccountInvolvementType"
+  ],
+  "properties": {
+    "CurrentAccountInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CurrentAccountInvolvementTypeValues",
+      "x-related-bo-id": "410b2204-f619-f011-8ba4-a402b9460f22",
+      "x-related-bo-name": "CurrentAccountInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2319a2b8-fa00-f111-8bdd-a402b9460f22",
+      "target": "f04197d7-0594-e911-823e-069871e4ec9c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

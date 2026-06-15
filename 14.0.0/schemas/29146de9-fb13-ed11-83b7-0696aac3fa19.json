@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "29146de9-fb13-ed11-83b7-0696aac3fa19",
+  "title": "Account_Account Relationship",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Account_AccountRelationshipType",
+    "FromAccount",
+    "ToAccount"
+  ],
+  "properties": {
+    "Account_AccountRelationshipType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Account_AccountRelationshipTypeValues",
+      "x-related-bo-id": "e483ed1c-fc13-ed11-83b7-0696aac3fa19",
+      "x-related-bo-name": "Account_AccountRelationshipTypeValues"
+    },
+    "FromAccount": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Account",
+      "x-related-bo-id": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "x-related-bo-name": "Account"
+    },
+    "ToAccount": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Account",
+      "x-related-bo-id": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "x-related-bo-name": "Account"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

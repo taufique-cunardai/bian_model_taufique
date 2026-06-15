@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1a0aa924-4020-f011-8ba5-a402b9460f22",
+  "title": "Incentive Account Involvement",
+  "description": "The involvement of a party in a Incentive Account\r\n- Incentive Account Holder\r\n- Program sponsor\r\n- Reward Provider\r\n- Administrator / Operator",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InvolvementType"
+  ],
+  "properties": {
+    "InvolvementType": {
+      "type": "string",
+      "description": "Incentive account involvement type is the category that describes someones role in an incentive account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveAccountInvolvementTypeValues",
+      "x-related-bo-id": "02ac5d3f-4020-f011-8ba5-a402b9460f22",
+      "x-related-bo-name": "IncentiveAccountInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

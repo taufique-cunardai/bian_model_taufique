@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "26e060ce-6882-f011-8bb9-a402b9460f22",
+  "title": "Claim Transaction",
+  "description": "Is An Action  that records, registers, or initiates a claim request by a policyholder or beneficiary. It represents any event that formally starts the claims process, capturing details necessary for verification, approval, and settlement of benefits.\r\n\r\n\r\nA claim transaction is the actual execution or recording of a claim-related financial or service activity following the claim instruction.\r\n\r\nKey Points:\r\n\r\nRepresents the movement of funds or provision of services.\r\n\r\nCan be a cash payout, partial payment, or service delivery.\r\n\r\nExamples:\r\n\r\nTransfer of $5,000 to the beneficiarys bank account.\r\nPayment to a funeral service provider for arranging the burial.\r\nIssuing a voucher or ticket for repatriation of the deceased.\r\n\r\nIts the operational realization of the claim in the system.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ClaimTransactionType"
+  ],
+  "properties": {
+    "ClaimTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ClaimTransactionTypeValues",
+      "x-related-bo-id": "2f69f141-e2d1-f011-8bd6-a402b9460f22",
+      "x-related-bo-name": "ClaimTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ea4a5967-6982-f011-8bb9-a402b9460f22",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf26fc9e-9e2e-f111-860d-0a3b3de36819",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01b9166c-c7d1-f011-8bd6-a402b9460f22",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "Instructed\r\nPayment",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84a17fec-98b5-f011-8bc2-a402b9460f22",
+      "target": "913bb8ab-98b5-f011-8bc2-a402b9460f22",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87d13cf7-9ab5-f011-8bc2-a402b9460f22",
+      "target": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "modality": "1:N",
+      "required": false,
+      "description": "Managed\r\nDocument",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3ebbd7d-9ab5-f011-8bc2-a402b9460f22",
+      "target": "49920344-ff00-ec11-8340-06287a41001d",
+      "modality": "1:N",
+      "required": false,
+      "description": "Executed\r\nPayment",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f8bd88a-9bb5-f011-8bc2-a402b9460f22",
+      "target": "ebed4ca5-6a82-f011-8bb9-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "Adjusted\r\nClaim",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5ff3372-9bb5-f011-8bc2-a402b9460f22",
+      "target": "983b78e0-03c8-e911-8296-065c48f41faa",
+      "modality": "1:N",
+      "required": false,
+      "description": "Delivered/Notified\r\nCorrespondence",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

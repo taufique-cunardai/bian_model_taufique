@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2d3a930e-f798-ea11-8295-06e28f66aad4",
+  "title": "Campaign Assessment",
+  "description": "An assessment of the impact of the Campaign",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ea36f45c-1656-e911-8237-060aad038e48",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b0d47e4a-f798-ea11-8295-06e28f66aad4",
+      "target": "ea36f45c-1656-e911-8237-060aad038e48",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Assessment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee2a2962-f798-ea11-8295-06e28f66aad4",
+      "target": "c433cf2d-f798-ea11-8295-06e28f66aad4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

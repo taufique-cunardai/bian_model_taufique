@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "43f2a7d0-0ac6-ec11-838b-06220dba1207",
+  "title": "Repurchase Agreement",
+  "description": "A repurchase agreement, or 'repo', is a short-term agreement to sell securities in order to buy them back at a slightly higher price. (Investopedia)\r\n\r\nA repurchase agreement (repo) is a form of short-term borrowing for dealers in government securities. In the case of a repo, a dealer sells government securities to investors, usually on an overnight basis, and buys them back the following day at a slightly higher price. (Investopedia)\r\n\r\nSale of securities together with an agreement for the seller to buy back the securities at a later date.\r\nA repo is equivalent to a spot sale combined with a forward contract. For the seller of the security it is a repo; for the buyer of the security it is a reverse repurchase agreement. (ISO20022)\r\n\r\nAgreement between two parties to sell a financial instrument or set of financial instruments and repurchase such instruments at an agreed future date. (ISO20022)\r\n\r\nA repurchase agreement (repo) is a short-term secured loan: one party sells securities to another and agrees to repurchase those securities later at a higher price.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RepurchaseAgreementType"
+  ],
+  "properties": {
+    "RepurchaseAgreementType": {
+      "type": "string",
+      "description": "Indicates whether the repo is a general collateral repo or specific repo. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RepurchaseAgreementTypeValues",
+      "x-related-bo-id": "9480c3fb-20dc-ec11-839c-06eb9665e689",
+      "x-related-bo-name": "RepurchaseAgreementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "fc41dc2d-0cc6-ec11-838b-06220dba1207",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "582a129b-15c6-ec11-838b-06220dba1207",
+      "target": "2427758d-15c6-ec11-838b-06220dba1207",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52e9e9f7-0bc6-ec11-838b-06220dba1207",
+      "target": "cdf664e8-0bc6-ec11-838b-06220dba1207",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

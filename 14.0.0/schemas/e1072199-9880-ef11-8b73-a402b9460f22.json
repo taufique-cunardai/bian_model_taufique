@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e1072199-9880-ef11-8b73-a402b9460f22",
+  "title": "Assessment Involvement",
+  "description": "Party who plays role in the assessment",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AssessmentInvolvementType"
+  ],
+  "properties": {
+    "AssessmentInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AssessmentInvolvementTypeValues",
+      "x-related-bo-id": "fdf81433-9980-ef11-8b73-a402b9460f22",
+      "x-related-bo-name": "AssessmentInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

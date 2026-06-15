@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8ba56116-af45-ef11-8b66-a402b9460f22",
+  "title": "Customer Behavior Insight",
+  "description": "Understanding how customers interact with products, services, and brands.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "79b6536c-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerBehaviorInsightType"
+  ],
+  "properties": {
+    "CustomerBehaviorInsightType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerBehaviorInsightTypeValues",
+      "x-related-bo-id": "8a1c2229-d648-ef11-8b66-a402b9460f22",
+      "x-related-bo-name": "CustomerBehaviorInsightTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d15bb92a-af45-ef11-8b66-a402b9460f22",
+      "target": "79b6536c-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Customer Insight",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ddfa8d47-d245-ef11-8b66-a402b9460f22",
+      "target": "6795e60f-d245-ef11-8b66-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68c96ba9-b045-ef11-8b66-a402b9460f22",
+      "target": "abad4d58-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

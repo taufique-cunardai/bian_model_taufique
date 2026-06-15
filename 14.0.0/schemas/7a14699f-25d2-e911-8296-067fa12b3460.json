@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7a14699f-25d2-e911-8296-067fa12b3460",
+  "title": "Market Analysis Algorithm",
+  "description": "Algorithm used for Market Analysis",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "231bdf18-2e76-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MarketAnalysisAlgorithmType",
+    "MarketAnalysisAlgorithmSpecification",
+    "MarketAnalysisAlgorithmGuidance"
+  ],
+  "properties": {
+    "MarketAnalysisAlgorithmType": {
+      "type": "string",
+      "description": "Classification of the algorithm\r\n\r\ne.g. regression",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "MarketAnalysisAlgorithmSpecification": {
+      "type": "string",
+      "description": "Definition of the algorithm \r\n\r\nsuch as required inputs, the internal data, calculations and outputs",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "MarketAnalysisAlgorithmGuidance": {
+      "type": "string",
+      "description": "Guidance on the use of the algorithm and interpretation of its results",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "0370c6fc-2dd2-e911-8296-067fa12b3460",
+      "target": "231bdf18-2e76-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Algorithm",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ecc39ebb-41d2-e911-8296-06b571c3ef54",
+      "target": "7f4a6ffb-40d2-e911-8296-06b571c3ef54",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5ad163b-31d2-e911-8296-067fa12b3460",
+      "target": "7abf3616-31d2-e911-8296-067fa12b3460",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e82d03c0-40d2-e911-8296-06b571c3ef54",
+      "target": "e2fe9591-40d2-e911-8296-06b571c3ef54",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9cc1692-3fd2-e911-8296-06b571c3ef54",
+      "target": "e1bf3e5c-3876-e911-823e-065f1d1f71b2",
+      "modality": "M:N",
+      "required": false,
+      "description": "<is used",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

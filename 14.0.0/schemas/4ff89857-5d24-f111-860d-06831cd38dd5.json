@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4ff89857-5d24-f111-860d-06831cd38dd5",
+  "title": "Collateral Allocation Term and Condition",
+  "description": "Collateral Allocation Term and Condition defines the rules, obligations, and criteria governing how collateral is assigned, managed, and used to secure a financial transaction or credit exposure.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "0f18646d-5d24-f111-860d-06831cd38dd5",
+      "target": "fe1b152c-5c24-f111-860d-06831cd38dd5",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Collateral Allocation Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f39a186-5d24-f111-860d-06831cd38dd5",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

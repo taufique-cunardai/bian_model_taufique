@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "390056c6-5e56-eb11-82e3-06d64c037e3d",
+  "title": "Corporate Action",
+  "description": "An event determined by a corporation's board of directors, that changes the existing corporate capital structure or financial condition. (ISO20022)\r\n\r\nA corporate action is any activity that brings material change to an organization and impacts its stakeholders, including shareholders, both common and preferred, as well as bondholders. These events are generally approved by the company's board of directors; shareholders may be permitted to vote on some events as well. Some corporate actions require shareholders to submit a response. (Investopeda)\r\n\r\nA corporate action is an event initiated by a public company that brings or could bring an actual change to the securities-equity or debt-issued by the company. Corporate actions are typically agreed upon by a company's board of directors and authorized by the shareholders.  (Wikipeda)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CorporateActionStatus",
+    "CorporateActionType",
+    "CorporateActionDateTime",
+    "CorporateActionStatus"
+  ],
+  "properties": {
+    "CorporateActionStatus": {
+      "type": "string",
+      "description": "Specifies the status of the CA event. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.191Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CorporateActionStatusTypeValues",
+      "x-related-bo-id": "1d2c6637-6756-eb11-82e3-06d64c037e3d",
+      "x-related-bo-name": "CorporateActionStatusTypeValues"
+    },
+    "CorporateActionType": {
+      "type": "string",
+      "description": "Type of corporate action event. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CorporateActionTypeValues",
+      "x-related-bo-id": "9c5ba835-6956-eb11-82e3-06d64c037e3d",
+      "x-related-bo-name": "CorporateActionTypeValues"
+    },
+    "CorporateActionDateTime": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "CorporateActionDateTimeTypeValues",
+      "x-related-bo-id": "5984daf1-6e56-eb11-82e3-06d64c037e3d",
+      "x-related-bo-name": "CorporateActionDateTimeTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b3ec7f7c-e55c-eb11-82e9-065ba105bad3",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b183376-c12e-ed11-83c8-060de0156ee9",
+      "target": "ce62966b-c12e-ed11-83c8-060de0156ee9",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "577b12a5-4376-ed11-83e9-06366c524c71",
+      "target": "c52488e9-6d56-eb11-82e3-06d64c037e3d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b497a8f9-6d56-eb11-82e3-06d64c037e3d",
+      "target": "80603ecd-74a9-ea11-829f-06478228ed28",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f241992-7656-eb11-82e3-06d64c037e3d",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0390bc31-37d6-ee11-8b49-a402b9460f22",
+  "title": "Biometric Data",
+  "description": "Biometric data refers to the measurable physical or behavioral characteristics of an individual that can be used for identification or authentication purposes",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b82d65d5-a5f5-ee11-8b49-a402b9460f22",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BiometricDataType"
+  ],
+  "properties": {
+    "BiometricDataType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BiometricDataTypeValues",
+      "x-related-bo-id": "7cb8ab20-3ad6-ee11-8b49-a402b9460f22",
+      "x-related-bo-name": "BiometricDataTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b2fb1085-37d6-ee11-8b49-a402b9460f22",
+      "target": "b82d65d5-a5f5-ee11-8b49-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Authentication Data",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

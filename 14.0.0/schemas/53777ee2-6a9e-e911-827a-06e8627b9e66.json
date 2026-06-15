@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "53777ee2-6a9e-e911-827a-06e8627b9e66",
+  "title": "Savings Account Arrangement",
+  "description": "An arrangement defining the applicable features for a savings account agreement. \r\n\r\nThe arrangement type is one of those possible/mandatory for the sale of a savings account product. The actual arrangements are a selection of those offered under the savings account product.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SavingsAccountArrangementType",
+    "SavingsAccountArrangementProductFeatureType",
+    "SavingsAccountOpenDate"
+  ],
+  "properties": {
+    "SavingsAccountArrangementType": {
+      "type": "string",
+      "description": "Classification of the Savings Account Arrangement according to the subject of the arrangement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ArrangementTypeValues",
+      "x-related-bo-id": "b1719e80-5124-eb11-82d4-06982365eacb",
+      "x-related-bo-name": "ArrangementTypeValues"
+    },
+    "SavingsAccountArrangementProductFeatureType": {
+      "type": "string",
+      "description": "Reference to the product feature applied in this arrangement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProductFeatureType",
+      "x-related-bo-id": "125ee0b7-0b94-e911-823e-069871e4ec9c",
+      "x-related-bo-name": "ProductFeatureType"
+    },
+    "SavingsAccountOpenDate": {
+      "type": "string",
+      "description": "Date and time when the savings account becomes operational and available for use.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "SavingsAccountEndDate": {
+      "type": "string",
+      "description": "Date and time when the savings account is closed or terminated, marking the end of its operational lifecycle.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 0,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "8d975b45-3f5d-ee11-8b3a-a402b9460f22",
+      "target": "9b6243fa-53b5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4152675-3c4a-ed11-83d4-064ad05c4fb5",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75dc7766-6d9e-e911-827a-06e8627b9e66",
+      "target": "606c73fd-2694-e911-823e-069871e4ec9c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73d9ba75-a1a1-e911-827a-06eab14cfc22",
+      "target": "113ad50c-a29d-e911-827a-06c73ecc951a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "514831f6-b94f-ed11-83d8-0679bc75434d",
+      "target": "376336cc-b94f-ed11-83d8-0679bc75434d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e4e9d74-769e-e911-827a-06e8627b9e66",
+      "target": "8d470606-769e-e911-827a-06e8627b9e66",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

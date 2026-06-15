@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d4a63ec9-fea6-ed11-83f5-0672cda25507",
+  "title": "Payment Arrangement Involvement",
+  "description": "Party who plays a specific role in the context of payment",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PaymentArrangementInvolvementType",
+    "ArrangementReference"
+  ],
+  "properties": {
+    "PaymentArrangementInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PaymentInvolvementTypeValues",
+      "x-related-bo-id": "35328c76-7546-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "PaymentInvolvementTypeValues"
+    },
+    "ArrangementReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Payment Arrangement",
+      "x-related-bo-id": "a6ea66b8-8596-e911-823e-062d75b50cca",
+      "x-related-bo-name": "Payment Arrangement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4f3e96d6-fea6-ed11-83f5-0672cda25507",
+      "target": "a6ea66b8-8596-e911-823e-062d75b50cca",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

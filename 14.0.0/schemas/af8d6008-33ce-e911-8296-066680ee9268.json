@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "af8d6008-33ce-e911-8296-066680ee9268",
+  "title": "Account Recovery Procedure",
+  "description": "A procedure for management and investigation of a customer account recovery case/dispute. \r\n\r\nAccount Recovery is the process initiated when a borrower misses a scheduled repayment. The goal is to bring the account back to good standing through communication, restructuring, or collections, depending on the severity and duration of the delinquency.\r\n\r\nAccount recovery refers to the process a bank follows to help a borrower catch up on missed loan payments and return the account to good standing. This can involve reminders, repayment plans, or more serious collection actions depending on how long the payments have been overdue.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "86379311-33ce-e911-8296-066680ee9268",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

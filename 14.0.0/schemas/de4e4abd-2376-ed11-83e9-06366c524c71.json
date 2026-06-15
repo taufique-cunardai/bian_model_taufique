@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "de4e4abd-2376-ed11-83e9-06366c524c71",
+  "title": "Transaction Reconciliation Arrangement",
+  "description": "An arrangement committed to perform the reconciliation of transaction.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "TotalNumber",
+    "TransactionType",
+    "ReconciliationIdentification",
+    "CardPayment",
+    "ClosePeriodIndicator"
+  ],
+  "properties": {
+    "TotalNumber": {
+      "type": "string",
+      "description": "Total number of transactions during a reconciliation period (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Number",
+      "x-related-bo-id": "31e6f820-15ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Number"
+    },
+    "TransactionType": {
+      "type": "string",
+      "description": "Identification of the type of transaction. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TransactionTotalsTypeValues",
+      "x-related-bo-id": "4a230fbe-6375-ed11-83e9-061d4532aa4b",
+      "x-related-bo-name": "TransactionTotalsTypeValues"
+    },
+    "ReconciliationIdentification": {
+      "type": "string",
+      "description": "Unique identification of the reconciliation period between the acceptor and the acquirer. This identification might be linked to the identification of the settlement for further verification by the merchant. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    },
+    "CardPayment": {
+      "type": "string",
+      "description": "Specifies the card payments which are part of the transaction reconciliation. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Card Payment Arrangement",
+      "x-related-bo-id": "3fd1b799-fc60-e911-8237-068e13695e26",
+      "x-related-bo-name": "Card Payment Arrangement"
+    },
+    "ClosePeriodIndicator": {
+      "type": "string",
+      "description": "Indicates if the transaction requires a closure of the reconciliation period. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Boolean",
+      "x-related-bo-id": "cbf187c3-0dee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Boolean"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "db461bf9-2876-ed11-83e9-06366c524c71",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

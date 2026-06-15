@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "994e6079-30d6-ee11-8b49-a402b9460f22",
+  "title": "Password",
+  "description": "A secret combination of characters, typically used to authenticate a user's identity and grant access to a protected system, device, or application",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b82d65d5-a5f5-ee11-8b49-a402b9460f22",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PasswordValidityPeriod",
+    "PasswordFormat",
+    "PasswordValue"
+  ],
+  "properties": {
+    "PasswordValidityPeriod": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTimePeriod",
+      "x-related-bo-id": "0379c313-fb48-ea11-8289-064c9ffef37a",
+      "x-related-bo-name": "DateTimePeriod"
+    },
+    "PasswordFormat": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "PasswordValue": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Value",
+      "x-related-bo-id": "4dd170e4-17ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Value"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e083ea91-30d6-ee11-8b49-a402b9460f22",
+      "target": "b82d65d5-a5f5-ee11-8b49-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Authentication Data",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7bf9de94-a8a9-f011-8bc0-a402b9460f22",
+  "title": "Funeral Policy Agreement",
+  "description": "A Funeral Policy Agreement is a contractual arrangement between an insurer and a policyholder in which the insurer agrees to provide financial or service-based benefits to cover funeral and related expenses upon the death of an insured person, in exchange for regular premium payments.\r\nIt establishes the rights, obligations, and conditions governing the insurance relationship including who is covered, the amount of coverage, premium terms, claim procedures, and exclusions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5f8ac218-7780-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PolicyNumber",
+    "CoverageType",
+    "PolicyTerm",
+    "PolicyStatus"
+  ],
+  "properties": {
+    "PolicyNumber": {
+      "type": "string",
+      "description": "Unique identifier for the insurance agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    },
+    "CoverageType": {
+      "type": "string",
+      "description": "Defines whether its an individual, family, or group funeral plan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "PolicyTerm": {
+      "type": "string",
+      "description": "The duration for which the policy is valid (may be whole life or renewable annually).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Duration",
+      "x-related-bo-id": "02898493-13ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Duration"
+    },
+    "PolicyStatus": {
+      "type": "string",
+      "description": "Current state of the agreement (active, lapsed, cancelled, reinstated).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AgreementStatus",
+      "x-related-bo-id": "d29cc9a6-43f0-eb11-8336-0696dcc65d31",
+      "x-related-bo-name": "AgreementStatus"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "10d0ec32-a9a9-f011-8bc0-a402b9460f22",
+      "target": "a05fc8be-24fd-ec11-83ad-0635e6952d6f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e842a1f4-03b4-f011-8bc2-a402b9460f22",
+      "target": "5f8ac218-7780-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Insurance Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70c3eda4-a9a9-f011-8bc0-a402b9460f22",
+      "target": "8fdac4d6-257c-f011-8bb9-a402b9460f22",
+      "modality": "1:N",
+      "required": true,
+      "description": "Involved\r\nPartyRole",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34432d99-aca9-f011-8bc0-a402b9460f22",
+      "target": "3e041091-aca9-f011-8bc0-a402b9460f22",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

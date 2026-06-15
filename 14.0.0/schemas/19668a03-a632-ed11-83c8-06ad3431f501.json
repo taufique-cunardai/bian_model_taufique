@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "19668a03-a632-ed11-83c8-06ad3431f501",
+  "title": "Payment Card Position Log",
+  "description": "A log of card based payment transactions",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "2d0e6218-3576-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "6ddde70a-a632-ed11-83c8-06ad3431f501",
+      "target": "2d0e6218-3576-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Log",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f279c3fb-a632-ed11-83c8-06ad3431f501",
+      "target": "164a2d1a-a632-ed11-83c8-06ad3431f501",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "11596862-a832-ed11-83c8-06ad3431f501",
+      "target": "660cecb1-a832-ed11-83c8-06ad3431f501",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

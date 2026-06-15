@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8671a0de-5ba6-ea11-829f-063187a0cc58",
+  "title": "Prospect Campaign Rule Set",
+  "description": "A set of rules to guide and direct the Prospect Campaign. \r\n\r\nFor example:\r\n\r\n\"Execution Guideline\": The guideline for the execution of the campaign.\r\n\r\n\"Eligibility Criteria\": The eligibility criteria to be applied to select suitable candidates for the prospect campaign. (Note candidate lists are developed by Campaign Execution)\r\n\r\n\"Interaction Guide\": The guideline that provides the structured narrative and any pricing/negotiating frameworks which are used in the execution of the campaign",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a89ab5c4-598b-e911-823e-0680522666ec",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "dc55f24c-5da6-ea11-829f-063187a0cc58",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Rule Set",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

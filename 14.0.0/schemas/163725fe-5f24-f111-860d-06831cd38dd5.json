@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "163725fe-5f24-f111-860d-06831cd38dd5",
+  "title": "Collateral Allocation Product Feature Modality",
+  "description": "Collateral Product Feature Modality defines how collateral is managed, evaluated, and applied in relation to a financial product or obligation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CollateralAllocationProductFeatureModalityType"
+  ],
+  "properties": {
+    "CollateralAllocationProductFeatureModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ModalityTypeValues",
+      "x-related-bo-id": "d22cd3dd-2ee6-eb11-8336-064164081b47",
+      "x-related-bo-name": "ModalityTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

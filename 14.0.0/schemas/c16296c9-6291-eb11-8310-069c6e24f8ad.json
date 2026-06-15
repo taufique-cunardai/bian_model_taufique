@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c16296c9-6291-eb11-8310-069c6e24f8ad",
+  "title": "Fee Feature",
+  "description": "A charge for services rendered.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "64fe5512-598d-eb11-8310-068d732c0449",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FeeType",
+    "FeeName",
+    "FeeDefinition",
+    "FeeDateTime",
+    "FeePlan"
+  ],
+  "properties": {
+    "FeeType": {
+      "type": "string",
+      "description": "A classification of fee according to the type of service. \r\nType of service for which a charge is asked or paid. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FeeTypeValues",
+      "x-related-bo-id": "c66bb97b-8e90-eb11-8310-06a4d64a8775",
+      "x-related-bo-name": "FeeTypeValues"
+    },
+    "FeeName": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Name",
+      "x-related-bo-id": "6bf573d1-14ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Name"
+    },
+    "FeeDefinition": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "FeeDateTime": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "FeePlan": {
+      "type": "string",
+      "description": "A plan (formula or structure) used to derive the value of fee rate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FeePlan",
+      "x-related-bo-id": "3a9a344e-3a9c-eb11-8314-06d585ac2859",
+      "x-related-bo-name": "FeePlan"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ba5c7dd3-6291-eb11-8310-069c6e24f8ad",
+      "target": "64fe5512-598d-eb11-8310-068d732c0449",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3839a53-6391-eb11-8310-069c6e24f8ad",
+      "target": "63b8c743-6391-eb11-8310-069c6e24f8ad",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dadb92fe-6291-eb11-8310-069c6e24f8ad",
+      "target": "3ffd5d93-e297-e911-827a-06d89370a58e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "982122c4-6882-f011-8bb9-a402b9460f22",
+  "title": "Claim Instruction",
+  "description": "is a Request submitted by a policyholder, beneficiary, or authorized party to begin the process of claiming benefits under a funeral policy arrangement\r\n\r\nA claim instruction is a directive or request issued to the insurer (or internal claims processing team) specifying what action should be taken regarding a particular claim.\r\n\r\nKey Points:\r\n\r\nIt tells the insurer or administrator how to process the claim.\r\n\r\nMay come from the policyholder, beneficiary, broker, or claims officer.\r\n\r\nExamples:\r\n\r\nApprove the funeral claim for Policy #12345.\r\nRelease partial payment for immediate expenses.\r\nInvestigate this claim before settlement.\r\n\r\nEssentially, its the instruction that triggers the claim workflow.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "c37c450b-6982-f011-8bb9-a402b9460f22",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b915b3b6-6a82-f011-8bb9-a402b9460f22",
+      "target": "ebed4ca5-6a82-f011-8bb9-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e3e33e7-6882-f011-8bb9-a402b9460f22",
+      "target": "26e060ce-6882-f011-8bb9-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

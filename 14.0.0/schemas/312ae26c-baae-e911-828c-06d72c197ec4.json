@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "312ae26c-baae-e911-828c-06d72c197ec4",
+  "title": "Design Specification Aspect",
+  "description": "An aspect of the specification for a designed object",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DesignSpecificationAspectType"
+  ],
+  "properties": {
+    "DesignSpecificationAspectType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DesignSpecificationAspectTypeValues",
+      "x-related-bo-id": "09f1aa83-6359-ef11-8b6c-a402b9460f22",
+      "x-related-bo-name": "DesignSpecificationAspectTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

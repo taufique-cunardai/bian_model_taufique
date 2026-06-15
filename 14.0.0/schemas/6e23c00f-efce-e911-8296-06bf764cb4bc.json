@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6e23c00f-efce-e911-8296-06bf764cb4bc",
+  "title": "Customer Position State",
+  "description": "A consolidated position state that is tracked for the customer - combines analysis from all measures.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "db6f99fb-eece-e911-8296-06bf764cb4bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "a6a65b32-f1ce-e911-8296-06bf764cb4bc",
+      "target": "db6f99fb-eece-e911-8296-06bf764cb4bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from State",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4870eff2-fdce-e911-8296-06bf764cb4bc",
+      "target": "1b0972bb-fdce-e911-8296-06bf764cb4bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5561e6d8-0ccf-e911-8296-06bf764cb4bc",
+      "target": "f7b467b5-0ccf-e911-8296-06bf764cb4bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f21f6eb6-07cf-e911-8296-06bf764cb4bc",
+      "target": "ec591b6b-07cf-e911-8296-06bf764cb4bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9f45f54-f6ce-e911-8296-06bf764cb4bc",
+      "target": "1e1c74e0-efce-e911-8296-06bf764cb4bc",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be2fddbc-30d5-ed11-8405-0699a0ba7003",
+      "target": "a7e4fab4-30d5-ed11-8405-0699a0ba7003",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

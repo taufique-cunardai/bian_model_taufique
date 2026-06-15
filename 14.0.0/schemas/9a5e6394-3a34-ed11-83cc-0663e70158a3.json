@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9a5e6394-3a34-ed11-83cc-0663e70158a3",
+  "title": "Financial Statement",
+  "description": "Financial statements are a collection of summary-level reports about an organization's financial results, financial position, and cash flows. They include the income statement, balance sheet, and statement of cash flows.\r\nhttps://www.accountingtools.com/articles/financial-statements",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5314d145-3876-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialStatementType"
+  ],
+  "properties": {
+    "FinancialStatementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialStatementTypeValues",
+      "x-related-bo-id": "6b639785-3b34-ed11-83cc-0663e70158a3",
+      "x-related-bo-name": "FinancialStatementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "7206c785-3c34-ed11-83cc-0663e70158a3",
+      "target": "5314d145-3876-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Report",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a54c615d-3c34-ed11-83cc-0663e70158a3",
+      "target": "3eb7bb51-3c34-ed11-83cc-0663e70158a3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
