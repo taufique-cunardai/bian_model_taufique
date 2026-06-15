@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8563d786-6ca9-ea11-829f-06478228ed28",
+  "title": "Investment Account Arrangement",
+  "description": "An investment account arrangement refers to the specific setup, structure, and conditions agreed upon between an investor and a financial institution or brokerage firm for managing investments. It encompasses the various terms, conditions, and features governing how the investment account will operate, including how investments are made, managed, and monitored. This arrangement is typically formalized in an investment account agreement but can also include the broader setup and structure of the account based on the investors preferences and objectives.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "9ea1c7ff-6da9-ea11-829f-06478228ed28",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d141bc0-72a9-ea11-829f-06478228ed28",
+      "target": "01d64189-5c96-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "018e2cad-92b0-ea11-829f-06e9ae0e1608",
+      "target": "ce77e0a4-92b0-ea11-829f-06e9ae0e1608",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66f26dc7-72a9-ea11-829f-06478228ed28",
+      "target": "0a28b29d-5c96-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ecdfa113-6790-ef11-8b83-a402b9460f22",
+      "target": "43bcacca-69a9-ea11-829f-06478228ed28",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

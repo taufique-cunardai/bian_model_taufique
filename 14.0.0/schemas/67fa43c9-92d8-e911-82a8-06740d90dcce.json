@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "67fa43c9-92d8-e911-82a8-06740d90dcce",
+  "title": "Financial Report",
+  "description": "Report concerning a financial viewpoint on the bank\r\n\r\ne.g. Consolidated cashflow, liquidity position, treasury position, (enterprise) balance, list of transactions above a certain amount...",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5314d145-3876-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialreportViewpoint",
+    "FinancialReportScope",
+    "Attribute"
+  ],
+  "properties": {
+    "FinancialreportViewpoint": {
+      "type": "string",
+      "description": "The viewpoint used in the financial report\r\n\r\ne.g. Consolidated cashflow, liquidity position, treasury position, (enterprise) balance , Assets and liabilities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "FinancialReportScope": {
+      "type": "string",
+      "description": "The parts of the enterprise taken into account for the report\r\n\r\ne.g. group, enterprise, business unit...\r\nloans, deposits..., retail, corporate...",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "Attribute": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5194962c-93d8-e911-82a8-06740d90dcce",
+      "target": "5314d145-3876-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Report",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f38caf80-93d8-e911-82a8-06740d90dcce",
+      "target": "67fa43c9-92d8-e911-82a8-06740d90dcce",
+      "modality": "1:1",
+      "required": true,
+      "description": "details",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fb8957c-9ad8-e911-82a8-06740d90dcce",
+      "target": "b5b45b32-9ad8-e911-82a8-06740d90dcce",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

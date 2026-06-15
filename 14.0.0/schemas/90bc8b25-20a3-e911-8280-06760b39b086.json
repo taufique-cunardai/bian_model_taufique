@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "90bc8b25-20a3-e911-8280-06760b39b086",
+  "title": "Dunning Agreement",
+  "description": "Agreement in how overdue accounts receivable will be collected \r\n\r\nseveral overdue loans can be brought together in one \"dunning agreement\"",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "22de8463-20a3-e911-8280-06760b39b086",
+      "target": "e8d5f6ef-10a3-e911-8280-06760b39b086",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c97271e-36a3-e911-8280-06760b39b086",
+      "target": "e3a6892a-13a3-e911-8280-06760b39b086",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1a5e35b-20a3-e911-8280-06760b39b086",
+      "target": "bda0329c-1da3-e911-8280-06760b39b086",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

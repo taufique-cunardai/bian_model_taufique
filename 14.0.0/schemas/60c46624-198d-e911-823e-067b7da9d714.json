@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "60c46624-198d-e911-823e-067b7da9d714",
+  "title": "Dialogue Session Procedure",
+  "description": "A management process governing the handling and structuring of dialogue with customers, including how to consolidate and present data and guidelines, provide standard dialogue/scripting, provoke questions when appropriate, and capture key data including relationship and sales triggers.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "d5421338-198d-e911-823e-067b7da9d714",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c80fd028-538a-f011-8bbb-a402b9460f22",
+      "target": "b000c71e-178d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14b121d3-dd87-f011-8bba-a402b9460f22",
+      "target": "59780d9c-dd87-f011-8bba-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "469de9d2-3eb4-e911-828c-0615b1d713aa",
+      "target": "72f082d3-3cb4-e911-828c-0615b1d713aa",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

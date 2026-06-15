@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b69aa872-0fcb-e911-8296-06112f0997f2",
+  "title": "Merchant Agreement Involvement",
+  "description": "A specific role which is played by a specific party in the merchant agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MerchantAgreementInvolvementType"
+  ],
+  "properties": {
+    "MerchantAgreementInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "MerchantAgreementInvolvementTypeValues",
+      "x-related-bo-id": "24b5efec-0fcb-e911-8296-06112f0997f2",
+      "x-related-bo-name": "MerchantAgreementInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "004c9470-11cb-e911-8296-06112f0997f2",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

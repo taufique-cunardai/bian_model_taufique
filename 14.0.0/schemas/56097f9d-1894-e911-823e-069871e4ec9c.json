@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "56097f9d-1894-e911-823e-069871e4ec9c",
+  "title": "Current Account",
+  "description": "A bank account upon which the financial position of current account agreement is managed. \r\n\r\n\r\nComment: A current account is also called a check account. It is often classified as a non-interest bearing account, as often the deposits do not yield interest.\r\n\r\nPayment Services Directive (PSD) defines Current Account as a type of Payment Account. Payment Account means an account held in the name of one or more consumers that is used primarily for the execution of payment transactions. (PSD, 2007/64/EC)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CurrentAccountType"
+  ],
+  "properties": {
+    "CurrentAccountType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CurrentAccountTypeValues",
+      "x-related-bo-id": "8144492c-d6a3-ed11-83f5-061115f6e2b9",
+      "x-related-bo-name": "CurrentAccountTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ec518d0d-1994-e911-823e-069871e4ec9c",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1041776-66cc-f011-8bd5-a402b9460f22",
+      "target": "4c3c1b85-8cd1-ea11-82b1-061e3979cf2c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

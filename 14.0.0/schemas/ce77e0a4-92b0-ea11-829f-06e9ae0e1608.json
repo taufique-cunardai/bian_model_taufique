@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ce77e0a4-92b0-ea11-829f-06e9ae0e1608",
+  "title": "Investment Account Arrangement Fulfillment Even",
+  "description": "Fulfilment of Investment Account Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "4b3a3616-8a59-eb11-82e3-069263446f67",
+      "target": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement Fulfillment Event",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d70ed5b4-92b0-ea11-829f-06e9ae0e1608",
+      "target": "43bcacca-69a9-ea11-829f-06478228ed28",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

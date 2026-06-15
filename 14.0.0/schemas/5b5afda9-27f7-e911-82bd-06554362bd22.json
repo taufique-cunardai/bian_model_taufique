@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5b5afda9-27f7-e911-82bd-06554362bd22",
+  "title": "Employee Relationship Lifecycle Phase",
+  "description": "Specifies a series of stages that characterize the course of existence of an employee relationship including five stages: Recruitment, Onboarding, Development, Retention, and Exit/Separation/Offboarding.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5bec4388-9dd7-e911-82a8-0667cb2841e8",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e71d4a50-41fa-e911-82bd-06e507138132",
+      "target": "5bec4388-9dd7-e911-82a8-0667cb2841e8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Relationship Lifecycle Phase",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

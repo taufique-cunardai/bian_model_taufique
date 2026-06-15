@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "89ef0b4e-9e65-e911-8237-06eba4258fe0",
+  "title": "Payer",
+  "description": "Party who holds a payment account and allows a payment order from that payment account, or, where there is no payment account, a party who gives a payment order;",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "eca491e3-d66f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PayerIdentifier"
+  ],
+  "properties": {
+    "PayerIdentifier": {
+      "type": "string",
+      "description": "Identifier of the payer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "659ef284-d76f-e911-8237-06309b11004c",
+      "target": "eca491e3-d66f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Instruction Involvement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

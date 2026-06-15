@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9f7ffac8-cfd7-e911-82a8-0667cb2841e8",
+  "title": "Location Directory Entry",
+  "description": "An entry in a location directory.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0120d195-d877-e911-823e-067f69a9229a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "fcd0f518-d0d7-e911-82a8-0667cb2841e8",
+      "target": "0120d195-d877-e911-823e-067f69a9229a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Directory Entry",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

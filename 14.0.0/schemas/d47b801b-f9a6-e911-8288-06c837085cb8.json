@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d47b801b-f9a6-e911-8288-06c837085cb8",
+  "title": "Issued Device Agreement Allocation",
+  "description": "The allocation of a Device to a ProductSalesAgreement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DeviceAgreementAllocationStatus",
+    "DeviceAgreementFunctionality"
+  ],
+  "properties": {
+    "DeviceAgreementAllocationStatus": {
+      "type": "string",
+      "description": "Status of the allocation of a device to a ProductSalesAgreement \r\n\r\ne.g. an electronic banking application can be denied or granted access to insurance agreements",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "DeviceAgreementFunctionality": {
+      "type": "string",
+      "description": "The functionality the device is allowed to support for the agreement\r\n\r\ne.g. authenticate involved party, authorize transaction, provide access, be carrier of payment order (cheque)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

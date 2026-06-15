@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1d94f5b6-d1d7-e911-82a8-0667cb2841e8",
+  "title": "Location Usage",
+  "description": "The purpose or usage of  location in relationship to the associated object like the mailing address for letters or URL for email address.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "1fb107bf-d1d7-e911-82a8-0667cb2841e8",
+      "target": "063a0dcf-0561-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

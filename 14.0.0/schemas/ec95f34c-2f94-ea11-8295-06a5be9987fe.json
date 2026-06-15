@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ec95f34c-2f94-ea11-8295-06a5be9987fe",
+  "title": "Bank Relationship",
+  "description": "The bank's relationship with other banks",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "fa6490a1-8957-e911-8237-0645314e65ac",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BankRelationshipType",
+    "BankRelationshipDescription"
+  ],
+  "properties": {
+    "BankRelationshipType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BankRelationshipTypeValues",
+      "x-related-bo-id": "6b20dc42-3294-ea11-8295-06a5be9987fe",
+      "x-related-bo-name": "BankRelationshipTypeValues"
+    },
+    "BankRelationshipDescription": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2c4260f0-2f94-ea11-8295-06a5be9987fe",
+      "target": "fa6490a1-8957-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Relationship",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2751925c-2f94-ea11-8295-06a5be9987fe",
+      "target": "669637da-2e94-ea11-8295-06a5be9987fe",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

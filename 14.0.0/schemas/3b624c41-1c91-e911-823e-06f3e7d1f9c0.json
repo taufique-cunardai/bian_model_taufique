@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3b624c41-1c91-e911-823e-06f3e7d1f9c0",
+  "title": "Resource Allocation",
+  "description": "Is the assignment of a RESOURCE or part of RESOURCE to something to use in a particular way. \r\n\r\n\r\n\r\nComment:\r\n- An assignment of a resource to a party or system.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1856b69e-cb80-e911-823e-065e8061d7e6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "df0d7a4b-1c91-e911-823e-06f3e7d1f9c0",
+      "target": "1856b69e-cb80-e911-823e-065e8061d7e6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Allocation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d80987e-2091-e911-823e-06f3e7d1f9c0",
+      "target": "c484df1b-1e91-e911-823e-06f3e7d1f9c0",
+      "modality": "1:1",
+      "required": false,
+      "description": "Previously\r\nAllocatedResource",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c27bdb2f-1e91-e911-823e-06f3e7d1f9c0",
+      "target": "c484df1b-1e91-e911-823e-06f3e7d1f9c0",
+      "modality": "1:1",
+      "required": false,
+      "description": "CurrentlyAllocated\r\nResource",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

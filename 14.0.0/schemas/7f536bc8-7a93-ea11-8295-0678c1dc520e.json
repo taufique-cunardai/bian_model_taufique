@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7f536bc8-7a93-ea11-8295-0678c1dc520e",
+  "title": "Customer Campaign Procedure",
+  "description": "A procedure to handle the deployment, execution and on-going refinement of a customer campaign.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerCampaignProcedureWorkstep",
+    "CustomerCampaignProcedureWorkstepType"
+  ],
+  "properties": {
+    "CustomerCampaignProcedureWorkstep": {
+      "type": "string",
+      "description": "A workstep to execute the campaign",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Workstep",
+      "x-related-bo-id": "f701c099-2b81-e911-823e-06e80039c878",
+      "x-related-bo-name": "Workstep"
+    },
+    "CustomerCampaignProcedureWorkstepType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "CampaignProcedureWorkstepTypeValues",
+      "x-related-bo-id": "7596d347-7d93-ea11-8295-0678c1dc520e",
+      "x-related-bo-name": "CampaignProcedureWorkstepTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "61153428-7c93-ea11-8295-0678c1dc520e",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

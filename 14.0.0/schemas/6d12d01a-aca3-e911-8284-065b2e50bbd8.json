@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6d12d01a-aca3-e911-8284-065b2e50bbd8",
+  "title": "Disbursement Instruction Document",
+  "description": "Documentation accompanying a disbursement request\r\n\r\ne.g. bills from the contractor, if the disbursement arrangement stipulates the loan will be disbursed at the presentation of bills, directly to the contractor",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

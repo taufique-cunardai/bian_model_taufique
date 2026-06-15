@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0e4f87ba-78d4-e911-8296-06922f00c5a6",
+  "title": "Account Arrangement",
+  "description": "An arrangement to do or not to do something with an account.\r\n\r\nAn arrangement that has an account as the subject matter.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3fd1b799-fc60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "01d6c9c3-78d4-e911-8296-06922f00c5a6",
+      "target": "3fd1b799-fc60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Card Payment Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0363e439-79d4-e911-8296-06922f00c5a6",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1e1c74e0-efce-e911-8296-06bf764cb4bc",
+  "title": "Customer Position",
+  "description": "A consolidated financial position for a customer across all accounts products and services. \r\n\r\nThe account status (the counted state) of a customer",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PositionType",
+    "EventReference"
+  ],
+  "properties": {
+    "PositionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PositionTypeValues",
+      "x-related-bo-id": "1e774bb0-7bed-ed11-8414-0627a9af42e9",
+      "x-related-bo-name": "PositionTypeValues"
+    },
+    "EventReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Customer Event",
+      "x-related-bo-id": "904758f4-6180-e911-823e-066c44d66510",
+      "x-related-bo-name": "Customer Event"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ec8ecd29-b345-ef11-8b66-a402b9460f22",
+      "target": "6fff9b36-b045-ef11-8b66-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1afc0a59-f9ce-e911-8296-06bf764cb4bc",
+      "target": "1803596c-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de66be8f-b036-ee11-843c-06ab3ae93cc5",
+      "target": "6cb2c806-87d1-ea11-82b1-061e3979cf2c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9beba04e-2dd5-ed11-8405-0699a0ba7003",
+      "target": "b1b0833a-8e57-e911-8237-0645314e65ac",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

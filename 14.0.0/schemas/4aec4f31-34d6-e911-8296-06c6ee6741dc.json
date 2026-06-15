@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4aec4f31-34d6-e911-8296-06c6ee6741dc",
+  "title": "Premature Termination Arrangement",
+  "description": "Arrangeent stipulating the modalities for termination iof the agreement before the maturity/end date",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "eecc7a97-33d6-e911-8296-06c6ee6741dc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b9b72174-34d6-e911-8296-06c6ee6741dc",
+      "target": "eecc7a97-33d6-e911-8296-06c6ee6741dc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Term Deposit Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2f8864d-ddd6-e911-82a8-0680fa6be7c4",
+      "target": "242e123d-ddd6-e911-82a8-0680fa6be7c4",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

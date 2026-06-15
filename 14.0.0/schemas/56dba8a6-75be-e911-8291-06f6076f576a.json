@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "56dba8a6-75be-e911-8291-06f6076f576a",
+  "title": "Card Transaction Switch",
+  "description": "A transaction processing software (system) which receives transaction request from more than one interface ( ATM, POS , mPOS, payment gateway and etc) and obtain authroisation for transaction from debit cards or credit card hosts or prepaid card host.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "d55307bd-75be-e911-8291-06f6076f576a",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed43042c-76be-e911-8291-06f6076f576a",
+      "target": "18be1517-756a-e911-8237-061b75d0d318",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1a737ef-75be-e911-8291-06f6076f576a",
+      "target": "e2fb5bc9-75be-e911-8291-06f6076f576a",
+      "modality": "1:N",
+      "required": false,
+      "description": "OperatingSession",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
