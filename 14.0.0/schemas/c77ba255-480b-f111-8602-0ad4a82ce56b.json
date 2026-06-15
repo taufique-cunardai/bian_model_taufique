@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c77ba255-480b-f111-8602-0ad4a82ce56b",
+  "title": "EarnInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "699f9077-480b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Beneficiary",
+      "description": "The party who earns and receives the incentives.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51b96a88-480b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Originator",
+      "description": "The party or event that initiates the earning.\r\n\r\nComment\r\nExample: Merchant transaction, employer payroll, referral action.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40374e9f-480b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Funding Party",
+      "description": "The entity that funds the incentive liability.\r\n\r\nComment:\r\nExample: Bank or promotional partner.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e6a71b2-480b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Processing System",
+      "description": "The system that calculates and posts earned incentives.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7baef0bd-480b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Validator",
+      "description": "The entity that validates eligibility and approves crediting (if required).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "120993cd-480b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Partner",
+      "description": "External entity contributing to earn event.\r\n\r\nComment:\r\nExample: Co-branded merchant.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b789842-4a0b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Settlement Party",
+      "description": "The entity responsible for liability reduction and financial posting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

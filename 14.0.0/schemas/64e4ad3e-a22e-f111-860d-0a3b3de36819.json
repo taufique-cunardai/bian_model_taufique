@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "64e4ad3e-a22e-f111-860d-0a3b3de36819",
+  "title": "ClaimType Values",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3751b84f-a32e-f111-860d-0a3b3de36819",
+      "name": "Funeral Expense",
+      "description": "Covers costs related to funeral services, such as ceremonies, service providers, and related arrangements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "efb00559-a32e-f111-860d-0a3b3de36819",
+      "name": "Burial Cost",
+      "description": "Covers burial or cremation expenses, including plot fees, caskets, urns, or related cemetery charges.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4b00559-a32e-f111-860d-0a3b3de36819",
+      "name": "Dependent Support",
+      "description": "Provides pre-agreed financial support for dependents or beneficiaries of the insured, if this benefit is included in the policy.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

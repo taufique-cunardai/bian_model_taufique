@@ -1,0 +1,235 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "81ef88cb-c387-ee11-8b42-a402b9460f22",
+  "title": "FailureReasonTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2c26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "CustomerCancel",
+      "description": "Customer cancellation, for example removing the card before the end of the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "Malfunction",
+      "description": "Suspected malfunction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "Partial",
+      "description": "Completed partially.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3026d015-c487-ee11-8b42-a402b9460f22",
+      "name": "TooLateResponse",
+      "description": "Response to the previous message was received too late.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3126d015-c487-ee11-8b42-a402b9460f22",
+      "name": "UnableToComplete",
+      "description": "Unable to complete the transaction after the authorisation response.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3226d015-c487-ee11-8b42-a402b9460f22",
+      "name": "UnableToSend",
+      "description": "Unable to deliver the request message to the recipient party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3326d015-c487-ee11-8b42-a402b9460f22",
+      "name": "TimeOut",
+      "description": "Timeout while waiting for a response to a request message, or no response was received (for example connection release before receiving the response).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3426d015-c487-ee11-8b42-a402b9460f22",
+      "name": "CardDeclined",
+      "description": "Integrated circuit card declines the transaction before or after the authorisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3526d015-c487-ee11-8b42-a402b9460f22",
+      "name": "OnLineDeclined",
+      "description": "Online authorisation declined the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3626d015-c487-ee11-8b42-a402b9460f22",
+      "name": "OfflineDeclined",
+      "description": "Offline authorisation declined the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3726d015-c487-ee11-8b42-a402b9460f22",
+      "name": "SuspectedFraud",
+      "description": "Card payment transaction fails because the merchant suspect a fraud.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3826d015-c487-ee11-8b42-a402b9460f22",
+      "name": "SecurityError",
+      "description": "Security error has occurred in the authorisation response message sent by the acquirer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3926d015-c487-ee11-8b42-a402b9460f22",
+      "name": "CardCaptured",
+      "description": "ATM manager has requested to capture the card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "CardError",
+      "description": "Unable to complete transaction with the card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "CustomerDecline",
+      "description": "Customer has declined additional fees or a lower amount, transaction fails.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "ForgottenCard",
+      "description": "Customer has left the card in the ATM or a motorised card reader.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "FullfilmentError",
+      "description": "Unable to fulfil, for instance dispensing the cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "OutOfCustomerService",
+      "description": "ATM manager has requested to the ATM to stop customer services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f26d015-c487-ee11-8b42-a402b9460f22",
+      "name": "UnableToCapture",
+      "description": "Unable to capture the card as requested.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4026d015-c487-ee11-8b42-a402b9460f22",
+      "name": "Security",
+      "description": "General security error.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4126d015-c487-ee11-8b42-a402b9460f22",
+      "name": "Hardware",
+      "description": "Hardware error on the device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4226d015-c487-ee11-8b42-a402b9460f22",
+      "name": "Compromised",
+      "description": "Key is compromised.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4326d015-c487-ee11-8b42-a402b9460f22",
+      "name": "Expired",
+      "description": "Key has expired.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4426d015-c487-ee11-8b42-a402b9460f22",
+      "name": "InvalidKCV",
+      "description": "Key check value is incorrect.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4526d015-c487-ee11-8b42-a402b9460f22",
+      "name": "KeyLoadError",
+      "description": "Error during the key download in the security device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4626d015-c487-ee11-8b42-a402b9460f22",
+      "name": "CardRetained",
+      "description": "Card has been retained by the ATM or the terminal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4726d015-c487-ee11-8b42-a402b9460f22",
+      "name": "CustomerTimeOut",
+      "description": "Customer has not been performed in time an action.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

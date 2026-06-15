@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6298f261-5107-f111-8602-0a46e3dae05d",
+  "title": "RedemptionInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e6954570-5107-f111-8602-0a46e3dae05d",
+      "name": "Customer",
+      "description": "The person or entity who is entitled to redeem rewards, points, or benefits.\r\n\r\nComment:\r\nExample: Cardholder redeeming cashback.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1bedd07e-5107-f111-8602-0a46e3dae05d",
+      "name": "Bank",
+      "description": "The bank or organization that offers the redemption program and manages the rewards or benefits.\r\n\r\nComment:\r\nExample: Bank funding cashback payout.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e061f78d-5107-f111-8602-0a46e3dae05d",
+      "name": "Program Administrator",
+      "description": "The person or organization responsible for validating redemption requests and authorizing payment to the merchant or beneficiary.\r\n\r\nComment:\r\nExample: Bank debits reward balance and applies statement credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a40729e-5107-f111-8602-0a46e3dae05d",
+      "name": "Merchant",
+      "description": "The business or entity where the customer redeems rewards, goods, services, or monetary value.\r\n\r\nComment:\r\nExample: Merchant issuing voucher after points redemption",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

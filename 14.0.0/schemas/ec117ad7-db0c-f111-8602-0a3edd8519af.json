@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ec117ad7-db0c-f111-8602-0a3edd8519af",
+  "title": "IncentiveProgramTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "665e54d4-3d0e-f111-8602-0ae003988e03",
+      "name": "Incentive Program Validity Term",
+      "description": "Rules defining how long earned incentives remain valid.\r\n\r\nComment:\r\nRewards expire after 90 days\r\nPoints expire after 24 months of inactivity\r\nNo reinstatement after expiration",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8ffb6ea-3d0e-f111-8602-0ae003988e03",
+      "name": "Incentive Program Limit Term",
+      "description": "Maximum limits imposed on incentives.\r\n\r\nComment:\r\nMaximum cashback capped at $200 per customer\r\nOffer limited to first 1,000 participants\r\nOne reward per customer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94e18307-3e0e-f111-8602-0ae003988e03",
+      "name": "Incentive Program Exclusion Term",
+      "description": "Conditions specifying transactions or customers that are not eligible.\r\n\r\nComment:\r\nCash advances excluded\r\nInternal transfers excluded\r\nEmployees not eligible",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "db77461f-3e0e-f111-8602-0ae003988e03",
+      "name": "Incentive Program Adjustment Term",
+      "description": "Circumstances under which incentives may be reversed or canceled.\r\n\r\nComment:\r\nReward reversed if transaction refunded\r\nAccount closure voids reward eligibility\r\nFraudulent activity results in disqualification",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c0e38833-3e0e-f111-8602-0ae003988e03",
+      "name": "Incentive Program Compliance Term",
+      "description": "Legal framework governing the program.\r\n\r\nComment:\r\nSubject to governing law\r\nBank reserves right to modify program\r\nDisputes resolved under arbitration clause",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf2a124b-3e0e-f111-8602-0ae003988e03",
+      "name": "Incentive Program Termination Term",
+      "description": "Rules allowing the bank to amend or discontinue the program.\r\n\r\nComment:\r\nBank may change program terms with notice\r\nProgram may be terminated at any time\r\nBenefits subject to availability",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a416880-b210-f111-8602-02d28cff2161",
+      "name": "Incentive Program Eligibily Term for Enrollment",
+      "description": "Enrollment rules define how and when participants can join the incentive program.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe81a1a8-c110-f111-8602-02d28cff2161",
+      "name": "Incentive Program Eligibility Term for Incentive Accrual",
+      "description": "Accrual rules define how and when incentives are earned and calculated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4a2c808-c210-f111-8602-02d28cff2161",
+      "name": "Incentive Program Eligibility Term for Incentive Redemption",
+      "description": "Eligibility conditions for redemption define who can redeem incentives, and redemption rules define how, when, and under what conditions incentives can be exchanged for rewards.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

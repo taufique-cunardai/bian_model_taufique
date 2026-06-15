@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b518ae8f-2121-f111-860d-06839b636291",
+  "title": "DepositServiceArrangementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0e2f10d7-2121-f111-860d-06839b636291",
+      "name": "Customer",
+      "description": "The individual or entity placing money into an account.\r\n\r\nComment:\r\nExamples\r\nCan be a retail customer (personal savings, checking) or a corporate customer (business deposits).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ff1ed08-2221-f111-860d-06839b636291",
+      "name": "Bank",
+      "description": "The organization that provides the deposit service.\r\n\r\nResponsible for holding funds, managing accounts, and providing interest or benefits.\r\n\r\nComment:\r\nExamples include commercial banks, credit unions, or digital banks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b6eec1b-2221-f111-860d-06839b636291",
+      "name": "Regulatory Authority",
+      "description": "Ensure the deposit service complies with laws, banking regulations, and safety measures.\r\n\r\nComment:\r\nExamples: central banks, financial supervisory authorities, or deposit insurance agencies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "702b7647-2221-f111-860d-06839b636291",
+      "name": "Auditor",
+      "description": "Ensure the bank adheres to KYC (Know Your Customer), AML (Anti-Money Laundering), and reporting requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

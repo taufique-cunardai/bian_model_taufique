@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e23f1bb2-d040-ee11-8b35-a402b9460f22",
+  "title": "PaymentTimeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2415c576-d140-ee11-8b35-a402b9460f22",
+      "name": "PaymentOnDelivery",
+      "description": "Code for payment on delivery.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2615c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfMonthOfDelivery",
+      "description": "Code for payment at end of month of delivery.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2715c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterDelivery",
+      "description": "Code for payment at end of period after delivery.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2815c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterEndOfDeliveryMonth",
+      "description": "Code for payment at end of period after end of month of delivery.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2915c576-d140-ee11-8b35-a402b9460f22",
+      "name": "PaymentOnReceiptOfInvoice",
+      "description": "Code for payment on receipt of invoice.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a15c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterEndOfReceiptMonth",
+      "description": "Code for payment at end of period after end of month of receipt of invoice.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b15c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterReceipt",
+      "description": "Code for payment at end of period after receipt of invoice.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c15c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfMonthOfReceipt",
+      "description": "Code for payment at end of month of receipt of invoice.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d15c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterMatch",
+      "description": "Code for payment at end of period after match or mismatch acceptance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e15c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterShipmentDate",
+      "description": "Payment at end of period after shipment date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f15c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterPurchaseOrderDate",
+      "description": "Payment at end of period after purchase order date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3015c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterBaselineEstablishment",
+      "description": "Payment at end of period after baseline establishment date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3115c576-d140-ee11-8b35-a402b9460f22",
+      "name": "EndOfPeriodAfterInvoiceDate",
+      "description": "Payment at end of period after invoice date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

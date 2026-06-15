@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ce4d1a27-6919-f111-8608-060ba89e9853",
+  "title": "TaxTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4be1ca09-6b19-f111-8608-060ba89e9853",
+      "name": "Tax Calculation Condition",
+      "description": "Tax Calculation Term: Rules that define how taxes are calculated on financial transactions or products, including applicable rates, formulas, and taxable bases.\r\n\r\nComment:\r\nExample:\r\nInterest on a savings account is subject to 30% withholding tax, calculated on the total interest earned monthly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fde5561c-6b19-f111-8608-060ba89e9853",
+      "name": "Tax Withholding Condition",
+      "description": "Tax Withholding / Deduction Term: Provisions specifying how and when taxes are withheld or deducted from payments to the customer.\r\n\r\nComment:\r\nExample:\r\nThe bank deducts tax at the time of crediting interest to the customer account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a78cfb55-6b19-f111-8608-060ba89e9853",
+      "name": "Tax Reporting Condition",
+      "description": "Tax Reporting Term: Rules outlining the reporting obligations to the tax authority and to the customer, including timing, format, and details of taxable transactions.\r\n\r\nComment:\r\nExample:\r\nBanks must submit annual reports of all interest income earned by customers to the revenue authority.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0de0ed68-6b19-f111-8608-060ba89e9853",
+      "name": "Tax Payment Condition",
+      "description": "Tax Remittance /Provisions specifying how and when collected taxes must be paid or remitted to the tax authority.\r\n\r\nComment:\r\nExample:\r\nWithholding taxes must be remitted to the government monthly, in accordance with regulatory deadlines. Payment Term:",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70c1707d-6b19-f111-8608-060ba89e9853",
+      "name": "Tax Exemption Condition",
+      "description": "Tax Exemption / Relief Term: Rules specifying conditions under which tax exemptions, reduced rates, or treaty benefits apply.\r\n\r\nComment:\r\nExample:\r\nForeign investors may receive reduced withholding tax under a bilateral tax treaty.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8dff9393-6b19-f111-8608-060ba89e9853",
+      "name": "Tax Penalty Condition",
+      "description": "Compliance / Penalty Term: Conditions that define penalties or consequences for non-compliance with tax rules, such as late payment fees or regulatory fines.\r\n\r\nComment:\r\nExample:\r\nLate remittance of withholding tax by the bank incurs interest penalties as per law.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

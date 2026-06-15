@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bceacd2f-380e-f111-8602-0ae003988e03",
+  "title": "IssuedCertificateTermandConditionTypeValues",
+  "description": "Rules defining how long the certificate remains usable.\r\n\r\nComment:\r\nValid for 90 days from issuance date.\r\nExpires on a fixed calendar date.\r\nAutomatically marked Expired after deadline.\r\nCannot be reinstated once expired.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4f78793d-380e-f111-8602-0ae003988e03",
+      "name": "Issued Certificate Eligibility Term",
+      "description": "Who can use or redeem the certificate.\r\n\r\nComment:\r\nOnly the participant to whom the certificate was issued; must have an active account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd027f65-380e-f111-8602-0ae003988e03",
+      "name": "Issued Certificate Redemption Term",
+      "description": "Conditions governing how and when the certificate can be redeemed.\r\n\r\nComment::\r\nRedeemable only via mobile app.\r\nMinimum purchase of $100 required.\r\nOne-time use only.\r\nCannot be combined with other offers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43d3267f-380e-f111-8602-0ae003988e03",
+      "name": "Issued Certificate Usage Restriction Term",
+      "description": "Constraints limiting where or how the certificate may be applied.\r\n\r\nComment::\r\nValid only at partner merchants.\r\nNot valid for cash withdrawal.\r\nNon-transferable.\r\nNot applicable to fee payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0cdb77a0-380e-f111-8602-0ae003988e03",
+      "name": "Issued Certificate Settlement Term",
+      "description": "Rules governing how the reward value is applied financially\r\n.\r\nComment:\r\nApplied as statement credit.\r\nDeducted at checkout.\r\nPartial redemption not allowed.\r\nNo cash equivalent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f40440ed-380e-f111-8602-0ae003988e03",
+      "name": "Issued Certificate Adjustment Term",
+      "description": "Circumstances under which the bank may modify or revoke the certificate.\r\n\r\nComment:\r\nRevoked if qualifying transaction is reversed.\r\nAdjusted if reward miscalculated.\r\nCancelled upon account closure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bc2a5ce-d610-f111-8602-02d28cff2161",
+      "name": "Issued Certificate Authentication Term",
+      "description": "Rules for validating the certificate.\r\n\r\nComment: \r\nMust provide the authentication code; one-time use only.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d42840f2-d610-f111-8602-02d28cff2161",
+      "name": "Issued Certificate Expiration Term",
+      "description": "Validity period and conditions for expiry.\r\n\r\nComment:\r\nExpires 12 months from issue date; expired certificates cannot be redeemed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

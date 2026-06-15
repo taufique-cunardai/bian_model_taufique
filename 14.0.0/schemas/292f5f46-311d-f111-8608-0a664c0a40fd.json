@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "292f5f46-311d-f111-8608-0a664c0a40fd",
+  "title": "OriginationProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ca78f8d1-311d-f111-8608-0a664c0a40fd",
+      "name": "Loan Origination",
+      "description": "The process of creating and approving a loan facility for a customer.\r\n\r\nComment:\r\nExamples:\r\nPersonal loan\r\nMortgage loan\r\nAuto loan\r\nBusiness loan\r\n\r\nExample Scenario:\r\nA bank originates a €50,000 home loan for a customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03f19de9-311d-f111-8608-0a664c0a40fd",
+      "name": "Deposit Account Origination",
+      "description": "The process of opening a deposit account for a customer to store funds.\r\n\r\nComment:\r\nExamples:\r\nSavings account\r\nCurrent account\r\nChecking account\r\n\r\nExample Scenario:\r\nA customer opens a new savings account at the bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe649915-321d-f111-8608-0a664c0a40fd",
+      "name": "Term Deposit Origination",
+      "description": "The creation of a fixed-term deposit product where funds are deposited for a specific period with interest.\r\n\r\nComment:\r\nExamples:\r\nFixed deposit\r\nCertificate of deposit (CD)\r\n\r\nExample Scenario:\r\nA customer deposits €10,000 for 12 months in a term deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "562de929-321d-f111-8608-0a664c0a40fd",
+      "name": "Credit Card Origination",
+      "description": "The process of issuing a credit card facility to a customer with a defined credit limit.\r\n\r\nComment:\r\nExamples:\r\nStandard credit card\r\nGold credit card\r\nCorporate credit card\r\n\r\nExample Scenario:\r\nA bank issues a credit card with a €5,000 limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3fbd313f-321d-f111-8608-0a664c0a40fd",
+      "name": "Overdraft Facility Origination",
+      "description": "The creation of an overdraft limit that allows customers to withdraw more money than their account balance.\r\n\r\nComment:\r\nExamples:\r\nPersonal overdraft\r\nBusiness overdraft\r\n\r\nExample Scenario:\r\nA bank grants a €2,000 overdraft limit on a current account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fcf7eb1a-331d-f111-8608-0a664c0a40fd",
+      "name": "Investment Origination",
+      "description": "The process of initiating an investment product for a customer.\r\n\r\nComment:\r\nExamples:\r\nMutual fund account\r\nInvestment portfolio\r\nRetirement savings plan\r\n\r\nExample Scenario:\r\nA customer opens a mutual fund investment account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bcd93d4e-331d-f111-8608-0a664c0a40fd",
+      "name": "Payment Service Origination",
+      "description": "The activation of payment-related banking services for a customer.\r\n\r\nComment:\r\nExamples:\r\nDebit card issuance\r\nOnline banking access\r\nMobile banking service\r\n\r\nExample Scenario:\r\nA bank activates mobile banking for a new account holder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

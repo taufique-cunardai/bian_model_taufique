@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a2e7bd28-af22-f111-860d-022452cdfcff",
+  "title": "CreditAssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3c66e232-af22-f111-860d-022452cdfcff",
+      "name": "Compliance Check",
+      "description": "Compliance Check: Ensures the borrower meets regulatory and legal requirements.\r\n\r\nComment:\r\nKYC (Know Your Customer) assessment: Identity verification\r\nAML (Anti-Money Laundering) assessment: Detection of suspicious activities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "28ad0a87-b022-f111-860d-022452cdfcff",
+      "name": "Financial Evaluation",
+      "description": "Assesses the borrowers financial strength and ability to repay based on income, obligations, and overall financial position.\r\n\r\nComment:\r\nIncome: Earnings or cash inflows\r\nDTI (Debt-to-Income Ratio): Debt obligations relative to income\r\nAssets:  owned resources of value\r\nLiabilities: Existing debts and obligations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a6462fd2-b022-f111-860d-022452cdfcff",
+      "name": "Risk Assessment",
+      "description": "Determines the credit risk associated with the borrower.\r\n\r\nComment:\r\nCredit Score  Numeric measure of creditworthiness\r\nRisk Rating  Categorized risk level\r\nCredit History  Past borrowing and repayment behavior\r\nBehavior  Transaction and usage patterns",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b5e9fd6c-9c26-f111-860d-0271c902ca61",
+  "title": "PositivePayInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "54eae275-9c26-f111-860d-0271c902ca61",
+      "name": "Account Holder",
+      "description": "The person or entity whose checks or payment instructions are being monitored for fraud.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d102c8e-9c26-f111-860d-0271c902ca61",
+      "name": "Bank",
+      "description": "The bank that maintains the account, receives payment instructions, and verifies them against the authorized list.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b86d696-9c26-f111-860d-0271c902ca61",
+      "name": "Beneficiary",
+      "description": "The person or organization that is intended to receive the payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e2c949f-9c26-f111-860d-0271c902ca61",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee banking operations and fraud prevention practices, ensuring compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "079712e2-f228-f111-860d-06b37ecc494f",
+  "title": "FinancialStatusTrackingInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4e3c35f2-f228-f111-860d-06b37ecc494f",
+      "name": "Balance Tracking Instruction",
+      "description": "A request to monitor and update the available balances of accounts or instruments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0366fff-f228-f111-860d-06b37ecc494f",
+      "name": "Exposure Tracking Instruction",
+      "description": "A request to monitor credit, market, or operational exposures associated with positions, loans, or obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9f3e308-f328-f111-860d-06b37ecc494f",
+      "name": "Collateral Status Tracking Instruction",
+      "description": "A request to track the value, allocation, and sufficiency of collateral supporting obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a54b611-f328-f111-860d-06b37ecc494f",
+      "name": "Transaction Status Tracking Instruction",
+      "description": "A request to monitor the progress or completion of specific transactions (e.g., pending, settled, failed).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "daff431a-f328-f111-860d-06b37ecc494f",
+      "name": "Liquidity Status Tracking Instruction",
+      "description": "A request to assess and report the available liquidity across accounts or arrangements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb7c3824-f328-f111-860d-06b37ecc494f",
+      "name": "Profit and Loss Tracking Instruction",
+      "description": "A request to calculate and update realized and unrealized profit and loss on positions or transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d21b9334-f328-f111-860d-06b37ecc494f",
+      "name": "Limit Monitoring Instruction",
+      "description": "A request to track compliance with credit, risk, or operational limits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5952863c-f328-f111-860d-06b37ecc494f",
+      "name": "Scheduled Status Tracking Instruction",
+      "description": "A request to perform financial status updates or reporting at predefined intervals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "44839f46-f328-f111-860d-06b37ecc494f",
+      "name": "Conditional Status Tracking Instruction",
+      "description": "A request to track or report only when predefined thresholds or triggers are met.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5acdcc4e-f328-f111-860d-06b37ecc494f",
+      "name": "Financial Summary Reporting Instruction",
+      "description": "A request to generate consolidated reports summarizing account, portfolio, or arrangement financial status.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

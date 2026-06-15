@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "43e121b7-2321-f111-860d-06839b636291",
+  "title": "DebitCardInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "48ff04e3-2321-f111-860d-06839b636291",
+      "name": "Cardholder",
+      "description": "The person who owns and uses the debit card to access funds in their bank account for payments or withdrawals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b61dfaff-2321-f111-860d-06839b636291",
+      "name": "Issuing Bank",
+      "description": "The bank or financial institution that issues the debit card, maintains the linked account, and authorizes transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1945710-2421-f111-860d-06839b636291",
+      "name": "Merchant",
+      "description": "The business or organization that accepts debit card payments for goods or services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7889f17-2421-f111-860d-06839b636291",
+      "name": "Merchant Bank",
+      "description": "The bank that processes debit card payments on behalf of the merchant and settles funds with the issuing bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "37d75525-2421-f111-860d-06839b636291",
+      "name": "Payment Network",
+      "description": "The organization (e.g., Visa, Mastercard) that facilitates communication, authorization, and settlement between the issuing and acquiring banks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "856a1b31-2421-f111-860d-06839b636291",
+      "name": "ATM Operator",
+      "description": "The bank or third-party entity that provides ATM access for cash withdrawals using the debit card.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abd2563c-2421-f111-860d-06839b636291",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that supervise and regulate debit card operations, ensuring compliance with financial, security, and consumer protection laws.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc447549-2421-f111-860d-06839b636291",
+      "name": "Technology Provider",
+      "description": "Companies that supply card management systems, payment processing platforms, and infrastructure for transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9b4488df-3f0b-f111-8602-0ad4a82ce56b",
+  "title": "EarnTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "63667702-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Eligibility Condition",
+      "description": "Who is allowed to earn incentives.\r\n\r\nComment:\r\nExample: Only active cardholders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "605f8e1a-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Qualifying Activity Condition",
+      "description": "What actions earn incentives.\r\n\r\nComment:\r\nExample: Card spending, referrals, bill payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33cac034-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Rate Condition",
+      "description": "How much is earned per activity.\r\n\r\nComment:\r\nExample: 1 point per $1 spent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a43abc55-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Threshold Condition",
+      "description": "Minimum activity required.\r\n\r\nComment\r\nExample: Minimum $10 transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc178a65-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Limit Condition",
+      "description": "Maximum incentives that can be earned.\r\n\r\nComment:\r\nExample: Max 5,000 points per month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46b72972-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Calculation Condition",
+      "description": "Rounding, exclusions, or category rules.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "07798d7b-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Posting Condition",
+      "description": "When incentives are credited.\r\n\r\nComment:\r\nExample: End-of-day or monthly posting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef3ed990-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Validity Condition",
+      "description": "How long earned incentives remain usable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce83c39c-400b-f111-8602-0ad4a82ce56b",
+      "name": "Earn Reversal Condition",
+      "description": "Conditions under which earned incentives are reversed.\r\n\r\nComment:\r\nExample: Refund reverses points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

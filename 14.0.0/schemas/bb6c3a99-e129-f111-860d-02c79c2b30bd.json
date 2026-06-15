@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bb6c3a99-e129-f111-860d-02c79c2b30bd",
+  "title": "DividendLifecycleStatusValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "30a486a5-e129-f111-860d-02c79c2b30bd",
+      "name": "Declared",
+      "description": "Bank creates dividend event, stores key dates (ex-date, record date, pay date)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aab8141a-e229-f111-860d-02c79c2b30bd",
+      "name": "Pending",
+      "description": "Waiting for ex-date or record date, positions not finalized",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27610a25-e229-f111-860d-02c79c2b30bd",
+      "name": "Ex-Date Reached",
+      "description": "Bank updates trading eligibility; clients buying on/after ex-date are not entitled",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7fdb2f2f-e229-f111-860d-02c79c2b30bd",
+      "name": "Record Date Confirmed",
+      "description": "Bank snapshots positions; generates entitlement list",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8116ad39-e229-f111-860d-02c79c2b30bd",
+      "name": "Calculated",
+      "description": "Bank calculates gross/net dividend per client; tax adjustments applied",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f567d143-e229-f111-860d-02c79c2b30bd",
+      "name": "Ready for Payment",
+      "description": "Payment instructions generated; cash or shares allocated for distribution",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9fff6e50-e229-f111-860d-02c79c2b30bd",
+      "name": "Paid",
+      "description": "Cash credited or shares allocated to client accounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d58b3262-e229-f111-860d-02c79c2b30bd",
+      "name": "Completed",
+      "description": "Bank reconciles with custodians; no outstanding items remain",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59c9d168-e229-f111-860d-02c79c2b30bd",
+      "name": "Cancelled",
+      "description": "Event cancelled or corrected; reversal adjustments applied",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

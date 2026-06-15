@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "79122ef6-1c16-f111-8608-06d087c72731",
+  "title": "ProfitabilityAssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5ea89b13-1d16-f111-8608-06d087c72731",
+      "name": "ROA Assessment",
+      "description": "Return on Assets (ROA) Assessment measures how efficiently a bank uses its total assets to generate profit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d66da3d-1d16-f111-8608-06d087c72731",
+      "name": "ROE Assessment",
+      "description": "Return on Equity (ROE) Assessment: measures profit generated from shareholders funds.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4dad926e-1d16-f111-8608-06d087c72731",
+      "name": "NIM Assessment",
+      "description": "Net Interest Margin (NIM) Assessment: measures the difference between interest income earned and interest paid.\r\n\r\nIncludes:\r\nOperating profit margin\r\nCost-to-Income Ratio\r\nEfficiency ratio",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d3e5086-1d16-f111-8608-06d087c72731",
+      "name": "Operating Profitability Assessment",
+      "description": "Evaluates profit from core banking operations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57e53e92-1d16-f111-8608-06d087c72731",
+      "name": "Non-Interest Income Profitability Assessment",
+      "description": "Measures income from fees and services.\r\n\r\nIncludes:\r\nFee-based income (cards, advisory, commissions)\r\nTrading income\r\nService charges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d537f6a5-1d16-f111-8608-06d087c72731",
+      "name": "Segment Profitability Assessment",
+      "description": "Evaluates profitability by business unit.\r\n\r\nIncludes:\r\nRetail banking profitability\r\nCorporate banking profitability\r\nInvestment banking profitability\r\nBranch-level profit analysis",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "874443d0-1d16-f111-8608-06d087c72731",
+      "name": "Risk-Adjusted Profitability Assessment",
+      "description": "Measures profit after considering risk exposure.\r\n\r\nIncludes:\r\nRisk-Adjusted Return on Capital (RAROC)\r\nEconomic Value Added (EVA)\r\nExpected loss adjustments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

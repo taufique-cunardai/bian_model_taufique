@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6c1f2a95-314a-f111-bb23-0666e6fc352d",
+  "title": "DisbursementMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0195d522-324a-f111-bb23-0666e6fc352d",
+      "name": "Cheque or Demand Draft",
+      "description": "Written order to a bank to pay a certain amount of money from one person to another person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0395d522-324a-f111-bb23-0666e6fc352d",
+      "name": "CreditTransfer",
+      "description": "Transfer of an amount of money in the books of the account servicer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0495d522-324a-f111-bb23-0666e6fc352d",
+      "name": "Cash",
+      "description": "Classical method.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0895d522-324a-f111-bb23-0666e6fc352d",
+      "name": "Direct",
+      "description": "Direct method.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

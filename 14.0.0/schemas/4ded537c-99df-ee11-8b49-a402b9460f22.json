@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4ded537c-99df-ee11-8b49-a402b9460f22",
+  "title": "TransactionEnvironmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7ad997a1-99df-ee11-8b49-a402b9460f22",
+      "name": "Merchant",
+      "description": "Merchant environment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7cd997a1-99df-ee11-8b49-a402b9460f22",
+      "name": "Private",
+      "description": "Private environment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7dd997a1-99df-ee11-8b49-a402b9460f22",
+      "name": "Public",
+      "description": "Public environment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ed997a1-99df-ee11-8b49-a402b9460f22",
+      "name": "Branch",
+      "description": "Bank environment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7fd997a1-99df-ee11-8b49-a402b9460f22",
+      "name": "Other",
+      "description": "Other environments, for instance a mall or an airport.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d6dc81da-b7db-ea11-82b8-06af5dbe0252",
+  "title": "AccessRestrictionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c1796515-b8db-ea11-82b8-06af5dbe0252",
+      "name": "AccessRestrictionByChannelDevice",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "359d2327-b8db-ea11-82b8-06af5dbe0252",
+      "name": "AccessRestrictionByLocation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f17092f-b8db-ea11-82b8-06af5dbe0252",
+      "name": "AccessRestrictionByFrequency/Limit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d10c0fc-b9db-ea11-82b8-06af5dbe0252",
+      "name": "AccessRestrictionByTime/Duration",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

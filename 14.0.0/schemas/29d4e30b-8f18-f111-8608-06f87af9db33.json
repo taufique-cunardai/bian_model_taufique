@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "29d4e30b-8f18-f111-8608-06f87af9db33",
+  "title": "ChargebackTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "08d21928-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Eligibility Condition",
+      "description": "Specifies which transactions or parties qualify for a chargeback.\r\n\r\nComment:\r\nExamples:\r\nUnauthorized or fraudulent transactions\r\nDuplicate charges\r\nNon-delivery or defective goods/services\r\nTransactions outside agreed terms",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03563330-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Initiation Condition",
+      "description": "Specifies how a customer or merchant can initiate a chargeback request.\r\n\r\nIncludes:\r\nRequired documentation (receipts, dispute forms)\r\nChannels for submitting (online, branch, phone)\r\nTime limits for initiation (e.g., within 60 days of transaction)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "08563330-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Timeframe and Deadline Condition",
+      "description": "Defines the allowable time period for initiating and processing chargebacks.\r\n\r\nComment:\r\nExamples:\r\nDispute must be filed within 60120 days of the transaction\r\nBank has 30 days to acknowledge the request\r\nMerchant has 10 days to respond to the dispute",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "50639a40-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Calculation Condition",
+      "description": "Specifies how the amount to be reversed is calculated, including fees, interest, or adjustments.\r\n\r\nComment:\r\nExamples:\r\nFull transaction amount refunded\r\nPartial refund for goods returned\r\nDeduction of any applicable fees",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bce33347-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Supporting Documentation Condition",
+      "description": "Specifies what evidence is required to validate the chargeback.\r\n\r\nCommnent:\r\nExamples:\r\nTransaction receipts\r\nProof of non-delivery or defective service\r\nSigned dispute forms",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f023dd54-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Merchant and Customer Responsibility Condition",
+      "description": "Defines the obligations of the parties involved during the chargeback process.\r\n\r\nComment:\r\nExamples:\r\nMerchant must respond within the specified timeframe\r\nCustomer must provide evidence of dispute\r\nBoth parties must maintain communication for resolution",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06f9c760-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Fee and Penalty Condition",
+      "description": "Specifies any fees, penalties, or interest applicable to chargebacks.\r\n\r\nComment:\r\nExamples:\r\nChargeback fee applied to merchant\r\nInterest accrued on reversed amounts\r\nPenalties for late submission of dispute evidence",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83084d76-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Resolution Condition",
+      "description": "Defines how disputes are resolved once a chargeback request is processed.\r\n\r\nIncludes:\r\nFull or partial reversal approval\r\nRejection criteria\r\nEscalation procedures for unresolved disputes",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "efde3a81-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Regulatory and Compliance Condition",
+      "description": "Ensures chargeback processes comply with laws, card network rules, and banking regulations.\r\n\r\nComment:\r\nExamples:\r\nCompliance with Visa, Mastercard, or local card network rules\r\nAML/KYC verification\r\nReporting to regulators if required",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1f4e58a-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Notification Condition",
+      "description": "Specifies how and when parties are notified about chargeback status.\r\n\r\nIncludes:\r\nAcknowledgement of dispute submission\r\nMerchant response notification\r\nFinal resolution confirmation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67fe6593-9318-f111-8608-06f87af9db33",
+      "name": "Chargeback Dispute Escalation and Arbitration Condition",
+      "description": "Defines how unresolved or contested chargebacks are escalated.\r\n\r\nComment\r\nExamples:\r\nReferral to card network arbitration\r\nInternal bank escalation to management\r\nMediation procedures",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

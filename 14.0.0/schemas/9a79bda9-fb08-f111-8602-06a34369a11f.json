@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9a79bda9-fb08-f111-8602-06a34369a11f",
+  "title": "CreditTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "10b22ac2-fb08-f111-8602-06a34369a11f",
+      "name": "Incentive Credit Transaction",
+      "description": "What it records:\r\nAddition of earned incentives\r\nCredit type (cashback, points, bonus)\r\nCredit amount or quantity\r\nTimestamp and reference\r\n\r\nComment:\r\nExample:+5,000 reward points earned from card spending",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd5994e8-fb08-f111-8602-06a34369a11f",
+      "name": "Monetary Credit Transaction",
+      "description": "What it records:\r\nMonetary amount credited to a financial account\r\nTarget product (current account, savings, credit card)\r\nValue date and amount\r\n\r\nComment:\r\nExample: +2,000 USD salary credited to current account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e372804-fc08-f111-8602-06a34369a11f",
+      "name": "Interest Credit Transaction",
+      "description": "What it records:\r\nInterest earned on deposit or product\r\nInterest rate applied\r\nCalculation period\r\n\r\nComment:\r\nExample: +25 USD monthly savings interest credited",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77d80f1a-fc08-f111-8602-06a34369a11f",
+      "name": "Loan Disbursement Transaction",
+      "description": "What it records:\r\nRelease of approved loan funds\r\nLoan account reference\r\nDisbursement amount\r\n\r\nComment:\r\nExample: +10,000 USD personal loan disbursed to customer account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "671bd130-fc08-f111-8602-06a34369a11f",
+      "name": "Bonus / Promotional Credit Transaction",
+      "description": "What it records:\r\nAdditional promotional incentive\r\nCampaign reference\r\nBonus calculation applied\r\n\r\nComment:\r\nExample: +1,000 bonus points awarded under festive campaign",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5cf7c48-fc08-f111-8602-06a34369a11f",
+      "name": "Adjustment / Correction Credit Transaction",
+      "description": "What it records:\r\nManual or system correction\r\nReason for adjustment\r\nLinked original transaction reference\r\n\r\nComment:\r\nExample: +50 USD credited due to billing error correction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbd49d5d-fc08-f111-8602-06a34369a11f",
+      "name": "Disbursement Transaction",
+      "description": "An action that releases credit funds from the lender to the borrower, initiating or increasing the credit exposure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cea6376-fc08-f111-8602-06a34369a11f",
+      "name": "Credit Reversal Transaction",
+      "description": "What it records:\r\nReversal of previously posted credit\r\nReduction of incentive or monetary value\r\nReference to original credit transaction\r\n\r\nComment:\r\nExample: 5,000 reward points reversed due to refunded purchase",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85120eb2-0322-f111-860d-0a1878b6c327",
+      "name": "Utilization Transaction",
+      "description": "An action where the borrower uses available credit (e.g., drawing from a credit line or making a purchase on credit).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33f316be-0322-f111-860d-0a1878b6c327",
+      "name": "Repayment Transaction",
+      "description": "An action where the borrower pays back part or all of the outstanding credit, reducing the liability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a6f297c9-0322-f111-860d-0a1878b6c327",
+      "name": "Prepayment Transaction",
+      "description": "An action where the borrower repays credit earlier than scheduled, either partially or in full.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e199c7d4-0322-f111-860d-0a1878b6c327",
+      "name": "Interest Accrual Transaction",
+      "description": "An action that calculates and adds interest to the outstanding credit balance over time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63d0c0df-0322-f111-860d-0a1878b6c327",
+      "name": "Interest Payment Transaction",
+      "description": "An action that settles accrued interest, either separately or as part of a repayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bf2b1ea-0322-f111-860d-0a1878b6c327",
+      "name": "Fee Charge Transaction",
+      "description": "An action that applies service-related fees (e.g., processing, maintenance) to the credit account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2fcdfef8-0322-f111-860d-0a1878b6c327",
+      "name": "Penalty Transaction",
+      "description": "An action that applies charges due to non-compliance, such as late payment or breach of terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aeebd603-0422-f111-860d-0a1878b6c327",
+      "name": "Adjustment Transaction",
+      "description": "An action that modifies balances or entries to correct errors or reflect updates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6b94a0e-0422-f111-860d-0a1878b6c327",
+      "name": "Reversal Transaction",
+      "description": "An action that cancels or reverses a previous transaction, restoring the prior state.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0af3c218-0422-f111-860d-0a1878b6c327",
+      "name": "Write-off Transaction",
+      "description": "An action that removes uncollectible credit amounts from active accounting records.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cafe2023-0422-f111-860d-0a1878b6c327",
+      "name": "Restructuring Transaction",
+      "description": "An action that alters the structure of the credit obligation, such as capitalizing interest or changing repayment terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "929fcf13-e308-f111-8602-06a34369a11f",
+  "title": "CreditTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6fdcbc1d-e308-f111-8602-06a34369a11f",
+      "name": "Direct Deposit / Transfer Credit",
+      "description": "Money is transferred from another account.\r\n\r\nComment:\r\nExamples: Salary deposit, Online transfer, Wire transfer, Interbank transfer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a03853e-e308-f111-8602-06a34369a11f",
+      "name": "Cash Deposit Credit",
+      "description": "Physical cash is deposited into the account.\r\n\r\nComment:\r\nExamples: ATM cash deposit, Over-the-counter deposit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ade39d50-e308-f111-8602-06a34369a11f",
+      "name": "Rewards / Points Crediting",
+      "description": "Reward points are credited to a loyalty account.\r\n\r\nComment:\r\nExamples: Credit card reward points, Promotional bonus points",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd4d9065-e308-f111-8602-06a34369a11f",
+      "name": "Interest Crediting",
+      "description": "Bank credits interest earned on deposits.\r\n\r\nComment:\r\nExamples: Savings account interest (monthly/quarterly), Fixed deposit interest at maturity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "358a9b76-e308-f111-8602-06a34369a11f",
+      "name": "Cashback Crediting",
+      "description": "Cashback earned from card spending is added.\r\n\r\nComment:\r\nExamples: Monthly credit card cashback, Debit card cashback",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcfe4fa8-e308-f111-8602-06a34369a11f",
+      "name": "Refund / Reversal Credit",
+      "description": "Money returned from a cancelled transaction.\r\n\r\nComment:\r\nExamples: Purchase refund, Fee reversal, Chargeback",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ff048b4-e308-f111-8602-06a34369a11f",
+      "name": "Loan Disbursement Credit",
+      "description": "Loan amount credited to customers account.\r\n\r\nComment:\r\nExamples: Personal loan disbursement, Mortgage disbursement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14fb93ca-e308-f111-8602-06a34369a11f",
+      "name": "Dividend / Investment Income Credit",
+      "description": "Investment earnings credited to account.\r\n\r\nComment:\r\nExamples: Mutual fund dividends, Bond coupon payments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "322386db-e308-f111-8602-06a34369a11f",
+      "name": "Adjustment Credit",
+      "description": "Manual correction by the bank.\r\n\r\nComment\r\nExamples: Error correction, Compensation credit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

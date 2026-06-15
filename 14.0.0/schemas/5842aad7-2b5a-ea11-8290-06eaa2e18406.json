@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5842aad7-2b5a-ea11-8290-06eaa2e18406",
+  "title": "CampaignPortfolioManagementDutyTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cb39a724-2c5a-ea11-8290-06eaa2e18406",
+      "name": "Market Tracking",
+      "description": "Track competitor activity and customer behavioral insights to assess required active customer campaign coverage and goals",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cd39a724-2c5a-ea11-8290-06eaa2e18406",
+      "name": "Performance Assessment",
+      "description": "Assess coverage and performance of the customer campaign portfolio",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce39a724-2c5a-ea11-8290-06eaa2e18406",
+      "name": "Campaign Direction",
+      "description": "Direct the development/refinement of customer campaigns and initiate campaign execution as appropriate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac91b62a-0654-ef11-8b69-a402b9460f22",
+      "name": "Competitive Assessment",
+      "description": "Market and Competitor Analysis – use market research to identify segment gaps & competitive strengths (in line with Corporate Strategy)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b191b62a-0654-ef11-8b69-a402b9460f22",
+      "name": "Coverage Planning",
+      "description": "Customer Segmentation – defined by demographics, psychographics, behaviors, etc. matched to services and products\r\nCampaign Objective Attainment – set by segment, defined in terms of brand awareness, new business generation, retention, etc.)\r\nResource Planning – define and allocate budget, staff, facilities and materials",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b691b62a-0654-ef11-8b69-a402b9460f22",
+      "name": "Impact Assessment",
+      "description": "Assess Objective Attainment – by segment (and supporting campaign) – this can trigger an ‘oversight’ response",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bb91b62a-0654-ef11-8b69-a402b9460f22",
+      "name": "Capability Oversight",
+      "description": "Design Scheduling\r\n**Direct Campaign Development – by segment/demographics/channel/ product etc.\r\n**Instigate Campaign (re)Design\r\nExecution Scheduling \r\n**Campaign Scheduling – set schedule and initiate campaign execution \r\n**Instigate Campaign re(Scheduling)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

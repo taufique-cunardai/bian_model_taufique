@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9a1a3072-de0c-f111-8602-0a3edd8519af",
+  "title": "IncentiveProgramTypeValues",
+  "description": "Earn rewards for referring a friend or opening an account.\r\n\r\nComment:\r\n$50 bonus for referring a new account holder",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cd26a682-de0c-f111-8602-0a3edd8519af",
+      "name": "Cashback Incentive Program",
+      "description": "Earn points or cashback for card usage.\r\n\r\nComment:\r\n2 points per $1 spent on groceries",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1d04e56-a70d-f111-8602-0aabfe3b0785",
+      "name": "Travel Incentive Program",
+      "description": "Bonus points for booking flights, hotels, or spending on travel.\r\n\r\nComment:\r\nEarn 3x points on airline tickets",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1f49ad2-a70d-f111-8602-0aabfe3b0785",
+      "name": "Referral Incentive Program",
+      "description": "Rewards are given for successfully referring new customers.\r\n\r\nComent:\r\n$50 bonus for referred friends who open accounts\r\nPoints or cashback for business referrals",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3010f808-a80d-f111-8602-0aabfe3b0785",
+      "name": "Tiered Incentive Program",
+      "description": "Extra points or perks for reaching spending milestones or maintaining high balances\r\n\r\nComment:\r\nPlatinum cardholders earn 1.5x points",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b28bc148-a80d-f111-8602-0aabfe3b0785",
+      "name": "Promotional Incentive Program",
+      "description": "Temporary multipliers or limited-time bonuses.\r\n\r\nComment:\r\nDouble points on dining during holidays",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d67d274-a80d-f111-8602-0aabfe3b0785",
+      "name": "Charity Incentive Program",
+      "description": "Earn points for participating in charitable programs or CSR campaigns\r\n\r\nComment:\r\n100 points per donation made via bank portal",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5adc3fc0-a80d-f111-8602-0aabfe3b0785",
+      "name": "Point Transfer Incentive Program",
+      "description": "Points earned can be transferred to partner programs.\r\n\r\nComment:\r\nTransfer points to airline or hotel loyalty accounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

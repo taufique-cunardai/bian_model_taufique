@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e2251fc9-f728-f111-860d-06b37ecc494f",
+  "title": "FinancialStatusTrackingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "867ad7d7-f728-f111-860d-06b37ecc494f",
+      "name": "Account-Level Tracking",
+      "description": "Monitoring individual customer accounts to ensure accurate balances, transaction processing, and compliance with account rules.\r\n\r\nComment:\r\nKey Items Tracked:\r\nAccount balances: Amounts available and posted in deposits or checking accounts.\r\nTransaction status: Whether a payment or transfer is pending, completed, or failed.\r\nInterest accrual: Interest earned or payable on the account.\r\nFees and charges: Service fees, overdraft fees, penalties.\r\nLimit utilization: Credit or overdraft limits and how much is used.\r\n\r\nExample: Monitoring a checking account to ensure the customers daily balance is accurate after deposits and withdrawals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2707f250-fb28-f111-860d-06b37ecc494f",
+      "name": "Loan & Credit Tracking",
+      "description": "Monitoring all aspects of lending, including borrower obligations, repayment performance, and collateral status.\r\n\r\nComment:\r\nKey Items Tracked:\r\nOutstanding principal: Remaining loan amount.\r\nAccrued interest: Interest accumulated over time.\r\nPayment history: Record of repayments and defaults.\r\nCollateral value: Security pledged against the loan.\r\nCredit exposure: Total amount lent to a single borrower or sector.\r\n\r\nExample: Tracking a corporate loan portfolio to ensure borrowers are repaying on schedule and collateral remains sufficient.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5533e67-fb28-f111-860d-06b37ecc494f",
+      "name": "Deposits & Funding Tracking",
+      "description": "Monitoring bank liabilities, funding sources, and deposit inflows/outflows.\r\n\r\nComment:\r\nKey Items Tracked:\r\nDeposit balances: Total deposits across products or accounts.\r\nWithdrawal trends: Patterns of cash withdrawals over time.\r\nTerm deposits: Maturity dates and interest accruals.\r\nFunding concentration: Exposure to large depositors or institutions.\r\n\r\nExample: Monitoring customer deposits to maintain sufficient liquidity for daily withdrawals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee1f1070-fb28-f111-860d-06b37ecc494f",
+      "name": "Investment & Asset Tracking",
+      "description": "Monitoring the banks assets, investments, and their market value.\r\n\r\nComment:\r\nKey Items Tracked:\r\nSecurities portfolio: Bonds, equities, mutual funds.\r\nMarket value: Daily valuation of assets.\r\nPortfolio performance: Returns and gains/losses.\r\nLiquidity of assets: Ability to convert assets to cash.\r\nAsset allocation: Distribution across different asset classes.\r\n\r\nExample: Tracking the banks investment portfolio to ensure it meets performance and liquidity targets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01c76673-fd28-f111-860d-06b37ecc494f",
+      "name": "Risk & Exposure Tracking",
+      "description": "Monitoring exposure to potential financial losses due to credit, market, operational, or liquidity risks.\r\n\r\nComment:\r\nKey Items Tracked:\r\nCredit risk: Probability of borrower default.\r\nMarket risk: Sensitivity to interest rates, currencies, or equities.\r\nOperational risk: Fraud, system errors, or process failures.\r\nLiquidity risk: Ability to meet short-term obligations.\r\nConcentration risk: Exposure to a single borrower, sector, or instrument.\r\n\r\nExample: Monitoring exposure to large corporate borrowers to prevent over-concentration in one sector.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3715d18c-fd28-f111-860d-06b37ecc494f",
+      "name": "Capital & Solvency Tracking",
+      "description": "Monitoring the banks financial strength and ability to meet long-term obligations.\r\n\r\nComment:\r\nKey Items Tracked:\r\nShareholder equity: Bank-owned capital and retained earnings.\r\nTier 1 / Tier 2 capital: Regulatory capital categories.\r\nDebt-to-equity ratio: Measure of solvency.\r\nRegulatory ratios: Capital adequacy, leverage, liquidity coverage.\r\n\r\nExample: Ensuring Basel III capital adequacy requirements are met.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b888a5a3-fd28-f111-860d-06b37ecc494f",
+      "name": "Operational Tracking",
+      "description": "Monitoring day-to-day banking operations to ensure efficiency and smooth service delivery.\r\n\r\nComment:\r\nKey Items Tracked:\r\nTransaction volumes: Number and value of payments processed.\r\nBranch / ATM performance: Cash availability, transactions handled.\r\nSettlement status: Cleared vs pending interbank settlements.\r\nService efficiency: Cost-to-income ratio, loan processing time.\r\n\r\nExample: Monitoring the number of payments processed daily to detect delays or bottlenecks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2c765bc-fd28-f111-860d-06b37ecc494f",
+      "name": "Customer & Product Tracking",
+      "description": "Monitoring customer behavior and banking product performance for strategic and operational decisions.\r\n\r\nComment:\r\nKey Items Tracked:\r\nProduct adoption: Accounts, loans, or cards issued.\r\nCustomer profitability: Revenue generated per customer.\r\nPortfolio risk: Loan defaults by product type.\r\nFee generation: Fees collected by product category.\r\n\r\nExample: Measuring profitability of credit cards versus savings accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8daf5e2-fd28-f111-860d-06b37ecc494f",
+      "name": "Forecast Tracking",
+      "description": "Monitoring expected future financial status using historical data and predictive models.\r\n\r\nComment:\r\nKey Items Tracked:\r\nCash flow forecasts: Expected inflows and outflows.\r\nLoan default projections: Predicted non-performing loans.\r\nDeposit trends: Seasonal fluctuations in deposits.\r\nCapital requirements: Projected regulatory capital needs.\r\n\r\nExample: Forecasting liquidity requirements for the next quarter based on seasonal deposit trends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

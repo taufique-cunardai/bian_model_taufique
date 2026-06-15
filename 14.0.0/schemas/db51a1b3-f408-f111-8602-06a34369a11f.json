@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "db51a1b3-f408-f111-8602-06a34369a11f",
+  "title": "CreditInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "50e0a5de-f608-f111-8602-06a34369a11f",
+      "name": "Borrower",
+      "description": "Borrower / Customer: The person receives the credit and is obligated to repay it under agreed terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bbc093fd-f608-f111-8602-06a34369a11f",
+      "name": "Lender",
+      "description": "Lender / Financial Institution: The bank or organization that provides the credit and sets the terms, conditions, and pricing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3ded01d-0522-f111-860d-0a1878b6c327",
+      "name": "Co-borrower",
+      "description": "Co-borrower / Joint Applicant: A person who applies for and shares responsibility for repaying the credit alongside the primary borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2697a52e-0522-f111-860d-0a1878b6c327",
+      "name": "Guarantor",
+      "description": "Guarantor: A person agrees to repay the credit if the borrower defaults.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd85ee40-0522-f111-860d-0a1878b6c327",
+      "name": "Credit Risk Department",
+      "description": "Credit Risk Department / Underwriter: The team that assesses the borrowers creditworthiness and decides whether to approve the credit and under what conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b05d346c-0522-f111-860d-0a1878b6c327",
+      "name": "Relationship Manager",
+      "description": "Relationship Manager / Account Officer: Bank staff who manage the customer relationship and facilitate the credit application and servicing process.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee5a6080-0522-f111-860d-0a1878b6c327",
+      "name": "Regulatory Authority",
+      "description": "Regulatory Authority: Government or official bodies that oversee credit practices to ensure legal and regulatory compliance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac13b2b1-0522-f111-860d-0a1878b6c327",
+      "name": "Credit Agency",
+      "description": "Credit Bureau / Credit Agency: Organizations that provide credit history and scoring information used to assess the borrowers risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5df6b2bc-0522-f111-860d-0a1878b6c327",
+      "name": "Collateral Provider",
+      "description": "Collateral Provider: A person pledges assets as security for the credit (may be the borrower or a third party).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d575be0-0522-f111-860d-0a1878b6c327",
+      "name": "Legal Entity",
+      "description": "Legal / Documentation Entity: Internal or external legal parties responsible for drafting, reviewing, and enforcing credit agreements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

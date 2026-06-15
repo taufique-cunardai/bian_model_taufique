@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "83d3ff1a-d610-f111-8602-02d28cff2161",
+  "title": "IssuedCertificateLifecycleStatusValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9aaac231-d610-f111-8602-02d28cff2161",
+      "name": "Redeemed",
+      "description": "Certificate has been successfully redeemed.\r\n\r\nComment:\r\nCustomer redeems the gift card for an Amazon purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff84ca39-d610-f111-8602-02d28cff2161",
+      "name": "Cancelled",
+      "description": "Certificate invalidated due to program rules, fraud, or participant ineligibility.\r\n\r\nComment:\r\nCertificate revoked because the account was closed or misuse detected.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68722340-d610-f111-8602-02d28cff2161",
+      "name": "Expired",
+      "description": "Certificate reached its expiration date without being redeemed.\r\n\r\nComment:\r\n$50 gift card not used within 12 months.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76a26c3e-7e11-f111-8608-02f2e5147603",
+      "name": "Issued",
+      "description": "Certificate has been issued but not yet redeemed.\r\n\r\nComment:\r\nCustomer receives a $50 gift card after completing a transaction; not yet used.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4e69c51-7e11-f111-8608-02f2e5147603",
+      "name": "Suspended",
+      "description": "Redemption temporarily blocked due to issues.\r\n\r\nComment:\r\nCertificate pending verification of authentication or system maintenance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

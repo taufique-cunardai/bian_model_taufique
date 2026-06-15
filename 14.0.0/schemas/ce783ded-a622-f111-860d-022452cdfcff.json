@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ce783ded-a622-f111-860d-022452cdfcff",
+  "title": "CreditApplicationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1e71aaca-aa22-f111-860d-022452cdfcff",
+      "name": "Sequential Credit Application",
+      "description": "Sequential / Priority-Based Application: Payments or disbursements are applied in a predefined order to different components.\r\n\r\nComment\r\nExample: Repayment applied first to fees, then interest, then principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "efa228de-aa22-f111-860d-022452cdfcff",
+      "name": "Proportional Credit Application",
+      "description": "Proportional / Split Application: Payments are divided proportionally across multiple components.\r\n\r\nComment:\r\nExample: €100 repayment split 60% to principal, 40% to interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e76baf1-aa22-f111-860d-022452cdfcff",
+      "name": "Single Component Credit Application",
+      "description": "Full / Single Component Application: Payment applied fully to a single component of the account.\r\n\r\nComment:\r\nExample: Full repayment applied entirely to principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1c2a30b-ab22-f111-860d-022452cdfcff",
+      "name": "Conditional Credit Application",
+      "description": "Funds or repayments applied only if certain conditions are met.\r\n\r\nComment:\r\nExample: Payment applied to overdue principal only if balance exceeds zero.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9da29f1d-ab22-f111-860d-022452cdfcff",
+      "name": "Automatic Credit Application",
+      "description": "Automatic / System-Driven Application: Allocation occurs automatically according to predefined system rules.\r\n\r\nComment:\r\nExample: Loan repayment automatically allocated by the banking system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1b15233-ab22-f111-860d-022452cdfcff",
+      "name": "Manual Credit Application",
+      "description": "Account holder specifies how the funds or repayment should be applied.\r\n\r\nComment:\r\nExample: Customer chooses to pay more toward interest or principal in a loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0b34b43-ab22-f111-860d-022452cdfcff",
+      "name": "Event-Based Credit Application",
+      "description": "Application occurs upon a specific trigger or event.\r\n\r\nComment:\r\nExample: Penalty fee applied automatically when repayment is late.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

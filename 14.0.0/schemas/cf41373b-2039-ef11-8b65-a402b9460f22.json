@@ -1,0 +1,235 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cf41373b-2039-ef11-8b65-a402b9460f22",
+  "title": "ProductSegmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "72d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "AgricultureSector",
+      "description": "This loan is intended for the agricultural sector",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Basic",
+      "description": "Current account for providing essential banking services for customers with a poor credit history. Usually with no cheque book or overdraft facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "BenefitAndReward",
+      "description": "Packaged PCA products offering various benefits and rewards",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Business",
+      "description": "The Loan product for small and medium sized businesses. A generic code which may be applied for any segments until restricted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "CreditInterest",
+      "description": "PCA products offering high credit interest",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Cashback",
+      "description": "PCA products offering Cashback",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "FlexibleBusinessLoan",
+      "description": "This Loan product is intended for group of customers wanting a  flexible business loan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ad5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "FixedGroup",
+      "description": "This loan product is intended for a group of customers fixed/defined by the bank. (e.g. members of a specific organisation belonging to the same category)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7bd5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "General",
+      "description": "Current account for providing general banking services, usually with a cheque book and optional overdraft.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7cd5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Graduate",
+      "description": "Current account for University Graduates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7dd5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "GovernmentScheme",
+      "description": "This loan product is intended for participants in a particular Government scheme",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ed5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Other",
+      "description": "all the other PCA products that can’t be classified as any of the above product types",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7fd5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Overdraft",
+      "description": "PCA products with favourable overdraft offering",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Packaged",
+      "description": "Packaged current account with multiple features, usually available for a fee. Can also include rewards",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Premium",
+      "description": "Premium current account with  features usually available for a fee. Can also include rewards",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "82d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Reward",
+      "description": "This product has reward features,",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Student",
+      "description": "Current account for Further Education Students usually with special interest rates and other features",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "YoungAdult",
+      "description": "Current account for young adults - age range can vary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Youth",
+      "description": "Current account for a youth age range normally 11 to 18, usually teenagers with increasing responsibility given with age.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "ClientAccount",
+      "description": "Designed for client money held on account by organisations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Standard",
+      "description": "For companies who are not eligible for the other account types",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "NonCommercialChaitiesClbSoc",
+      "description": "Designed for third sector organisations e.g. Schools, Credit Unions, Charities, Clubs & Societies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89d5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "NonCommercialPublicAuthGovt",
+      "description": "Designed for public sector organisations e.g. Public Authorities and Government",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ad5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Religious",
+      "description": "Targets the needs of particular religious communities e.g. adheres to Shariah law.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bd5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "SectorSpecific",
+      "description": "Has aspects that target particular sectors e.g. Agricultural",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cd5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Startup",
+      "description": "Designed for startup companies",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8dd5fe48-2039-ef11-8b65-a402b9460f22",
+      "name": "Switcher",
+      "description": "Designed for companies that have switched accounts from another financial institution",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "078e7ae4-390b-f111-8602-0ad4a82ce56b",
+  "title": "CreditMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ea3825f0-390b-f111-8602-0ad4a82ce56b",
+      "name": "Manual Credit",
+      "description": "Applied by a bank staff member.\r\n\r\nComment:\r\nExample: Adjustment credit entered by an operator.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4dace03e-3a0b-f111-8602-0ad4a82ce56b",
+      "name": "Automatic Credit",
+      "description": "Generated automatically by system rules.\r\n\r\nComment\r\nExample: Monthly interest posting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c063934e-3a0b-f111-8602-0ad4a82ce56b",
+      "name": "Real-Time Credit",
+      "description": "Real-Time Credit: Credited instantly at the time of event.\r\n\r\nComment:\r\nExample: Immediate cashback.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2915f6a-3a0b-f111-8602-0ad4a82ce56b",
+      "name": "Batch Credit",
+      "description": "Processed at scheduled intervals.\r\n\r\nComment:\r\nExample: End-of-day reward points posting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47547c7b-3a0b-f111-8602-0ad4a82ce56b",
+      "name": "Transfer Credit",
+      "description": "Credited through transfer from another account or bank.\r\n\r\nComment:\r\nExample: Incoming wire transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fae31f8e-3a0b-f111-8602-0ad4a82ce56b",
+      "name": "Provisional Credit",
+      "description": "Temporary credit before final confirmation.\r\n\r\nComment:\r\nExample: Check deposit pending clearance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3671ae9a-3a0b-f111-8602-0ad4a82ce56b",
+      "name": "Conditional Credit",
+      "description": "Credited only after conditions are met.\r\n\r\nComment:\r\nExample: Bonus after reaching spending target.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

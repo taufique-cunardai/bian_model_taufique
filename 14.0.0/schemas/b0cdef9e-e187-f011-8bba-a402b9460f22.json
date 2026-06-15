@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b0cdef9e-e187-f011-8bba-a402b9460f22",
+  "title": "CustomerContactSessionWorkstepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "693e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Service Requests Processing",
+      "description": "Handling customer-initiated queries or transactions by invoking backend services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6b3e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Order Placement / Product Fulfillment",
+      "description": "Capturing and executing requests for new products, services, or changes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c3e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Notifications & Communication Delivery",
+      "description": "Delivering pending messages, alerts, or confirmations during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d3e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Customer Data Maintenance / Update",
+      "description": "Correcting or enriching customer details, often involving KYC or CRM systems.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e3e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Authentication & Verification",
+      "description": "Confirming customer identity and authorizing sensitive actions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f3e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Sales & Relationship Development",
+      "description": "Leveraging the session to offer personalized upselling or cross-selling.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "703e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Guidance & Help Provision",
+      "description": "Providing structured support content or guided dialogue.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "713e7704-e387-f011-8bba-a402b9460f22",
+      "name": "Exception Handling & Escalation",
+      "description": "Managing cases where automation is insufficient or requires human decisioning.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

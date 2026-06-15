@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e036591f-7343-ef11-8b66-a402b9460f22",
+  "title": "BusinessDevelopmentGoalTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d9d0806a-3444-ef11-8b66-a402b9460f22",
+      "name": "Revenue Growth",
+      "description": "- Increase sales and profitability.   \r\n- Develop new revenue streams.   \r\n- Improve customer acquisition and retention rates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0d0806a-3444-ef11-8b66-a402b9460f22",
+      "name": "Market Expansion",
+      "description": "-    Enter new geographic markets.\r\n-    Target new customer segments.\r\n-    Diversify product or service offerings.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f57a276-3444-ef11-8b66-a402b9460f22",
+      "name": "Partnerships and Alliances",
+      "description": "-    Form strategic partnerships or alliances.\r\n-    Collaborate with other companies for mutual benefit.\r\n-    Seek out joint ventures or mergers and acquisitions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54865783-3444-ef11-8b66-a402b9460f22",
+      "name": "Brand Awareness and Reputation",
+      "description": "-    Enhance brand recognition and reputation.\r\n-    Improve public relations and corporate image.\r\n-    Engage in effective marketing and advertising campaigns.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec644a94-3444-ef11-8b66-a402b9460f22",
+      "name": "Product Development and Innovation",
+      "description": "-    Invest in research and development.\r\n-    Launch new products or services.\r\n-    Improve existing offerings based on customer feedback.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1644a94-3444-ef11-8b66-a402b9460f22",
+      "name": "Operational Efficiency",
+      "description": "-    Streamline business processes and operations.\r\n-    Implement cost-saving measures.\r\n-    Invest in technology and infrastructure.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ea441a3-3444-ef11-8b66-a402b9460f22",
+      "name": "Customer Satisfaction and Loyalty",
+      "description": "-    Improve customer service and support.\r\n-    Increase customer satisfaction and loyalty.\r\n-    Implement customer feedback mechanisms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa0c24ce-3444-ef11-8b66-a402b9460f22",
+      "name": "Talent Acquisition and Development",
+      "description": "-    Attract and retain top talent.\r\n-    Invest in employee training and development.\r\n-    Foster a positive and productive company culture.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8dc7b502-3544-ef11-8b66-a402b9460f22",
+      "name": "Sustainability and Corporate Social Responsibility",
+      "description": "-    Implement sustainable business practices.\r\n-    Engage in CSR activities and community involvement.\r\n-    Promote environmental and social responsibility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79405b0c-3544-ef11-8b66-a402b9460f22",
+      "name": "Competitive Advantage",
+      "description": "-    Analyze and respond to competitive threats.\r\n-    Differentiate products or services from competitors.\r\n-    Continuously innovate to stay ahead in the market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

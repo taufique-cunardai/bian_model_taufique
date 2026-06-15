@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "beffc132-0d2d-f111-860d-023aa191a9fb",
+  "title": "PostingTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "49c8976e-0d2d-f111-860d-023aa191a9fb",
+      "name": "Debit Posting Transaction",
+      "description": "An action that records a debit to an account, decreasing its balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97d37775-0d2d-f111-860d-023aa191a9fb",
+      "name": "Credit Posting Transaction",
+      "description": "An action that records a credit to an account, increasing its balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b990481-0d2d-f111-860d-023aa191a9fb",
+      "name": "Adjustment Posting Transaction",
+      "description": "An action that modifies previously posted entries to correct errors or reflect updated information.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "decc1789-0d2d-f111-860d-023aa191a9fb",
+      "name": "Reversal Posting Transaction",
+      "description": "An action that reverses a previously posted transaction, restoring prior balances.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91808e92-0d2d-f111-860d-023aa191a9fb",
+      "name": "Accrual Posting Transaction",
+      "description": "An action that records accrued interest, fees, or other amounts as per agreement or period-end.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d0a709a-0d2d-f111-860d-023aa191a9fb",
+      "name": "Settlement Posting Transaction",
+      "description": "An action that records the completion of a transaction or obligation, such as a payment or loan repayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a4204a2-0d2d-f111-860d-023aa191a9fb",
+      "name": "Transfer Posting Transaction",
+      "description": "An action that records the movement of funds between accounts within the ledger.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

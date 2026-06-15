@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b4a37a3e-4f07-f111-8602-0a46e3dae05d",
+  "title": "RedemptionInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6e16df53-e222-f111-860d-0219f28f8465",
+      "name": "Cash Redemption Instruction",
+      "description": "A request to convert accumulated value into cash and credit it to a designated account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d17e1d0c-e52c-f111-860d-020a7916b3f9",
+      "name": "Product or Service Redemption Instruction",
+      "description": "A request to exchange accumulated value for goods, services, or benefits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d67e1d0c-e52c-f111-860d-020a7916b3f9",
+      "name": "Securities Redemption Instruction",
+      "description": "A request to redeem financial instruments (e.g., bonds, fund units) for cash or underlying assets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77024923-e52c-f111-860d-020a7916b3f9",
+      "name": "Partial Redemption Instruction",
+      "description": "A request to redeem only a portion of the available value or holdings.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba084e2c-e52c-f111-860d-020a7916b3f9",
+      "name": "Full Redemption Instruction",
+      "description": "A request to redeem the entire available value or holdings.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "813cc332-e52c-f111-860d-020a7916b3f9",
+      "name": "Scheduled Redemption Instruction",
+      "description": "A request to execute redemption automatically at predefined intervals or dates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40e7153c-e52c-f111-860d-020a7916b3f9",
+      "name": "Conditional Redemption Instruction",
+      "description": "A request to perform redemption only when specific conditions are met (e.g., thresholds, maturity, eligibility).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "838f0445-e52c-f111-860d-020a7916b3f9",
+      "name": "Redemption Reversal Instruction",
+      "description": "A request to reverse or cancel a previously executed redemption due to errors or cancellations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61c1244d-e52c-f111-860d-020a7916b3f9",
+      "name": "Redemption Settlement Instruction",
+      "description": "A request to complete the settlement of a redemption, including transfer of cash, assets, or benefits.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "250de055-e52c-f111-860d-020a7916b3f9",
+      "name": "Redemption Adjustment Instruction",
+      "description": "A request to correct or modify redemption amounts due to valuation changes, fees, or discrepancies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

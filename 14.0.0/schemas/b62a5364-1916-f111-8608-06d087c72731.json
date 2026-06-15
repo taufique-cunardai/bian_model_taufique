@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b62a5364-1916-f111-8608-06d087c72731",
+  "title": "PerformanceAssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "54bac39c-1916-f111-8608-06d087c72731",
+      "name": "Financial Performance Assessment",
+      "description": "Focuses on profitability and financial strength.\r\n\r\nIncludes:\r\n\r\nCAMELS Rating System: A global standard used by regulators to rank banks from 1 (best) to 5 (worst):\r\nCapital Adequacy, Asset Quality, Management, Earnings, Liquidity, Sensitivity to Market Risk\r\n\r\nProfitability Ratios: Assessing how efficiently the bank generates income.\r\n\r\nNet Interest Margin (NIM): The difference between interest earned on loans and interest paid on deposits.\r\n\r\nReturn on Assets (ROA) / Return on Equity (ROE).\r\n\r\nEfficiency Ratio: Measures the cost of running the bank versus its income. A lower ratio is generally better.\r\n\r\nCost-to-Income Ratio\r\nLoan & Deposit Growth",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b32c0f0e-1a16-f111-8608-06d087c72731",
+      "name": "Risk-Based Performance Assessment",
+      "description": "Evaluates how effectively risks are managed.\r\n\r\nIncludes:\r\nCredit Risk (Non-Performing Loans ratio)\r\nMarket Risk\r\nLiquidity Risk\r\nOperational Risk\r\nCapital Adequacy Ratio (CAR)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "762a8422-1a16-f111-8608-06d087c72731",
+      "name": "Operational Performance Assessment",
+      "description": "Measures efficiency of internal processes.\r\n\r\nIncludes:\r\nTransaction accuracy rate\r\nLoan processing turnaround time\r\nCost control\r\nStaff productivity\r\nDigital banking adoption rate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4f8da32-1a16-f111-8608-06d087c72731",
+      "name": "Sales & Business Performance Assessment",
+      "description": "Common in retail and corporate banking.\r\n\r\nIncludes:\r\nSales target achievement\r\nNew account openings\r\nCross-selling ratio\r\nPortfolio growth\r\nFee-based income generation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56635142-1a16-f111-8608-06d087c72731",
+      "name": "Customer Performance Assessment",
+      "description": "Focuses on service quality.\r\n\r\nIncludes:\r\nCustomer Satisfaction Score (CSAT)\r\nNet Promoter Score (NPS)\r\nComplaint resolution time\r\nCustomer retention rate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "93ca4850-1a16-f111-8608-06d087c72731",
+      "name": "Individual Employee Performance Appraisal Assessment",
+      "description": "Used for staff promotions and bonuses.\r\n\r\nIncludes:\r\nKPI-based appraisal\r\n360-degree feedback\r\nManagement by Objectives (MBO)\r\nBehavioral competency assessment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac149370-1a16-f111-8608-06d087c72731",
+      "name": "Balanced Scorecard Assessment",
+      "description": "A strategic performance evaluation system that combines:\r\nFinancial perspective\r\nCustomer perspective\r\nInternal process perspective\r\nLearning & growth perspective",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

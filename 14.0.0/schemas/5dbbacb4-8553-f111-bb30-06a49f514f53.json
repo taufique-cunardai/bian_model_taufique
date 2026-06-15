@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5dbbacb4-8553-f111-bb30-06a49f514f53",
+  "title": "CashbackCategoryValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dc1711b4-8653-f111-bb30-06a49f514f53",
+      "name": "Grocery Category",
+      "description": "Cashback on supermarket and food retail purchases.\r\n\r\nComment:\r\nExample: Purchases at supermarkets like Carrefour or Lidl.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f44adc8-8653-f111-bb30-06a49f514f53",
+      "name": "Fuel Category",
+      "description": "Cashback on petrol, diesel, or EV charging expenses.\r\n\r\nComment:\r\nExample: Transactions at fuel stations or charging networks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e077ad7-8653-f111-bb30-06a49f514f53",
+      "name": "Dining Category",
+      "description": "Cashback on restaurants, cafés, and food delivery.\r\n\r\nComment:\r\nExample: Eating at restaurants or ordering via delivery apps.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "744006e4-8653-f111-bb30-06a49f514f53",
+      "name": "Travel Category",
+      "description": "Cashback on transport and travel-related spending.\r\n\r\nComment:\r\nExample: Flights, hotels, taxis, or public transport.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c6504f0-8653-f111-bb30-06a49f514f53",
+      "name": "Online Shopping Category",
+      "description": "Cashback on e-commerce purchases.\r\n\r\nComment:\r\nExample: Buying products on Amazon or similar platforms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62a63ffd-8653-f111-bb30-06a49f514f53",
+      "name": "Entertainment Category",
+      "description": "Cashback on leisure activities.\r\n\r\nComment:\r\nExample: Streaming services, cinemas, or events.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2afab709-8753-f111-bb30-06a49f514f53",
+      "name": "Utility Category",
+      "description": "Cashback on recurring bills and services.\r\n\r\nComment:\r\nExample: Electricity, water, internet, or phone bills.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55bc8c18-8753-f111-bb30-06a49f514f53",
+      "name": "Retail Category",
+      "description": "Cashback on general in-store purchases not tied to a specific sector.\r\n\r\nComment\r\nExample: Clothing or electronics store purchases.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "491ec52c-8753-f111-bb30-06a49f514f53",
+      "name": "Health Category",
+      "description": "Cashback on medical and wellness spending.\r\n\r\nComment:\r\nExample: Pharmacy purchases or clinic payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cfacab3d-8753-f111-bb30-06a49f514f53",
+      "name": "Partner Category",
+      "description": "Partner/Merchant Category: Cashback restricted to specific partner merchants.\r\n\r\nComment:\r\nExample: Cashback only at selected retail or brand partners.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

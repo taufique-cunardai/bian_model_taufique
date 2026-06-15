@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5874d0c0-6428-f111-860d-02cf10b7252b",
+  "title": "FinancialStatusTrackingServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4601b9dc-6428-f111-860d-02cf10b7252b",
+      "name": "Account and Balance Monitoring Service",
+      "description": "Tracks cash balances, deposits, loans, and other account types in real-time or on a scheduled basis.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "413093f2-6428-f111-860d-02cf10b7252b",
+      "name": "Exposure Assessment Service",
+      "description": "Monitors credit, market, and operational exposures to determine potential financial risk.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff23e110-6528-f111-860d-02cf10b7252b",
+      "name": "Obligation Tracking Service",
+      "description": "Tracks pending payments, scheduled transfers, and repayment obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d0be825-6528-f111-860d-02cf10b7252b",
+      "name": "Liquidity & Availability Analysis Service",
+      "description": "Assesses available funds for operations, investments, or collateral requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fa01e39-6528-f111-860d-02cf10b7252b",
+      "name": "Reporting & Alert Service",
+      "description": "Generates financial status reports, alerts for thresholds, overdrafts, or covenant breaches.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3df78b49-6528-f111-860d-02cf10b7252b",
+      "name": "Integration with Risk Management Service",
+      "description": "Works with collateral, position tracking, and amount block services to ensure accurate financial health assessment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f60a0276-6528-f111-860d-02cf10b7252b",
+      "name": "Historical Trend Analysis Service",
+      "description": "Provides insight into financial performance, cash flow trends, and account activity over time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

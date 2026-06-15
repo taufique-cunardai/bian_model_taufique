@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c11c2353-ac54-ef11-8b6a-a402b9460f22",
+  "title": "CustomerCampaignMetricTypeValues",
+  "description": "Metrics and KPIs used to evaluate customer campaigns",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "433dcc6e-ac54-ef11-8b6a-a402b9460f22",
+      "name": "Click-Through Rates (CTR)",
+      "description": "Formula: (Number of Clicks / Number of Impressions) x 100\r\nIndicates the effectiveness of an ad in generating interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a3dcc6e-ac54-ef11-8b6a-a402b9460f22",
+      "name": "Conversion Rate",
+      "description": "Formula: (Number of Conversions / Number of Total Visitors) x 100\r\nMeasures the percentage of users who take the desired action (e.g., make a purchase).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf641f88-ac54-ef11-8b6a-a402b9460f22",
+      "name": "Customer Acquisition Cost (CAC)",
+      "description": "Formula: Total Campaign Costs / Number of New Customers Acquired\r\nIndicates the cost to acquire a new customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a7c5690-ac54-ef11-8b6a-a402b9460f22",
+      "name": "Return On Investment (ROI)",
+      "description": "Formula: (Net Profit / Campaign Cost) x 100\r\nMeasures the profitability of the campaign.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "894a3fb3-ac54-ef11-8b6a-a402b9460f22",
+      "name": "Customer Lifetime Value (CLV)",
+      "description": "Estimates the total revenue a business can expect from a single customer account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7137def-ac54-ef11-8b6a-a402b9460f22",
+      "name": "Engagement Rate",
+      "description": "Formula: (Total Engagements / Total Impressions) x 100\r\nMeasures how actively users are engaging with the campaign content.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc137def-ac54-ef11-8b6a-a402b9460f22",
+      "name": "Bounce Rate",
+      "description": "Formula: (Single Page Sessions / Total Sessions) x 100\r\nIndicates the percentage of visitors who leave the site after viewing only one page.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b5e9416-ad54-ef11-8b6a-a402b9460f22",
+      "name": "Repeat Purchase Rate",
+      "description": "Formula: (Number of Returning Customers / Total Number of Customers) x 100\r\nIndicates the percentage of customers who make more than one purchase",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95de6522-ad54-ef11-8b6a-a402b9460f22",
+      "name": "Churn Rate",
+      "description": "Formula: (Number of Customers Lost / Total Number of Customers at Start of Period) x 100\r\nMeasures the rate at which customers stop doing business with the company.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e54e07ad-1850-ef11-8b68-a402b9460f22",
+  "title": "SurveyTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ea9dd4bb-1850-ef11-8b68-a402b9460f22",
+      "name": "Customer Survey",
+      "description": "Targeted at customers to gather feedback on products or services.\r\nExamples: Post-purchase surveys, net promoter score (NPS) surveys.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f19dd4bb-1850-ef11-8b68-a402b9460f22",
+      "name": "Employee Survey",
+      "description": "Targeted at employees to gauge job satisfaction, engagement, and opinions.\r\nExamples: Employee engagement surveys, 360-degree feedback surveys.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff40bfc9-1850-ef11-8b68-a402b9460f22",
+      "name": "Market Research Survey",
+      "description": "Conducted to understand market trends, preferences, and behaviors.\r\nExamples: Brand awareness surveys, product concept tests",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2dfeddd2-1850-ef11-8b68-a402b9460f22",
+      "name": "Academic Survey",
+      "description": "Used in research studies to gather data for academic purposes.\r\nExamples: Surveys for theses, dissertations, or scholarly research.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

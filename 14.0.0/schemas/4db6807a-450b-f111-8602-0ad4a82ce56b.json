@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4db6807a-450b-f111-8602-0ad4a82ce56b",
+  "title": "EarnMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fd74c38e-450b-f111-8602-0ad4a82ce56b",
+      "name": "Real-Time Earn",
+      "description": "Incentives calculated and credited instantly after the qualifying event.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15d7ba9c-450b-f111-8602-0ad4a82ce56b",
+      "name": "Batch Earn",
+      "description": "Incentives calculated and credited at scheduled intervals (e.g., end-of-day, monthly).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a35c21a7-450b-f111-8602-0ad4a82ce56b",
+      "name": "Manual Earn",
+      "description": "Incentives applied manually by an operator.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbf738b6-450b-f111-8602-0ad4a82ce56b",
+      "name": "Provisional Earn",
+      "description": "Temporary earning pending validation (e.g., pending transaction settlement).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26fce8be-450b-f111-8602-0ad4a82ce56b",
+      "name": "Conditional Earn",
+      "description": "Incentives credited only after meeting a condition (e.g., minimum spend threshold).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "789bdcc8-450b-f111-8602-0ad4a82ce56b",
+      "name": "Aggregated Earn",
+      "description": "Earning calculated based on total activity over a period rather than per transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

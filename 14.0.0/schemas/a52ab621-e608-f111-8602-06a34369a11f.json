@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a52ab621-e608-f111-8602-06a34369a11f",
+  "title": "CreditTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "97fa024f-e608-f111-8602-06a34369a11f",
+      "name": "Eligibility Condition",
+      "description": "Rules about who qualifies for the credit.\r\n\r\nComment:\r\nExamples:\r\nMust have active account\r\nMinimum age requirement\r\nGood credit history\r\nMinimum balance maintained",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c23e1e72-e608-f111-8602-06a34369a11f",
+      "name": "Amount and Limit Condition",
+      "description": "Rules about how much can be credited.\r\n\r\nComment:\r\nExamples:\r\nMaximum cashback $100 per month\r\nCredit limit up to $10,000\r\nBonus capped at 5,000 points",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc0c2c89-e608-f111-8602-06a34369a11f",
+      "name": "Timing Condition",
+      "description": "Rules about when credit is posted.\r\n\r\nComment:\r\nExamples:\r\nCredited monthly\r\nCredited within 7 working days\r\nCredited at maturity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "339fcda3-e608-f111-8602-06a34369a11f",
+      "name": "Calculation Condition",
+      "description": "Rules explaining how the credit amount is calculated.\r\n\r\nComment:\r\nExamples:\r\n1% of eligible spending\r\nInterest rate × daily balance\r\nFixed $20 bonus",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4b7a1bb-e608-f111-8602-06a34369a11f",
+      "name": "Condition-Based Condition",
+      "description": "Credit happens only if certain conditions are met.\r\n\r\nComment:\r\nExamples:\r\nMinimum $500 spending required\r\nNo overdue payments\r\nAccount must remain open for 90 days",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abe5c9d1-e608-f111-8602-06a34369a11f",
+      "name": "Expiry and Validity Condition",
+      "description": "Defines how long the credited value remains valid.\r\n\r\nComment:\r\nExamples:\r\nBonus valid for 12 months\r\nCashback must be used within 6 months",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b71c20e1-e608-f111-8602-06a34369a11f",
+      "name": "Adjustment Condition",
+      "description": "Rules allowing the bank to reverse credit.\r\n\r\nComment:\r\nExamples:\r\nRefund transactions reverse cashback\r\nFraudulent activity voids rewards",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cee59d40-e708-f111-8602-06a34369a11f",
+      "name": "Compliance Condition",
+      "description": "Regulatory and contractual obligations.\r\n\r\nComment:\r\nExamples:\r\nSubject to bank policy\r\nSubject to regulatory approval",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

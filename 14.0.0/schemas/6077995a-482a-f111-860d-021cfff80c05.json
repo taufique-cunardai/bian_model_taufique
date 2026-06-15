@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6077995a-482a-f111-860d-021cfff80c05",
+  "title": "CashConcentrationServiceAgreementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6277995a-482a-f111-860d-021cfff80c05",
+      "name": "Cash Concentration & Disbursement (CCD) Agreement",
+      "description": "Covers electronic transfers consolidating and redistributing cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6377995a-482a-f111-860d-021cfff80c05",
+      "name": "Concentration Account Agreement",
+      "description": "Agreement specific to the use of a designated concentration account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6477995a-482a-f111-860d-021cfff80c05",
+      "name": "Cross-Border Concentration Agreement",
+      "description": "Specialized for multinational firms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6577995a-482a-f111-860d-021cfff80c05",
+      "name": "Hybrid Agreement",
+      "description": "Combines sweeping and pooling clauses.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6677995a-482a-f111-860d-021cfff80c05",
+      "name": "Master Concentration Agreement",
+      "description": "Umbrella contract covering all concentration services across accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6777995a-482a-f111-860d-021cfff80c05",
+      "name": "Pooling Agreement",
+      "description": "Governs notional pooling (virtual offsetting).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6877995a-482a-f111-860d-021cfff80c05",
+      "name": "Sweeping Agreement",
+      "description": "Specific to zero-balance or target-balance sweeping.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

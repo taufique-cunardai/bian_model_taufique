@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5e9599c1-dc08-f111-8602-06a34369a11f",
+  "title": "RedemptionTypeValues",
+  "description": "Rewards are used for travel-related purchases.\r\n\r\nExample:\r\nPoints → flight tickets or hotel bookings.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "05e9d3d9-dc08-f111-8602-06a34369a11f",
+      "name": "Direct Account Transfer Redemption",
+      "description": "Redeemed value is transferred to a bank account.\r\n\r\nComment:\r\n30 EUR cashback -> transferred to savings account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea88e6d4-de08-f111-8602-06a34369a11f",
+      "name": "Statement Credit Redemption",
+      "description": "Rewards or cashback are applied to reduce the credit card outstanding balance.\r\n\r\nComment: \r\nExample:$50 cashback → deducted from next credit card bill.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a49fc76-df08-f111-8602-06a34369a11f",
+      "name": "Merchant Payment / Voucher Redemption",
+      "description": "Rewards are converted into vouchers or used directly with partner merchants.\r\n\r\nExample:\r\n5,000 points → $50 shopping voucher.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d40c578d-df08-f111-8602-06a34369a11f",
+      "name": "Product / Gift Redemption",
+      "description": "Points are exchanged for physical or digital products.\r\n\r\nComment:\r\nExample: Points → headphones, gift cards, gadgets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9705c4b9-df08-f111-8602-06a34369a11f",
+      "name": "Cash Withdrawal Redemption",
+      "description": "Rewards can be withdrawn as cash (if allowed).\r\n\r\nComment:\r\nExample:Redeem $100 cashback → cash payout.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe1fddce-df08-f111-8602-06a34369a11f",
+      "name": "Travel Redemption",
+      "description": "Rewards are used for travel-related purchases.\r\n\r\nComment:\r\nExample: Points → flight tickets or hotel bookings.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e59be5d6-df08-f111-8602-06a34369a11f",
+      "name": "Fee Waiver / Charge Offset Redemption",
+      "description": "Rewards are used to waive or reduce bank fees.\r\n\r\nComment:\r\nExample: Points → annual card fee waiver.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d46565df-df08-f111-8602-06a34369a11f",
+      "name": "Loan Offset / EMI Payment Redemption",
+      "description": "Rewards are used to reduce loan outstanding or installment payments.\r\n\r\nComment:\r\nExample: Cashback → used to reduce loan principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

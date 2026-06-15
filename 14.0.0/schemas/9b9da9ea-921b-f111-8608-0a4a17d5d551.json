@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9b9da9ea-921b-f111-8608-0a4a17d5d551",
+  "title": "InvoiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dfbbeb21-931b-f111-8608-0a4a17d5d551",
+      "name": "Sales Invoice",
+      "description": "A sales invoice is a billing document issued by a seller to a buyer requesting payment for goods or services that have been delivered.\r\n\r\nComment:\r\nExample:\r\nA computer retailer sells 10 laptops to a company and issues a sales invoice for €12,000 payable within 30 days.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94561830-931b-f111-8608-0a4a17d5d551",
+      "name": "Purchase Invoice",
+      "description": "A purchase invoice is an invoice received by a buyer from a supplier requesting payment for goods or services purchased.\r\n\r\nComment:\r\nExample:\r\nA restaurant buys food supplies from a wholesaler and receives a purchase invoice for €2,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64f0283e-931b-f111-8608-0a4a17d5d551",
+      "name": "Proforma Invoice",
+      "description": "A proforma invoice is a preliminary invoice sent before the actual delivery of goods or services to provide cost details or request advance payment.\r\n\r\nComment:\r\nExample:\r\nA furniture exporter sends a proforma invoice for €15,000 to a buyer before shipping the goods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a9fb6648-931b-f111-8608-0a4a17d5d551",
+      "name": "Credit Invoice",
+      "description": "A credit invoice is issued to reduce or cancel a previously issued invoice due to returns, discounts, or billing errors.\r\n\r\nComment:\r\nExample:\r\nA customer returns defective products worth €500, so the seller issues a credit invoice for €500.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65510263-931b-f111-8608-0a4a17d5d551",
+      "name": "Debit Invoice",
+      "description": "A debit invoice is issued to increase the amount payable due to additional charges or correction of an underbilled invoice.\r\n\r\nComment:\r\nExample:\r\nA logistics company initially billed €800, but additional delivery costs of €150 occur, so a debit invoice for €150 is issued.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba375171-931b-f111-8608-0a4a17d5d551",
+      "name": "Recurring Invoice",
+      "description": "A recurring invoice is automatically generated at regular intervals for ongoing services or subscriptions.\r\n\r\nComment:\r\nExample:\r\nA software company sends a monthly subscription invoice of €50 to its customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04b6897e-931b-f111-8608-0a4a17d5d551",
+      "name": "Interim Invoice",
+      "description": "An interim invoice is issued during the progress of a long-term project to request partial payment before completion.\r\n\r\nComment:\r\nExample:\r\nA construction company sends an interim invoice of €20,000 after completing the first stage of building work.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1963091-931b-f111-8608-0a4a17d5d551",
+      "name": "Final Invoice",
+      "description": "A final invoice is the last invoice issued after a project or service is completed, including the remaining balance.\r\n\r\nComment:\r\nExample:\r\nAfter finishing a renovation project costing €60,000, the contractor sends a final invoice for the remaining €10,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d48fd7a5-931b-f111-8608-0a4a17d5d551",
+      "name": "Commercial Invoice",
+      "description": "A commercial invoice is used in international trade to declare the value, quantity, and description of goods for customs clearance.\r\n\r\nComment:\r\nExample:\r\nAn exporter sends a commercial invoice for €25,000 worth of electronics to a buyer in another country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab588cb5-931b-f111-8608-0a4a17d5d551",
+      "name": "Self-Billing Invoice",
+      "description": "A self-billing invoice is created by the buyer on behalf of the supplier under an agreed billing arrangement.\r\n\r\nComment:\r\nExample:\r\nA supermarket generates invoices for farmers who supply fresh vegetables weekly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34e963c2-931b-f111-8608-0a4a17d5d551",
+      "name": "Timesheet Invoice",
+      "description": "A timesheet invoice is based on the number of hours worked and is commonly used in consulting or freelance services.\r\n\r\nComment:\r\nExample:\r\nA consultant charges €100 per hour for 40 hours, issuing a timesheet invoice for €4,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74ce7fd0-931b-f111-8608-0a4a17d5d551",
+      "name": "Mixed Invoice",
+      "description": "A mixed invoice contains both debit and credit adjustments within the same invoice document.\r\n\r\nComment:\r\nExample:\r\nAn invoice includes €2,000 for new products but deducts €300 for returned items, resulting in a net invoice of €1,700.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

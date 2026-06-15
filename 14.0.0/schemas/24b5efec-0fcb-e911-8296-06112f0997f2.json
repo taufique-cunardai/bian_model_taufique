@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "24b5efec-0fcb-e911-8296-06112f0997f2",
+  "title": "MerchantAgreementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "25b5efec-0fcb-e911-8296-06112f0997f2",
+      "name": "Merchant",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32a6a17e-10cb-e911-8296-06112f0997f2",
+      "name": "Acquiring Bank",
+      "description": "The acquiring bank (also merchant bank or acquirer) is the financial institution that maintains the merchants bank account. The contract with the acquirer enables merchants to process credit and debit card transactions. The acquiring bank passes the merchants transactions along to the applicable issuing banks to receive payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

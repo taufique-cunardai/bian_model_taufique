@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "04abeb36-420b-f111-8602-0ad4a82ce56b",
+  "title": "EarnTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "401fe33d-420b-f111-8602-0ad4a82ce56b",
+      "name": "Transaction-Based Earn",
+      "description": "Earned from spending or payments.\r\n\r\nComment:\r\nExample: 1 point per $1 spent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "23563059-420b-f111-8602-0ad4a82ce56b",
+      "name": "Balance-Based Earn",
+      "description": "Earned from maintaining account balance.\r\n\r\nComment:\r\nExample: Bonus points for average balance above $10,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7575696a-420b-f111-8602-0ad4a82ce56b",
+      "name": "Promotional Earn",
+      "description": "Earned from campaigns or special offers.\r\n\r\nComment:\r\nExample: Double points during promotion period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40f9e179-420b-f111-8602-0ad4a82ce56b",
+      "name": "Referral Earn",
+      "description": "Earned by referring new customers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "429c8880-420b-f111-8602-0ad4a82ce56b",
+      "name": "Milestone Earn",
+      "description": "Earned when reaching a specific target.\r\n\r\nComment:\r\nExample: Bonus after spending $5,000.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f0a4593-420b-f111-8602-0ad4a82ce56b",
+      "name": "Behavioral Earn",
+      "description": "Earned from specific actions.\r\n\r\nComment:\r\nExample: Using mobile banking app.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b40bd7a1-420b-f111-8602-0ad4a82ce56b",
+      "name": "Tier-Based Earn",
+      "description": "Earn rate depends on customer tier.\r\n\r\nComment:\r\nExample: Gold customers earn 2x points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c00847af-420b-f111-8602-0ad4a82ce56b",
+      "name": "Event-Based Earn",
+      "description": "Earned from a specific event.\r\n\r\nComment:\r\nExample: Account anniversary bonus.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

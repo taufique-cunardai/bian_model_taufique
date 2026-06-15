@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cab99e26-f01e-f111-8608-0247e3f120c3",
+  "title": "PostingProductFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6cc86143-f01e-f111-8608-0247e3f120c3",
+      "name": "Debit Posting Feature",
+      "description": "A posting feature that records a decrease in an account balance or an outflow of funds from an account.\r\n\r\nComment:\r\nExample:\r\nWithdrawal from a savings account\r\n\r\nPayment made using a debit card\r\n\r\nLoan repayment deducted from an account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9354715c-f01e-f111-8608-0247e3f120c3",
+      "name": "Credit Posting Feature",
+      "description": "A posting feature that records an increase in an account balance or an inflow of funds into an account.\r\n\r\nComment:\r\nExample:\r\nSalary deposited into a bank account\r\n\r\nInterest credited to a savings account\r\n\r\nRefund received from a merchant",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e4f606d-f01e-f111-8608-0247e3f120c3",
+      "name": "Adjustment Posting Feature",
+      "description": "A posting feature used to correct, modify, or reconcile previously recorded transactions.\r\n\r\nComment:\r\nExample:\r\n\r\nCorrecting an incorrect charge\r\n\r\nReversing a duplicated transaction\r\n\r\nManual balance correction by bank operations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad0ec477-f01e-f111-8608-0247e3f120c3",
+      "name": "Reversal Posting Feature",
+      "description": "A posting feature that cancels or reverses a previously posted transaction.\r\n\r\nComment:\r\nExample:\r\n\r\nReversing an incorrect debit\r\n\r\nCanceling a mistaken transfer\r\n\r\nReversing a duplicate payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "677fc184-f01e-f111-8608-0247e3f120c3",
+      "name": "Accrual Posting Feature",
+      "description": "A posting feature used to record accrued amounts such as interest or fees that accumulate over time but may not yet be settled.\r\n\r\nComment:\r\nExample:\r\n\r\nDaily interest accrued on a savings account\r\n\r\nAccrued interest on a loan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e07d898-f01e-f111-8608-0247e3f120c3",
+      "name": "Fee Posting Feature",
+      "description": "A posting feature used to record service fees or charges applied to an account.\r\n\r\nComment:\r\nExample:\r\n\r\nMonthly account maintenance fee\r\n\r\nATM withdrawal fee\r\n\r\nLate payment fee on a credit card",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3fec3a2-f01e-f111-8608-0247e3f120c3",
+      "name": "Interest Posting Feature",
+      "description": "A posting feature that records interest amounts applied to an account either as income or expense.\r\n\r\nComment:\r\nExample:\r\n\r\nInterest credited to a savings account\r\n\r\nInterest charged on a loan balance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

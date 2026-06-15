@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3d22915a-390e-f111-8602-0ae003988e03",
+  "title": "IssuedCertificateTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "23a9c176-390e-f111-8602-0ae003988e03",
+      "name": "Cashback Certificate",
+      "description": "A certificate that provides a fixed or percentage-based monetary refund applied to the customers account after redemption.\r\n\r\nComment:\r\n$50 Cashback Certificate valid for 90 days\r\n5% Spend Cashback Certificate capped at $100",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ae819efb-3a0e-f111-8602-0ae003988e03",
+      "name": "Discount Certificate",
+      "description": "A certificate that provides a percentage or fixed-amount reduction on eligible purchases.\r\n\r\nComment:\r\n20% Dining Discount Certificate\r\n$30 Off on Minimum $150 Spend",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "98911f0b-3b0e-f111-8602-0ae003988e03",
+      "name": "Voucher / Gift Certificate",
+      "description": "A certificate representing a prepaid or sponsored value redeemable with specific partners or merchants.\r\n\r\nComment:\r\n$100 Travel Voucher\r\nRetail Gift Card Certificate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d911f0b-3b0e-f111-8602-0ae003988e03",
+      "name": "Bonus Points Certificate",
+      "description": "A certificate that grants additional loyalty or reward points upon redemption.\r\n\r\nComment:\r\n5,000 Bonus Points Certificate\r\nDouble Points Weekend Certificate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e797116-3b0e-f111-8602-0ae003988e03",
+      "name": "Fee Waiver Certificate",
+      "description": "A certificate that removes or reduces specific banking fees.\r\n\r\nComment:\r\nAnnual Fee Waiver Certificate\r\nFree International Transfer Certificate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec66391e-3b0e-f111-8602-0ae003988e03",
+      "name": "Interest / Rate Boost Certificate",
+      "description": "A certificate that provides a temporary increase in interest rate or preferential rate benefit.\r\n\r\nComment:\r\n+1% Savings Rate Boost for 3 Months\r\nPreferential Loan Rate Certificate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "44c60625-3b0e-f111-8602-0ae003988e03",
+      "name": "Tier Upgrade Certificate",
+      "description": "A certificate granting temporary or conditional upgrade to a higher rewards or membership tier.\r\n\r\nComment:\r\nGold Tier Upgrade for 60 Days",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea125a2b-3b0e-f111-8602-0ae003988e03",
+      "name": "Non-Monetary Reward Certificate",
+      "description": "A certificate that entitles the customer to a service, event, or experiential benefit rather than direct monetary value.\r\n\r\nComment:\r\nAirport Lounge Access Certificate\r\nComplimentary Concierge Service Certificate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
