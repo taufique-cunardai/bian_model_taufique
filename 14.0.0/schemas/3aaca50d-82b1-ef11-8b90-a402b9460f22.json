@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3aaca50d-82b1-ef11-8b90-a402b9460f22",
+  "title": "Processing Order Procedure",
+  "description": "In banking, a processing order refers to the sequence of steps or instructions followed by the bank to execute a specific transaction or request made by a customer. It involves the handling, verification, and execution of the customer's instructions, such as payments, fund transfers, loan disbursements, or any other financial operation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "8fd01438-82b1-ef11-8b90-a402b9460f22",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "53625e6b-a126-f111-860d-0271c902ca61",
+  "title": "Matching Assessment",
+  "description": "A Matching Assessment is an evaluation process that compares two sets of information or data to verify that they correspond or align according to defined rules or criteria.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ea36f45c-1656-e911-8237-060aad038e48",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MatchingAssessmentType"
+  ],
+  "properties": {
+    "MatchingAssessmentType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "MatchingAssessmentTypeValues",
+      "x-related-bo-id": "15d0dbde-a126-f111-860d-0271c902ca61",
+      "x-related-bo-name": "MatchingAssessmentTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "bfd16e85-a126-f111-860d-0271c902ca61",
+      "target": "ea36f45c-1656-e911-8237-060aad038e48",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Assessment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

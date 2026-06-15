@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b79bec28-6819-f111-8608-060ba89e9853",
+  "title": "Tax Term and Condition",
+  "description": "Tax Term and Condition refers to the specific rules, obligations, and provisions related to the calculation, deduction, reporting, and payment of taxes that are applied to a banking product, service, or transaction.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "15f76c1c-6719-f111-8608-060ba89e9853",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "TaxTermandConditionType"
+  ],
+  "properties": {
+    "TaxTermandConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TaxTermandConditionTypeValues",
+      "x-related-bo-id": "ce4d1a27-6919-f111-8608-060ba89e9853",
+      "x-related-bo-name": "TaxTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "3a566a3d-6819-f111-8608-060ba89e9853",
+      "target": "15f76c1c-6719-f111-8608-060ba89e9853",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Tax Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

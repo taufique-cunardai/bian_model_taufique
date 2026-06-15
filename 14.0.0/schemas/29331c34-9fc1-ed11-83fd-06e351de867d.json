@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "29331c34-9fc1-ed11-83fd-06e351de867d",
+  "title": "Servicing Mandate Arrangement",
+  "description": "An arrangement to authorise a third party to access specific Products and/or Services on behalf of the customer. \r\n\r\nSynonym: Consent Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd0bb500-9feb-eb11-8336-065ca8b18a7f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AccessPermissionType",
+    "AccessPermissionExpirationDate",
+    "AccessPermissionStatus"
+  ],
+  "properties": {
+    "AccessPermissionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "OBAccountAccessPermissionTypeValues",
+      "x-related-bo-id": "e5df87cf-acc1-ed11-83fd-06e351de867d",
+      "x-related-bo-name": "OBAccountAccessPermissionTypeValues"
+    },
+    "AccessPermissionExpirationDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "AccessPermissionStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ConsentStatusTypeValues",
+      "x-related-bo-id": "38e253f9-1fc3-ed11-8401-0628ceb27c6f",
+      "x-related-bo-name": "ConsentStatusTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "7aded687-2dc3-ed11-8401-0628ceb27c6f",
+      "target": "dd0bb500-9feb-eb11-8336-065ca8b18a7f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Mandate Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c0f24092-cc91-e911-823e-06db9ee40f8e",
+      "target": "eb996c75-cc91-e911-823e-06db9ee40f8e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c31900ff-a0c1-ed11-83fd-06e351de867d",
+      "target": "cf0ea9f5-a0c1-ed11-83fd-06e351de867d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f350be4-aec1-ed11-83fd-06e351de867d",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

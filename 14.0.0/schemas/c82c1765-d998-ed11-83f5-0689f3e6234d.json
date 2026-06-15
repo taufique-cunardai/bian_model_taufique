@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c82c1765-d998-ed11-83f5-0689f3e6234d",
+  "title": "Undertaking Issuance Arrangement",
+  "description": "Arrangement that specifies the issuance of an undertaking.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a30fc1ae-a5b9-ec11-8382-06d577125049",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IssuanceType",
+    "IssuanceDate",
+    "PlaceofIssue"
+  ],
+  "properties": {
+    "IssuanceType": {
+      "type": "string",
+      "description": "Type of the undertaking issuance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "UndertakingIssuanceTypeValues",
+      "x-related-bo-id": "93d0d151-da98-ed11-83f5-0689f3e6234d",
+      "x-related-bo-name": "UndertakingIssuanceTypeValues"
+    },
+    "IssuanceDate": {
+      "type": "string",
+      "description": "Date on which the undertaking is issued.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "PlaceofIssue": {
+      "type": "string",
+      "description": "Location which is to be regarded as the place from which the undertaking is issued.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Location",
+      "x-related-bo-id": "063a0dcf-0561-e911-8237-068e13695e26",
+      "x-related-bo-name": "Location"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "08eb927f-d998-ed11-83f5-0689f3e6234d",
+      "target": "a30fc1ae-a5b9-ec11-8382-06d577125049",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Undertaking Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

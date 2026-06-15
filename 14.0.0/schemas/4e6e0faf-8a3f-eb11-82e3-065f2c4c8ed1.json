@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4e6e0faf-8a3f-eb11-82e3-065f2c4c8ed1",
+  "title": "Custodial Agreement",
+  "description": "An agreement wherein one holds an asset or property on behalf of the actual owner (beneficial owner). (investopedia)\r\n\r\n- With a custodial agreement, a nominee holds assets or property on behalf of the real owner.\r\n- Such agreements are generally entered into by state agencies, or companies to administer various benefit programs.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "440ea76f-4570-eb11-82fd-061e1f234dd5",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e188ed89-723a-ed11-83cc-06bbc4cc08b7",
+      "target": "6a7309f8-703a-ed11-83cc-06bbc4cc08b7",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a3b46b46-8b3f-eb11-82e3-065f2c4c8ed1",
+      "target": "776fd13e-8b3f-eb11-82e3-065f2c4c8ed1",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8afb33c-943f-eb11-82e3-065f2c4c8ed1",
+      "target": "9e69a936-943f-eb11-82e3-065f2c4c8ed1",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

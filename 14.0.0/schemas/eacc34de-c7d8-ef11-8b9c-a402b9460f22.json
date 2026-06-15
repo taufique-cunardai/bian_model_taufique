@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eacc34de-c7d8-ef11-8b9c-a402b9460f22",
+  "title": "CRS Arrangement",
+  "description": "Arrangement to specify CRS Status of the investor to stop tax evasion.\r\n\r\nWhat is the CRS?\r\n\r\nThe Common Reporting Standard (CRS) is a new information-gathering and reporting requirement for financial institutions in participating countries/jurisdictions, to help fight against tax evasion and protect the integrity of tax systems.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CRSStatus",
+    "ExceptionalReportingCountry",
+    "CRSSourceStatus",
+    "CRSReportingDate",
+    "InvestmentAccountParty"
+  ],
+  "properties": {
+    "CRSStatus": {
+      "type": "string",
+      "description": "Common Reporting Standard (CRS) status of the investor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Status",
+      "x-related-bo-id": "c7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Status"
+    },
+    "ExceptionalReportingCountry": {
+      "type": "string",
+      "description": "Reporting country for the CRS status when there is an exception at the country level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Location",
+      "x-related-bo-id": "063a0dcf-0561-e911-8237-068e13695e26",
+      "x-related-bo-name": "Location"
+    },
+    "CRSSourceStatus": {
+      "type": "string",
+      "description": "Source of the Common Reporting Standard (CRS) status expressed as a code.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Status",
+      "x-related-bo-id": "c7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Status"
+    },
+    "CRSReportingDate": {
+      "type": "string",
+      "description": "Date provided by the account owner to inform the account servicer of the date on which the holdings must be reported before the account is subsequently closed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "InvestmentAccountParty": {
+      "type": "string",
+      "description": "Common Reporting Standard (CRS) status linked to an investment account and played by a party in that context.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InvolvedParty",
+      "x-related-bo-id": "9fd62abb-7870-eb11-82fd-061e1f234dd5",
+      "x-related-bo-name": "InvolvedParty"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "a8b82e65-c8d8-ef11-8b9c-a402b9460f22",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

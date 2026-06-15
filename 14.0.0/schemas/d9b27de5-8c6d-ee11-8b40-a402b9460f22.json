@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d9b27de5-8c6d-ee11-8b40-a402b9460f22",
+  "title": "Reporting Arrangement",
+  "description": "An arrangement committed to deliver reporting service",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ReportingChannel",
+    "ReportingFrequency"
+  ],
+  "properties": {
+    "ReportingChannel": {
+      "type": "string",
+      "description": "Specifies the channel through which the report must be made available to the  information recipient.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Channel",
+      "x-related-bo-id": "153e71ae-c762-ea11-8290-0614a0f38526",
+      "x-related-bo-name": "Channel"
+    },
+    "ReportingFrequency": {
+      "type": "string",
+      "description": "Specifies the frequency at which a report must be created",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FrequencyTypeValues",
+      "x-related-bo-id": "cbaeb0ad-71fb-eb11-833a-069538764ea9",
+      "x-related-bo-name": "FrequencyTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "62ab2489-8e6d-ee11-8b40-a402b9460f22",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a96cb38-8d6d-ee11-8b40-a402b9460f22",
+      "target": "c24f1008-00af-ea11-829f-06c5ce6fa94e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

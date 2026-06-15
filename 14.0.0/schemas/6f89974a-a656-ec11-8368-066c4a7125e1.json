@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6f89974a-a656-ec11-8368-066c4a7125e1",
+  "title": "Counterparty Relationship",
+  "description": "A relationship that Party has with the other side of a trade or contract\r\n\r\n- A counterparty is simply the other side of a trade - a buyer is the counterparty to a seller. (investopedia)\r\n\r\n- Counterparty risk is the risk that the other side of the trade will be unable to fulfill their end of the transaction. (investopedia)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "fa6490a1-8957-e911-8237-0645314e65ac",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "150bf59d-a656-ec11-8368-066c4a7125e1",
+      "target": "fa6490a1-8957-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Relationship",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "354059f9-6433-ed11-83c8-060992c204f9",
+      "target": "290918ef-6433-ed11-83c8-060992c204f9",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26490354-6333-ed11-83c8-060992c204f9",
+      "target": "c3f255af-1d7b-e911-823e-06651a4b679a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b11d41c-3384-ec11-836c-062d0a6ee363",
+      "target": "a58c8a29-5a96-e911-823e-062d75b50cca",
+      "modality": "M:N",
+      "required": false,
+      "description": "Related\r\nTrade",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "13b83738-aa56-ec11-8368-066c4a7125e1",
+      "target": "fff9ebf4-a956-ec11-8368-066c4a7125e1",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

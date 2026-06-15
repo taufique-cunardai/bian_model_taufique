@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e3ef47cc-b439-ed11-83cc-06205e829a1b",
+  "title": "Public Offering Arrangement",
+  "description": "A Service Arrangement which is promised and committed for the Public Offering",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "c80f2ee6-f097-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PublicOfferingArrangementType"
+  ],
+  "properties": {
+    "PublicOfferingArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PublicOfferingArrangementTypeValues",
+      "x-related-bo-id": "c678180a-b939-ed11-83cc-06205e829a1b",
+      "x-related-bo-name": "PublicOfferingArrangementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2b50cc77-b539-ed11-83cc-06205e829a1b",
+      "target": "c80f2ee6-f097-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01745a94-b639-ed11-83cc-06205e829a1b",
+      "target": "9179dbd9-b439-ed11-83cc-06205e829a1b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1852e67-b839-ed11-83cc-06205e829a1b",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "Arrangement\r\nAccount",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee42aa39-b739-ed11-83cc-06205e829a1b",
+      "target": "ffe016a6-7ba9-ea11-829f-06478228ed28",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

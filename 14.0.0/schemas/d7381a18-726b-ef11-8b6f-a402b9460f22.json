@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d7381a18-726b-ef11-8b6f-a402b9460f22",
+  "title": "Securities Account Entry",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "69ad2f0a-0061-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SecuritiesEntryType",
+    "AcquisitionDate",
+    "SecuritiesQuantity"
+  ],
+  "properties": {
+    "SecuritiesEntryType": {
+      "type": "string",
+      "description": "Specifies the type of securities entry on an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SecuritiesEntryTypeValues",
+      "x-related-bo-id": "297dfeb0-ee70-ef11-84cd-062407ebb1ed",
+      "x-related-bo-name": "SecuritiesEntryTypeValues"
+    },
+    "AcquisitionDate": {
+      "type": "string",
+      "description": "Date upon which the investor purchased the financial instrument. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Date",
+      "x-related-bo-id": "9dde3a72-faed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Date"
+    },
+    "SecuritiesQuantity": {
+      "type": "string",
+      "description": "Quantity of a security. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1b089b68-736b-ef11-8b6f-a402b9460f22",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account Entry",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6898c387-3387-ef11-84d7-06460b98147d",
+      "target": "087f4fb1-716b-ef11-8b6f-a402b9460f22",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c29d5ecd-3287-ef11-84d7-06460b98147d",
+      "target": "30cd2a06-86a9-ea11-829f-06478228ed28",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "379ba9af-3397-ed11-83f5-06ad4872513f",
+  "title": "Undertaking Expiry Arrangement",
+  "description": "Arrangement which specifies the expiry of the undertaking.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a30fc1ae-a5b9-ec11-8382-06d577125049",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ExpiryDateTime",
+    "ExpiryCondition",
+    "ExpiryPlace"
+  ],
+  "properties": {
+    "ExpiryDateTime": {
+      "type": "string",
+      "description": "Date and time when the expiry of the undertaking takes effect.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "ExpiryCondition": {
+      "type": "string",
+      "description": "Condition that indicates when the undertaking will cease to be available at the place for presentation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Condition",
+      "x-related-bo-id": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Condition"
+    },
+    "ExpiryPlace": {
+      "type": "string",
+      "description": "Place where the expiry of the undertaking takes effect.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Location",
+      "x-related-bo-id": "063a0dcf-0561-e911-8237-068e13695e26",
+      "x-related-bo-name": "Location"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "dc745b28-3497-ed11-83f5-06ad4872513f",
+      "target": "a30fc1ae-a5b9-ec11-8382-06d577125049",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Undertaking Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

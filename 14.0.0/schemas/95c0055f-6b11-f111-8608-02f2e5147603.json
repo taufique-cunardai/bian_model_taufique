@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "95c0055f-6b11-f111-8608-02f2e5147603",
+  "title": "Value-Driven Reward",
+  "description": "Rewards that provide direct monetary, material, or quantifiable value to the customer. They are tangible or convertible into cash or cash equivalents.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ac3fec3e-950d-f111-8602-0aabfe3b0785",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Value-DrivenRewardType"
+  ],
+  "properties": {
+    "Value-DrivenRewardType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ValueDrivenRewardTypeValues",
+      "x-related-bo-id": "801ccea1-6b11-f111-8608-02f2e5147603",
+      "x-related-bo-name": "ValueDrivenRewardTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "973e318c-6b11-f111-8608-02f2e5147603",
+      "target": "ac3fec3e-950d-f111-8602-0aabfe3b0785",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Rewards Option",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

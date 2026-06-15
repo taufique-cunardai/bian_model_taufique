@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5496d2ff-f9ba-ec11-8387-064f8e36f7bd",
+  "title": "Undertaking Involvement",
+  "description": "Role played by a party in the context of an undertaking or in the context of the business linked to the undertaking. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "UndertakingInvolvementType",
+    "PartyReference",
+    "LetterofCreditReference"
+  ],
+  "properties": {
+    "UndertakingInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "UndertakingInvolvementTypeValues",
+      "x-related-bo-id": "32e66fbf-1e97-ed11-83f5-06ad4872513f",
+      "x-related-bo-name": "UndertakingInvolvementTypeValues"
+    },
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    },
+    "LetterofCreditReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Undertaking",
+      "x-related-bo-id": "ef223469-a0b9-ec11-8382-06d577125049",
+      "x-related-bo-name": "Undertaking"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

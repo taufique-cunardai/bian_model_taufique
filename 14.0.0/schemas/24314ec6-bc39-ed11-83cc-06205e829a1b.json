@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "24314ec6-bc39-ed11-83cc-06205e829a1b",
+  "title": "Quote",
+  "description": "A quote is the last price at which an asset traded; it is the most recent price that a buyer and seller agreed upon and at which some amount of the asset was transacted.\r\nhttps://www.investopedia.com/terms/q/quote.asp\r\n\r\nIndicates whether the quote details are indicated as an offer, a bid or a mid of a security, commodity, currency (the latter being an average of the offer and the bid).\r\nhttps://www.iso20022.org/standardsrepository/type/Quote",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Price",
+    "PriceType",
+    "QuotedRate",
+    "QuoteStatus"
+  ],
+  "properties": {
+    "Price": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "string"
+    },
+    "PriceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PriceTypeValues",
+      "x-related-bo-id": "e629ee2d-c339-ed11-83cc-06205e829a1b",
+      "x-related-bo-name": "PriceTypeValues"
+    },
+    "QuotedRate": {
+      "type": "string",
+      "description": "Exchange rate specified in a quote. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Rate",
+      "x-related-bo-id": "19666467-a690-eb11-8310-06a4d64a8775",
+      "x-related-bo-name": "Rate"
+    },
+    "QuoteStatus": {
+      "type": "string",
+      "description": "Provide the status for the quote.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "QuoteStatusValue",
+      "x-related-bo-id": "4fcc673e-c439-ed11-83cc-06205e829a1b",
+      "x-related-bo-name": "QuoteStatusValue"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "63e22d94-c439-ed11-83cc-06205e829a1b",
+      "target": "14b5068d-c439-ed11-83cc-06205e829a1b",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a50b44c-bf39-ed11-83cc-06205e829a1b",
+      "target": "93d8ce1e-bf39-ed11-83cc-06205e829a1b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

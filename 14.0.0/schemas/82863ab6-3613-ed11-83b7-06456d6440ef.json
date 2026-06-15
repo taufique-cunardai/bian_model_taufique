@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "82863ab6-3613-ed11-83b7-06456d6440ef",
+  "title": "Instruction_Instruction Relationship",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Instruction_InstructionRelationshipType",
+    "FromInstruction",
+    "ToInstruction"
+  ],
+  "properties": {
+    "Instruction_InstructionRelationshipType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Instruction_InstructionRelationshipTypeValues",
+      "x-related-bo-id": "8b67293f-3713-ed11-83b7-06456d6440ef",
+      "x-related-bo-name": "Instruction_InstructionRelationshipTypeValues"
+    },
+    "FromInstruction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Instruction",
+      "x-related-bo-id": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "x-related-bo-name": "Instruction"
+    },
+    "ToInstruction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Instruction",
+      "x-related-bo-id": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "x-related-bo-name": "Instruction"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

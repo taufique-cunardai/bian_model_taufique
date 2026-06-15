@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0544b299-05a7-e911-8288-068d1795c1bc",
+  "title": "Business Unit",
+  "description": "A unit of an organisation that does not have legal standing outside the organisation.\r\n\r\nA logical element or segment of a company (such as accounting, production, marketing) representing a specific business function, and a definite place on the organizational chart, under the domain of a manager. Also called department, division, or a functional area. (Business Dictionary)\r\n\r\nRead more: http://www.businessdictionary.com/definition/business-unit.html",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "fbc0b4fa-8257-e911-8237-0645314e65ac",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BusinessFunction",
+    "Goal"
+  ],
+  "properties": {
+    "BusinessFunction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "Goal": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "f126ff7f-28e9-ea11-82b8-0621c7360a13",
+      "target": "fbc0b4fa-8257-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Organisation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2fcc4deb-eb98-ea11-8295-06e28f66aad4",
+      "target": "815940e4-eb98-ea11-8295-06e28f66aad4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89aded66-ea98-ea11-8295-06e28f66aad4",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

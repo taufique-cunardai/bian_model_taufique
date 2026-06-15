@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5e483450-e92f-eb11-82d9-06046f4758b7",
+  "title": "Customer Case Root Cause Analysis",
+  "description": "A RootCauseAnalysis of CustomerCase",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "80a41510-4da6-ea11-829f-063187a0cc58",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "83fb495a-e92f-eb11-82d9-06046f4758b7",
+      "target": "80a41510-4da6-ea11-829f-063187a0cc58",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Root Cause Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d98ae41-f62f-eb11-82d9-06046f4758b7",
+      "target": "baf84f9a-1195-ea11-8295-06c610ca3b44",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7583fbd-f72f-eb11-82d9-06046f4758b7",
+      "target": "02edad2d-f7e4-e911-82b0-0662ffb5e934",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8b31eed4-8a2e-f111-860d-0a3b3de36819",
+  "title": "Issued Device Service",
+  "description": "Issued Device Service is a banking service that manages the lifecycle, issuance, activation, and usage of physical or digital devices provided to customers for accessing banking products and services. \r\n\r\nComment:\r\nThese devices are typically payment cards, tokens, mobile devices, or digital authentication tools.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "142007c5-8a2e-f111-860d-0a3b3de36819",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IssuedDeviceServiceType"
+  ],
+  "properties": {
+    "IssuedDeviceServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IssuedDeviceServiceTypeValues",
+      "x-related-bo-id": "410c4ca2-942e-f111-860d-0a3b3de36819",
+      "x-related-bo-name": "IssuedDeviceServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "95a775db-8a2e-f111-860d-0a3b3de36819",
+      "target": "142007c5-8a2e-f111-860d-0a3b3de36819",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Issued Device Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

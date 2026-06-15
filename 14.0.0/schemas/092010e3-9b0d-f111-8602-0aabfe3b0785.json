@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "092010e3-9b0d-f111-8602-0aabfe3b0785",
+  "title": "Reward Term and Condition",
+  "description": "Reward Term and Condition is a set of rules, guidelines, and requirements that govern a rewards program. They define how customers earn, use, and redeem rewards, and ensure the program is fair, transparent, and compliant.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RewardTermandConditionType"
+  ],
+  "properties": {
+    "RewardTermandConditionType": {
+      "type": "string",
+      "description": "Reward terms and condition types are the categories of rules that govern a rewards program.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RewardTermandConditionTypeValues",
+      "x-related-bo-id": "f04a42cc-9c0d-f111-8602-0aabfe3b0785",
+      "x-related-bo-name": "RewardTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}
