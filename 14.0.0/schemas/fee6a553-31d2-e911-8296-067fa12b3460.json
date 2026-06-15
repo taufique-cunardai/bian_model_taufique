@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fee6a553-31d2-e911-8296-067fa12b3460",
+  "title": "Market Analysis Result",
+  "description": "The outcome of a market analysis",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "4c2938f3-3dd2-e911-8296-06b571c3ef54",
+      "target": "e1bf3e5c-3876-e911-823e-065f1d1f71b2",
+      "modality": "M:N",
+      "required": false,
+      "description": "documents",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

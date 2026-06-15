@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4d204e29-084c-ea11-8289-06e1bff5c596",
+  "title": "Product Deployment Project",
+  "description": "A project including deployment activities for new and enhanced products and services",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "fb61a357-9f51-ea11-8289-06269fe19394",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "515b78a6-a551-ea11-8289-06269fe19394",
+      "target": "fb61a357-9f51-ea11-8289-06269fe19394",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Project",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a82406f-a651-ea11-8289-06269fe19394",
+      "target": "ac47e728-a651-ea11-8289-06269fe19394",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49e9ff66-084c-ea11-8289-06e1bff5c596",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

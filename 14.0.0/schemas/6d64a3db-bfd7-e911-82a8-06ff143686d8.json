@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6d64a3db-bfd7-e911-82a8-06ff143686d8",
+  "title": "Market Information Switch Session",
+  "description": "A session of a Market Data Switch System",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MarketInformationSwitchContent",
+    "MarketInformationSwitchSessionUser",
+    "MarketInformationSwitchSessionServiceProfile"
+  ],
+  "properties": {
+    "MarketInformationSwitchContent": {
+      "type": "string",
+      "description": "Content provided by a market information switch session",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "MarketInformationSwitchSessionUser": {
+      "type": "string",
+      "description": "User performing the Market Information Switch Session",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "MarketInformationSwitchSessionServiceProfile": {
+      "type": "string",
+      "description": "Reference to the ServiceProfile used in the session",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "369a353b-82d8-e911-82a8-06740d90dcce",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24fb6d1d-c0d7-e911-82a8-06ff143686d8",
+      "target": "fc081a98-bfd7-e911-82a8-06ff143686d8",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69bb2cf5-7fd8-e911-82a8-06740d90dcce",
+      "target": "c09059ab-7fd8-e911-82a8-06740d90dcce",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

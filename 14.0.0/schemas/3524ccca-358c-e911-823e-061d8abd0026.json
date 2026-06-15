@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3524ccca-358c-e911-823e-061d8abd0026",
+  "title": "Party State",
+  "description": "The state of party at a specific time.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f60da226-fe76-e911-823e-0663ff6583c4",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "9e2e41c2-dedb-ea11-82b8-06af5dbe0252",
+      "target": "db6f99fb-eece-e911-8296-06bf764cb4bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from State",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "11bfa0dd-358c-e911-823e-061d8abd0026",
+      "target": "f60da226-fe76-e911-823e-0663ff6583c4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Measurement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df91f27f-418c-e911-823e-061d8abd0026",
+      "target": "f8d51a13-3e8c-e911-823e-061d8abd0026",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "db91f27f-418c-e911-823e-061d8abd0026",
+      "target": "0a0b83c5-7f75-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27f58981-428c-e911-823e-061d8abd0026",
+      "target": "39cbe1d4-3b8c-e911-823e-061d8abd0026",
+      "modality": "1:1",
+      "required": true,
+      "description": "ResultOfMeasurement",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b497a86-418c-e911-823e-061d8abd0026",
+      "target": "c1f0b9a6-3c8c-e911-823e-061d8abd0026",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

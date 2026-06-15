@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d8ea56fc-eeab-ea11-829f-067a4ad4fc9c",
+  "title": "Investment Portfolio Analysis",
+  "description": "An evaluation of the investment profile including performance analysis, sensitivity analysis, valuation and etc. \r\n\r\nThe process of studying an investment portfolio to determine its appropriateness for a given investor's needs, preferences, and resources.\r\nhttp://www.newbore-wealth.com/investment-portfolio-analysis/",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InvestmentPortfolioAnalysisType"
+  ],
+  "properties": {
+    "InvestmentPortfolioAnalysisType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InvestmentPortfolioAnalysisTypeValues",
+      "x-related-bo-id": "4a05dff1-1f34-ed11-83cc-0663e70158a3",
+      "x-related-bo-name": "InvestmentPortfolioAnalysisTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "889e1f09-f0ab-ea11-829f-067a4ad4fc9c",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f9287e2d-2234-ed11-83cc-0663e70158a3",
+      "target": "08b9a5fa-1e34-ed11-83cc-0663e70158a3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f642ffe-f7ab-ea11-829f-067a4ad4fc9c",
+      "target": "4bd8ac46-f7ab-ea11-829f-067a4ad4fc9c",
+      "modality": "M:N",
+      "required": false,
+      "description": "UsedInAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36db7bc3-f5ab-ea11-829f-067a4ad4fc9c",
+      "target": "a28c76bd-f5ab-ea11-829f-067a4ad4fc9c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "969a5009-f3ab-ea11-829f-067a4ad4fc9c",
+      "target": "564555eb-f2ab-ea11-829f-067a4ad4fc9c",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f896c51-efab-ea11-829f-067a4ad4fc9c",
+      "target": "a1581823-c9ab-ea11-829f-067a4ad4fc9c",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22a11c2b-efab-ea11-829f-067a4ad4fc9c",
+      "target": "0de5e9f9-c9ab-ea11-829f-067a4ad4fc9c",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

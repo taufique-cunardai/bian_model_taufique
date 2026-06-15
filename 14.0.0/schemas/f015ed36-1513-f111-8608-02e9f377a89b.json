@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f015ed36-1513-f111-8608-02e9f377a89b",
+  "title": "Partner Relationship Term and Condition",
+  "description": "Partner relationship terms and conditions are the formal rules and obligations that govern how the bank and its partner work together, covering roles, responsibilities, performance, compliance, revenue, risk, and termination.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PartnerRelationshipTermandConditionType"
+  ],
+  "properties": {
+    "PartnerRelationshipTermandConditionType": {
+      "type": "string",
+      "description": "Partner relationship term and condition types are the categories of contractual rules and obligations governing a bank-partner relationship, including operational, financial, performance, risk, compliance, confidentiality, duration, termination, and dispute resolution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PartnerRelationshipTermandConditionTypeValues",
+      "x-related-bo-id": "f39a7c6f-1513-f111-8608-02e9f377a89b",
+      "x-related-bo-name": "PartnerRelationshipTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

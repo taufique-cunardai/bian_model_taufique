@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "167aafe9-fba6-e911-8288-06c837085cb8",
+  "title": "Issued Device Measurement",
+  "description": "Tracking of the state and/or activities of a device",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f60da226-fe76-e911-823e-0663ff6583c4",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DeviceMeasurementDateTime",
+    "DeviceMeasurementDetails",
+    "DeviceMeasurementResult",
+    "InformationFeedReference"
+  ],
+  "properties": {
+    "DeviceMeasurementDateTime": {
+      "type": "string",
+      "description": "Date/Time on which the Measurement of the issued Device took place",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "DeviceMeasurementDetails": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "DeviceMeasurementResult": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "InformationFeedReference": {
+      "type": "string",
+      "description": "Reference of the source of the issued device measurement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d91479ef-06a7-e911-8288-06c837085cb8",
+      "target": "f60da226-fe76-e911-823e-0663ff6583c4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Measurement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

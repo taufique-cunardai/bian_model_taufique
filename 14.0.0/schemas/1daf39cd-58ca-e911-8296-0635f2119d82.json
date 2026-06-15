@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1daf39cd-58ca-e911-8296-0635f2119d82",
+  "title": "Document Involvement",
+  "description": "A specific party who plays a specific role in the document.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DocumentInvolvementType",
+    "DocumentReference",
+    "PartyReference"
+  ],
+  "properties": {
+    "DocumentInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DocumentInvolvementTypeValues",
+      "x-related-bo-id": "91e0f227-5aca-e911-8296-0635f2119d82",
+      "x-related-bo-name": "DocumentInvolvementTypeValues"
+    },
+    "DocumentReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Document",
+      "x-related-bo-id": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Document"
+    },
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d06a2099-c4f1-ea11-82b8-06a3e705455d",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

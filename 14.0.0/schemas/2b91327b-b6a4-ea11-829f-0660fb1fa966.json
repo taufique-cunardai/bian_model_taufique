@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+  "title": "Financial Instrument",
+  "description": "A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)\r\nhttps://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity\r\n\r\nFinancial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "30a4d16d-6080-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialInstrumentType",
+    "FinancialInstrumentIdentification",
+    "FinancialInstrumentName",
+    "FinancialInstrumentDate"
+  ],
+  "properties": {
+    "FinancialInstrumentType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialInstrumentTypeValues",
+      "x-related-bo-id": "961ac7ae-8259-eb11-82e3-069263446f67",
+      "x-related-bo-name": "FinancialInstrumentTypeValues"
+    },
+    "FinancialInstrumentIdentification": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "FinancialInstrumentIdentification",
+      "x-related-bo-id": "c00b8a50-f916-ec11-8351-066aeeeae243",
+      "x-related-bo-name": "FinancialInstrumentIdentification"
+    },
+    "FinancialInstrumentName": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Name",
+      "x-related-bo-id": "6bf573d1-14ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Name"
+    },
+    "FinancialInstrumentDate": {
+      "type": "string",
+      "description": "Key dates of financial instrument",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialInstrumentDateTime",
+      "x-related-bo-id": "d8d1c6ab-9207-ef11-848b-062b09d0f7b7",
+      "x-related-bo-name": "FinancialInstrumentDateTime"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d93e40a9-b803-ef11-8b4e-a402b9460f22",
+      "target": "30a4d16d-6080-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Asset",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2215df64-7733-ed11-83c8-060992c204f9",
+      "target": "37fe2c51-7633-ed11-83c8-060992c204f9",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ecfc1654-2c28-f111-860d-061bb3da1acd",
+      "target": "6cb2c806-87d1-ea11-82b1-061e3979cf2c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "795c1945-d8ab-ea11-829f-067a4ad4fc9c",
+      "target": "5c47482d-d8ab-ea11-829f-067a4ad4fc9c",
+      "modality": "M:N",
+      "required": false,
+      "description": "RelatedMarket",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "005d3c37-c639-ed11-83cc-06205e829a1b",
+      "target": "bfffdc66-3434-ed11-83cc-0663e70158a3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b644a48-b056-ec11-8368-066c4a7125e1",
+      "target": "10bdea37-b056-ec11-8368-066c4a7125e1",
+      "modality": "1:N",
+      "required": false,
+      "description": "Registered\r\nFinancialInstrument",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "430ea4e0-b56b-eb11-82f6-06ead049bfcb",
+      "target": "b9d3d85a-4d18-eb11-82cc-06eeaaf5c991",
+      "modality": "1:N",
+      "required": false,
+      "description": "Financial\r\nAsset",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3c6f978-daa4-ea11-829f-0660fb1fa966",
+      "target": "6868934a-daa4-ea11-829f-0660fb1fa966",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d729e01b-3638-ed11-83cc-063eaecd5279",
+      "target": "b98b3ed1-3538-ed11-83cc-063eaecd5279",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

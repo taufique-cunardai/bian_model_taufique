@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5d82df8f-4f6b-e911-8237-06098389ccc2",
+  "title": "Correspondent Banking Agreement",
+  "description": "An agreement whereby one bank (the settlement or service-providing bank) makes or receives payments (potentially performing other banking services in addition) on behalf of another bank (the customer or user bank). (ECB)\r\n\r\nAn agreement under which one bank (correspondent) holds deposits owned by other banks (respondents) and provides payment and other services to those respondent banks. Such arrangements may also be known as agency relationships in some domestic contexts. In international banking, balances held for a foreign respondent bank may be used to settle foreign exchange transactions. Reciprocal correspondent banking relationships may involve the use of so-called nostro and vostro accounts to settle foreign exchange transactions. (Bank for International Settlement)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "df4d0bfe-eb9c-e911-827a-06330851e5be",
+      "target": "945db559-e89c-e911-827a-06330851e5be",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Service Providing Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4edace9-ab70-e911-8237-06460bf93392",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91f2933f-8171-e911-823e-0681a0c1a2d0",
+      "target": "73eec8d0-8071-e911-823e-0681a0c1a2d0",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "088d0740-8e7d-eb11-8309-06f448ba7707",
+      "target": "3220c939-8e7d-eb11-8309-06f448ba7707",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59cdd8e4-e06f-e911-8237-06309b11004c",
+      "target": "a6ea66b8-8596-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45f3fa01-db77-e911-823e-067f69a9229a",
+      "target": "d993bcbf-da77-e911-823e-067f69a9229a",
+      "modality": "1:N",
+      "required": false,
+      "description": "Registered\r\nCorrespondentBank",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d30c72b-e16f-e911-8237-06309b11004c",
+      "target": "40da9702-b96c-e911-8237-068832ceab6c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

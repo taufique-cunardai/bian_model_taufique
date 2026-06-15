@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "30a88ae6-a1c5-e911-8296-06227606fcb6",
+  "title": "Card POS Network Operating Session",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "3c9ceb55-a2c5-e911-8296-06227606fcb6",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5397e791-a1c5-e911-8296-06227606fcb6",
+      "target": "f0933d2a-8dc5-e911-8296-06227606fcb6",
+      "modality": "1:1",
+      "required": false,
+      "description": "HandledPOS\r\nBySession",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

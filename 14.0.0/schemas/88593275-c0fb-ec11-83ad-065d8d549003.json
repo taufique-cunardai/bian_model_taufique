@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "88593275-c0fb-ec11-83ad-065d8d549003",
+  "title": "Party Document",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PartyReference",
+    "DocumentReference",
+    "PartyDocumentType"
+  ],
+  "properties": {
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    },
+    "DocumentReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Document",
+      "x-related-bo-id": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Document"
+    },
+    "PartyDocumentType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PartyDocumentTypeValues",
+      "x-related-bo-id": "78cbc37f-c1fb-ec11-83ad-065d8d549003",
+      "x-related-bo-name": "PartyDocumentTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

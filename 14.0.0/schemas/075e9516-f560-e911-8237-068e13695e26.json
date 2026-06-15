@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "075e9516-f560-e911-8237-068e13695e26",
+  "title": "Card Payment Service",
+  "description": "Is A Banking Product that enables a consumer to make payments and access funds using a physical or virtual card.\r\n\r\nA type of payment instrument linked to an account or credit facility that allows the holder to execute transactions, withdraw cash, and pay third parties electronically, under defined limits, authentication methods, and usage rules.\r\n\r\n\r\nA payment service to execute payment transactions through a payment card, including online payments. (Adapted from PSD)\r\n\r\nA service that offers customers the use of payment cards.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ca197cf7-e497-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CardPaymentServiceIdentifier",
+    "CardPaymentServiceType",
+    "CardPaymentServiceConfiguration"
+  ],
+  "properties": {
+    "CardPaymentServiceIdentifier": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    },
+    "CardPaymentServiceType": {
+      "type": "string",
+      "description": "Type of payment card as a product.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CardPaymentServiceTypeValues",
+      "x-related-bo-id": "adc9887d-344a-ed11-83d4-064ad05c4fb5",
+      "x-related-bo-name": "CardPaymentServiceTypeValues"
+    },
+    "CardPaymentServiceConfiguration": {
+      "type": "string",
+      "description": "Configuration specified for the payment card product.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2eb284ee-a823-f111-860d-0a072f7aa82f",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29f5d7ca-76d4-e911-8296-06922f00c5a6",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01274833-15b5-e911-828c-06363e70c8fa",
+      "target": "ca197cf7-e497-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1974c51-fe60-e911-8237-068e13695e26",
+      "target": "3fd1b799-fc60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a446668c-15b5-e911-828c-06363e70c8fa",
+      "target": "18be1517-756a-e911-8237-061b75d0d318",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4fe4e79-15b5-e911-828c-06363e70c8fa",
+      "target": "a8799b93-07b5-e911-828c-06363e70c8fa",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f3bef165-fe60-e911-8237-068e13695e26",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

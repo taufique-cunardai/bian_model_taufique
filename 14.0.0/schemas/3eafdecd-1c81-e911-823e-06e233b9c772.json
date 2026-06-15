@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3eafdecd-1c81-e911-823e-06e233b9c772",
+  "title": "Collateral Allocation Request",
+  "description": "An instruction to request the allocation of collateral asset",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AllocationType"
+  ],
+  "properties": {
+    "AllocationType": {
+      "type": "string",
+      "description": "Classification Value classifying an allocation/assignment instruction according to a more detailed specification of the allocation\" \r\n\r\nexamples are: earmark, future allocation, to be applied, recall, valuation to a subject matter.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "f77f28cf-03bb-ec11-8387-064f8e36f7bd",
+      "target": "337e99d9-a5b9-ec11-8382-06d577125049",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Undertaking Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26bbcdeb-1c81-e911-823e-06e233b9c772",
+      "target": "f0b986ab-7192-e911-823e-0616b0d596e4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "539eee80-2600-ec11-8340-061dac4a92f1",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3412ca21-2581-e911-823e-06e233b9c772",
+      "target": "b137e2c5-ca80-e911-823e-065e8061d7e6",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

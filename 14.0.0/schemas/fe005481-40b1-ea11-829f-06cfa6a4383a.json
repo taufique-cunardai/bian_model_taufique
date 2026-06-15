@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fe005481-40b1-ea11-829f-06cfa6a4383a",
+  "title": "Non Cash Service Arrangement",
+  "description": "ServiceArrangement defined for non-cash financial instruments like SecuritiesDepositArrangement, ...",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "8563d786-6ca9-ea11-829f-06478228ed28",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ff0b842e-41b1-ea11-829f-06cfa6a4383a",
+      "target": "8563d786-6ca9-ea11-829f-06478228ed28",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Investment Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

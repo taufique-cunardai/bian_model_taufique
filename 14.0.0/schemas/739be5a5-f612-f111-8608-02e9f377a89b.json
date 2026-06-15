@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "739be5a5-f612-f111-8608-02e9f377a89b",
+  "title": "Partner Relationship Development",
+  "description": "Partner relationship development is the deliberate process of building, strengthening, and deepening collaboration between two organizations over time to increase mutual value, trust, performance, and strategic alignment.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5536bb98-a367-eb11-82f6-06f5e4900cbd",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PartnerRelationshipDevelopmentType"
+  ],
+  "properties": {
+    "PartnerRelationshipDevelopmentType": {
+      "type": "string",
+      "description": "Partner relationship development types refer to the different ways a partnership between organizations (including banks) evolves over time in terms of trust, collaboration depth, strategic importance, and value creation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PartnerRelationshipDevelopmentTypeValues",
+      "x-related-bo-id": "84beaee8-f612-f111-8608-02e9f377a89b",
+      "x-related-bo-name": "PartnerRelationshipDevelopmentTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5dd6bac0-f612-f111-8608-02e9f377a89b",
+      "target": "5536bb98-a367-eb11-82f6-06f5e4900cbd",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Planned Action",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

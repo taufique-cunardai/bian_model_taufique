@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "052c41f9-7559-ea11-8290-064864f205d8",
+  "title": "Analysis Model",
+  "description": "Model used in the analysis of something.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e48b3c8e-b4ae-e911-828c-06d72c197ec4",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "026d1223-7759-ea11-8290-064864f205d8",
+      "target": "e48b3c8e-b4ae-e911-828c-06d72c197ec4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Model",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e27b3a5e-f8ab-ea11-829f-067a4ad4fc9c",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": false,
+      "description": "UsedInAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

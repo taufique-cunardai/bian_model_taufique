@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d4800541-f398-ea11-8295-06e28f66aad4",
+  "title": "Advertising Campaign",
+  "description": "An advertising campaign is a specifically designed strategy that is carried out across different mediums in order to both achieve results and to increase brand awareness, sales and communication within a specific market.\r\nhttps://www.cyberclick.net/advertising/advertising-campaign\r\n\r\nA coordinated series of linked advertisements with a single idea or theme.\r\nAn advertising campaign is typically broadcast through several media channels. It may focus on a common theme and one or few brands or products, or be directed at a particular segment of the population. Successful advertising campaigns achieve far more than the sporadic advertising, and may last from a few weeks and months to years. (Business Dictionary)\r\n\r\nRead more: http://www.businessdictionary.com/definition/advertising-campaign.html",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "4a934e40-a5d7-e911-82a8-0667cb2841e8",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b0ca5e03-f498-ea11-8295-06e28f66aad4",
+      "target": "4a934e40-a5d7-e911-82a8-0667cb2841e8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Campaign",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a03e9850-f498-ea11-8295-06e28f66aad4",
+      "target": "ae7b663a-f498-ea11-8295-06e28f66aad4",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

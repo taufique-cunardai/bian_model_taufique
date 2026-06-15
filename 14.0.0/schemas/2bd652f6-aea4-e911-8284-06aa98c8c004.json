@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2bd652f6-aea4-e911-8284-06aa98c8c004",
+  "title": "Point Of Service Session Involvement",
+  "description": "A specific role of a specific Party in the specific Point of Service session.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "8475ad8c-b0a4-e911-8284-06aa98c8c004",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

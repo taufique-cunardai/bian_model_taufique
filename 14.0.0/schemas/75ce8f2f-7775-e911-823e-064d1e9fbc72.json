@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "75ce8f2f-7775-e911-823e-064d1e9fbc72",
+  "title": "Customer Credit Rating Class",
+  "description": "A value of Customer Rating Type whereby customer creditability is measured.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5bc31428-8075-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "fa7ef98a-8075-e911-823e-064d1e9fbc72",
+      "target": "5bc31428-8075-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Customer Rating Type",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09bf16e4-c87e-e911-823e-0680d160e494",
+      "target": "0a0b83c5-7f75-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3431f96d-0a7b-e911-823e-06651a4b679a",
+      "target": "0c5ce64a-0a7b-e911-823e-06651a4b679a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

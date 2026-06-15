@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "36f9e012-82af-e911-828c-060cf0984146",
+  "title": "Channel Activity Analysis Algorithm",
+  "description": "Algorithm applied to analyze channel activities.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "231bdf18-2e76-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ChannelActivityAnalysisAlgorithmType"
+  ],
+  "properties": {
+    "ChannelActivityAnalysisAlgorithmType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ChannelActivityAnalysisAlgorithmType",
+      "x-related-bo-id": "0ce60a5d-83af-e911-828c-060cf0984146",
+      "x-related-bo-name": "ChannelActivityAnalysisAlgorithmType"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "86498e92-82af-e911-828c-060cf0984146",
+      "target": "231bdf18-2e76-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Algorithm",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

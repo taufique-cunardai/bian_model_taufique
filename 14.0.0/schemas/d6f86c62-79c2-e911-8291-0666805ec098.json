@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d6f86c62-79c2-e911-8291-0666805ec098",
+  "title": "Card Collection",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "fc460388-79c2-e911-8291-0666805ec098",
+      "target": "ca1c1653-79c2-e911-8291-0666805ec098",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "828d9806-7bc2-e911-8291-0666805ec098",
+      "target": "50a517b4-e3b9-e911-8291-06e0c61563f0",
+      "modality": "1:1",
+      "required": false,
+      "description": "UnsecuredCardAccount",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7cac549-89c2-e911-8291-0666805ec098",
+      "target": "fe44b73f-89c2-e911-8291-0666805ec098",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
