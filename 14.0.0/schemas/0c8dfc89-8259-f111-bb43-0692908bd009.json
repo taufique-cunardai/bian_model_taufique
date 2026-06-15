@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0c8dfc89-8259-f111-bb43-0692908bd009",
+  "title": "DocumentCaptureMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9f14c9c8-8259-f111-bb43-0692908bd009",
+      "name": "Manual Entry",
+      "description": "Data keyed in",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a614c9c8-8259-f111-bb43-0692908bd009",
+      "name": "Scan/Upload",
+      "description": "Paper document scanned or digital file uploaded.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d00fecdc-8259-f111-bb43-0692908bd009",
+      "name": "API Integration",
+      "description": "Captured via system‑to‑system interface.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "16a725e9-8259-f111-bb43-0692908bd009",
+      "name": "Automated Feed",
+      "description": "Batch import from external registry or service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f09bff6-8259-f111-bb43-0692908bd009",
+      "name": "Email Ingestion",
+      "description": "Captured from inbound communication channel.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

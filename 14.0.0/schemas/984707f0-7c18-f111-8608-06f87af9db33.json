@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "984707f0-7c18-f111-8608-06f87af9db33",
+  "title": "CreditPlanTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b7e2ec9e-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Eligibility Criteria Condition",
+      "description": "The requirements a customer or account must meet to qualify for the credit plan.\r\n\r\nComment:\r\nExamples:\r\nMinimum income threshold\r\n\r\nRequired credit score\r\n\r\nExisting account with the bank\r\n\r\nNo past defaults or overdue loans",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0acab7a7-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Limit Condition",
+      "description": "The maximum principal or credit amount that the customer can access under the plan.\r\n\r\nComment:\r\nExamples:\r\nLoan: €50,000 maximum\r\n\r\nCredit card: €5,000 credit limit\r\n\r\nOverdraft: €10,000 maximum",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80bdb1b5-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Interest Rate and Type Condition",
+      "description": "Specifies the rate of interest applied, including whether it is fixed, floating, tiered, or performance-based.\r\n\r\nComment:\r\nExamples:\r\nFixed interest of 6% per annum\r\n\r\nFloating interest tied to Euribor + 2%\r\n\r\nTiered rate depending on loan amount",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85bdb1b5-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Repayment Condition",
+      "description": "The rules governing how and when repayments are made.\r\n\r\nIncludes:\r\nInstallment frequency (monthly, quarterly)\r\nPayment due dates\r\nGrace periods\r\nMinimum repayment amount",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "467ad5c3-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Fee and Charge Condition",
+      "description": "Specifies any fees, penalties, or administrative charges that apply under the credit plan.\r\n\r\nComment:\r\nExamples:\r\nLate payment penalty\r\n\r\nProcessing fee for loan disbursement\r\n\r\nEarly repayment fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b5fd6cb-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Duration Condition",
+      "description": "The total duration of the credit plan or loan.\r\n\r\nComment:\r\nExamples:\r\n12-month loan term\r\n\r\n36-month installment plan\r\n\r\nRevolving credit with no fixed maturity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9db81d4-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Collateral Condition",
+      "description": "Specifies if collateral is required and the type of security acceptable.\r\n\r\nComment:\r\nExamples:\r\nMortgage-backed loan\r\n\r\nVehicle as collateral for auto loan\r\n\r\nNo collateral for unsecured personal loan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f6e68de-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Rollover Condition",
+      "description": "Rules that allow the credit plan to be extended, renewed, or restructured.\r\n\r\nComment:\r\nExamples:\r\nLoan rollover subject to approval\r\n\r\nRestructuring permitted in case of financial hardship\r\n\r\nTerm deposit auto-renewal options",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f26c0eb-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Prepayment Condition",
+      "description": "Rules governing the early repayment of the credit plan.\r\n\r\nComment:\r\nExamples:\r\nEarly repayment allowed with no penalty\r\n\r\nPrepayment fee of 1% of principal\r\n\r\nMinimum notice period for early closure",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2dd5bbf7-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Default and Delinquency Condition",
+      "description": "Specifies actions and penalties if the customer fails to meet obligations.\r\n\r\nComment:\r\nExamples:\r\nLate payment interest\r\n\r\nDefault notice and collection procedure\r\n\r\nReporting to credit bureau",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32d5bbf7-7e18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Regulatory and Compliance Condition",
+      "description": "Any legal or regulatory rules that must be followed under the credit plan.\r\n\r\nComment:\r\nExamples:\r\nCentral bank lending regulations\r\n\r\nAnti-money-laundering requirements\r\n\r\nCustomer identification and KYC compliance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5709390c-7f18-f111-8608-06f87af9db33",
+      "name": "Credit Plan Notification Condition",
+      "description": "Specifies how the bank communicates plan-related information to the customer.\r\n\r\nComment:\r\nExamples:\r\nInterest rate changes\r\n\r\nRepayment reminders\r\n\r\nLoan restructuring notifications",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

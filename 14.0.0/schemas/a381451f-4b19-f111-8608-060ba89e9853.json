@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a381451f-4b19-f111-8608-060ba89e9853",
+  "title": "CreditPlanProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e2672f4f-4b19-f111-8608-060ba89e9853",
+      "name": "Personal Loan",
+      "description": "A personal loan is an unsecured loan granted to individuals for personal use, such as medical expenses, travel, or home improvements, typically repaid in fixed installments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "324c235b-4b19-f111-8608-060ba89e9853",
+      "name": "Mortgage Loan",
+      "description": "A mortgage loan is a long-term loan used to purchase or refinance real estate, where the property serves as collateral for the loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d96b4e65-4b19-f111-8608-060ba89e9853",
+      "name": "Auto Loan",
+      "description": "An auto loan is a loan provided to finance the purchase of a vehicle, where the vehicle itself usually acts as collateral.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "615c186f-4b19-f111-8608-060ba89e9853",
+      "name": "Business Loan",
+      "description": "A business loan is a credit facility granted to businesses to finance operations, expansion, equipment purchases, or investments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac92ad78-4b19-f111-8608-060ba89e9853",
+      "name": "Education Loan",
+      "description": "Education Loan (Student Loan) is a loan designed to finance educational expenses such as tuition fees, books, and living costs for students.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e9d68b3-4b19-f111-8608-060ba89e9853",
+      "name": "Credit Line Loan",
+      "description": "Credit Line Loan (Revolving Loan) is a revolving loan facility that allows borrowers to withdraw funds up to an approved limit and repay them flexibly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "daa1c7ca-4b19-f111-8608-060ba89e9853",
+      "name": "Overdraft Loan",
+      "description": "An overdraft loan allows customers to withdraw more money than the available balance in their account up to an approved limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba2636df-4b19-f111-8608-060ba89e9853",
+      "name": "Payday Loan",
+      "description": "A payday loan is a short-term, high-interest loan designed to cover expenses until the borrower receives their next paycheck.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "82d4bae6-7a53-f111-bb30-06a49f514f53",
+  "title": "SalesandMarketingRequirementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bf877f92-8f53-f111-bb30-06a49f514f53",
+      "name": "Eligibility Requirement",
+      "description": "Conditions customers must meet to be offered the product\r\n\r\nComment:\r\nExample:\r\nCredit card available only to customers with income > €25,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33130cac-8f53-f111-bb30-06a49f514f53",
+      "name": "Target Segment Requirement",
+      "description": "Defines the intended customer segments\r\n\r\nComment:\r\nExample:\r\nPremium savings account targeted at high-net-worth individuals",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "342fdfb7-8f53-f111-bb30-06a49f514f53",
+      "name": "Pricing & Offer Requirement",
+      "description": "Rules governing promotional pricing or incentives\r\n\r\nComment:\r\nExample:\r\n0% interest for first 6 months on personal loans",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e08e6c9-8f53-f111-bb30-06a49f514f53",
+      "name": "Campaign Requirement",
+      "description": "Conditions tied to marketing campaigns\r\n\r\nComment:\r\nExample:\r\nBonus cashback available during holiday campaign period",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9dbf0d8-8f53-f111-bb30-06a49f514f53",
+      "name": "Regulatory Disclosure Requirement",
+      "description": "Mandatory information shown during sales\r\n\r\nComment:\r\nExample:\r\nAPR disclosure required before loan agreement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "787a52eb-8f53-f111-bb30-06a49f514f53",
+      "name": "Channel Requirement",
+      "description": "Defines where the product can be sold\r\n\r\nComment:\r\nExample:\r\nMortgage applications only available in branch and online banking",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cae2d8fa-8f53-f111-bb30-06a49f514f53",
+      "name": "Onboarding Requirement",
+      "description": "Steps needed to complete customer acquisition\r\n\r\nComment:\r\nExample:\r\nKYC and identity verification required before account opening",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ceda80b-9053-f111-bb30-06a49f514f53",
+      "name": "Sales Process Requirement",
+      "description": "Defined steps in the sales journey\r\n\r\nComment:\r\nExample:\r\nCredit card approval requires instant scoring before issuance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e00a601d-9053-f111-bb30-06a49f514f53",
+      "name": "Cross-Sell or Upsell Requirement",
+      "description": "Rules for offering additional products\r\n\r\nComment:\r\nExample:\r\nOffer insurance when opening mortgage account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2aee2b39-9053-f111-bb30-06a49f514f53",
+      "name": "Marketing Content Requirement",
+      "description": "Required marketing materials or messaging\r\n\r\nComment:\r\nExample:\r\nStandard product fact sheet must be shown in all channels",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b176e48-9053-f111-bb30-06a49f514f53",
+      "name": "Approval Requirement",
+      "description": "Internal approvals required before offering\r\n\r\nComment:\r\nExample:\r\nNew pricing promotion requires compliance approval",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4ffd158-9053-f111-bb30-06a49f514f53",
+      "name": "Geographic Requirement",
+      "description": "Location-based sales restrictions\r\n\r\nComment:\r\nExample:\r\nProduct available only in EU countries",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

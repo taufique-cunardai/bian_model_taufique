@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1e774519-9fd3-ed11-8405-06a5b9a1698d",
+  "title": "ReportTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1b03bc32-9fd3-ed11-8405-06a5b9a1698d",
+      "name": "Financial Report",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "445c2b39-9fd3-ed11-8405-06a5b9a1698d",
+      "name": "Business Report",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af757140-9fd3-ed11-8405-06a5b9a1698d",
+      "name": "Management Report",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cefb647-9fd3-ed11-8405-06a5b9a1698d",
+      "name": "Statement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5be2381-8b6d-ee11-8b40-a402b9460f22",
+      "name": "Maintenance Report",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85c70285-8c6d-ee11-8b40-a402b9460f22",
+      "name": "Regulatory Report",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2fa07ac5-9b6d-ee11-8b40-a402b9460f22",
+      "name": "Tax Report",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42219707-ce45-ef11-8b66-a402b9460f22",
+      "name": "Analysis Report",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

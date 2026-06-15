@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "08cfa49f-c0a4-ea11-829f-0660fb1fa966",
+  "title": "DebtInstrumentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "09cfa49f-c0a4-ea11-829f-0660fb1fa966",
+      "name": "Loan",
+      "description": "Loan is a debt instrument where the lender is a financial institution and where the debt is not traded on the market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a26992a8-c0a4-ea11-829f-0660fb1fa966",
+      "name": "Bond",
+      "description": "Bond is a debt that is traded on the bond market, the lender is not necessarily a financial institution, but one or more investors (a kind of crowd funding)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5c31a686-c1a4-ea11-829f-0660fb1fa966",
+      "name": "Deposit",
+      "description": "Deposits are standard, non-negotiable contracts open to the public at large that\r\nallow the placements of variable amounts of funds and the later withdrawal. \r\nhttps://www.elibrary.imf.org/view/IMF069/22606-9781513579191/22606-9781513579191/ch04.xml",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

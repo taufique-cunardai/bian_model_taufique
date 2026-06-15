@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ab464743-2294-e911-823e-069871e4ec9c",
+  "title": "AccountInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ac464743-2294-e911-823e-069871e4ec9c",
+      "name": "Party is Owner of Account",
+      "description": "Party that legally owns the account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "183f514d-2294-e911-823e-069871e4ec9c",
+      "name": "Party is Servicer of Account",
+      "description": "Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39d36ff5-65d5-ee11-8b49-a402b9460f22",
+      "name": "Party is Primary Owner of Account",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74227b36-66d5-ee11-8b49-a402b9460f22",
+      "name": "Party is Co-Owner of Account",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd35a748-66d5-ee11-8b49-a402b9460f22",
+      "name": "Party is Joint Owner of Account",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

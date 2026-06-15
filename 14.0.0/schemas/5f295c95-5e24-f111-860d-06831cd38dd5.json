@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5f295c95-5e24-f111-860d-06831cd38dd5",
+  "title": "CollateralAllocationServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b49137f3-5e24-f111-860d-06831cd38dd5",
+      "name": "Collateral Identification Service",
+      "description": "Determines which assets (cash, securities, bonds, or other approved instruments) can be used as collateral.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfe62206-5f24-f111-860d-06831cd38dd5",
+      "name": "Collateral Valuation Service",
+      "description": "Assesses the market value of pledged assets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "883b412a-5f24-f111-860d-06831cd38dd5",
+      "name": "Collateral Allocation Service",
+      "description": "Assesses the market value of pledged assets.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d389a35-5f24-f111-860d-06831cd38dd5",
+      "name": "Collateral Reallocation Service",
+      "description": "Allocates specific assets to secure specific exposures, transactions, or obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa585f42-5f24-f111-860d-06831cd38dd5",
+      "name": "Collateral Monitoring Service",
+      "description": "Tracks changes in market value of collateral.\r\n\r\nInitiates margin calls if collateral value falls below required thresholds.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59ea3d56-5f24-f111-860d-06831cd38dd5",
+      "name": "Collateral Reporting Service",
+      "description": "Provides records of pledged assets, their allocation, and usage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f3ac981-5f24-f111-860d-06831cd38dd5",
+      "name": "Custody Coordination Service",
+      "description": "Manages delivery and receipt of collateral between parties or custodians.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "004cfb91-5f24-f111-860d-06831cd38dd5",
+      "name": "Risk Optimization Service",
+      "description": "Allocates collateral efficiently to minimize costs while meeting risk exposure requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

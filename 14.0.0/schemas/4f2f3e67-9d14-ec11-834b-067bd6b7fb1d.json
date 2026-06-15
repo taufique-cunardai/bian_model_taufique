@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4f2f3e67-9d14-ec11-834b-067bd6b7fb1d",
+  "title": "ServiceTypeValues",
+  "description": "A Classification value that distinguishes between the type of services",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "079bc98c-9d14-ec11-834b-067bd6b7fb1d",
+      "name": "IT Service",
+      "description": "A Service that provides technology capabilities, system support, infrastructure, or technical operations to enable business and operational activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1adabe5a-9e14-ec11-834b-067bd6b7fb1d",
+      "name": "Administrative Service",
+      "description": "A Service that supports organizational management, coordination, record keeping, compliance, or administrative operational activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd79951e-5e15-ec11-834b-06b55c8c9eb5",
+      "name": "System Service",
+      "description": "A Service that provides system-level operational capabilities, processing, integration, control, or technical support functions within an operational environment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74d090e6-4d10-ee11-8b2c-a402b9460f22",
+      "name": "Financial Service",
+      "description": "A Service that provides financial products, financial processing, monetary transactions, or related financial management activities to customers or institutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43fa334f-851a-ee11-8b2e-a402b9460f22",
+      "name": "Information Service",
+      "description": "A Service that provides, manages, processes, distributes, or supports access to operational, business, or analytical information.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abb9b9be-851a-ee11-8b2e-a402b9460f22",
+      "name": "Business Service",
+      "description": "A Service that delivers operational business capabilities, customer-facing functions, or organizational activities that support business objectives and processes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

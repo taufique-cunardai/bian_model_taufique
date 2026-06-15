@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f9211264-304a-ed11-83d4-064ad05c4fb5",
+  "title": "DeviceTypeValues",
+  "description": "Type of device",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4b58cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "SecureCardReader",
+      "description": "Secure card reader attached to the customer device",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d58cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "NonSecureCardReader",
+      "description": "Non-secure card reader attached to the customer device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e58cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Mobile",
+      "description": "Mobile phone",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f58cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Tablet",
+      "description": "Tablet",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5058cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "PersonalComputer",
+      "description": "Personal computer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5158cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "OtherNational",
+      "description": "Other device defined at national level",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5258cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "OtherPrivate",
+      "description": "Other device defined in a private way.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5358cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Wearable",
+      "description": "Wearable device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5458cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Vehicle",
+      "description": "Vehicle.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5558cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Embedded",
+      "description": "Embedded in a device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5658cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "KeyFob",
+      "description": "Key Fob",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5758cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Jewellery",
+      "description": "Jewellery",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5858cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Sticker",
+      "description": "Sticker",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5958cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "GamingDevice",
+      "description": "Gaming Device",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5a58cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Watch",
+      "description": "Watch",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b58cedf-304a-ed11-83d4-064ad05c4fb5",
+      "name": "Unknown",
+      "description": "Device type unknown",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4f57105-2010-ee11-8b2c-a402b9460f22",
+      "name": "Biometric Device",
+      "description": "A biometric device is a security identification and authentication device. Such devices use automated methods of verifying or recognising the identity of a living person based on a physiological or behavioral characteristic.\r\nhttps://en.wikipedia.org/wiki/Biometric_device",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

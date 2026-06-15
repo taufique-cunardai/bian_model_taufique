@@ -1,0 +1,323 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "38314653-a4b2-ed11-83f9-06c152f885fb",
+  "title": "TaxTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bddf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "ValueAddedTaxOfZeroRate",
+      "description": "Tax for which a zero rate applies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfdf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "Provincial",
+      "description": "Tax is a provincial tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c0df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "NationalTax",
+      "description": "Tax is a national tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "StateTax",
+      "description": "Tax is a state tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "WithholdingTax",
+      "description": "Tax is on income deducted at source, which the paying agent is legally obliged to deduct from its payments of interest on deposits and other proceeds of a financial instrument.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "CapitalGainTax",
+      "description": "Tax is on a capital gain (realised and unrealised), that is, the profit that is gained from the sale of a financial instrument.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "InterimProfitTax",
+      "description": "Tax is on the sum of all earnings/revenues accrued since the last dividend distribution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c5df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "StampDuty",
+      "description": "Tax is on certain documents and transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "WealthTax",
+      "description": "Tax is a special tax imposed, applicable only when the value of assets or categories of assets owned by an entity are above a given ceiling defined by the tax authority. Wealth tax is not linked to income.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "InheritanceTax",
+      "description": "Tax that is payable at the time of death on any items (money or otherwise), where ownership changes either upon death or within a legally specified number of years before death.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "SolidaritySurcharge",
+      "description": "Tax that is levied by legal authorities for solidarity purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "TaxCredit",
+      "description": "Direct reduction of an individual's tax liability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cadf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "Equalisation",
+      "description": "The part of an investor's subscription amount that is held by the fund in order to pay incentive / performance fees at the end of the fiscal year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbdf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "GiftTax",
+      "description": "Tax that is levied on assets given to individuals prior to the death of the donor. Gift tax is designed to ensure the integrity of the inheritance tax, preventing the pre-death transfer of wealth.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccdf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "ConsumptionTax",
+      "description": "Tax that is levied on goods and services purchased by customers, and is added to the retail price.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cddf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "AlternativeMinimumTax",
+      "description": "Tax is an alternative minimum tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cedf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "LocalTax",
+      "description": "Tax that is charged by a local settlement system or local jurisdiction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cfdf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "NationalFederalTax",
+      "description": "Tax is a country, national, or federal tax that is usually charged by the custodian.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "PaymentLevyTax",
+      "description": "Tax levied on a payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "StockExchangeTax",
+      "description": "Tax collected by a stock exchange.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "TransactionTax",
+      "description": "Tax levied on a transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "TransferTax",
+      "description": "Tax levied on a transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "ValueAddedTax",
+      "description": "Tax is a value added tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "LocalBrokerCommission",
+      "description": "Local broker's commission amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "ExecutingBrokerCommission",
+      "description": "Executing broker's commission amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "EUTaxRetention",
+      "description": "Tax withheld at source in the framework of the European Directive on taxation of savings in the form of interest payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "Aktiengewinn1",
+      "description": "Share-related profit. This is a tax specific to the German market. The share-related-profit gives the fund the opportunity to pass on to the institutional investor redeeming fund units certain tax-free income from equity. The calculation method is based on the old Investment Tax Act (Investmentsteuergesetz).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "Aktiengewinn2",
+      "description": "Share-related profit. This is a tax specific to the German market. The share-related-profit gives the fund the opportunity to pass on to the institutional investor redeeming fund units certain tax-free income from equity. The calculation method is based on the new Investment Tax Act (Investmentsteuergesetz).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dadf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "Zwischengewinn",
+      "description": "Zwischengewinn.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbdf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "CustomsTax",
+      "description": "Tax is customs and excise.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcdf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "Other",
+      "description": "Another type of tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dddf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "Mietgewinn",
+      "description": "Earnings from renting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dedf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "GermanLocalTax3",
+      "description": "Local tax (Zinstopf) offset interest per unit against tax exempt amount (variation to offset interest per unit in relation to tax exempt amount).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dfdf9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "GermanLocalTax4",
+      "description": "Local tax (Ertrag Besitzanteilig) yield liable for interest down payment tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "GermanLocalTax2",
+      "description": "Local tax (ZAS pflichtige Zinsen) - interest liable for interest down payment tax (proportion of gross interest per unit/interim profits that is not covered by the credit in the interest pool).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "WithholdingOfForeignTax",
+      "description": "Rate at which the income will be withheld by the jurisdiction in which the income was originally paid, for which relief at source and/or reclaim may be possible.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e2df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "WithholdingOfLocalTax",
+      "description": "Rate at which the income will be withheld by the jurisdiction in which the account owner is located, for which relief at source and/or reclaim may be possible.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e3df9d61-a4b2-ed11-83f9-06c152f885fb",
+      "name": "CapitalLossCredit",
+      "description": "Tax recovery is due to capital loss.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

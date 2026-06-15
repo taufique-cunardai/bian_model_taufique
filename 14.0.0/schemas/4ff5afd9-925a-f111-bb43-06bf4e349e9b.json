@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4ff5afd9-925a-f111-bb43-06bf4e349e9b",
+  "title": "ProductDirectoryEntryInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9f4cb5f7-925a-f111-bb43-06bf4e349e9b",
+      "name": "Bank",
+      "description": "The bank that creates, maintains, and offers the banking product listed in the product directory.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80f518fe-925a-f111-bb43-06bf4e349e9b",
+      "name": "Product Manager or Product Owner",
+      "description": "The person responsible for defining, managing, and updating the product information and features in the directory.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0eec190c-935a-f111-bb43-06bf4e349e9b",
+      "name": "Customer",
+      "description": "The person or entity that uses, purchases, or subscribes to the banking product or service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "13ec190c-935a-f111-bb43-06bf4e349e9b",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that ensure product information, terms, and offerings comply with banking regulations and consumer protection laws.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

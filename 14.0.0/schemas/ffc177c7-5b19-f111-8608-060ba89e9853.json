@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ffc177c7-5b19-f111-8608-060ba89e9853",
+  "title": "CreditPlanAllocationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "79e741e6-5b19-f111-8608-060ba89e9853",
+      "name": "Principal-First Allocation Modality",
+      "description": "Specifies that repayments are first applied to reduce the principal amount, with any remaining payment applied to interest or fees.\r\n\r\nComment:\r\nExample:\r\nMonthly installment of €500: €400 goes to principal, €100 to interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "82e323fc-5b19-f111-8608-060ba89e9853",
+      "name": "Interest-First Allocation Modality",
+      "description": "Specifies that repayments are first applied to interest or accrued charges, with remaining amounts applied to principal.\r\n\r\nComment:\r\nExample:\r\n€500 payment: €100 interest, €400 principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eaf4e70f-5c19-f111-8608-060ba89e9853",
+      "name": "Fee-First Allocation Modality",
+      "description": "Repayments are first applied to fees or service charges, then to interest and principal.\r\n\r\nComment:\r\nExample:\r\nPayment of €500: €50 late fee, €100 interest, €350 principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d250127-5c19-f111-8608-060ba89e9853",
+      "name": "Pro-Rata Allocation Modality",
+      "description": "Specifies that repayments are proportionally distributed across principal, interest, and fees according to predefined ratios.\r\n\r\nComment:\r\nExample:\r\nRepayment of €500 split 60% principal, 30% interest, 10% fees → €300 principal, €150 interest, €50 fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aefec734-5c19-f111-8608-060ba89e9853",
+      "name": "Conditional Allocation Modality",
+      "description": "Allows allocation to follow specific rules or conditions defined by the bank or contract.\r\n\r\nComment:\r\nExample:\r\nFor delinquent accounts, 100% payment goes to penalties and interest until cleared; remaining to principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1dddd448-5c19-f111-8608-060ba89e9853",
+      "name": "Full Settlement Allocation Modality",
+      "description": "Specifies that payment is applied to fully settle one component before moving to the next, usually principal last.\r\n\r\nComment:\r\nExample:\r\nAll accrued interest is paid first, then fees, then remaining principal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

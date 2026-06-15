@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6c4f0f73-a573-ec11-836c-06bb75116b13",
+  "title": "AccountStatus",
+  "description": "Specifies the current state of an account. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AccountStatus",
+    "AccountStatusType"
+  ],
+  "properties": {
+    "AccountStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Status",
+      "x-related-bo-id": "c7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Status"
+    },
+    "AccountStatusType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AccountStatusTypeValues",
+      "x-related-bo-id": "d45ffee3-a673-ec11-836c-06bb75116b13",
+      "x-related-bo-name": "AccountStatusTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

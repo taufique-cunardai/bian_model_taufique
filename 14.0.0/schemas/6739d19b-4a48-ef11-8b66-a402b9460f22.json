@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6739d19b-4a48-ef11-8b66-a402b9460f22",
+  "title": "CustomerBehaviorModelTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "66112043-a64a-ef11-8b66-a402b9460f22",
+      "name": "Demographic Model",
+      "description": "Analyze customer behavior based on demographic factors such as age, gender, income, education, and occupation.\r\nExample: Segmenting customers by age group to tailor marketing strategies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5f7414f-a64a-ef11-8b66-a402b9460f22",
+      "name": "Psychographic Model",
+      "description": "Focus on psychological attributes, including values, attitudes, interests, and lifestyles.\r\nExample: Creating buyer personas based on lifestyle choices and interests.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e78515f-a64a-ef11-8b66-a402b9460f22",
+      "name": "Geographic Model",
+      "description": "Look at customer behavior based on geographic location, considering factors like regional preferences and climate.\r\nExample: Targeting advertisements based on location-specific needs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0561c20-a74a-ef11-8b66-a402b9460f22",
+      "name": "Socioeconomic Model",
+      "description": "Combine social and economic factors to understand consumer behavior\r\nExample: Analyzing how economic status influences buying decisions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca214126-a74a-ef11-8b66-a402b9460f22",
+      "name": "Situational Model",
+      "description": "Consider the context or situation in which the consumer is making a decision, including time of day, season, and situational needs.\r\nExample: Promoting holiday-related products during festive seasons.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f900880-a74a-ef11-8b66-a402b9460f22",
+      "name": "Cultural Model",
+      "description": "Focus on the influence of culture, traditions, and social norms on consumer behavior.\r\nExample: Adapting marketing messages to align with cultural values and practices.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ec4d890-a74a-ef11-8b66-a402b9460f22",
+      "name": "Usage-Based Model",
+      "description": "Segment customers based on how they use a product or service, including frequency and intensity of use.\r\nExample: Differentiating between heavy, moderate, and light users of a product.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36039ba8-a74a-ef11-8b66-a402b9460f22",
+      "name": "Benefit-Sought Model",
+      "description": "Classify customers according to the benefits they seek from a product or service.\r\nExample: Marketing products based on specific benefits like convenience, cost-saving, or luxury.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5027d28-a84a-ef11-8b66-a402b9460f22",
+      "name": "Hybrid Model",
+      "description": "Combine elements from various models to provide a comprehensive view of customer behavior.\r\nExample: Using demographic, psychographic, and behavioral data together for more precise targeting",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

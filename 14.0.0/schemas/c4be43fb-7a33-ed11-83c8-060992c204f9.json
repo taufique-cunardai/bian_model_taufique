@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c4be43fb-7a33-ed11-83c8-060992c204f9",
+  "title": "FinancialDocumentTypeValues",
+  "description": "Specifies a type of financial or commercial document. (ISO20022)\r\nhttps://www.iso20022.org/standardsrepository/type/DocumentTypeCode",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f530a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "MeteredServiceInvoice",
+      "description": "Document is an invoice claiming payment for the supply of metered services, for example gas or electricity supplied to a fixed meter.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f730a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "CreditNoteRelatedToFinancialAdjustment",
+      "description": "Document is a credit note for the final amount settled for a commercial transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f830a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "DebitNoteRelatedToFinancialAdjustment",
+      "description": "Document is a debit note for the final amount settled for a commercial transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f930a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "CommercialInvoice",
+      "description": "Document is an invoice.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa30a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "CreditNote",
+      "description": "Document is a credit note.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb30a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "DebitNote",
+      "description": "Document is a debit note.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc30a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "HireInvoice",
+      "description": "Document is an invoice for the hiring of human resources or renting goods or equipment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd30a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "SelfBilledInvoice",
+      "description": "Document is an invoice issued by the debtor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe30a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "RemittanceAdviceMessage",
+      "description": "Document is a remittance advice sent separately from the current transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff30a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "RelatedPaymentInstruction",
+      "description": "Document is a linked payment instruction to which the current payment instruction is related, for example, in a cover scenario.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0031a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "CommercialContract",
+      "description": "Document is an agreement between the parties, stipulating the terms and conditions of the delivery of goods or services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0131a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "ForeignExchangeDealReference",
+      "description": "Document is a pre-agreed or pre-arranged foreign exchange transaction to which the payment transaction refers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0231a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "StatementOfAccount",
+      "description": "Document is a statement of the transactions posted to the debtor's account at the supplier.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0331a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "DispatchAdvice",
+      "description": "Document is a dispatch advice.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0431a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "PurchaseOrder",
+      "description": "Document is a purchase order.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0531a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "StructuredCommunicationReference",
+      "description": "Document is a structured communication reference provided by the creditor to identify the referred transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0631a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "BillOfLading",
+      "description": "Document is a shipping notice.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0731a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "Voucher",
+      "description": "Document is an electronic payment document.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0831a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "AccountReceivableOpenItem",
+      "description": "Document is a payment that applies to a specific source document.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0931a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "TradeServicesUtilityTransaction",
+      "description": "Document is a transaction identifier as assigned by the Trade Services Utility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a31a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "CashierReceipt",
+      "description": "When the Sale system print the Cashier copy of the Payment receipt.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b31a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "CustomerReceipt",
+      "description": "When the Sale System requires   the POI system to print the Customer receipt.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c31a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "Journal",
+      "description": "When the POI or the Sale System wants to store a message on the journal printer or electronic journal of the Sale Terminal (it is sometimes a Sale Logging/Journal Printer).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d31a30b-7b33-ed11-83c8-060992c204f9",
+      "name": "SaleReceipt",
+      "description": "When the Sale System requires the POI system to print the Sale receipt.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

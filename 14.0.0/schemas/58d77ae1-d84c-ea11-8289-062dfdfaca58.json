@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "58d77ae1-d84c-ea11-8289-062dfdfaca58",
+  "title": "RequirementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "15173ee8-d84c-ea11-8289-062dfdfaca58",
+      "name": "Functional Requirement",
+      "description": "Defines what the product/service must do.\r\n\r\nComment:\r\nIt describes features, behaviors, and business functions.\r\n\r\nExample: The system must allow customers to transfer funds between accounts.\r\nFocus: Capabilities and actions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1d85505-d94c-ea11-8289-062dfdfaca58",
+      "name": "Technical Requirement",
+      "description": "Defines how the system is built or implemented technically.\r\n\r\nComment:\r\nIncludes architecture, technology stack, performance, integration, and security design.\r\n\r\nExample: The system must support REST APIs and encrypt data using AES-256.\r\nFocus: Technology and system design",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2d85505-d94c-ea11-8289-062dfdfaca58",
+      "name": "Operation Requirement",
+      "description": "Defines how the product/service is operated in daily use.\r\n\r\nComment:\r\nIncludes processes, monitoring, support, and availability.\r\n\r\nExample: The system must operate 24/7 with 99.9% uptime and support batch processing at night.\r\nFocus: Day-to-day operations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "355c9118-d94c-ea11-8289-062dfdfaca58",
+      "name": "Legal Requirement",
+      "description": "Defines laws, regulations, and compliance rules that must be followed.\r\n\r\nComment:\r\nIncludes regulatory banking laws, data protection (e.g., GDPR), AML/KYC rules.\r\n\r\nExample: Customer identity must be verified before account opening (KYC compliance).\r\nFocus: Compliance and law",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a256f274-da4c-ea11-8289-062dfdfaca58",
+      "name": "Testing Requirement",
+      "description": "Defines what must be validated to ensure quality and correctness.\r\n\r\nComment:\r\nIncludes test cases, acceptance criteria, and quality checks.\r\n\r\nExample: All payment transactions must pass functional, security, and performance testing before release.\r\nFocus: Verification and validation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3cf8cb4b-718d-eb11-8310-068d732c0449",
+      "name": "Sales and Marketing Requirement",
+      "description": "Defines how the product is positioned, sold, and promoted.\r\n\r\nComment:\r\nIncludes target customers, pricing strategy, channels, and messaging.\r\n\r\nExample: The product must support promotional interest rates for new customers for 6 months.\r\nFocus: Market adoption and revenue generation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0effc69-728d-eb11-8310-068d732c0449",
+      "name": "Servicing Requirement",
+      "description": "Defines how the product is supported after delivery to customers.\r\n\r\nComment:\r\nIncludes customer support, issue handling, maintenance, and updates.\r\n\r\nExample: Customer service must resolve account issues within 24 hours.\r\nFocus: Post-sale support",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f90aaf9a-818d-eb11-8310-068d732c0449",
+      "name": "Production Requirement",
+      "description": "Defines how the product/service is built or delivered into production environment.\r\n\r\nComment:\r\nIncludes deployment, manufacturing, release process, and scalability.\r\n\r\nExample: All releases must go through staging before production deployment.\r\nFocus: Build and release lifecycle",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "045a3c27-8669-ed11-83e5-06708708bdfd",
+      "name": "Suitability Requirement",
+      "description": "Defines whether the product is appropriate for its intended purpose or customer segment.\r\n\r\nComment:\r\nEnsures product fits customer needs and use cases.\r\n\r\nExample: The loan product must be suitable for small business owners with irregular income.\r\nFocus: Fit-for-purpose",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

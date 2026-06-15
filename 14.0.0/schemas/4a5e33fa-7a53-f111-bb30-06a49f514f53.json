@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a5e33fa-7a53-f111-bb30-06a49f514f53",
+  "title": "ServicingRequirementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6c7e9077-9053-f111-bb30-06a49f514f53",
+      "name": "Account Maintenance Requirement",
+      "description": "Rules for updating or maintaining customer/product data\r\n\r\nComment:\r\nExample:\r\nChange of address requires identity verification",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1afac81-9053-f111-bb30-06a49f514f53",
+      "name": "Modification Requirement",
+      "description": "Conditions for changing product terms or features\r\n\r\nComment:\r\nExample:\r\nCredit limit increase requires credit reassessment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57f0d789-9053-f111-bb30-06a49f514f53",
+      "name": "Closure Requirement",
+      "description": "Rules for closing or terminating a product\r\n\r\nComment:\r\nExample:\r\nAccount closure requires zero balance confirmation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df851090-9053-f111-bb30-06a49f514f53",
+      "name": "Suspension Requirement",
+      "description": "Conditions for temporarily disabling a product\r\n\r\nComment:\r\nExample:\r\nCard suspension allowed upon fraud suspicion",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7dd74098-9053-f111-bb30-06a49f514f53",
+      "name": "Dispute Handling Requirement",
+      "description": "Processes for handling customer disputes\r\n\r\nComment:\r\nExample:\r\nCard transaction dispute must be raised within 60 days",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c18b3da0-9053-f111-bb30-06a49f514f53",
+      "name": "Complaint Handling Requirement",
+      "description": "Procedures for managing customer complaints\r\n\r\nComment:\r\nExample:\r\nComplaints must be resolved within 15 business days",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74c736a8-9053-f111-bb30-06a49f514f53",
+      "name": "Replacement Requirement",
+      "description": "Rules for replacing lost or damaged products\r\n\r\nComment:\r\nExample:\r\nLost debit card replacement requires identity check",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79c736a8-9053-f111-bb30-06a49f514f53",
+      "name": "Reinstatement Requirement",
+      "description": "Conditions to restore a suspended product\r\n\r\nComment:\r\nExample:\r\nAccount reinstated after fraud clearance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "505ce8b7-9053-f111-bb30-06a49f514f53",
+      "name": "Fee Adjustment Requirement",
+      "description": "Rules for correcting or waiving fees\r\n\r\nComment:\r\nExample:\r\nFee refund requires manager approval",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9ab7dc7-9053-f111-bb30-06a49f514f53",
+      "name": "Service Request Requirement",
+      "description": "General servicing request processing rules\r\n\r\nComment:\r\nExample:\r\nAddress update processed via CRM workflow",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6eaa6ce-9053-f111-bb30-06a49f514f53",
+      "name": "Customer Authentication Requirement",
+      "description": "Identity verification rules during servicing\r\n\r\nComment:\r\nExample:\r\nMFA required before sensitive account changes",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09c6abdf-9053-f111-bb30-06a49f514f53",
+      "name": "Regulatory Servicing Requirement",
+      "description": "Compliance obligations during servicing\r\n\r\nComment:\r\nExample:\r\nGDPR data deletion requests must be fulfilled within SLA",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

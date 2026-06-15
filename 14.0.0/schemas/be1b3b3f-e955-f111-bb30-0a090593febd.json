@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "be1b3b3f-e955-f111-bb30-0a090593febd",
+  "title": "ProductDirectoryEntryTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0831e06a-e955-f111-bb30-0a090593febd",
+      "name": "Deposit Product Entry",
+      "description": "Records savings and deposit-related products\r\n\r\nComment:\r\nExample:\r\nSavings Account, Fixed Deposit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe5b4f5f-7b5a-f111-bb43-06bf4e349e9b",
+      "name": "Loan Product Entry",
+      "description": "Records lending and credit products\r\n\r\nComment:\r\nExample:\r\nMortgage Loan, Personal Loan,",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "968d1377-7b5a-f111-bb43-06bf4e349e9b",
+      "name": "Investment Product Entry",
+      "description": "Records wealth and investment offerings\r\n\r\nComment:\r\nExample:\r\nMutual Fund, Bonds",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cc4b148a-7b5a-f111-bb43-06bf4e349e9b",
+      "name": "Card Product Entry",
+      "description": "Represents payment cards issued to customers for transactions and cash access\r\n\r\nComment:\r\nExample:\r\nCredit Card, Debit Card",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e49d9ad-7b5a-f111-bb43-06bf4e349e9b",
+      "name": "Insurance Product Entry",
+      "description": "Represents protection-based financial products covering risks (e.g., life insurance).\r\n\r\nComment:\r\nExample:\r\nLife Insurance",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce4fdfd2-7b5a-f111-bb43-06bf4e349e9b",
+      "name": "Treasury Product Entry",
+      "description": "Represents financial products linked to liquidity or funding structures\r\n\r\nComment:\r\nExample: Fixed Deposit, FX Product",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1c68d1d8-a414-ec11-834b-067bd6b7fb1d",
+  "title": "TransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f6688ce2-a414-ec11-834b-067bd6b7fb1d",
+      "name": "Financial Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "428cfaf3-a414-ec11-834b-067bd6b7fb1d",
+      "name": "Business Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c0b181fa-a414-ec11-834b-067bd6b7fb1d",
+      "name": "Banking Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03016501-a514-ec11-834b-067bd6b7fb1d",
+      "name": "Accounting Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "809d73f0-88d6-ec11-8398-06a9be40d7a7",
+      "name": "Booking Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "215653fb-88d6-ec11-8398-06a9be40d7a7",
+      "name": "Allocation Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a20c2678-bdec-ec11-83a8-0654a4edc4f1",
+      "name": "Delivery Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84c8bdc1-d413-ed11-83b7-0696aac3fa19",
+      "name": "Production Transaction",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

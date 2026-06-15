@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8e7ea8e1-6677-eb11-8305-06d6e8bf29e7",
+  "title": "WorkProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ba4c28ea-6677-eb11-8305-06d6e8bf29e7",
+      "name": "Document",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9a461f6-6677-eb11-8305-06d6e8bf29e7",
+      "name": "Working Paper",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7cb4f9fe-6677-eb11-8305-06d6e8bf29e7",
+      "name": "Activity Log",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1e0582e-6777-eb11-8305-06d6e8bf29e7",
+      "name": "Form",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6e0582e-6777-eb11-8305-06d6e8bf29e7",
+      "name": "File",
+      "description": "File of consolidated notes, evaluations and recommendations for the work task",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6226d549-6777-eb11-8305-06d6e8bf29e7",
+      "name": "Meeting Schedule",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22b0d3fd-b57d-eb11-8309-06f448ba7707",
+      "name": "Meeting Minute",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

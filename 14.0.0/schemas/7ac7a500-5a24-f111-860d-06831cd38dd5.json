@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7ac7a500-5a24-f111-860d-06831cd38dd5",
+  "title": "CollateralAllocationInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "60aa4f7b-5a24-f111-860d-06831cd38dd5",
+      "name": "Customer",
+      "description": "Pledgor / Borrower / Customer: The person that provides the collateral to secure obligations and from whom collateral is allocated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "440af195-5a24-f111-860d-06831cd38dd5",
+      "name": "Bank",
+      "description": "Secured Party / Lender / Bank: The bank or financial institution that receives, holds, and allocates the collateral against specific obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b15a3ea3-5a24-f111-860d-06831cd38dd5",
+      "name": "Collateral Manager",
+      "description": "Collateral Manager / Collateral Agent: The person or organization responsible for allocating, monitoring, and distributing collateral across exposures or obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a63c5eae-5a24-f111-860d-06831cd38dd5",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee collateral allocation practices, ensuring compliance, fairness, and enforceability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b613272-5e48-f111-bb23-06f4feeeb951",
+      "name": "Collateral Provider",
+      "description": "A person or organization that provides collateral on behalf of the borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

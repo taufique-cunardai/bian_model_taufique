@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0e8a097a-29d6-ee11-8b49-a402b9460f22",
+  "title": "AuthenticationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "aaf12492-29d6-ee11-8b49-a402b9460f22",
+      "name": "Knowledge-based Authentication",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1f12492-29d6-ee11-8b49-a402b9460f22",
+      "name": "Token-based Authentication",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3044ab9d-29d6-ee11-8b49-a402b9460f22",
+      "name": "Biometric Authentication",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf30f6bc-29d6-ee11-8b49-a402b9460f22",
+      "name": "Certificate-based Authentication",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "18f75712-2bd6-ee11-8b49-a402b9460f22",
+      "name": "Adaptive Authentication",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9a7a9c0d-6948-f111-bb23-06f4feeeb951",
+  "title": "CollateralAllocationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2b33b626-6948-f111-bb23-06f4feeeb951",
+      "name": "Full Allocation",
+      "description": "The entire collateral value is assigned to a single obligation.\r\nNo sharing with other exposures.\r\n\r\nComment:\r\nExample: A €100,000 fixed deposit fully secures Loan A only.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04a7162f-6948-f111-bb23-06f4feeeb951",
+      "name": "Partial Allocation",
+      "description": "Only a portion of the collateral is assigned to an obligation.\r\nThe remaining value stays available for other uses.\r\n\r\nComment:\r\nExample: €200,000 property → €120,000 allocated to Loan A, €80,000 unallocated or reserved.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09a7162f-6948-f111-bb23-06f4feeeb951",
+      "name": "Shared Allocation",
+      "description": "The same collateral is simultaneously allocated to multiple obligations.\r\nEach exposure references the same collateral with defined shares.\r\n\r\nComment\r\nExample: One asset secures Loan A and Loan B at defined percentages (e.g., 50/50).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "029cc53a-6948-f111-bb23-06f4feeeb951",
+      "name": "Pool-Based Allocation",
+      "description": "Collateral is grouped into a pool and collectively secures multiple obligations.\r\n\r\nAllocation is managed at pool level rather than individual asset level.\r\n\r\nComment:\r\nExample: A securities pool secures all revolving credit facilities of a customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

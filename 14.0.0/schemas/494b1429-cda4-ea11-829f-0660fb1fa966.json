@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "494b1429-cda4-ea11-829f-0660fb1fa966",
+  "title": "CapitalMarketTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4a4b1429-cda4-ea11-829f-0660fb1fa966",
+      "name": "EquityCapitalMarket",
+      "description": "The equity capital market (ECM) is where financial institutions help companies raise equity capital and where stocks are traded.\r\nhttps://www.investopedia.com/terms/e/equitycapitalmarket.asp",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd301a3b-cda4-ea11-829f-0660fb1fa966",
+      "name": "DebtCapitalMarket",
+      "description": "A Debt Capital Market (DCM) is a market in which companies and governments raise funds through the trade of debt securities, including corporate bonds, government bonds, Credit Default Swaps etc.\r\n\r\nhttps://www.mergersandinquisitions.com/debt-capital-markets/",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29f8dc17-a6a5-ea11-829f-063d8b9b8b6c",
+      "name": "PrimaryCapitalMarket",
+      "description": "The primary market is where securities are created, while the secondary market is where those securities are traded by investors.\r\nIn the primary market, companies sell new stocks and bonds to the public for the first time, such as with an initial public offering (IPO).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0592b2e-a6a5-ea11-829f-063d8b9b8b6c",
+      "name": "SecondaryCapitalMarket",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

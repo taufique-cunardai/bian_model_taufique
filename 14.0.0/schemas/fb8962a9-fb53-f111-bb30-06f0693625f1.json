@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fb8962a9-fb53-f111-bb30-06f0693625f1",
+  "title": "CustomerCategoryTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "09042035-fc53-f111-bb30-06f0693625f1",
+      "name": "Retail Customer",
+      "description": "Represents an individual customer availing standard banking products and services for personal use.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca54d843-fc53-f111-bb30-06f0693625f1",
+      "name": "Mass Market Customer",
+      "description": "Represents customers with basic financial needs and moderate engagement with standard financial products.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "447ef052-fc53-f111-bb30-06f0693625f1",
+      "name": "Affluent Customer",
+      "description": "Represents customers with higher income levels and access to enhanced or premium financial services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10118d60-fc53-f111-bb30-06f0693625f1",
+      "name": "High Net Worth Individual",
+      "description": "Represents customers with significant financial assets and investment capacity requiring specialized wealth management services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c48d17b-fc53-f111-bb30-06f0693625f1",
+      "name": "Student Customer",
+      "description": "Represents individuals primarily engaged in education with limited or no stable income, requiring tailored financial solutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff500094-fc53-f111-bb30-06f0693625f1",
+      "name": "Senior Citizen Customer",
+      "description": "Represents elderly or retired individuals with specific financial needs such as pension management and low-risk investments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0bb1fa8-fc53-f111-bb30-06f0693625f1",
+      "name": "Business Customer",
+      "description": "Represents individuals or entities engaged in commercial or professional activities requiring business-oriented financial services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

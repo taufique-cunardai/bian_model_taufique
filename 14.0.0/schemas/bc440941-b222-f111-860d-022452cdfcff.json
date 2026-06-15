@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bc440941-b222-f111-860d-022452cdfcff",
+  "title": "CreditPlanInstructionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0bdd9248-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Setup Instruction",
+      "description": "A request to establish a credit plan, including repayment terms, schedules, and calculation methods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e349b754-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Modification Instruction",
+      "description": "A request to change elements of an existing credit plan, such as repayment schedule, installment amount, or interest terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5b4a565c-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Activation Instruction",
+      "description": "A request to initiate or make a credit plan effective for execution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02bcbb66-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Suspension Instruction",
+      "description": "A request to temporarily pause the execution of the credit plan (e.g., payment holidays).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "92fc3072-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Resumption Instruction",
+      "description": "A request to restart a previously suspended credit plan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4698a37d-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Restructuring Instruction",
+      "description": "A request to significantly alter the credit plan due to financial or risk considerations (e.g., extending tenor, adjusting installments).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b98a37d-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Termination Instruction",
+      "description": "A request to end a credit plan before its scheduled completion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7431d693-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Settlement Instruction",
+      "description": "A request to fully settle all obligations under the credit plan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "936a8d9d-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Recalculation Instruction",
+      "description": "A request to recompute repayment amounts, interest, or schedules due to changes in rates or terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0546f1a7-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Allocation Instruction",
+      "description": "A request to define or modify how payments are distributed (e.g., between principal, interest, fees).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

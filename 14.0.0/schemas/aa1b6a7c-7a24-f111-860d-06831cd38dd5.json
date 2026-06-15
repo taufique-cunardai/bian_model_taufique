@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "aa1b6a7c-7a24-f111-860d-06831cd38dd5",
+  "title": "CollateralAssessmentTypeValues",
+  "description": "Applying a safety discount to the collaterals market value to account for price volatility or risk.\r\n\r\nComment:\r\nExample:\r\nA stock worth $100,000 might be accepted with a 20% haircut, meaning only $80,000 counts toward securing a loan.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "abe218c5-7a24-f111-860d-06831cd38dd5",
+      "name": "Valuation Assessment",
+      "description": "Evaluation of the current market value of collateral to ensure it sufficiently covers the exposure it secures.\r\n\r\nExample:\r\nA bank receives government bonds as collateral for a loan. The bank marks them to market daily; if the bonds are worth $1,000,000 but the loan exposure is $1,200,000, additional collateral may be requested.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f4815e0-7a24-f111-860d-06831cd38dd5",
+      "name": "Eligibility Assessment",
+      "description": "Checking if the collateral meets contractual or regulatory requirements (type, rating, currency, ownership).\r\n\r\nComment:\r\nExample:\r\nA repo agreement allows only AAA-rated corporate bonds as collateral. If the borrower pledges BBB-rated bonds, they are ineligible.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2a5d4f0-7a24-f111-860d-06831cd38dd5",
+      "name": "Concentration Assessment",
+      "description": "Evaluating whether there is over-reliance on a single type of collateral or a single issuer, to manage risk.\r\n\r\nComment:\r\nExample:\r\nA lender holds $10M of collateral, $8M of which is from a single corporate issuer. This triggers a concentration assessment to ensure the lender is not overly exposed if that issuer defaults.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8380da07-7b24-f111-860d-06831cd38dd5",
+      "name": "Liquidity Assessment",
+      "description": "Determining how easily and quickly collateral can be converted into cash at minimal loss.\r\n\r\nComment:\r\nExample:\r\nCash and government bonds are highly liquid, while commercial real estate or private equity is less liquid. If a borrower defaults, liquid assets are preferred for immediate settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af5fa713-7b24-f111-860d-06831cd38dd5",
+      "name": "Credit Assessment",
+      "description": "Assessing the financial stability and creditworthiness of the entity providing the collateral.\r\n\r\nComment:\r\nExample:\r\nA borrower pledges corporate bonds, but the issuing company has a high default risk. The bank may require a higher collateral amount or reject it entirely.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f2559b32-7b24-f111-860d-06831cd38dd5",
+      "name": "Haircut Assessment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca1afd4b-7b24-f111-860d-06831cd38dd5",
+      "name": "Documentation Assessment",
+      "description": "Ensuring the collateral is legally enforceable and properly documented under applicable law.\r\n\r\nComment\r\nExample:\r\nVerifying that pledged real estate has a lien correctly registered in the land registry so the lender can seize it if the borrower defaults.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

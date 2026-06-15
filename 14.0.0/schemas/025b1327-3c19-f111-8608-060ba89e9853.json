@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "025b1327-3c19-f111-8608-060ba89e9853",
+  "title": "CreditPlanFeeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d99d2d4b-3c19-f111-8608-060ba89e9853",
+      "name": "Credit Plan Application Fee",
+      "description": "Charged when a customer applies for a credit plan.\r\n\r\nComment:\r\nExample: €50 fee to process a loan application.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a72cf51-3c19-f111-8608-060ba89e9853",
+      "name": "Credit Plan Processing Fee",
+      "description": "Covers the cost of evaluating and approving the credit plan.\r\n\r\nComment:\r\nExample: 1% of the loan amount (€1,000 on a €100,000 loan).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ceb0d162-3c19-f111-8608-060ba89e9853",
+      "name": "Credit Plan Maintenance Fee",
+      "description": "Recurring fee for managing and administering the credit plan.\r\n\r\nComment:\r\nExample: €5 monthly service fee for a revolving credit account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7bfeca6b-3c19-f111-8608-060ba89e9853",
+      "name": "Credit Plan Late Payment Fee",
+      "description": "Charged when the borrower fails to pay by the due date.\r\n\r\nComment:\r\nExample: €25 penalty for late credit card payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4459b673-3c19-f111-8608-060ba89e9853",
+      "name": "Credit Plan Early Payment Fee",
+      "description": "Charged if the borrower repays the credit earlier than agreed.\r\n\r\nComment:\r\nExample: 2% of the remaining loan balance if repaid early.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd0da674-a11b-f111-8608-0a4a17d5d551",
+      "name": "Credit Plan Adjustment Fee",
+      "description": "Covers administrative or compliance adjustments (e.g., rescheduling a credit plan).\r\n\r\nComment:\r\nExample: €30 fee for changing the repayment schedule.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

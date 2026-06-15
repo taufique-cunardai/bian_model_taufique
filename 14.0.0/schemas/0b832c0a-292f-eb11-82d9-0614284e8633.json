@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0b832c0a-292f-eb11-82d9-0614284e8633",
+  "title": "BusinessArchitectureDesignSpecificationTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "fe5ea732-292f-eb11-82d9-0614284e8633",
+      "name": "Organisational Model",
+      "description": "Defines the organizational layout, business divisions, key roles and responsibilities that make up the enterprise",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "005fa732-292f-eb11-82d9-0614284e8633",
+      "name": "Business Architecture",
+      "description": "Defines the array of business capabilities and the dependencies between them required to support the business enterprise",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "015fa732-292f-eb11-82d9-0614284e8633",
+      "name": "Information Architecture",
+      "description": "Defines the key type of business information and the governance, distribution and usage of that information throughout the enterprise",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "025fa732-292f-eb11-82d9-0614284e8633",
+      "name": "Application Architecture",
+      "description": "Defines the main business requirements and information technology based application components and the exchanges between components needed to support the business",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "035fa732-292f-eb11-82d9-0614284e8633",
+      "name": "Technology Infrastructure",
+      "description": "Defines the array of interconnected technology and associated technology approaches and standards needed to support the IT based application systems employed throughout the enterprise",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

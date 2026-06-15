@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0ad5dfb0-7a53-f111-bb30-06a49f514f53",
+  "title": "ProductionRequirementTypeValues",
+  "description": "Required integration with internal or external systems\r\n\r\nComment:\r\nExample:\r\nCredit card product must integrate with Visa network",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a487afa7-8a53-f111-bb30-06a49f514f53",
+      "name": "Configuration Requirement",
+      "description": "Product setup or parameter configuration needed\r\n\r\nComment:\r\nExample:\r\nConfigure mortgage interest calculation method",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd7588c0-8c53-f111-bb30-06a49f514f53",
+      "name": "System Integration Requirement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a954bcf7-8c53-f111-bb30-06a49f514f53",
+      "name": "Regulatory Requirement",
+      "description": "Production controls required for regulatory compliance\r\n\r\nComment:\r\nExample:\r\nSavings product must comply with deposit protection rules",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb433217-8d53-f111-bb30-06a49f514f53",
+      "name": "Accounting Requirement",
+      "description": "Ledger and financial posting setup requirements\r\n\r\nComment:\r\nExample:\r\nDefine GL mapping for loan disbursement entries",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22006f29-8d53-f111-bb30-06a49f514f53",
+      "name": "Fulfillment Requirement",
+      "description": "Physical or digital fulfillment setup requirements\r\n\r\nComment:\r\nExample:\r\nDebit card embossing configuration required",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52ab3f3f-8d53-f111-bb30-06a49f514f53",
+      "name": "Infrastructure Requirement",
+      "description": "Technical environment or infrastructure dependency\r\n\r\nComment:\r\nExample:\r\nProduct requires real-time payment processing platform",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e90b25b-8d53-f111-bb30-06a49f514f53",
+      "name": "Data Requirement",
+      "description": "Required master/reference/customer data for production\r\n\r\nComment:\r\nExample:\r\nCustomer KYC data required before account creation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3d71168-8d53-f111-bb30-06a49f514f53",
+      "name": "Workflow Requirement",
+      "description": "Required production workflow or orchestration steps\r\n\r\nComment:\r\nExample:\r\nLoan approval workflow must complete before activation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7737cf78-8d53-f111-bb30-06a49f514f53",
+      "name": "Security Requirement",
+      "description": "Security and access controls required in production\r\n\r\nComment:\r\nExample:\r\nEncryption required for digital wallet provisioning",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ab8ed89-8d53-f111-bb30-06a49f514f53",
+      "name": "Versioning Requirement",
+      "description": "Product lifecycle and release management requirements\r\n\r\nComment:\r\nExample:\r\nNew product version approval required before deployment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "28a1ba99-8d53-f111-bb30-06a49f514f53",
+      "name": "Testing Requirement",
+      "description": "Validation or testing requirements before release\r\n\r\nComment:\r\nExample:\r\nUAT completion required before product launch",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40f5b6b2-8d53-f111-bb30-06a49f514f53",
+      "name": "Template Requirement",
+      "description": "Standard templates or predefined configurations needed\r\n\r\nComment:\r\nExample:\r\nSME loan product uses predefined risk template",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

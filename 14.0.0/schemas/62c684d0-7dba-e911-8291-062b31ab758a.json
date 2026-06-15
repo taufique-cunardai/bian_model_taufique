@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "62c684d0-7dba-e911-8291-062b31ab758a",
+  "title": "AccountCurrency",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AccountCurrencyType",
+    "AccountCurrency"
+  ],
+  "properties": {
+    "AccountCurrencyType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CurrencyTypeValues",
+      "x-related-bo-id": "23352ade-7dba-e911-8291-062b31ab758a",
+      "x-related-bo-name": "CurrencyTypeValues"
+    },
+    "AccountCurrency": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CurrencyCode",
+      "x-related-bo-id": "1e8704e5-f9ed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "CurrencyCode"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

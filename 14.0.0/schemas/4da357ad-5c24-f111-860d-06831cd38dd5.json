@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4da357ad-5c24-f111-860d-06831cd38dd5",
+  "title": "CollateralAllocationProducFeatureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "988463bb-5c24-f111-860d-06831cd38dd5",
+      "name": "Pledged Collateral Allocation",
+      "description": "Collateral is specifically pledged by the borrower to secure a particular obligation.\r\n\r\nComment:\r\nExample: A borrower pledges €50,000 worth of government bonds to secure a loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e84a5e8-5c24-f111-860d-06831cd38dd5",
+      "name": "Floating Collateral Allocation",
+      "description": "Collateral is not tied to a specific obligation but can cover multiple or future obligations.\r\n\r\nComment:\r\nExample: A company provides a pool of inventory as collateral that can secure any short-term credit line drawn.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cdc44df6-5c24-f111-860d-06831cd38dd5",
+      "name": "Margin-Based Collateral Allocation",
+      "description": "Collateral amount is allocated based on required margin or risk coverage levels.\r\n\r\nComment:\r\nExample: In a derivative contract, €10,000 must be allocated as collateral to maintain a 10% margin requirement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "614aec06-5d24-f111-860d-06831cd38dd5",
+      "name": "Segmented Collateral Allocation",
+      "description": "Only a portion of an asset or asset pool is allocated to secure an obligation.\r\n\r\nComment:\r\nExample: 60% of a warehouses stock is allocated to secure a loan, leaving 40% free for other purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e86bf311-5d24-f111-860d-06831cd38dd5",
+      "name": "Priority-Based Collateral Allocation",
+      "description": "Collateral is allocated according to a priority or seniority of obligations.\r\n\r\nComment:\r\nExample: High-priority debts are secured first with pledged assets; remaining assets secure lower-priority obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1625f621-5d24-f111-860d-06831cd38dd5",
+      "name": "Time-Limited Collateral Allocation",
+      "description": "Collateral is allocated for a defined period or until a specific condition is met.\r\n\r\nComment:\r\nExample: Securities are allocated to cover a loan only until the loan matures or is repaid.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3ea5b92e-5d24-f111-860d-06831cd38dd5",
+      "name": "Cross-Collateral Allocation",
+      "description": "Collateral is used to secure multiple obligations across different accounts or loans.\r\n\r\nComment:\r\nExample: A companys property secures both a term loan and an overdraft facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "858cf738-5d24-f111-860d-06831cd38dd5",
+      "name": "Revolving Collateral Allocation",
+      "description": "Collateral allocation can rotate between obligations as they are drawn and repaid.\r\n\r\nComment:\r\nExample: A bank uses a revolving pool of corporate bonds to back multiple revolving credit facilities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

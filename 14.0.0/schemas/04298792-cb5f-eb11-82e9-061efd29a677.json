@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "04298792-cb5f-eb11-82e9-061efd29a677",
+  "title": "LoanProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "03e478ca-cb5f-eb11-82e9-061efd29a677",
+      "name": "Consumer Loan",
+      "description": "A personal loan is an unsecured loan granted to individuals for personal use, such as medical expenses, travel, or home improvements, typically repaid in fixed installments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4e07fd8-cb5f-eb11-82e9-061efd29a677",
+      "name": "Corporate Loan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "902de6e5-cb5f-eb11-82e9-061efd29a677",
+      "name": "Merchandising Loan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1899d9ee-cc5f-eb11-82e9-061efd29a677",
+      "name": "Mortgage Loan",
+      "description": "A mortgage is a loan from a bank or other financial institution that helps a borrower purchase a home. The collateral for the mortgage is the home itself, meaning that if the borrower doesnt make monthly payments to the lender and defaults on the loan, the lender can sell the home and recoup its money.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5122d69-f26a-eb11-82f6-0687cfa2c9e3",
+      "name": "Syndicated Loan",
+      "description": "A syndicated loan, or a syndicated bank facility, is financing offered by a group of lenderscalled a syndicatewho work together to provide funds for a borrower.\r\nhttps://www.investopedia.com/terms/s/syndicatedloan.asp#:~:text=A%20syndicated%20loan%2C%20also%20known,project%2C%20or%20a%20sovereign%20government.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f7eac794-4c19-f111-8608-060ba89e9853",
+  "title": "CreditPlanCalculationModalityTypeValues",
+  "description": "Specifies how penalties are calculated when contractual obligations are not met.\r\n\r\nComment:\r\nExamples\r\nLate payment penalty\r\nOverlimit penalty\r\nEarly termination penalty",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "db5f7fc6-4c19-f111-8608-060ba89e9853",
+      "name": "Interest Calculation Modality",
+      "description": "Specifies the method used to compute interest on the outstanding credit amount over time.\r\n\r\nComment:\r\nExamples\r\nSimple interest\r\nCompound interest\r\nDaily interest accrual\r\nReducing balance interest",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "41ef1009-4d19-f111-8608-060ba89e9853",
+      "name": "Fee Calculation Modality",
+      "description": "Defines how fees associated with the credit plan are calculated.\r\n\r\nComment:\r\nExamples\r\nLoan processing fee (2% of loan amount)\r\nLate payment fee\r\nAnnual credit card fee",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a67cb561-4e19-f111-8608-060ba89e9853",
+      "name": "Penalty Calculation Modality",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b5c0579-4e19-f111-8608-060ba89e9853",
+      "name": "Repayment Installment Calculation Modality",
+      "description": "Defines how periodic repayment installments are calculated for the credit plan.\r\n\r\nComment:\r\nExamples\r\nEqual Monthly Installment (EMI)\r\nBalloon repayment structure\r\nGraduated payments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a138cb96-4e19-f111-8608-060ba89e9853",
+      "name": "Credit Limit Calculation Modality",
+      "description": "Specifies how the maximum credit limit is determined for the customer.\r\n\r\nComment:\r\nExamples\r\nIncome-based credit limit\r\nRisk-score-based credit limit\r\nCollateral-based credit limit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "922129ad-4e19-f111-8608-060ba89e9853",
+      "name": "Outstanding Balance Calculation Modality",
+      "description": "Defines how the remaining credit balance is calculated during the lifecycle of the credit plan.\r\n\r\nComment:\r\nExamples\r\nPrincipal + accrued interest\r\nPrincipal + fees + penalties",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d7fc2c3-4e19-f111-8608-060ba89e9853",
+      "name": "Interest Accrual Calculation Modality",
+      "description": "Specifies how interest accumulates over time before being charged or capitalized.\r\n\r\nComment:\r\nExamples\r\nDaily accrual\r\nMonthly accrual\r\n30/360 or Actual/365 day count",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7660ce3-4e19-f111-8608-060ba89e9853",
+      "name": "Early Repayment Calculation Modality",
+      "description": "Defines how settlement amounts are calculated when the borrower repays the credit early.\r\n\r\nComment:\r\nExamples\r\nRemaining principal + penalty\r\nDiscounted settlement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

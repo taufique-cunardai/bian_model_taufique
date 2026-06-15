@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "037b4cc5-ed32-ef11-8b65-a402b9460f22",
+  "title": "GoalTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "46a83812-ee32-ef11-8b65-a402b9460f22",
+      "name": "Short-Term Goal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48a83812-ee32-ef11-8b65-a402b9460f22",
+      "name": "Long-Term Goal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49a83812-ee32-ef11-8b65-a402b9460f22",
+      "name": "Business Goal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4aa83812-ee32-ef11-8b65-a402b9460f22",
+      "name": "Performance Goal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ba83812-ee32-ef11-8b65-a402b9460f22",
+      "name": "Financial Goal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ca83812-ee32-ef11-8b65-a402b9460f22",
+      "name": "Outcome Goal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4da83812-ee32-ef11-8b65-a402b9460f22",
+      "name": "SMART Goal",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "04d409a9-6c57-f111-bb43-02ec8db9353f",
+  "title": "IdentityProofingMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f9f8a759-6d57-f111-bb43-02ec8db9353f",
+      "name": "Public Directory Verification",
+      "description": "**Example of Use** SSN (US), Aadhaar (India), Electoral Roll (UK)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00f9a759-6d57-f111-bb43-02ec8db9353f",
+      "name": "Document-Based Verification",
+      "description": "**Example of Use** Passport, Drivers Licence, National ID",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "05f9a759-6d57-f111-bb43-02ec8db9353f",
+      "name": "Third-PartyVerification",
+      "description": "**Example of Use** Onfido, Trulioo, Experian",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0af9a759-6d57-f111-bb43-02ec8db9353f",
+      "name": "Biometric Verification",
+      "description": "**Example of Use** Fingerprint (border control), FaceID (consumer devices)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ff9a759-6d57-f111-bb43-02ec8db9353f",
+      "name": "Hybrid or Multi-Factor Verification",
+      "description": "**Example of Use** Passport + biometric + video KYC    A",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

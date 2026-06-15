@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9f159584-5b24-f111-860d-06831cd38dd5",
+  "title": "CollateralAllocationMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "f478768d-5b24-f111-860d-06831cd38dd5",
+      "name": "Pro-Rata Allocation Method",
+      "description": "Collateral is distributed proportionally to the size of each obligation or claim.\r\n\r\nComment:\r\nExample:\r\n\r\nTotal collateral available: $100,000\r\n\r\nParty As obligation: $60,000\r\n\r\nParty Bs obligation: $40,000\r\n\r\nAllocation: Party A gets $60,000 × 100,000 ÷ 100,000 = $60,000, Party B gets $40,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff70aca6-5b24-f111-860d-06831cd38dd5",
+      "name": "First-Come, First-Served Allocation Method",
+      "description": "Collateral is allocated in the order requests are received until collateral runs out.\r\n\r\nComment:\r\nExample:\r\n\r\nTotal collateral: $50,000\r\n\r\nParty A requests $30,000 → allocated $30,000\r\n\r\nParty B requests $30,000 → only $20,000 left → allocated $20,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad01a0b7-5b24-f111-860d-06831cd38dd5",
+      "name": "Risk-Based Allocation Method",
+      "description": "Collateral is assigned based on the risk profile of obligations or counterparties; higher-risk exposures get priority.\r\n\r\nComment:\r\nExample:\r\n\r\nParty A (high risk) and Party B (low risk)\r\n\r\nCollateral available: $100,000\r\n\r\nParty As obligation: $70,000 → allocated $70,000 first\r\n\r\nParty B receives remaining $30,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8195b9c7-5b24-f111-860d-06831cd38dd5",
+      "name": "Fixed Allocation Method",
+      "description": "Specific collateral assets are pre-designated for particular obligations or counterparties.\r\n\r\nComment:\r\nExample:\r\n\r\nCollateral pool: Bonds X, Y, Z\r\n\r\nParty A is assigned Bond X\r\n\r\nParty B is assigned Bond Y\r\n\r\nParty C is assigned Bond Z",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d61f5dc-5b24-f111-860d-06831cd38dd5",
+      "name": "Conditional Allocation Method",
+      "description": "Collateral is allocated only if certain conditions or thresholds are met.\r\n\r\nComment:\r\nExample:\r\n\r\nCollateral is allocated to Party A only if their exposure exceeds $50,000\r\n\r\nParty As current exposure: $45,000 → no allocation\r\n\r\nExposure increases to $55,000 → collateral allocated",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90391ae9-5b24-f111-860d-06831cd38dd5",
+      "name": "Hierarchical Allocation Method",
+      "description": "Collateral is allocated according to a hierarchy of obligations, often by seniority or contractual rank.\r\nPurpose: Protects senior obligations before subordinated ones.\r\n\r\nComment:\r\nExample:\r\n\r\nSenior debt: Party A → $60,000\r\n\r\nSubordinated debt: Party B → $40,000\r\n\r\nTotal collateral: $70,000\r\n\r\nAllocation: Party A gets $60,000 (full), Party B gets remaining $10,000",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf96420f-8748-f111-bb23-06f4feeeb951",
+      "name": "Priority-Based Allocation Method",
+      "description": "Collateral is assigned according to a predefined ranking order.\r\n\r\nComment:\r\nExample:\r\nLoan A (priority 1): €60k\r\nLoan B (priority 2): €40k\r\nCollateral: €70k",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "483fbe38-8748-f111-bb23-06f4feeeb951",
+      "name": "Full Coverage Allocation Method",
+      "description": "Collateral is assigned to fully cover a specific obligation before any other allocation occurs.\r\nFocuses on complete coverage of a selected exposure\r\nOften used for secured or critical loans\r\n\r\nComment:\r\nExample:\r\nLoan A requires full coverage: €50k\r\nLoan B: €50k\r\nCollateral: €50k",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

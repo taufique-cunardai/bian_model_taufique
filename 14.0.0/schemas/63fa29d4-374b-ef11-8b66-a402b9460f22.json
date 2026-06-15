@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "63fa29d4-374b-ef11-8b66-a402b9460f22",
+  "title": "CustomerCampaignTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b09452e4-374b-ef11-8b66-a402b9460f22",
+      "name": "Product Launch Campaign",
+      "description": "Introducing a new product or service to the market.\r\nIncludes teasers, pre-launch promotions, and launch events.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46faa6f3-374b-ef11-8b66-a402b9460f22",
+      "name": "Brand Awareness Campaign",
+      "description": "Aimed at increasing visibility and recognition of the brand.\r\nUses a mix of media, including online ads, social media, and PR",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc7fdc0b-384b-ef11-8b66-a402b9460f22",
+      "name": "Customer Retention Campaign",
+      "description": "Focused on keeping existing customers engaged and loyal.\r\nIncludes loyalty programs, personalized offers, and exclusive events.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad05e129-384b-ef11-8b66-a402b9460f22",
+      "name": "Referral Campaign",
+      "description": "Encouraging existing customers to refer new customers.\r\nOften incentivized with discounts or rewards for both the referrer and the new customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "deb9f436-384b-ef11-8b66-a402b9460f22",
+      "name": "Reactivation Campaign",
+      "description": "Targeting inactive or lapsed customers to re-engage them.\r\nIncludes special offers, updates, and personalized messages.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1dac944c-384b-ef11-8b66-a402b9460f22",
+      "name": "Cross-Selling and Upselling Campaign",
+      "description": "Encouraging customers to purchase related or higher-end products.\r\nUses personalized recommendations and special offers.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

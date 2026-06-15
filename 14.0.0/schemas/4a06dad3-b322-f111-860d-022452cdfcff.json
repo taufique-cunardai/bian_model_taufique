@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a06dad3-b322-f111-860d-022452cdfcff",
+  "title": "CreditPlanTransactionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c23d1bed-b322-f111-860d-022452cdfcff",
+      "name": "Credit Plan Creation Transaction",
+      "description": "An action that establishes a credit plan, defining its repayment structure, schedule, and terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5a9c259-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Disbursement Transaction",
+      "description": "An action that allocates or transfers credit amounts into the credit plan, such as converting an outstanding balance into installments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5abe3b67-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Installment Booking Transaction",
+      "description": "An action that records scheduled installments (principal and/or interest) according to the credit plan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1dd89770-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Repayment Transaction",
+      "description": "An action where the borrower pays an installment, reducing the credit plan balance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af57027d-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Prepayment Transaction",
+      "description": "An action where the borrower repays part or all of the credit plan early, before scheduled dates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9dde8e87-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Interest Accrual Transaction",
+      "description": "An action that calculates and adds interest to the credit plan balance over time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81a7dc91-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Fee Charge Transaction",
+      "description": "An action that applies fees related to the credit plan (e.g., setup fee, service fee).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e4d039b-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Penalty Transaction",
+      "description": "An action that applies charges for missed or late installments in the credit plan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ff76d8a8-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Adjustment Transaction",
+      "description": "An action that modifies the credit plan balance, schedule, or terms due to changes or corrections.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d90a5b2-b422-f111-860d-022452cdfcff",
+      "name": "Credit Plan Closure Transaction",
+      "description": "An action that completes and terminates the credit plan once all obligations are fulfilled or canceled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

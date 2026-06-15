@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "71ef5d25-4288-e911-823e-06b09c770f0c",
+  "title": "CustomerProductServiceProfileTypeValues",
+  "description": "A Functional Classification Hierarchy that distinguishes between Customer Product Profiles according to the aspect that is profiled.\r\nExample values are Product/Service Eligibility, Product/Service Usage, Product/Service Coverage, Product/Service Sale and etc.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5e0ecc3a-4288-e911-823e-06b09c770f0c",
+      "name": "CustomerProductServiceEligibilityProfile",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26080546-4288-e911-823e-06b09c770f0c",
+      "name": "CustomerProductServiceUsageProfile",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4dee5f2-4688-e911-823e-06b09c770f0c",
+      "name": "CustomerProductServiceCoverageProfile",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1b859f7d-4788-e911-823e-06b09c770f0c",
+      "name": "CustomerProductServiceSaleProfile",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9df35b24-a6c1-ed11-83fd-06e351de867d",
+      "name": "CustomerProductServiceConsentProfile",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

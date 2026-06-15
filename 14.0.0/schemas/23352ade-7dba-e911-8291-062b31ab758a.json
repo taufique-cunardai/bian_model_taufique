@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "23352ade-7dba-e911-8291-062b31ab758a",
+  "title": "CurrencyTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "24352ade-7dba-e911-8291-062b31ab758a",
+      "name": "Base Currency",
+      "description": "Base currency of the account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79bf96f4-7dba-e911-8291-062b31ab758a",
+      "name": "Reporting Currency",
+      "description": "Currency used to calculate and report the balance and related entries of an account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f25b40b-7eba-e911-8291-062b31ab758a",
+      "name": "Secondary Currency",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb838f72-b4b2-ed11-83f9-06c152f885fb",
+      "name": "Transfer Currency",
+      "description": "Currency of the amount to be transferred which may be different from the currency of the debtor's account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "877ff1cf-92a2-f011-8bc0-a402b9460f22",
+      "name": "Settlement Currency",
+      "description": "Specifies the currency used for settlement, if different from the account currency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

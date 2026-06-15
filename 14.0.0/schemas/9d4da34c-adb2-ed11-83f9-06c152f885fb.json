@@ -1,0 +1,691 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9d4da34c-adb2-ed11-83f9-06c152f885fb",
+  "title": "PaymentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "798b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "CashTransaction",
+      "description": "Transaction is a withdrawal/deposit of cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "DomesticPayment",
+      "description": "Payment has an origin and a destination in the same country, and is made in the currency of that country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "DomesticHighValuePayment",
+      "description": "Transaction is a high value payment that has an origin and a destination in the same country and is made in the currency of that country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "DomesticPriorityPayment",
+      "description": "Transaction is a priority payment that has an origin and a destination in the same country and is made in the currency of that country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "CrossBorderPayment",
+      "description": "Payment has an origin in one country, a destination in another, and is made in the currency of either the origin or destination country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "CrossBorderPriorityPayment",
+      "description": "Transaction is a priority payment that has an origin in one country and a destination in another and is made in the currency of either the origin or destination country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "808b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "CrossBorderHighValuePayment",
+      "description": "Transaction is a high value payment that has an origin in one country and a destination in another country and is made in the currency of either the origin or destination country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "818b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "ThirdCurrencyPayment",
+      "description": "Transaction is a payment that is made in a third currency to the origin and destination countries. The origin and destination countries may be one and the same country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "828b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "ThirdCurrencyHighValuePayment",
+      "description": "Transaction is a high value payment that is made in a third currency to the origin and destination countries. The origin and destination countries may be one and the same country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "838b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "ThirdCurrencyPriorityPayment",
+      "description": "Payment is made in a third currency to the origin and destination countries. The origin and destination countries may be the same country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "848b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "TradeSettlementPayment",
+      "description": "Transaction is the settlement of a trade, eg, a securities transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "858b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "ForeignExchange",
+      "description": "Transaction isthe settlement of a foreign exchange deal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "868b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "EquivalentAmount",
+      "description": "Transaction is an equivalent amount relative to a currency conversion.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "878b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "Loan",
+      "description": "Transaction is the payment of a specific amount of money lent by a creditor/lender.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "888b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "LoanRepayment",
+      "description": "Transaction is an amount of money transferred in repayment of loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "898b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "Securities",
+      "description": "Transaction is a payment of securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "LockBox",
+      "description": "Transaction is a payment(s) resulting from a lock box service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "Dividend",
+      "description": "Transaction is a payment of dividends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "CrossedCheque",
+      "description": "Transaction is a crossed cheque. A crossed check has two parallel lines across its face, indicating that the cheque must be paid into an account and not cashed over the counter.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "OpenCheque",
+      "description": "Transaction is an uncrossed cheque that can be cashed at the bank of origin.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "OrderCheque",
+      "description": "Transaction is a cheque made payable to a named recipient 'or order' enabling the creditor to either deposit it in an account or endorse it to a third party, ie, transfer the rights to the cheque by signing it on the reverse.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "CircularCheque",
+      "description": "Transaction is an instruction from a bank to its correspondent bank to pay the creditor a stated sum of money on presentation of a means of identification.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "908b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "TravellersCheques",
+      "description": "Transaction is a payment resulting from travellers cheques.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "918b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "BankDraft",
+      "description": "Transaction is a cheque drawn by a bank on itself or its agent. A person who owes money to another buys the draft from a bank for cash and hands it to the creditor who need have no fear that it might be dishonoured.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "938b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "DocumentaryCredit",
+      "description": "Transaction is a documentary credit from one banker to another, authorising the payment of a specified sum of money to the person named in the document, based on specified conditions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "948b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "BillOfExchange",
+      "description": "Transaction is a written order from a drawer to a drawee to pay a specified sum of money upon demand, or on a specified date, to the drawer or to a third party specified by the drawer. A bill of exchange is also called a draft.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "958b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "Collection",
+      "description": "Transaction is a collection. A collection is the act of sending a cheque, bill of exchange or another financial instrument to the prospective financial institution for payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "968b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "CashManagementTransfer",
+      "description": "Transaction is a general cash management instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "988b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "TopAccount",
+      "description": "Transaction is a cash management instruction, requesting to top the account of the debtor above a certain floor amount. The floor amount, if not pre-agreed by the parties involved, may be specified.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "998b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "ZeroBalanceAccount",
+      "description": "Transaction is a cash management instruction, requesting to zero balance the account of the debtor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "StandingFacilities",
+      "description": "Payment is linked to overnight deposits and the marginal lending facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "StandardServiceLevelCredit",
+      "description": "Transaction is a credit transfer to be processed according to the Standard Service Level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "LiquidityTransfer",
+      "description": "Payment is made to transfer liquidity to/from the settlement account of a member, to/from the current account held at the central institution or any other institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f8b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "AdvancePayment",
+      "description": "Transaction is a payment made in advance or as an advance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a08b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "ValueDateAdjustment",
+      "description": "Transaction reverses a previously incorrectly value dated entry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a18b56a8-adb2-ed11-83f9-06c152f885fb",
+      "name": "DVPGross",
+      "description": "Gross cash payment offsetting the amount owed/due for a securities transaction settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "44e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "DVPNet",
+      "description": "Net payment offsetting the cash balance due/owed for a series of securities transactions settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Netting",
+      "description": "Transaction is a netting operation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "LimitPayment",
+      "description": "Transaction is a payment that is processed when the pool of liquidity exceeds the minimum value reserved for an express payment in the RTGSPlus system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "BackUp",
+      "description": "Payment is made under the recovery procedure to move liquidity to/from the settlement account of a member according to the specifications of the system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "ExpressPayment",
+      "description": "Transaction is a payment that is processed whenever liquidity is available on the settlement account of a member of the RTGSPlus system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "CentralBankOperation",
+      "description": "Payment is made to settle an operation made with the central bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ae867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "CLSPayment",
+      "description": "Payment is linked to CLS activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4be867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "EuroDomesticPayment",
+      "description": "Transaction is a credit transfer in Euro with its country of origin and country of destination within the European Union. The origin and destination countries may be one and the same country.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ce867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "AgriculturalTransfer",
+      "description": "Transaction is related to the agricultural domain.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4de867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "AlimonyPayment",
+      "description": "Transaction is a payment(s) made by one spouse to the other after a separation or divorce. An alimony payment may be applied to other family relationships.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ee867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "BalanceRetail",
+      "description": "Transaction is a payment offsetting the net cash balance owed/due in a retail payment system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fe867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "BonusPayment.",
+      "description": "Net cash payment offsetting the balance due/owed in a retail payment system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "50e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "BrokerageFee",
+      "description": "Transaction is charges levied by a broker.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "CapitalBuilding",
+      "description": "Transaction is payment into a personal pension scheme for retirement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "CharityPayment",
+      "description": "Transaction is a payment for charity reasons.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "ChildBenefit",
+      "description": "Transaction is a payment made to a parent/guardian to help maintain a child.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "CommercialCredit",
+      "description": "Transaction is settlement of a commercial credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Commission",
+      "description": "Transaction is payment of a fee for executing a transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "CommodityTransfer",
+      "description": "Transaction is a payment of products traded on a commodity exchange.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Costs",
+      "description": "Transaction is apayment of costs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Copyright",
+      "description": "Transaction is a payment of copyright.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "GovernmentPayment",
+      "description": "Transaction is apayment to or from a government department.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ae867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "InstalmentHirePurchaseAgreement",
+      "description": "Transaction is a payment of an instalment or to the settlement of a hire-purchase agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5be867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "InsurancePremium",
+      "description": "Transaction is a payment of an insurance premium.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ce867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "IntraCompanyPayment",
+      "description": "Transaction is an intra-company payment, ie, a payment between two companies belonging to the same group.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5de867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Interest",
+      "description": "Transaction is a payment of interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ee867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "LicenseFee",
+      "description": "Transaction is a payment of a license fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fe867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Metals",
+      "description": "Transaction is a purchase or sale of metals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "PensionPayment",
+      "description": "Transaction is a payment of a pension allowance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "PurchaseSaleOfGoods",
+      "description": "Transaction is a payment for the purchase and sale of goods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Refund",
+      "description": "Transaction is a repayment of funds.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Rent",
+      "description": "Transaction is a payment of rent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Royalties",
+      "description": "Transaction is a payment of royalties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "PurchaseSaleOfServices",
+      "description": "Transaction is a payment for the purchase and sale of services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "SalaryPayment",
+      "description": "Transaction is a payment of salaries.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "SocialSecurityBenefit",
+      "description": "Transaction is a social security benefit, a payment made by a government to support individuals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "StandingOrder",
+      "description": "Transaction is a standing order. A standing order is an instruction given by a party having explicit authority on the account to debit, ie, either debit account owner or originating party, to a first agent to process cash transfers at specified intervals during an implicit or explicit period of time. It is given once, and is valid for an open or closed period of time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69e867ae-adb2-ed11-83f9-06c152f885fb",
+      "name": "Subscription",
+      "description": "Transaction is a payment of a subscription.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "040272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "TreasuryStatePayment",
+      "description": "Payment is linked to the Treasury State.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "050272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "UnemploymentDisabilityBenefit",
+      "description": "Transaction is a payment made to an unemployed/disabled person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "060272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "ValueAddedTaxPayment",
+      "description": "Transaction is apayment of value added tax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "080272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "TaxPayment",
+      "description": "Transaction is a payment of taxes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a0272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "OvernightDeposit",
+      "description": "Transaction is linked to an overnight deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b0272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "MarginalLending",
+      "description": "Transaction is linked to the marginal lending facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c0272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "Other",
+      "description": "Specifies that a proprietary code must be indicated.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d0272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "Upfront",
+      "description": "Transaction is an initial payment made by one of the counterparties  either to bring a transaction to fair value or for any other reason that may be the cause of an off-market transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e0272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "UnWind",
+      "description": "Transaction is the final settlement payment made when a transaction is unwound prior to its end date or a payment that may result due to the full termination of derivative transaction(s).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f0272b4-adb2-ed11-83f9-06c152f885fb",
+      "name": "PrincipalExchange",
+      "description": "Transaction is an exchange of notional values for cross-currency swaps.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

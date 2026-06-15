@@ -1,0 +1,195 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "334d7f5d-3f34-ed11-83cc-0663e70158a3",
+  "title": "AssessmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bf09916b-3f34-ed11-83cc-0663e70158a3",
+      "name": "Valuation Assessment",
+      "description": "An evaluation conducted to determine the monetary value of an asset, liability, or financial instrument.\r\n\r\nComment:\r\nExample: Assessing the market value of collateral for a loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42c8a571-3f34-ed11-83cc-0663e70158a3",
+      "name": "Matching Assessment",
+      "description": "An evaluation that compares two or more items to determine whether they correspond or match according to defined criteria.\r\n\r\nComment:\r\nExample: Matching payment transactions with invoices.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c26ec479-3f34-ed11-83cc-0663e70158a3",
+      "name": "Authorization Assessment",
+      "description": "An evaluation whether a party or system is allowed to do something.\r\n\r\nThe consent given by a participant (or a third party acting on behalf of that participant) in order to transfer funds or securities. (ECB)\r\n\r\nAuthorization is a mechanism by which a computer system determines whether to allow or deny specific action to a user. Authorization is often controlled by rather complex rules and algorithms, usually specified as part of an access control model. Authorization often follows (and required) authentication, however, authentication and authorization are two separate mechanisms. In rare cases, \"authorization\" is understood as a process of allowing access, granting permissions or giving approval. Such as \"authorization\" of a request to join a group. (ISO/IEC 24760-1:2019 - IT Security and Privacy)\r\n\r\nComment:\r\nExample: Checking if a transaction exceeds the cardholders spending limit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c11b6381-3f34-ed11-83cc-0663e70158a3",
+      "name": "Authentication Assessment",
+      "description": "An evaluation whether a party or system is what it claims to be.\r\n\r\nA security mechanism for verifying: 1) the identity of an individual or other entity (including verification by means of a computer or computer application); and 2) the level of authority of that person or entity (i.e. the ability of that person or entity to perform specific tasks or activities). (ECB)\r\n\r\nAuthentication is a mechanism by which a computer system checks that the user is really the one she or he claims to be. Authentication can be implemented by a broad variety of mechanisms broadly divided into three categories: something you know, something you have, something you are. Traditionally, authentication is done by the means of by username and password. Authentication is often followed by authorization, however, authentication and authorization are two separate mechanisms. (ISO/IEC 24760-1:2019 - IT Security and Privacy)\r\n\r\nComment:\r\nExample: Verifying a customer through PIN, OTP, or biometric authentication.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b439fc8a-3f34-ed11-83cc-0663e70158a3",
+      "name": "Quality Assurance Assessment",
+      "description": "An evaluation that checks whether products, services, or processes meet predefined quality standards.\r\n\r\nComment:\r\nExample: Reviewing transaction processing accuracy in a banking system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8834f491-3f34-ed11-83cc-0663e70158a3",
+      "name": "Audit Assessment",
+      "description": "A systematic examination to verify accuracy, compliance, and integrity of financial records, operations, or processes.\r\n\r\nComment:\r\nExample: Internal audit of loan approval procedures.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "810ac39a-3f34-ed11-83cc-0663e70158a3",
+      "name": "Compliance Assessment",
+      "description": "An evaluation conducted to ensure that activities, processes, or products comply with internal policies, laws, or regulations.\r\n\r\nComment:\r\nExample: Checking adherence to regulatory reporting standards.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7cb2fca3-3f34-ed11-83cc-0663e70158a3",
+      "name": "Funding Assessment",
+      "description": "An evaluation used to determine whether sufficient funds or financial resources are available for a transaction, project, or obligation.\r\n\r\nComment:\r\nExample: Confirming funds availability before approving a transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6b529aa-3f34-ed11-83cc-0663e70158a3",
+      "name": "Suitability Assessment",
+      "description": "An evaluation that determines whether a product or service is appropriate for a customer based on their financial profile, needs, and risk tolerance.\r\n\r\nComment:\r\nExample: Ensuring a high-risk investment product is not sold to a low-risk investor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "134eefc2-3f34-ed11-83cc-0663e70158a3",
+      "name": "Performance Assessment",
+      "description": "An evaluation of efficiency, effectiveness, or productivity of a system, process, or entity.\r\n\r\nComment:\r\nExample: Measuring the performance of a payment processing system.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e8998d1-3f34-ed11-83cc-0663e70158a3",
+      "name": "Impact Assessment",
+      "description": "An evaluation that analyzes the potential effects or consequences of a decision, policy, or change.\r\n\r\nComment:\r\nExample: Assessing the impact of a new regulatory rule on banking operations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d9c86e2-3f34-ed11-83cc-0663e70158a3",
+      "name": "Risk Assessment",
+      "description": "An evaluation that identifies and analyzes potential risks and their likelihood and impact.\r\n\r\nComment:\r\nExample: Evaluating credit risk before issuing a loan.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4344d2e9-3f34-ed11-83cc-0663e70158a3",
+      "name": "Rating Assessment",
+      "description": "An evaluation that assigns a score, grade, or classification based on predefined criteria.\r\n\r\nComment:\r\nExample: Assigning a credit rating to a borrower.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb0f18d5-aa69-ed11-83e5-06708708bdfd",
+      "name": "Underwriting Assessment",
+      "description": "An evaluation used to determine whether to accept or reject a financial risk, such as issuing a loan or insurance policy.\r\n\r\nComment:\r\nExample: Assessing borrower income and credit history before loan approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34c72051-0257-ee11-8b39-a402b9460f22",
+      "name": "Qualification Assessment",
+      "description": "An evaluation to determine whether an individual, organization, or product meets specific eligibility requirements.\r\n\r\nComment:\r\nExample: Checking if a customer qualifies for a mortgage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb7197dc-7b67-ee11-8b40-a402b9460f22",
+      "name": "Verification Assessment",
+      "description": "A process establishing that a particular information is correct, while the meaning of \"information\" and \"correct\" varies from context to context. When dealing with identity information, this usually means formal verification of identity attributes, checking the schema, identifier uniqueness and referential integrity. However, verification may mean deeper verification, such as checking that the information is true and up-to-date.  (ISO/IEC 24760-1:2019 - IT Security and Privacy)\r\n\r\nComment:\r\nExample: Verifying income statements during loan processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d82ee5d-8067-ee11-8b40-a402b9460f22",
+      "name": "KYC Assessment",
+      "description": "An assessment conducted by businesses and financial institutions to verify and confirm the identity of their customers or clients. The primary purpose of a KYC check is to prevent illegal activities, such as money laundering, terrorist financing, and fraud, by ensuring that customers are who they claim to be.\r\n\r\nA KYC (Know Your Customer) assessment is an assessment conducted by businesses and financial institutions to verify and confirm the identity of their customers or clients. The primary purpose of a KYC assessment is to prevent illegal activities, such as money laundering, terrorist financing, and fraud, by ensuring that customers are who they claim to be.\r\n\r\nComment:\r\nExample: Checking identity documents and address verification.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b25128e1-8267-ee11-8b40-a402b9460f22",
+      "name": "PEP Assessment",
+      "description": "A PEP assessment, or \"Politically Exposed Person\" assessment, is an assessment conducted by used by businesses, financial institutions, and government agencies to identify individuals who hold prominent public positions or have significant political influence. The purpose of a PEP assessment is to assess and manage the potential risks associated with doing business with these individuals, as they may be more susceptible to corruption, money laundering, or other illicit activities.\r\n\r\nComment:\r\nExamples:\r\nChecking whether a new customer is a government minister before opening a bank account.\r\n\r\nScreening a customer to see if they are the family member of a member of parliament.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "956e0a48-2b68-ee11-8b40-a402b9460f22",
+      "name": "AML Assessment",
+      "description": "An AML (Anti-Money Laundering) assessment  is an assessment conducted by businesses, financial institutions, and other organizations to prevent and detect money laundering and the financing of criminal activities. The main purpose of an AML assessment is to ensure that financial transactions and business relationships are not being used to disguise the illegal origins of funds.\r\n\r\nComment:\r\nExample: Monitoring unusual transaction patterns.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f25abec2-f4b3-f011-8bc2-a402b9460f22",
+      "name": "Eligibility Assessment",
+      "description": "Determines whether a person or case meets the criteria or preconditions to qualify for a benefit, service, or action.\r\n\r\nComment:\r\nExample: Checking if a customer is eligible for a rewards program.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "05356ce6-f4b3-f011-8bc2-a402b9460f22",
+      "name": "External Agency Assessment",
+      "description": "An evaluation conducted by an independent third-party organization.\r\n\r\nComment:\r\nExample: Credit rating agencies assessing a banks financial stability.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cd846b58-f5b3-f011-8bc2-a402b9460f22",
+      "name": "Entitlement Assessment",
+      "description": "Determines what benefit, amount, or service the person is actually entitled to receive once eligibility is confirmed.\r\n\r\nComment:\r\nExample: Verifying a customers entitlement to redeem loyalty points.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

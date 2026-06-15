@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "99d70ea2-5277-eb11-8305-06d6e8bf29e7",
+  "title": "AgreementTypeValues",
+  "description": "A list of values which specifies the category of agreement. Agreement type is very often referred to product. But, the term product does not cover all kinds of agreements. An Agreement can be subtyped from the perspective of various aspects of interest. One can classify the agreement from the perspective of format type (e.g., verbal agreement, written agreement). Other one can classify agreement based on duration like short-term agreement or long-term agreement.\r\n\r\nAn Agreement can be subtyped from the perspective of various aspects of interest. One can classify the agreement from the perspective of format type (e.g., verbal agreement, written agreement). Another one can classify the same agreement from the perspective of the main subject (e.g., resource agreement, party agreement, product agreement) of agreement and still another one may be interested in a classification according to the type of transaction (e.g., purchase agreement, sale agreement, maintenance agreement), or a combination of these (e.g. resource maintenance agreement). These subtypes are not mutual exclusive. This means that one and the same Agreement can be classified into one or more classifications.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "539e77b4-5277-eb11-8305-06d6e8bf29e7",
+      "name": "Customer Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f45efedb-5277-eb11-8305-06d6e8bf29e7",
+      "name": "Supplier Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c74308e2-5277-eb11-8305-06d6e8bf29e7",
+      "name": "Broker Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06c23cf9-5277-eb11-8305-06d6e8bf29e7",
+      "name": "Sales Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76e690d8-5c0f-ed11-83b7-062db63cd35d",
+      "name": "Purchase Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1d919e8-5c0f-ed11-83b7-062db63cd35d",
+      "name": "Maintenance Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc01c6fe-5c0f-ed11-83b7-062db63cd35d",
+      "name": "Product Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e75ee10-5d0f-ed11-83b7-062db63cd35d",
+      "name": "Resource Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b611752-5436-f011-8ba8-a402b9460f22",
+      "name": "Partner Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5c668f7d-e962-f011-8bb8-a402b9460f22",
+      "name": "Master Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d627f89-e962-f011-8bb8-a402b9460f22",
+      "name": "Bilateral Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfdba1ad-ea62-f011-8bb8-a402b9460f22",
+      "name": "Repurchase Agreement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

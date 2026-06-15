@@ -1,0 +1,395 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c66bb97b-8e90-eb11-8310-06a4d64a8775",
+  "title": "FeeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "1df3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "AccountingFee",
+      "description": "Fee paid for accounting services rendered.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ff3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "ADRFee",
+      "description": "Charge linked to an ADR (American Depositary Receipt).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "AdvisoryFee",
+      "description": "Fee paid for advisory services rendered.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "21f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "AirWayBillFee",
+      "description": "Charge is an airway bill fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "BackEndLoad",
+      "description": "Sales charge paid by the investor when redeeming an investment such as an investment fund.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "23f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "BrokerageFee",
+      "description": "Fee paid to a broker for services provided.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "ClearanceAndHandlingAtDestination",
+      "description": "Charge is for clearance and handling of goods at destination.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "25f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "ClearanceAndHandlingAtOrigin",
+      "description": "Charge is for clearance and handling of goods at origin.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "26f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "CollectFreight",
+      "description": "Charge is for the collection of the freight.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Commission",
+      "description": "Fee paid for services provided.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "28f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "ContingencyDeferredSalesCharge",
+      "description": "Deferred sales charge.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "CorrespondentBankCharge",
+      "description": "In investment funds, the charge of the correspondent bank for transferring money.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2af3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "CustodyFee",
+      "description": "Fee paid to a custodian in respect of custodial services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2bf3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "DangerousGoodsFee",
+      "description": "Charge is for dangerous goods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2cf3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "DilutionLevy",
+      "description": "In investment funds, a charge payable by the investor covering bid-offer spreads and dealing charges for the underlying investments. The dilution levy is paid to the fund for the benefit of other unit holders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2df3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Discount",
+      "description": "Charge that has been reduced from the standard initial charge levied by a fund, eg, during a launch period or as negotiated by a funds supermarket / discount broker.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ef3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Equalisation",
+      "description": "The part of an investor's subscription amount that is held by the fund in order to pay incentive or performance fees at the end of the fiscal year.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ff3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "FrontEndLoad",
+      "description": "Sales charge paid immediately by the investor when subscribing to an investment such as an investment fund.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "30f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Initial",
+      "description": "Charge paid at the time of the first subscription.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "31f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "InsurancePremium",
+      "description": "Charge is a premium for insurance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "IssuanceCancellationFee",
+      "description": "Fee linked to the cancellation of an issuance.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "IssuanceFee",
+      "description": "Charge linked to the issuance of security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "ManagementFee",
+      "description": "Fee paid to an investment manager for services. The fee usually includes fund administration costs and investor relationship management. Typically, the amount paid is a percentage of the assets under management.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "35f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "MatchingFees",
+      "description": "Fee charged for matching and/or confirmation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "MiscellaneousFee",
+      "description": "Miscellaneous fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "37f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Other",
+      "description": "Another type of charge.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Packaging",
+      "description": "Charge is for packaging of goods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "PartAcquis",
+      "description": "Portion of charge that the fund is entitled to receive, that cannot be reduced by an intermediary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3af3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Penalty",
+      "description": "Fee charged to the investor for early redemption of the fund.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3bf3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "PickUp",
+      "description": "Charge is for pick-up of goods.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3cf3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "PostageCharge",
+      "description": "Charge paid for the postage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3df3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Premium",
+      "description": "In investment funds, pre-arranged addition to the trade amount based on the published net asset value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3ef3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "PublicationFee",
+      "description": "Fee paid in respect of publications made.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3ff3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "RegulatoryFee",
+      "description": "Fee charged by a regulatory authority, eg, Securities and Exchange fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "SecurityCharge",
+      "description": "Charge is for security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "41f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "ServiceProvisionFee",
+      "description": "Fee paid for the provision of financial services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "ShippingCharge",
+      "description": "Charge for shipping, including the insurance of securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "SignatureService",
+      "description": "Charge is for signature services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "44f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "SpecialConcessions",
+      "description": "Charges, drawdown, or other reduction from or in addition to the deal price.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "SpeciallyAgreedFrontEndLoad",
+      "description": "Specially agreed front-end load.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "StorageAtDestination",
+      "description": "Charge is for storage of goods at destination.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "StorageAtOrigin",
+      "description": "Charge is for storage of goods at origin.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "Switch",
+      "description": "In investment funds, charge related to a switch transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49f3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "TransferFee",
+      "description": "In investment funds, a fee charged for the transfer of ownership of an investment fund.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4af3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "TransportCharges",
+      "description": "Charge is for transport.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4bf3af8a-8e90-eb11-8310-06a4d64a8775",
+      "name": "UCITSCommission",
+      "description": "Charges paid by the investor to the Fund Company for subscription and redemption orders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "284cfd73-c46e-ef11-8b6f-a402b9460f22",
+      "name": "Cheque related Fee",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

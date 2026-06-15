@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "94bf2a74-5bfc-ec11-83ad-06cd3bb6cbfd",
+  "title": "Party_PartyRelationshipTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b0bac791-5bfc-ec11-83ad-06cd3bb6cbfd",
+      "name": "Party is parent of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e51479d-5bfc-ec11-83ad-06cd3bb6cbfd",
+      "name": "Party is subsidiary of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "582d2eaa-5bfc-ec11-83ad-06cd3bb6cbfd",
+      "name": "Party is certified by Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebc3e5b5-5bfc-ec11-83ad-06cd3bb6cbfd",
+      "name": "Party is married to Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e63a6c1-5bfc-ec11-83ad-06cd3bb6cbfd",
+      "name": "Party acts on behalf of Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6e027c8-232a-ee11-8b31-a402b9460f22",
+      "name": "Party is Contact Point for Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42dde301-1352-ee11-8b39-a402b9460f22",
+      "name": "Party is trusted by Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "807ef478-1952-ee11-8b39-a402b9460f22",
+      "name": "Party is the Power of Attorney for Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cfff19d-f37e-ee11-8b41-a402b9460f22",
+      "name": "Party receives benefits from a Party",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

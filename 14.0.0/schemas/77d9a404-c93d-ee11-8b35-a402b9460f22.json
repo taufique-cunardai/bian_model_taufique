@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "77d9a404-c93d-ee11-8b35-a402b9460f22",
+  "title": "PartyLegalStructureTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e3b58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Individual",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5b58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Community Interest Company",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e6b58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Charitable Incorporated Organisation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e7b58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Co-operative",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8b58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Charity",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9b58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "General Partnership",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eab58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Limited Liability Partnership",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebb58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Scottish Limited Partnership",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ecb58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Limited Partnership",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edb58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Private Limited Company",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eeb58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Public Limited Company",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "efb58648-c93d-ee11-8b35-a402b9460f22",
+      "name": "Sole (sole trader)",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

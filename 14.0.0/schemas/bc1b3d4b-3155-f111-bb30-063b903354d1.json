@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bc1b3d4b-3155-f111-bb30-063b903354d1",
+  "title": "AssessmentMethodTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "acd9135f-3155-f111-bb30-063b903354d1",
+      "name": "Manual Assessment",
+      "description": "Human driven evaluation, often checklist or judgment based",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63190d6e-3155-f111-bb30-063b903354d1",
+      "name": "Automated Assessment",
+      "description": "System driven evaluation using rules, algorithms, or workflows",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68190d6e-3155-f111-bb30-063b903354d1",
+      "name": "External Assessment",
+      "description": "Conducted by third‑party or independent authority",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eb0ba575-3255-f111-bb30-063b903354d1",
+      "name": "Hybrid or Collaborative Assessment",
+      "description": "Combination of internal + external or manual + automated",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62be188b-3255-f111-bb30-063b903354d1",
+      "name": "Internal Assessment",
+      "description": "Mandated by governing body",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9387c8ac-3255-f111-bb30-063b903354d1",
+      "name": "Regulatory Assessment",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

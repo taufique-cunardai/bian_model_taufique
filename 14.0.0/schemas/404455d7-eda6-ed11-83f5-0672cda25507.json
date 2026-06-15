@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "404455d7-eda6-ed11-83f5-0672cda25507",
+  "title": "PaymentTransactionStatus",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PaymentTransactionStatus",
+    "PaymentTransactionStatusType"
+  ],
+  "properties": {
+    "PaymentTransactionStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Status",
+      "x-related-bo-id": "c7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Status"
+    },
+    "PaymentTransactionStatusType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PaymentTransactionStatusTypeValues",
+      "x-related-bo-id": "921a7801-eea6-ed11-83f5-0672cda25507",
+      "x-related-bo-name": "PaymentTransactionStatusTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

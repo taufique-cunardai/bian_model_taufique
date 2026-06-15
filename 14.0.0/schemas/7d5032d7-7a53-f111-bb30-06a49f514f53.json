@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7d5032d7-7a53-f111-bb30-06a49f514f53",
+  "title": "OperationRequirementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bd27a962-8e53-f111-bb30-06a49f514f53",
+      "name": "Processing Requirement",
+      "description": "Defines how transactions or requests are handled internally by the system.\r\n:\r\nComment:\r\nIncludes workflows, validation steps, timing, and decision rules.\r\n\r\nExample: Loan applications must be processed within 48 hours and routed for approval based on credit score.\r\nFocus: Execution flow of operations\r\n\r\nLoan payment must be processed before end-of-day cutoff",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "161d6b7e-8e53-f111-bb30-06a49f514f53",
+      "name": "Settlement Requirement",
+      "description": "Conditions related to clearing and settlement\r\n\r\nComment:\r\nExample:\r\nCard transactions settle through Visa network nightly",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "22415d9b-8e53-f111-bb30-06a49f514f53",
+      "name": "Validation Requirement",
+      "description": "Required operational validations before execution\r\n\r\nComment:\r\nExample:\r\nAML screening required before international transfer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2d806ba-8e53-f111-bb30-06a49f514f53",
+      "name": "Authorization Requirement",
+      "description": "Approval or permission needed for operations\r\n\r\nComment:\r\nExample:\r\nSupervisor approval required above €10,000 transfer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74a3b0cb-8e53-f111-bb30-06a49f514f53",
+      "name": "Monitoring Requirement",
+      "description": "Operational monitoring and alerting obligations\r\n\r\nComment:\r\nExample:\r\nFraud monitoring applied to all card transactions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "96493ddd-8e53-f111-bb30-06a49f514f53",
+      "name": "Reconciliation Requirement",
+      "description": "Matching and balancing operational records\r\n\r\nComment:\r\nExample:\r\nDaily ATM cash reconciliation required",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b1af4fe-8e53-f111-bb30-06a49f514f53",
+      "name": "Compliance Requirement",
+      "description": "Regulatory or policy-driven operational obligations\r\n\r\nComment:\r\nExample:\r\nPSD2 strong customer authentication required",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1efcf11-8f53-f111-bb30-06a49f514f53",
+      "name": "Availability Requirement",
+      "description": "Operational uptime or service availability needs\r\n\r\nComment:\r\nExample:\r\nMobile banking available 24/7",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6a02421-8f53-f111-bb30-06a49f514f53",
+      "name": "Maintenance Requirement",
+      "description": "Scheduled maintenance or servicing rules\r\n\r\nComment:\r\nExample:\r\nMonthly interest recalculation batch job",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bdbb022d-8f53-f111-bb30-06a49f514f53",
+      "name": "Exception Handling Requirement",
+      "description": "Procedures for failed or abnormal operations\r\n\r\nComment:\r\nExample:\r\nRetry processing for failed payment settlement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "652fff53-8f53-f111-bb30-06a49f514f53",
+      "name": "SLA Requirement",
+      "description": "Performance and turnaround obligations    \r\n\r\nComment:\r\nExample:\r\nWire transfer processed within 30 minutes",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91385892-e955-f111-bb30-0a090593febd",
+      "name": "Scheduling Requirement",
+      "description": "Defines the timing, frequency, sequencing, and execution conditions under which an operational activity, task, process, or service must occur within a system or business process.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
