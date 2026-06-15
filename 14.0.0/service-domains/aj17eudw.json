@@ -3,7 +3,7 @@
   "name": "Contact Handler",
   "description": "",
   "controlRecord": {
-    "id": "42y7ozvk",
+    "id": "sc51f9ob",
     "name": "CR Customer Contact Operating Session Instance Record",
     "description": "Operate equipment and/or a largely automated facility within Contact Handler.",
     "attributes": [
@@ -16,7 +16,7 @@
         "relatedBusinessObjectName": "Customer Contact",
         "relatedBusinessObjectAttrName": "Customer Contact Indicator",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3615810c-953d-f111-8be5-a402b9460f22",
@@ -26,7 +26,7 @@
         "description": "Reference to the active network operating session used to access customer",
         "relatedBusinessObjectName": "eBranch Channel Session",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3715810c-953d-f111-8be5-a402b9460f22",
@@ -36,7 +36,7 @@
         "description": "Reference to the active voice network used to access customer",
         "relatedBusinessObjectName": "Voice Channel Session",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3815810c-953d-f111-8be5-a402b9460f22",
@@ -45,7 +45,7 @@
         "required": true,
         "description": "Reference to the contact record assembled during the customer contact",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3915810c-953d-f111-8be5-a402b9460f22",
@@ -54,7 +54,7 @@
         "required": true,
         "description": "The contact record consolidates all aspects of the contact that is cross-referenced by all  contact functions and called servicing sessions that make up the contact",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3a15810c-953d-f111-8be5-a402b9460f22",
@@ -65,7 +65,7 @@
         "relatedBusinessObjectName": "Contact Involvement",
         "relatedBusinessObjectAttrName": "Contact Involvement Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3b15810c-953d-f111-8be5-a402b9460f22",
@@ -75,7 +75,7 @@
         "description": "The device used in customer contact \r\n\r\nThe contact device can be determined by the channel operations facilities (e.g. URL/ANI-phone number)",
         "relatedBusinessObjectName": "Device",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3c15810c-953d-f111-8be5-a402b9460f22",
@@ -89,7 +89,7 @@
         "referenceName": "Status",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3d15810c-953d-f111-8be5-a402b9460f22",
@@ -99,7 +99,7 @@
         "description": "The routing selections made through the contact\r\nThe determined servicing channel or mode for fulfilling the request.\r\nDefines whether the interaction continues as self-service, is escalated to assisted service, or is blocked.",
         "relatedBusinessObjectName": "Routing Selection",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3e15810c-953d-f111-8be5-a402b9460f22",
@@ -109,7 +109,7 @@
         "description": "The requested service from a menu option can be indicated by the customer when initiating or during contact\r\n\r\nSelected Service:The specific banking service identified as relevant for execution based on customer intent, entitlements, and context.Example: account balance inquiry, funds transfer, product overview.\r\nService Eligibility: A validation indicator confirming whether the selected service is permitted for the customer under current conditions.Reflects entitlement rules, compliance constraints, and product availability.",
         "relatedBusinessObjectName": "Service Selection",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "3f15810c-953d-f111-8be5-a402b9460f22",
@@ -119,7 +119,7 @@
         "description": "The customer may provide details of servicing resource request when initiating or during contact",
         "relatedBusinessObjectName": "Instruction",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4015810c-953d-f111-8be5-a402b9460f22",
@@ -129,7 +129,7 @@
         "description": "Contact Handler can reference recent servicing activity for routing, security and servicing purposes (obtained from Service Domain Channel Activity History)",
         "relatedBusinessObjectName": "Channel Activity Log",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4115810c-953d-f111-8be5-a402b9460f22",
@@ -138,7 +138,7 @@
         "required": true,
         "description": "Reference to the servicing position - can be where an inbound contact is routed, or the source of an outbound contact request",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4215810c-953d-f111-8be5-a402b9460f22",
@@ -148,7 +148,7 @@
         "description": "Reference to the servicing resource - can be to handle an inbound contact or the source of an outbound contact request",
         "relatedBusinessObjectName": "Servicing Resource",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4315810c-953d-f111-8be5-a402b9460f22",
@@ -158,7 +158,7 @@
         "description": "Records the actions performed during contact, including all dialogue sessions",
         "relatedBusinessObjectName": "Customer Event Log",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4415810c-953d-f111-8be5-a402b9460f22",
@@ -168,7 +168,7 @@
         "description": "Reference to any contact session dialogue records created during the contact - there can be several",
         "relatedBusinessObjectName": "Customer Contact Session",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4515810c-953d-f111-8be5-a402b9460f22",
@@ -178,7 +178,7 @@
         "description": "The customer session dialogue details and log",
         "relatedBusinessObjectName": "Log",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4615810c-953d-f111-8be5-a402b9460f22",
@@ -192,7 +192,7 @@
         "referenceName": "Duration",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/duration",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "4715810c-953d-f111-8be5-a402b9460f22",
@@ -203,7 +203,7 @@
         "relatedBusinessObjectName": "Customer Contact",
         "relatedBusinessObjectAttrName": "Customer Contact Result",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "1da77218-df58-f111-8be8-a402b9460f22",
@@ -214,7 +214,7 @@
         "relatedBusinessObjectName": "Authentication",
         "relatedBusinessObjectAttrName": "Authentication Level",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "5ac60a78-df58-f111-8be8-a402b9460f22",
@@ -224,7 +224,7 @@
         "description": "The channel used in customer contact",
         "relatedBusinessObjectName": "Channel",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "eaeb1374-e158-f111-8be8-a402b9460f22",
@@ -235,7 +235,7 @@
         "relatedBusinessObjectName": "Communication Channel",
         "relatedBusinessObjectAttrName": "Communication Channel Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "5fe433d0-e158-f111-8be8-a402b9460f22",
@@ -249,7 +249,7 @@
         "referenceName": "GenericIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.162Z"
       },
       {
         "id": "a7ec3bcb-ec58-f111-8be8-a402b9460f22",
@@ -258,7 +258,7 @@
         "required": true,
         "description": "A unique reference to CR",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "71500b84-ed58-f111-8be8-a402b9460f22",
@@ -269,7 +269,7 @@
         "relatedBusinessObjectName": "Authentication",
         "relatedBusinessObjectAttrName": "Authentication Entity",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "32fe706d-ee58-f111-8be8-a402b9460f22",
@@ -283,7 +283,7 @@
         "referenceName": "GenericIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "5a8cef5c-f458-f111-8be8-a402b9460f22",
@@ -292,7 +292,7 @@
         "required": true,
         "description": "The current operational state of the customer relationship as maintained by the bank.\r\nIndicates whether the customer is active, blocked, restricted, or under review, affecting service eligibility.",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "76102b96-f658-f111-8be8-a402b9460f22",
@@ -306,7 +306,7 @@
         "referenceName": "Status",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "c18437fc-725a-f111-bb43-06bf4e349e9b",
@@ -320,7 +320,7 @@
         "referenceName": "GenericIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "5ca50176-735a-f111-bb43-06bf4e349e9b",
@@ -331,7 +331,7 @@
         "relatedBusinessObjectName": "Customer Contact",
         "relatedBusinessObjectAttrName": "Customer Contact Protocol Used",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "35a97481-735a-f111-bb43-06bf4e349e9b",
@@ -342,7 +342,7 @@
         "relatedBusinessObjectName": "Customer Contact",
         "relatedBusinessObjectAttrName": "Customer Contact Algorithm Used",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       }
     ],
     "serviceOperations": [
@@ -353,7 +353,7 @@
         "description": "REST: Post",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       },
       {
         "id": "465f0de8-dd58-f111-8be8-a402b9460f22",
@@ -362,7 +362,7 @@
         "description": "REST: Get",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       },
       {
         "id": "475f0de8-dd58-f111-8be8-a402b9460f22",
@@ -371,7 +371,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       },
       {
         "id": "485f0de8-dd58-f111-8be8-a402b9460f22",
@@ -380,7 +380,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       },
       {
         "id": "495f0de8-dd58-f111-8be8-a402b9460f22",
@@ -389,7 +389,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       },
       {
         "id": "4a5f0de8-dd58-f111-8be8-a402b9460f22",
@@ -398,7 +398,7 @@
         "description": "REST: Get",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       },
       {
         "id": "4b5f0de8-dd58-f111-8be8-a402b9460f22",
@@ -407,7 +407,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       },
       {
         "id": "4c5f0de8-dd58-f111-8be8-a402b9460f22",
@@ -416,7 +416,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.020Z"
+        "x-modified-date": "2026-06-15T16:01:15.553Z"
       }
     ],
     "logic": [],
@@ -424,7 +424,7 @@
   },
   "behaviourQualifiers": [
     {
-      "id": "cfxn1dy3",
+      "id": "qx7x4pz8",
       "name": "BQ Session Instance Record",
       "qualifierType": "",
       "description": "An operational service or function supported within the <CR> for doing Session",
@@ -436,7 +436,7 @@
           "required": true,
           "description": "Unique identifier of a control record instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9303dc99-305b-f111-8be9-a402b9460f22",
@@ -445,7 +445,7 @@
           "required": true,
           "description": "Unique identifier of a behavior qualifier instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9403dc99-305b-f111-8be9-a402b9460f22",
@@ -456,7 +456,7 @@
           "relatedBusinessObjectName": "Session",
           "relatedBusinessObjectAttrName": "Session Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9503dc99-305b-f111-8be9-a402b9460f22",
@@ -470,7 +470,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9603dc99-305b-f111-8be9-a402b9460f22",
@@ -484,7 +484,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9703dc99-305b-f111-8be9-a402b9460f22",
@@ -498,7 +498,7 @@
           "referenceName": "Status",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9803dc99-305b-f111-8be9-a402b9460f22",
@@ -509,7 +509,7 @@
           "relatedBusinessObjectName": "Session",
           "relatedBusinessObjectAttrName": "Session Description",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9903dc99-305b-f111-8be9-a402b9460f22",
@@ -520,7 +520,7 @@
           "relatedBusinessObjectName": "Session Involvement",
           "relatedBusinessObjectAttrName": "Session Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9a03dc99-305b-f111-8be9-a402b9460f22",
@@ -530,7 +530,7 @@
           "description": "Channel used (API, voice, UI, etc.)",
           "relatedBusinessObjectName": "Channel",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9b03dc99-305b-f111-8be9-a402b9460f22",
@@ -541,7 +541,7 @@
           "relatedBusinessObjectName": "Session Involvement",
           "relatedBusinessObjectAttrName": "Session Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9c03dc99-305b-f111-8be9-a402b9460f22",
@@ -551,7 +551,7 @@
           "description": "Device used by  Session",
           "relatedBusinessObjectName": "Device",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9d03dc99-305b-f111-8be9-a402b9460f22",
@@ -565,7 +565,7 @@
           "referenceName": "GenericIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9e03dc99-305b-f111-8be9-a402b9460f22",
@@ -579,7 +579,7 @@
           "referenceName": "GenericIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "9f03dc99-305b-f111-8be9-a402b9460f22",
@@ -590,7 +590,7 @@
           "relatedBusinessObjectName": "Communication Channel",
           "relatedBusinessObjectAttrName": "Communication Channel Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "a003dc99-305b-f111-8be9-a402b9460f22",
@@ -600,7 +600,7 @@
           "description": "",
           "relatedBusinessObjectName": "Session Report",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "a103dc99-305b-f111-8be9-a402b9460f22",
@@ -611,7 +611,7 @@
           "relatedBusinessObjectName": "Session",
           "relatedBusinessObjectAttrName": "Session Protocol Used",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         },
         {
           "id": "a203dc99-305b-f111-8be9-a402b9460f22",
@@ -622,7 +622,7 @@
           "relatedBusinessObjectName": "Session",
           "relatedBusinessObjectAttrName": "Session Algorithm Used",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.162Z"
         }
       ],
       "serviceOperations": [
@@ -633,7 +633,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         },
         {
           "id": "8a03dc99-305b-f111-8be9-a402b9460f22",
@@ -642,7 +642,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         },
         {
           "id": "8b03dc99-305b-f111-8be9-a402b9460f22",
@@ -651,7 +651,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         },
         {
           "id": "8c03dc99-305b-f111-8be9-a402b9460f22",
@@ -660,7 +660,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         },
         {
           "id": "8d03dc99-305b-f111-8be9-a402b9460f22",
@@ -669,7 +669,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         },
         {
           "id": "8e03dc99-305b-f111-8be9-a402b9460f22",
@@ -678,7 +678,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         },
         {
           "id": "8f03dc99-305b-f111-8be9-a402b9460f22",
@@ -687,7 +687,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         },
         {
           "id": "9003dc99-305b-f111-8be9-a402b9460f22",
@@ -696,7 +696,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.020Z"
+          "x-modified-date": "2026-06-15T16:01:15.553Z"
         }
       ],
       "logic": [],
@@ -704,7 +704,7 @@
     }
   ],
   "x-status": "modified",
-  "x-modified-date": "2026-06-15T15:25:52.518Z",
+  "x-modified-date": "2026-06-15T16:01:27.732Z",
   "organisation": "BIAN",
   "version": "14.0.0"
 }

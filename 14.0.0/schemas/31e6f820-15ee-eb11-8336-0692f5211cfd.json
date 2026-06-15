@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "31e6f820-15ee-eb11-8336-0692f5211cfd",
+  "title": "Number",
+  "description": "A mathematical number that is assigned or is determined by calculation. (UN/CEFACT)\r\n\r\nNumber of objects represented as an integer. (ISO20022)\r\n- total number of digits: 18\r\n- number of digits in fractional part: 0",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

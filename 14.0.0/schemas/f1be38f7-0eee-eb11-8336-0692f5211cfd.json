@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f1be38f7-0eee-eb11-8336-0692f5211cfd",
+  "title": "Float",
+  "description": "Float is the IEEE simple precision 32 bits floating point type.",
+  "x-version": "1.0.0",
+  "x-object-type": "PrimitiveType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0e4c1114-9aec-eb11-8336-065c7694b5df",
+  "title": "Amount",
+  "description": "Number of monetary units specified in a currency, where the unit of currency is explicit and compliant with ISO 4217. (UN/CEFACT)\r\n\r\nThe decimal seperator is a dot.\r\n\r\n\r\nNumber of monetary units specified in a currency, where the unit of currency is explicit and compliant with ISO 4217. The decimal separator is a dot. (ISO20022)\r\nNote: A zero amount is considered a positive amount.\r\n- total number of digits: 18\r\n- number of digits in fractional part: 5\r\n- minInclusive: 0",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AmountValue",
+    "AmountCurrency",
+    "DecimalPointPosition",
+    "AmountType"
+  ],
+  "properties": {
+    "AmountValue": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.190Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Value",
+      "x-related-bo-id": "4dd170e4-17ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Value"
+    },
+    "AmountCurrency": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.190Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CurrencyCode",
+      "x-related-bo-id": "1e8704e5-f9ed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "CurrencyCode"
+    },
+    "DecimalPointPosition": {
+      "type": "string",
+      "description": "Decimal point position starts calulating from the right",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.190Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "AmountType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.190Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AmountTypeValues",
+      "x-related-bo-id": "c01e2d34-8db7-e911-8291-0657c6eca57a",
+      "x-related-bo-name": "AmountTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

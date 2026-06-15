@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "79e2091e-10ee-eb11-8336-0692f5211cfd",
+  "title": "NormalizedString",
+  "description": "Normalized string is a string that does not contain the carriage return (#xD), line feed (#xA) nor tab (#x9) characters.",
+  "x-version": "1.0.0",
+  "x-object-type": "PrimitiveType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

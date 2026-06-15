@@ -3,7 +3,7 @@
   "name": "Customer Workbench",
   "description": "",
   "controlRecord": {
-    "id": "e9jnvuk1",
+    "id": "j2q3ry9n",
     "name": "CR Customer Workbench Operating Session Instance Record",
     "description": "Operate equipment and/or a largely automated facility within Customer Workbench.",
     "attributes": [
@@ -14,7 +14,7 @@
         "required": true,
         "description": "Unique identifier of a control record instance",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "326f07c6-3854-f111-8be8-a402b9460f22",
@@ -28,7 +28,7 @@
         "referenceName": "GenericIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "336f07c6-3854-f111-8be8-a402b9460f22",
@@ -39,7 +39,7 @@
         "relatedBusinessObjectName": "Customer Workbench Session",
         "relatedBusinessObjectAttrName": "Customer Workbench Operating Session Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "346f07c6-3854-f111-8be8-a402b9460f22",
@@ -50,7 +50,7 @@
         "relatedBusinessObjectName": "Customer Workbench Session",
         "relatedBusinessObjectAttrName": "Customer Workbench Operating Session Name or Description",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "356f07c6-3854-f111-8be8-a402b9460f22",
@@ -64,7 +64,7 @@
         "referenceName": "ISODateTime",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "366f07c6-3854-f111-8be8-a402b9460f22",
@@ -78,7 +78,7 @@
         "referenceName": "ISODateTime",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "376f07c6-3854-f111-8be8-a402b9460f22",
@@ -92,7 +92,7 @@
         "referenceName": "Status",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.163Z"
       },
       {
         "id": "386f07c6-3854-f111-8be8-a402b9460f22",
@@ -106,7 +106,7 @@
         "referenceName": "Duration",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/duration",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "396f07c6-3854-f111-8be8-a402b9460f22",
@@ -117,7 +117,7 @@
         "relatedBusinessObjectName": "Customer Workbench Involvement",
         "relatedBusinessObjectAttrName": "Customer Workbench Involvement Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "3a6f07c6-3854-f111-8be8-a402b9460f22",
@@ -128,7 +128,7 @@
         "relatedBusinessObjectName": "Communication Channel",
         "relatedBusinessObjectAttrName": "Communication Channel Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "3c6f07c6-3854-f111-8be8-a402b9460f22",
@@ -139,7 +139,7 @@
         "relatedBusinessObjectName": "Customer Workbench Involvement",
         "relatedBusinessObjectAttrName": "Customer Workbench Involvement Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "3d6f07c6-3854-f111-8be8-a402b9460f22",
@@ -149,7 +149,7 @@
         "description": "Rules, limits, preferences governing the session",
         "relatedBusinessObjectName": "System",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "3e6f07c6-3854-f111-8be8-a402b9460f22",
@@ -162,7 +162,7 @@
         "referenceName": "GovernanceRules",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GovernanceRules",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "3f6f07c6-3854-f111-8be8-a402b9460f22",
@@ -172,7 +172,7 @@
         "description": "Real-time, batch, interactive, background",
         "relatedBusinessObjectName": "Session",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "406f07c6-3854-f111-8be8-a402b9460f22",
@@ -183,7 +183,7 @@
         "relatedBusinessObjectName": "Customer Workbench Session",
         "relatedBusinessObjectAttrName": "Customer Workbench Operating Session Current Processing Step",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "416f07c6-3854-f111-8be8-a402b9460f22",
@@ -194,7 +194,7 @@
         "relatedBusinessObjectName": "Customer Workbench Session",
         "relatedBusinessObjectAttrName": "Customer Workbench Operating Session Activity Log or Event History",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "426f07c6-3854-f111-8be8-a402b9460f22",
@@ -208,7 +208,7 @@
         "referenceName": "AuthenticationResultCode",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AuthenticationResultCode",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "436f07c6-3854-f111-8be8-a402b9460f22",
@@ -219,7 +219,7 @@
         "relatedBusinessObjectName": "Authentication",
         "relatedBusinessObjectAttrName": "Authentication Level",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "446f07c6-3854-f111-8be8-a402b9460f22",
@@ -233,7 +233,7 @@
         "referenceName": "ObligationFulfilment",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ObligationFulfilment",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "456f07c6-3854-f111-8be8-a402b9460f22",
@@ -244,7 +244,7 @@
         "relatedBusinessObjectName": "Customer Workbench Session",
         "relatedBusinessObjectAttrName": "Customer Workbench Operating Session Case or Interaction Reference",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "466f07c6-3854-f111-8be8-a402b9460f22",
@@ -257,7 +257,7 @@
         "referenceName": "System",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/System",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "26439fa7-4154-f111-bb30-0a34706038e7",
@@ -270,7 +270,7 @@
         "referenceName": "CustomerDeviceTypeCode",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CustomerDeviceTypeCode",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "d1a75cee-4154-f111-bb30-0a34706038e7",
@@ -280,7 +280,7 @@
         "description": "The bank's access permissions (e.g. local storage access, administrator permissions, system download permission)",
         "relatedBusinessObjectName": "Device",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "d6a75cee-4154-f111-bb30-0a34706038e7",
@@ -290,7 +290,7 @@
         "description": "The make of the device if known",
         "relatedBusinessObjectName": "Device",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "dba75cee-4154-f111-bb30-0a34706038e7",
@@ -303,7 +303,7 @@
         "referenceName": "Number",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Number",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "e0a75cee-4154-f111-bb30-0a34706038e7",
@@ -313,7 +313,7 @@
         "description": "Reference to device properties used to identify the device  (e.g. URL, ANI, serial number)",
         "relatedBusinessObjectName": "Device",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "e5a75cee-4154-f111-bb30-0a34706038e7",
@@ -322,7 +322,7 @@
         "required": true,
         "description": "Details of the local bank applications",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "eaa75cee-4154-f111-bb30-0a34706038e7",
@@ -334,7 +334,7 @@
         "referenceName": "Number",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Number",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "efa75cee-4154-f111-bb30-0a34706038e7",
@@ -348,7 +348,7 @@
         "referenceName": "ISODateTime",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "6e42b9ba-4754-f111-bb30-0a34706038e7",
@@ -361,7 +361,7 @@
         "referenceName": "Status",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "2c5c88e4-4754-f111-bb30-0a34706038e7",
@@ -375,7 +375,7 @@
         "referenceName": "GenericIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "6e4293c5-4854-f111-bb30-0a34706038e7",
@@ -389,7 +389,7 @@
         "referenceName": "Status",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "e20f716a-4e54-f111-bb30-0a34706038e7",
@@ -403,7 +403,7 @@
         "referenceName": "Location",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Location",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "ab87a674-cb59-f111-bb43-06ce20790fa7",
@@ -414,7 +414,7 @@
         "relatedBusinessObjectName": "Customer Workbench Session",
         "relatedBusinessObjectAttrName": "Customer Workbench Operating Session Protocol Used",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "153fd88e-cb59-f111-bb43-06ce20790fa7",
@@ -425,7 +425,7 @@
         "relatedBusinessObjectName": "Customer Workbench Session",
         "relatedBusinessObjectAttrName": "Customer Workbench Operating Session Algorithm Used",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "35358208-cf59-f111-bb43-06ce20790fa7",
@@ -436,7 +436,7 @@
         "relatedBusinessObjectName": "Channel",
         "relatedBusinessObjectAttrName": "Channel Identification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       },
       {
         "id": "7ba46b4b-d159-f111-bb43-06ce20790fa7",
@@ -450,7 +450,7 @@
         "referenceName": "GenericIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:29.417Z"
+        "x-modified-date": "2026-06-15T15:59:27.164Z"
       }
     ],
     "serviceOperations": [
@@ -461,7 +461,7 @@
         "description": "REST: Post",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       },
       {
         "id": "496f07c6-3854-f111-8be8-a402b9460f22",
@@ -470,7 +470,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       },
       {
         "id": "4a6f07c6-3854-f111-8be8-a402b9460f22",
@@ -479,7 +479,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       },
       {
         "id": "4b6f07c6-3854-f111-8be8-a402b9460f22",
@@ -488,7 +488,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       },
       {
         "id": "4c6f07c6-3854-f111-8be8-a402b9460f22",
@@ -497,7 +497,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       },
       {
         "id": "4d6f07c6-3854-f111-8be8-a402b9460f22",
@@ -506,7 +506,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       },
       {
         "id": "4e6f07c6-3854-f111-8be8-a402b9460f22",
@@ -515,7 +515,7 @@
         "description": "REST: Get",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       },
       {
         "id": "4f6f07c6-3854-f111-8be8-a402b9460f22",
@@ -524,7 +524,7 @@
         "description": "REST: Get",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:25:50.023Z"
+        "x-modified-date": "2026-06-15T16:01:15.555Z"
       }
     ],
     "logic": [],
@@ -532,7 +532,7 @@
   },
   "behaviourQualifiers": [
     {
-      "id": "aeptmqul",
+      "id": "w2epdf44",
       "name": "BQ Contact Instance Record",
       "qualifierType": "",
       "description": "An operational service or function supported within the <CR> for doing Contact",
@@ -544,7 +544,7 @@
           "required": true,
           "description": "Unique identifier of a control record instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "aef6b5d5-c259-f111-8be8-a402b9460f22",
@@ -553,7 +553,7 @@
           "required": true,
           "description": "Unique identifier of a behavior qualifier instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "aff6b5d5-c259-f111-8be8-a402b9460f22",
@@ -564,7 +564,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b0f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -578,7 +578,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b1f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -592,7 +592,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b2f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -606,7 +606,7 @@
           "referenceName": "Status",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b3f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -617,7 +617,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Description",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b4f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -628,7 +628,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Current Processing Step",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b5f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -642,7 +642,7 @@
           "referenceName": "GovernanceRules",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GovernanceRules",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b6f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -653,7 +653,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "rwc:8be75bdd-77ce-42be-12d4-d983ee1785bb/68543",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b7f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -664,7 +664,7 @@
           "relatedBusinessObjectName": "Session Involvement",
           "relatedBusinessObjectAttrName": "Session Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b8f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -675,7 +675,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Activity Log",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "b9f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -689,7 +689,7 @@
           "referenceName": "GenericIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "baf6b5d5-c259-f111-8be8-a402b9460f22",
@@ -700,7 +700,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "rwc:8be75bdd-77ce-42be-12d4-d983ee1785bb/68545",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "bbf6b5d5-c259-f111-8be8-a402b9460f22",
@@ -711,7 +711,7 @@
           "relatedBusinessObjectName": "Session Involvement",
           "relatedBusinessObjectAttrName": "Session Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "bcf6b5d5-c259-f111-8be8-a402b9460f22",
@@ -725,7 +725,7 @@
           "referenceName": "Duration",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/duration",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "bdf6b5d5-c259-f111-8be8-a402b9460f22",
@@ -739,7 +739,7 @@
           "referenceName": "GenericIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "bef6b5d5-c259-f111-8be8-a402b9460f22",
@@ -750,7 +750,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Result",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "bff6b5d5-c259-f111-8be8-a402b9460f22",
@@ -761,7 +761,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Direction",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "c0f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -772,7 +772,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Priority Level",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "c1f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -786,7 +786,7 @@
           "referenceName": "YesNoIndicator",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/YesNoIndicator",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "c2f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -797,7 +797,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Protocol Used",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "c3f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -808,7 +808,7 @@
           "relatedBusinessObjectName": "Function",
           "relatedBusinessObjectAttrName": "Function Algorithm Used",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "f3b2ce9e-ce59-f111-bb43-06ce20790fa7",
@@ -822,7 +822,7 @@
           "referenceName": "GenericIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         },
         {
           "id": "a40fd4cf-d459-f111-bb43-06ce20790fa7",
@@ -833,7 +833,7 @@
           "relatedBusinessObjectName": "Communication Channel",
           "relatedBusinessObjectAttrName": "Communication Channel Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:29.417Z"
+          "x-modified-date": "2026-06-15T15:59:27.163Z"
         }
       ],
       "serviceOperations": [
@@ -844,7 +844,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.555Z"
         },
         {
           "id": "a5f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -853,7 +853,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.555Z"
         },
         {
           "id": "a6f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -862,7 +862,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.555Z"
         },
         {
           "id": "a7f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -871,7 +871,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.556Z"
         },
         {
           "id": "a8f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -880,7 +880,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.556Z"
         },
         {
           "id": "a9f6b5d5-c259-f111-8be8-a402b9460f22",
@@ -889,7 +889,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.556Z"
         },
         {
           "id": "aaf6b5d5-c259-f111-8be8-a402b9460f22",
@@ -898,7 +898,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.556Z"
         },
         {
           "id": "abf6b5d5-c259-f111-8be8-a402b9460f22",
@@ -907,7 +907,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:25:50.023Z"
+          "x-modified-date": "2026-06-15T16:01:15.556Z"
         }
       ],
       "logic": [],
@@ -915,7 +915,7 @@
     }
   ],
   "x-status": "modified",
-  "x-modified-date": "2026-06-15T15:25:52.518Z",
+  "x-modified-date": "2026-06-15T16:01:27.732Z",
   "organisation": "BIAN",
   "version": "14.0.0"
 }

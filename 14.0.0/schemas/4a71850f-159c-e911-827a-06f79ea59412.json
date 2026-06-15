@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a71850f-159c-e911-827a-06f79ea59412",
+  "title": "CustomerEventType",
+  "description": "A Functional Classification Hierarchy that distinguishes between customer events according to the different functional perspective. \r\nExample values are CustomerRelationshipEvent, CustomerLifeEvent, CustomerSalesEvent, CustomerServisingEvent, CustomerFraudEvent and CustomerProductEvent.",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.179Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerEventTypeValues"
+  ],
+  "properties": {
+    "CustomerEventTypeValues": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.189Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerEventTypeValues",
+      "x-related-bo-id": "7080162a-159c-e911-827a-06f79ea59412",
+      "x-related-bo-name": "CustomerEventTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

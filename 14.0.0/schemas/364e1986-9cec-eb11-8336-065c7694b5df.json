@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "364e1986-9cec-eb11-8336-065c7694b5df",
+  "title": "Percent",
+  "description": "A value representing a fraction of one hundred, expressed as a quotient. (UN/CEFACT)",
+  "x-version": "1.0.0",
+  "x-object-type": "DataType",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Value",
+    "DecimalPointPosition"
+  ],
+  "properties": {
+    "Value": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.190Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Integer",
+      "x-related-bo-id": "7a064b2d-0fee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Integer"
+    },
+    "DecimalPointPosition": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.190Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Integer",
+      "x-related-bo-id": "7a064b2d-0fee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Integer"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,195 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c01e2d34-8db7-e911-8291-0657c6eca57a",
+  "title": "AmountTypeValues",
+  "description": "The status of the standing order",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c11e2d34-8db7-e911-8291-0657c6eca57a",
+      "name": "Principal",
+      "description": "The principal/base amount is the original sum of money that is borrowed, invested, or deposited, excluding any interest, fees, or taxes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "10021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Actual",
+      "description": "Actual amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Estimated",
+      "description": "Estimated amount (the final amount could be above or below).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1a021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Maximum",
+      "description": "Maximum amount (the final amount must be less or equal).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Default",
+      "description": "Default amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "24021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Replacement",
+      "description": "Replacement amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Incremental",
+      "description": "Incremental amount for reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Decremental",
+      "description": "Decremental amount for reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33021d71-b0b2-ed11-83f9-06c152f885fb",
+      "name": "Reserved",
+      "description": "Reserved or updated reserved amount for reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "16aad7a4-32b4-ed11-83f9-06a1e7288c87",
+      "name": "Available",
+      "description": "The available amount is the portion of funds that a customer can immediately use or withdraw from an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1faad7a4-32b4-ed11-83f9-06a1e7288c87",
+      "name": "Used",
+      "description": "The used amount is the portion of funds or credit that has already been consumed, drawn, or committed from a total available limit or facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5631d48b-1fcc-ee11-8b47-a402b9460f22",
+      "name": "Due Payable",
+      "description": "The due payable amount is the total amount that must be paid by a specified due date to meet a financial obligation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d917bbcb-5a70-ef11-8b6f-a402b9460f22",
+      "name": "Minimum",
+      "description": "The minimum amount is the smallest payment required by the due date to keep the account in good standing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54ce060f-1995-ef11-8b84-a402b9460f22",
+      "name": "Open",
+      "description": "The amount is open.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f8eeb22-1995-ef11-8b84-a402b9460f22",
+      "name": "Unknown",
+      "description": "The amount is unkown.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d003322f-1995-ef11-8b84-a402b9460f22",
+      "name": "Fixed",
+      "description": "The amount represents a fixed value.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e890af7-1438-f111-bb11-028ee44969e7",
+      "name": "Calculated",
+      "description": "The calculated amount is the result of a computation based on a defined formula, rate, or rule before any posting or settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "11f61a00-1538-f111-bb11-028ee44969e7",
+      "name": "Applied",
+      "description": "The applied amount is the amount that has been effectively posted, charged, or credited to an account or transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0b15111-1538-f111-bb11-028ee44969e7",
+      "name": "Requested",
+      "description": "The requested amount is the amount instructed, claimed, or demanded by a party for payment or processing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2c68c1d-1538-f111-bb11-028ee44969e7",
+      "name": "Accrued",
+      "description": "The accrued amount is the amount that has accumulated over time but is not yet applied, billed, or settled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71cf424e-1538-f111-bb11-028ee44969e7",
+      "name": "Outstanding",
+      "description": "The outstanding amount is the total amount that remains unpaid or unsettled at a given point in time.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "526ceb82-184d-f111-8be8-a402b9460f22",
+      "name": "Total",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
