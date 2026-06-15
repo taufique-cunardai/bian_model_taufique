@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2711aa0e-baa4-e911-8284-062084c0b880",
+  "title": "Device Type",
+  "description": "A taxonomical classification of device, according to its characteristics as an item.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DeviceTypeDescription"
+  ],
+  "properties": {
+    "DeviceTypeDescription": {
+      "type": "string",
+      "description": "Characteristics of the item that can be used as device\r\n\r\na device has the characteristics of the device type it belongs to,possibly specifiede.g. . a device of the type \"cheque book\" will have cheques. The device specifies how many and what the number range is.e.g. an electronic banking app consists of software modules, the device specifies what version",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "59aeea62-bba4-e911-8284-062084c0b880",
+      "target": "0263db4b-0761-e911-8237-068e13695e26",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

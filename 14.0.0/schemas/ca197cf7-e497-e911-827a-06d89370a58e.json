@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ca197cf7-e497-e911-827a-06d89370a58e",
+  "title": "Payment Service",
+  "description": "According to the payment services directive (PSD), the following activities, when carried out as a regular occupation or business activity, are payment services:\r\n1. Services enabling cash to be placed on a payment account and all of the operations required for operating a payment account; \r\n2. Services enabling cash withdrawals from a payment account and all of the operations required for operating a payment account; \r\n3. The execution of the following types of payment transaction:\r\n- direct debits, including one-off direct debits; \r\n- payment transactions executed through a payment card or a similar device; \r\n- credit transfers, including standing orders; \r\n4. The execution of the following types of payment transaction where the funds are covered by a credit line for the payment service user: \r\n- direct debits, including one-off direct debits; \r\n- payment transactions executed through a payment card or a similar device; \r\n- credit transfers, including standing orders; \r\n5. Issuing payment instruments or acquiring payment transactions; \r\n6. Money remittance; \r\n7. The execution of payment transactions where the consent of the payer to execute the payment transaction is given by means of any telecommunication, digital or IT device and the payment is made to the telecommunication, IT system or network operator acting only as an intermediary between the payment service user and the supplier of the goods or services.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PaymentServiceType"
+  ],
+  "properties": {
+    "PaymentServiceType": {
+      "type": "string",
+      "description": "Specifies the type of the payment service",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PaymentServiceTypeValues",
+      "x-related-bo-id": "e24844f1-3d38-ed11-83cc-063eaecd5279",
+      "x-related-bo-name": "PaymentServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c1d63726-51b4-ed11-83f9-06a1e7288c87",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e6aa304-699e-e911-827a-06e8627b9e66",
+      "target": "f629d849-639e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Savings Account Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "343ef068-ae30-eb11-82d9-061c5848f615",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c53bcae3-0598-e911-827a-06b20c6b9b78",
+      "target": "a6ea66b8-8596-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abe559de-b15c-eb11-82e9-065ba105bad3",
+      "target": "a61bbf01-e597-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2d394b9-a15c-eb11-82e9-065ba105bad3",
+      "target": "6ecbaa2f-e597-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0382b109-f71f-ee11-8b30-a402b9460f22",
+      "target": "58ba94f1-f61f-ee11-8b30-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

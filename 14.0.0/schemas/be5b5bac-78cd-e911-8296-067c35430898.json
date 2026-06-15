@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "be5b5bac-78cd-e911-8296-067c35430898",
+  "title": "Card Settlement Involvement",
+  "description": "A specific party who plays a specific role in the card settlement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CardSettlementInvolvementType"
+  ],
+  "properties": {
+    "CardSettlementInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CardSettlementInvolvementTypeValues",
+      "x-related-bo-id": "3cc6d8d7-82cd-e911-8296-067c35430898",
+      "x-related-bo-name": "CardSettlementInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6cccf272-ea7c-eb11-8309-066fc2da13f9",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

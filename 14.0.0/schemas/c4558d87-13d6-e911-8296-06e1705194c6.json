@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c4558d87-13d6-e911-8296-06e1705194c6",
+  "title": "Fraud Case Resolution",
+  "description": "A procedure taken to investigate and resolve the fraud case which is detected during the production processing.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "43f3c295-13d6-e911-8296-06e1705194c6",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54fc0f70-ffe4-e911-82b0-0662ffb5e934",
+      "target": "e5104567-ffe4-e911-82b0-0662ffb5e934",
+      "modality": "1:N",
+      "required": false,
+      "description": "InitiatedByResolution",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64ea2556-f7e4-e911-82b0-0662ffb5e934",
+      "target": "02edad2d-f7e4-e911-82b0-0662ffb5e934",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1dd223cf-f7e4-e911-82b0-0662ffb5e934",
+      "target": "07388aba-f7e4-e911-82b0-0662ffb5e934",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

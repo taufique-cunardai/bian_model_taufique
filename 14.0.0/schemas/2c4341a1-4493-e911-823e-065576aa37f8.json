@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2c4341a1-4493-e911-823e-065576aa37f8",
+  "title": "Customer Workbench",
+  "description": "A set of automated applications made available to customers.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "02aa572c-4593-e911-823e-065576aa37f8",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fbfaec45-bdd7-e911-82a8-0667cb2841e8",
+      "target": "72d07e89-4593-e911-823e-065576aa37f8",
+      "modality": "1:N",
+      "required": false,
+      "description": "OperatingSession",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f54c536d-4593-e911-823e-065576aa37f8",
+      "target": "0858d1e2-0891-e911-823e-06f3e7d1f9c0",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5999a71-bfd7-e911-82a8-0667cb2841e8",
+      "target": "0263db4b-0761-e911-8237-068e13695e26",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

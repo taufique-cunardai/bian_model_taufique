@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "df4d857a-097b-e911-823e-06651a4b679a",
+  "title": "Product or Service Price Type",
+  "description": "A price component that can be packaged in the terms and conditions of Banking Products or Services.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "d57791b3-097b-e911-823e-06651a4b679a",
+      "target": "84909cf7-087b-e911-823e-06651a4b679a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f2dd4ad-0a7b-e911-823e-06651a4b679a",
+      "target": "0c5ce64a-0a7b-e911-823e-06651a4b679a",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2d823eda-04cb-e911-8296-06112f0997f2",
+  "title": "Merchant Service",
+  "description": "Is A Banking Product that enables a business or merchant to accept, process, and manage payments from customers.\r\n\r\nA type of payment service offering that provides the merchant with tools and arrangements to receive funds through various payment methods (such as cards, transfers, or digital payments), settle transactions, and manage associated fees, reporting, and reconciliation.\r\n\r\nComment:\r\nUsually refers to merchant processing services that enables a business to accept a transaction payment through a secure (encrypted) channel using the payment card.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "cc9bbff2-0bcb-e911-8296-06112f0997f2",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66fb27a9-0bcb-e911-8296-06112f0997f2",
+      "target": "d40bcd55-05cb-e911-8296-06112f0997f2",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

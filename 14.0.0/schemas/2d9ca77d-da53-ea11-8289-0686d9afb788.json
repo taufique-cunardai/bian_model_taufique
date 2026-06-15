@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2d9ca77d-da53-ea11-8289-0686d9afb788",
+  "title": "Customer Survey Analysis",
+  "description": "Analysis of customer survey data",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerSurveyAnalysisType",
+    "CustomerBehaviorAnalysisType"
+  ],
+  "properties": {
+    "CustomerSurveyAnalysisType": {
+      "type": "string",
+      "description": "e.g., pre/post survey analysis",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SurveyAspectTypeValues",
+      "x-related-bo-id": "e2db6abf-bb49-ef11-874c-ac5afc7fae85",
+      "x-related-bo-name": "SurveyAspectTypeValues"
+    },
+    "CustomerBehaviorAnalysisType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "864e7986-0a58-ea11-8289-060c7a9911f6",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba3ea88a-da53-ea11-8289-0686d9afb788",
+      "target": "91e57b08-d353-ea11-8289-0686d9afb788",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ad471aa9-84a9-ea11-829f-06478228ed28",
+  "title": "Securities Position Log Entry",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "63b22f22-24d3-e911-8296-06b94e7647ce",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "64143a02-85a9-ea11-829f-06478228ed28",
+      "target": "63b22f22-24d3-e911-8296-06b94e7647ce",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Log Entry",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5bc31428-8075-e911-823e-064d1e9fbc72",
+  "title": "Customer Rating Type",
+  "description": "A Functional Classification Hierarchy that distinguishes between Customer Ratings according to the aspect.\r\nExample values are Customer Credit Rating, Customer Profitability Rating, Customer Potentiality Rating and etc.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "bae57235-8075-e911-823e-064d1e9fbc72",
+      "target": "0a0b83c5-7f75-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9628ae2c-2376-e911-823e-065f1d1f71b2",
+  "title": "Customer Product Sale Profile Class",
+  "description": "A value of Customer Product Profile Type whereby customer product sale will be assessed.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a7377090-2176-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "9729b4e0-2376-e911-823e-065f1d1f71b2",
+      "target": "a7377090-2176-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Customer Product Profile Type",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

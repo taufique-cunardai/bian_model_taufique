@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d4c6f0aa-44ca-e911-8296-0635f2119d82",
+  "title": "Direct Debit Service",
+  "description": "Is A Banking Product that allows a customer to authorize a third party to withdraw funds automatically from their account on agreed dates.\r\n\r\nA type of payment arrangement that enables recurring or one-time debits for bills, subscriptions, or other obligations, where the bank processes the payment on behalf of the customer according to the authorization and agreed terms.\r\n\r\nComment:\r\nA payment service for debiting a payers payment account, where a payment transaction is initiated by the payee on the basis of the consent given by the payer to the payee, to the payees payment service provider or to the payers own payment service provider. (PSD)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ca197cf7-e497-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "34001a4e-a923-f111-860d-0a072f7aa82f",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9a2cc12-45ca-e911-8296-0635f2119d82",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ae22208-1050-eb11-82e3-06bddbe1afcf",
+      "target": "ca197cf7-e497-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48d3bf00-1050-eb11-82e3-06bddbe1afcf",
+      "target": "d892e7c5-0f50-eb11-82e3-06bddbe1afcf",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

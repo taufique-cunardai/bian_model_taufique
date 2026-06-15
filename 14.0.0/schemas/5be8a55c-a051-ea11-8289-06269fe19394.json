@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5be8a55c-a051-ea11-8289-06269fe19394",
+  "title": "Deliverable",
+  "description": "An tangible or intangible thing that must be provided upon the completion of a project.\r\n\r\nDeliverables as Behaviour Qualifier Type: A collection of one or more deliverables that may be further defined in terms of an approach to be followed to create them.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

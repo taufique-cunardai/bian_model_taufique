@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f6d26e14-01db-ea11-82b1-06978b4b0198",
+  "title": "Device Access Arrangement",
+  "description": "An arrangement that allows or restricts the access to a device through a specific access point",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "eb0cfe38-d3b1-ed11-83f9-06250c3aeedb",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f647d41e-01db-ea11-82b1-06978b4b0198",
+      "target": "a2e59ac1-5d93-e911-823e-065576aa37f8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Access Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee12993d-01db-ea11-82b1-06978b4b0198",
+      "target": "0263db4b-0761-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

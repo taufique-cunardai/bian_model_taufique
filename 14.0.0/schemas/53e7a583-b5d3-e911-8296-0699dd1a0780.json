@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "53e7a583-b5d3-e911-8296-0699dd1a0780",
+  "title": "Product Fulfillment Session",
+  "description": "A processing session for fulfillment of products arrangements.\r\nA production session.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "31ec8334-bcd3-e911-8296-0699dd1a0780",
+      "target": "1d155e00-bcd3-e911-8296-0699dd1a0780",
+      "modality": "1:N",
+      "required": false,
+      "description": "FailureEvent",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "430ff12d-bcd3-e911-8296-0699dd1a0780",
+      "target": "1d155e00-bcd3-e911-8296-0699dd1a0780",
+      "modality": "1:N",
+      "required": false,
+      "description": "NormalEvent",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "798baf74-aede-e911-82a8-06b99dad31ca",
+      "target": "8376cb1e-7c80-e911-823e-066c44d66510",
+      "modality": "1:N",
+      "required": false,
+      "description": "DetectedFraudCase",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce1c429f-b5d3-e911-8296-0699dd1a0780",
+      "target": "2bb7d3f4-b3d3-e911-8296-0699dd1a0780",
+      "modality": "1:N",
+      "required": false,
+      "description": "PerformedInSession",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

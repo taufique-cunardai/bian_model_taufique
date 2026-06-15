@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8",
+  "title": "Product Inventory",
+  "description": "An inventory of a particular product that is available for sale",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1716f2c4-b4a4-e911-8284-06aa98c8c004",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "013a06b6-3eb5-ea11-829f-06ddb95e6bc8",
+      "target": "1716f2c4-b4a4-e911-8284-06aa98c8c004",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Item Inventory",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99278311-a760-eb11-82e9-06f21a0655e3",
+      "target": "26e1320b-a760-eb11-82e9-06f21a0655e3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "20f8076e-ac60-eb11-82e9-06f21a0655e3",
+      "target": "b265fd60-ac60-eb11-82e9-06f21a0655e3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2dc8991a-a860-eb11-82e9-06f21a0655e3",
+      "target": "5a299112-a860-eb11-82e9-06f21a0655e3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34c9f889-3fb5-ea11-829f-06ddb95e6bc8",
+      "target": "1b4ae369-3fb5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

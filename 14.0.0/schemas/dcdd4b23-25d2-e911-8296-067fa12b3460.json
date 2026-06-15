@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dcdd4b23-25d2-e911-8296-067fa12b3460",
+  "title": "Market Analysis",
+  "description": "Market analysis is a comprehensive assessment of a specific market within an industry. It involves evaluating the various factors that affect the market, such as the size, growth, trends, competitive landscape, customer behavior, and potential opportunities and threats. The purpose of market analysis is to provide businesses, investors, or other stakeholders with insights that help them make informed decisions about entering, competing in, or investing in that market.\r\n\r\n\r\nPurpose:\r\n\r\nBroad Overview: Market analysis provides a comprehensive overview of a particular market. It aims to assess the overall market conditions, including trends, dynamics, competition, and the economic environment.\r\nStrategic Insights: It helps businesses understand the market's structure, potential growth opportunities, and challenges. This insight is crucial for strategic planning, market entry, or expansion decisions.\r\n\r\nKey Components:\r\n\r\nMarket Size and Growth: Analyzing the current size of the market and its growth trajectory.\r\nMarket Segmentation: Identifying and understanding different segments within the market.\r\nCompetitive Landscape: Examining the key players, their market share, and competitive strategies.\r\nTrends and Drivers: Analyzing current trends, technological advancements, and factors driving the market.\r\nRegulatory Environment: Understanding the legal and regulatory factors affecting the market.\r\nWhen to Use:\r\n\r\nWhen entering a new market.\r\nFor strategic business planning and forecasting.\r\nTo assess overall market potential and investment attractiveness.\r\n\r\n\r\nSummary\r\n- Market Analysis is broader and focuses on the overall market environment, useful for strategic decisions.\r\n- Market Research Analysis is more detailed and customer-centric, aimed at understanding specific aspects of the market for tactical decisions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MarketAnalysisViewpointReference",
+    "MarketAnalysisSpecification",
+    "MarketAnalysisGuidance",
+    "MarketAnalysisAlgorithmReference"
+  ],
+  "properties": {
+    "MarketAnalysisViewpointReference": {
+      "type": "string",
+      "description": "Reference to the market Viewpoint used in the analysis",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "MarketAnalysisSpecification": {
+      "type": "string",
+      "description": "Definition of the Analysis work method",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "MarketAnalysisGuidance": {
+      "type": "string",
+      "description": "Guidance on usage and interpretation of the analysis",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Guideline",
+      "x-related-bo-id": "06f0124e-2da2-e911-8280-068b5ca1cd1a",
+      "x-related-bo-name": "Guideline"
+    },
+    "MarketAnalysisAlgorithmReference": {
+      "type": "string",
+      "description": "Reference to the Market Analysis Algorithm used \r\n\r\ncan be many",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Algorithm",
+      "x-related-bo-id": "231bdf18-2e76-e911-823e-065f1d1f71b2",
+      "x-related-bo-name": "Algorithm"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "fae9ae7c-25d2-e911-8296-067fa12b3460",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb6a9e72-2fd2-e911-8296-067fa12b3460",
+      "target": "7a14699f-25d2-e911-8296-067fa12b3460",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95526943-32d2-e911-8296-067fa12b3460",
+      "target": "cd40e885-31d2-e911-8296-067fa12b3460",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1df42837-32d2-e911-8296-067fa12b3460",
+      "target": "fee6a553-31d2-e911-8296-067fa12b3460",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "838d8e31-31d2-e911-8296-067fa12b3460",
+      "target": "381307d9-30d2-e911-8296-067fa12b3460",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e342596-42d2-e911-8296-06b571c3ef54",
+      "target": "a633adb0-78d1-e911-8296-06e952cbc5d0",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

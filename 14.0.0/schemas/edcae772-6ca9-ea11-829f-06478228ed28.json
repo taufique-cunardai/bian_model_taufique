@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "edcae772-6ca9-ea11-829f-06478228ed28",
+  "title": "Investment Account Agreement",
+  "description": "An agreement between a financial institution and an investor to manage the investor's investments\r\n\r\nAn agreement that outlines the terms and conditions between an investor (the account holder) and the financial institution or brokerage firm managing their investment account. It serves as a contract that specifies the rights, responsibilities, and obligations of both parties when opening and maintaining an investment account.\r\n\r\nContract defining the related investment account. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "2e7a619d-1a6c-ee11-8b40-a402b9460f22",
+      "target": "9b6243fa-53b5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be1c4de7-6da9-ea11-829f-06478228ed28",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3cb4dc4f-6590-ef11-8b83-a402b9460f22",
+      "target": "42a30afa-8db0-ea11-829f-06e9ae0e1608",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4230ee8e-6ca9-ea11-829f-06478228ed28",
+      "target": "8563d786-6ca9-ea11-829f-06478228ed28",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

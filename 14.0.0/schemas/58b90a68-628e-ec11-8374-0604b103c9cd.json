@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "58b90a68-628e-ec11-8374-0604b103c9cd",
+  "title": "Product_Product Relationship",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Product/ProductRelationshipType",
+    "FromProduct",
+    "ToProduct"
+  ],
+  "properties": {
+    "Product/ProductRelationshipType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Product_ProductRelationshipTypeValues",
+      "x-related-bo-id": "dcec932f-638e-ec11-8374-0604b103c9cd",
+      "x-related-bo-name": "Product_ProductRelationshipTypeValues"
+    },
+    "FromProduct": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Product",
+      "x-related-bo-id": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Product"
+    },
+    "ToProduct": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Product",
+      "x-related-bo-id": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Product"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

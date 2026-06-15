@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0a0b83c5-7f75-e911-823e-064d1e9fbc72",
+  "title": "Customer Rating",
+  "description": "Rating of the Customer or Customer Relationship for value, credit, risk and etc.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3bb93032-8580-e911-823e-066c44d66510",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerRatingType",
+    "CustomerRatingValue",
+    "CustomerRatingDescription",
+    "CustomerRatingValueDate",
+    "CustomerRatingValidityPeriod"
+  ],
+  "properties": {
+    "CustomerRatingType": {
+      "type": "string",
+      "description": "A Classification Hierarchy that distinguishes between Customer Ratings according to the aspect concerned with. \r\nExample values are: Customer Credit Risk, Customer Profitability, Customer Loyalty etc.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerRatingTypeValues",
+      "x-related-bo-id": "80a846ab-4e88-e911-823e-06b09c770f0c",
+      "x-related-bo-name": "CustomerRatingTypeValues"
+    },
+    "CustomerRatingValue": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Value",
+      "x-related-bo-id": "4dd170e4-17ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Value"
+    },
+    "CustomerRatingDescription": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "CustomerRatingValueDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "CustomerRatingValidityPeriod": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTimePeriod",
+      "x-related-bo-id": "0379c313-fb48-ea11-8289-064c9ffef37a",
+      "x-related-bo-name": "DateTimePeriod"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5cca426c-8580-e911-823e-066c44d66510",
+      "target": "3bb93032-8580-e911-823e-066c44d66510",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Credit Position Measurement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0eeea68-21a7-e911-8288-06c837085cb8",
+      "target": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "modality": "M:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fdad0043-d47e-e911-823e-0680d160e494",
+      "target": "92d3d130-d37e-e911-823e-0680d160e494",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

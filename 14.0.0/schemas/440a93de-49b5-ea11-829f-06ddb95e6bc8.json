@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "440a93de-49b5-ea11-829f-06ddb95e6bc8",
+  "title": "IT System",
+  "description": "A computer system or set of components for collecting, creating, storing, processing, and distributing information, typically including hardware and software, system users, and the data itself",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "a71aca01-4ab5-ea11-829f-06ddb95e6bc8",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a14100f4-fb6a-eb11-82f6-0687cfa2c9e3",
+      "target": "2babfcdc-fb6a-eb11-82f6-0687cfa2c9e3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d212578-fc6a-eb11-82f6-0687cfa2c9e3",
+      "target": "70005859-fb6a-eb11-82f6-0687cfa2c9e3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5be4be1-5ab5-ea11-829f-06ddb95e6bc8",
+      "target": "85d78b16-59b5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e646057f-4eb5-ea11-829f-06ddb95e6bc8",
+      "target": "4fdb4688-4ab5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0ea731ba-4ab5-ea11-829f-06ddb95e6bc8",
+      "target": "61f4c5b3-4ab5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

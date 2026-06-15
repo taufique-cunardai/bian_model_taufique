@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c2720b22-6cb7-e911-8291-0657c6eca57a",
+  "title": "Card Clearing Arrangement",
+  "description": "An arrangement (obligation and right) defined for doing the clearing of a card based transaction or a batch of card based transactions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e044b3b6-8271-e911-823e-0681a0c1a2d0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "67d0ed39-6cb7-e911-8291-0657c6eca57a",
+      "target": "e044b3b6-8271-e911-823e-0681a0c1a2d0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Clearing Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b33b3ba-b1ba-ee11-8b46-a402b9460f22",
+      "target": "075bdf0f-64b7-e911-8291-0657c6eca57a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e69ecc5-b1ba-ee11-8b46-a402b9460f22",
+      "target": "e86ceaf6-71b7-e911-8291-0657c6eca57a",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77dd9dc6-72b7-e911-8291-0657c6eca57a",
+      "target": "586f61ad-72b7-e911-8291-0657c6eca57a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

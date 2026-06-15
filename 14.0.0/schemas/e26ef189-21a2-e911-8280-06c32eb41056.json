@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e26ef189-21a2-e911-8280-06c32eb41056",
+  "title": "Banking Product Tax Regime",
+  "description": "Modalities for the calculation and payment of taxes on a banking product\r\n\r\ntax regime depends (a.o.) on the product type, the area where it is sold and characteristics of the party to whom it is sold.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

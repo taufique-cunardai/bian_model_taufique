@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "10d9a32c-649e-e911-827a-06e8627b9e66",
+  "title": "Savings Account Product Feature Option",
+  "description": "Options from which can be chosen while negociating the sale of a savings account product\r\n\r\nOptions from whihc can be choosen while configuring the arrangemetns in an individual savings agreement. \r\n\r\ne.g. intrest calculation algorithms (modality), intrest calculation periods and intrestrate ranges (variable ranges); minimum deposit, max withdrawal amountrange (limit types and ranges",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DefaultIndicator"
+  ],
+  "properties": {
+    "DefaultIndicator": {
+      "type": "string",
+      "description": "Indication wether a savings account feature option is default deof the default, i.e. valid if no specific arrangements are made",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}
