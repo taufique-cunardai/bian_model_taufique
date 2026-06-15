@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "016338ab-6d70-eb11-82fd-061e1f234dd5",
+  "title": "Compliance Reporting",
+  "description": "Compliance reporting is the act of presenting information to auditors that show that the company is adhering to all the requirements set by the government and regulatory agency under a particular standard\r\n\r\nthe act of presenting information on a company's systems to prove that those systems comply with government regulations or industry standards.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "48612114-6e70-eb11-82fd-061e1f234dd5",
+      "target": "bbb55e02-423a-eb11-82e3-069cf2dd6099",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

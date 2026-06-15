@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4e0962c7-c6ab-ea11-829f-067a4ad4fc9c",
+  "title": "Investment Portfolio Management Agreement",
+  "description": "A formal agreement between a registered investment adviser and an investor stipulating the terms under which the adviser is authorized to act on behalf of the investor to manage the assets listed in the agreement.\r\n\r\nRead more: http://www.businessdictionary.com/definition/investment-management-agreement.html",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "2f750a31-e1ab-ea11-829f-067a4ad4fc9c",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97cc6eec-09af-ea11-829f-06c5ce6fa94e",
+      "target": "61e9f6e1-09af-ea11-829f-06c5ce6fa94e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be87c7fa-c6ab-ea11-829f-067a4ad4fc9c",
+      "target": "a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9c",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14b379bd-0baf-ea11-829f-06c5ce6fa94e",
+      "target": "a90a7c61-497d-e911-823e-069ad1a2e648",
+      "modality": "1:1",
+      "required": false,
+      "description": "Master\r\nAgreement",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "943b31a9-0aaf-ea11-829f-06c5ce6fa94e",
+      "target": "b062e63c-f9ab-ea11-829f-067a4ad4fc9c",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8b5fb47-c7ab-ea11-829f-067a4ad4fc9c",
+      "target": "74f61336-c7ab-ea11-829f-067a4ad4fc9c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

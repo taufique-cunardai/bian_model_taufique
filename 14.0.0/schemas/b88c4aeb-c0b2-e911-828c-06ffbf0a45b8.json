@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b88c4aeb-c0b2-e911-828c-06ffbf0a45b8",
+  "title": "Routing Selection",
+  "description": "A decision to identify the most suitable servicing position to route the contact",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RoutingType"
+  ],
+  "properties": {
+    "RoutingType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RoutingTypeValues",
+      "x-related-bo-id": "eabeef9f-f158-f111-8be8-a402b9460f22",
+      "x-related-bo-name": "RoutingTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

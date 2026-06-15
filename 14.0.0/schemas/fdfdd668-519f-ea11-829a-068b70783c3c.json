@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fdfdd668-519f-ea11-829a-068b70783c3c",
+  "title": "Balance Sheet",
+  "description": "A financial statement that reports a company's financial position at the end of a specified date. \r\n\r\n\r\nA financial statement that reports a company's assets, liabilities and shareholders' equity at a specific point in time, and provides a basis for computing rates of return and evaluating its capital structure. (Investopedia)\r\nhttps://www.investopedia.com/terms/b/balancesheet.asp\r\n\r\nThe balance sheet presents a company's financial position at the end of a specified date. \r\nhttps://www.accountingcoach.com/blog/balance-sheet\r\n\r\nA balance sheet lays out the ending balances in a company's asset, liability, and equity accounts as of the date stated on the report. \r\nhttps://www.accountingtools.com/articles/2017/5/17/the-balance-sheet",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dd0bb500-9feb-eb11-8336-065ca8b18a7f",
+  "title": "Mandate Arrangement",
+  "description": "An arrangement gives permission to a party (holding party) to act on behalf of a principal party.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PermissionType",
+    "PermissionExpirationDate",
+    "PermissionStatus"
+  ],
+  "properties": {
+    "PermissionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PermissionTypeValues",
+      "x-related-bo-id": "304a75a1-1fc3-ed11-8401-0628ceb27c6f",
+      "x-related-bo-name": "PermissionTypeValues"
+    },
+    "PermissionExpirationDate": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTime",
+      "x-related-bo-id": "b41f5ecc-fbed-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "DateTime"
+    },
+    "PermissionStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ConsentStatusTypeValues",
+      "x-related-bo-id": "38e253f9-1fc3-ed11-8401-0628ceb27c6f",
+      "x-related-bo-name": "ConsentStatusTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "08f64dd4-2cc3-ed11-8401-0628ceb27c6f",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

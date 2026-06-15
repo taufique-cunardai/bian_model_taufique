@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eef7448e-c0cf-e911-8296-06957f3f468a",
+  "title": "Tax Handling Arrangement",
+  "description": "An arrangement to deliver/fulfill the tax handling service.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "49a18a28-bad8-ef11-8b9c-a402b9460f22",
+      "target": "9b6243fa-53b5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b4412e7-acd8-ef11-8b9c-a402b9460f22",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2405da64-c3cf-e911-8296-06957f3f468a",
+      "target": "de2498cb-6188-e911-823e-06b09c770f0c",
+      "modality": "M:N",
+      "required": true,
+      "description": "TaxationJurisdiction",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6305be72-c6cf-e911-8296-06957f3f468a",
+      "target": "746d273d-c6cf-e911-8296-06957f3f468a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b21038d0-c2cf-e911-8296-06957f3f468a",
+      "target": "3ff20cc9-4c7d-e911-823e-069ad1a2e648",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7978887-c1cf-e911-8296-06957f3f468a",
+      "target": "3a47d869-c1cf-e911-8296-06957f3f468a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b77f121-c4cf-e911-8296-06957f3f468a",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "M:N",
+      "required": false,
+      "description": "TaxationRule",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

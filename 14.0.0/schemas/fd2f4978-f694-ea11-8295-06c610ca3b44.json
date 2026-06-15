@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fd2f4978-f694-ea11-8295-06c610ca3b44",
+  "title": "Market Segment",
+  "description": "A group of market filtered according to some criteria\r\n\r\nMarket segmentation is a marketing term referring to the aggregating of prospective buyers into groups, or segments, that have common needs and respond similarly to a marketing action. Market segmentation enables companies to target different categories of consumers who perceive the full value of certain products and services differently from one another.\r\n\r\nRead more: Market Segmentation http://www.investopedia.com/terms/m/marketsegmentation.asp#ixzz4gfEEalTd \r\n\r\nAn identifiable group of individuals, families, businesses, or organizations, sharing one or more characteristics or needs in an otherwise homogeneous market. Market segments generally respond in a predictable manner to a marketing or promotion offer (Business Dictionary) .... Read more: http://www.businessdictionary.com/definition/market-segment.html\r\n\r\nA market segment is a group of people in a homogeneous market who share common marketable characteristics (Investopedia). https://www.investopedia.com/terms/m/market-segment.asp\r\n\r\nThe criteria for a market segment are that there is homogeneity among the segment's main needs, the segment must be unique, and the segment's members must produce a common reaction to marketing tactics.\r\n\r\nCommon market segment traits include interests, lifestyle, age, and gender.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a7af932c-b1eb-eb11-8336-065ca8b18a7f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "cbae0d44-b1eb-eb11-8336-065ca8b18a7f",
+      "target": "a7af932c-b1eb-eb11-8336-065ca8b18a7f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Segment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5a0736d1-77cd-e911-8296-067c35430898",
+  "title": "Settlement Involvement",
+  "description": "A specific party who plays a specific role in the settlement process.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SettlementInvolvementType",
+    "SettlementInstructionReference",
+    "PartyReference"
+  ],
+  "properties": {
+    "SettlementInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SettlementInvolvementTypeValues",
+      "x-related-bo-id": "3aaf998d-ff7e-ee11-8b41-a402b9460f22",
+      "x-related-bo-name": "SettlementInvolvementTypeValues"
+    },
+    "SettlementInstructionReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Settlement Instruction",
+      "x-related-bo-id": "3266cb70-d665-e911-8237-06eba4258fe0",
+      "x-related-bo-name": "Settlement Instruction"
+    },
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

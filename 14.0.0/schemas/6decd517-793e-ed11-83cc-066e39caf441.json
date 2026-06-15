@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6decd517-793e-ed11-83cc-066e39caf441",
+  "title": "Trust Service Arrangement",
+  "description": "A legal arrangement through which funds or assets are held by a third party (the trustee) for the benefit of another party (the beneficiary).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "c80f2ee6-f097-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "TrustServiceArrangementType"
+  ],
+  "properties": {
+    "TrustServiceArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TrustServiceArrangementInvolvementTypeValues",
+      "x-related-bo-id": "b74e62ec-7a3e-ed11-83cc-066e39caf441",
+      "x-related-bo-name": "TrustServiceArrangementInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "452be698-7a3e-ed11-83cc-066e39caf441",
+      "target": "c80f2ee6-f097-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c342cbca-7c3e-ed11-83cc-066e39caf441",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d4e2aa6-7c3e-ed11-83cc-066e39caf441",
+      "target": "0cbe6b63-7a3e-ed11-83cc-066e39caf441",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "481d3cc9-7a3e-ed11-83cc-066e39caf441",
+      "target": "db15fabb-7a3e-ed11-83cc-066e39caf441",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

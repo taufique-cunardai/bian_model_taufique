@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6776dee4-9d30-eb11-82d9-061c5848f615",
+  "title": "Card Payment Instruction",
+  "description": "A PaymentInstruction initiated by PaymentCard",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e6304f28-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "dfd26838-9e30-eb11-82d9-061c5848f615",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62548648-9e30-eb11-82d9-061c5848f615",
+      "target": "18be1517-756a-e911-8237-061b75d0d318",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f8f7c2e2-2f2f-eb11-82d9-0614284e8633",
+      "target": "3f5735c4-2f2f-eb11-82d9-0614284e8633",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "001f70ad-a030-eb11-82d9-061c5848f615",
+      "target": "9a76e71a-20b5-e911-828c-06363e70c8fa",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7dba163-9f30-eb11-82d9-061c5848f615",
+      "target": "f0933d2a-8dc5-e911-8296-06227606fcb6",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9f9f684-9f30-eb11-82d9-061c5848f615",
+      "target": "f7aeaa41-0761-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38c8563c-a534-eb11-82df-06f2017d21ad",
+      "target": "b83d6648-8ab7-e911-8291-0657c6eca57a",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aaf07835-8534-eb11-82df-06f2017d21ad",
+      "target": "9d176f0a-20b5-e911-828c-06363e70c8fa",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ba1c2fc-a734-eb11-82df-06f2017d21ad",
+      "target": "50a517b4-e3b9-e911-8291-06e0c61563f0",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

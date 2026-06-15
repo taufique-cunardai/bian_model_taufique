@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0858d1e2-0891-e911-823e-06f3e7d1f9c0",
+  "title": "Communication Channel",
+  "description": "A pathway established via a communication medium.\r\nA contact point by which the bank interacts with parties.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "153e71ae-c762-ea11-8290-0614a0f38526",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CommunicationChannelType"
+  ],
+  "properties": {
+    "CommunicationChannelType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CommunicationChannelTypeValues",
+      "x-related-bo-id": "b62d4e01-e158-f111-8be8-a402b9460f22",
+      "x-related-bo-name": "CommunicationChannelTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "fd841bbe-67d1-e911-8296-06e952cbc5d0",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d965d7bb-96f2-ea11-82be-06b80843e3ff",
+      "target": "153e71ae-c762-ea11-8290-0614a0f38526",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Channel",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a0c66c0a-07c8-e911-8296-065c48f41faa",
+      "target": "983b78e0-03c8-e911-8296-065c48f41faa",
+      "modality": "M:N",
+      "required": false,
+      "description": "Used\r\nChannel",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "beaa26c2-00aa-e911-8288-0674300188c0",
+      "target": "4d1d92d5-68a9-e911-8288-061bf39b9564",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84f82266-c559-f111-8be8-a402b9460f22",
+      "target": "6aef109f-99d0-e911-8296-061886980330",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

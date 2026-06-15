@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8c0f28a4-4ed2-e911-8296-0633d5e0e610",
+  "title": "Person Certificate",
+  "description": "A certification issued for a person. \r\n\r\nSpecifies the parameters associated with the production of a certificate to identify the profile of a customer. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PersonCertificateType",
+    "PersonReference",
+    "DocumentReference"
+  ],
+  "properties": {
+    "PersonCertificateType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PersonCertificateTypeValues",
+      "x-related-bo-id": "cb402d33-a0f1-e911-82b5-06f9534b74c8",
+      "x-related-bo-name": "PersonCertificateTypeValues"
+    },
+    "PersonReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Person",
+      "x-related-bo-id": "04c123f4-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Person"
+    },
+    "DocumentReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Document",
+      "x-related-bo-id": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Document"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "bc1b0388-55d2-e911-8296-0633d5e0e610",
+      "target": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Document",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

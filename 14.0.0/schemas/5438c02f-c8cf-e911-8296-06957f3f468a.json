@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5438c02f-c8cf-e911-8296-06957f3f468a",
+  "title": "Tax Handling Service",
+  "description": "A service for handling tax for products and services provided by the bank to the customer.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9e6e153d-5997-e911-823e-065ba593ba6e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "27559177-bad8-ef11-8b9c-a402b9460f22",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "337a6a41-c8cf-e911-8296-06957f3f468a",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c5f5737-c8cf-e911-8296-06957f3f468a",
+      "target": "eef7448e-c0cf-e911-8296-06957f3f468a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

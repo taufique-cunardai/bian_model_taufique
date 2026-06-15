@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "37762e96-cb1d-eb11-82d0-06b34584f073",
+  "title": "Factoring Agreement",
+  "description": "A factoring agreement is a legal contract between a business (the seller or client) and a factoring company (the factor) in which the business sells its accounts receivable (invoices) to the factor in exchange for immediate cash. The agreement outlines the terms under which the factor purchases the invoices, including the advance rate (the percentage of the invoice value paid upfront), fees charged by the factor, and the responsibilities for collecting payments from customers.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FactoringAgreementType"
+  ],
+  "properties": {
+    "FactoringAgreementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FactoringAgreementTypeValues",
+      "x-related-bo-id": "bdc936fd-b575-ef11-8b71-a402b9460f22",
+      "x-related-bo-name": "FactoringAgreementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4d7f30a7-2e34-ed11-83cc-0663e70158a3",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fcc51c8b-b375-ef11-8b71-a402b9460f22",
+      "target": "9d299379-b375-ef11-8b71-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "da21fd16-2f34-ed11-83cc-0663e70158a3",
+      "target": "4fbf2d10-2f34-ed11-83cc-0663e70158a3",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

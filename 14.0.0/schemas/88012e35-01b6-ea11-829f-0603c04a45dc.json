@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "88012e35-01b6-ea11-829f-0603c04a45dc",
+  "title": "Transaction Schedule Service",
+  "description": "An operational support service to orchestrate a schedule of payment transaction",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ServiceDateTime",
+    "ServiceFeeType",
+    "ServiceFunctionType",
+    "ServiceFunctionDescription"
+  ],
+  "properties": {
+    "ServiceDateTime": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "ServiceFeeType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "ServiceFunctionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "ServiceFunctionDescription": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "974844f0-01b6-ea11-829f-0603c04a45dc",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4bb91928-02b6-ea11-829f-0603c04a45dc",
+      "target": "1599031b-02b6-ea11-829f-0603c04a45dc",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a3963708-06b6-ea11-829f-0603c04a45dc",
+      "target": "a58c8a29-5a96-e911-823e-062d75b50cca",
+      "modality": "1:1",
+      "required": false,
+      "description": "Scheduled\r\nFinancialTransaction",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

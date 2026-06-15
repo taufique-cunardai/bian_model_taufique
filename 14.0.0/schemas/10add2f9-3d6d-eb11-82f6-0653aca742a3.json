@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "10add2f9-3d6d-eb11-82f6-0653aca742a3",
+  "title": "Arrangement_Arrangement Relationship",
+  "description": "A characteristic of arrangement which refers to its related arrangements.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Arrangement_ArrangementRelationshipType",
+    "FromArrangement",
+    "ToArrangement"
+  ],
+  "properties": {
+    "Arrangement_ArrangementRelationshipType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Arrangement_ArrangementRelationshipTypeValues",
+      "x-related-bo-id": "8fc9b60f-a37d-eb11-8309-06f448ba7707",
+      "x-related-bo-name": "Arrangement_ArrangementRelationshipTypeValues"
+    },
+    "FromArrangement": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Arrangement",
+      "x-related-bo-id": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Arrangement"
+    },
+    "ToArrangement": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Arrangement",
+      "x-related-bo-id": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Arrangement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "7febc411-3e6d-eb11-82f6-0653aca742a3",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "61f4c5b3-4ab5-ea11-829f-06ddb95e6bc8",
+  "title": "Production Release",
+  "description": "A new version of the (IT) system that is released out to the users",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProductionReleaseType",
+    "ProductionReleaseDescription",
+    "ProductionReleaseName"
+  ],
+  "properties": {
+    "ProductionReleaseType": {
+      "type": "string",
+      "description": "The type of production release (e.g. production service update, new production system)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "ProductionReleaseDescription": {
+      "type": "string",
+      "description": "A description of the scope, goal and make-up of the production release",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "ProductionReleaseName": {
+      "type": "string",
+      "description": "A descriptive name of the production release system",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

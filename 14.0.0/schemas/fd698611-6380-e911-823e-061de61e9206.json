@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fd698611-6380-e911-823e-061de61e9206",
+  "title": "Asset Type",
+  "description": "A functional Classification Hierarchy that distinguishes between objects of value according to some criteria.\r\nComment: BIAN Has developed a classification hierarchy, but also other authorities have defined classification hierarchies.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "81c469f2-6380-e911-823e-061de61e9206",
+      "target": "30a4d16d-6080-e911-823e-061de61e9206",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

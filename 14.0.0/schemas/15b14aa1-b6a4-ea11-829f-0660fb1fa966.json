@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "15b14aa1-b6a4-ea11-829f-0660fb1fa966",
+  "title": "Financial Liability",
+  "description": "Financial liability: any liability that is:\r\n\r\n- A contractual obligation: to deliver cash or another financial asset to another entity; or to exchange financial assets or financial liabilities with another entity under conditions that are potentially unfavourable to the entity; or\r\n- A contract that will or may be settled in the entity's own equity instruments and is \r\n--a non-derivative for which the entity is or may be obliged to deliver a variable number of the entity's own equity instruments or\r\n--a derivative that will or may be settled other than by the exchange of a fixed amount of cash or another financial asset for a fixed number of the entity's own equity instruments. For this purpose the entity's own equity instruments do not include: instruments that are themselves contracts for the future receipt or delivery of the entity's own equity instruments; puttable instruments classified as equity or certain liabilities arising on liquidation classified by IAS 32 as equity instruments\r\n\r\nhttps://www.iasplus.com/en/standards/ias/ias32\r\n\r\nhttps://www.accountingtools.com/articles/2017/5/10/financial-liability",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "62044e36-bba4-ea11-829f-0660fb1fa966",
+      "target": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Instrument",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

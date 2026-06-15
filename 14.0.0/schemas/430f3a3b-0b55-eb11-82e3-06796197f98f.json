@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "430f3a3b-0b55-eb11-82e3-06796197f98f",
+  "title": "Lease Transaction",
+  "description": "A transaction that is the result of a Leasing Arrangement fulfillment",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "LeasingTransactionType"
+  ],
+  "properties": {
+    "LeasingTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "927e5a4c-1055-eb11-82e3-06796197f98f",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "870c4caf-1155-eb11-82e3-06796197f98f",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

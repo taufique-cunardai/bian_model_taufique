@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "368ec70d-8cd4-e911-8296-067476cc944c",
+  "title": "Financial Message",
+  "description": "Message containing financial information \r\n\r\n\r\nsuch as financial instructions or reports about financial transactions",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialMessageType",
+    "FinancialMessageDirection",
+    "FinancialMessageContent",
+    "FinancialMessageDeliveryStatus"
+  ],
+  "properties": {
+    "FinancialMessageType": {
+      "type": "string",
+      "description": "Type of FinancialMessage, defining the type of content of the message\r\n\r\nand related format",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "FinancialMessageDirection": {
+      "type": "string",
+      "description": "Indication of the direction of the message\r\n\r\nin or outbound",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ChannelSessionDirection",
+      "x-related-bo-id": "7c6979d4-b7d0-e911-8296-0616e6ad87a8",
+      "x-related-bo-name": "ChannelSessionDirection"
+    },
+    "FinancialMessageContent": {
+      "type": "string",
+      "description": "Content of the financial message",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "FinancialMessageDeliveryStatus": {
+      "type": "string",
+      "description": "Status of the delivery of the financial message\r\n\r\ne.g. pending, delivered, possible error",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5e7458d1-8dd4-e911-8296-067476cc944c",
+      "target": "48b470a9-8dd4-e911-8296-067476cc944c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09cd3781-a9d4-e911-8296-065eb1227fdc",
+      "target": "f809fe2f-8bd4-e911-8296-067476cc944c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

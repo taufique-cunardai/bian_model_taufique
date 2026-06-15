@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0c30334d-1b6a-eb11-82f6-0662bdd087b7",
+  "title": "Reward Point Arrangement",
+  "description": "An arrangement which is specifying the oblogation and right or the term and condition for collecting or calculating a RewardPoint",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "6f13969d-1b6a-eb11-82f6-0662bdd087b7",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4600d854-1b6a-eb11-82f6-0662bdd087b7",
+      "target": "a6b05268-fa69-eb11-82f6-0662bdd087b7",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0187ed79-1d6a-eb11-82f6-0662bdd087b7",
+      "target": "d16b937e-8ad1-ea11-82b1-061e3979cf2c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e79714e-316a-eb11-82f6-0662bdd087b7",
+      "target": "f0129ac2-3394-e911-823e-069871e4ec9c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d59201b-2a6a-eb11-82f6-0662bdd087b7",
+      "target": "bbe047de-296a-eb11-82f6-0662bdd087b7",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d10a1005-226a-eb11-82f6-0662bdd087b7",
+      "target": "2e1cf8fa-216a-eb11-82f6-0662bdd087b7",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "298603b7-306a-eb11-82f6-0662bdd087b7",
+      "target": "974543f6-3494-e911-823e-069871e4ec9c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59081309-2b6a-eb11-82f6-0662bdd087b7",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "RewardPoint\r\nAccount",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

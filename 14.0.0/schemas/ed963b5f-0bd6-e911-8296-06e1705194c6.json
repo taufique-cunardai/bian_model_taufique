@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ed963b5f-0bd6-e911-8296-06e1705194c6",
+  "title": "Fraud Model",
+  "description": "A model used across all production activity to detect the potential fraud\r\n\r\nModel is used to facilitate identifying out of pattern transactions or events and their fraud risk score.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e48b3c8e-b4ae-e911-828c-06d72c197ec4",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "48013366-0bd6-e911-8296-06e1705194c6",
+      "target": "e48b3c8e-b4ae-e911-828c-06d72c197ec4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Model",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "06897619-0fe1-e911-82a8-06ca917a32e2",
+      "target": "2bb7d3f4-b3d3-e911-8296-0699dd1a0780",
+      "modality": "M:N",
+      "required": false,
+      "description": "AnalyzingFraud",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

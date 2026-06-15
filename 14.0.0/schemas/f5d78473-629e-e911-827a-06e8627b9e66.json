@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f5d78473-629e-e911-827a-06e8627b9e66",
+  "title": "Savings Account Product",
+  "description": "Is a Banking Product designed to help customers save money while earning interest on their deposited funds.\r\n\r\nIt allows the customer to place and hold funds securely in a bank account, earn periodic interest, and withdraw funds when needed, usually with limited transaction frequency compared to a current account.\r\n\r\nComment:\r\nA commercial offering enabeling the customer to build a financial reserve that is easily accessible",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SavingsAccountProductType"
+  ],
+  "properties": {
+    "SavingsAccountProductType": {
+      "type": "string",
+      "description": "Classification of a Savings Account Product\r\n\r\nfurther classification level of the product type \"savings account\"",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SavingsAccountProductTypeValues",
+      "x-related-bo-id": "fc1b9625-c41e-f111-8608-0247e3f120c3",
+      "x-related-bo-name": "SavingsAccountProductTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "0cfd0689-629e-e911-827a-06e8627b9e66",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42bab1b9-3c4a-ed11-83d4-064ad05c4fb5",
+      "target": "8856dd89-9b9d-e911-827a-06c73ecc951a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbad5064-669e-e911-827a-06e8627b9e66",
+      "target": "f629d849-639e-e911-827a-06e8627b9e66",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

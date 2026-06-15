@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7966d6b9-ca95-ea11-8295-06710fa33e76",
+  "title": "Brand Impact Troubleshooting",
+  "description": "Assess brand impact and define and execute mitigating actions for production issues that expose the brand",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "99b6a805-1271-eb11-82fd-06e9e7239879",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "4b0ca774-cb95-ea11-8295-06710fa33e76",
+      "target": "99b6a805-1271-eb11-82fd-06e9e7239879",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Duty",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e2d9d830-cd95-ea11-8295-06710fa33e76",
+      "target": "cd75370f-cd95-ea11-8295-06710fa33e76",
+      "modality": "1:N",
+      "required": false,
+      "description": "Addressed\r\nIssue",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
