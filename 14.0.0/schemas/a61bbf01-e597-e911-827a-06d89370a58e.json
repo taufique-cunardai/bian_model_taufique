@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a61bbf01-e597-e911-827a-06d89370a58e",
+  "title": "Withdrawal Service",
+  "description": "A service for removing funds from a bank account, savings plan, pension or trust. (adapted from investopedia)\r\n\r\n\r\nWithdrawal of money from an account, into which money has been disbursed from a fund or line of credit or simply as a one-time transfer.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ca197cf7-e497-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "WithdrawalType"
+  ],
+  "properties": {
+    "WithdrawalType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "WithdrawalTypeValues",
+      "x-related-bo-id": "107b3801-b65c-eb11-82e9-065ba105bad3",
+      "x-related-bo-name": "WithdrawalTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e962c1b5-699e-e911-827a-06e8627b9e66",
+      "target": "f629d849-639e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Savings Account Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af4f544f-b35c-eb11-82e9-065ba105bad3",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63ccae08-51b4-ed11-83f9-06a1e7288c87",
+      "target": "ca197cf7-e497-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "216c6b38-b655-eb11-82e3-06afd984332d",
+      "target": "0a28b29d-5c96-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

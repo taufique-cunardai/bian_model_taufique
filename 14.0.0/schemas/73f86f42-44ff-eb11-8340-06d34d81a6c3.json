@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "73f86f42-44ff-eb11-8340-06d34d81a6c3",
+  "title": "Settlement Transaction",
+  "description": "Transaction that is the result of fulfilling a settlement arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "53a745eb-007f-ee11-8b41-a402b9460f22",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b432c58e-44ff-eb11-8340-06d34d81a6c3",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76f3503b-007f-ee11-8b41-a402b9460f22",
+      "target": "0b1bb11e-6bcd-e911-8296-067c35430898",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "13f5478a-76cd-e911-8296-067c35430898",
+      "target": "3266cb70-d665-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": false,
+      "description": "RequestToSettle",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ebd065a-76cd-e911-8296-067c35430898",
+      "target": "e00fb730-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "TransactionReferenced\r\nInSettlement",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4e71d61-76cd-e911-8296-067c35430898",
+      "target": "a08f4816-a270-e911-8237-06460bf93392",
+      "modality": "1:N",
+      "required": false,
+      "description": "AccountUsed4\r\nSettlement",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

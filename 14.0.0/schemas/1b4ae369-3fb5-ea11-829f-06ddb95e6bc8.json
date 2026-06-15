@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1b4ae369-3fb5-ea11-829f-06ddb95e6bc8",
+  "title": "Product Inventory Allocation",
+  "description": "Allocation of a product inventory",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1856b69e-cb80-e911-823e-065e8061d7e6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AllocationServiceSchedule"
+  ],
+  "properties": {
+    "AllocationServiceSchedule": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "32d0eb6f-3fb5-ea11-829f-06ddb95e6bc8",
+      "target": "1856b69e-cb80-e911-823e-065e8061d7e6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Allocation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e01a0d98-42b5-ea11-829f-06ddb95e6bc8",
+      "target": "b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

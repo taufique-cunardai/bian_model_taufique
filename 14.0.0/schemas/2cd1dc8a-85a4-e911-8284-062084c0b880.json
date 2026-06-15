@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2cd1dc8a-85a4-e911-8284-062084c0b880",
+  "title": "Device Arrangement",
+  "description": "Arrangement on the provision and use of product instruments.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "d579f82c-0cd6-e911-8296-0612a84747f6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DeviceFunctionality",
+    "DeviceRemuneration"
+  ],
+  "properties": {
+    "DeviceFunctionality": {
+      "type": "string",
+      "description": "The actions that can be taken by using the device(type) to which the arrangement refers to.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Action",
+      "x-related-bo-id": "ba9240b3-0056-e911-8237-060aad038e48",
+      "x-related-bo-name": "Action"
+    },
+    "DeviceRemuneration": {
+      "type": "string",
+      "description": "The fee due for the reception and/or use of the device(type) to which the arrangement refers to.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Fee Arrangement",
+      "x-related-bo-id": "974543f6-3494-e911-823e-069871e4ec9c",
+      "x-related-bo-name": "Fee Arrangement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "00cc40dc-d6b1-ed11-83f9-06250c3aeedb",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c8508a9e-8cba-e911-8291-062b31ab758a",
+      "target": "3fd1b799-fc60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Card Payment Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53ef5434-0009-ee11-8b2c-a402b9460f22",
+      "target": "f04197d7-0594-e911-823e-069871e4ec9c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Current Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9647ecd-2c5f-eb11-82e9-06394efee01d",
+      "target": "6dc9f3aa-ffa6-e911-8288-068d1795c1bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Loan Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "afcc95a3-85a4-e911-8284-062084c0b880",
+      "target": "53777ee2-6a9e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Savings Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c9ab19a-4b28-ec11-8359-06045a5873bf",
+      "target": "d579f82c-0cd6-e911-8296-0612a84747f6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Term Deposit Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5943818-2601-ee11-841b-06fb181657f1",
+      "target": "f04197d7-0594-e911-823e-069871e4ec9c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca601536-04ae-ed11-83f9-063bb04e00c7",
+      "target": "0263db4b-0761-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "083aef4b-b84f-ed11-83d8-0679bc75434d",
+      "target": "ae0d5738-bca4-e911-8284-062084c0b880",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b9514fb-f9a6-e911-8288-06c837085cb8",
+      "target": "d47b801b-f9a6-e911-8288-06c837085cb8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

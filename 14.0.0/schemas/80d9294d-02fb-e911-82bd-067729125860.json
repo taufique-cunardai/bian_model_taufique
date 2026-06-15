@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "80d9294d-02fb-e911-82bd-067729125860",
+  "title": "Training Lifecycle Phase",
+  "description": "At this stage, the employee receives training.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "2ad4259a-5ffa-e911-82bd-060c1aa554c0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "f5abe767-02fb-e911-82bd-067729125860",
+      "target": "2ad4259a-5ffa-e911-82bd-060c1aa554c0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Retention Lifecycle Phase",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

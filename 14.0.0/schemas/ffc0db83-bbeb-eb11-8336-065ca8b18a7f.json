@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ffc0db83-bbeb-eb11-8336-065ca8b18a7f",
+  "title": "Product Segment",
+  "description": "A group of products filtered according to some criteria",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a7af932c-b1eb-eb11-8336-065ca8b18a7f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProductSegmentType"
+  ],
+  "properties": {
+    "ProductSegmentType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProductSegmentTypeValues",
+      "x-related-bo-id": "cf41373b-2039-ef11-8b65-a402b9460f22",
+      "x-related-bo-name": "ProductSegmentTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b3a79c9a-bbeb-eb11-8336-065ca8b18a7f",
+      "target": "a7af932c-b1eb-eb11-8336-065ca8b18a7f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Segment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "456f80ac-bbeb-eb11-8336-065ca8b18a7f",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

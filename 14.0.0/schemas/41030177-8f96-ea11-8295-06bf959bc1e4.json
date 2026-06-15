@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "41030177-8f96-ea11-8295-06bf959bc1e4",
+  "title": "Business Development",
+  "description": "The ideas, initiatives and activities aimed towards making a business better. (Investopedia)\r\n\r\nhttps://www.investopedia.com/articles/personal-finance/090815/basics-business-development.asp\r\n\r\n\r\nBusiness development encompasses a range of activities, strategies, and initiatives aimed at improving and growing a business. This typically involves identifying and creating new business opportunities, building and maintaining relationships with partners and clients, and expanding the market presence.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "4d239f28-9096-ea11-8295-06bf959bc1e4",
+      "target": "e4d17e1a-9096-ea11-8295-06bf959bc1e4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c2cc8a1e-1639-ef11-8b65-a402b9460f22",
+      "target": "887a1913-1639-ef11-8b65-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

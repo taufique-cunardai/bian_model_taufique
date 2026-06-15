@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fc930fc2-8c9e-e911-827a-06e8627b9e66",
+  "title": "Information Arrangement",
+  "description": "An arrangement concerning the information the bank will provide about the agreement/account",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "53777ee2-6a9e-e911-827a-06e8627b9e66",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AccountStatementReference"
+  ],
+  "properties": {
+    "AccountStatementReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Account Statement",
+      "x-related-bo-id": "7301eaaf-8c9e-e911-827a-06e8627b9e66",
+      "x-related-bo-name": "Account Statement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5bdfec8a-af4f-ed11-83d8-0679bc75434d",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4f53bab-4f28-ec11-8359-06045a5873bf",
+      "target": "f04197d7-0594-e911-823e-069871e4ec9c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Current Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "106fa8c6-2dd6-e911-8296-06c6ee6741dc",
+      "target": "d579f82c-0cd6-e911-8296-0612a84747f6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Term Deposit Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1099f395-34d6-e911-8296-06c6ee6741dc",
+      "target": "eecc7a97-33d6-e911-8296-06c6ee6741dc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Term Deposit Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f6a4523e-f69e-e911-827a-0694d7239d90",
+      "target": "53777ee2-6a9e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Savings Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd421307-8d9e-e911-827a-06e8627b9e66",
+      "target": "7301eaaf-8c9e-e911-827a-06e8627b9e66",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

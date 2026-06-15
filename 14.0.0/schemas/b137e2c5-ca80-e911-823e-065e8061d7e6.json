@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b137e2c5-ca80-e911-823e-065e8061d7e6",
+  "title": "Collateral Asset Allocation",
+  "description": "A reservation of part or whole of the asset value to secure the payment of repayment expressed in a payment obligation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1856b69e-cb80-e911-823e-065e8061d7e6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CollateralAssetAllocationStatus"
+  ],
+  "properties": {
+    "CollateralAssetAllocationStatus": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AllocationStatusTypeValues",
+      "x-related-bo-id": "86e01373-2000-ec11-8340-061dac4a92f1",
+      "x-related-bo-name": "AllocationStatusTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c94f4efd-03bb-ec11-8387-064f8e36f7bd",
+      "target": "a30a77f6-a5b9-ec11-8382-06d577125049",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Undertaking Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "30bd0abd-cb80-e911-823e-065e8061d7e6",
+      "target": "1856b69e-cb80-e911-823e-065e8061d7e6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Allocation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

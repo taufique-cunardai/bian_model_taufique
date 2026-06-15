@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "595d1223-32d6-e911-8296-06c6ee6741dc",
+  "title": "Term Deposit Account Agreement",
+  "description": "Agreement concering an investment that consists of  the deposit of money with a bank for a fixed period in return for interests",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5db8ac23-a4df-ea11-82b8-06ba2d0fd90f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DepositAgreementCustomerFeedbackReferenceAttribute",
+    "TermDepositAgreementIdentification"
+  ],
+  "properties": {
+    "DepositAgreementCustomerFeedbackReferenceAttribute": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "TermDepositAgreementIdentification": {
+      "type": "string",
+      "description": "Identification of the Term Deposit Agreement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d54b97b5-a4df-ea11-82b8-06ba2d0fd90f",
+      "target": "5db8ac23-a4df-ea11-82b8-06ba2d0fd90f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Deposit Account Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32c1bde3-38d6-e911-8296-06c6ee6741dc",
+      "target": "158c8116-38d6-e911-8296-06c6ee6741dc",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c80450d8-32d6-e911-8296-06c6ee6741dc",
+      "target": "dfe32bfe-2281-e911-823e-06e233b9c772",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89a21eba-33d6-e911-8296-06c6ee6741dc",
+      "target": "eecc7a97-33d6-e911-8296-06c6ee6741dc",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

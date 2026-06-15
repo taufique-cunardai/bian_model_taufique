@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "166d8bea-d757-ea11-8289-060c7a9911f6",
+  "title": "Prospect Campaign",
+  "description": "A campaign to target prospects (potentialt customers) to identify market opportunities and threats.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "4a934e40-a5d7-e911-82a8-0667cb2841e8",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "676a6338-d857-ea11-8289-060c7a9911f6",
+      "target": "4a934e40-a5d7-e911-82a8-0667cb2841e8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Campaign",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e0f04ff-d757-ea11-8289-060c7a9911f6",
+      "target": "139d0fb3-d757-ea11-8289-060c7a9911f6",
+      "modality": "M:N",
+      "required": false,
+      "description": "ProspectInCampaign",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef9cd3c1-5da6-ea11-829f-063187a0cc58",
+      "target": "0b3318a5-5da6-ea11-829f-063187a0cc58",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c358fbe6-5da6-ea11-829f-063187a0cc58",
+      "target": "451f2df9-57a6-ea11-829f-063187a0cc58",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d23df19-5ca6-ea11-829f-063187a0cc58",
+      "target": "8671a0de-5ba6-ea11-829f-063187a0cc58",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4073b24-5ba6-ea11-829f-063187a0cc58",
+      "target": "8d4b4815-5ba6-ea11-829f-063187a0cc58",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

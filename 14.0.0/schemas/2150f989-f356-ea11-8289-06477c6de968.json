@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2150f989-f356-ea11-8289-06477c6de968",
+  "title": "Customer Portfolio Analysis",
+  "description": "Customer portfolio/cohort analysis is a method used to group customers into segments (cohorts) based on shared characteristics or behaviors within a specific time period, and then analyze these groups over time to observe their behavior, engagement, profitability and performance.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerPortfolioAnalysisType"
+  ],
+  "properties": {
+    "CustomerPortfolioAnalysisType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerPortfolioAnalysisTypeValues",
+      "x-related-bo-id": "7baf8fe2-4244-ef11-8b66-a402b9460f22",
+      "x-related-bo-name": "CustomerPortfolioAnalysisTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b78148b9-f356-ea11-8289-06477c6de968",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59454e98-f356-ea11-8289-06477c6de968",
+      "target": "0645be8f-b654-ea11-8289-066124405894",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cbec2bed-7759-ea11-8290-064864f205d8",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "M:N",
+      "required": false,
+      "description": "CustomerRelatedTransaction\r\nUsedInAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27b8ef15-7659-ea11-8290-064864f205d8",
+      "target": "052c41f9-7559-ea11-8290-064864f205d8",
+      "modality": "M:N",
+      "required": false,
+      "description": "UsedInAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

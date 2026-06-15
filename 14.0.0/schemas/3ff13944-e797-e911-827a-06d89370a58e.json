@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3ff13944-e797-e911-827a-06d89370a58e",
+  "title": "Sweep Product Feature",
+  "description": "Is a Product Feature that defines how funds are automatically transferred between accounts according to predefined rules, thresholds, or schedules. \r\n\r\nIt specifies the transfer method, timing, calculation of amounts to be swept, conditions that trigger the sweep, and any limits or constraints associated with the transfer.\r\n\r\nComment:\r\nA feature, often offered in a Savings/Current Account product that allows (to link the fixed term deposits with the current or savings account) .....should be checked?",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f629d849-639e-e911-827a-06e8627b9e66",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SweepType"
+  ],
+  "properties": {
+    "SweepType": {
+      "type": "string",
+      "description": "The type of sweep (e.g. periodic, threshold)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SweepTypeValues",
+      "x-related-bo-id": "43ac5e62-3924-f111-860d-06831cd38dd5",
+      "x-related-bo-name": "SweepTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "51b1ef5a-b5da-e911-82a8-06a46ad19552",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f23b8cc-699e-e911-827a-06e8627b9e66",
+      "target": "f629d849-639e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Savings Account Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "480b941c-ac23-f111-860d-0a072f7aa82f",
+      "target": "a7b66dd9-3efc-eb11-833a-0662ea9d4173",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bad708d8-b3da-e911-82a8-06a46ad19552",
+      "target": "ca976c42-7c96-e911-823e-062d75b50cca",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

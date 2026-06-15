@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b98b3ed1-3538-ed11-83cc-063eaecd5279",
+  "title": "Securities Allocation",
+  "description": "A procedure to allocate partially completed market orders",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SecuritiesAllocationWorkstep",
+    "SecuritiesAllocationWorkstepType"
+  ],
+  "properties": {
+    "SecuritiesAllocationWorkstep": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Workstep",
+      "x-related-bo-id": "f701c099-2b81-e911-823e-06e80039c878",
+      "x-related-bo-name": "Workstep"
+    },
+    "SecuritiesAllocationWorkstepType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SecuritiesAllocationWorkstepTypeValues",
+      "x-related-bo-id": "cb7b6543-3838-ed11-83cc-063eaecd5279",
+      "x-related-bo-name": "SecuritiesAllocationWorkstepTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c5f55eeb-3538-ed11-83cc-063eaecd5279",
+      "target": "3b624c41-1c91-e911-823e-06f3e7d1f9c0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Resource Allocation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72918186-3638-ed11-83cc-063eaecd5279",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e601104-3638-ed11-83cc-063eaecd5279",
+      "target": "b8885895-8510-ec11-834b-067de54e9471",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "38d45d96-d6db-ea11-82b8-06af5dbe0252",
+  "title": "Customer Portfolio",
+  "description": "A customer portfolio refers to the collection or set of customers that a business serves or interacts with.\r\n\r\nA customer portfolio is the collection of customers that a business manages.\r\n\r\nA customer portfolio is a segmented list of the various groups of customer.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f12e12ba-bceb-eb11-8336-065ca8b18a7f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "2ac8d0c5-bceb-eb11-8336-065ca8b18a7f",
+      "target": "f12e12ba-bceb-eb11-8336-065ca8b18a7f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Portfolio",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ed99a30-d7db-ea11-82b8-06af5dbe0252",
+      "target": "1803596c-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "207003fb-d157-ea11-8289-060c7a9911f6",
+      "target": "6650b4d8-d157-ea11-8289-060c7a9911f6",
+      "modality": "M:N",
+      "required": false,
+      "description": "Customers\r\nInCampaign",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ad11d491-9c49-ef11-8b66-a402b9460f22",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "M:N",
+      "required": false,
+      "description": "Portfolio\r\nCriteria",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbf5aa5c-5844-ef11-8b66-a402b9460f22",
+      "target": "2150f989-f356-ea11-8289-06477c6de968",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "485ce0b5-5744-ef11-8b66-a402b9460f22",
+      "target": "0645be8f-b654-ea11-8289-066124405894",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

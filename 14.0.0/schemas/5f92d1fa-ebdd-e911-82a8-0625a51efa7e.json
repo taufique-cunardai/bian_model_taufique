@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5f92d1fa-ebdd-e911-82a8-0625a51efa7e",
+  "title": "Service Arrangement Fulfillment Event",
+  "description": "The fulfillment of a service arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "715e247b-f2dd-e911-82a8-0625a51efa7e",
+      "target": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement Fulfillment Event",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

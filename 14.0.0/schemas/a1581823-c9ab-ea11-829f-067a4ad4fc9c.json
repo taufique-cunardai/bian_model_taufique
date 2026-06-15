@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a1581823-c9ab-ea11-829f-067a4ad4fc9c",
+  "title": "Investment Portfolio Sensitivity Analysis",
+  "description": "The analytical process of determining the Sensitivity of an investment portfolio (as financial instrument/asset).\r\n\r\nSensitivity refers to the impact on a security given a change in some relevant factor. Sensitivity analysis determines how different values of an independent variable affect a particular dependent variable under a given set of assumptions.\r\nhttps://www.investopedia.com/terms/s/sensitivityanalysis.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

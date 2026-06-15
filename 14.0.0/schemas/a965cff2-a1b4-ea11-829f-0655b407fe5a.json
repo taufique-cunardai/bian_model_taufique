@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a965cff2-a1b4-ea11-829f-0655b407fe5a",
+  "title": "Sales Specialist Support Request",
+  "description": "A request to assign the product specialists for supporting sales activity",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AssignmentRequestType"
+  ],
+  "properties": {
+    "AssignmentRequestType": {
+      "type": "string",
+      "description": "Defines the type of assignment (e.g. in person, phone conference)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "afb12209-a2b4-ea11-829f-0655b407fe5a",
+      "target": "185bcafb-9eb4-ea11-829f-0655b407fe5a",
+      "modality": "1:N",
+      "required": false,
+      "description": "Assignment\r\nRequest",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

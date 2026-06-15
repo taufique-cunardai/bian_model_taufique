@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0c5ce64a-0a7b-e911-823e-06651a4b679a",
+  "title": "Customer Credit Rating Algorithm",
+  "description": "A specific Algorithm for calculating a Customer Credit Risk.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "231bdf18-2e76-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "414c4f67-0a7b-e911-823e-06651a4b679a",
+      "target": "231bdf18-2e76-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Algorithm",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e526c76e-137b-e911-823e-06651a4b679a",
+      "target": "0a0b83c5-7f75-e911-823e-064d1e9fbc72",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

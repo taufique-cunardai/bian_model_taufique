@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8b771fe4-d79b-e911-827a-06f79ea59412",
+  "title": "Point Of Service Session",
+  "description": "The operation of a Point of Service for a bounded period of time.\r\nA servicing session.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "a7fe5e29-e19b-e911-827a-06f79ea59412",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "215de9fc-aea4-e911-8284-06aa98c8c004",
+      "target": "2bd652f6-aea4-e911-8284-06aa98c8c004",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f8ccfbf-fe9b-e911-827a-06f79ea59412",
+      "target": "525ff2e7-ee9b-e911-827a-06f79ea59412",
+      "modality": "1:N",
+      "required": false,
+      "description": "Session\r\nEvent",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

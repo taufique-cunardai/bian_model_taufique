@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "45313601-e7af-ea11-829f-0681374b35cc",
+  "title": "Intellectual Property Administrative Plan",
+  "description": "A plan to administer the bank's intellectual property assets",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2167574-8f80-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b007f011-e7af-ea11-829f-0681374b35cc",
+      "target": "a2167574-8f80-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Administrative Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "674ef814-e8af-ea11-829f-0681374b35cc",
+      "target": "7eca62f9-e7af-ea11-829f-0681374b35cc",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc4a180a-e7af-ea11-829f-0681374b35cc",
+      "target": "cb9e2d6a-e5af-ea11-829f-0681374b35cc",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e393e90d-e8af-ea11-829f-0681374b35cc",
+      "target": "0c91e801-e8af-ea11-829f-0681374b35cc",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
