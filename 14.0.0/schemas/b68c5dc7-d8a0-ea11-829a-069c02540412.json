@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b68c5dc7-d8a0-ea11-829a-069c02540412",
+  "title": "Credit Facility",
+  "description": "A credit facility is a type of loan made in a business or corporate finance context. It allows the borrowing business to take out money over an extended period of time rather than reapplying for a loan each time it needs money. In effect, a credit facility lets a company take out an umbrella loan for generating capital over an extended period of time.\r\nhttps://www.investopedia.com/terms/c/creditfacility.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditFacilityType"
+  ],
+  "properties": {
+    "CreditFacilityType": {
+      "type": "string",
+      "description": "Types of credit facilities include revolving loan facilities, retail credit facilities (like credit cards), committed facilities, letters of credit, and most retail credit accounts.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CreditFacilityTypeValues",
+      "x-related-bo-id": "ad80d668-6db1-ee11-8b46-a402b9460f22",
+      "x-related-bo-name": "CreditFacilityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e5d482b3-6bb1-ee11-8b46-a402b9460f22",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f184bb1e-d9a0-ea11-829a-069c02540412",
+      "target": "7c2a38c0-dda0-ea11-829a-069c02540412",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce710a40-eaa0-ea11-829a-069c02540412",
+      "target": "9348d23d-739e-e911-827a-067a41d69b6e",
+      "modality": "M:N",
+      "required": false,
+      "description": "UnderlyingLoan",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

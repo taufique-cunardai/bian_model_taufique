@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f7aa3d27-235a-ea11-8290-06eaa2e18406",
+  "title": "Customer Campaign Involvement",
+  "description": "A specific role that is palyed by a specific party in the Customer Campaign e.g. \"Employee/BusinessUnit\" who is responsible for the campaign execution; \"RelationshipManager\" who confirms eligibility of the candidate if appropriate",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerCampaignInvolvementType"
+  ],
+  "properties": {
+    "CustomerCampaignInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerCampaignInvolvementTypeValues",
+      "x-related-bo-id": "4b15f5dd-344b-ef11-8b66-a402b9460f22",
+      "x-related-bo-name": "CustomerCampaignInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "990c0e34-235a-ea11-8290-06eaa2e18406",
+      "target": "6650b4d8-d157-ea11-8289-060c7a9911f6",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

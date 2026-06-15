@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a829ebf3-c5ae-e911-828c-06d72c197ec4",
+  "title": "Model Design Testing Specification",
+  "description": "A testing specification for a designed model.\r\n\r\nTesting specification covers all testing aspects including compliance.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "c47f6d0e-cfae-e911-828c-06d72c197ec4",
+      "target": "a7108679-cdae-e911-828c-06d72c197ec4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

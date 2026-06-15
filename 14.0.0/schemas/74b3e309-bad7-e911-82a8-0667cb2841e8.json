@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "74b3e309-bad7-e911-82a8-0667cb2841e8",
+  "title": "Device Allocation",
+  "description": "The assignment of a DEVICE to something to use in a particular way. \r\n\r\nComment:\r\n- The allocation/issuance of issued devices and materials (e.g. cards).\r\n\r\nExample:\r\n\r\n-  the assignment of a card to a current account\r\n-  the assignment of a Mobile Phone to a Custeome Relationship",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1856b69e-cb80-e911-823e-065e8061d7e6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DeviceReference"
+  ],
+  "properties": {
+    "DeviceReference": {
+      "type": "string",
+      "description": "Reference to the device that is issued",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Device",
+      "x-related-bo-id": "0263db4b-0761-e911-8237-068e13695e26",
+      "x-related-bo-name": "Device"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b2214c25-bcd7-e911-82a8-0667cb2841e8",
+      "target": "1856b69e-cb80-e911-823e-065e8061d7e6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Allocation",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bc0a7101-bbd7-e911-82a8-0667cb2841e8",
+      "target": "0263db4b-0761-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "Allocated\r\nDevice",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

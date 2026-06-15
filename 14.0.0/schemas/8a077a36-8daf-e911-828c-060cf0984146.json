@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8a077a36-8daf-e911-828c-060cf0984146",
+  "title": "Regulatory Compliance Check Involvement",
+  "description": "A specific role of a specific Party in the regulatory compliance check.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RegulatoryComplianceCheckInvolvementType"
+  ],
+  "properties": {
+    "RegulatoryComplianceCheckInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RegulatoryComplianceCheckInvolvementTypeValues",
+      "x-related-bo-id": "7fee0d6b-93af-e911-828c-060cf0984146",
+      "x-related-bo-name": "RegulatoryComplianceCheckInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6b2cd864-92af-e911-828c-060cf0984146",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

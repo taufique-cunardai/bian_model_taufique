@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "931a4cb0-5c76-e911-823e-065f1d1f71b2",
+  "title": "Customer Relationship Employee Involvement",
+  "description": "Employee who is involved in the customer relationship.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "bd51787a-6675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "41aea8e1-5c76-e911-823e-065f1d1f71b2",
+      "target": "bd51787a-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Customer Relationship Involvement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "30a78d1e-1957-ea11-8289-06a605eb4d64",
+  "title": "Customer Case Criterion",
+  "description": "the applicable criterion to be considered in case evaluation (e.g. documentary evidence, customer/merchant history, projected relationship impact, financial cost/projected revenue impact, reputational impact)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "c16435c2-0958-ea11-8289-060c7a9911f6",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "5a14d858-145a-ea11-8290-06eaa2e18406",
+      "target": "c16435c2-0958-ea11-8289-060c7a9911f6",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Criterion",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "886ef82a-1957-ea11-8289-06a605eb4d64",
+      "target": "845fa448-1857-ea11-8289-06a605eb4d64",
+      "modality": "1:1",
+      "required": false,
+      "description": "ApplicableCriterionUsed\r\nInResolution",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2368e7ce-145a-ea11-8290-06eaa2e18406",
+      "target": "7d9702ae-145a-ea11-8290-06eaa2e18406",
+      "modality": "1:N",
+      "required": false,
+      "description": "AnalysisOfCriterionImpact",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

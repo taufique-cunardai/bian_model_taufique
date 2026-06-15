@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "80959583-225a-ea11-8290-06eaa2e18406",
+  "title": "Customer Campaign Metric",
+  "description": "A metric to evaluate the customer campaign (portfolio)  \r\n- to assess the target and actual impact of the customer campaign\r\n- to select/identify candidate customers\r\n\r\nThe portfolio includes defined metrics and key performance indicators (KPIs) to measure the success of each campaign, such as click-through rates (CTR), conversion rates, return on investment (ROI), customer acquisition cost (CAC), and customer lifetime value (CLV).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "deac27ca-304b-ef11-8b66-a402b9460f22",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerCampaignMetricType"
+  ],
+  "properties": {
+    "CustomerCampaignMetricType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerCampaignMetricTypeValues",
+      "x-related-bo-id": "c11c2353-ac54-ef11-8b6a-a402b9460f22",
+      "x-related-bo-name": "CustomerCampaignMetricTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "02991cd9-324b-ef11-8b66-a402b9460f22",
+      "target": "deac27ca-304b-ef11-8b66-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Metric",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

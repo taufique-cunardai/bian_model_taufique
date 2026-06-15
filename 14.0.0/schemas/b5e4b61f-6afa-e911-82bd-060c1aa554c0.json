@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b5e4b61f-6afa-e911-82bd-060c1aa554c0",
+  "title": "Probationary Arrangement",
+  "description": "An arrangement to specify the probationary period, rights and obligations for the employee (relating to a process of testing or observing the character or abilities of a person who is new to a role or job.)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

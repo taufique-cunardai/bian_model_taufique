@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "818dfa4c-3d94-ea11-8295-06a5be9987fe",
+  "title": "Legal Compliance Check",
+  "description": "An assessment to check the Legal Compliance for the bank \r\n\r\nComment:\r\nThis includes interpreting the laws that govern the bank's operations and determining which laws apply in specific circumstances across the enterprise.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "86e0e873-aa4a-ef11-8b66-a402b9460f22",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "LegalComplianceCheckType"
+  ],
+  "properties": {
+    "LegalComplianceCheckType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c3a26856-3d94-ea11-8295-06a5be9987fe",
+      "target": "86e0e873-aa4a-ef11-8b66-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Compliance Check",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e6eea3b-4494-ea11-8295-06a5be9987fe",
+      "target": "11510b17-4494-ea11-8295-06a5be9987fe",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "50b906a2-dfab-ea11-829f-067a4ad4fc9c",
+  "title": "Market Oppurtunity",
+  "description": "Newly identified need, want, or demand trend that a firm can exploit because it is not being addressed by the competitors.\r\n\r\nRead more: http://www.businessdictionary.com/definition/market-opportunity.html",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

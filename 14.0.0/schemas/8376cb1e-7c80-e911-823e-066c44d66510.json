@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8376cb1e-7c80-e911-823e-066c44d66510",
+  "title": "Fraud Case",
+  "description": "A case that specifies the fraud related to a specific Customer or Customer Relationship. \r\nA case specifies fraudulent transactions/activities for a specific customer relationship which are detected during the production processing.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "be9acfc4-7880-e911-823e-066c44d66510",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "cda32a09-0ed6-e911-8296-06e1705194c6",
+      "target": "be9acfc4-7880-e911-823e-066c44d66510",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Case",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83b66a4b-f5e4-e911-82b0-0662ffb5e934",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": false,
+      "description": "AssociatedWithCase",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3a69be65-f3e4-e911-82b0-0662ffb5e934",
+      "target": "56f6f84a-0be1-e911-82a8-06ca917a32e2",
+      "modality": "M:N",
+      "required": true,
+      "description": "AssociatedWithCase",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0dcfe178-da9c-e911-827a-06038835ca94",
+      "target": "2b351971-da9c-e911-827a-06038835ca94",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "437db39c-13d6-e911-8296-06e1705194c6",
+      "target": "c4558d87-13d6-e911-8296-06e1705194c6",
+      "modality": "1:N",
+      "required": false,
+      "description": "ResolvingFraudCase",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2f325852-a2f1-e911-82b5-06f9534b74c8",
+  "title": "Party Certificate",
+  "description": "A certification issued for a party. \r\n\r\nAn issued document to certify a party.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "88593275-c0fb-ec11-83ad-065d8d549003",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PartyCertificateType",
+    "PartyCertificateIdentification"
+  ],
+  "properties": {
+    "PartyCertificateType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PartyCertificateTypeValues",
+      "x-related-bo-id": "c7be6d80-a3f1-e911-82b5-06f9534b74c8",
+      "x-related-bo-name": "PartyCertificateTypeValues"
+    },
+    "PartyCertificateIdentification": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1270997b-a4f1-e911-82b5-06f9534b74c8",
+      "target": "88593275-c0fb-ec11-83ad-065d8d549003",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Document",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

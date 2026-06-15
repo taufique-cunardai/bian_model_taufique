@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e1bf3e5c-3876-e911-823e-065f1d1f71b2",
+  "title": "Market Research Report",
+  "description": "A report resulting from market research.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5314d145-3876-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "MarketResearchReportContent",
+    "MarketResearchViewpointType",
+    "MarketResearchReportPeriod",
+    "MarketResearchReportVersion",
+    "MarketResearchReportType"
+  ],
+  "properties": {
+    "MarketResearchReportContent": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "MarketResearchViewpointType": {
+      "type": "string",
+      "description": "Reference to the Market Research Report Type which the report is an instance of",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "MarketResearchViewpointTypeValues",
+      "x-related-bo-id": "c1598bf2-d74d-ef11-874c-ac5afc7fae85",
+      "x-related-bo-name": "MarketResearchViewpointTypeValues"
+    },
+    "MarketResearchReportPeriod": {
+      "type": "string",
+      "description": "Period the Market research and its report apply to",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DateTimePeriod",
+      "x-related-bo-id": "0379c313-fb48-ea11-8289-064c9ffef37a",
+      "x-related-bo-name": "DateTimePeriod"
+    },
+    "MarketResearchReportVersion": {
+      "type": "string",
+      "description": "Version of the market research report",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "MarketResearchReportType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "MarketResearchReportTypeValues",
+      "x-related-bo-id": "65df94c4-d94d-ef11-874c-ac5afc7fae85",
+      "x-related-bo-name": "MarketResearchReportTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "67009f72-3876-e911-823e-065f1d1f71b2",
+      "target": "5314d145-3876-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Report",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f7384641-34d2-e911-8296-067fa12b3460",
+      "target": "8e8efdc9-33d2-e911-8296-067fa12b3460",
+      "modality": "M:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01d09815-7759-ea11-8290-064864f205d8",
+      "target": "2150f989-f356-ea11-8289-06477c6de968",
+      "modality": "M:N",
+      "required": false,
+      "description": "UsedFor\r\nComparison",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1a23712-a77b-e911-823e-061c465efe24",
+      "target": "abad4d58-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

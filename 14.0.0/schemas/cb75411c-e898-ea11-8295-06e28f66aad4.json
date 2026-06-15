@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cb75411c-e898-ea11-8295-06e28f66aad4",
+  "title": "Business Unit Management Plan",
+  "description": "A management plan for tracking and reporting on business unit activity and financial performance",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a03dec86-6675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "8b65cc23-e898-ea11-8295-06e28f66aad4",
+      "target": "a03dec86-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Management Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5795efb2-ee98-ea11-8295-06e28f66aad4",
+      "target": "480275ab-ee98-ea11-8295-06e28f66aad4",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e57ee2b-eb98-ea11-8295-06e28f66aad4",
+      "target": "9f8ce9bb-ea98-ea11-8295-06e28f66aad4",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "709be090-ee98-ea11-8295-06e28f66aad4",
+      "target": "6fc7de6f-ee98-ea11-8295-06e28f66aad4",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9763c677-e898-ea11-8295-06e28f66aad4",
+      "target": "0544b299-05a7-e911-8288-068d1795c1bc",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4992ef36-eb98-ea11-8295-06e28f66aad4",
+      "target": "962ccecf-ea98-ea11-8295-06e28f66aad4",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
