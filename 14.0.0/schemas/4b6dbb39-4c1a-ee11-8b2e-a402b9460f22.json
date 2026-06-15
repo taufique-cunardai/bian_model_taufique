@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4b6dbb39-4c1a-ee11-8b2e-a402b9460f22",
+  "title": "Product Agreement Involvement",
+  "description": "Party who plays a role in Product Agreement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dfe32bfe-2281-e911-823e-06e233b9c772",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InvolvementType",
+    "PartyReference",
+    "AgreementReference"
+  ],
+  "properties": {
+    "InvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProductServiceAgreementInvolvementTypeValues",
+      "x-related-bo-id": "69e31683-4d3c-ee11-8440-06fceca49739",
+      "x-related-bo-name": "ProductServiceAgreementInvolvementTypeValues"
+    },
+    "PartyReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    },
+    "AgreementReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Product Agreement",
+      "x-related-bo-id": "a05fc8be-24fd-ec11-83ad-0635e6952d6f",
+      "x-related-bo-name": "Product Agreement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "40a03581-1401-f111-8bdd-a402b9460f22",
+      "target": "dfe32bfe-2281-e911-823e-06e233b9c772",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Term Deposit Involvement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

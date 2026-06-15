@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "579446a8-6bb7-e911-8291-0657c6eca57a",
+  "title": "Clearing Procedure",
+  "description": "A procedure for managing the clearing process.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "8130bfae-6bb7-e911-8291-0657c6eca57a",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "178f45be-6bb7-e911-8291-0657c6eca57a",
+      "target": "b78127c9-63b7-e911-8291-0657c6eca57a",
+      "modality": "1:N",
+      "required": false,
+      "description": "ManagementProcess",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

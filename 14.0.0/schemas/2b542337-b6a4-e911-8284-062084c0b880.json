@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2b542337-b6a4-e911-8284-062084c0b880",
+  "title": "Sweep Arrangement Fulfillment Event",
+  "description": "Execution of the sweep arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SweepEventCounterAccountReference",
+    "SweepEventAmount",
+    "SweepEventExecutionDate"
+  ],
+  "properties": {
+    "SweepEventCounterAccountReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "SweepEventAmount": {
+      "type": "string",
+      "description": "The account in which the sweep amount came from or went to",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "SweepEventExecutionDate": {
+      "type": "string",
+      "description": "The date on which the sweep transfer was executed",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "16b66f13-b8a4-e911-8284-062084c0b880",
+      "target": "a58c8a29-5a96-e911-823e-062d75b50cca",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d32fc91-b455-eb11-82e3-06afd984332d",
+      "target": "3b53beb6-f4a9-e911-8288-06812ee60d2a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement Fulfillment Event",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e3c6320-7aac-e911-828c-064985deff14",
+      "target": "92910269-8dab-e911-828c-06e8cb19aef2",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "751e3ed2-06aa-e911-8288-06812ee60d2a",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

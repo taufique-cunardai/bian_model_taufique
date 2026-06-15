@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fd5594ed-6cd1-e911-8296-06e952cbc5d0",
+  "title": "Session Event Log",
+  "description": "Register in which the session events are logged\r\n\r\nContrary to the ContactDialogue log, this has no \"business\" meaning. It registers the \"session events\" as \"technical application concept\".",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "036afc9d-6dd1-e911-8296-06e952cbc5d0",
+      "target": "10a63256-ff9b-e911-827a-06f79ea59412",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

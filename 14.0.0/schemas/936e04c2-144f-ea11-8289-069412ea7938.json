@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "936e04c2-144f-ea11-8289-069412ea7938",
+  "title": "Debit Card Arrangement",
+  "description": "An Arrangement specifying that a Debit Card to access the services will be provided.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DebitCardArrangementLifeCyclePhase"
+  ],
+  "properties": {
+    "DebitCardArrangementLifeCyclePhase": {
+      "type": "string",
+      "description": "A lifecycle status indicating the stage in the fulfillment of the arrangement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "038aa3f3-d231-ec11-835e-069b580e7d8b",
+      "target": "f04197d7-0594-e911-823e-069871e4ec9c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Current Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f9d3554-154f-ea11-8289-069412ea7938",
+      "target": "53777ee2-6a9e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Savings Account Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "017118f2-d431-ec11-835e-069b580e7d8b",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70e2ae7c-d431-ec11-835e-069b580e7d8b",
+      "target": "99d68260-d431-ec11-835e-069b580e7d8b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f734ac9c-2321-f111-860d-06839b636291",
+      "target": "c1f59a86-2321-f111-860d-06839b636291",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

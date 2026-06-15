@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "467be474-4e07-f111-8602-0a46e3dae05d",
+  "title": "Redemption Involvement",
+  "description": "A specific party who plays a specific role in the redemption process.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RedemptionInvolvementType"
+  ],
+  "properties": {
+    "RedemptionInvolvementType": {
+      "type": "string",
+      "description": "Redemption involvement type is the specific role someone plays in the process of redeeming a benefit or asset.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RedemptionInvolvementTypeValues",
+      "x-related-bo-id": "6298f261-5107-f111-8602-0a46e3dae05d",
+      "x-related-bo-name": "RedemptionInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

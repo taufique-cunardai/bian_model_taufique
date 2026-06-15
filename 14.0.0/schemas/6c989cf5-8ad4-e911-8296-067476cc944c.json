@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6c989cf5-8ad4-e911-8296-067476cc944c",
+  "title": "Financial Gateway Session",
+  "description": "An Operating Session of a Financial Gateway",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "a240d410-8bd4-e911-8296-067476cc944c",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48950866-8cd4-e911-8296-067476cc944c",
+      "target": "368ec70d-8cd4-e911-8296-067476cc944c",
+      "modality": "1:N",
+      "required": false,
+      "description": "exchanged in",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af33b076-8bd4-e911-8296-067476cc944c",
+      "target": "f809fe2f-8bd4-e911-8296-067476cc944c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "775cefcd-8bd4-e911-8296-067476cc944c",
+      "target": "389809a2-8bd4-e911-8296-067476cc944c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

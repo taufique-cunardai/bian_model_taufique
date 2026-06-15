@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a7b66dd9-3efc-eb11-833a-0662ea9d4173",
+  "title": "Sweep Product Feature Modality",
+  "description": "A Sweep Product Feature Modality defines the rules and mechanisms by which a sweep product automatically moves or reallocates funds between accounts or financial instruments. It specifies how the sweep operates, when it triggers, and how the transferred funds are applied.\r\n\r\nComment:\r\nThe way in which a sweep arrangement will be fulfilled. \r\n\r\nThe way sweep transactions will be triggered and executed (on the \"from side) or what the reaction should be (on the receive side)\r\n\r\ne.g. buy securities when a sweep of the \"petty cash\" type is received on a securities account from a current account",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SweepProductFeatureModalityType",
+    "SweepArrangementModalityParameter",
+    "SweepArrangementModalityGuideline",
+    "SweepArrangementModalitySchedule"
+  ],
+  "properties": {
+    "SweepProductFeatureModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ModalityTypeValues",
+      "x-related-bo-id": "d22cd3dd-2ee6-eb11-8336-064164081b47",
+      "x-related-bo-name": "ModalityTypeValues"
+    },
+    "SweepArrangementModalityParameter": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Feature",
+      "x-related-bo-id": "64fe5512-598d-eb11-8310-068d732c0449",
+      "x-related-bo-name": "Feature"
+    },
+    "SweepArrangementModalityGuideline": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Rule Set",
+      "x-related-bo-id": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "x-related-bo-name": "Rule Set"
+    },
+    "SweepArrangementModalitySchedule": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Schedule",
+      "x-related-bo-id": "d7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Schedule"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

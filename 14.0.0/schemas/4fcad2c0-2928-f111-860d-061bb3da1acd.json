@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4fcad2c0-2928-f111-860d-061bb3da1acd",
+  "title": "Position Tracking Service",
+  "description": "A Position Tracking Service is a banking or treasury service that monitors, records, and reports the current and historical positions of financial assets, liabilities, or exposures held by a customer or institution. It ensures accurate visibility of holdings, balances, and risk exposure across accounts, products, and markets.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1c4407b1-2928-f111-860d-061bb3da1acd",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PositionTrackingServiceType"
+  ],
+  "properties": {
+    "PositionTrackingServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PositionTrackingServiceTypeValues",
+      "x-related-bo-id": "d26ea814-5928-f111-860d-02cf10b7252b",
+      "x-related-bo-name": "PositionTrackingServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "71a0dd00-2a28-f111-860d-061bb3da1acd",
+      "target": "1c4407b1-2928-f111-860d-061bb3da1acd",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Position Tracking Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

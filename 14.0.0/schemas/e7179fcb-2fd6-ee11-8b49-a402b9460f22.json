@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e7179fcb-2fd6-ee11-8b49-a402b9460f22",
+  "title": "Business Information",
+  "description": "A logical grouping of data, meaningful in context, meant to trigger behavior, create knowledge and/or insight. \r\n\r\nA meaningful unit of information about business objects in context . It is typically what is communicated between actors. Eg. Sales Order information, Transport Order information, Passport Information, Party Information.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

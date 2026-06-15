@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9cf9926b-d85f-eb11-82e9-061efd29a677",
+  "title": "Organisation Manual",
+  "description": "A small book which contains the information regarding the organisation structure, duties and responsibilities of each position, job, description, salaries, prevailing relationships among members including organisation procedures and methods is called organization manual.\r\n\r\nManual means a hand-book. Organisation manual is a handbook maintained in hard cover, in loose-leaf form containing information about policies, operations, rules and regulations, objectives, procedures, departmental details etc.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "OrganisationManualType"
+  ],
+  "properties": {
+    "OrganisationManualType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "OrganisationManualTypeValues",
+      "x-related-bo-id": "67edb1be-d85f-eb11-82e9-061efd29a677",
+      "x-related-bo-name": "OrganisationManualTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "59c68625-da5f-eb11-82e9-061efd29a677",
+      "target": "ba9abd47-c656-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Document",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57b20ecd-d95f-eb11-82e9-061efd29a677",
+      "target": "4d9d36c4-d95f-eb11-82e9-061efd29a677",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

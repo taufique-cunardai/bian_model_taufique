@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b5e678bc-f424-eb11-82d4-060d98156e5b",
+  "title": "Branch Location Management Plan",
+  "description": "A plan to manage and oversee branch activity, assign resources to optimize branch performance",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a03dec86-6675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "810f2cc6-f424-eb11-82d4-060d98156e5b",
+      "target": "a03dec86-6675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Management Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee1be7ed-a83f-eb11-82e3-065f2c4c8ed1",
+      "target": "b9a558e7-a83f-eb11-82e3-065f2c4c8ed1",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c98c14b7-9bd8-e911-82a8-06740d90dcce",
+  "title": "Corporate Asset",
+  "description": "The view on something as being an asset for the bank\r\n\r\ncan be a role of an agreement (bond, loan...), intellectual or physical property of an item...",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

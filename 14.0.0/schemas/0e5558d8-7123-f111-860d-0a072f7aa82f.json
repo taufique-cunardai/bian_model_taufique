@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0e5558d8-7123-f111-860d-0a072f7aa82f",
+  "title": "Earn Calculation Modality",
+  "description": "Earn Calculation Modality defines how the amount of rewards, points, or benefits earned is computed. It governs the rules and logic for generating rewards.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9afbafc5-6e23-f111-860d-0a072f7aa82f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "EarnCalculationModalityType"
+  ],
+  "properties": {
+    "EarnCalculationModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "EarnCalculationModalityTypeValues",
+      "x-related-bo-id": "b8027d9f-7223-f111-860d-0a072f7aa82f",
+      "x-related-bo-name": "EarnCalculationModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "bd44ede8-7123-f111-860d-0a072f7aa82f",
+      "target": "9afbafc5-6e23-f111-860d-0a072f7aa82f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Earn Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

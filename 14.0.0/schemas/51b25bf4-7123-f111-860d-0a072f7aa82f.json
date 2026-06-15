@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "51b25bf4-7123-f111-860d-0a072f7aa82f",
+  "title": "Earn Timing Modality",
+  "description": "Earn Timing Modality defines when rewards, points, or benefits are earned or accrued based on transactions, activities, or events.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9afbafc5-6e23-f111-860d-0a072f7aa82f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "EarnTimingModalityType"
+  ],
+  "properties": {
+    "EarnTimingModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "EarnTimingModalityTypeValues",
+      "x-related-bo-id": "54a9b1aa-7223-f111-860d-0a072f7aa82f",
+      "x-related-bo-name": "EarnTimingModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "38655cfd-7123-f111-860d-0a072f7aa82f",
+      "target": "9afbafc5-6e23-f111-860d-0a072f7aa82f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Earn Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "05a41f61-04aa-e911-8288-06812ee60d2a",
+  "title": "Standing Order Agreement",
+  "description": "An agreement concerning the standing order service, where the bank periodically transfers a given amount from a source account to a target account",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "8b5c3f9b-a80b-ef11-8b51-a402b9460f22",
+      "target": "a05fc8be-24fd-ec11-83ad-0635e6952d6f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c05fd1c5-6a3a-ed11-83cc-06bbc4cc08b7",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6a9af575-60df-ed11-840a-069263770e41",
+      "target": "5a44f209-53df-ed11-840a-069263770e41",
+      "modality": "1:N",
+      "required": false,
+      "description": "SubjectOfConsent",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f083e62c-05aa-e911-8288-06812ee60d2a",
+      "target": "ac535bd6-3298-e911-827a-06b20c6b9b78",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

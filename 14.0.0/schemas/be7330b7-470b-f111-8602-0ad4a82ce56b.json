@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "be7330b7-470b-f111-8602-0ad4a82ce56b",
+  "title": "Earn Involvement",
+  "description": "Earn Involvement refers to the participation or role of parties in the process of earning incentives under an earn arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "EarnInvolvementType"
+  ],
+  "properties": {
+    "EarnInvolvementType": {
+      "type": "string",
+      "description": "An Earn Involvement Type is the classification of the role a party plays in the earning process of incentives under an earn arrangement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "EarnInvolvementTypeValues",
+      "x-related-bo-id": "c77ba255-480b-f111-8602-0ad4a82ce56b",
+      "x-related-bo-name": "EarnInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "606c73fd-2694-e911-823e-069871e4ec9c",
+  "title": "Arrangement Involvement",
+  "description": "The involvement (role) of an instance of a party in an instance of an arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ArrangementInvolvementType",
+    "PartyReference",
+    "ArrangementReference"
+  ],
+  "properties": {
+    "ArrangementInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ArrangementInvolvementTypeValues",
+      "x-related-bo-id": "9ba3ed51-9c55-eb11-82e3-06afd984332d",
+      "x-related-bo-name": "ArrangementInvolvementTypeValues"
+    },
+    "PartyReference": {
+      "type": "string",
+      "description": "The party that has the arrangement involvement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Party",
+      "x-related-bo-id": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Party"
+    },
+    "ArrangementReference": {
+      "type": "string",
+      "description": "The arrangement in which the party is involved",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Arrangement",
+      "x-related-bo-id": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Arrangement"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b44e4ba9-a99d-e911-827a-06c73ecc951a",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d003d75-26d6-e911-8296-06c6ee6741dc",
+      "target": "d579f82c-0cd6-e911-8296-0612a84747f6",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a6e3a70-a99d-e911-827a-06c73ecc951a",
+      "target": "719c9355-a89d-e911-827a-06c73ecc951a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e364730-6f9e-e911-827a-06e8627b9e66",
+      "target": "c363d6cb-6e9e-e911-827a-06e8627b9e66",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

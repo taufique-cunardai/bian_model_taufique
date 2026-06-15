@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dfe32bfe-2281-e911-823e-06e233b9c772",
+  "title": "Term Deposit Involvement",
+  "description": "The involvement (role) of an instance of a party in an instance of an agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "TermDepositAgreementInvolvementType"
+  ],
+  "properties": {
+    "TermDepositAgreementInvolvementType": {
+      "type": "string",
+      "description": "A characteristic of agreement which refers to its involved parties based on the type of involvement (depend on the type of agreement/product). For example, involved parties in Direct Debit Agreement are debtor, creditor, debtor bank, creditor bank, etc. Other example, if the type of agreement is too abstract like contractual agreement, involved parties are PrincipalParty, CounterParty, ThirdParty.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TermDepositInvolvementTypeValues",
+      "x-related-bo-id": "342f7f2f-b15b-ee11-8b3a-a402b9460f22",
+      "x-related-bo-name": "TermDepositInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "41249acd-2381-e911-823e-06e233b9c772",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "04c43783-a99d-e911-827a-06c73ecc951a",
+      "target": "719c9355-a89d-e911-827a-06c73ecc951a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "87eabb46-2a1d-f111-8608-0a664c0a40fd",
+  "title": "Origination Term and Condition",
+  "description": "Origination terms and conditions are the rules, obligations, and requirements that govern the initiation and setup of a banking product or facility.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "aa0b88d7-281d-f111-8608-0a664c0a40fd",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "OriginationTermandConditionType"
+  ],
+  "properties": {
+    "OriginationTermandConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "OriginationTermandConditionTypeValues",
+      "x-related-bo-id": "1a499401-341d-f111-8608-0a664c0a40fd",
+      "x-related-bo-name": "OriginationTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5504d350-2a1d-f111-8608-0a664c0a40fd",
+      "target": "aa0b88d7-281d-f111-8608-0a664c0a40fd",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Origination Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

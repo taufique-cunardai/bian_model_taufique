@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5f8ac218-7780-e911-823e-061de61e9206",
+  "title": "Insurance Agreement",
+  "description": "An Agreement between an insurer and a customer to insure a risk object against some risk.\r\n\r\nAn insurance agreement is the core contract between an insurance company (the insurer) and a customer (the policyholder).\r\n\r\nIt is the section of an insurance policy that sets out the insurers promise:\r\n\r\nwhat risks or events are covered (e.g., death, accident, illness, loss of property),\r\nunder what conditions the insurer will pay, and\r\nwhat obligations the policyholder must meet (like paying premiums).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a05fc8be-24fd-ec11-83ad-0635e6952d6f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InsuranceAgreementType"
+  ],
+  "properties": {
+    "InsuranceAgreementType": {
+      "type": "string",
+      "description": "An identifier that allows to uniquely refer to an instance of an Insurance Agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InsuranceProductTypeValues",
+      "x-related-bo-id": "46a6dc2b-247c-f011-8bb9-a402b9460f22",
+      "x-related-bo-name": "InsuranceProductTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "a1fd6455-02b4-f011-8bc2-a402b9460f22",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60007ada-6282-f011-8bb9-a402b9460f22",
+      "target": "a05fc8be-24fd-ec11-83ad-0635e6952d6f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6c62447-267c-f011-8bb9-a402b9460f22",
+      "target": "8fdac4d6-257c-f011-8bb9-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "Involved\r\nPartyRole",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7025d545-227c-f011-8bb9-a402b9460f22",
+      "target": "5d8dad91-217c-f011-8bb9-a402b9460f22",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1597a67f-7780-e911-823e-061de61e9206",
+      "target": "c33a1367-7780-e911-823e-061de61e9206",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf64de17-02b4-f011-8bc2-a402b9460f22",
+      "target": "96957200-6682-f011-8bb9-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "Insured\r\nAgreement",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

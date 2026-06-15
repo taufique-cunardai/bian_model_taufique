@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e1226616-2d81-e911-823e-06e80039c878",
+  "title": "Customer Precedents Procedure",
+  "description": "A procedure to maintain/track the status of customer precedents.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7fa3e892-2b81-e911-823e-06e80039c878",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e9226616-2d81-e911-823e-06e80039c878",
+      "target": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Procedure",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f7697627-3181-e911-823e-06e80039c878",
+      "target": "dfa2a212-3081-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f34eda67-2d81-e911-823e-06e80039c878",
+      "target": "bcfa8532-2d81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb4eda67-2d81-e911-823e-06e80039c878",
+      "target": "010fac5a-2d81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b97d0eed-3581-e911-823e-06e80039c878",
+      "target": "b73b3288-3181-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f74eda67-2d81-e911-823e-06e80039c878",
+      "target": "b118f439-2d81-e911-823e-06e80039c878",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

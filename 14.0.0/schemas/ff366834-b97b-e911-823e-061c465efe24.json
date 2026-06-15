@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ff366834-b97b-e911-823e-061c465efe24",
+  "title": "Product Term And Condition",
+  "description": "Pre-defined, uniform terms that apply to all customers for a specific banking product.\r\n\r\nComment:\r\n- Applies to all customers unless exceptions are documented.\r\n- Fixed terms defined by product design and regulatory compliance.\r\n- Approved at the product governance level (e.g., product committee).\r\n- Documented in product catalogue, brochures, digital channels, website.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProductTermAndConditionType",
+    "ConditionReference",
+    "ProductReference"
+  ],
+  "properties": {
+    "ProductTermAndConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProductTermAndConditionType",
+      "x-related-bo-id": "eaaa1bc4-4788-e911-823e-06b09c770f0c",
+      "x-related-bo-name": "ProductTermAndConditionType"
+    },
+    "ConditionReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Condition",
+      "x-related-bo-id": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "x-related-bo-name": "Condition"
+    },
+    "ProductReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Product",
+      "x-related-bo-id": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Product"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1f3cffd7-5997-e911-823e-065ba593ba6e",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2dcb409a-0972-f011-8bb9-a402b9460f22",
+      "target": "845b724f-0972-f011-8bb9-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "AgreedTermAndCondition",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "006c46e4-9960-eb11-82e9-06f21a0655e3",
+      "target": "b96903ef-9860-eb11-82e9-06f21a0655e3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5846c16-3892-f011-8bbf-a402b9460f22",
+      "target": "7ff00710-3892-f011-8bbf-a402b9460f22",
+      "modality": "M:N",
+      "required": false,
+      "description": "Modified\r\nTerm&Condition",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b44535ac-dc4b-ee11-8b38-a402b9460f22",
+      "target": "775b8400-54b5-ea11-829f-06ddb95e6bc8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

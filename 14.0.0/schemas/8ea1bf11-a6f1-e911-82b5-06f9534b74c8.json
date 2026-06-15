@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8ea1bf11-a6f1-e911-82b5-06f9534b74c8",
+  "title": "Organisation Location",
+  "description": "A Place to locate an organisation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "OrganisationLocationType",
+    "LocationReference",
+    "OrganisationReference"
+  ],
+  "properties": {
+    "OrganisationLocationType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "OrganisationLocationTypeValues",
+      "x-related-bo-id": "1b6ece40-a6f1-e911-82b5-06f9534b74c8",
+      "x-related-bo-name": "OrganisationLocationTypeValues"
+    },
+    "LocationReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Location",
+      "x-related-bo-id": "063a0dcf-0561-e911-8237-068e13695e26",
+      "x-related-bo-name": "Location"
+    },
+    "OrganisationReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Organisation",
+      "x-related-bo-id": "fbc0b4fa-8257-e911-8237-0645314e65ac",
+      "x-related-bo-name": "Organisation"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

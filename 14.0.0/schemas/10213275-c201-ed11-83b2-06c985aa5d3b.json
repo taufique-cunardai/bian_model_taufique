@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "10213275-c201-ed11-83b2-06c985aa5d3b",
+  "title": "Bank Plan Agreement",
+  "description": "An Agreement between bank and customer for having/opening multiple chequing and savings accounts under one bank plan",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "3ff20cc9-4c7d-e911-823e-069ad1a2e648",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b4934a44-d201-ed11-83b2-06c985aa5d3b",
+      "target": "3ff20cc9-4c7d-e911-823e-069ad1a2e648",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Sales Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f94c47a-c901-ed11-83b2-06c985aa5d3b",
+      "target": "c5855d6d-c901-ed11-83b2-06c985aa5d3b",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3851a574-ca01-ed11-83b2-06c985aa5d3b",
+      "target": "a411966e-ca01-ed11-83b2-06c985aa5d3b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

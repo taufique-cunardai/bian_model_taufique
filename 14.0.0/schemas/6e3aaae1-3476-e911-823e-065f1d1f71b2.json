@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6e3aaae1-3476-e911-823e-065f1d1f71b2",
+  "title": "Customer Event Log",
+  "description": "A record of the customer's events.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "2d0e6218-3576-e911-823e-065f1d1f71b2",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "5e664228-3576-e911-823e-065f1d1f71b2",
+      "target": "2d0e6218-3576-e911-823e-065f1d1f71b2",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Log",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "321d2f5e-ea48-ef11-8b66-a402b9460f22",
+      "target": "db627e2e-b52c-ef11-8b5c-a402b9460f22",
+      "modality": "M:N",
+      "required": false,
+      "description": "LogUsed\r\nInAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c87420c-0f9c-e911-827a-06f79ea59412",
+      "target": "904758f4-6180-e911-823e-066c44d66510",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2aa9bad-3576-e911-823e-065f1d1f71b2",
+      "target": "abad4d58-7675-e911-823e-064d1e9fbc72",
+      "modality": "M:N",
+      "required": false,
+      "description": "LogUsed\r\nInAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

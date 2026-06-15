@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3fd1b799-fc60-e911-8237-068e13695e26",
+  "title": "Card Payment Arrangement",
+  "description": "An agreement established among the card holder and the card issuer to use the payment card for payment",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a6ea66b8-8596-e911-823e-062d75b50cca",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PaymentCardArrangementIdentifier",
+    "CardPaymentArrangementType"
+  ],
+  "properties": {
+    "PaymentCardArrangementIdentifier": {
+      "type": "string",
+      "description": "Identifier of arrangement/obligation in the payment card agreement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    },
+    "CardPaymentArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ArrangementTypeValues",
+      "x-related-bo-id": "b1719e80-5124-eb11-82d4-06982365eacb",
+      "x-related-bo-name": "ArrangementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c7365b00-af30-eb11-82d9-061c5848f615",
+      "target": "a6ea66b8-8596-e911-823e-062d75b50cca",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa9a0b91-a3ba-e911-8291-062b31ab758a",
+      "target": "6776dee4-9d30-eb11-82d9-061c5848f615",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5085efef-dab9-e911-8291-06e0c61563f0",
+      "target": "9c3b00ce-7a6a-e911-8237-061b75d0d318",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c75c97f1-fe60-e911-8237-068e13695e26",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

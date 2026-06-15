@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eca491e3-d66f-e911-8237-06309b11004c",
+  "title": "Payment Instruction Involvement",
+  "description": "Party who plays a specific role in a specific payment instruction.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PaymentInstructionInvolvementType"
+  ],
+  "properties": {
+    "PaymentInstructionInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PaymentInvolvementTypeValues",
+      "x-related-bo-id": "35328c76-7546-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "PaymentInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d766c809-d76f-e911-8237-06309b11004c",
+      "target": "9bc7af8d-d46f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role Type",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3df2ea5-fc6f-e911-8237-06309b11004c",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09e9bf43-fea6-ed11-83f5-0672cda25507",
+      "target": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e3c778d-1e1f-ee11-8b30-a402b9460f22",
+      "target": "df4e3cdd-1fb5-e911-828c-06363e70c8fa",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
