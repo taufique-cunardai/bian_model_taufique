@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ecaf0ef0-f6d2-e911-8296-06b94e7647ce",
+  "title": "Delinquent Account Resolution",
+  "description": "Resolution of the delinquent account.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ef8f1d54-76c9-e911-8296-067806600528",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "19623ca0-f7d2-e911-8296-06b94e7647ce",
+      "target": "ef8f1d54-76c9-e911-8296-067806600528",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Case Resolution",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ced4715-f7d2-e911-8296-06b94e7647ce",
+      "target": "7e15ccce-e7d2-e911-8296-06b94e7647ce",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

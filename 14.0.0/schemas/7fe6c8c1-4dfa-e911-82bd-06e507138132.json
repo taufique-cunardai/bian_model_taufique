@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7fe6c8c1-4dfa-e911-82bd-06e507138132",
+  "title": "Commission Arrangement",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6a51e05c-2ef7-e911-82bd-06554362bd22",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "932d3d71-b06f-eb11-82fd-06eca61d1073",
+      "target": "c80f2ee6-f097-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6a508be6-4dfa-e911-82bd-06e507138132",
+      "target": "6a51e05c-2ef7-e911-82bd-06554362bd22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Remuneration Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ad2057f-6b39-eb11-82e3-06552f30ee75",
+      "target": "c183a61c-b36f-eb11-82fd-06eca61d1073",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f09bdaf-6e39-eb11-82e3-06552f30ee75",
+      "target": "a3048aa7-6e39-eb11-82e3-06552f30ee75",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e4d22f0-7c00-ea11-82c2-06bea3a5b676",
+      "target": "2e608da9-7c00-ea11-82c2-06bea3a5b676",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

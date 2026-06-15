@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7d149499-2076-e911-823e-065f1d1f71b2",
+  "title": "Customer Product and Service Profile",
+  "description": "The product/service profile for a specific customer or customer relationship.\r\nA list of products and services for which a customer is eligible.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "af9552c0-6f92-e911-823e-06332a9c23ba",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProfileType",
+    "CustomerReference"
+  ],
+  "properties": {
+    "ProfileType": {
+      "type": "string",
+      "description": "A Functional Classification Hierarchy that distinguishes between Customer Product Profiles according to the aspect that is profiled.\r\nExample values are Product/Service Eligibility, Product/Service Usage, Product/Service Coverage, Product/Service Sale and etc.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerProductServiceProfileTypeValues",
+      "x-related-bo-id": "71ef5d25-4288-e911-823e-06b09c770f0c",
+      "x-related-bo-name": "CustomerProductServiceProfileTypeValues"
+    },
+    "CustomerReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Customer Relationship",
+      "x-related-bo-id": "1803596c-6675-e911-823e-064d1e9fbc72",
+      "x-related-bo-name": "Customer Relationship"
+    },
+    "ProductReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 0,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Product",
+      "x-related-bo-id": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "x-related-bo-name": "Product"
+    },
+    "ServiceReference": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 0,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Service",
+      "x-related-bo-id": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "x-related-bo-name": "Service"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d2977343-406d-eb11-82f6-0653aca742a3",
+      "target": "af9552c0-6f92-e911-823e-06332a9c23ba",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Profile",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53da8bed-4a88-e911-823e-06b09c770f0c",
+      "target": "f9de363b-b986-e911-823e-062687e6a904",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1834ba47-2789-e911-823e-063169c9e850",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5a1a9222-972b-ee11-8b31-a402b9460f22",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "808aa837-3c4b-ef11-8b66-a402b9460f22",
+      "target": "6650b4d8-d157-ea11-8289-060c7a9911f6",
+      "modality": "M:N",
+      "required": false,
+      "description": "EligibilityOfCustomer\r\nInCampaign",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac60b01f-2a89-e911-823e-063169c9e850",
+      "target": "fa9f22ed-2989-e911-823e-063169c9e850",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d4e5f9d2-8675-e911-823e-064d1e9fbc72",
+  "title": "Customer Relationship Development",
+  "description": "The action/task which is planned to develop the customer relationship by building, maintaining, and enhancing relationships with customers to foster loyalty, satisfaction, and long-term engagement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5536bb98-a367-eb11-82f6-06f5e4900cbd",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CustomerRelationshipDevelopmentType"
+  ],
+  "properties": {
+    "CustomerRelationshipDevelopmentType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CustomerRelationshipDevelopmentTypeValues",
+      "x-related-bo-id": "6f78c9b2-3e2e-ef11-8b60-a402b9460f22",
+      "x-related-bo-name": "CustomerRelationshipDevelopmentTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "a3299597-7d4e-ef11-8b67-a402b9460f22",
+      "target": "5536bb98-a367-eb11-82f6-06f5e4900cbd",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Planned Action",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

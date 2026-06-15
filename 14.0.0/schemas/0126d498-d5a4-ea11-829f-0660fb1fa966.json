@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0126d498-d5a4-ea11-829f-0660fb1fa966",
+  "title": "Asset Liability Portfolio",
+  "description": "A portfolio of assets and liabilities managed by the bank",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ee6b0ec4-d8a4-ea11-829f-0660fb1fa966",
+      "target": "6868934a-daa4-ea11-829f-0660fb1fa966",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cfabbc2-d5a4-ea11-829f-0660fb1fa966",
+      "target": "9dd961f0-479f-ea11-829a-068b70783c3c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

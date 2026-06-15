@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "54f6e875-b3d3-e911-8296-0699dd1a0780",
+  "title": "Fraud",
+  "description": "A act or course of deception, an intentional concealment, omission, or perversion of truth. (Business Dictionary)\r\n\r\nIntentional misrepresentation or concealment of information in order to deceive or mislead. It is illegal. (Investorword)\r\n\r\nAn intentionally deceptive action designed to provide the perpetrator with an unlawful gain or to deny a right to a victim. (Investopedia)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

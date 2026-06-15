@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e4d17e1a-9096-ea11-8295-06bf959bc1e4",
+  "title": "Business Development Strategy",
+  "description": "A strategy to achieve the goals defined for the business development",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b1cb007b-fa94-ea11-8295-06c610ca3b44",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "46239f28-9096-ea11-8295-06bf959bc1e4",
+      "target": "b1cb007b-fa94-ea11-8295-06c610ca3b44",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Strategy",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "951c190b-7243-ef11-8b66-a402b9460f22",
+      "target": "e2400aac-7143-ef11-8b66-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "AchievingGoal",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

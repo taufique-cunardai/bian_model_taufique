@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "93e574ec-82c9-e911-8296-067806600528",
+  "title": "Card Payment Case Resolution",
+  "description": "Dispute resolution for a card case.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ef8f1d54-76c9-e911-8296-067806600528",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e96ed519-83c9-e911-8296-067806600528",
+      "target": "ef8f1d54-76c9-e911-8296-067806600528",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Case Resolution",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

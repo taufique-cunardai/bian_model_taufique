@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "11510b17-4494-ea11-8295-06a5be9987fe",
+  "title": "Legal Compliance Check Involvement",
+  "description": "A role that is played by a specific party for Legal Compliance Check",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ffa36bbc-4494-ea11-8295-06a5be9987fe",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "45bf734f-de62-ea11-8290-0614a0f38526",
+  "title": "Accounting Rule Set",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a89ab5c4-598b-e911-823e-0680522666ec",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "721d90a4-de62-ea11-8290-0614a0f38526",
+      "target": "a89ab5c4-598b-e911-823e-0680522666ec",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Rule Set",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

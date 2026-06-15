@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bea77a80-5c90-ea11-8295-062b57ab2c80",
+  "title": "Customer Campaign Arrangement",
+  "description": "An arrangement to fulfill the Customer Campaign. \r\n\r\nArrangements for a customer campaign refer to the various setups and configurations that help plan, execute, and manage the campaign effectively. These arrangements encompass several aspects, including strategic planning, organizational structure, execution tactics, and evaluation methods. \r\n\r\nFor example: \r\n\r\n\"Engagement Arrangement\" to specify how the product or service is adapted in the context of the campaign (e.g. discounted pricing/preferential rates, waived service fees, gifts or incentives) \r\n\r\n\"Transfer Pricing Arrangement\" to specify how any discounted costs are to be accounted for by the product fulfillment function (e.g. borne by fulfillment business unit, compensated by campaign budget)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "53cef569-5a4b-ef11-8b66-a402b9460f22",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4d6e7c88-5c90-ea11-8295-062b57ab2c80",
+      "target": "6650b4d8-d157-ea11-8289-060c7a9911f6",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

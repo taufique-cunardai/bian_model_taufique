@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "af9552c0-6f92-e911-823e-06332a9c23ba",
+  "title": "Profile",
+  "description": "A brief description of the characteristics of something or someone. (Business Dictionary)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.180Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e995fe90-2fa9-ed11-83f5-063802d1c599",
+      "target": "8e6ce5c7-4cd2-e911-8296-0633d5e0e610",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d96424c-51fc-ec11-83ad-06cd3bb6cbfd",
+      "target": "abe83556-95f1-e911-82b5-06f9534b74c8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

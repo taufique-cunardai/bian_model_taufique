@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "61e9f6e1-09af-ea11-829f-06c5ce6fa94e",
+  "title": "Investment Portfolio Management Agreement Term And Condition",
+  "description": "Term and Condition that is making up the agreement that govern the management of the investment portfolio. Note that there may be many different types of terms and clauses making up the overall policy",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1ab9690c-f297-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ab0e1ef5-09af-ea11-829f-06c5ce6fa94e",
+      "target": "1ab9690c-f297-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement Term and Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

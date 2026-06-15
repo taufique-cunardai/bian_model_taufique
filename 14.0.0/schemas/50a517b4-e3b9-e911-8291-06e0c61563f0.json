@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "50a517b4-e3b9-e911-8291-06e0c61563f0",
+  "title": "Card Payment Account",
+  "description": "A bank account upon which the financial position of card payment arrangements are managed.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "0b31782b-7fd4-e911-8296-06922f00c5a6",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69de4dd2-8134-eb11-82df-06f2017d21ad",
+      "target": "3fd1b799-fc60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

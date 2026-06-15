@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fc95d31a-63b7-e911-8291-0657c6eca57a",
+  "title": "Clearing System",
+  "description": "Specifies the system which plays a role in the clearing process. (ISO20022)\r\n\r\nA set of rules and procedures whereby financial institutions present and exchange data and/or documents relating to transfers of funds or securities to other financial institutions at a single location (e.g. a clearing house). These procedures often include a mechanism for calculating participants mutual positions, potentially on a net basis, with a view to facilitating the settlement of their obligations in a settlement system. (ECB)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "cc9e3da4-a4ba-ee11-8b46-a402b9460f22",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bb87bc6-65b7-e911-8291-0657c6eca57a",
+      "target": "b78127c9-63b7-e911-8291-0657c6eca57a",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

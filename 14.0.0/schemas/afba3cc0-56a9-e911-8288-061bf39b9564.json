@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "afba3cc0-56a9-e911-8288-061bf39b9564",
+  "title": "Contact Involvement",
+  "description": "A specific role of a specific Party involved in the customer contact.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ContactInvolvementType"
+  ],
+  "properties": {
+    "ContactInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ContactInvolvementTypeValues",
+      "x-related-bo-id": "a61e5a5d-57a9-e911-8288-061bf39b9564",
+      "x-related-bo-name": "ContactInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e6496711-57a9-e911-8288-061bf39b9564",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Role",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

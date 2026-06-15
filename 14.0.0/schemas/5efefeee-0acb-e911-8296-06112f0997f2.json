@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5efefeee-0acb-e911-8296-06112f0997f2",
+  "title": "Merchant Account",
+  "description": "A bank account established under an agreement between a merchant and an acquiring bank for the settlement of payment card transactions.\r\n\r\n\r\nA type of bank account that allows businesses to accept payments in multiple ways, typically debit or credit cards. A merchant account is established under an agreement between an acceptor and a merchant acquiring bank for the settlement of payment card transactions.\r\n\r\n\r\nBank or other current (checking) account into which a trader receives the proceeds of credit card and electronic commerce (onsite or online) sales.\r\n\r\nmerchant account. BusinessDictionary.com. Retrieved August 24, 2019, from BusinessDictionary.com website: http://www.businessdictionary.com/definition/merchant-account.html",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ca1e90fa-0bcb-e911-8296-06112f0997f2",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "443ff2b0-0bcb-e911-8296-06112f0997f2",
+      "target": "d40bcd55-05cb-e911-8296-06112f0997f2",
+      "modality": "1:N",
+      "required": false,
+      "description": "AccountStablished\r\nUnderAgreement",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

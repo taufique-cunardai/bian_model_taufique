@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c68a54f6-0ea3-e911-8280-06760b39b086",
+  "title": "Dunning Procedure Execution",
+  "description": "An individual case of collection of overdue accounts payable",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DunningProcedureIdentification",
+    "DunningContactLog",
+    "DunningAnalysisLog"
+  ],
+  "properties": {
+    "DunningProcedureIdentification": {
+      "type": "string",
+      "description": "Identification of an individual case of collection of overdue accounts payable",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "DunningContactLog": {
+      "type": "string",
+      "description": "Logging of the contacts with the customer(s) during the dunning procedure",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "DunningAnalysisLog": {
+      "type": "string",
+      "description": "Log of the analysis actions during a dunning procedure",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6c72a794-21a3-e911-8280-06760b39b086",
+      "target": "f37b4721-17a3-e911-8280-06760b39b086",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c609d8ae-13a3-e911-8280-06760b39b086",
+      "target": "e8d5f6ef-10a3-e911-8280-06760b39b086",
+      "modality": "M:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63952147-35a3-e911-8280-06760b39b086",
+      "target": "44b4f051-32a3-e911-8280-06760b39b086",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9faa78b4-32a3-e911-8280-06760b39b086",
+      "target": "5a290f12-19a3-e911-8280-06760b39b086",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a645b7b9-2aa3-e911-8280-06760b39b086",
+      "target": "62f9093a-19a3-e911-8280-06760b39b086",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aae62b48-20a3-e911-8280-06760b39b086",
+      "target": "90bc8b25-20a3-e911-8280-06760b39b086",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "09837c64-2aa3-e911-8280-06760b39b086",
+      "target": "a1c4ed47-19a3-e911-8280-06760b39b086",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ec3574a-2aa3-e911-8280-06760b39b086",
+      "target": "08288916-24a3-e911-8280-06760b39b086",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd6f1df1-13a3-e911-8280-06760b39b086",
+      "target": "e3a6892a-13a3-e911-8280-06760b39b086",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

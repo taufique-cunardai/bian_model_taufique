@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f0b986ab-7192-e911-823e-0616b0d596e4",
+  "title": "Financial Instruction",
+  "description": "An instruction to do something expressed in an amount of money.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InstructionAmount",
+    "InstructionCurrency",
+    "FinancialInstructionType"
+  ],
+  "properties": {
+    "InstructionAmount": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Amount",
+      "x-related-bo-id": "0e4c1114-9aec-eb11-8336-065c7694b5df",
+      "x-related-bo-name": "Amount"
+    },
+    "InstructionCurrency": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AccountCurrency",
+      "x-related-bo-id": "62c684d0-7dba-e911-8291-062b31ab758a",
+      "x-related-bo-name": "AccountCurrency"
+    },
+    "FinancialInstructionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialInstructionTypeValues",
+      "x-related-bo-id": "eb36b875-51a1-ec11-837e-061d0db0fbbb",
+      "x-related-bo-name": "FinancialInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6cec6e8b-7292-e911-823e-0616b0d596e4",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

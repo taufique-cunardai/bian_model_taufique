@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3500ccc6-af9d-e911-827a-06c73ecc951a",
+  "title": "Relevant Date Time",
+  "description": "The meaning of a time indication for an object; E.g. opening data of an account, signing date of an agreement... birth date of a person.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DateTimeRelevanceType"
+  ],
+  "properties": {
+    "DateTimeRelevanceType": {
+      "type": "string",
+      "description": "A classification of the relevance a time indication has for an object.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2eaef57e-33d6-e911-8296-06c6ee6741dc",
+      "target": "595d1223-32d6-e911-8296-06c6ee6741dc",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9655800c-27d6-e911-8296-06c6ee6741dc",
+      "target": "90a47db1-0dd6-e911-8296-0612a84747f6",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "038ad9de-6c9e-e911-827a-06e8627b9e66",
+      "target": "113ad50c-a29d-e911-827a-06c73ecc951a",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

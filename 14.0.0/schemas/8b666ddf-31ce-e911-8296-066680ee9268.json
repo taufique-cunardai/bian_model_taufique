@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8b666ddf-31ce-e911-8296-066680ee9268",
+  "title": "Account Recovery Case",
+  "description": "A recovery case for a distressed account. (to be discussed !!!)\r\nA case related to the recovery of due amounts of the customer. (PD)\r\n\r\nPatrick's comment:\r\nIt is applicable whenever the customer has to pay a charge or has to pay back amounts. This is especially applicable for credit card amounts, loan amounts, but also invoices sent by the bank to the customer, for trade finance, etc. \r\nThis is only applicable if the customer is not fulfilling his/her duties after a period of time and after a number of instruction to pay.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "be9acfc4-7880-e911-823e-066c44d66510",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "938dbfee-31ce-e911-8296-066680ee9268",
+      "target": "be9acfc4-7880-e911-823e-066c44d66510",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Case",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd8de02b-33ce-e911-8296-066680ee9268",
+      "target": "af8d6008-33ce-e911-8296-066680ee9268",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "930d7589-58ce-e911-8296-066680ee9268",
+      "target": "3c337413-58ce-e911-8296-066680ee9268",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

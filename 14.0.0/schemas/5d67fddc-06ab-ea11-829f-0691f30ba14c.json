@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5d67fddc-06ab-ea11-829f-0691f30ba14c",
+  "title": "Product Guidance Arrangement",
+  "description": "An arrangement that specifies obligations/rights engaged in the financial advisory service agreement to deliver the ProductGuidanceAdvisoryService",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "65438ba3-fbaa-ea11-829f-0691f30ba14c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ApplicableServiceCharge"
+  ],
+  "properties": {
+    "ApplicableServiceCharge": {
+      "type": "string",
+      "description": "The service charge to be made to the customer for the specialist support",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "dcbfd02a-c20f-f011-8ba3-a402b9460f22",
+      "target": "65438ba3-fbaa-ea11-829f-0691f30ba14c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Advisory Service Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d5e4e338-07ab-ea11-829f-0691f30ba14c",
+      "target": "0470cf2a-07ab-ea11-829f-0691f30ba14c",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bdef33cb-95c5-e911-8296-06227606fcb6",
+  "title": "Device Feature",
+  "description": "Options for configuring a device.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "64fe5512-598d-eb11-8310-068d732c0449",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "de9810f9-2310-ee11-8b2c-a402b9460f22",
+      "target": "64fe5512-598d-eb11-8310-068d732c0449",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

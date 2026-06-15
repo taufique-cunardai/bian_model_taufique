@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6b37300c-c056-e911-8237-06ecaacb4c68",
+  "title": "Collateral Asset",
+  "description": "Asset provided by a debtor as security for a payment or repayment of an obligation.\r\n\r\n\r\nFinancial collateral is an asset provided by a borrower to a lender.\r\n\r\nThe term collateral refers to an asset that a lender accepts as security for a loan. https://www.investopedia.com/terms/c/collateral.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "30a4d16d-6080-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CollateralAssetIdentification",
+    "CollateralAssetType",
+    "CollateralAssetStatus"
+  ],
+  "properties": {
+    "CollateralAssetIdentification": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    },
+    "CollateralAssetType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CollateralTypeValues",
+      "x-related-bo-id": "0c10ecb1-146c-ed11-83e5-06d4f845bf9d",
+      "x-related-bo-name": "CollateralTypeValues"
+    },
+    "CollateralAssetStatus": {
+      "type": "string",
+      "description": "Specifies the status of the collateral or of an event related to collateral.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CollateralAssetStatusTypeValues",
+      "x-related-bo-id": "15e78d8d-1a6c-ed11-83e5-06d4f845bf9d",
+      "x-related-bo-name": "CollateralAssetStatusTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "31bfafa9-ff7c-eb11-8309-066fc2da13f9",
+      "target": "30a4d16d-6080-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Asset",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0e09e19-c556-e911-8237-06ecaacb4c68",
+      "target": "280f7086-bf56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f12a4560-cb80-e911-823e-065e8061d7e6",
+      "target": "b137e2c5-ca80-e911-823e-065e8061d7e6",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ecc3872-c980-e911-823e-065e8061d7e6",
+      "target": "d5fe9f6e-7b80-e911-823e-061de61e9206",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3ff6b1d-1f00-ec11-8340-061dac4a92f1",
+      "target": "3b0ff5f1-1e00-ec11-8340-061dac4a92f1",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

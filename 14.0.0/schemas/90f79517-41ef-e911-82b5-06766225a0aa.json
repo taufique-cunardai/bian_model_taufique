@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "90f79517-41ef-e911-82b5-06766225a0aa",
+  "title": "Contact Center Administrative Plan",
+  "description": "A plan to administer the day to day activity in the contact center \r\n- to administer the assignment of individuals to servicing positions in compliance with the service configuration determined by Contact Center Management\r\n- to track staff availability and utilization during the servicing session and making necessary assignment adjustments to deal with servicing load\r\n- to re-assign staff to servicing positions to deal with peak loading for a specific product or service type",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2167574-8f80-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "75834310-4fef-e911-82b5-06766225a0aa",
+      "target": "a2167574-8f80-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Administrative Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "269801fa-52ef-e911-82b5-06766225a0aa",
+      "target": "370fccd7-52ef-e911-82b5-06766225a0aa",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8406fda-54ef-e911-82b5-06766225a0aa",
+      "target": "c439e985-54ef-e911-82b5-06766225a0aa",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ef7115f-53ef-e911-82b5-06766225a0aa",
+      "target": "48cb3c48-53ef-e911-82b5-06766225a0aa",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

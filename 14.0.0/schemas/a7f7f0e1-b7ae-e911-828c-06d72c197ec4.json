@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a7f7f0e1-b7ae-e911-828c-06d72c197ec4",
+  "title": "Design Specification",
+  "description": "A specification providing information about a designed object (e.g. product, service, process, procedure, model) covering all aspects required for its use.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DesignSpecificationStatus",
+    "DesignSpecificationVersion",
+    "DesignSpecificationType",
+    "DesignSpecificationDescription",
+    "DesignSpecificationSchedule"
+  ],
+  "properties": {
+    "DesignSpecificationStatus": {
+      "type": "string",
+      "description": "The operational and development status of a design specification (e.g. under development, available, in-use under review)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DesignSpecificationStatusTypeValues",
+      "x-related-bo-id": "95f404f5-9b4d-ea11-8289-065500ef61d8",
+      "x-related-bo-name": "DesignSpecificationStatusTypeValues"
+    },
+    "DesignSpecificationVersion": {
+      "type": "string",
+      "description": "Release version of the available design specification plus version history as appropriate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "DesignSpecificationType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DesignSpecificationTypeValues",
+      "x-related-bo-id": "5c7646eb-747a-ef11-8b72-a402b9460f22",
+      "x-related-bo-name": "DesignSpecificationTypeValues"
+    },
+    "DesignSpecificationDescription": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "DesignSpecificationSchedule": {
+      "type": "string",
+      "description": "The schedule and timing of the definition and update/revisions of the specification aspect",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Schedule",
+      "x-related-bo-id": "d7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Schedule"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e6ddc0cd-29e9-ea11-82b8-0621c7360a13",
+      "target": "37816b06-2fe9-ea11-82b8-0621c7360a13",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f85ece7f-2c44-ea11-8289-068ff87429a4",
+      "target": "3ed6b887-2b44-ea11-8289-068ff87429a4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3fbb0577-baae-e911-828c-06d72c197ec4",
+      "target": "312ae26c-baae-e911-828c-06d72c197ec4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "62e630b8-ddab-ea11-829f-067a4ad4fc9c",
+  "title": "Financial Market Research",
+  "description": "The process of gathering, analyzing and interpreting information about a financial market, about the financial instruments to be offered for sale in that market, and about the past, present and potential customers.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ea36f45c-1656-e911-8237-060aad038e48",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "06eea752-e0ab-ea11-829f-067a4ad4fc9c",
+      "target": "ea36f45c-1656-e911-8237-060aad038e48",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Assessment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46060295-fdae-ea11-829f-06c5ce6fa94e",
+      "target": "865912f2-f6ae-ea11-829f-06c5ce6fa94e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d08b5c1-00af-ea11-829f-06c5ce6fa94e",
+      "target": "f8894ab1-00af-ea11-829f-06c5ce6fa94e",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0f546b94-f7ab-ea11-829f-067a4ad4fc9c",
+      "target": "4bd8ac46-f7ab-ea11-829f-067a4ad4fc9c",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "851416c7-dfab-ea11-829f-067a4ad4fc9c",
+      "target": "50b906a2-dfab-ea11-829f-067a4ad4fc9c",
+      "modality": "1:N",
+      "required": false,
+      "description": "Detected\r\nOpportunity",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

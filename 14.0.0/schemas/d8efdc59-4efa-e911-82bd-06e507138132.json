@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d8efdc59-4efa-e911-82bd-06e507138132",
+  "title": "Employee Payroll",
+  "description": "A list of a company's employees and the amount of money they are to be paid.\r\n\r\nTotal amount required to pay workers and employees during a week, month or other period. (Business Dictionary)\r\n\r\nPayroll is the total of all compensation a business must pay to its employees for a set period of time or on a given date. (Investopedia)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "7261101f-74fa-e911-82bd-060c1aa554c0",
+      "target": "e7ee84d3-73fa-e911-82bd-060c1aa554c0",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
