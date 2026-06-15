@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7e32254e-3307-f111-8602-0a46e3dae05d",
+  "title": "Incentive Account",
+  "description": "An Incentive Account is a logical account that records rewards (cashback, points, bonuses, vouchers) earned by a customer, without holding actual money.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncentiveAccountType"
+  ],
+  "properties": {
+    "IncentiveAccountType": {
+      "type": "string",
+      "description": "An incentive account type usually refers to a type of financial or business account that offers rewards or benefits to encourage certain behavior such as higher interest rates for maintaining a minimum balance, cashback rewards for certain transactions, bonuses for setting up direct deposit, points or rewards for debit/credit card usage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveAccountTypeValues",
+      "x-related-bo-id": "1de9d289-3307-f111-8602-0a46e3dae05d",
+      "x-related-bo-name": "IncentiveAccountTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ba9866b4-4507-f111-8602-0a46e3dae05d",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e511769-3307-f111-8602-0a46e3dae05d",
+      "target": "edd55261-4620-f011-8ba5-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

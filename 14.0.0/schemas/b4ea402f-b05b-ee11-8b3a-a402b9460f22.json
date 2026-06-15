@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b4ea402f-b05b-ee11-8b3a-a402b9460f22",
+  "title": "Term Deposit Agreement Involvement",
+  "description": "Party who plays a role in term deposit agreement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InvolvedType"
+  ],
+  "properties": {
+    "InvolvedType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "TermDepositInvolvementTypeValues",
+      "x-related-bo-id": "342f7f2f-b15b-ee11-8b3a-a402b9460f22",
+      "x-related-bo-name": "TermDepositInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d050b8dd-d022-f111-860d-0219f28f8465",
+  "title": "Debit Application Modality",
+  "description": "Debit Application Modality: Defines the rules, mechanisms, and processes governing how debit product features are applied, executed, or activated for a customer or account, including eligibility, sequencing, prioritization, and exceptions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "c836a9eb-1722-f111-860d-0a1878b6c327",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DebitApplicationModalityType"
+  ],
+  "properties": {
+    "DebitApplicationModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DebitApplicationModalityTypeValues",
+      "x-related-bo-id": "81ce6404-d122-f111-860d-0219f28f8465",
+      "x-related-bo-name": "DebitApplicationModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ff24b4f7-d022-f111-860d-0219f28f8465",
+      "target": "c836a9eb-1722-f111-860d-0a1878b6c327",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Debit Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dd7b79e7-8d18-f111-8608-06f87af9db33",
+  "title": "Booking Term and Condition",
+  "description": "Booking Term and Condition refers to the specific rules, obligations, and provisions that govern how banking transactions are recorded, processed, and posted to accounts.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BookingTermandConditionType"
+  ],
+  "properties": {
+    "BookingTermandConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BookingTermandConditionTypeValues",
+      "x-related-bo-id": "ff3a4da6-8e18-f111-8608-06f87af9db33",
+      "x-related-bo-name": "BookingTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6e1402f9-8d18-f111-8608-06f87af9db33",
+      "target": "8ae16ec6-8d18-f111-8608-06f87af9db33",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Booking Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45e640c2-2528-f111-860d-061bb3da1acd",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

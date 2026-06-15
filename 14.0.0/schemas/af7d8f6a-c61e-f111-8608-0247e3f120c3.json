@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "af7d8f6a-c61e-f111-8608-0247e3f120c3",
+  "title": "Incentive Account Product",
+  "description": "Is A Banking Product designed to encourage specific customer behaviors by offering rewards, benefits, or financial incentives.\r\n\r\nA type of account that enables the customer to earn points, cashbacks, interest bonuses, or other benefits based on transactions, deposits, or usage patterns, while providing standard account functionalities like deposits, withdrawals, or payments.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncentiveAccountProductType"
+  ],
+  "properties": {
+    "IncentiveAccountProductType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveAccountProductTypeValues",
+      "x-related-bo-id": "43f7b6dd-c61e-f111-8608-0247e3f120c3",
+      "x-related-bo-name": "IncentiveAccountProductTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1a010880-c61e-f111-8608-0247e3f120c3",
+      "target": "0c0c197a-3b20-f011-8ba5-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "299ab079-c61e-f111-8608-0247e3f120c3",
+      "target": "ec4c4c99-3f20-f011-8ba5-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5febad0f-8f1c-f111-8608-0adbd3442159",
+  "title": "Cash Transfer Payment Modality",
+  "description": "Cash transfer payment modality define the method or mechanism used to execute and settle the payment when transferring funds from the payer to the beneficiary.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "51c2c724-861c-f111-8608-0adbd3442159",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CashTransferPaymentModalityType"
+  ],
+  "properties": {
+    "CashTransferPaymentModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CashTransferPaymentModalityTypeValues",
+      "x-related-bo-id": "a0d03e5a-8f1c-f111-8608-0adbd3442159",
+      "x-related-bo-name": "CashTransferPaymentModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c3e14a1e-8f1c-f111-8608-0adbd3442159",
+      "target": "51c2c724-861c-f111-8608-0adbd3442159",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Cash Transfer Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

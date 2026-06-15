@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "897a1f87-de2b-f111-860d-0a1c23fa3895",
+  "title": "Corporate Card Service Agreement",
+  "description": "Is an agreement between an issuing financial institution and a corporate entity, with obligations extended to authorized cardholders concerning the issuance, permitted use, responsibilities, and liabilities of a corporate card, expressed in a set of arrangements, terms, and conditionsThe agreement also outlines payment terms, changes that can be made to the agreement, liability for unauthorized use, and dispute resolution through arbitration.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a05fc8be-24fd-ec11-83ad-0635e6952d6f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CorporateCardAgreementType"
+  ],
+  "properties": {
+    "CorporateCardAgreementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e1535ffc-de2b-f111-860d-0a1c23fa3895",
+      "target": "a05fc8be-24fd-ec11-83ad-0635e6952d6f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

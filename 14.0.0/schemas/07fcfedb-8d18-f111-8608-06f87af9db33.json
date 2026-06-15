@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "07fcfedb-8d18-f111-8608-06f87af9db33",
+  "title": "Booking Service",
+  "description": "Booking Service refers to the set of operational functions that handle the recording, posting, and processing of financial transactions in the banks ledger system. It ensures that all financial operations, such as loans, payments, transfers, and corrections, are properly captured, tracked, and reported.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "8ae16ec6-8d18-f111-8608-06f87af9db33",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BookingServiceType"
+  ],
+  "properties": {
+    "BookingServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BookingServiceTypeValues",
+      "x-related-bo-id": "c357619c-8e18-f111-8608-06f87af9db33",
+      "x-related-bo-name": "BookingServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "9adf4bf2-8d18-f111-8608-06f87af9db33",
+      "target": "8ae16ec6-8d18-f111-8608-06f87af9db33",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Booking Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f84def8d-7624-f111-860d-06831cd38dd5",
+  "title": "Underwriting Service",
+  "description": "Underwriting Service is a banking or financial service that assesses, guarantees, and facilitates the issuance or provision of financial products such as loans, bonds, securities, or insurance policies.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6e0e8091-4b24-f111-860d-06831cd38dd5",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "UnderwritingServiceType"
+  ],
+  "properties": {
+    "UnderwritingServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "UnderwritingServiceTypeValues",
+      "x-related-bo-id": "cd2acc27-b326-f111-860d-0271c902ca61",
+      "x-related-bo-name": "UnderwritingServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "292ccf9e-7624-f111-860d-06831cd38dd5",
+      "target": "6e0e8091-4b24-f111-860d-06831cd38dd5",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Underwriting Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

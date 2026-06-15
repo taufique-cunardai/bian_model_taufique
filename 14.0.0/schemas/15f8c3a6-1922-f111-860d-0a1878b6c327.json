@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "15f8c3a6-1922-f111-860d-0a1878b6c327",
+  "title": "Debit Payment Modality",
+  "description": "Debit Payment Modality: Defines the rules, mechanisms, and processes governing how payments are executed, authorized, and settled from a debit account, including the methods, timing, limits, and exceptions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "c836a9eb-1722-f111-860d-0a1878b6c327",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DebitPaymentModalityType"
+  ],
+  "properties": {
+    "DebitPaymentModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DebitPaymentModalityTypeValues",
+      "x-related-bo-id": "8f8d3d27-d022-f111-860d-0219f28f8465",
+      "x-related-bo-name": "DebitPaymentModalityTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4d6dc4ac-1922-f111-860d-0a1878b6c327",
+      "target": "c836a9eb-1722-f111-860d-0a1878b6c327",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Debit Product Feature Modality",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0ea88b98-0722-f111-860d-0a1878b6c327",
+  "title": "Debit Service",
+  "description": "A Debit Service is a banking service provided as a feature of a debit-related product, enabling the customer to access, spend, or transfer funds from their account.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "aace3582-0722-f111-860d-0a1878b6c327",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DebitServiceType"
+  ],
+  "properties": {
+    "DebitServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DebitServiceTypeValues",
+      "x-related-bo-id": "72bd80ad-1522-f111-860d-0a1878b6c327",
+      "x-related-bo-name": "DebitServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "0556fa9f-0722-f111-860d-0a1878b6c327",
+      "target": "aace3582-0722-f111-860d-0a1878b6c327",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Debit Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

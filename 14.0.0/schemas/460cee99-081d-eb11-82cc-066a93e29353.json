@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "460cee99-081d-eb11-82cc-066a93e29353",
+  "title": "ATM- Network Operating Session Function",
+  "description": "The automated operation of the ATM network",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6b0bd834-f290-e911-823e-06f3e7d1f9c0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ATM-NetworkOperatingSessionFunctionType"
+  ],
+  "properties": {
+    "ATM-NetworkOperatingSessionFunctionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "bd1371a0-081d-eb11-82cc-066a93e29353",
+      "target": "6b0bd834-f290-e911-823e-06f3e7d1f9c0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Function",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

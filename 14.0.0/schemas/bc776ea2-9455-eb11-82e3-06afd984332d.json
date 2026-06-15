@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bc776ea2-9455-eb11-82e3-06afd984332d",
+  "title": "Leasing Product",
+  "description": "Is A Banking Product that provides the use of an asset to a consumer or business for a specified period in exchange for periodic payments.\r\n\r\nA type of financing arrangement that enables the customer to access and use equipment, vehicles, or other assets without owning them, with terms defining duration, payments, responsibilities, and possible ownership transfer at the end of the lease.\r\n\r\nA banking product that offers the leasing facility\r\n\r\nComment:\r\nLeasing Facility means the solution/posibility to meet the financial need of customer via the leasing. \r\n\r\nLeasing means the hiring out by one firm (the lessor) of an ASSET such as a factory building, piece of machinery or vehicle to another firm (the lessee) in return for the payment of an agreed rental.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "LeasingProductType"
+  ],
+  "properties": {
+    "LeasingProductType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "LeasingTypeValues",
+      "x-related-bo-id": "ff41a9fa-6b5a-eb11-82e3-0696e5690f15",
+      "x-related-bo-name": "LeasingTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "69dcc6b2-a659-eb11-82e3-069263446f67",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea4487da-9555-eb11-82e3-06afd984332d",
+      "target": "9e6e153d-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea10c220-306c-ee11-8b40-a402b9460f22",
+      "target": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Instrument",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59eaf775-0b68-e911-8237-06dd5e24f7bc",
+      "target": "235adec0-d53a-eb11-82e3-06a412e5ead5",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6aff651d-2c92-f011-8bbf-a402b9460f22",
+  "title": "Exceptional Fee Discount",
+  "description": "An Exceptional Fee Discount is a product feature that temporarily or conditionally reduces or waives a specific fee associated with a product or service. It represents a non-standard adjustment to fees that overrides the usual product pricing rules, typically applied for targeted customers, campaigns, or special business events.\r\n\r\n\r\nExamples:\r\n\r\n- Waive the $10 monthly account maintenance fee for students at a partner university.\r\n\r\n- Reduce international transfer fees by 50% for VIP clients during a campaign.\r\n\r\n- Temporarily waive overdraft fees following a system outage.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "874cc207-2992-f011-8bbf-a402b9460f22",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DiscountType"
+  ],
+  "properties": {
+    "DiscountType": {
+      "type": "string",
+      "description": "A categorization of the mechanism used to reduce the cost of a product or service. Discount Type defines how a discount is applied, whether as a percentage, fixed amount, waived fee, or other special pricing arrangement. It helps standardize and configure the calculation of exceptional or promotional pricing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DiscountTypeValues",
+      "x-related-bo-id": "fd3328df-2c92-f011-8bbf-a402b9460f22",
+      "x-related-bo-name": "DiscountTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "361fd624-2c92-f011-8bbf-a402b9460f22",
+      "target": "874cc207-2992-f011-8bbf-a402b9460f22",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Exceptional Fee Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

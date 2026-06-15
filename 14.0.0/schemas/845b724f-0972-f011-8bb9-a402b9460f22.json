@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "845b724f-0972-f011-8bb9-a402b9460f22",
+  "title": "Product Agreement Term and Condition",
+  "description": "Negotiated Terms and Conditions for a sold banking product refer to customized or mutually agreed-upon modifications to the standard terms that are tailored to an individual customer, typically based on their profile, relationship, risk, or volume of business.\r\n\r\nCustom/agreed terms tailored for a specific customer during or after the sale.\r\n\r\nComment:\r\n- Applies only to the individual customer for whom the deal is negotiated.\r\n- Approval required: Requires case-by-case approval by credit, risk, or senior management.\r\n- Documented in offer letter, term sheet, sanction letter, or custom agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1ab9690c-f297-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ProductAgreementConditionType"
+  ],
+  "properties": {
+    "ProductAgreementConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ProductAgreedTermAndConditionTypeValues",
+      "x-related-bo-id": "2eccc91b-aa72-f011-8bb9-a402b9460f22",
+      "x-related-bo-name": "ProductAgreedTermAndConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "934f7426-0d72-f011-8bb9-a402b9460f22",
+      "target": "1ab9690c-f297-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement Term and Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a45bddc7-ca1e-f111-8608-0247e3f120c3",
+  "title": "Earn Product Feature",
+  "description": "Is a Product Feature that defines how customers accumulate rewards, points, cashback, or other benefits when using a banking product or service.\r\n\r\nComment: \r\nIt determines what actions generate rewards, how much is earned, and under what conditions.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "EarnType"
+  ],
+  "properties": {
+    "EarnType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "EarnTypeValues",
+      "x-related-bo-id": "04abeb36-420b-f111-8602-0ad4a82ce56b",
+      "x-related-bo-name": "EarnTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "35581acf-ca1e-f111-8608-0247e3f120c3",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d2657d6-ca1e-f111-8608-0247e3f120c3",
+      "target": "a2cfdf14-1408-f111-8602-0651210e384f",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e01f5ad5-6e23-f111-860d-0a072f7aa82f",
+      "target": "9afbafc5-6e23-f111-860d-0a072f7aa82f",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "40a0e4fc-ca1e-f111-8608-0247e3f120c3",
+  "title": "Redemption Product Feature",
+  "description": "Is a Product Feature that defines how accumulated rewards, points, benefits, or credits associated with a banking product can be exchanged or converted into goods, services, or monetary value.\r\n\r\nComment:\r\nIt determines what rewards can be redeemed for, the conversion rules, and the conditions under which redemption is allowed.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RedemptionType"
+  ],
+  "properties": {
+    "RedemptionType": {
+      "type": "string",
+      "description": "Redemption type is the classification of the repayment structure used to redeem principal.\r\n\r\nComment:\r\nRedemption type in banking means the way a customer uses or converts earned value (such as cashback, reward points, or incentives).\r\n\r\nIt describes how the reward is consumed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RedemptionTypeValues",
+      "x-related-bo-id": "5e9599c1-dc08-f111-8602-06a34369a11f",
+      "x-related-bo-name": "RedemptionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "ce6cc20e-cb1e-f111-8608-0247e3f120c3",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9c49f10b-d822-f111-860d-0219f28f8465",
+      "target": "0f5141ec-d722-f111-860d-0219f28f8465",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccd7c404-cb1e-f111-8608-0247e3f120c3",
+      "target": "247f4c22-3607-f111-8602-0a46e3dae05d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

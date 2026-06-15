@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "43d4dc7e-d861-ee11-8b3c-a402b9460f22",
+  "title": "Term Deposit Account",
+  "description": "A Term Deposit Account, often referred to simply as a Term Deposit or Time Deposit, is a type of savings account offered by banks and financial institutions. In a Term Deposit Account, a depositor (an individual or entity) agrees to deposit a specific amount of money for a fixed period of time, known as the \"term\" or \"tenure.\"",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "26bcdba5-d861-ee11-8b3c-a402b9460f22",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2956c203-cc49-f111-bb23-0610d45cdccb",
+      "target": "d579f82c-0cd6-e911-8296-0612a84747f6",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

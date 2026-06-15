@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ca33fc00-b117-f111-8608-06e02f402b61",
+  "title": "Booking Transaction",
+  "description": "Is an Action that records or confirms a transaction in the books of accounts or system as part of the formal accounting or settlement process.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a58c8a29-5a96-e911-823e-062d75b50cca",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "BookingTransactionType"
+  ],
+  "properties": {
+    "BookingTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "BookingTransactionTypeValues",
+      "x-related-bo-id": "e89320a8-f42c-f111-860d-020a7916b3f9",
+      "x-related-bo-name": "BookingTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "fe33282d-b117-f111-8608-06e02f402b61",
+      "target": "a58c8a29-5a96-e911-823e-062d75b50cca",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d2f248b-b117-f111-8608-06e02f402b61",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

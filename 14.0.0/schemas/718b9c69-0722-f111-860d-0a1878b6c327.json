@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "718b9c69-0722-f111-860d-0a1878b6c327",
+  "title": "Debit Transaction",
+  "description": "Debit Transaction is a planned or performed action in the context of a deposit or payment arrangement that results in the deduction of funds from an account. It represents any event where money is withdrawn, transferred, or used to fulfill a payment obligation.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DebitTransactionType"
+  ],
+  "properties": {
+    "DebitTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "DebitTransactionTypeValues",
+      "x-related-bo-id": "1cb84bd4-0c22-f111-860d-0a1878b6c327",
+      "x-related-bo-name": "DebitTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c68590d4-0722-f111-860d-0a1878b6c327",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "02c138ee-0722-f111-860d-0a1878b6c327",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

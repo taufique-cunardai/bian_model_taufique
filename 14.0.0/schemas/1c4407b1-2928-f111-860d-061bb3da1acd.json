@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1c4407b1-2928-f111-860d-061bb3da1acd",
+  "title": "Position Tracking Product Feature",
+  "description": "Is A Product Feature that defines how the ownership, quantity, and value of financial instruments, assets, or obligations are monitored and updated over time within a banking product (e.g., securities, derivatives, loans)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "96234618-2e28-f111-860d-061bb3da1acd",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "514667f1-2928-f111-860d-061bb3da1acd",
+      "target": "044998b8-2828-f111-860d-061bb3da1acd",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0cba4be7-2928-f111-860d-061bb3da1acd",
+      "target": "76ac64d9-2928-f111-860d-061bb3da1acd",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

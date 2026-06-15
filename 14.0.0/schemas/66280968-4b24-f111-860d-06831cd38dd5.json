@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "66280968-4b24-f111-860d-06831cd38dd5",
+  "title": "Underwriting Instruction",
+  "description": "Is a Request to perform an action related to the underwriting of a financial product, security, or credit facility, based on the terms, arrangements, and obligations defined in an agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "UnderwritingInstructionType"
+  ],
+  "properties": {
+    "UnderwritingInstructionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "UnderwritingInstructionTypeValues",
+      "x-related-bo-id": "e6456645-7724-f111-860d-06831cd38dd5",
+      "x-related-bo-name": "UnderwritingInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "5d141844-4c24-f111-860d-06831cd38dd5",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0312f06-7724-f111-860d-06831cd38dd5",
+      "target": "f1841b19-1656-e911-8237-060aad038e48",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7563118b-4b24-f111-860d-06831cd38dd5",
+      "target": "5c5d8b6e-4b24-f111-860d-06831cd38dd5",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

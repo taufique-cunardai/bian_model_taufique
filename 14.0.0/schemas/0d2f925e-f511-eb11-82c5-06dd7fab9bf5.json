@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0d2f925e-f511-eb11-82c5-06dd7fab9bf5",
+  "title": "Accounts Receivable",
+  "description": "An account that holds the position (balance) of issued invoices that are not yet paid.\r\n\r\nDescription:\r\nAccounts receivable (AR) is the balance of money due to a firm for goods or services delivered or used but not yet paid for by customers. (investopedia)\r\nAccounts receivable is an asset account on the balance sheet that represents money due to a company in the short-term. \r\nAccounts receivables are created when a company lets a buyer purchase their goods or services on credit.\r\nAccounts payable is similar to accounts receivable, but instead of money to be received, its money owed.  (investopedia)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "27c303ff-8b13-eb11-82c5-06bc2d3775af",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe38e5da-8b13-eb11-82c5-06bc2d3775af",
+      "target": "b462d89c-7913-eb11-82c5-06bc2d3775af",
+      "modality": "1:N",
+      "required": false,
+      "description": "Account\r\nReceivable",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

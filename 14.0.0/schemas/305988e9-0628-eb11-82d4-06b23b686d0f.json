@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "305988e9-0628-eb11-82d4-06b23b686d0f",
+  "title": "Term Deposit Product Feature",
+  "description": "Is a Product Feature that defines the conditions, rules, and characteristics of a term deposit product, where a customer deposits funds with a bank for a fixed period in exchange for a predetermined interest return.\r\n\r\nComment:\r\nA feature of a Corporate Deposit Product.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "cc856a0e-0728-eb11-82d4-06b23b686d0f",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

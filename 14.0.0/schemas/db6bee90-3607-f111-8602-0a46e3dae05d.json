@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "db6bee90-3607-f111-8602-0a46e3dae05d",
+  "title": "Incentive Account Instruction",
+  "description": "Is a Request to perform an action related to the management, allocation, or utilization of value within an incentive account, based on the terms and arrangements defined in an agreement or incentive program.\r\n\r\nComment:\r\nAn incentive account instruction is a set of predefined operational rules and preferences associated with an incentive or reward account that govern earning, usage, transfer, expiration, and settlement of incentives.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncentiveAccountInstructionType"
+  ],
+  "properties": {
+    "IncentiveAccountInstructionType": {
+      "type": "string",
+      "description": "Incentive Account Instruction type is the specific type of direction or action given for handling an incentive account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveAccountInstructionTypeValues",
+      "x-related-bo-id": "f9d2616b-3707-f111-8602-0a46e3dae05d",
+      "x-related-bo-name": "IncentiveAccountInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d4106545-3707-f111-8602-0a46e3dae05d",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd50533f-3807-f111-8602-0a46e3dae05d",
+      "target": "51f8422c-3807-f111-8602-0a46e3dae05d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

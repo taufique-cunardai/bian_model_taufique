@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "51f8422c-3807-f111-8602-0a46e3dae05d",
+  "title": "Incentive Account Transaction",
+  "description": "Is an Action in the context of an incentive account arrangement that records, manages, or adjusts the balance of rewards, benefits, or incentives held in an account. It represents any event that affects the accumulation, usage, or status of incentive value within the account.\r\n\r\nComment:\r\nAn incentive account transaction is a discrete, auditable entry that reflects the credit, debit, or adjustment of incentive units (cash, points, miles, bonuses) posted to an incentive account.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "IncentiveAccountTransactionType"
+  ],
+  "properties": {
+    "IncentiveAccountTransactionType": {
+      "type": "string",
+      "description": "Incentive Account Transaction Type is the category of activity or movement of funds within an incentive account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "IncentiveAccountTransactionTypeValues",
+      "x-related-bo-id": "c62e61e3-4507-f111-8602-0a46e3dae05d",
+      "x-related-bo-name": "IncentiveAccountTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "f31a262c-3e07-f111-8602-0a46e3dae05d",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54186c9c-4507-f111-8602-0a46e3dae05d",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

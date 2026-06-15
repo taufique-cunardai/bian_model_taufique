@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5c354e88-111d-eb11-82cc-066a93e29353",
+  "title": "ATM",
+  "description": "An automated teller machine (ATM) is an electronic banking outlet that allows customers to complete basic transactions without the aid of a branch representative or teller.\r\n\r\nRef. https://www.investopedia.com/terms/a/atm.asp",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0263db4b-0761-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "5b947cf3-121d-eb11-82cc-066a93e29353",
+      "target": "0263db4b-0761-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Device",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5f947cf3-121d-eb11-82cc-066a93e29353",
+      "target": "18301ea6-f21c-eb11-82cc-066a93e29353",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f8231d7c-141d-eb11-82cc-066a93e29353",
+      "target": "a58c8a29-5a96-e911-823e-062d75b50cca",
+      "modality": "M:N",
+      "required": false,
+      "description": "TransactionInitiated\r\nByATM",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
