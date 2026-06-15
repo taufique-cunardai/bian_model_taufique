@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0c2f16e0-2e5f-eb11-82e9-06394efee01d",
+  "title": "Loan Instruction",
+  "description": "An instruction to fulfil a loan arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "13f1c6d3-2f5f-eb11-82e9-06394efee01d",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be0bce09-2f5f-eb11-82e9-06394efee01d",
+      "target": "f39adfe7-2e5f-eb11-82e9-06394efee01d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f845c0a0-2f5f-eb11-82e9-06394efee01d",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

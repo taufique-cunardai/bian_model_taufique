@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8983fe8c-5524-eb11-82d4-06982365eacb",
+  "title": "Term Deposit Transaction",
+  "description": "A Deposit Agreement originated by a deposit within the arrangements and conditions specified in a Corporate Deposit Agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "TermDepositTransactionType"
+  ],
+  "properties": {
+    "TermDepositTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "0e2daa6e-0825-eb11-82d4-06df8a4a2891",
+      "target": "7314f250-f5a9-e911-8288-06812ee60d2a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Money Transfer Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1d6ee8f2-be4f-ed11-83d8-0679bc75434d",
+      "target": "e00fb730-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03ff2d61-be4f-ed11-83d8-0679bc75434d",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "938a0ea2-0825-eb11-82d4-06df8a4a2891",
+      "target": "bb2a9ff3-0725-eb11-82d4-06df8a4a2891",
+      "modality": "1:1",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e89e8688-be4f-ed11-83d8-0679bc75434d",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

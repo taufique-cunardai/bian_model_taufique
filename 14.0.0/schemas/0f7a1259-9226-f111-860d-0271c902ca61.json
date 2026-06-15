@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0f7a1259-9226-f111-860d-0271c902ca61",
+  "title": "Safe Keeping Arrangement",
+  "description": "Is an Arrangement to hold, protect, and maintain custody of assets on behalf of a party to ensure their safety and availability under an agreement.\r\n\r\nComment:\r\nIt focuses on the secure custody of assets (such as securities, cash, or valuables), without necessarily using them to meet obligations (unlike collateral), but ensuring they are safeguarded and accessible when needed.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SafeKeepingType",
+    "SafeKeepingStatus",
+    "SafeKeepingProtectionLevel",
+    "SafeKeepingReleaseAuthorizationType"
+  ],
+  "properties": {
+    "SafeKeepingType": {
+      "type": "string",
+      "description": "Defines how the asset is held.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SafeKeepingTypeValues",
+      "x-related-bo-id": "f5e7b906-9926-f111-860d-0271c902ca61",
+      "x-related-bo-name": "SafeKeepingTypeValues"
+    },
+    "SafeKeepingStatus": {
+      "type": "string",
+      "description": "Current state of the safe keeping arrangement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Status",
+      "x-related-bo-id": "c7cfae85-cde3-ea11-82b8-069eade4826b",
+      "x-related-bo-name": "Status"
+    },
+    "SafeKeepingProtectionLevel": {
+      "type": "string",
+      "description": "Specifies the security level applied to the assets:\r\n\r\nComment:\r\nStandard Protection: Basic security controls.\r\nHigh Security Protection: Enhanced security measures.\r\nSegregated Custody: Assets held separately from other assets.\r\nRestricted Access Custody: Limited access to authorized parties only.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    },
+    "SafeKeepingReleaseAuthorizationType": {
+      "type": "string",
+      "description": "Defines how and by whom the assets can be released:\r\n\r\nComment:\r\nSingle Authorization Required: One authorized party can release the asset.\r\nDual Authorization Required: Two approvals needed.\r\nOwner Authorization Required: Only the asset owner can authorize release.\r\nAgreement-based Release: Release according to contractual terms.\r\nScheduled Release: Release according to a predefined schedule.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "bece0160-9526-f111-860d-0271c902ca61",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c7fa3c4-9826-f111-860d-0271c902ca61",
+      "target": "00a3369f-9826-f111-860d-0271c902ca61",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90555ac4-9d26-f111-860d-0271c902ca61",
+      "target": "1899b5bc-9d26-f111-860d-0271c902ca61",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

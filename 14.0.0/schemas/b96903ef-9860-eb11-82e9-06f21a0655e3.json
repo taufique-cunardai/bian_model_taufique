@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b96903ef-9860-eb11-82e9-06f21a0655e3",
+  "title": "Product Combination Arrangement",
+  "description": "An arrangement that is specifying terms and conditions to assemble a composite product from two or more existing products",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "bacc1a23-9960-eb11-82e9-06f21a0655e3",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e78818f-9c60-eb11-82e9-06f21a0655e3",
+      "target": "8788fd27-9c60-eb11-82e9-06f21a0655e3",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4ba5849-9e60-eb11-82e9-06f21a0655e3",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

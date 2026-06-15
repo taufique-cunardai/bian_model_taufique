@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b4aba7d2-ae22-f111-860d-022452cdfcff",
+  "title": "Credit Assessment",
+  "description": "A Credit Assessment is an evaluation entity that determines a borrowers creditworthiness, risk level, and eligibility for credit, based on financial, behavioral, and compliance factors.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ea36f45c-1656-e911-8237-060aad038e48",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "CreditAssessmentType"
+  ],
+  "properties": {
+    "CreditAssessmentType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "CreditAssessmentTypeValues",
+      "x-related-bo-id": "a2e7bd28-af22-f111-860d-022452cdfcff",
+      "x-related-bo-name": "CreditAssessmentTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "21f791d9-ae22-f111-860d-022452cdfcff",
+      "target": "ea36f45c-1656-e911-8237-060aad038e48",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Assessment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

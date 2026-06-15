@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9afbafc5-6e23-f111-860d-0a072f7aa82f",
+  "title": "Earn Product Feature Modality",
+  "description": "Earn Product Feature Modality is a mechanism that defines how rewards, points, or benefits associated with a banking product are generated, calculated, applied, and delivered to the customer.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "EarnModalityType"
+  ],
+  "properties": {
+    "EarnModalityType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ModalityTypeValues",
+      "x-related-bo-id": "d22cd3dd-2ee6-eb11-8336-064164081b47",
+      "x-related-bo-name": "ModalityTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

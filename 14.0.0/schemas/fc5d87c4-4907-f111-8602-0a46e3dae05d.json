@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fc5d87c4-4907-f111-8602-0a46e3dae05d",
+  "title": "Redemption Term and Condition",
+  "description": "Redemption Terms and Conditions are the rules that explain how, when, and under what requirements you can redeem (use, claim, or cash out) a reward, benefit, or financial asset.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "RedemptionTermandConditionType"
+  ],
+  "properties": {
+    "RedemptionTermandConditionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "RedemptionTermandConditionTypeValues",
+      "x-related-bo-id": "0c656c58-0f08-f111-8602-0651210e384f",
+      "x-related-bo-name": "RedemptionTermandConditionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "908e763b-cb1e-f111-8608-0247e3f120c3",
+      "target": "40a0e4fc-ca1e-f111-8608-0247e3f120c3",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Redemption Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9c2bacdb-4907-f111-8602-0a46e3dae05d",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fad5cb09-48ff-eb11-8340-06d34d81a6c3",
+  "title": "Merchant Arrangement",
+  "description": "Arrangement within a merchant agreement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b497a9ac-be13-f111-8be0-a402b9460f22",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

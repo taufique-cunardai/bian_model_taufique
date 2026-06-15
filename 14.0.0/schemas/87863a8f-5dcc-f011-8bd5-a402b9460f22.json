@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "87863a8f-5dcc-f011-8bd5-a402b9460f22",
+  "title": "Sub Ledger Account",
+  "description": "A subledger Account is an account that contains the details to support a general ledger account. \r\n\r\nA subledger account is an account maintained outside the General Ledger that records detailed, transaction-level financial activity for a specific business domain or account category, and whose balances are summarized and posted to the General Ledger.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "126dcac8-5dcc-f011-8bd5-a402b9460f22",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5d217484-bfce-f011-8bd6-a402b9460f22",
+      "target": "5c9d0d42-bfce-f011-8bd6-a402b9460f22",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

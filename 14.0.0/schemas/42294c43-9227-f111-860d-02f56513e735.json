@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "42294c43-9227-f111-860d-02f56513e735",
+  "title": "Amount Block Product Feature",
+  "description": "Is A Product Feature that defines how funds or balances in an account are temporarily restricted or reserved to prevent usage, ensure regulatory compliance, or secure obligations.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AmountBlockType"
+  ],
+  "properties": {
+    "AmountBlockType": {
+      "type": "string",
+      "description": "The general category of a block applied to funds in an account, indicating the overall purpose or nature of the restriction. It classifies the block into broad types to determine how it is managed, monitored, and released.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AmountBlockTypeValues",
+      "x-related-bo-id": "591226f4-9727-f111-860d-02f56513e735",
+      "x-related-bo-name": "AmountBlockTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "eef38229-2e28-f111-860d-061bb3da1acd",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9279a64a-9227-f111-860d-02f56513e735",
+      "target": "37cbe52c-9127-f111-860d-02f56513e735",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3efad189-2328-f111-860d-061bb3da1acd",
+      "target": "75cfa680-2328-f111-860d-061bb3da1acd",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

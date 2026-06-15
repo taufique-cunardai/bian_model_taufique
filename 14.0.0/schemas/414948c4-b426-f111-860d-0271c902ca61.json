@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "414948c4-b426-f111-860d-0271c902ca61",
+  "title": "Positive Pay Term and Condition",
+  "description": "A Positive Pay Term and Condition refers to the formal set of rules, obligations, and procedures governing the operation of a positive pay service.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ba66499b-b426-f111-860d-0271c902ca61",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "1248653b-c026-f111-860d-0271c902ca61",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4567a6cf-b426-f111-860d-0271c902ca61",
+      "target": "ba66499b-b426-f111-860d-0271c902ca61",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Positive Pay Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

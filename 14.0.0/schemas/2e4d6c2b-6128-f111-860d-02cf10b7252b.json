@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2e4d6c2b-6128-f111-860d-02cf10b7252b",
+  "title": "Financial Status Tracking Transaction",
+  "description": "Is an Action that records, updates, or monitors the current state, availability, or condition of financial resources, obligations, or accounts.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialStatusTrackingTransactionType",
+    "Attribute"
+  ],
+  "properties": {
+    "FinancialStatusTrackingTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialStatusTrackingTransactionTypeValues",
+      "x-related-bo-id": "82d4d0ce-f228-f111-860d-06b37ecc494f",
+      "x-related-bo-name": "FinancialStatusTrackingTransactionTypeValues"
+    },
+    "Attribute": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "c442a6cc-6228-f111-860d-02cf10b7252b",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ead383a4-6228-f111-860d-02cf10b7252b",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

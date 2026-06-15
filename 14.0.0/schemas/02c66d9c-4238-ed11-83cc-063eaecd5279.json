@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "02c66d9c-4238-ed11-83cc-063eaecd5279",
+  "title": "Payment Rail Operating Session",
+  "description": "The operation of a payment rail for a bounded period of time.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f5145a15-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PaymentRailOperatingSessionFunction",
+    "PaymentRailOperatingSessionFunctionType"
+  ],
+  "properties": {
+    "PaymentRailOperatingSessionFunction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "Function",
+      "x-related-bo-id": "6b0bd834-f290-e911-823e-06f3e7d1f9c0",
+      "x-related-bo-name": "Function"
+    },
+    "PaymentRailOperatingSessionFunctionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": true,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": "unbounded",
+      "x-attr-type": "string"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2868cbf2-4238-ed11-83cc-063eaecd5279",
+      "target": "f5145a15-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Session",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dd06bfc0-4338-ed11-83cc-063eaecd5279",
+      "target": "e00fb730-fd60-e911-8237-068e13695e26",
+      "modality": "M:N",
+      "required": false,
+      "description": "HandledTransaction",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

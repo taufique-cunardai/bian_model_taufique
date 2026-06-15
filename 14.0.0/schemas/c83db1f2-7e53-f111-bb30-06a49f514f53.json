@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c83db1f2-7e53-f111-bb30-06a49f514f53",
+  "title": "Cashback Arrangement Account",
+  "description": "Set of accounts involved in Cashback arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SourceAccount",
+    "MerchantAccount"
+  ],
+  "properties": {
+    "SourceAccount": {
+      "type": "string",
+      "description": "The account or card account used for purchases and the account that receives the cashback reward.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    },
+    "MerchantAccount": {
+      "type": "string",
+      "description": "Account involved when cashback is funded or shared by participating merchants or partners.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

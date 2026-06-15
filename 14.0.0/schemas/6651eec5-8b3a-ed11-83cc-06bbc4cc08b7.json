@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6651eec5-8b3a-ed11-83cc-06bbc4cc08b7",
+  "title": "Market Trade Reporting",
+  "description": "A reporting System to capture the executed trade details",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "86ae0257-8c3a-ed11-83cc-06bbc4cc08b7",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ed1dd7e0-8b3a-ed11-83cc-06bbc4cc08b7",
+      "target": "b8fa89d2-8b3a-ed11-83cc-06bbc4cc08b7",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f12e12ba-bceb-eb11-8336-065ca8b18a7f",
+  "title": "Portfolio",
+  "description": "- A collection of something\r\n- Wrapper for a specific product or a specific sub-product owned by a set of beneficial owners.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PortfolioIdentification",
+    "PortfolioName",
+    "PortfolioStrategy",
+    "PortfolioDescription"
+  ],
+  "properties": {
+    "PortfolioIdentification": {
+      "type": "string",
+      "description": "Wrapper for a specific product or a specific sub-product owned by a set of beneficial owners.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    },
+    "PortfolioName": {
+      "type": "string",
+      "description": "Name of the portfolio.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Name",
+      "x-related-bo-id": "6bf573d1-14ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Name"
+    },
+    "PortfolioStrategy": {
+      "type": "string",
+      "description": "Strategy set for the portfolio.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Strategy",
+      "x-related-bo-id": "b1cb007b-fa94-ea11-8295-06c610ca3b44",
+      "x-related-bo-name": "Strategy"
+    },
+    "PortfolioDescription": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Text",
+      "x-related-bo-id": "98855d84-16ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Text"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b2df7a44-0111-ef11-848b-068c9d6f0d0d",
+      "target": "dc2d0304-2b09-ef11-848b-06b2dbd3092b",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

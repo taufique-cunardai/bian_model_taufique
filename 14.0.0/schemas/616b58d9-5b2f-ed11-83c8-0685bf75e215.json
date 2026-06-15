@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "616b58d9-5b2f-ed11-83c8-0685bf75e215",
+  "title": "Financial Advisory Service Instruction",
+  "description": "An instruction to fulfill the Financial Advisory Service Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "73774869-5d2f-ed11-83c8-0685bf75e215",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70254339-5c2f-ed11-83c8-0685bf75e215",
+      "target": "0de6f21b-5c2f-ed11-83c8-0685bf75e215",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

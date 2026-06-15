@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7c2fd267-f650-eb11-82e3-06835c7d8e0d",
+  "title": "Fiduciary Service",
+  "description": "A service provided by a person or firm - such as a bank, trust company or registered investment adviser (RIA) - serving as a trustee, executor, personal administrator or discretionary agent having direct responsibility for managing assets for or on behalf of individuals and families, as well as estates, trusts, private foundations and other entities they establish or control. (Wikipedia)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "af9e3de5-5370-eb11-82fd-061e1f234dd5",
+      "target": "0cbfb7fb-5997-e911-823e-065ba593ba6e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edadb473-f650-eb11-82e3-06835c7d8e0d",
+      "target": "f2748a6f-f250-eb11-82e3-06835c7d8e0d",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

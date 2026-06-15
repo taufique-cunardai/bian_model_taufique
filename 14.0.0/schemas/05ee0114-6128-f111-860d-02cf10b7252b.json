@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "05ee0114-6128-f111-860d-02cf10b7252b",
+  "title": "Financial Status Tracking Instruction",
+  "description": "Is a Request to monitor, update, or report on the overall financial condition, balances, or exposure of an account, entity, or arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialStatusTrackingInstructionType"
+  ],
+  "properties": {
+    "FinancialStatusTrackingInstructionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialStatusTrackingInstructionTypeValues",
+      "x-related-bo-id": "079712e2-f228-f111-860d-06b37ecc494f",
+      "x-related-bo-name": "FinancialStatusTrackingInstructionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "6b0401de-6228-f111-860d-02cf10b7252b",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65e4ea87-6228-f111-860d-02cf10b7252b",
+      "target": "2e4d6c2b-6128-f111-860d-02cf10b7252b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

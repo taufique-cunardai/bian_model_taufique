@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0de6f21b-5c2f-ed11-83c8-0685bf75e215",
+  "title": "Financial Advisory Service Transaction",
+  "description": "A transaction which is the result of fulfillment of Financial Advisory Service Arrangement",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "77774869-5d2f-ed11-83c8-0685bf75e215",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfcdcd73-5d2f-ed11-83c8-0685bf75e215",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

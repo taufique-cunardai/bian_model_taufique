@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "06e9415b-9227-f111-860d-02f56513e735",
+  "title": "Amount Block Term and Condition",
+  "description": "Defines the formal rules and obligations governing the temporary restriction or reservation of funds in a clients account.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "3b8d8866-9227-f111-860d-02f56513e735",
+      "target": "42294c43-9227-f111-860d-02f56513e735",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Amount Block Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ca8a3b2-2528-f111-860d-061bb3da1acd",
+      "target": "acebac7f-bd56-e911-8237-06ecaacb4c68",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Condition",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

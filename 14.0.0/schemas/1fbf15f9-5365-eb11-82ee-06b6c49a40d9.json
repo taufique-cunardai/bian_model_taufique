@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1fbf15f9-5365-eb11-82ee-06b6c49a40d9",
+  "title": "Standard Design Specification",
+  "description": "A design specification defined for a standard (e.g. Technology Standard, Data Standard).",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a7f7f0e1-b7ae-e911-828c-06d72c197ec4",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "StandardDesignSpecificationType"
+  ],
+  "properties": {
+    "StandardDesignSpecificationType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "StandardDesignSpecificationTypeValues",
+      "x-related-bo-id": "6d786f74-5565-eb11-82ee-06b6c49a40d9",
+      "x-related-bo-name": "StandardDesignSpecificationTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e6f63e00-5465-eb11-82ee-06b6c49a40d9",
+      "target": "a7f7f0e1-b7ae-e911-828c-06d72c197ec4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Design Specification",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

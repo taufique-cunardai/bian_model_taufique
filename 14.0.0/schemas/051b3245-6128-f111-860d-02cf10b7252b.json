@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "051b3245-6128-f111-860d-02cf10b7252b",
+  "title": "Financial Status Tracking Service",
+  "description": "A Financial Status Tracking Service is a banking or treasury service that monitors, assesses, and reports the overall financial condition of a customer or account. It provides a comprehensive view of balances, exposures, liabilities, and obligations to support decision-making, risk management, and compliance.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "eea11636-6128-f111-860d-02cf10b7252b",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "FinancialStatusTrackingServiceType"
+  ],
+  "properties": {
+    "FinancialStatusTrackingServiceType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "FinancialStatusTrackingServiceTypeValues",
+      "x-related-bo-id": "5874d0c0-6428-f111-860d-02cf10b7252b",
+      "x-related-bo-name": "FinancialStatusTrackingServiceTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "32501f57-6228-f111-860d-02cf10b7252b",
+      "target": "eea11636-6128-f111-860d-02cf10b7252b",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Status Tracking Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

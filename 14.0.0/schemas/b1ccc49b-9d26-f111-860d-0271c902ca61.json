@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b1ccc49b-9d26-f111-860d-0271c902ca61",
+  "title": "Positive Pay Transaction",
+  "description": "Is an Action in the context of a positive pay arrangement that records, verifies, or manages checks and payment instructions to detect and prevent fraud. It represents any event that affects the validation, approval, or exception handling of payments under the positive pay arrangement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "5708a70e-fd6f-e911-8237-06309b11004c",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PositivePayTransactionType"
+  ],
+  "properties": {
+    "PositivePayTransactionType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PositivePayTransactionTypeValues",
+      "x-related-bo-id": "2da3d53f-a026-f111-860d-0271c902ca61",
+      "x-related-bo-name": "PositivePayTransactionTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "a7f63ea9-9d26-f111-860d-0271c902ca61",
+      "target": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Transaction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ddb8bcb5-9d26-f111-860d-0271c902ca61",
+      "target": "69ad2f0a-0061-e911-8237-068e13695e26",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

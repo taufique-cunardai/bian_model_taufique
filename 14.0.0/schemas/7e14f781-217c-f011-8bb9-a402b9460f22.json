@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7e14f781-217c-f011-8bb9-a402b9460f22",
+  "title": "Insurance Product",
+  "description": "Is A Banking Product that provides financial protection against specified risks in exchange for regular premium payments.\r\n\r\nA type of arrangement that enables the policyholder to transfer the financial impact of potential losses such as death, illness, property damage, or liability to the insurer, who pays a benefit or compensation according to the terms and conditions of the policy.\r\n\r\nComment:\r\nA financial product offered by an insurer that transfers risk from the customer to the insurance company in exchange for premiums.\r\n- Its the package an insurance company sells to customers, with defined benefits, coverage limits, exclusions, and premium costs.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "InsuranceProductType"
+  ],
+  "properties": {
+    "InsuranceProductType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "InsuranceProductTypeValues",
+      "x-related-bo-id": "46a6dc2b-247c-f011-8bb9-a402b9460f22",
+      "x-related-bo-name": "InsuranceProductTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "cf371482-277c-f011-8bb9-a402b9460f22",
+      "target": "1aeced65-0b68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fac67e35-227c-f011-8bb9-a402b9460f22",
+      "target": "5f8ac218-7780-e911-823e-061de61e9206",
+      "modality": "1:N",
+      "required": false,
+      "description": "SoldProduct",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

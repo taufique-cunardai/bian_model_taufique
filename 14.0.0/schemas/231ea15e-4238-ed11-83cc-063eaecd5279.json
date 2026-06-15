@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "231ea15e-4238-ed11-83cc-063eaecd5279",
+  "title": "Payment Rail",
+  "description": "A payment platform or a payment network that moves money from a payer to a payee.\r\n\r\n- Swift, SEPA, CHAPS, ACH, Faster Payments - just some of the examples of payment rails.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6fd7342a-138d-e911-823e-067b7da9d714",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "2c68cbf2-4238-ed11-83cc-063eaecd5279",
+      "target": "6fd7342a-138d-e911-823e-067b7da9d714",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5d0a2a5-4238-ed11-83cc-063eaecd5279",
+      "target": "02c66d9c-4238-ed11-83cc-063eaecd5279",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

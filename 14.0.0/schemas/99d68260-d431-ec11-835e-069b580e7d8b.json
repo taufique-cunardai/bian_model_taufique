@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "99d68260-d431-ec11-835e-069b580e7d8b",
+  "title": "Debit Card Instruction",
+  "description": "A payment instruction initiated by a debit card",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "e6304f28-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "7cd958aa-d531-ec11-835e-069b580e7d8b",
+      "target": "6776dee4-9d30-eb11-82d9-061c5848f615",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Card Payment Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0df558aa-d431-ec11-835e-069b580e7d8b",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Payment Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebaef482-d431-ec11-835e-069b580e7d8b",
+      "target": "2f9a5a74-d431-ec11-835e-069b580e7d8b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

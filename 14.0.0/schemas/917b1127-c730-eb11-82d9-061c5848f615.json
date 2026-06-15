@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "917b1127-c730-eb11-82d9-061c5848f615",
+  "title": "Cheque",
+  "description": "Negotiable instrument instructing a financial institution to pay a specific amount of a specific currency from the account of the drawer with that institution. (ISO20022)\r\n\r\nA check is a written, dated, and signed instrument that directs a bank to pay a specific sum of money to the bearer. (Investopedia)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "b629cc7e-80b9-ec11-8382-06d577125049",
+      "target": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Financial Instrument",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "25918cce-8035-eb11-82df-0608708832ad",
+      "target": "ad7f8d21-7e35-eb11-82df-0608708832ad",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38f96dd7-8035-eb11-82df-0608708832ad",
+      "target": "f1f7d6a0-7f35-eb11-82df-0608708832ad",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

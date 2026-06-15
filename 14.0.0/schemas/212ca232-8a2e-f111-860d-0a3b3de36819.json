@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "212ca232-8a2e-f111-860d-0a3b3de36819",
+  "title": "Issued Device Instruction",
+  "description": "Is a Request to manage, control, or process actions related to a physical or digital device provided to a customer or user.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "7effad6e-9965-e911-8237-06eba4258fe0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "a9597d6e-8a2e-f111-860d-0a3b3de36819",
+      "target": "7effad6e-9965-e911-8237-06eba4258fe0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Instruction",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0d9e450-8a2e-f111-860d-0a3b3de36819",
+      "target": "ec990f48-8a2e-f111-860d-0a3b3de36819",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

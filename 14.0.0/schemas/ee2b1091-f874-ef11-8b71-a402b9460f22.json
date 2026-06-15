@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ee2b1091-f874-ef11-8b71-a402b9460f22",
+  "title": "Letter of Credit Involvement",
+  "description": "Party who plays a specific roles in Letter of Credit",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "LetterofCreditInvolvementType"
+  ],
+  "properties": {
+    "LetterofCreditInvolvementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "LetterOfCreditInvolvementTypeValues",
+      "x-related-bo-id": "95f15ecc-f874-ef11-8b71-a402b9460f22",
+      "x-related-bo-name": "LetterOfCreditInvolvementTypeValues"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}
