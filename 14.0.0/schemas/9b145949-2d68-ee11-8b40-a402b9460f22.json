@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9b145949-2d68-ee11-8b40-a402b9460f22",
+  "title": "PEP Assessment",
+  "description": "A PEP (Politically Exposed Person) check is an assessment conducted by businesses, financial institutions, and government agencies to identify individuals who hold prominent public positions or have significant political influence. The purpose of a PEP check is to assess and manage the potential risks associated with doing business with these individuals, as they may be more susceptible to corruption, money laundering, or other illicit activities.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ea36f45c-1656-e911-8237-060aad038e48",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PoliticalExposureType",
+    "PoliticallyExposedPersonStatus"
+  ],
+  "properties": {
+    "PoliticalExposureType": {
+      "type": "string",
+      "description": "Specifies if due diligence checks on the political exposure of the investor have been carried out and whether these checks are national or foreign. (A politically exposed person is someone who has been entrusted with a prominent public function, or an individual who is closely related to such a person.) (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PoliticalExposureTypeValues",
+      "x-related-bo-id": "3ddd8a59-a8f1-e911-82b5-06f9534b74c8",
+      "x-related-bo-name": "PoliticalExposureTypeValues"
+    },
+    "PoliticallyExposedPersonStatus": {
+      "type": "string",
+      "description": "Status of the politically exposed person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PoliticallyExposedPersonStatusTypeValues",
+      "x-related-bo-id": "b1f321ec-2f68-ee11-8b40-a402b9460f22",
+      "x-related-bo-name": "PoliticallyExposedPersonStatusTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "807cd78c-2d68-ee11-8b40-a402b9460f22",
+      "target": "ea36f45c-1656-e911-8237-060aad038e48",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Assessment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

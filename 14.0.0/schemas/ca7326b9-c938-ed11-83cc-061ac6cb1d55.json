@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ca7326b9-c938-ed11-83cc-061ac6cb1d55",
+  "title": "Private Placement Arrangement",
+  "description": "A Service Arrangement which is agreed for a Private PLacement. \r\n\r\nWhat Is a Private Placement?\r\nA private placement is a sale of stock shares or bonds to pre-selected investors and institutions rather than on the open market. It is an alternative to an initial public offering (IPO) for a company seeking to raise capital for expansion.\r\nhttps://www.investopedia.com/terms/p/privateplacement.asp#:~:text=What%20Is%20a%20Private%20Placement,to%20raise%20capital%20for%20expansion.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "c80f2ee6-f097-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "PrivatePlacementArrangementType"
+  ],
+  "properties": {
+    "PrivatePlacementArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "PrivatePlacementArrangementTypeValues",
+      "x-related-bo-id": "6d80da88-ca38-ed11-83cc-061ac6cb1d55",
+      "x-related-bo-name": "PrivatePlacementArrangementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "e067ec1b-ca38-ed11-83cc-061ac6cb1d55",
+      "target": "c80f2ee6-f097-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e46be42-ce38-ed11-83cc-061ac6cb1d55",
+      "target": "f4f65911-ce38-ed11-83cc-061ac6cb1d55",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47dfeb06-cf38-ed11-83cc-061ac6cb1d55",
+      "target": "57ffa4e9-ce38-ed11-83cc-061ac6cb1d55",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

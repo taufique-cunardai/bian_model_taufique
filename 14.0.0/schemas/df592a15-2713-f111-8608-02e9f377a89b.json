@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "df592a15-2713-f111-8608-02e9f377a89b",
+  "title": "Partner",
+  "description": "A Partner is an external organization, entity, or company that collaborates with a bank to deliver, distribute, support, or enhance banking products and services under a formal agreement.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6debcccf-2613-f111-8608-02e9f377a89b",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "d384ac1f-2713-f111-8608-02e9f377a89b",
+      "target": "6debcccf-2613-f111-8608-02e9f377a89b",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Partner Administration",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e841516d-2713-f111-8608-02e9f377a89b",
+      "target": "a8bf505b-2713-f111-8608-02e9f377a89b",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "232d759f-ea28-eb11-82d9-06a44deb104b",
+  "title": "Cash Inventory Management Agreement",
+  "description": "An Agreement established among two or more parties to  collect, allocate, distribute, project, store and maintain the cash inventory. \r\n\r\nComment:\r\nCash Inventory Management is the process of collecting, allocation, distributing, projection, storing and maintaining the cash inventory.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "4afd102d-816c-eb11-82f6-06a4f8a91e0d",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee3db5a2-e528-eb11-82d9-06a44deb104b",
+      "target": "a82a131b-2228-eb11-82d4-06b1e967d8ed",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e317d25-e728-eb11-82d9-06a44deb104b",
+      "target": "70959fdb-be56-e911-8237-06ecaacb4c68",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

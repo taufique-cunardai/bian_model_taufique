@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "48cf20c2-353e-eb11-82e3-06c3221d56f9",
+  "title": "Currency Exchange Agreement",
+  "description": "An agreement in which the parties agree to transfer between them a certain amount of foreign exchange at a predetermined rate of exchange, and as of a predetermined date.\r\n\r\nAgreement between two parties in which one party buys a currency and the other party sells a different currency. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "AgreedExchangeRate"
+  ],
+  "properties": {
+    "AgreedExchangeRate": {
+      "type": "string",
+      "description": "Exchange rate between two currencies. The rate is agreed by the trading parties during the negotiation process. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Rate",
+      "x-related-bo-id": "19666467-a690-eb11-8310-06a4d64a8775",
+      "x-related-bo-name": "Rate"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "d98f85a5-d93e-eb11-82e3-06c2d615494b",
+      "target": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf930bc9-353e-eb11-82e3-06c3221d56f9",
+      "target": "059e1fae-2d3e-eb11-82e3-06c3221d56f9",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

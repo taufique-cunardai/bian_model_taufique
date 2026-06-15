@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "087f4fb1-716b-ef11-8b6f-a402b9460f22",
+  "title": "Securities Account",
+  "description": "Account to or from which a securities entry is made.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "9fe05cf9-fd60-e911-8237-068e13695e26",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SecuritiesAccountType",
+    "SecuritiesAccountIdentification",
+    "SecuritiesAccountName",
+    "SecuritiesAccountBalance"
+  ],
+  "properties": {
+    "SecuritiesAccountType": {
+      "type": "string",
+      "description": "Type of securities account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SecuritiesAccountTypeValues",
+      "x-related-bo-id": "d0b54478-e970-ef11-84cd-062407ebb1ed",
+      "x-related-bo-name": "SecuritiesAccountTypeValues"
+    },
+    "SecuritiesAccountIdentification": {
+      "type": "string",
+      "description": "Unambiguous identification for the account between the account owner and the account servicer.. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Identifier",
+      "x-related-bo-id": "d296f751-a946-ea11-8289-06f8a6a00ed0",
+      "x-related-bo-name": "Identifier"
+    },
+    "SecuritiesAccountName": {
+      "type": "string",
+      "description": "Description of the account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Name",
+      "x-related-bo-id": "6bf573d1-14ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "Name"
+    },
+    "SecuritiesAccountBalance": {
+      "type": "string",
+      "description": "Net position of a segregated holding, in a single security, within the overall position held in a securities account. A securities balance is calculated from the sum of securities' receipts minus the sum of securities' deliveries. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "AccountBalance",
+      "x-related-bo-id": "a2e09a0d-0848-ea11-8289-062ea3b80f12",
+      "x-related-bo-name": "AccountBalance"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "2512f1ef-716b-ef11-8b6f-a402b9460f22",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Account",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e1f612c-726b-ef11-8b6f-a402b9460f22",
+      "target": "d7381a18-726b-ef11-8b6f-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "163ff700-7076-ef11-8b72-a402b9460f22",
+      "target": "5a795355-84a9-ea11-829f-06478228ed28",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

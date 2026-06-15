@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "dc93453c-bb73-ec11-836c-06bb75116b13",
+  "title": "Merchant Relationship Agreement",
+  "description": "An agreement outlines the terms and conditions between bank/customer and merchant for cards related activity",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "d4d0de74-94f1-e911-82b5-06f9534b74c8",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "ef092d05-be73-ec11-836c-06bb75116b13",
+      "target": "d4d0de74-94f1-e911-82b5-06f9534b74c8",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party Relationship Agreement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c75d6fa9-c073-ec11-836c-06bb75116b13",
+      "target": "13324d4f-c073-ec11-836c-06bb75116b13",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

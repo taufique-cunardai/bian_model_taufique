@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a8bf505b-2713-f111-8608-02e9f377a89b",
+  "title": "Partner Administrative Plan",
+  "description": "An administrative plan to support Partner",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a2167574-8f80-e911-823e-061de61e9206",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "9ceeb787-2713-f111-8608-02e9f377a89b",
+      "target": "a2167574-8f80-e911-823e-061de61e9206",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Administrative Plan",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

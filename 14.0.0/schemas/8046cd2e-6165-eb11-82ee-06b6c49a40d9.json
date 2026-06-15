@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8046cd2e-6165-eb11-82ee-06b6c49a40d9",
+  "title": "Regulatory Authority Relationship Involvement",
+  "description": "A party who plays a specific role in a specific RegulatoryAuthorityRelationship like Bank, regulator, regulatory agancy and etc.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6f53fd37-8257-e911-8237-0645314e65ac",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "4b875f0c-6365-eb11-82ee-06b6c49a40d9",
+      "target": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Party",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

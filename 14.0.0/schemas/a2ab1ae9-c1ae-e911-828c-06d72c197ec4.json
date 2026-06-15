@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a2ab1ae9-c1ae-e911-828c-06d72c197ec4",
+  "title": "Model Design Specification",
+  "description": "A design specification defined for a model (e.g. Fraud Model, Customer Behaviour Model, Credit Risk Model)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "a7f7f0e1-b7ae-e911-828c-06d72c197ec4",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "ModelDesignSpecificationType"
+  ],
+  "properties": {
+    "ModelDesignSpecificationType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ModelDesignSpecificationTypeValues",
+      "x-related-bo-id": "57e8c21a-5565-eb11-82ee-06b6c49a40d9",
+      "x-related-bo-name": "ModelDesignSpecificationTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "1e2f21f1-c1ae-e911-828c-06d72c197ec4",
+      "target": "a7f7f0e1-b7ae-e911-828c-06d72c197ec4",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Design Specification",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6927d9f-c7ae-e911-828c-06d72c197ec4",
+      "target": "d41c7f3f-c7ae-e911-828c-06d72c197ec4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d7aba7e-c7ae-e911-828c-06d72c197ec4",
+      "target": "ec37b21a-c3ae-e911-828c-06d72c197ec4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8aa3f67b-c6ae-e911-828c-06d72c197ec4",
+      "target": "a829ebf3-c5ae-e911-828c-06d72c197ec4",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

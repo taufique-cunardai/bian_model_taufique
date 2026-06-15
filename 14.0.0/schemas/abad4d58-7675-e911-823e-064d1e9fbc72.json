@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "abad4d58-7675-e911-823e-064d1e9fbc72",
+  "title": "Customer Behavior Insight Analysis",
+  "description": "An analysis on the customer's behaviour insight",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "f8405e5f-7675-e911-823e-064d1e9fbc72",
+      "target": "6aa1554b-7675-e911-823e-064d1e9fbc72",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Analysis",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "893bbb92-3876-e911-823e-065f1d1f71b2",
+      "target": "e1bf3e5c-3876-e911-823e-065f1d1f71b2",
+      "modality": "M:N",
+      "required": false,
+      "description": "ReportUsed\r\nInAnalysis",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf3054dc-3176-e911-823e-065f1d1f71b2",
+      "target": "435548c6-3076-e911-823e-065f1d1f71b2",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "aggregation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97461d83-3776-e911-823e-065f1d1f71b2",
+      "target": "1ea432d9-3476-e911-823e-065f1d1f71b2",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

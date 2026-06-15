@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2ce00e0a-7376-ef11-8b72-a402b9460f22",
+  "title": "Securities Arrangement",
+  "description": "In the context of a securities agreement, arrangements refer to structured agreements or provisions that outline how securities (such as stocks, bonds, or other financial instruments) are to be managed, transferred, pledged, or handled between parties. These arrangements specify the roles, responsibilities, rights, and obligations of the parties involved, ensuring that the transaction or relationship involving securities is clearly defined and legally protected.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "SecuritiesArrangementType"
+  ],
+  "properties": {
+    "SecuritiesArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SecuritiesArrangementTypeValues",
+      "x-related-bo-id": "004e0748-7376-ef11-8b72-a402b9460f22",
+      "x-related-bo-name": "SecuritiesArrangementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "600d175d-7376-ef11-8b72-a402b9460f22",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aea25b01-7476-ef11-8b72-a402b9460f22",
+      "target": "d24985c1-11ab-ea11-829f-0691f30ba14c",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bca17a62-0179-ef11-84d2-06d9e746bd6d",
+      "target": "3cac6470-fe78-ef11-84d2-06d9e746bd6d",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8782110a-0579-ef11-84d2-06d9e746bd6d",
+      "target": "53709a57-0279-ef11-84d2-06d9e746bd6d",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d58d371c-877a-ef11-84d2-06539a1e3291",
+      "target": "166d1ea9-847a-ef11-84d2-06539a1e3291",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

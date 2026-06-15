@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c31e18d6-a754-ef11-8b6a-a402b9460f22",
+  "title": "Customer Campaign Portfolio",
+  "description": "A customer campaign portfolio is a collection of customer campaigns that a business uses to target its customers",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "f12e12ba-bceb-eb11-8336-065ca8b18a7f",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "edd7a42d-a854-ef11-8b6a-a402b9460f22",
+      "target": "f12e12ba-bceb-eb11-8336-065ca8b18a7f",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Portfolio",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3cdb9df-a754-ef11-8b6a-a402b9460f22",
+      "target": "6650b4d8-d157-ea11-8289-060c7a9911f6",
+      "modality": "1:N",
+      "required": true,
+      "description": "",
+      "x-relationship-type": "composition",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aaabbca3-324b-ef11-8b66-a402b9460f22",
+      "target": "80959583-225a-ea11-8290-06eaa2e18406",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "50e11712-c158-ef11-8b6c-a402b9460f22",
+      "target": "3b9f7138-2f5a-ea11-8290-06eaa2e18406",
+      "modality": "1:N",
+      "required": false,
+      "description": "CampaignPortfolio\r\nAssessment",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

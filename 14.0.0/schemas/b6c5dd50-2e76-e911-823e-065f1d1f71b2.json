@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b6c5dd50-2e76-e911-823e-065f1d1f71b2",
+  "title": "Customer Behavior",
+  "description": "Customer behavior refers to the actions, decisions, and patterns exhibited by individuals or groups when they interact with products, services, or brands\r\n\r\n\r\nThe study of the activities performed by customers.  \r\n\r\nThe study of customer and all its activities associated with the purchase, use and disposal of goods and services, including the customer's emotional, mental and behavioural responses that precede or follow these activities.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "30af68bf-ca7b-e911-823e-061c465efe24",
+      "target": "8ba56116-af45-ef11-8b66-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce1f0a9b-d753-ef11-8b69-a402b9460f22",
+      "target": "6fff9b36-b045-ef11-8b66-a402b9460f22",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6aedf8fd-bbae-e911-828c-06d72c197ec4",
+      "target": "28fa4bba-e17a-e911-823e-06a71c6fe4c8",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

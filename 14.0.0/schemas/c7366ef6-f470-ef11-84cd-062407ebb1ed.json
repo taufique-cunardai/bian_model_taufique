@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c7366ef6-f470-ef11-84cd-062407ebb1ed",
+  "title": "Securities Clearing",
+  "description": "Process of settling securities through a central system. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "b78127c9-63b7-e911-8291-0657c6eca57a",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Netting"
+  ],
+  "properties": {
+    "Netting": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Procedure",
+      "x-related-bo-id": "7fa3e892-2b81-e911-823e-06e80039c878",
+      "x-related-bo-name": "Procedure"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "f7601a4c-6e76-ef11-8b72-a402b9460f22",
+      "target": "b78127c9-63b7-e911-8291-0657c6eca57a",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Clearing",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

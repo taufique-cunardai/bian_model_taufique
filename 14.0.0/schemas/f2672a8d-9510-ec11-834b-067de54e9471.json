@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f2672a8d-9510-ec11-834b-067de54e9471",
+  "title": "Funding Check",
+  "description": "An assessment to check the fund is available",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "ea36f45c-1656-e911-8237-060aad038e48",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "973b14b1-9510-ec11-834b-067de54e9471",
+      "target": "ea36f45c-1656-e911-8237-060aad038e48",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Assessment",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "db52f874-2a1f-ee11-8b30-a402b9460f22",
+      "target": "e6304f28-fd60-e911-8237-068e13695e26",
+      "modality": "M:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

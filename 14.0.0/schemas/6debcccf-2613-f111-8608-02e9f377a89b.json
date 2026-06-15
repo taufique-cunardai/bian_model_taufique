@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6debcccf-2613-f111-8608-02e9f377a89b",
+  "title": "Partner Administration",
+  "description": "Partner Administration is the operational and managerial backbone that ensures partnerships are compliant, profitable, and well-governed, covering onboarding, performance, compliance, finance, and lifecycle management.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "8e5ac3ee-f490-e911-823e-06f3e7d1f9c0",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "e73b82f6-b713-f111-8608-0a7a71d021eb",
+      "target": "8e5ac3ee-f490-e911-823e-06f3e7d1f9c0",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from System Service",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "906031b0-b713-f111-8608-0a7a71d021eb",
+      "target": "858caa8c-b713-f111-8608-0a7a71d021eb",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "915d86af-bb13-f111-8608-0a7a71d021eb",
+      "target": "1bb3a0a1-bb13-f111-8608-0a7a71d021eb",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

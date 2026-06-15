@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "071b3c60-d4bd-e911-8291-067c324be9d2",
+  "title": "Card Network Particpant Service",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "NetworkParticipantServiceType",
+    "NetworkParticipantServiceCharge",
+    "NetworkParticipantServiceDate/Time"
+  ],
+  "properties": {
+    "NetworkParticipantServiceType": {
+      "type": "string",
+      "description": "The type of Network Participant Service  (e.g. merchant alert, chargeback arbitration, chargeback reduction)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "NetworkParticipantServiceCharge": {
+      "type": "string",
+      "description": "Details of service charge levied against the Network Participant Facility.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    },
+    "NetworkParticipantServiceDate/Time": {
+      "type": "string",
+      "description": "Key dates and times associated with the provision of the service (e.g. initiation of service fulfillment)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "String",
+      "x-related-bo-id": "db5d0c55-10ee-eb11-8336-0692f5211cfd",
+      "x-related-bo-name": "String"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "0c0788e6-6bbe-e911-8291-06f6076f576a",
+      "target": "823053bb-a486-e911-823e-062687e6a904",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Product Feature",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

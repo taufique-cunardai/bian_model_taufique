@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c6e3eea1-0a2e-ed11-83c8-069d6f46ae39",
+  "title": "Lockbox Arrangement",
+  "description": "An arrangement into which is promised to deliver a Lockbox service.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "c80f2ee6-f097-e911-827a-06d89370a58e",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "LockboxArrangementType"
+  ],
+  "properties": {
+    "LockboxArrangementType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "ArrangementTypeValues",
+      "x-related-bo-id": "b1719e80-5124-eb11-82d4-06982365eacb",
+      "x-related-bo-name": "ArrangementTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "b0cdccc7-0a2e-ed11-83c8-069d6f46ae39",
+      "target": "c80f2ee6-f097-e911-827a-06d89370a58e",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Service Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a62e79d0-0c2e-ed11-83c8-069d6f46ae39",
+      "target": "eea470a4-0c2e-ed11-83c8-069d6f46ae39",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b401b81e-0d2e-ed11-83c8-069d6f46ae39",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "Lockbox \r\nAccount",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

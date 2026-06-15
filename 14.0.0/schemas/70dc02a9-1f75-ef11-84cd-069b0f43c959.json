@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "70dc02a9-1f75-ef11-84cd-069b0f43c959",
+  "title": "Securities Settlement Involvment",
+  "description": "Role played by a party in the context of the settlement of securities.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "DeliveringSettlementParty",
+    "SecuritiesSettlementInvolvmentType"
+  ],
+  "properties": {
+    "DeliveringSettlementParty": {
+      "type": "string",
+      "description": "Party that is responsible for delivering securities as part of a chain of settlement parties or as party that sells them.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    },
+    "SecuritiesSettlementInvolvmentType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "SecuritiesSettlementInvolvmentTypeValues",
+      "x-related-bo-id": "c8313a7d-f577-ef11-84d2-061f124f5131",
+      "x-related-bo-name": "SecuritiesSettlementInvolvmentTypeValues"
+    }
+  },
+  "x-relationships": [
+    {
+      "id": "4ab31dcd-1f75-ef11-84cd-069b0f43c959",
+      "target": "6f53fd37-8257-e911-8237-0645314e65ac",
+      "modality": "1:1",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}

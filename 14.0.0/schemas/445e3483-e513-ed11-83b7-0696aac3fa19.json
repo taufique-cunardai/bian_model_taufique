@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "445e3483-e513-ed11-83b7-0696aac3fa19",
+  "title": "Transaction_Transaction Relationship",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [
+    "Transaction_TransactionRelationshipType",
+    "FromTransaction",
+    "ToTransaction"
+  ],
+  "properties": {
+    "Transaction_TransactionRelationshipType": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "string"
+    },
+    "FromTransaction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Transaction",
+      "x-related-bo-id": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "x-related-bo-name": "Transaction"
+    },
+    "ToTransaction": {
+      "type": "string",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-previous-value": null,
+      "x-multi-valued": false,
+      "x-is-unique": true,
+      "x-min-occurs": 1,
+      "x-max-occurs": 1,
+      "x-attr-type": "Transaction",
+      "x-related-bo-id": "5708a70e-fd6f-e911-8237-06309b11004c",
+      "x-related-bo-name": "Transaction"
+    }
+  },
+  "x-relationships": [],
+  "x-enumeration-literals": []
+}

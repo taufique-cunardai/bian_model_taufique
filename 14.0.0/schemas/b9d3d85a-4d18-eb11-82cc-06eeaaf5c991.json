@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b9d3d85a-4d18-eb11-82cc-06eeaaf5c991",
+  "title": "Asset Securitization Arrangement",
+  "description": "An arrangement which involves putting together a claim on particular assets which is then sold as a negotiable security in the financial markets. \r\n\r\n\r\n\r\n\r\nWhat is Securitization?\r\n\r\nSecuritization is the procedure where an issuer designs a marketable financial instrument by merging or pooling various financial assets into one group. The issuer then sells this group of repackaged assets to investors.\r\n\r\nSecuritization is the process of taking an illiquid asset or group of assets and, through financial engineering, transforming it (or them) into a security.\r\n\r\nSecuritization, the practice of pooling together various types of debt instruments (assets) such as mortgages and other consumer loans and selling them as bonds to investors.\r\n\r\nsecuritization is an arrangement which involves putting together a claim on particular assets of a business which is then sold as a negotiable security in the financial markets. \r\n\r\nPooling securities into an ABS is a process called securitization.\r\n\r\nAsset-backed securities (ABS) are financial securities backed by assets such as credit card receivables, home equity loans, and auto loans.",
+  "x-version": "1.0.0",
+  "x-object-type": "Class",
+  "x-super-type": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [
+    {
+      "id": "6c7e2679-b76b-eb11-82f6-06ead049bfcb",
+      "target": "dd3cc0aa-0a68-e911-8237-06dd5e24f7bc",
+      "modality": "1:1",
+      "required": true,
+      "description": "Inherits from Arrangement",
+      "x-relationship-type": "generalization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "957957b7-b66b-eb11-82f6-06ead049bfcb",
+      "target": "2f2ce4ad-b66b-eb11-82f6-06ead049bfcb",
+      "modality": "1:N",
+      "required": false,
+      "description": "",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "024abde0-b76b-eb11-82f6-06ead049bfcb",
+      "target": "9fe05cf9-fd60-e911-8237-068e13695e26",
+      "modality": "1:1",
+      "required": false,
+      "description": "Arrangement\r\nAccount",
+      "x-relationship-type": "association",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ],
+  "x-enumeration-literals": []
+}
