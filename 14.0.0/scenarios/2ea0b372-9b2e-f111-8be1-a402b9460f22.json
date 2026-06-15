@@ -1,0 +1,35 @@
+{
+  "uid": "2ea0b372-9b2e-f111-8be1-a402b9460f22",
+  "name": "Initiate Customer Access and Session",
+  "groupUid": "12094037-6d7e-f011-8bb9-a402b9460f22",
+  "groupName": "AI Readiness",
+  "status": "Provisional",
+  "steps": [
+    {
+      "callerSd": "Customer Workbench",
+      "receiverSd": "Initiate Contact",
+      "so": "eBranch Operations"
+    },
+    {
+      "callerSd": "eBranch Operations",
+      "receiverSd": "Initiate Inbound Exchange",
+      "so": "Contact Handler"
+    },
+    {
+      "callerSd": "Contact Handler",
+      "receiverSd": "Initiate Session",
+      "so": "Session Dialogue"
+    },
+    {
+      "callerSd": "Session Dialogue",
+      "receiverSd": "Initiate Product or Service Invocation",
+      "so": "Current Account"
+    },
+    {
+      "callerSd": "Contact Handler",
+      "receiverSd": "Initiate Session",
+      "so": "Customer Product and Service Directory"
+    }
+  ],
+  "organisation": "BIAN"
+}

@@ -1,0 +1,710 @@
+{
+  "id": "aj17eudw",
+  "name": "Contact Handler",
+  "description": "",
+  "controlRecord": {
+    "id": "42y7ozvk",
+    "name": "CR Customer Contact Operating Session Instance Record",
+    "description": "Operate equipment and/or a largely automated facility within Contact Handler.",
+    "attributes": [
+      {
+        "id": "3515810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerContactInboundorOutboundIndicator",
+        "type": "InboundOutboundIndicator",
+        "required": true,
+        "description": "Indicates whether this is an inbound or outbound contact (inbound is customer initiated, outbound is servicing resource initiated)",
+        "relatedBusinessObjectName": "Customer Contact",
+        "relatedBusinessObjectAttrName": "Customer Contact Indicator",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3615810c-953d-f111-8be5-a402b9460f22",
+        "name": "eBranchOperatingSessionReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to the active network operating session used to access customer",
+        "relatedBusinessObjectName": "eBranch Channel Session",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3715810c-953d-f111-8be5-a402b9460f22",
+        "name": "AdvancedVoiceServiceOperatingSessionReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to the active voice network used to access customer",
+        "relatedBusinessObjectName": "Voice Channel Session",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3815810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerContactRecordReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to the contact record assembled during the customer contact",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3915810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerContactRecord",
+        "type": "Text",
+        "required": true,
+        "description": "The contact record consolidates all aspects of the contact that is cross-referenced by all  contact functions and called servicing sessions that make up the contact",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3a15810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerReference",
+        "type": "InvolvedParty",
+        "required": true,
+        "description": "The customer reference as provided by the contacting party and verified by the authentication function",
+        "relatedBusinessObjectName": "Contact Involvement",
+        "relatedBusinessObjectAttrName": "Contact Involvement Type",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3b15810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerContactDeviceUsed",
+        "type": "Device",
+        "required": true,
+        "description": "The device used in customer contact \r\n\r\nThe contact device can be determined by the channel operations facilities (e.g. URL/ANI-phone number)",
+        "relatedBusinessObjectName": "Device",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3c15810c-953d-f111-8be5-a402b9460f22",
+        "name": "AuthenticationStatus",
+        "type": "Status",
+        "required": true,
+        "description": "Indicates the outcome of the identity verification process.\r\nConfirms whether the customer has been successfully authenticated (e.g., success, failed, pending step-up authentication).",
+        "relatedBusinessObjectName": "Authentication",
+        "relatedBusinessObjectAttrName": "Authentication Status",
+        "referenceAspect": "iso20022",
+        "referenceName": "Status",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3d15810c-953d-f111-8be5-a402b9460f22",
+        "name": "RoutingSelection",
+        "type": "Routing Selection",
+        "required": true,
+        "description": "The routing selections made through the contact\r\nThe determined servicing channel or mode for fulfilling the request.\r\nDefines whether the interaction continues as self-service, is escalated to assisted service, or is blocked.",
+        "relatedBusinessObjectName": "Routing Selection",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3e15810c-953d-f111-8be5-a402b9460f22",
+        "name": "ServiceSelection",
+        "type": "Service Selection",
+        "required": true,
+        "description": "The requested service from a menu option can be indicated by the customer when initiating or during contact\r\n\r\nSelected Service:The specific banking service identified as relevant for execution based on customer intent, entitlements, and context.Example: account balance inquiry, funds transfer, product overview.\r\nService Eligibility: A validation indicator confirming whether the selected service is permitted for the customer under current conditions.Reflects entitlement rules, compliance constraints, and product availability.",
+        "relatedBusinessObjectName": "Service Selection",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "3f15810c-953d-f111-8be5-a402b9460f22",
+        "name": "ServicingRequest",
+        "type": "Instruction",
+        "required": true,
+        "description": "The customer may provide details of servicing resource request when initiating or during contact",
+        "relatedBusinessObjectName": "Instruction",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4015810c-953d-f111-8be5-a402b9460f22",
+        "name": "ServicingEventHistory",
+        "type": "Text",
+        "required": true,
+        "description": "Contact Handler can reference recent servicing activity for routing, security and servicing purposes (obtained from Service Domain Channel Activity History)",
+        "relatedBusinessObjectName": "Channel Activity Log",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4115810c-953d-f111-8be5-a402b9460f22",
+        "name": "ServicingPositionReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to the servicing position - can be where an inbound contact is routed, or the source of an outbound contact request",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4215810c-953d-f111-8be5-a402b9460f22",
+        "name": "ServicingResourceReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to the servicing resource - can be to handle an inbound contact or the source of an outbound contact request",
+        "relatedBusinessObjectName": "Servicing Resource",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4315810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerContactActivityLog",
+        "type": "Customer Event Log",
+        "required": true,
+        "description": "Records the actions performed during contact, including all dialogue sessions",
+        "relatedBusinessObjectName": "Customer Event Log",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4415810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerSessionDialogueReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to any contact session dialogue records created during the contact - there can be several",
+        "relatedBusinessObjectName": "Customer Contact Session",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4515810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerSessionDialogueLog",
+        "type": "Log",
+        "required": true,
+        "description": "The customer session dialogue details and log",
+        "relatedBusinessObjectName": "Log",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4615810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerContactDuration",
+        "type": "Duration",
+        "required": true,
+        "description": "Records the start and end date times for the contact",
+        "relatedBusinessObjectName": "Customer Contact",
+        "relatedBusinessObjectAttrName": "Customer Contact Duration",
+        "referenceAspect": "iso20022",
+        "referenceName": "Duration",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/duration",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "4715810c-953d-f111-8be5-a402b9460f22",
+        "name": "CustomerContactResult",
+        "type": "Text",
+        "required": true,
+        "description": "Describes the interpreted result of the contact (e.g. completed, customer terminated, timed-out)",
+        "relatedBusinessObjectName": "Customer Contact",
+        "relatedBusinessObjectAttrName": "Customer Contact Result",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "1da77218-df58-f111-8be8-a402b9460f22",
+        "name": "AuthenticationLevel",
+        "type": "AuthenticationLevelTypeValues",
+        "required": true,
+        "description": "The strength of authentication achieved during the interaction.\r\nDescribes assurance level such as basic login, MFA, or strong authentication, used for risk and access control decisions.\r\nThe contact authentication level is determined by the authentication function and can be updated during the contact",
+        "relatedBusinessObjectName": "Authentication",
+        "relatedBusinessObjectAttrName": "Authentication Level",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "5ac60a78-df58-f111-8be8-a402b9460f22",
+        "name": "CustomerContactChannelUsed",
+        "type": "Channel",
+        "required": true,
+        "description": "The channel used in customer contact",
+        "relatedBusinessObjectName": "Channel",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "eaeb1374-e158-f111-8be8-a402b9460f22",
+        "name": "ChannelType",
+        "type": "CommunicationChannelTypeValues",
+        "required": true,
+        "description": "The type of communication channel, e.g., mobile, web, API\r\nThe communication channel through which the customer is interacting with the bank. Examples include mobile app, web browser, or API client.",
+        "relatedBusinessObjectName": "Communication Channel",
+        "relatedBusinessObjectAttrName": "Communication Channel Type",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "5fe433d0-e158-f111-8be8-a402b9460f22",
+        "name": "DeviceIdentification",
+        "type": "Identifier",
+        "required": true,
+        "description": "A unique identifier of the physical or virtual device used by the customer.Used for device recognition, fraud detection, and behavioral consistency checks.",
+        "relatedBusinessObjectName": "Device",
+        "relatedBusinessObjectAttrName": "Device Identification",
+        "referenceAspect": "iso20022",
+        "referenceName": "GenericIdentification",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "a7ec3bcb-ec58-f111-8be8-a402b9460f22",
+        "name": "CustomerContactOperatingSessionInstanceRecordIdentification",
+        "type": "Text",
+        "required": true,
+        "description": "A unique reference to CR",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "71500b84-ed58-f111-8be8-a402b9460f22",
+        "name": "CustomerIdentity",
+        "type": "CustomerIdentity",
+        "required": true,
+        "description": "Customer Identity is a set of attributes used to represent and verify who the customer is during a digital interaction, before or during authentication in a banking session.\r\n\r\nComment:\r\nWho is trying to access the bank system?\r\nClaim of identity (input)\r\nCustomer Identity is the initial set of credentials and identifiers provided by the user to claim who they are, which is then validated to produce a trusted customerId.",
+        "relatedBusinessObjectName": "Authentication",
+        "relatedBusinessObjectAttrName": "Authentication Entity",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "32fe706d-ee58-f111-8be8-a402b9460f22",
+        "name": "CustomerContactIdentification",
+        "type": "Identifier",
+        "required": true,
+        "description": "Verified unique customer identifier\r\n\r\nComment:\r\nWho is the customer?\r\nVerified identity (output)\r\nA system-generated unique identifier representing the verified customer party after successful authentication and resolution against Party Reference Data.It replaces the initial identity claim with a trusted, authoritative customer reference.",
+        "relatedBusinessObjectName": "Customer Contact",
+        "relatedBusinessObjectAttrName": "Customer Contact Identification",
+        "referenceAspect": "iso20022",
+        "referenceName": "GenericIdentification",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "5a8cef5c-f458-f111-8be8-a402b9460f22",
+        "name": "CustomerRelationshipStatus",
+        "type": "CustomerRelationshipLifecyclePhaseValues",
+        "required": true,
+        "description": "The current operational state of the customer relationship as maintained by the bank.\r\nIndicates whether the customer is active, blocked, restricted, or under review, affecting service eligibility.",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "76102b96-f658-f111-8be8-a402b9460f22",
+        "name": "InteractionStatus",
+        "type": "Status",
+        "required": true,
+        "description": "The final processing state of the Contact Handler decisioning cycle.\r\nIndicates whether the interaction is ready to proceed, rejected, or requires additional authentication steps.",
+        "relatedBusinessObjectName": "Function",
+        "relatedBusinessObjectAttrName": "Function Status",
+        "referenceAspect": "iso20022",
+        "referenceName": "Status",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "c18437fc-725a-f111-bb43-06bf4e349e9b",
+        "name": "ChannelIdentification",
+        "type": "Identifier",
+        "required": true,
+        "description": "Unique Identifier of Channel",
+        "relatedBusinessObjectName": "Channel",
+        "relatedBusinessObjectAttrName": "Channel Identification",
+        "referenceAspect": "iso20022",
+        "referenceName": "GenericIdentification",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "5ca50176-735a-f111-bb43-06bf4e349e9b",
+        "name": "CustomerContactProtocolUsed",
+        "type": "Text",
+        "required": true,
+        "description": "The communication rules and standards used for interaction during an Customer Contact session.\r\n\r\nComment:\r\nExample: \"TLS1.3\", \"TLS1.2\"",
+        "relatedBusinessObjectName": "Customer Contact",
+        "relatedBusinessObjectAttrName": "Customer Contact Protocol Used",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "35a97481-735a-f111-bb43-06bf4e349e9b",
+        "name": "CustomerContactAlgorithmUsed",
+        "type": "Text",
+        "required": true,
+        "description": "The processing logic used to manage and control Customer Contact session activities and transactions.\r\n\r\nComment:\r\nExample: TLS_CHACHA20_POLY1305_SHA256",
+        "relatedBusinessObjectName": "Customer Contact",
+        "relatedBusinessObjectAttrName": "Customer Contact Algorithm Used",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      }
+    ],
+    "serviceOperations": [
+      {
+        "id": "455f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Initiate",
+        "name": "Initiate Customer Contact Operating Session Instance Record",
+        "description": "REST: Post",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      },
+      {
+        "id": "465f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Notify",
+        "name": "Notify Customer Contact Operating Session Instance Record",
+        "description": "REST: Get",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      },
+      {
+        "id": "475f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Request",
+        "name": "Request Customer Contact Operating Session Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      },
+      {
+        "id": "485f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Exchange",
+        "name": "Exchange Customer Contact Operating Session Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      },
+      {
+        "id": "495f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Update",
+        "name": "Update Customer Contact Operating Session Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      },
+      {
+        "id": "4a5f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Retrieve",
+        "name": "Retrieve Customer Contact Operating Session Instance Record",
+        "description": "REST: Get",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      },
+      {
+        "id": "4b5f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Execute",
+        "name": "Execute Customer Contact Operating Session Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      },
+      {
+        "id": "4c5f0de8-dd58-f111-8be8-a402b9460f22",
+        "actionTerm": "Capture",
+        "name": "Capture Customer Contact Operating Session Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.020Z"
+      }
+    ],
+    "logic": [],
+    "x-status": "stable"
+  },
+  "behaviourQualifiers": [
+    {
+      "id": "cfxn1dy3",
+      "name": "BQ Session Instance Record",
+      "qualifierType": "",
+      "description": "An operational service or function supported within the <CR> for doing Session",
+      "attributes": [
+        {
+          "id": "9203dc99-305b-f111-8be9-a402b9460f22",
+          "name": "CustomerContactOperatingSessionInstanceRecordIdentification",
+          "type": "Text",
+          "required": true,
+          "description": "Unique identifier of a control record instance",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9303dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionInstanceRecordIdentification",
+          "type": "Text",
+          "required": true,
+          "description": "Unique identifier of a behavior qualifier instance",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9403dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionType",
+          "type": "Text",
+          "required": true,
+          "description": "Type of Session",
+          "relatedBusinessObjectName": "Session",
+          "relatedBusinessObjectAttrName": "Session Type",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9503dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionStartDate",
+          "type": "DateTime",
+          "required": true,
+          "description": "When the Session execution begins",
+          "relatedBusinessObjectName": "Session",
+          "relatedBusinessObjectAttrName": "Session Date and Time",
+          "referenceAspect": "iso20022",
+          "referenceName": "ISODateTime",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9603dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionEndDate",
+          "type": "DateTime",
+          "required": true,
+          "description": "When the Session execution completes",
+          "relatedBusinessObjectName": "Session",
+          "relatedBusinessObjectAttrName": "Session Date and Time",
+          "referenceAspect": "iso20022",
+          "referenceName": "ISODateTime",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9703dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionStatus",
+          "type": "Status",
+          "required": true,
+          "description": "the Session State (initiated, active, completed, failed)",
+          "relatedBusinessObjectName": "Session",
+          "relatedBusinessObjectAttrName": "Session Status",
+          "referenceAspect": "iso20022",
+          "referenceName": "Status",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9803dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionPurposeorDescription",
+          "type": "Text",
+          "required": true,
+          "description": "What the Session is intended to do",
+          "relatedBusinessObjectName": "Session",
+          "relatedBusinessObjectAttrName": "Session Description",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9903dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionInvolvedPartyReference",
+          "type": "InvolvedParty",
+          "required": true,
+          "description": "Customer/user/system involved",
+          "relatedBusinessObjectName": "Session Involvement",
+          "relatedBusinessObjectAttrName": "Session Involvement Type",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9a03dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionChannelUsed",
+          "type": "Channel",
+          "required": true,
+          "description": "Channel used (API, voice, UI, etc.)",
+          "relatedBusinessObjectName": "Channel",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9b03dc99-305b-f111-8be9-a402b9460f22",
+          "name": "OperatororSystemReference",
+          "type": "InvolvedParty",
+          "required": true,
+          "description": "Agent or system executing the Session",
+          "relatedBusinessObjectName": "Session Involvement",
+          "relatedBusinessObjectAttrName": "Session Involvement Type",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9c03dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionDeviceUsed",
+          "type": "Device",
+          "required": true,
+          "description": "Device used by  Session",
+          "relatedBusinessObjectName": "Device",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9d03dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionChannelIdentification",
+          "type": "Identifier",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Channel",
+          "relatedBusinessObjectAttrName": "Channel Identification",
+          "referenceAspect": "iso20022",
+          "referenceName": "GenericIdentification",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9e03dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionDeviceIdentification",
+          "type": "Identifier",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Device",
+          "relatedBusinessObjectAttrName": "Device Identification",
+          "referenceAspect": "iso20022",
+          "referenceName": "GenericIdentification",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "9f03dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionChannelType",
+          "type": "CommunicationChannelTypeValues",
+          "required": true,
+          "description": "Defines type of the medium or channel interface used to conduct and exchange information during a session between participants or systems.",
+          "relatedBusinessObjectName": "Communication Channel",
+          "relatedBusinessObjectAttrName": "Communication Channel Type",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "a003dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionReport",
+          "type": "Session Report",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Session Report",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "a103dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionProtocolUsed",
+          "type": "Text",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Session",
+          "relatedBusinessObjectAttrName": "Session Protocol Used",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "a203dc99-305b-f111-8be9-a402b9460f22",
+          "name": "SessionAlgorithmUsed",
+          "type": "Text",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Session",
+          "relatedBusinessObjectAttrName": "Session Algorithm Used",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        }
+      ],
+      "serviceOperations": [
+        {
+          "id": "8903dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Initiate",
+          "name": "Initiate Session Instance Record",
+          "description": "REST: Post",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        },
+        {
+          "id": "8a03dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Update",
+          "name": "Update Session Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        },
+        {
+          "id": "8b03dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Capture",
+          "name": "Capture Session Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        },
+        {
+          "id": "8c03dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Execute",
+          "name": "Execute Session Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        },
+        {
+          "id": "8d03dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Request",
+          "name": "Request Session Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        },
+        {
+          "id": "8e03dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Exchange",
+          "name": "Exchange Session Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        },
+        {
+          "id": "8f03dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Retrieve",
+          "name": "Retrieve Session Instance Record",
+          "description": "REST: Get",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        },
+        {
+          "id": "9003dc99-305b-f111-8be9-a402b9460f22",
+          "actionTerm": "Notify",
+          "name": "Notify Session Instance Record",
+          "description": "REST: Get",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.020Z"
+        }
+      ],
+      "logic": [],
+      "x-status": "stable"
+    }
+  ],
+  "x-status": "modified",
+  "x-modified-date": "2026-06-15T15:25:52.518Z",
+  "organisation": "BIAN",
+  "version": "14.0.0"
+}

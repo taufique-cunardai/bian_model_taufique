@@ -1,0 +1,15 @@
+{
+  "uid": "Scenario UID",
+  "name": "Scenario Name",
+  "groupUid": "Scenario Group UID",
+  "groupName": "Scenario Group",
+  "status": "Registration\r\nStatus",
+  "steps": [
+    {
+      "callerSd": "Caller SD",
+      "receiverSd": "Caller SO",
+      "so": "Receiver"
+    }
+  ],
+  "organisation": "BIAN"
+}

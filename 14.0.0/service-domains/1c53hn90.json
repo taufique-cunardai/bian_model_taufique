@@ -1,0 +1,599 @@
+{
+  "id": "1c53hn90",
+  "name": "Customer Product and Service Directory",
+  "description": "",
+  "controlRecord": {
+    "id": "gbcji7l2",
+    "name": "CR Customer Product And Service Directory Entry Instance Record",
+    "description": "Capture and maintain reference information about some type of entitity within Customer Product and Service Directory.",
+    "attributes": [
+      {
+        "id": "13b0c5c1-0459-f111-8be8-a402b9460f22",
+        "name": "CustomerProductAndServiceDirectoryEntryDescription",
+        "type": "Text",
+        "required": true,
+        "description": "Documentation of Customer Product And Service Directory Entry",
+        "relatedBusinessObjectName": "Customer Product and Service Directory Entry",
+        "relatedBusinessObjectAttrName": "Customer Product And Service Directory Entry Description",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "14b0c5c1-0459-f111-8be8-a402b9460f22",
+        "name": "CustomerProductAndServiceDirectoryEntrySchedule",
+        "type": "Schedule",
+        "required": true,
+        "description": "The timetable to capture and maintain Customer Product And Service Directory Entry",
+        "relatedBusinessObjectName": "Customer Product and Service Directory Entry",
+        "relatedBusinessObjectAttrName": "Customer Product And Service Directory Entry Schedule",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "15b0c5c1-0459-f111-8be8-a402b9460f22",
+        "name": "CustomerProductAndServiceDirectoryEntryVersion",
+        "type": "Number",
+        "required": true,
+        "description": "The version of Customer Product And Service Directory Entry",
+        "relatedBusinessObjectName": "Customer Product and Service Directory Entry",
+        "relatedBusinessObjectAttrName": "Customer Product And Service Directory Entry Version",
+        "referenceAspect": "iso20022",
+        "referenceName": "Number",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Number",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "16b0c5c1-0459-f111-8be8-a402b9460f22",
+        "name": "CustomerProductAndServiceDirectoryEntryStatus",
+        "type": "Status",
+        "required": true,
+        "description": "The status of Customer Product And Service Directory Entry",
+        "relatedBusinessObjectName": "Customer Product and Service Directory Entry",
+        "relatedBusinessObjectAttrName": "Customer Product And Service Directory Entry Status",
+        "referenceAspect": "iso20022",
+        "referenceName": "Status",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "17b0c5c1-0459-f111-8be8-a402b9460f22",
+        "name": "CustomerProductAndServiceDirectoryEntryServiceConfiguration",
+        "type": "Arrangement",
+        "required": true,
+        "description": "The configuration of Customer Product And Service Directory Entry",
+        "relatedBusinessObjectName": "Arrangement",
+        "referenceAspect": "iso20022",
+        "referenceName": "Obligation",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Obligation",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "18b0c5c1-0459-f111-8be8-a402b9460f22",
+        "name": "CustomerProductAndServiceDirectoryEntryInstanceRecordIdentification",
+        "type": "Text",
+        "required": true,
+        "description": "An unique reference to an item or an occurrence of Customer Product And Service Directory Entry",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "19b0c5c1-0459-f111-8be8-a402b9460f22",
+        "name": "CustomerProductAndServiceDirectoryEntryDate",
+        "type": "DateTime",
+        "required": true,
+        "description": "The key dates and times of Customer Product And Service Directory Entry\r\n\r\nComment:\r\nEnrollment Date: Date the customer enrolled or subscribed\r\nActivation Date: Date the product/service became active\r\nClosure Date: End or termination date",
+        "relatedBusinessObjectName": "Customer Product and Service Directory Entry",
+        "relatedBusinessObjectAttrName": "Customer Product And Service Directory Entry Date",
+        "referenceAspect": "iso20022",
+        "referenceName": "ISODateTime",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "98e54f93-0559-f111-8be8-a402b9460f22",
+        "name": "CustomerReference",
+        "type": "InvolvedParty",
+        "required": true,
+        "description": "Reference to the Customer who acquires a product from the bank.",
+        "relatedBusinessObjectName": "Service Agreement Involvement",
+        "relatedBusinessObjectAttrName": "Involvement Type",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "9de54f93-0559-f111-8be8-a402b9460f22",
+        "name": "ServicerReference",
+        "type": "InvolvedParty",
+        "required": true,
+        "description": "Reference to Party who provides Service",
+        "relatedBusinessObjectName": "Service Agreement Involvement",
+        "relatedBusinessObjectAttrName": "Involvement Type",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "a2e54f93-0559-f111-8be8-a402b9460f22",
+        "name": "ServiceAgreementReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to customer product",
+        "relatedBusinessObjectName": "Service Agreement",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "a7e54f93-0559-f111-8be8-a402b9460f22",
+        "name": "ProductAgreementReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to customer service",
+        "relatedBusinessObjectName": "Product Agreement",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "f103cdbd-785a-f111-bb43-06bf4e349e9b",
+        "name": "CustomerProductAndServiceDirectoryEntryUsageLog",
+        "type": "Log",
+        "required": true,
+        "description": "Reference to the log of (usage) ativities/events  of Customer Products And Services Directory Entry",
+        "relatedBusinessObjectName": "Log",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "db6cd8cd-785a-f111-bb43-06bf4e349e9b",
+        "name": "CustomerProductAndServiceDirectoryEntryUpdateLog",
+        "type": "Log",
+        "required": true,
+        "description": "Reference to the log of (update) ativities/events of Customer Products And Services Directory Entry",
+        "relatedBusinessObjectName": "Log",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "367e6f70-8e5a-f111-bb43-06bf4e349e9b",
+        "name": "CustomerProductandServiceDirectoryEntryType",
+        "type": "Text",
+        "required": true,
+        "description": "",
+        "relatedBusinessObjectName": "Service Directory Entry",
+        "relatedBusinessObjectAttrName": "Service Directory Entry Type",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "539fbe28-995a-f111-bb43-06bf4e349e9b",
+        "name": "AccountReference",
+        "type": "Account",
+        "required": true,
+        "description": "Linked customer account",
+        "relatedBusinessObjectName": "Account",
+        "referenceAspect": "iso20022",
+        "referenceName": "Account",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Account",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "45943ad2-995a-f111-bb43-06bf4e349e9b",
+        "name": "ProductDirectoryEntryReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to Product Directory Entry",
+        "relatedBusinessObjectName": "Product Directory Entry",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      },
+      {
+        "id": "0c5793dc-995a-f111-bb43-06bf4e349e9b",
+        "name": "ServiceDirectoryEntryReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to Service Directory Entry",
+        "relatedBusinessObjectName": "Service Directory Entry",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.417Z"
+      }
+    ],
+    "serviceOperations": [
+      {
+        "id": "09b0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Register",
+        "name": "Register Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Post",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.022Z"
+      },
+      {
+        "id": "0ab0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Update",
+        "name": "Update Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.022Z"
+      },
+      {
+        "id": "0bb0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Capture",
+        "name": "Capture Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.022Z"
+      },
+      {
+        "id": "0cb0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Execute",
+        "name": "Execute Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.022Z"
+      },
+      {
+        "id": "0db0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Request",
+        "name": "Request Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.022Z"
+      },
+      {
+        "id": "0eb0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Control",
+        "name": "Control Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.022Z"
+      },
+      {
+        "id": "0fb0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Exchange",
+        "name": "Exchange Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.023Z"
+      },
+      {
+        "id": "10b0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Retrieve",
+        "name": "Retrieve Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Get",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.023Z"
+      },
+      {
+        "id": "11b0c5c1-0459-f111-8be8-a402b9460f22",
+        "actionTerm": "Notify",
+        "name": "Notify Customer Product And Service Directory Entry Instance Record",
+        "description": "REST: Get",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.023Z"
+      }
+    ],
+    "logic": [],
+    "x-status": "stable"
+  },
+  "behaviourQualifiers": [
+    {
+      "id": "ajzbga4k",
+      "name": "BQ Product Instance Record",
+      "qualifierType": "",
+      "description": "The Product properties that represent a discrete aspect of the <CR>",
+      "attributes": [
+        {
+          "id": "6a32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "CustomerProductAndServiceDirectoryEntryInstanceRecordIdentification",
+          "type": "Text",
+          "required": true,
+          "description": "Unique identifier of a control record instance",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "6b32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductInstanceRecordIdentification",
+          "type": "Text",
+          "required": true,
+          "description": "Unique identifier of a behavior qualifier instance",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "6c32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductDescription",
+          "type": "Text",
+          "required": true,
+          "description": "A detailed explanation or commentary of product.",
+          "relatedBusinessObjectName": "Product",
+          "relatedBusinessObjectAttrName": "Product Description",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "6d32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductFeature",
+          "type": "Feature",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Product Feature",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "6e32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductIdentification",
+          "type": "ProductIdentification",
+          "required": true,
+          "description": "The identifier of product e.g. ISIN Code.",
+          "relatedBusinessObjectName": "Product",
+          "relatedBusinessObjectAttrName": "Product Identification",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "6f32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductLifecycleStatus",
+          "type": "ProductStatusTypeValues",
+          "required": true,
+          "description": "Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn).",
+          "relatedBusinessObjectName": "Product",
+          "relatedBusinessObjectAttrName": "Product Lifecycle Status",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7032aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductName",
+          "type": "Name",
+          "required": true,
+          "description": "The name of Product. \r\n\r\nOpen Banking: \r\nThe name of the product used for marketing purposes from a customer perspective. I.e. what the customer would recognise.",
+          "relatedBusinessObjectName": "Product",
+          "relatedBusinessObjectAttrName": "Product Name",
+          "referenceAspect": "iso20022",
+          "referenceName": "Name",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Name",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7132aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductPriority",
+          "type": "Text",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Product",
+          "relatedBusinessObjectAttrName": "Product Priority",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7232aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductType",
+          "type": "BankingProductTypeValues",
+          "required": true,
+          "description": "Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.",
+          "relatedBusinessObjectName": "Product",
+          "relatedBusinessObjectAttrName": "Product Type",
+          "referenceAspect": "UK Open Banking ()",
+          "referenceName": "OBExternalProductType1Code",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7332aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductVersion",
+          "type": "Text",
+          "required": true,
+          "description": "",
+          "relatedBusinessObjectName": "Product",
+          "relatedBusinessObjectAttrName": "Product Version",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7432aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductRuleSet",
+          "type": "Rule Set",
+          "required": true,
+          "description": "A collection of business rules, constraints, and processing conditions that govern how a banking product operates.",
+          "relatedBusinessObjectName": "Rule Set",
+          "referenceAspect": "iso20022",
+          "referenceName": "GovernanceRules",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GovernanceRules",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7532aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductLocation",
+          "type": "Location",
+          "required": true,
+          "description": "The geographic place, branch, region, or operational area where a product is offered, serviced, or applicable.",
+          "relatedBusinessObjectName": "Location",
+          "referenceAspect": "iso20022",
+          "referenceName": "Location",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Location",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7632aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductDocument",
+          "type": "Product Document",
+          "required": true,
+          "description": "The formal records, forms, agreements, or supporting files associated with a product throughout its lifecycle.",
+          "relatedBusinessObjectName": "Product Document",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7732aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductTermandCondition",
+          "type": "Product Term And Condition",
+          "required": true,
+          "description": "The contractual rights, obligations, limitations, and usage conditions governing a product or service.",
+          "relatedBusinessObjectName": "Product Term And Condition",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7832aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductBuyerReference",
+          "type": "InvolvedParty",
+          "required": true,
+          "description": "Reference to customer, organization, or party purchasing to a banking product or service.",
+          "relatedBusinessObjectName": "Product Involvement",
+          "relatedBusinessObjectAttrName": "Product Involvement Type",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7932aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductSellerReference",
+          "type": "InvolvedParty",
+          "required": true,
+          "description": "Reference to the bank branch, institution, provider, or party offering and selling the product or service.",
+          "relatedBusinessObjectName": "Product Involvement",
+          "relatedBusinessObjectAttrName": "Product Involvement Type",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7a32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductChannel",
+          "type": "Channel",
+          "required": true,
+          "description": "The communication or service access medium through which customers interact with a product or banking service.",
+          "relatedBusinessObjectName": "Channel",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7b32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductDevice",
+          "type": "Device",
+          "required": true,
+          "description": "The physical or digital equipment used to access or operate a banking product or service.",
+          "relatedBusinessObjectName": "Device",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        },
+        {
+          "id": "7c32aafb-325b-f111-8be9-a402b9460f22",
+          "name": "ProductJurisdiction",
+          "type": "Jurisdiction",
+          "required": true,
+          "description": "The legal or regulatory authority under which a product operates and must comply.",
+          "relatedBusinessObjectName": "Jurisdiction",
+          "referenceAspect": "iso20022",
+          "referenceName": "Jurisdiction",
+          "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Jurisdiction",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.417Z"
+        }
+      ],
+      "serviceOperations": [
+        {
+          "id": "6032aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Register",
+          "name": "Register Product Instance Record",
+          "description": "REST: Post",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6132aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Update",
+          "name": "Update Product Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6232aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Capture",
+          "name": "Capture Product Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6332aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Execute",
+          "name": "Execute Product Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6432aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Request",
+          "name": "Request Product Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6532aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Control",
+          "name": "Control Product Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6632aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Exchange",
+          "name": "Exchange Product Instance Record",
+          "description": "REST: Put",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6732aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Retrieve",
+          "name": "Retrieve Product Instance Record",
+          "description": "REST: Get",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        },
+        {
+          "id": "6832aafb-325b-f111-8be9-a402b9460f22",
+          "actionTerm": "Notify",
+          "name": "Notify Product Instance Record",
+          "description": "REST: Get",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.022Z"
+        }
+      ],
+      "logic": [],
+      "x-status": "stable"
+    }
+  ],
+  "x-status": "modified",
+  "x-modified-date": "2026-06-15T15:25:52.518Z",
+  "organisation": "BIAN",
+  "version": "14.0.0"
+}

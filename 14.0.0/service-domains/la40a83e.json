@@ -1,0 +1,508 @@
+{
+  "id": "la40a83e",
+  "name": "Session Dialogue",
+  "description": "",
+  "controlRecord": {
+    "id": "7rwys7ay",
+    "name": "CR Dialogue Session Procedure Instance Record",
+    "description": "",
+    "attributes": [
+      {
+        "id": "d8a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionProcedureInstanceRecordIdentification",
+        "type": "Text",
+        "required": true,
+        "description": "A unique reference to an item or an occurrence of Customer Contact Session Procedure",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "d9a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionIdentification",
+        "type": "Identifier",
+        "required": true,
+        "description": "A unique identifier representing the active service interaction session initiated by Session Dialogue for execution of the selected banking service.\r\nUsed to track and coordinate the servicing workflow across subsequent interaction steps and backend service invocations.\r\n\r\nA unique identifier assigned to each Dialogue Session to distinguish it from all other sessions. Used for tracking, retrieval, and linking with customer and business activity records.",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Identification",
+        "referenceAspect": "iso20022",
+        "referenceName": "GenericIdentification",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "daa33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionStartDate",
+        "type": "DateTime",
+        "required": true,
+        "description": "The exact timestamp when the dialogue session is initiated (e.g., when a call connects, a chat is opened, or a self-service interaction begins).",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Start Date and Time",
+        "referenceAspect": "iso20022",
+        "referenceName": "ISODateTime",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "dba33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionEndDate",
+        "type": "DateTime",
+        "required": true,
+        "description": "The exact timestamp when the dialogue session is concluded (e.g., call ends, chat closed, portal session terminated).",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session End Date and Time",
+        "referenceAspect": "iso20022",
+        "referenceName": "ISODateTime",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "dca33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionDuration",
+        "type": "Duration",
+        "required": true,
+        "description": "The total elapsed time of the session, typically calculated as the difference between End Time and Start Time (may also include idle/hold time if relevant).",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Duration",
+        "referenceAspect": "iso20022",
+        "referenceName": "Duration",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/duration",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "dda33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionStatus",
+        "type": "Status",
+        "required": true,
+        "description": "The current operational state of the initiated service session.\r\nIndicates whether the servicing workflow has been successfully initiated, is in progress, completed, suspended, or failed.\r\n\r\nThe current or final state of the dialogue session, such as:\r\n- Active (ongoing session)\r\n- Closed (successfully completed and logged)\r\n- Pending Follow-up (requires additional action, e.g., callback, escalation, or unresolved issue).",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Status",
+        "referenceAspect": "iso20022",
+        "referenceName": "Status",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "dea33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionCustomerorContactPartyReference",
+        "type": "InvolvedParty",
+        "required": true,
+        "description": "Reference to Party who is a specific customer or contact party in session\r\nThe verified and trusted identifier of the authenticated customer. Used by downstream service domains to access customer-related products and services.",
+        "relatedBusinessObjectName": "Dialogue Session Involvement",
+        "relatedBusinessObjectAttrName": "rwc:8be75bdd-77ce-42be-12d4-d983ee1785bb/69379",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "dfa33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionAuthenticationStatus",
+        "type": "Status",
+        "required": true,
+        "description": "Indicates whether the customers identity has been successfully verified (e.g., authenticated, partially verified, not verified).\r\n\r\nComment: \r\nNote that the authentication level may be elevated during the interaction if needed, with the Contact Handler initiating Party Authentication.",
+        "relatedBusinessObjectName": "Party Authentication",
+        "relatedBusinessObjectAttrName": "Party Authentication Result",
+        "referenceAspect": "iso20022",
+        "referenceName": "Status",
+        "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e0a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionChannelUsed",
+        "type": "Channel",
+        "required": true,
+        "description": "The communication medium through which the customer interacts with the enterprise during the session. Examples include voice call, chat, email, social media message, or self-service portal.\r\n\r\nComment:\r\nA contact could include many sessions which could use different channels and devices.",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Used Channel",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e1a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionDeviceUsed",
+        "type": "Device",
+        "required": true,
+        "description": "The hardware or endpoint the customer uses to participate in the session, such as mobile phone, desktop/laptop, tablet, or IVR (interactive voice response) system.\r\n\r\nComment:\r\nA contact could include many sessions which could use different channels and devices.",
+        "relatedBusinessObjectName": "Device",
+        "relatedBusinessObjectAttrName": "Device Type",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e2a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "CustomerContactSessionChannelTransitionsReference",
+        "type": "Log",
+        "required": false,
+        "description": "Reference to the record of any change in the communication channel during a session (e.g., a chat escalated to a phone call), maintaining continuity of the session across multiple channels.\r\n\r\nComment:\r\nA contact consists of one or more sessions. The combination of these sessions is recorded in the contact record, which is then written to the relevant logs, including channel activity, customer event, and servicing event logs",
+        "relatedBusinessObjectName": "Channel Activity Log",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e3a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionLog",
+        "type": "Log",
+        "required": true,
+        "description": "A complete record of the conversation during the session, including chat messages, call notes, emails, or any other exchanged content. It captures both customer and agent/bot contributions for reference, analysis, and compliance.",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Log",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e4a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionIntentsDetected",
+        "type": "Text",
+        "required": false,
+        "description": "The purpose, need, or goal identified from the customer’s inputs during the session. Examples include request for information, complaint, order placement, or troubleshooting. This is typically determined using structured forms, NLP (natural language processing), or agent recognition.",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Purpose",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e5a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionActions",
+        "type": "Action",
+        "required": true,
+        "description": "Tasks executed during the session, such as processing service requests, placing orders, delivering notifications, or updating customer data.",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Requested Action",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e6a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionOutcomes",
+        "type": "DialogueSessionRequestedActionOutcomeStatusTypeValues",
+        "required": true,
+        "description": "The results of these actions, including session resolution status (resolved, pending, escalated), customer satisfaction, and any triggers for future interactions.",
+        "relatedBusinessObjectName": "Dialogue Session",
+        "relatedBusinessObjectAttrName": "Dialogue Session Outcome",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e7a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionAgentReference",
+        "type": "InvolvedParty",
+        "required": true,
+        "description": "Reference to Party (human or even virtual agent/bot) managing the session.",
+        "relatedBusinessObjectName": "Dialogue Session Involvement",
+        "relatedBusinessObjectAttrName": "rwc:8be75bdd-77ce-42be-12d4-d983ee1785bb/69379",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e8a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "CustomerContactReference",
+        "type": "Text",
+        "required": true,
+        "description": "Reference to the Customer Contact witch launches a Session Dialogue \r\n\r\nComment: Contact Handler SD is responsible to manage the Customer Contact.",
+        "relatedBusinessObjectName": "Customer Contact",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "e9a33ac2-3642-f111-8be6-a402b9460f22",
+        "name": "DialogueSessionProcedureInstanceRecordIdentificationIssuerReference",
+        "type": "InvolvedParty",
+        "required": true,
+        "description": "Reference to a Party that assigns the identification.",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "cf960645-1559-f111-8be8-a402b9460f22",
+        "name": "CustomerProductReference",
+        "type": "Product Agreement",
+        "required": true,
+        "description": "Reference to the customer product selected or associated with the requested service interaction.",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "bcefcae0-1559-f111-8be8-a402b9460f22",
+        "name": "SelectedService",
+        "type": "Service Selection",
+        "required": true,
+        "description": "he banking service determined by Contact Handler as the requested and eligible service to be executed for the customer. Defines the servicing workflow that Session Dialogue must orchestrate.",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      },
+      {
+        "id": "00b906e7-1559-f111-8be8-a402b9460f22",
+        "name": "SelectedRouting",
+        "type": "Routing Selection",
+        "required": true,
+        "description": "The servicing mode determined during interaction evaluation, indicating how the customer interaction should proceed. Examples include self-service, assisted service, or escalation to a servicing representative.",
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:29.418Z"
+      }
+    ],
+    "serviceOperations": [
+      {
+        "id": "cea33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Initiate",
+        "name": "Initiate Dialogue Session Procedure Instance Record",
+        "description": "REST: Post",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "cfa33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Update",
+        "name": "Update Dialogue Session Procedure Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "d0a33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Capture",
+        "name": "Capture Dialogue Session Procedure Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "d1a33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Execute",
+        "name": "Execute Dialogue Session Procedure Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "d2a33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Request",
+        "name": "Request Dialogue Session Procedure Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "d3a33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Control",
+        "name": "Control Dialogue Session Procedure Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "d4a33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Exchange",
+        "name": "Exchange Dialogue Session Procedure Instance Record",
+        "description": "REST: Put",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "d5a33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Retrieve",
+        "name": "Retrieve Dialogue Session Procedure Instance Record",
+        "description": "REST: Get",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      },
+      {
+        "id": "d6a33ac2-3642-f111-8be6-a402b9460f22",
+        "actionTerm": "Notify",
+        "name": "Notify Dialogue Session Procedure Instance Record",
+        "description": "REST: Get",
+        "linkedLogicIds": [],
+        "x-status": "stable",
+        "x-modified-date": "2026-06-15T15:25:50.024Z"
+      }
+    ],
+    "logic": [],
+    "x-status": "stable"
+  },
+  "behaviourQualifiers": [
+    {
+      "id": "hfqcia43",
+      "name": "BQ Product or Service Invocation Instance Record",
+      "qualifierType": "",
+      "description": "This is the step in the Dialouge Session procedure where the session executes actions or retrieves data related to the customers requested products or services.\r\n\r\n\r\n** General comment **\r\nThe Product or Service invocation BQ, having confirmed that the party has the authority and has been authentication will present service access available to a selected product or service. It is assumed that this will include displaying what kind of product services might be available for the customer/party to select from.",
+      "attributes": [
+        {
+          "id": "82e4a2f7-3642-f111-8be6-a402b9460f22",
+          "name": "ProductorServiceInvocationInstanceRecordIdentification",
+          "type": "Text",
+          "required": true,
+          "description": "A unique reference to an item or an occurrence of Product or Service Invocation Workstep",
+          "relatedBusinessObjectName": "Product or Service Invocation",
+          "relatedBusinessObjectAttrName": "Product or Service Invocation Identification",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.418Z"
+        },
+        {
+          "id": "83e4a2f7-3642-f111-8be6-a402b9460f22",
+          "name": "ProductorServiceInvocationProductorServiceReference",
+          "type": "Text",
+          "required": true,
+          "description": "Reference to specific instance of the product/service to operate on.\r\n\r\nDirects the action to the product instance",
+          "relatedBusinessObjectName": "Product or Service Invocation",
+          "relatedBusinessObjectAttrName": "Product or Service Invocation Product or Service Reference",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.418Z"
+        },
+        {
+          "id": "84e4a2f7-3642-f111-8be6-a402b9460f22",
+          "name": "ProductorServiceInvocationProductorServiceType",
+          "type": "ProductAgreementTypeValues",
+          "required": true,
+          "description": "Type of product/service being acted on\r\n\r\nHelps the invocation logic select the correct service domain e.g. currentg account, savings account, credit card, loan, investment, etc.",
+          "relatedBusinessObjectName": "Product or Service Invocation",
+          "relatedBusinessObjectAttrName": "Product or Service Invocation Product or Service Reference",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.418Z"
+        },
+        {
+          "id": "85e4a2f7-3642-f111-8be6-a402b9460f22",
+          "name": "ProductorServiceInvocationRequestedAction",
+          "type": "Action",
+          "required": true,
+          "description": "Type of action requested\r\n\r\nDetermines whether to retrieve data, execute transaction, or update profile e.g., Retrieval (balance, statement), transaction (payment, transfer), update (profile, preferences).\r\n\r\n** General comment **\r\nWe would expect that part of the interaction between the access BQ and the product fulfillment Service Domain would be to present what types of access the customer might be able to use (this would be product specific and might be filtered based on the level of authentication and authorization that the customer has established during the contact )",
+          "relatedBusinessObjectName": "Product or Service Invocation",
+          "relatedBusinessObjectAttrName": "Product or Service Invocation Requested Action Type",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.418Z"
+        },
+        {
+          "id": "86e4a2f7-3642-f111-8be6-a402b9460f22",
+          "name": "ProductorServiceInvocationActionParameters",
+          "type": "Text",
+          "required": true,
+          "description": "Input values for the requested action\r\n\r\nProvides all necessary details for execution e.g., amount, recipient, date, payment method, or other service-specific inputs.",
+          "relatedBusinessObjectName": "Product or Service Invocation",
+          "relatedBusinessObjectAttrName": "Product or Service Invocation Requested Action Reference",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.418Z"
+        },
+        {
+          "id": "87e4a2f7-3642-f111-8be6-a402b9460f22",
+          "name": "DialogueSessionProcedureInstanceRecordIdentification",
+          "type": "Text",
+          "required": true,
+          "description": "A unique reference to an item or an occurrence of Dialogue Session Procedure",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.418Z"
+        },
+        {
+          "id": "88e4a2f7-3642-f111-8be6-a402b9460f22",
+          "name": "ProductorServiceInvocationRequestedActionResult",
+          "type": "Text",
+          "required": true,
+          "description": "Result of the requested action\r\n\r\nTo return structured results to the customer session for display, communication, or next-step decisioning.",
+          "relatedBusinessObjectName": "Product or Service Invocation",
+          "relatedBusinessObjectAttrName": "Product or Service Invocation Requested Action Outcome Status",
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:29.418Z"
+        }
+      ],
+      "serviceOperations": [
+        {
+          "id": "78e4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Initiate",
+          "name": "Initiate Product or Service Invocation Instance Record",
+          "description": "REST: Post",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "79e4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Update",
+          "name": "Update Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "7ae4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Capture",
+          "name": "Capture Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "7be4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Execute",
+          "name": "Execute Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "7ce4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Request",
+          "name": "Request Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "7de4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Control",
+          "name": "Control Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "7ee4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Exchange",
+          "name": "Exchange Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "7fe4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Retrieve",
+          "name": "Retrieve Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        },
+        {
+          "id": "80e4a2f7-3642-f111-8be6-a402b9460f22",
+          "actionTerm": "Notify",
+          "name": "Notify Product or Service Invocation Instance Record",
+          "description": "",
+          "linkedLogicIds": [],
+          "x-status": "stable",
+          "x-modified-date": "2026-06-15T15:25:50.024Z"
+        }
+      ],
+      "logic": [],
+      "x-status": "stable"
+    }
+  ],
+  "x-status": "modified",
+  "x-modified-date": "2026-06-15T15:25:52.518Z",
+  "organisation": "BIAN",
+  "version": "14.0.0"
+}
