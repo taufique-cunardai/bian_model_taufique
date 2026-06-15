@@ -1,0 +1,403 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "734cea94-a941-ee11-8b35-a402b9460f22",
+  "title": "MandateReasonValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "2fb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "IncorrectAccountNumber",
+      "description": "Format of the account number specified is not correct",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "31b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "ClosedAccountNumber",
+      "description": "Account number specified has been closed on the Receiver's books",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "32b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "BlockedAccount",
+      "description": "Account specified is blocked, prohibiting posting of transactions against it.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "33b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "TransactionForbidden",
+      "description": "Transaction forbidden on this type of account (formerly NoAgreement)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "InvalidBankOperationCode",
+      "description": "Bank Operation code specified in the message is not valid for receiver",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "35b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NotAllowedAmount",
+      "description": "Specific transaction/message amount is greater than allowed maximum",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "36b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NotAllowedCurrency",
+      "description": "Specified message amount is a non processable currency outside of existing agreement",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "37b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "Duplication",
+      "description": "Duplication",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "InconsistenWithEndCustomer",
+      "description": "Identification of end customer is not consistent with associated account number. (formerly CreditorConsistency).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MissingCreditorAddress",
+      "description": "Specification of creditor's address, which is required for payment, is missing/not correct (formerly IncorrectCreditorAddress).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3ab9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "UnrecognisedInitiatingParty",
+      "description": "Party who initiated the message is not recognised by the end customer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3bb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "UnknownEndCustomer",
+      "description": "End customer specified is not known at associated Sort/National Bank Code or does no longer exist in the books",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3cb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MissingDebtorAddress",
+      "description": "Specification of debtor's address, which is required for payment, is missing/not correct.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3db9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "InvalidDate",
+      "description": "Invalid date (eg, wrong settlement date)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3eb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "InvalidFileFormat",
+      "description": "File format incomplete or invalid",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3fb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NoMandate",
+      "description": "No Mandate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "40b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MissingMandatoryInformationInMandate",
+      "description": "Mandate related information data required by the scheme is missing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "41b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "EndCustomerDeceased",
+      "description": "End customer is deceased.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "42b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NoMandateServiceByAgent",
+      "description": "Receiving agent does not offer specified Mandate services",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NoMandateServiceOnCustomer",
+      "description": "Account is not open to specified Mandates services",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "44b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NoMandateServiceForSpecified",
+      "description": "Account is not open to specified Mandates services for this particular creditor",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "UnrecognisedAgent",
+      "description": "Agent to whom the message needs to be forwarded cannot be located",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "46b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NotUniqueMandateReference",
+      "description": "Mandate identification is not unique to the creditor",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "47b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "IncorrectCustomerAuthentication",
+      "description": "There is a problem with the customer authentication",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "48b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "IncorrectAgent",
+      "description": "Agent in the payment workflow is incorrect",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "49b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "IncorrectCurrency",
+      "description": "Currency of the transaction is incorrect",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ab9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "RequestedByCustomer",
+      "description": "Cancellation/amendment requested by the debtor",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4bb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "RequestedByInitiatingParty",
+      "description": "Cancellation/amendment requested by the creditor",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4cb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "RequestedByInitiatingPartyAndCustomer",
+      "description": "Cancellation/amendment requested by the creditor and the debtor",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4db9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MandateCancelledDueToEarlySettlement",
+      "description": "Mandate cancellation following early reimbursement of the debit by the debtor",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4eb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MandateExpired",
+      "description": "Mandate cancellation following validity expiration",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4fb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MandateCancelledDueToFraud",
+      "description": "Mandate cancellation due to suspected fraud",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "50b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MandateInitiationCancelled",
+      "description": "Mandate cancellation following mandate initiation cancellation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MandateAmendmentCancelled",
+      "description": "Mandate cancellation following mandate amendment cancellation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "52b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NotSpecifiedReasonCustomerGenerated",
+      "description": "Reason has not been specified by end customer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NotSpecifiedReasonAgentGenerated",
+      "description": "Reason has not been specified by agent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "54b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "Narrative",
+      "description": "Reason is provided as narrative information in the additional reason information.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "BankIdentifierIncorrect",
+      "description": "Bank Identifier code specified in the message has an incorrect format (formerly IncorrectFormatForRoutingCode).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "NotUniqueTransactionReference",
+      "description": "Transaction reference is not unique within the message.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "57b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MissingDebtorAccountOrIdentification",
+      "description": "Specification of the debtor’s account or unique identification needed for reasons of regulatory requirements is insufficient or missing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MissingDebtorNameOrAddress",
+      "description": "Specification of the debtor’s name and/or address needed for regulatory requirements is insufficient or missing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59b9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MissingCreditorNameOrAddress",
+      "description": "Specification of the creditor’s name and/or address needed for regulatory requirements is insufficient or missing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ab9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "RegulatoryReason",
+      "description": "Regulatory Reason",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "SpecificServiceOfferedByDebtorAgent",
+      "description": "Due to specific service offered by the Debtor Agent",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5cb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "CreditorNotOnWhitelistOfDebtor",
+      "description": "Whitelisting service offered by the Debtor Agent; Debtor has not included the Creditor on its “Whitelist” (yet). In the Whitelist the Debtor may list all allowed Creditors to debit Debtor bank account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5db9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "CreditorOnBlacklistOfDebtor",
+      "description": "Blacklisting service offered by the Debtor Agent; Debtor included the Creditor on his “Blacklist”. In the Blacklist the Debtor may list all Creditors not allowed to debit Debtor bank account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5eb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MaximumNumberOfDirectDebitTransactionsExceeded",
+      "description": "Due to Maximum allowed Direct Debit Transactions per period service offered by the Debtor Agent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fb9f0d3-aa41-ee11-8b35-a402b9460f22",
+      "name": "MaximumDirectDebitTransactionAmountExceeded",
+      "description": "Due to Maximum allowed Direct Debit Transaction amount service offered by the Debtor Agent.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

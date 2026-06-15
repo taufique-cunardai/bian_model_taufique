@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f544d160-0c00-ec11-8340-061dac4a92f1",
+  "title": "CollateralInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0f636888-0c00-ec11-8340-061dac4a92f1",
+      "name": "Collateral Owner",
+      "description": "Specifies who is the owner of the collateral. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e216bf40-1100-ec11-8340-061dac4a92f1",
+      "name": "Collateral Servicing Party Role",
+      "description": "Party that is acting on behalf of another party and that offers collateral management services. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a262736a-1100-ec11-8340-061dac4a92f1",
+      "name": "Collateral Giver",
+      "description": "Party which provides the collateral. A party can be both a taker and a giver in a collateral relationship. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "51e39673-1100-ec11-8340-061dac4a92f1",
+      "name": "Collateral Taker",
+      "description": "Party which receives the collateral. A party can be both a taker and a giver in a collateral relationship. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5dbe62b8-1100-ec11-8340-061dac4a92f1",
+      "name": "Collateral Triparty Agent",
+      "description": "Agent which acts as an intermediary between two parties for the administration of tri-party collateral transactions. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

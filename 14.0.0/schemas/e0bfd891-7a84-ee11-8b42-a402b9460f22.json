@@ -1,0 +1,755 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "e0bfd891-7a84-ee11-8b42-a402b9460f22",
+  "title": "AmountQualifierTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5fce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Cashback",
+      "description": "Cash-back amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Gratuity",
+      "description": "Gratuity amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Fees",
+      "description": "Fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Rebates",
+      "description": "Global rebate of the transaction. This amount is counted as a negative amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ValueAddedTax",
+      "description": "Value added tax amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Actual",
+      "description": "Actual amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Replacement",
+      "description": "Replacement amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Maximum",
+      "description": "Maximum amount (the final amount must be less or equal).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Default",
+      "description": "Default amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Estimated",
+      "description": "Estimated amount (the final amount could be above or below).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ace38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Original",
+      "description": "Original amount authorised during the real-time authorisation process.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6bce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Surcharge",
+      "description": "Extra fee for a purchase or a withdrawal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ServiceFee",
+      "description": "Service fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6dce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "InterchangeFee",
+      "description": "Interchange fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ece38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Discount",
+      "description": "Discount, rebate or voucher, related to loyalty programs. This amount is counted as a negative amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6fce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ATMCommissionFee",
+      "description": "Commission that the issuer will charge to the cardholder, which should be shown and accepted by the cardholder before the money is disbursed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "AuthorisedAmount",
+      "description": "Transaction amount that has been authorised.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "CardRemainingBalance",
+      "description": "Remaining allowed amount for this type of transaction with this card, after the transaction, until the end of the card limit period.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "MaximumAllowedAmount",
+      "description": "Maximum amount allowed for the transaction in the transaction amount currency if the transaction amount of the request was declined.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "MinimumAllowedAmount",
+      "description": "Minimum amount allowed in the TransactionAmount currency if the transaction amount of the request was declined.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "RequestedAmount",
+      "description": "Transaction amount that has been requested to be authorised.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "IssuerFees",
+      "description": "Fees amount from the card issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "IssuerCommission",
+      "description": "Commission from the card issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "InterchangeFees",
+      "description": "Interchange fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ProcessingFees",
+      "description": "Processing fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "CurrencyConversionFees",
+      "description": "Currency conversion fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ace38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "InternationalServiceAssessmentFees",
+      "description": "International service assessment fees.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7bce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Commission",
+      "description": "Commission, for example for DCC (Dynamic Currency Conversion) transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7cce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Donation",
+      "description": "Donation amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7dce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Tax",
+      "description": "Taxes applicable to the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ece38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Incremental",
+      "description": "Incremental amount for reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7fce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Decremental",
+      "description": "Decremental amount for reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Reserved",
+      "description": "Reserved or updated reserved amount for reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ConfirmedAmount",
+      "description": "Actual amount that has been paid to the ultimate beneficiary, after all charges etc... have been deducted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "82ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "InstructedAmount",
+      "description": "Amount of money to be moved between the debtor (ordering customer) and creditor, before deduction of charges, expressed in the currency as ordered by the initiating party.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ATMAccessFee",
+      "description": "Fee for giving access to an ATM.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "CardholderBillingFee",
+      "description": "Fee related to a cardholder billing.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ClearingFee",
+      "description": "Fee related to a clearing transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "CreditTransactionFee",
+      "description": "Fee related to a credit transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Cumulative",
+      "description": "Contains the total amount of all authorisations related to the same cardholder purchase activities. Example: total of all incremental or splitted shipment authorisations for the same purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "DebitTransactionFee",
+      "description": "Fee related to a debit transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Extra",
+      "description": "Extra charges (for example,  minibar, etc.)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ace38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ForeignExchangeFee",
+      "description": "Fee related to a foreign exchange transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "FundsTransfer",
+      "description": "Fee related to a funds transfer transaction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "InstantPaymentFee",
+      "description": "Fee related to an instant payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8dce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "InstantTransferFee",
+      "description": "Fee related to an instant transfer transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ece38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "IssuerCardholderFee",
+      "description": "Fee applied by the card issuer to the cardholder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Limit",
+      "description": "Limit of amounts for the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "OtherNational",
+      "description": "Other type of amount defined at national level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "OtherPrivate",
+      "description": "Other type of amount defined at private level.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "92ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ReconciliationFee",
+      "description": "Fee related to a reconciliation transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "93ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "SettlementFee",
+      "description": "Fee related to a settlement transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "TransactionFee",
+      "description": "Fee related to a transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Anticipated",
+      "description": "Amount anticipated for the transaction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "96ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Baggage",
+      "description": "Baggage related fees",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ChargedToCard",
+      "description": "Amount that has been charged to card account",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "98ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ClearingPriorityFee",
+      "description": "Fee related to a clearing transaction for a given priority.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Dental",
+      "description": "Amount qualified for dental prescriptions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ace38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Deposit",
+      "description": "Deposit amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9bce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "FundsTransferFee",
+      "description": "Fee related to a funds transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9cce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "OtherQualifiedMedical",
+      "description": "Amount qualified for other medical expenses",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9dce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Prescription",
+      "description": "Amount for medical prescription",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ece38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Proxy",
+      "description": "Substitute for an amount to be authorised.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9fce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "RequestedCashback",
+      "description": "Requested cashback amount",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a0ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "SettlementPriorityFee",
+      "description": "Fee related to a settlement transaction for a given priority.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "TotalHealthcare",
+      "description": "Total healthcare amount",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a2ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Transit",
+      "description": "Amount in transit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a3ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Vision",
+      "description": "Amount qualified for medical vision expenses",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Connect",
+      "description": "Telephone connection-related charge",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a5ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Data",
+      "description": "Data communication related charges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a6ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ExchangeTicket",
+      "description": "Fee for exchanging a ticket (modifying an itinerary)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a7ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ExchangeTicketFee",
+      "description": "Fee for exchanging a ticket (modifying an itinerary)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Fare",
+      "description": "Amount of fare",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a9ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "FoodBeverage",
+      "description": "Amount of food and beverages",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aace38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Insurance",
+      "description": "Insurance charges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "LongDistance",
+      "description": "Charges related to a long distance call.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "acce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Miscellaneous",
+      "description": "Miscellaneous charges not elsewhere defined",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "adce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Phone",
+      "description": "Phone charges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aece38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Prepayment",
+      "description": "Amount of prepayment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "afce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Total",
+      "description": "Total amount of charges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b0ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Usage",
+      "description": "Telephone usage-related charge",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "PreDCC",
+      "description": "Local amount before DCC (Dynamic Currency Conversion) was applied.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b2ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Upgrade",
+      "description": "Amount for an upgrade.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "ClubFee",
+      "description": "Amount for club fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "Cargo",
+      "description": "Cargo Amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "DutyFree",
+      "description": "Duty free amount",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b6ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "TicketDelivery",
+      "description": "Ticket delivery amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b7ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "PetCarrier",
+      "description": "Pet carrier.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "TourOrder",
+      "description": "Tour order amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9ce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "MinimumInterchangeFee",
+      "description": "Minimum interchange fee applicable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bace38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "MaximumInterchangeFee",
+      "description": "Maximum applicable interchange fee.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bbce38a0-7a84-ee11-8b42-a402b9460f22",
+      "name": "CashBackInterchangeFee",
+      "description": "Interchange fee applicable to cash back amount.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

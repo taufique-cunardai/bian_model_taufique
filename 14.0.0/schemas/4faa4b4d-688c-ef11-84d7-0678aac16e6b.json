@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4faa4b4d-688c-ef11-84d7-0678aac16e6b",
+  "title": "InvestmentAccountTypeValues",
+  "description": "Specifies the cash account type.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "56bd296e-688c-ef11-84d7-0678aac16e6b",
+      "name": "Cash Account",
+      "description": "Cash account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de63107a-688c-ef11-84d7-0678aac16e6b",
+      "name": "Pension Fund Ordinary",
+      "description": "Central Provident Fund (CPF) ordinary account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d7cea982-688c-ef11-84d7-0678aac16e6b",
+      "name": "Pension Fund Special",
+      "description": "Central Provident Fund (CPF) special account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ba9428c-688c-ef11-84d7-0678aac16e6b",
+      "name": "Retirement Scheme",
+      "description": "Supplementary Retirement Scheme (SRS) account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "34a98493-688c-ef11-84d7-0678aac16e6b",
+      "name": "Other",
+      "description": "Another type cash account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ec3ad399-688c-ef11-84d7-0678aac16e6b",
+      "name": "Hedge Fund",
+      "description": "Hedge fund account(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa0feea2-688c-ef11-84d7-0678aac16e6b",
+      "name": "Workplace Pension Schema",
+      "description": "Workplace or company pension account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9879e1ac-688c-ef11-84d7-0678aac16e6b",
+      "name": "Private Pension Scheme",
+      "description": "Private pension account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fcf26cb4-688c-ef11-84d7-0678aac16e6b",
+      "name": "CSD Participant Account",
+      "description": "Account owned by a CSD participant.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "843088bd-688c-ef11-84d7-0678aac16e6b",
+      "name": "CSD Mirror Account",
+      "description": "Account operated by a CSD for mirroring positions.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eec714c8-688c-ef11-84d7-0678aac16e6b",
+      "name": "Inter CSD Account",
+      "description": "Account operated by a CSD for settlement of securities legs for instructions involving internal CSDs.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bf0582d1-688c-ef11-84d7-0678aac16e6b",
+      "name": "Technical Offset Account",
+      "description": "Account operated by a CSD in a direct holding market context.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b1fbecdc-688c-ef11-84d7-0678aac16e6b",
+      "name": "CSDOmnibus Account",
+      "description": "Account operated by a CSD in cross-CSD settlement context.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8ea71dc2-579e-ed11-83f5-06035b5f414d",
+  "title": "CorrespondenceCommunicationMethodTypeValues",
+  "description": "Communication method used for the transmission of documents.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ec2b70e4-579e-ed11-83f5-06035b5f414d",
+      "name": "Fax",
+      "description": "Transmission by fax.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ee2b70e4-579e-ed11-83f5-06035b5f414d",
+      "name": "Email",
+      "description": "Transmission by e-mail.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef2b70e4-579e-ed11-83f5-06035b5f414d",
+      "name": "Proprietary",
+      "description": "Transmission by proprietary method.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f02b70e4-579e-ed11-83f5-06035b5f414d",
+      "name": "Online",
+      "description": "Transmission on line, for example, in a web portal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f12b70e4-579e-ed11-83f5-06035b5f414d",
+      "name": "Phone",
+      "description": "Transmission by telephone.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f22b70e4-579e-ed11-83f5-06035b5f414d",
+      "name": "PostalService",
+      "description": "Transmission by postal service.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f32b70e4-579e-ed11-83f5-06035b5f414d",
+      "name": "File",
+      "description": "Transmission by file transfer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

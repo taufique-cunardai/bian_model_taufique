@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "86c2ec7c-203f-ed11-83cc-06e632ad24df",
+  "title": "InvestmentFundInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "bad8a688-203f-ed11-83cc-06e632ad24df",
+      "name": "Fund Manager",
+      "description": "Legal entity that sets up a fund, appoints agents, decides and implements an investment strategy. That is, selects portfolio investments in accordance with the objectives and strategy in the fund's prospectus, and places orders to effect or liquidate selected investments in accordance with net flow of capital into or out of the fund. Also called fund promoter or fund sponsor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8eb3b69d-203f-ed11-83cc-06e632ad24df",
+      "name": "Fund Accountant",
+      "description": "Party that keeps accounting records of available assets and liabilities of a fund. It calculates dealing prices, the net asset value (NAV) of the fund, and may provide fund performance and tax data. Can be sub-contracted by the fund administrator.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "521dc2c2-203f-ed11-83cc-06e632ad24df",
+      "name": "Fund Administator",
+      "description": "Party in charge of financial accounting, net asset value (NAV) calculation, management and performance fee calculation. Can also be in charge of orders centralisation and registration.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b82f2bdb-203f-ed11-83cc-06e632ad24df",
+      "name": "Fund Order Desk",
+      "description": "Principal entity appointed by the fund to which orders should be submitted.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c66c7ff0-203f-ed11-83cc-06e632ad24df",
+      "name": "Placement Agent",
+      "description": "Party that helps hedge funds to refine their strategy. May also introduce partners such as fund of funds, pension funds, insurance companies and family offices.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ea8ecfa-203f-ed11-83cc-06e632ad24df",
+      "name": "Transfer Agent",
+      "description": "Party appointed by a fund management company. It updates records of investor accounts to reflect the daily investor purchases, redemptions, switches, transfers, and re-registrations. It ensures the timely settlement of transactions, and may provide tax information to the investor and/or to its intermediaries. It may calculate, collect, and rebate commissions. It prepares and distributes confirmations reflecting transactions, resulting in unit or cash account movements to the investor or the investor's intermediary. It responds to inquiries concerning account status, and processes the income distribution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84f89419-213f-ed11-83cc-06e632ad24df",
+      "name": "Auditor",
+      "description": "Party in charge of examining and verifying a fund's financial and accounting records as well as supporting documents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "01be722f-213f-ed11-83cc-06e632ad24df",
+      "name": "Grantor",
+      "description": "Grantor role in the hedge funds industry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a7c3239-213f-ed11-83cc-06e632ad24df",
+      "name": "Settlor",
+      "description": "Entity that creates a trust or contributes assets to the trust.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

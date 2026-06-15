@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c784176a-9adf-ee11-8b49-a402b9460f22",
+  "title": "TransactionChannelTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "86d11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "MailOrder",
+      "description": "Mail order.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88d11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "TelephoneOrder",
+      "description": "Telephone order.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89d11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "ElectronicCommerce",
+      "description": "Electronic commerce.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ad11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "TelevisionPayment",
+      "description": "Payment on television.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bd11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "OfficeOrBranch",
+      "description": "Office or branch.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cd11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "HomeBanking",
+      "description": "Home banking.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8dd11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "FinancialAdvisor",
+      "description": "Financial advisor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ed11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "MobilePayment",
+      "description": "Payment performed through a cardholder mobile device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fd11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "SecuredElectronicCommerce",
+      "description": "Electronic commerce with cardholder authentication.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90d11d7c-9adf-ee11-8b49-a402b9460f22",
+      "name": "MobilePOS",
+      "description": "Payment performed through a merchant mobile device.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

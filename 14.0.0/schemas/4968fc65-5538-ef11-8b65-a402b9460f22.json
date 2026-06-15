@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4968fc65-5538-ef11-8b65-a402b9460f22",
+  "title": "CustomerSegmentationTypeValues",
+  "description": "Customer segmentation involves categorizing customers into different groups based on shared characteristics",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "faf1f271-5538-ef11-8b65-a402b9460f22",
+      "name": "Demographic Segmentation",
+      "description": "Age\r\nGender\r\nIncome\r\nEducation\r\nOccupation\r\nFamily size\r\nMarital status\r\nEthnicity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ada3c86-5538-ef11-8b65-a402b9460f22",
+      "name": "Geographic Segmentation",
+      "description": "Country\r\nRegion\r\nCity\r\nNeighborhood\r\nClimate\r\nUrban vs. rural",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5d3959c-5538-ef11-8b65-a402b9460f22",
+      "name": "Psychographic Segmentation",
+      "description": "Lifestyle\r\nValues\r\nPersonality\r\nInterests\r\nOpinions\r\nSocial status",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4ff4633e-5638-ef11-8b65-a402b9460f22",
+      "name": "Behavioral Segmentation",
+      "description": "Purchasing behavior\r\nSpending habits\r\nUser status (e.g., first-time vs. regular users)\r\nLoyalty\r\nBenefits sought\r\nOccasion (e.g., holiday vs. everyday use)\r\nUsage rate",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f52f8657-5638-ef11-8b65-a402b9460f22",
+      "name": "Technographic Segmentation",
+      "description": "Technology usage patterns\r\nPreferred devices (e.g., smartphones, tablets)\r\nSoftware and applications used\r\nLevel of tech savviness\r\nOnline behavior",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "673eac6e-5638-ef11-8b65-a402b9460f22",
+      "name": "Firmographic Segmentation",
+      "description": "Industry\r\nCompany size\r\nRevenue\r\nNumber of employees\r\nLocation\r\nCompany structure",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e6546183-5638-ef11-8b65-a402b9460f22",
+      "name": "Needs-based Segmentation",
+      "description": "Specific customer needs or problems that the product/service addresses\r\nDesired benefits\r\nProduct features valued by the customer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "94294fa1-a518-f111-8608-06f87af9db33",
+  "title": "ChargebackApplicationTimingModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5fd04ac0-a518-f111-8608-06f87af9db33",
+      "name": "Chargeback Immediate Application",
+      "description": "Chargeback is applied as soon as the dispute is approved.\r\n\r\nComment:\r\nCardholder disputes €150; account credited immediately after approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74f7d5cb-a518-f111-8608-06f87af9db33",
+      "name": "Chargeback Provisional Application",
+      "description": "Chargeback is applied provisionally while the dispute is under investigation.\r\n\r\nComment:\r\n€200 provisional credit issued pending merchant response.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd9db9da-a518-f111-8608-06f87af9db33",
+      "name": "Chargeback Scheduled Application",
+      "description": "Chargeback is applied at a predefined future date or batch cycle.\r\n\r\nComment:\r\nAll validated chargebacks for the week are applied every Friday.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "db03ebe5-a518-f111-8608-06f87af9db33",
+      "name": "Chargeback Event-Driven Application",
+      "description": "Chargeback is applied triggered by a specific event in the workflow.\r\n\r\nComment:\r\nChargeback applied automatically after network approval via Visa or Mastercard.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81ac0bf3-a518-f111-8608-06f87af9db33",
+      "name": "Chargeback Reconciliation Application",
+      "description": "Chargeback is applied during the end-of-cycle account reconciliation or settlement.\r\n\r\nComment:\r\nExample:\r\nMonthly batch of disputed subscription fees posted on the last day of the month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

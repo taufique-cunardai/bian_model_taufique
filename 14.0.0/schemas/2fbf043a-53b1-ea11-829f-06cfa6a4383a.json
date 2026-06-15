@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2fbf043a-53b1-ea11-829f-06cfa6a4383a",
+  "title": "SecuritiesOrderInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ed4b5440-53b1-ea11-829f-06cfa6a4383a",
+      "name": "Order Origination Trader",
+      "description": "Identifies the trader at the order origination firm that submitted the order. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85349066-53b1-ea11-829f-06cfa6a4383a",
+      "name": "Order Origination Firm",
+      "description": "Firm that originates or submits the original order for execution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b60b2a5-53b1-ea11-829f-06cfa6a4383a",
+      "name": "Entering Firm",
+      "description": "Broker that has recorded or reported an execution of a trade. When an entering firm that is not a party to a trade enters the trade into a trade recording system, any inquiries can be directed to the appropriate source. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5661c7de-53b1-ea11-829f-06cfa6a4383a",
+      "name": "Sponsoring Firm",
+      "description": "Member of an exchange that is sponsoring an entering entity to send orders to the exchange. The sponsoring member firm permits sponsorees to enter orders directly to the exchange via automated means. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e643dafe-53b1-ea11-829f-06cfa6a4383a",
+      "name": "Introducing Firm",
+      "description": "Party (broker or other intermediary) that owns the relationship with the investor. It can relay an order directly to the trading floor, or give clients direct access to the floor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

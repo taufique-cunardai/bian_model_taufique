@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f5e7b906-9926-f111-860d-0271c902ca61",
+  "title": "SafeKeepingTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6ed3dd10-9926-f111-860d-0271c902ca61",
+      "name": "Physical Safe Keeping",
+      "description": "The institution stores tangible assets in secure physical facilities such as vaults.\r\n\r\nComment:\r\nExample:\r\nStorage of paper certificates, gold bars, or legal documents.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e7d1cea5-9926-f111-860d-0271c902ca61",
+      "name": "Electronic Safe Keeping",
+      "description": "Assets exist only in electronic form and are recorded in digital systems or central securities depositories.\r\n\r\nComment:\r\nExample:\r\nGovernment bonds or equities held in electronic book-entry form.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "667121c8-9926-f111-860d-0271c902ca61",
+      "name": "Custody Safe Keeping",
+      "description": "Assets are held by the institution on behalf of the client, with full administrative services such as settlement, income collection, and reporting.\r\n\r\nComment:\r\nExample:\r\nA bank holds a clients stocks and bonds in a custody account and manages dividend collection.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cdb2c7e8-9926-f111-860d-0271c902ca61",
+      "name": "Segregated Safe Keeping",
+      "description": "Client assets are kept separate from the institutions own assets and from other clients assets, ensuring clear ownership and protection.\r\n\r\nComment:\r\nExample:\r\nHigh-value securities held in a dedicated account under the clients name.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e0d2105-9a26-f111-860d-0271c902ca61",
+      "name": "Omnibus Safe Keeping",
+      "description": "Assets of multiple clients are pooled together in a single account, but ownership is tracked internally by the institution.\r\n\r\nComment:\r\nExample:\r\nA broker holds shares for many clients in one combined account but maintains records of individual ownership.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c184f030-c826-f111-860d-0271c902ca61",
+      "name": "Collateral Safe Keeping",
+      "description": "Assets are held specifically as collateral to secure obligations, with restrictions on their use until obligations are fulfilled.\r\n\r\nComment:\r\nExample:\r\nSecurities pledged against a loan and held by the bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba31fc3f-c826-f111-860d-0271c902ca61",
+      "name": "Third-Party Safe Keeping",
+      "description": "Assets are held by an external custodian or sub-custodian on behalf of the institution and its clients.\r\n\r\nComment:\r\nExample:\r\nInternational securities held through a global custodian bank.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a37d504f-c826-f111-860d-0271c902ca61",
+      "name": "Restricted Safe Keeping",
+      "description": "Assets are held with specific restrictions or controls, limiting access, transfer, or usage based on legal or contractual conditions.\r\n\r\nComment:\r\nExample:\r\nAssets frozen due to legal disputes or regulatory requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bd3ef64-c826-f111-860d-0271c902ca61",
+      "name": "Safekeeping with Corporate Actions Support",
+      "description": "Assets are held with additional services to manage corporate actions such as dividends, splits, or voting rights.\r\n\r\nComment:\r\nExample:\r\nA bank processes stock splits and proxy voting for held securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d4466375-c826-f111-860d-0271c902ca61",
+      "name": "Precious Assets Safe Keeping",
+      "description": "Specialized storage for high-value physical assets requiring enhanced security and insurance.\r\n\r\nComment: \r\nExample:\r\nJewelry, rare coins, or precious metals stored in high-security vaults.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "76102a23-d942-f111-bb23-0206bbcf926f",
+  "title": "LoanArrangementAccountTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "cd22d931-d942-f111-bb23-0206bbcf926f",
+      "name": "Loan Borrower Account",
+      "description": "An account owned by the customer (borrower) that records the loan obligation and/or is used to make repayments (principal and interest).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccab3d55-d942-f111-bb23-0206bbcf926f",
+      "name": "Loan Lender Account",
+      "description": "An account owned by the bank (lender) that records the loan as an asset, including outstanding principal, accrued interest, and earned income.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d00f994a-da42-f111-bb23-0206bbcf926f",
+      "name": "Third-Party Account",
+      "description": "An account used for home insurance payment, property tax payments, property transafer and rigistration fees",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

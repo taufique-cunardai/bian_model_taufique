@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "004e0748-7376-ef11-8b72-a402b9460f22",
+  "title": "SecuritiesArrangementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "89865177-7376-ef11-8b72-a402b9460f22",
+      "name": "Pledge Arrangement",
+      "description": "In a securities pledge agreement, the borrower pledges securities as collateral for a loan. The arrangement specifies:\r\nWhich securities are being pledged.\r\nThe conditions under which the lender can seize the securities in case of default.\r\nThe borrower's rights over the securities while they remain in the borrower's possession, such as receiving dividends or interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75495c96-7376-ef11-8b72-a402b9460f22",
+      "name": "Collateral Arrangement",
+      "description": "Collateral arrangements involve securities used as collateral to secure a financial obligation. These arrangements detail:\r\nHow the securities will be held (e.g., in a third-party account or by the lender).\r\nWhether the borrower can substitute other securities as collateral.\r\nThe procedure for returning or releasing the collateral once the obligation is fulfilled.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eba1a0b2-7376-ef11-8b72-a402b9460f22",
+      "name": "Security Interest Arrangement",
+      "description": "In many securities agreements, a lender is granted a security interest in the borrowers securities. This arrangement outlines:\r\nThe process for perfecting the security interest (e.g., filing a UCC-1 statement in the U.S.).\r\nPriority of the lenders interest compared to other creditors.\r\nTerms for how the security interest can be enforced in the event of default.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c108fd4-7376-ef11-8b72-a402b9460f22",
+      "name": "Custody Arrangement",
+      "description": "In some securities agreements, especially involving large institutional investors, securities are held by a custodian. The arrangement specifies:\r\nHow the custodian will hold and safeguard the securities.\r\nThe custodians obligations for handling corporate actions, such as voting rights or dividends.\r\nProcedures for transferring or delivering securities upon instruction from the owner or lender.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "314254e5-7376-ef11-8b72-a402b9460f22",
+      "name": "Payment and Delivery Arrangement",
+      "description": "In securities purchase agreements or other similar contracts, there are specific arrangements for how payments for the securities will be made and how the securities will be delivered, including:\r\n- The timing of payments and transfers.\r\n- The method of settlement, whether through physical certificates or electronic transfers.\r\n- The roles of clearinghouses or intermediaries in the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "392aeb2e-7576-ef11-8b72-a402b9460f22",
+      "name": "Securities Lending Arrangement",
+      "description": "Securities lending arrangements allow one party (the lender) to lend securities to another party (the borrower), usually to facilitate short selling or arbitrage strategies. The arrangement specifies:\r\n- The duration of the loan and the terms for returning the securities.\r\n- The type of collateral the borrower must provide.\r\n- Any fees or interest charged for borrowing the securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "41d6d46c-7776-ef11-8b72-a402b9460f22",
+      "name": "Securities Modification Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88ef64bb-837a-ef11-84d2-06539a1e3291",
+      "name": "Repurchase or Repo Arrangement",
+      "description": "In *repo agreements*, one party sells securities to another with the agreement to repurchase them later. The arrangement covers:\r\n- The sale price and the repurchase price.\r\n- The time frame for the repurchase.\r\n- Any interest or fee associated with the transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a4799d2b-847a-ef11-84d2-06539a1e3291",
+      "name": "Regulatory and Compliance Arrangement",
+      "description": "Many securities agreements must comply with laws and regulations such as securities registration requirements, anti-money laundering rules, or disclosure obligations. Arrangements in this context might include:\r\n- Ensuring that all parties adhere to securities laws, such as the U.S. Securities Act or equivalent regulations in other countries.\r\n- Provisions related to reporting requirements or other compliance obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "de3e50e8-7181-ef11-8b73-a402b9460f22",
+      "name": "Securities Transfer Arrangement",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

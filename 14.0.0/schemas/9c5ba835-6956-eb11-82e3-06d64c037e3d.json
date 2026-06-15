@@ -1,0 +1,651 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9c5ba835-6956-eb11-82e3-06d64c037e3d",
+  "title": "CorporateActionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "c046d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "DividendReinvestment",
+      "description": "Dividend payment where holders can keep cash or have the cash reinvested in the market by the issuer into additional shares in the issuing company. To be distinguished from DVOP as the company invests the dividend in the market rather than creating new share capital in exchange for the dividend.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c146d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Accumulation",
+      "description": "Funds related event in which the income (for example accumulation units) that accrues during an accounting period is retained within the fund instead of being paid away to investors. The retained income is nonetheless deemed to have been distributed to investors for tax purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c246d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "ActiveTradingStatus",
+      "description": "Trading in the security has commenced or security has been re-activated after a suspension in trading.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c346d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "AnnualGeneralMeeting",
+      "description": "Meeting Annual general meeting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c446d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Attachment",
+      "description": "Combination of different security types to create a unit. Units are usually comprised of warrants and bonds or warrants and equities. Securities may be combined at the request of the security holder or based on market convention.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c546d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Bankruptcy",
+      "description": "Legal status of a company unable to pay creditors. Bankruptcy usually involves a formal court ruling. Securities may become valueless.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c646d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "BondDefault",
+      "description": "Failure by the company to perform obligations defined as default events under the bond agreement and that have not been remedied.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c746d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "BonusIssue",
+      "description": "Bonus or capitalisation issue. Security holders receive additional assets free of payment from the issuer, in proportion to their holding.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c846d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CallOnIntermediateSecurities",
+      "description": "Call or exercise on nil paid securities or intermediate securities resulting from an intermediate securities distribution (RHDI). This code is used for the second event, when an intermediate securities' issue (rights/coupons) is composed of two events, the first event being the distribution of intermediate securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c946d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CapitalDistribution",
+      "description": "Corporate event pays shareholders an amount in cash issued from the capital account. There is no reduction to the face value of a single share (or the share has no par value). The number of circulating shares remains unchanged.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca46d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CapitalGainsDistribution",
+      "description": "Event is the distribution of profits resulting from the sale of securities. Shareholders of mutual funds, unit trusts, or SICAVs are recipients of capital gains distributions and are often reinvested in additional shares of the fund.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cb46d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Capitalisation",
+      "description": "Increase of the current principal of a debt instrument without increasing the nominal value. It normally arises from the incorporation of due but unpaid interest into the principal. This is commonly done by increasing the pool factor value, for example, capitalisation, and negative amortisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cc46d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CashDistributionFromNonEligibleSecuritiesSales",
+      "description": "Distribution to shareholders of cash resulting from the selling of non-eligible securities, for example, in the frame of a depositary receipt program.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cd46d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CashDividend",
+      "description": "Distribution of cash to shareholders, in proportion to their equity holding. Ordinary dividends are recurring and regular. Shareholder must take cash and may be offered a choice of currency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce46d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Change",
+      "description": "Information regarding a change further described in the corporate action details.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cf46d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "ClassActionProposedSettlement",
+      "description": "Situation where interested parties seek restitution for financial loss. The security holder may be offered the opportunity to join a class action proceeding and would need to respond with an instruction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d046d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CompanyOption",
+      "description": "Company option may be granted by the company, allowing the holder to take up shares at some future date(s) at a pre arranged price in the company. A company may not grant options which enable the holder to take up unissued shares at a time which is five or more years from the date of the grant. Option holders are not members of a company. They are contingent creditors of a company and hence may, in some instances, be entitled to vote on and be bound by a scheme of arrangement between the creditors and the company. As many options have multiple exercise periods a company option will either lapse or carry on to the next expiry date.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d146d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Consent",
+      "description": "Procedure that aims to obtain consent of holder to a proposal by the issuer or a third party without convening a meeting. For example, consent to change the terms of a bond.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d246d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Conversion",
+      "description": "Conversion of securities (generally convertible bonds or preferred shares) into another form of securities (usually common shares) at a pre-stated price/ratio.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d346d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CouponStripping",
+      "description": "Coupon stripping is the process whereby interest coupons for future payment dates are separated from the security corpus that entitles the holder to the principal repayment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d446d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CourtMeeting",
+      "description": "Announcement of a meeting at a Court.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d546d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "CreditEvent",
+      "description": "Occurrence of credit derivative for which the issuer of one or several underlying securities is unable to fulfill its financial obligations (as defined in terms and conditions).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d646d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "DecreaseInValue",
+      "description": "Reduction of face value of a single share or the value of fund assets. The number of circulating shares/units remains unchanged. This event may include a cash payout to holders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d746d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Detachment",
+      "description": "Separation of components that comprise a security, for example, usually units comprised of warrants and bond or warrants and equity. Units may be broken up at the request of the security holder or based on market convention.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d846d1ff-6c56-eb11-82e3-06d64c037e3d",
+      "name": "Disclosure",
+      "description": "Requirement for holders or beneficial owners to disclose their name, location and holdings of any issue to the issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8793e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "DividendOption",
+      "description": "Distribution of a dividend to shareholders with a choice of benefit to receive. Shareholders may choose to receive shares or cash. To be distinguished from DRIP as the company creates new share capital in exchange for the dividend rather than investing the dividend in the market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8893e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Drawing",
+      "description": "Securities are redeemed in part before the scheduled final maturity date. It is done without any pool factor reduction. The redemption is reflected in a debit of the face amount (FAMT). Drawing is distinct from partial call since drawn bonds are chosen by lottery. Therefore, not every holder is affected in the same way.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8993e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "DutchAuction",
+      "description": "Action by a party wishing to acquire a security. Holders of the security are invited to make an offer to sell, within a specific price range. The acquiring party will buy from the holder with lowest offer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "EarlyRedemption",
+      "description": "This includes drawing, partial and full call, put.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Exchange",
+      "description": "Exchange of holdings for other securities and/or cash. The exchange can be either mandatory or voluntary involving the exchange of outstanding securities for different securities and/or cash. For example \"exchange offer\", \"capital reorganisation\" or \"funds separation\".",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8c93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "ExchangeOption",
+      "description": "Event is an option for the shareholders to exchange their securities for other securities and/or cash. Exchange options are mentioned in the terms and conditions of a security and are valid during the whole lifetime of a security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "ExtraordinaryGeneralMeeting",
+      "description": "Extraordinary or Special General Meeting. Extraordinary or special general meeting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "FinalMaturity",
+      "description": "Redemption of an entire issue outstanding of securities, for example, bonds, preferred equity, funds, by the issuer or its agent, for example, asset manager, at final maturity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "FullCall",
+      "description": "Redemption of an entire issue outstanding of securities, for example, bonds, preferred equity, funds, by the issuer or its agent, for example, asset manager, before final maturity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9093e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "IncreaseInValue",
+      "description": "Increase in the face value of a single security. The number of circulating securities remains unchanged.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9193e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Information",
+      "description": "Information provided by the issuer having no accounting/financial impact on the holder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9293e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "InstalmentCall",
+      "description": "Instalment towards the purchase of equity capital, subject to an agreement between an issuer and a purchaser.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9393e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "InterestPayment",
+      "description": "Interest payment distributed to holders of an interest bearing asset.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9493e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "InterestPaymentWithPrincipal",
+      "description": "Event which consists of two components, the decrease of the amortized value of a pool factor security and an interest payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9593e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "IntermediateSecuritiesDistribution",
+      "description": "Distribution of intermediate securities that gives the holder the right to take part in a future event.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9693e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "LiquidationDividend",
+      "description": "Distribution of cash, assets or both. Debt may be paid in order of priority based on preferred claims to assets specified by the security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9793e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "MaturityExtension",
+      "description": "As stipulated in the security's Terms and Conditions, the issuer or the holder may prolong the maturity date of a security. After extension, the security details may differ from the original issue. An issuer initiated extension may be subject to holder's approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9893e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Merger",
+      "description": "Exchange of outstanding securities, initiated by the issuer which may include options, as the result of two or more companies combining assets, that is, an external, third party company. Cash payments may accompany share exchange.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9993e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "NameChange",
+      "description": "Event is a name change. The issuing company changes its name. The event shows the change from old name to new name and may involve surrendering physical shares with the old name to the registrar.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "NonOfficialOffer",
+      "description": "Offers that are not supervised or regulated by an official entity and being offered by a party, for example a broker, usually at a discount price, for example broker offer, mini-tender, mini odd lot offer or third party offer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9b93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "NonUSTEFRADCertification",
+      "description": "Non-US beneficial owner certification requirement for exchange of temporary to permanent notes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9c93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "OddLotSalePurchase",
+      "description": "Sale or purchase of odd-lots to/from the issuing company, initiated either by the holder of the security or through an offer made by the issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9d93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "OrdinaryGeneralMeeting",
+      "description": "Ordinary general meeting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "OtherEvent",
+      "description": "Other event, use only when no other event type applies, for example, a new event type.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9f93e605-6d56-eb11-82e3-06d64c037e3d",
+      "name": "PariPassu",
+      "description": "Occurs when securities with different characteristics, for example, shares with different entitlements to dividend or voting rights, become identical in all respects, for example, pari-passu or assimilation. May be scheduled in advance, for example, shares resulting from a bonus may become fungible after a pre-set period of time, or may result from outside events, for example, merger, reorganisation, issue of supplementary tranches.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "PartialRedemptionWithoutPoolFactorReduction",
+      "description": "Securities are redeemed in part before their scheduled final maturity date. It is done without any pool factor reduction. The redemption is reflected in a debit of the face amount (FAMT).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "59f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "PartialRedemptionWithPoolFactorReduction",
+      "description": "Securities are redeemed in part before their scheduled final maturity date. The redemption is reflected in a pool factor reduction. No movement of securities occurs.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5af70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "PayInKind",
+      "description": "Interest payment, in any kind except cash, distributed to holders of an interest bearing asset.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bf70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "PlaceOfIncorporation",
+      "description": "Changes in the state of incorporation for US companies and changes in the place of incorporation for foreign companies. Where shares need to be registered following the incorporation change, the holder(s) may have to elect the registrar.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5cf70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Prefunding",
+      "description": "Also called partial defeasance. Issuer has money set aside to redeem a portion of an issue and the indenture states that the securities could be called earlier than the stated maturity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5df70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "PriorityIssue",
+      "description": "Form of open or public offer where, due to a limited amount of securities available, priority is given to existing shareholders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ef70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "PutRedemption",
+      "description": "Early redemption of a security at the election of the holder subject to the terms and condition of the issue with no reduction in nominal value.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5ff70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Redenomination",
+      "description": "Event by which the unit (currency and/or nominal) of a security is restated, for example, nominal/par value of security in a national currency is restated in another currency.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Remarketing",
+      "description": "Purchase and sale of remarketed preferred equities/bonds through the negotiation of interest rate between the issuers and the holders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "61f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "RemarketingAgreement",
+      "description": "Purchase and sale of remarketed preferred equities/bonds through the negotiation of interest rate between the issuers and the holders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "62f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "RepurchaseOffer",
+      "description": "Repurchase offer / issuer bid / reverse rights. Offer to existing holders by the issuing company to repurchase its own securities. The objective of the offer is to reduce the number of outstanding securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "63f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "ReverseStockSplit",
+      "description": "Decrease in a company's number of outstanding equities without any change in the shareholder's equity or the aggregate market value at the time of the split. Equity price and nominal value are increased accordingly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "RightsIssue",
+      "description": "Offer to holders of a security to subscribe for additional securities via the distribution of an intermediate security. Both processes are included in the same event.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "ScripDividend",
+      "description": "Dividend or interest paid in the form of scrip.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "66f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "SecuritiesHoldersMeeting",
+      "description": "Ordinary or annual or extraordinary or special general meeting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "SharesPremiumDividend",
+      "description": "Corporate event pays shareholders an amount in cash issued from the shares premium reserve. It is similar to a dividend but with different tax implications.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "SmallestNegotiableUnit",
+      "description": "Modification of the smallest negotiable unit of shares in order to obtain a new negotiable unit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "69f70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "SpinOff",
+      "description": "Distribution of securities issued by another company. The distributed securities may either be of a newly created or of an existing company. For example, spin-off, demerger, unbundling, divestment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6af70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "StockDividend",
+      "description": "Dividend paid to shareholders in the form of equities of the issuing corporation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6bf70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "StockSplit",
+      "description": "Increase in a corporation's number of outstanding equities without any change in the shareholder's equity or the aggregate market value at the time of the split. Equity price and nominal value are reduced accordingly.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cf70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Subscription",
+      "description": "Ability for security holders to purchase (additional or new) securities at a certain price, in proportion to their holding.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6df70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "TaxOnNonDistributedProceeds",
+      "description": "Taxable component on non-distributed proceeds, for example, Australian deemed income or US 871m income regulation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ef70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "TaxReclaim",
+      "description": "Event related to tax reclaim activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ff70c0c-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Tender",
+      "description": "Offer made to holders by a third party, requesting them to sell (tender) or exchange their securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "11c90812-6d56-eb11-82e3-06d64c037e3d",
+      "name": "TradingStatusDelisted",
+      "description": "Security is no longer able to comply with the listing requirements of a stock exchange and is removed from official board quotation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "12c90812-6d56-eb11-82e3-06d64c037e3d",
+      "name": "TradingStatusSuspended",
+      "description": "Trading in the security has been suspended.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "13c90812-6d56-eb11-82e3-06d64c037e3d",
+      "name": "WarrantExercise",
+      "description": "Option offered to holders to buy (call warrant) or to sell (put warrant) a specific amount of stock, cash, or commodity, at a predetermined price, during a predetermined period of time (which usually corresponds to the life of the issue).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14c90812-6d56-eb11-82e3-06d64c037e3d",
+      "name": "WithholdingTaxReliefCertification",
+      "description": "Certification process for withholding tax reduction or exemption based on the tax status of the holder.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "15c90812-6d56-eb11-82e3-06d64c037e3d",
+      "name": "Worthless",
+      "description": "Booking out of valueless securities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

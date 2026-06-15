@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "1d2c6637-6756-eb11-82e3-06d64c037e3d",
+  "title": "CorporateActionStatusTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "4df7b059-6756-eb11-82e3-06d64c037e3d",
+      "name": "Active",
+      "description": "The CA event is active. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89002e64-6756-eb11-82e3-06d64c037e3d",
+      "name": "Deactivated",
+      "description": "The CA event is deactivated. The clients cannot send instruction anymore. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "38c02971-6756-eb11-82e3-06d64c037e3d",
+      "name": "Expired",
+      "description": "The CA event is expired, no more processing, claims, transformations take place. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "be7b1f80-6756-eb11-82e3-06d64c037e3d",
+      "name": "Cancelled",
+      "description": "The CA event is cancelled. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "740d7c9b-6756-eb11-82e3-06d64c037e3d",
+      "name": "Withdrawn",
+      "description": "The CA event is withrawn, ie, cancelled by the market. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fcb53ea7-6756-eb11-82e3-06d64c037e3d",
+      "name": "Inactive",
+      "description": "Option is not active and can no longer be responded to. Any responses already processed against this option will remain valid, eg, expired option. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

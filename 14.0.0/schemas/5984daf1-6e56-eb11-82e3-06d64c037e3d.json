@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "5984daf1-6e56-eb11-82e3-06d64c037e3d",
+  "title": "CorporateActionDateTimeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "000dc032-6f56-eb11-82e3-06d64c037e3d",
+      "name": "Trading Date",
+      "description": "Date/time at which the deal (rights) was agreed. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a3ef353-6f56-eb11-82e3-06d64c037e3d",
+      "name": "Pari Passu Date",
+      "description": "Date on which security will assimilate, become fungible, or have the same rights to dividends as the parent issue. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e99d68a-6f56-eb11-82e3-06d64c037e3d",
+      "name": "Announcement Date",
+      "description": "Date/time at which the issuer announced that a corporate action event will occur such as the issue of securities or an official meeting. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cc79f0f3-6f56-eb11-82e3-06d64c037e3d",
+      "name": "Effective Date",
+      "description": "Date/time at which an event is officially effective from the issuer's perspective. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3611afe-6f56-eb11-82e3-06d64c037e3d",
+      "name": "Lapsed Date",
+      "description": "Date/time at which an event/offer is terminated or lapsed. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87916a6a-7056-eb11-82e3-06d64c037e3d",
+      "name": "Margin Fixing Date",
+      "description": "Date/time at which the margin rate will be determined . (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

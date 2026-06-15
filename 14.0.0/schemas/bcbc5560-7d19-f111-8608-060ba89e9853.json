@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bcbc5560-7d19-f111-8608-060ba89e9853",
+  "title": "PostingProductTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8c6efb6c-7d19-f111-8608-060ba89e9853",
+      "name": "Loan Product",
+      "description": "Postings related to loans or credit facilities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c7f363c3-b51b-f111-8608-0a4a17d5d551",
+      "name": "Credit Card Product",
+      "description": "Postings related to credit card accounts",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "af1305d9-b51b-f111-8608-0a4a17d5d551",
+      "name": "Overdraft Product",
+      "description": "Postings related to overdraft facilities",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c6bfdf6-b51b-f111-8608-0a4a17d5d551",
+      "name": "Fee Product",
+      "description": "Fee / Charge Product: Postings of fees linked to a product",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ecd6c604-b61b-f111-8608-0a4a17d5d551",
+      "name": "Investment Product",
+      "description": "Postings related to investments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ef5e40d-b61b-f111-8608-0a4a17d5d551",
+      "name": "Provision Product",
+      "description": "Provision / Reserve Product: Postings for provisions or reserves",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5a24cf2e-c01b-f111-8608-0a4a17d5d551",
+      "name": "Deposit Product",
+      "description": "Bookings related to products where customers place money in the bank.\r\n\r\nExamples\r\nSavings account\r\nCurrent account\r\nTerm deposit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

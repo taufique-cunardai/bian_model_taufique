@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "83a44fb9-7223-f111-860d-0a072f7aa82f",
+  "title": "EarnApplicationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a46f6ea3-7a23-f111-860d-0a072f7aa82f",
+      "name": "Immediate Application",
+      "description": "Rewards are applied instantly to the customers balance.\r\n\r\nComment:\r\nExample: Points credited instantly after a purchase.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00f646b0-7a23-f111-860d-0a072f7aa82f",
+      "name": "Delayed Application",
+      "description": "Rewards are applied after a waiting period.\r\n\r\nComment:\r\nExample: Cashback posted 30 days after transaction settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9bc8abc4-7a23-f111-860d-0a072f7aa82f",
+      "name": "Conditional Application",
+      "description": "Rewards are applied only if certain conditions are met.\r\n\r\nComment:\r\nExample: Bonus points applied only after spending exceeds $500 in a month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "55e104d5-7a23-f111-860d-0a072f7aa82f",
+      "name": "Batch Application",
+      "description": "Rewards are accumulated over a period and applied together.\r\n\r\nComment:\r\nExample: Monthly points credited in one batch at the end of the month.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f4a365de-7a23-f111-860d-0a072f7aa82f",
+      "name": "Pending Application",
+      "description": "Rewards are applied as pending or provisional until final validation.\r\n\r\nComment:\r\nExample: Points shown as pending until the transaction is confirmed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b18836ed-7a23-f111-860d-0a072f7aa82f",
+      "name": "Auto-Application",
+      "description": "Rewards are automatically applied according to predefined rules.\r\n\r\nComment:\r\nExample: Cashback automatically credited to a savings account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "589ae8f9-7a23-f111-860d-0a072f7aa82f",
+      "name": "Manual Application",
+      "description": "Rewards are applied only when the customer requests or activates them.\r\n\r\nComment:\r\nExample: Customer redeems points manually via an app or portal.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

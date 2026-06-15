@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7929e653-91ec-f011-8bd9-a402b9460f22",
+  "title": "SubjournalTypeValues",
+  "description": "Sub-journals classify transactions by business event type.",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e7b64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Cash Journal",
+      "description": "Transaction Focus: Cash receipts and payments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9b64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Sales Journal",
+      "description": "Transaction Focus: Customer invoices",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eab64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Purchase Journal",
+      "description": "Transaction Focus: Supplier invoices",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ebb64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Loan Journal",
+      "description": "Transaction Focus: Loan disbursements and repayments",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ecb64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Interest Journal",
+      "description": "Transaction Focus: Interest accruals and postings",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edb64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Fee Journal",
+      "description": "Transaction Focus: Service charges and fees",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eeb64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Securities Journal",
+      "description": "Transaction Focus: Trades and settlements",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "efb64da9-91ec-f011-8bd9-a402b9460f22",
+      "name": "Adjustment Journal",
+      "description": "Transaction Focus: Corrections and accruals",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

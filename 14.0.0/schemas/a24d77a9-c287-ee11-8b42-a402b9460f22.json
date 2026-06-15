@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a24d77a9-c287-ee11-8b42-a402b9460f22",
+  "title": "CSCResultTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "ee0a50d2-c287-ee11-8b42-a402b9460f22",
+      "name": "CSCMatch",
+      "description": "Card security code match.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f00a50d2-c287-ee11-8b42-a402b9460f22",
+      "name": "CSCNoMatch",
+      "description": "No card security code match.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f10a50d2-c287-ee11-8b42-a402b9460f22",
+      "name": "CSCTechnical",
+      "description": "Card security code not processed for technical reason.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f20a50d2-c287-ee11-8b42-a402b9460f22",
+      "name": "CSCNotTechnical",
+      "description": "Card security code not processed for non-technical reason.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f30a50d2-c287-ee11-8b42-a402b9460f22",
+      "name": "CSCMissing",
+      "description": "Card security code missing in request.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f40a50d2-c287-ee11-8b42-a402b9460f22",
+      "name": "CSCNotUsed",
+      "description": "Card security code not used by issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

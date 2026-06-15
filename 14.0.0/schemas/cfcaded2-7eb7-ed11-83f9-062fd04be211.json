@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cfcaded2-7eb7-ed11-83f9-062fd04be211",
+  "title": "DirectDebitTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a6a27f16-7fb7-ed11-83f9-062fd04be211",
+      "name": "Fixed Amount",
+      "description": "Direct debit amount is fixed.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a8a27f16-7fb7-ed11-83f9-062fd04be211",
+      "name": "Variable Amount",
+      "description": "Direct debit amount is variable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a9a27f16-7fb7-ed11-83f9-062fd04be211",
+      "name": "UsageBased Amont",
+      "description": "Direct debit amount is based on usage.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "92c4258b-2247-ee11-8b35-a402b9460f22",
+      "name": "Paper",
+      "description": "This is a physical form that the customer fills out, signs, and returns to the organization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9fc4258b-2247-ee11-8b35-a402b9460f22",
+      "name": "eMandate",
+      "description": "It can be completed and signed electronically, often through online forms or secure digital platforms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

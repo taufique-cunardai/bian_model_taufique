@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "b4e2071e-3734-ed11-83cc-0663e70158a3",
+  "title": "FinancialInstrumentValuationProcedureWorkstepType",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "b584142c-3734-ed11-83cc-0663e70158a3",
+      "name": "Asset Valuation Workstep",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fa4abc3e-3734-ed11-83cc-0663e70158a3",
+      "name": "Asset Valuation Information Consolidation Workstep",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef567f48-3734-ed11-83cc-0663e70158a3",
+      "name": "Asset Valuation Approach Selection Workstep",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

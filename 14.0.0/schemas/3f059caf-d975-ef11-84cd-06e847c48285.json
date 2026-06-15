@@ -1,0 +1,275 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3f059caf-d975-ef11-84cd-06e847c48285",
+  "title": "SecuritiesOrderTypeValues",
+  "description": "Indicates the type of instruction to a broker or dealer to buy or sell a financial instrument.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "168899dc-d975-ef11-84cd-06e847c48285",
+      "name": "All Or None",
+      "description": "A round-lot market or limit price order that must be executed in its entirety or not at all; unlike fill or kill orders, all or none orders are not treated as canceled if they are not executed as soon as represented in the trading crowd.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0123d8f0-d975-ef11-84cd-06e847c48285",
+      "name": "Buy Contra Short Exempt",
+      "description": "A buy contra short exempt.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6103d506-da75-ef11-84cd-06e847c48285",
+      "name": "Buy Contra Short",
+      "description": "An order to buy contra short.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0cb65a1a-da75-ef11-84cd-06e847c48285",
+      "name": "Buy Minus",
+      "description": "An order to buy at a price lower than the current market price. This is an order to buy a stated amount of a financial instrument provided that its price is not higher than the last sale if the last sale was a minus or zero minus tick, not higher than the last sale minus the minimum fractional change in the stock if the last sale was a plus or zero plus tick. The price limit indicates the highest price at which the order can be executed.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7bd98f2d-da75-ef11-84cd-06e847c48285",
+      "name": "Carefully",
+      "description": "An order which is not to be executed as a whole if the executing broker judges that it may disturb the price.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60f8ac3d-da75-ef11-84cd-06e847c48285",
+      "name": "Combination",
+      "description": "An order which is linked to another order to buy or sell and must be executed as a unit, both or none, or cancelled as a unit. The linkage sequence must be completed with a reference to the linked order.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c1e0d4d-da75-ef11-84cd-06e847c48285",
+      "name": "Discretionary",
+      "description": "An order where the executing broker or investment manager decides on the quantity or price.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "79b13a64-da75-ef11-84cd-06e847c48285",
+      "name": "Limit",
+      "description": "An order to buy at the indicated price limit or lower or an order to sell at the indicated limit price or higher.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "380cba74-da75-ef11-84cd-06e847c48285",
+      "name": "Limit On Close",
+      "description": "Indicates that if the limit conditions are not satisfied, it should not be executed.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ee2b78a-da75-ef11-84cd-06e847c48285",
+      "name": "Limit Or Better",
+      "description": "A trade at this specified price or better.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "df9f1ccf-da75-ef11-84cd-06e847c48285",
+      "name": "Limit With",
+      "description": "An order to be executed at a limit price, with a round-lot (or board-lot) sales; valid only for odd lot orders.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88bdd0e0-da75-ef11-84cd-06e847c48285",
+      "name": "Limit Without",
+      "description": "An order to be executed at a limit price, without a round-lot (or board-lot) sales; valid only for odd lot orders.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fe7435f4-da75-ef11-84cd-06e847c48285",
+      "name": "Market",
+      "description": "An order to buy or sell a specified amount of a financial instrument at the quoted market price or better.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "094ec502-db75-ef11-84cd-06e847c48285",
+      "name": "Market Not Held",
+      "description": "An order to buy or sell a stated amount of a financial instrument at the quoted market price or better with some discretion on the price limit.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1311f215-db75-ef11-84cd-06e847c48285",
+      "name": "Market Touched",
+      "description": "An order which becomes a market order once the market price is reached.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e8cdf826-db75-ef11-84cd-06e847c48285",
+      "name": "Not Held",
+      "description": "An order which may be executed in partials or outside the hours of the exchange or other exchange rules.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3cb13439-db75-ef11-84cd-06e847c48285",
+      "name": "Order Lie",
+      "description": "An order which is related to another order where the second part may be cancelled without canceling the first. In this case, the second order is identified as the second part. Normally the sell order must be executed before the buy order. The linkage sequence must be completed with a reference to the linked order.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8ddb84b-db75-ef11-84cd-06e847c48285",
+      "name": "On Basis Price",
+      "description": "A price established by joint agreement of odd-lot dealers for as illiquid financial instrument.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "855b275f-db75-ef11-84cd-06e847c48285",
+      "name": "Stop",
+      "description": "An order to buy which becomes a market order when the financial instrument trades at or above the stop price after the order is submitted or an order to sell which becomes a market order when the financial instrument trades at or below the stop price after the order is submitted.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "675fb470-db75-ef11-84cd-06e847c48285",
+      "name": "Stop Limit",
+      "description": "A stop order to buy which becomes a limit order at the limit price when the financial instrument trades at or above the stop price after the order is submitted. A stop order to sell which becomes a limit order at the limit price when the financial instrument trades at or below the stop price after the order is submitted.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dcd31c85-db75-ef11-84cd-06e847c48285",
+      "name": "Stop Loss",
+      "description": "An order to sell that sets the sell price below the market price.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e895cb96-db75-ef11-84cd-06e847c48285",
+      "name": "Sell Plus",
+      "description": "An order to sell a stated amount provided that the price is not lower than the last sale price if the last sale was a plus or zero plus tick and not lower than the last sale minus the minimum fractional change in the financial instrument if the last sale was a minus or zero minus tick.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f1da3eab-db75-ef11-84cd-06e847c48285",
+      "name": "Sell Short",
+      "description": "An order to sell that the seller does not own; a sale effected by delivering a financial instrument borrowed by or for the account of the seller.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d1862dbc-db75-ef11-84cd-06e847c48285",
+      "name": "Sell Short Exempt",
+      "description": "An order to sell short which is exempt from short-sale rules.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "60a279d1-db75-ef11-84cd-06e847c48285",
+      "name": "With Or Without",
+      "description": "An odd lot order filled on an effective round lot transaction, or on an effective bid or offer, whichever occurs first after the specialist receives the order. (e.g. NYSE order type).(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "edf05fe3-db75-ef11-84cd-06e847c48285",
+      "name": "Previously Quoted",
+      "description": "An order sent in response to a Quote message.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e19c60f6-db75-ef11-84cd-06e847c48285",
+      "name": "Previously Indicated",
+      "description": "An order sent in response to an Indication of Interest message.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a202d50a-dc75-ef11-84cd-06e847c48285",
+      "name": "Forex Swap",
+      "description": "A \"Swap\" order for Foreign Exchange (currency trading).(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e56ebf1c-dc75-ef11-84cd-06e847c48285",
+      "name": "Funari",
+      "description": "Japanese term for an order to buy or sell a stated amount of a security at a specified limit price. Any unexecuted (leftover) quantity becomes a Market On Close order.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f850972c-dc75-ef11-84cd-06e847c48285",
+      "name": "Market With Leftover",
+      "description": "Indicates an order to buy or sell a stated amount of a security at the prevailing market price with any unexecuted (leftover) quantity becoming a Limit order at the last executed price.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5bec950-dc75-ef11-84cd-06e847c48285",
+      "name": "Pegged",
+      "description": "Limit order, where the limit price fluctuates relative to another quantity, such as the last sale, midpoint, opening price, bid, offer, or VWAP (Volume Weighted Average Price).(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ed72160-dc75-ef11-84cd-06e847c48285",
+      "name": "Counter Order Selection",
+      "description": "Indicates that the order is a counter order.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

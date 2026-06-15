@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9e506aa1-db1e-f111-8608-0247e3f120c3",
+  "title": "CreditServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "892abad7-db1e-f111-8608-0247e3f120c3",
+      "name": "Loan Provision Service",
+      "description": "Loan / Credit Provision: Delivers funds to customers through loans, overdrafts, or credit lines.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ccd05e5-db1e-f111-8608-0247e3f120c3",
+      "name": "Interest & Fee Application Service",
+      "description": "Calculates and posts interest and applicable fees according to the product terms.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "137977f7-db1e-f111-8608-0247e3f120c3",
+      "name": "Repayment Management Service",
+      "description": "Tracks and processes scheduled repayments, including principal and interest.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "210a7f07-dc1e-f111-8608-0247e3f120c3",
+      "name": "Credit Risk Monitoring Service",
+      "description": "Monitors credit exposure, customer repayment behavior, and potential defaults.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "984f7956-dc1e-f111-8608-0247e3f120c3",
+      "name": "Compliance & Reposting Service",
+      "description": "Ensures adherence to regulatory and internal lending policies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

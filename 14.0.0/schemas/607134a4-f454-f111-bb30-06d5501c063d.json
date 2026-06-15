@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "607134a4-f454-f111-bb30-06d5501c063d",
+  "title": "SessionReportTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "505f68c2-f454-f111-bb30-06d5501c063d",
+      "name": "Activity Session Report",
+      "description": "A report that records the actions, operations, and tasks performed during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5edd3ed7-f454-f111-bb30-06d5501c063d",
+      "name": "Transaction Session Report",
+      "description": "A report that records financial or operational transactions processed during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "39479be5-f454-f111-bb30-06d5501c063d",
+      "name": "Performance Session Report",
+      "description": "A report that captures operational performance metrics such as response time, throughput, or processing volume.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3e479be5-f454-f111-bb30-06d5501c063d",
+      "name": "Exception Session Report",
+      "description": "A report that records errors, failures, warnings, or abnormal events encountered during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7e3f55f0-f454-f111-bb30-06d5501c063d",
+      "name": "Audit Session Report",
+      "description": "A report that records traceable operational events, user actions, and compliance-related information for audit purposes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "833f55f0-f454-f111-bb30-06d5501c063d",
+      "name": "Security Session Report",
+      "description": "A report that captures authentication events, access activities, security violations, or threat detections during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "25d509f9-f454-f111-bb30-06d5501c063d",
+      "name": "Usage Session Report",
+      "description": "A report that records system, channel, or user utilization statistics during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ad509f9-f454-f111-bb30-06d5501c063d",
+      "name": "Communication Session Report",
+      "description": "A report that records exchanged messages, interactions, or communication activities during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ccf35606-f554-f111-bb30-06d5501c063d",
+      "name": "Reconcilation Session Report",
+      "description": "A report that records comparison and balancing results between processed records or systems during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e509950f-f554-f111-bb30-06d5501c063d",
+      "name": "Settlement Session Report",
+      "description": "A report that records settlement instructions, settlement status, and finalized positions during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea09950f-f554-f111-bb30-06d5501c063d",
+      "name": "Clearing Session Report",
+      "description": "A report that records clearing activities, matched transactions, and clearing positions during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab86ef18-f554-f111-bb30-06d5501c063d",
+      "name": "Netting Session Report",
+      "description": "A report that records offsetting calculations and resulting net obligations during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b086ef18-f554-f111-bb30-06d5501c063d",
+      "name": "Monitoring Session Report",
+      "description": "A report that records operational monitoring information, alerts, and system health indicators during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53a92923-f554-f111-bb30-06d5501c063d",
+      "name": "Compliance Session Report",
+      "description": "A report that records regulatory checks, policy validations, and compliance assessment results during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "58a92923-f554-f111-bb30-06d5501c063d",
+      "name": "Risk Session Report",
+      "description": "A report that records identified risks, exposures, thresholds, or risk evaluation results during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8056582e-f554-f111-bb30-06d5501c063d",
+      "name": "Customer Interaction Session Report",
+      "description": "A report that records customer inquiries, requests, interactions, or servicing activities handled during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a1cb335-f554-f111-bb30-06d5501c063d",
+      "name": "Operational Status Session Report",
+      "description": "A report that records the operational state, availability, and condition of systems or services during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fa9473c-f554-f111-bb30-06d5501c063d",
+      "name": "Incident Session Report",
+      "description": "A report that records operational incidents, disruptions, escalations, and resolution activities during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94a9473c-f554-f111-bb30-06d5501c063d",
+      "name": "Financial Position Session Report",
+      "description": "A report that records balances, positions, liquidity, or financial exposure information during the session.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d0b87747-f554-f111-bb30-06d5501c063d",
+      "name": "Summary Session Report",
+      "description": "A consolidated report providing an overview of key session activities, results, and outcomes.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "21224431-b21b-f111-8608-0a4a17d5d551",
+  "title": "PostingInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "a458d60c-b31b-f111-8608-0a4a17d5d551",
+      "name": "Originator",
+      "description": "The entity or customer that initiates the transaction.\r\n\r\nComment:\r\nCustomer transferring funds",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91298319-b31b-f111-8608-0a4a17d5d551",
+      "name": "Approver",
+      "description": "The person or system that approves the transaction before posting.\r\n\r\nComment:\r\nBank officer approving a high-value payment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8dbf4b27-b31b-f111-8608-0a4a17d5d551",
+      "name": "Executor",
+      "description": "The system or staff that actually performs the posting.\r\n\r\nComment:\r\nExample:\r\nCore banking system posting a loan repayment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3c437d3c-b31b-f111-8608-0a4a17d5d551",
+      "name": "Beneficiary",
+      "description": "The account or party receiving the funds or credits.\r\n\r\nComment:\r\nExample\r\nLoan account receiving repayment",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70fb7a4f-b31b-f111-8608-0a4a17d5d551",
+      "name": "Auditor",
+      "description": "Party validating the posting\r\n\r\nComment:\r\nExample\r\nInternal audit or compliance officer",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

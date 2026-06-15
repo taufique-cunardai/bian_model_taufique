@@ -1,0 +1,307 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9627c5a9-5505-ef11-8482-06ae3b1d3e73",
+  "title": "AssetSubClassificationTypeValues",
+  "description": "Criteria used to segment classes of non-equity instruments into sub classes as per local regulation.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0471dd47-5605-ef11-8482-06ae3b1d3e73",
+      "name": "SubAssetClass",
+      "description": "Sub-asset class.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dc3d075d-5605-ef11-8482-06ae3b1d3e73",
+      "name": "TimeToMaturityBucket",
+      "description": "Time to maturity bucket.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b9bdca8c-5605-ef11-8482-06ae3b1d3e73",
+      "name": "OptionTimeToMaturityBucket",
+      "description": "Time to maturity bucket of the option.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bebdca8c-5605-ef11-8482-06ae3b1d3e73",
+      "name": "SwapTimeToMaturityBucket",
+      "description": "Time to maturity bucket of the swap.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2139e099-5605-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingInstrumentIdentification",
+      "description": "Underlying instrument identification, such as an ISIN code.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cdb8f9a0-5605-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingBondIssuer",
+      "description": "Issuer of the underlying bond.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aeb729ad-5605-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingInterestRate",
+      "description": "Underlying interest rate.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3b729ad-5605-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingBondTerm",
+      "description": "Term of the underlying bond.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b707d1b7-5605-ef11-8482-06ae3b1d3e73",
+      "name": "AssetClass",
+      "description": "Asset class.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3d75d3bf-5605-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingIndexIdentification",
+      "description": "Underlying index identification such as an ISIN or an index name.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4275d3bf-5605-ef11-8482-06ae3b1d3e73",
+      "name": "InterestRateTermOfContract",
+      "description": "Interest rate term of contract.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "865a30cb-5605-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingReferenceEntity",
+      "description": "Underlying reference entity.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c9b9a6d2-5605-ef11-8482-06ae3b1d3e73",
+      "name": "SovereignAndPublicTypeIssuer",
+      "description": "Issuer of sovereign and public type.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6f70b0d8-5605-ef11-8482-06ae3b1d3e73",
+      "name": "IRDNotionalCurrency1",
+      "description": "Interest rate derivative notional currency 1.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7470b0d8-5605-ef11-8482-06ae3b1d3e73",
+      "name": "FEXNotionalCurrency1",
+      "description": "Foreign exchange derivative notional currency 1.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "851fb5e3-5605-ef11-8482-06ae3b1d3e73",
+      "name": "CFDNotionalCurrency1",
+      "description": "Contract for difference notional currency 1.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a1fb5e3-5605-ef11-8482-06ae3b1d3e73",
+      "name": "FEXNotionalCurrency2",
+      "description": "Foreign exchange derivative notional currency 2.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a9331cf0-5605-ef11-8482-06ae3b1d3e73",
+      "name": "IRDNotionalCurrency2",
+      "description": "Interest rate derivative notional currency 2.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a1d69f6-5605-ef11-8482-06ae3b1d3e73",
+      "name": "CFDNotionalCurrency2",
+      "description": "Contract for difference notional currency 2.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "139c8ffc-5605-ef11-8482-06ae3b1d3e73",
+      "name": "SwaptionNotionalCurrency",
+      "description": "Notional currency of the swaption.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "189c8ffc-5605-ef11-8482-06ae3b1d3e73",
+      "name": "CreditNotionalCurrency",
+      "description": "Credit derivative notional currency.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "273a1d08-5705-ef11-8482-06ae3b1d3e73",
+      "name": "CommodityNotionalCurrency",
+      "description": "Commodity derivative notional currency.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3b218910-5705-ef11-8482-06ae3b1d3e73",
+      "name": "ContractType",
+      "description": "Contract type.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c570ba16-5705-ef11-8482-06ae3b1d3e73",
+      "name": "BaseProduct",
+      "description": "Base product.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca70ba16-5705-ef11-8482-06ae3b1d3e73",
+      "name": "SubProduct",
+      "description": "Sub product.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e9103721-5705-ef11-8482-06ae3b1d3e73",
+      "name": "FurtherSubProduct",
+      "description": "Further sub product.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3dfe927-5705-ef11-8482-06ae3b1d3e73",
+      "name": "DeliveryCashLocation",
+      "description": "Delivery cash settlement location.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b8dfe927-5705-ef11-8482-06ae3b1d3e73",
+      "name": "DeliverySettlementType",
+      "description": "Delivery settlement type.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5441d733-5705-ef11-8482-06ae3b1d3e73",
+      "name": "SizeSpecificationRelatedToFreightSubtype",
+      "description": "Size specification related to freight subtype.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e413e3a-5705-ef11-8482-06ae3b1d3e73",
+      "name": "SpecificRouteTimeCharterAverage",
+      "description": "Specific route time charter average.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73413e3a-5705-ef11-8482-06ae3b1d3e73",
+      "name": "EquityUnderlyingType",
+      "description": "Equity derivative underlying type.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9ca8d45-5705-ef11-8482-06ae3b1d3e73",
+      "name": "Parameter",
+      "description": "Parameter.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "deca8d45-5705-ef11-8482-06ae3b1d3e73",
+      "name": "InflationIndexCodeName",
+      "description": "Inflation index code or name.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d8b1853-5705-ef11-8482-06ae3b1d3e73",
+      "name": "ISIN",
+      "description": "Instrument identification.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d6998c5a-5705-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingIndexCDSSubClassIdentification",
+      "description": "Sub class of the underlying index credit default swap (CDS).(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "67805f61-5705-ef11-8482-06ae3b1d3e73",
+      "name": "UnderlyingType",
+      "description": "Underlying type.(ISSO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2ee45102-8aa1-ed11-83f5-06ea5014e0ef",
+  "title": "ChargeBearerTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "868d2e53-8ba1-ed11-83f5-06ea5014e0ef",
+      "name": "BorneByDebtor",
+      "description": "All transaction charges are to be borne by the debtor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ba68315a-8ba1-ed11-83f5-06ea5014e0ef",
+      "name": "BorneByCreditor",
+      "description": "All transaction charges are to be borne by the creditor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "37c99967-8ba1-ed11-83f5-06ea5014e0ef",
+      "name": "Shared",
+      "description": "In a credit transfer context, means that transaction charges on the sender side are to be borne by the debtor, transaction charges on the receiver side are to be borne by the creditor. In a direct debit context, means that transaction charges on the sender side are to be borne by the creditor, transaction charges on the receiver side are to be borne by the debtor.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ddda370-8ba1-ed11-83f5-06ea5014e0ef",
+      "name": "FollowingServiceLevel",
+      "description": "Charges are to be applied following the rules agreed in the service level and/or scheme.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

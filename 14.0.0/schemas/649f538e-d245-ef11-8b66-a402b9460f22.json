@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "649f538e-d245-ef11-8b66-a402b9460f22",
+  "title": "CustomerBehaviorInsightInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "25428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Data Analysts",
+      "description": "They gather, process, and analyze customer data to identify trends and patterns.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Market Researchers",
+      "description": "They conduct studies and surveys to understand customer preferences and motivations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "28428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Customer Experience Managers",
+      "description": "They focus on improving the overall customer journey and ensuring a positive experience.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Business Intelligence Analysts",
+      "description": "They use data visualization and reporting tools to provide actionable insights.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2a428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Marketing Strategists",
+      "description": "They develop campaigns and strategies based on customer behavior data to drive engagement and sales.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2b428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Product Managers",
+      "description": "They use customer insights to inform product development and enhancements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Sales Analysts",
+      "description": "They analyze sales data to understand customer purchasing behavior and improve sales strategies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "CRM Specialists",
+      "description": "They manage customer relationship management systems to track and analyze customer interactions and data.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "Data Scientists",
+      "description": "They build models and algorithms to predict future customer behavior and trends.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f428fa3-d245-ef11-8b66-a402b9460f22",
+      "name": "UX/UI Designers",
+      "description": "They use insights to design user-friendly interfaces and improve the user experience.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

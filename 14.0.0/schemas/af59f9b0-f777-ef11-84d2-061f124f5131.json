@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "af59f9b0-f777-ef11-84d2-061f124f5131",
+  "title": "SecuritiesInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3c056d3e-f877-ef11-84d2-061f124f5131",
+      "name": "Depository Role",
+      "description": "Place where securities are deposited, that is company, bank or institution that holds and facilitates the exchange of securities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "841c53a0-f877-ef11-84d2-061f124f5131",
+      "name": "Place Of Registry",
+      "description": "Location at which records of ownership are maintained for a financial instrument, and at which ownership changes must be recorded.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8296d4d6-f877-ef11-84d2-061f124f5131",
+      "name": "Principal Paying Agent",
+      "description": "Main party appointed to distribute payment or securities on behalf of the issuer.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "56712708-f977-ef11-84d2-061f124f5131",
+      "name": "Registrar Role",
+      "description": "Party responsible for keeping track of the owners of securities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "552fe935-f977-ef11-84d2-061f124f5131",
+      "name": "Determination Agent",
+      "description": "Party that determines a parameter on which a calculation is based. For example, fixing of a reference rate.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d8d21469-f977-ef11-84d2-061f124f5131",
+      "name": "Beneficial Owner",
+      "description": "Characteristics of an individual or entity that is ultimately entitled to the benefit of income and rights in a security, as opposed to a nominal or legal owner.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2c346492-f977-ef11-84d2-061f124f5131",
+      "name": "Pledgee",
+      "description": "Organisation used as the pledgee for the securities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fbf437bb-f977-ef11-84d2-061f124f5131",
+      "name": "Collection Agent",
+      "description": "Additional party appointed to collect payment or securities on behalf of the issuer.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1bd397e2-f977-ef11-84d2-061f124f5131",
+      "name": "Sponsor",
+      "description": "The party that advises a company on how to issue new shares or bonds.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ce10d0e-fa77-ef11-84d2-061f124f5131",
+      "name": "Lead Underwriter",
+      "description": "Main party that is awarded the mandate by a borrower to raise money via a new issue. The lead manager guarantees the liquidity of the deal, arranges the syndication of the issue and undertakes a major underwriting and distribution commitment. Also called Lead Manager.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab2eee34-fa77-ef11-84d2-061f124f5131",
+      "name": "Remarketing Agent",
+      "description": "The party in charge of a remarketing event.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e4a175b-fa77-ef11-84d2-061f124f5131",
+      "name": "Safekeeping Place",
+      "description": "Organisation used as the safekeeping place for the securities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d3b0d888-fa77-ef11-84d2-061f124f5131",
+      "name": "Legal Advisor",
+      "description": "A party that provides legal advice for a fee.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9e019cb5-fa77-ef11-84d2-061f124f5131",
+      "name": "Primary Place Of Deposit",
+      "description": "Specifies the primary place of deposit for the securities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bd1cc6e6-fa77-ef11-84d2-061f124f5131",
+      "name": "Custodian Role",
+      "description": "The party that safekeeps and administers assets on behalf of the owner.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7289ac1b-fb77-ef11-84d2-061f124f5131",
+      "name": "Underwriter Role",
+      "description": "The party that forms, together with the lead underwriter, a syndicate of co-lead managers, co-managers and underwriters in order to raise money for a borrower via a new issue.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4615a45-fb77-ef11-84d2-061f124f5131",
+      "name": "Bond Counsel",
+      "description": "Attorney who prepares the legal opinion concerning a municipal bond issue.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "483db470-fb77-ef11-84d2-061f124f5131",
+      "name": "Principal Collection Agent",
+      "description": "Main party appointed to collect payment or securities on behalf of the issuer.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

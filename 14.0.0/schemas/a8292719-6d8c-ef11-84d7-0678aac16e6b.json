@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a8292719-6d8c-ef11-84d7-0678aac16e6b",
+  "title": "OwnershipTypeValues",
+  "description": "Specifies the type of account ownership.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8357e45d-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Joint Account With Survivorship Rights",
+      "description": "Two or more individuals own shares of the same account. Upon the death of one of the account owners, the entire account ownership is passed onto the surviving owners.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8b9f9a6d-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Joint AccountIn Common",
+      "description": "Two or more individuals of legal age own shares of the same account. Upon the death of one of the account owners, the respective percentage of the ownership is transferred to the deceased's estate.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5e609d78-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Custodial Account",
+      "description": "Minor's account, registered in the minor's name. Since the minor cannot legally own property, the custodian of the account maintains control of the account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6b82580-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Single Owner Account",
+      "description": "Account has only one individual owner.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1facbc89-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Joint Account",
+      "description": "Two or more individuals of legal age own shares of the same account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c6e67991-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Corporation",
+      "description": "Account owner is a corporate.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d46a4699-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Formal Partnership",
+      "description": "Account owner is a contractual business organisation in which two or more individuals agree to pool their funds to manage and operate a business.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b98e90a1-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Formal Trust",
+      "description": "Account owner is an organisation which is engaged as a trustee for individuals or businesses in the administration of services such as stock transfer, registration, trust funds.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f78069aa-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Nominee",
+      "description": "Account owner is a person or firm into whose name securities or other properties are transferred in order to facilitate transactions whilst leaving the customer as the actual owner.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fc8069aa-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Non Profit Organisation",
+      "description": "Account owner is an association that is given tax-free status due to the nature of their activities such as charity organisation.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a3a4f4b9-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Other Non Individual",
+      "description": "Account owner is another type of non individual organisation.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ab6b59c3-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "EU Residual Entity",
+      "description": "Account owner is an entity located in the European Union which can be considered neither as a legal entity (for example, company, corporate), nor as an individual person, nor as a UCITS (Undertakings for Collective Investment of Transferable Securities) fund.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b4855bcc-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Government Organisation",
+      "description": "Account owner is a government organisation.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b453e0d4-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Limited Liability Company",
+      "description": "Account is for a limited liability company.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d665bdf-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Registered Investment Company",
+      "description": "Account is for a registered investment company.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5726a5ea-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Entrepreneurial",
+      "description": "Entrepreneurial account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85d5fdf0-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Unincorporated",
+      "description": "Account owner is an unincorporated partnership or is of sole proprietorship.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2e009cf9-6d8c-ef11-84d7-0678aac16e6b",
+      "name": "Limited Partnership",
+      "description": "Account owner is a limited partnership or is of sole proprietorship.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4a01bc03-6e8c-ef11-84d7-0678aac16e6b",
+      "name": "Bare Owner",
+      "description": "A person has bare ownership on the asset.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e8ef60b-6e8c-ef11-84d7-0678aac16e6b",
+      "name": "Owner",
+      "description": "A person has full ownership on the asset. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "238ef60b-6e8c-ef11-84d7-0678aac16e6b",
+      "name": "Usufructuary",
+      "description": "Person having the temporary right to use and derive income or benefit from someone else's property.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

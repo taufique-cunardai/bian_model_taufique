@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fca76cd0-7718-f111-8608-06f87af9db33",
+  "title": "RolloverServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "49a262f3-7718-f111-8608-06f87af9db33",
+      "name": "Rollover Eligibility Evaluation",
+      "description": "The process that verifies whether a financial product qualifies for rollover based on predefined rules and conditions.\r\n\r\nComment:\r\nExamples\r\n\r\nLoan repayments must be up to date\r\n\r\nDeposit must reach maturity\r\n\r\nCustomer must meet credit requirements",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "03f17008-7818-f111-8608-06f87af9db33",
+      "name": "Rollover Automatic Renewal",
+      "description": "Extends the maturity or term of a deposit, investment, or loan without requiring manual intervention from the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5106a18-7818-f111-8608-06f87af9db33",
+      "name": "Rollover Notification",
+      "description": "May notify customers about the rollover or request confirmation based on product or regulatory requirements.\r\n\r\nNotifications may include\r\nMaturity reminders\r\nRollover confirmation\r\nUpdated interest rate notification",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9014a421-7818-f111-8608-06f87af9db33",
+      "name": "Rollover Adjustment Management",
+      "description": "Rate / Terms Adjustment: Applies current interest rates, fees, or terms for the new period if applicable.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0fdaac27-7818-f111-8608-06f87af9db33",
+      "name": "Rollover Monitoring and Tracking",
+      "description": "The function that tracks and records rollover activities for operational oversight.\r\n\r\nIncludes\r\nRollover history\r\nTransaction records\r\nPerformance tracking",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ede0c42d-7818-f111-8608-06f87af9db33",
+      "name": "Rollover Reporting",
+      "description": "The generation of operational and financial reports related to rollover activities.\r\n\r\nComment:\r\nExamples\r\nTotal rollovers executed\r\nRollover value reports\r\nLoan restructuring reports",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "43148bc1-f71e-f111-8608-0247e3f120c3",
+      "name": "Rollover Tracking & Reporting",
+      "description": "Maintains records of rollover events, new maturity dates, and updated terms for auditing and customer statements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

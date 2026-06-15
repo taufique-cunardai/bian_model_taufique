@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "410c4ca2-942e-f111-860d-0a3b3de36819",
+  "title": "IssuedDeviceServiceTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e04c1164-952e-f111-860d-0a3b3de36819",
+      "name": "Device Issuance Service",
+      "description": "Provides customers with devices such as debit cards, credit cards, prepaid cards, or digital tokens.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e74c1164-952e-f111-860d-0a3b3de36819",
+      "name": "Activation & Personalization Service",
+      "description": "Activates devices for use and personalizes them with customer-specific information or security credentials.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eed9cb71-952e-f111-860d-0a3b3de36819",
+      "name": "Lifecycle Management Service",
+      "description": "Tracks the device through stages: issued, active, suspended, revoked, expired, or replaced.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "00fd257c-952e-f111-860d-0a3b3de36819",
+      "name": "Security & Authentication Service",
+      "description": "Ensures secure usage, including PIN setup, encryption, biometric authentication, and fraud prevention.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bfa9d085-952e-f111-860d-0a3b3de36819",
+      "name": "Replacement & Renewal Service",
+      "description": "Manages device replacement for lost, stolen, or expired devices.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5973d92-952e-f111-860d-0a3b3de36819",
+      "name": "Customer Support Service",
+      "description": "Provides assistance for device-related issues, including activation, deactivation, and troubleshooting.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "242a2ebd-952e-f111-860d-0a3b3de36819",
+      "name": "Usage Monitoring Service",
+      "description": "Monitors transactions, limits, and device usage to ensure compliance and detect anomalies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

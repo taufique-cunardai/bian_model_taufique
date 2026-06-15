@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "70702e48-0479-ef11-84d2-06d9e746bd6d",
+  "title": "SecuritiesLendingTypeValues",
+  "description": "Type of securities lending contract.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8187af80-0479-ef11-84d2-06d9e746bd6d",
+      "name": "New Registration",
+      "description": "Securities lending contract is new and registered.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c1aa8f9d-0479-ef11-84d2-06d9e746bd6d",
+      "name": "Roll Over Renewal",
+      "description": "Securities lending contract is renewed.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "82204db1-0479-ef11-84d2-06d9e746bd6d",
+      "name": "Call Back",
+      "description": "Securities lending contract is called back.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a3a73b22-f354-f111-bb30-06d5501c063d",
+  "title": "SystemTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "aca2eb32-f354-f111-bb30-06d5501c063d",
+      "name": "Clearing System",
+      "description": "A system that validates, matches, and prepares financial transactions for settlement between participating institutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "27a2ca46-f354-f111-bb30-06d5501c063d",
+      "name": "Netting System",
+      "description": "A system that offsets multiple obligations between parties to determine a single net payable or receivable position.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2ca2ca46-f354-f111-bb30-06d5501c063d",
+      "name": "Settlement System",
+      "description": "A system that transfers funds, securities, or assets to finalize financial transactions between parties.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5847c250-f354-f111-bb30-06d5501c063d",
+      "name": "Reconciliation System",
+      "description": "A system that compares and verifies records, balances, transactions, or positions between different systems or organizations to identify discrepancies.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e0259758-f354-f111-bb30-06d5501c063d",
+      "name": "Trading System",
+      "description": "A system that supports the execution, matching, routing, and management of financial market trades and orders.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5259758-f354-f111-bb30-06d5501c063d",
+      "name": "Payment Processing System",
+      "description": "A system that authorizes, routes, validates, and processes payment transactions between customers and financial institutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0bfe8566-f354-f111-bb30-06d5501c063d",
+      "name": "Securities Processing System",
+      "description": "A system that manages the issuance, custody, transfer, and settlement of securities transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a308426e-f354-f111-bb30-06d5501c063d",
+      "name": "Card Processing System",
+      "description": "A system that manages card-based transaction authorization, clearing, settlement, and account updates.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f38cbe89-f354-f111-bb30-06d5501c063d",
+      "name": "Treasury Management System",
+      "description": "A system that manages liquidity, cash positions, investments, funding, and financial risk activities for an institution.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbba8b92-f354-f111-bb30-06d5501c063d",
+      "name": "Foreign Exchange System",
+      "description": "A system that supports currency trading, exchange rate management, and foreign exchange transaction settlement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65e4cc99-f354-f111-bb30-06d5501c063d",
+      "name": "Liquidity Management System",
+      "description": "A system that monitors and controls available funds and liquidity positions across accounts and institutions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1826d3a1-f354-f111-bb30-06d5501c063d",
+      "name": "Risk Management System",
+      "description": "A system that identifies, measures, monitors, and controls financial, operational, or credit risks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c4c59b1-f354-f111-bb30-06d5501c063d",
+      "name": "Collateral Management System",
+      "description": "A system that records, allocates, monitors, and manages collateral assets supporting financial obligations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "aa3513ba-f354-f111-bb30-06d5501c063d",
+      "name": "Account Management System",
+      "description": "A system that maintains customer or institutional account records, balances, limits, and account activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd14b8c0-f354-f111-bb30-06d5501c063d",
+      "name": "Fraud Detection System",
+      "description": "A system that monitors transactions and activities to identify suspicious behavior and potential fraudulent actions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "29d3fcc7-f354-f111-bb30-06d5501c063d",
+      "name": "Messaging System",
+      "description": "A system that exchanges standardized financial or operational messages between systems, institutions, or networks.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a76cbce-f354-f111-bb30-06d5501c063d",
+      "name": "Reporting System",
+      "description": "A system that generates operational, regulatory, financial, or management reports from processed data.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "53fb6fd6-f354-f111-bb30-06d5501c063d",
+      "name": "Customer Service System",
+      "description": "A system that supports customer interactions, inquiries, complaints, onboarding, and servicing activities.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4f1090df-f354-f111-bb30-06d5501c063d",
+      "name": "Workflow Management System",
+      "description": "A system that coordinates, automates, and tracks operational processes, tasks, and approvals.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f0fbabe8-f354-f111-bb30-06d5501c063d",
+      "name": "Core Banking System",
+      "description": "A centralized banking system that manages accounts, deposits, loans, payments, and daily banking operations.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dfee4a43-f454-f111-bb30-06d5501c063d",
+      "name": "Compliance Management System",
+      "description": "A system that monitors activities and controls to ensure adherence to regulatory, legal, and policy requirements.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

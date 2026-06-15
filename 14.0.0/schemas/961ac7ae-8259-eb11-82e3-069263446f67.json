@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "961ac7ae-8259-eb11-82e3-069263446f67",
+  "title": "FinancialInstrumentTypeValues",
+  "description": "Categorization of financial asset type. ISO20022",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "91ab0ac9-8259-eb11-82e3-069263446f67",
+      "name": "Loan",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "490862cf-8259-eb11-82e3-069263446f67",
+      "name": "Bond",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ca07f0d5-8259-eb11-82e3-069263446f67",
+      "name": "Deposit",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1c28b904-8359-eb11-82e3-069263446f67",
+      "name": "Stock",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "65305ec6-8c59-eb11-82e3-069263446f67",
+      "name": "Option",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "625f560f-695a-eb11-82e3-0696e5690f15",
+      "name": "Share",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5db896e0-c25c-eb11-82e9-065ba105bad3",
+      "name": "Debt",
+      "description": "Financial instruments evidencing moneys owed by the issuer to the holder on terms as specified. (ISO20022)\r\n\r\nAny type of instrument primarily classified as debt can be considered a debt instrument. Debt instruments are tools an individual, government entity, or business entity can utilize for the purpose of obtaining capital. Debt instruments provide capital to an entity that promises to repay the capital over time. Credit cards, credit lines, loans, and bonds can all be types of debt instruments. (Investopedia)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a33cade6-c25c-eb11-82e9-065ba105bad3",
+      "name": "LetterOfCredit",
+      "description": "Instrument issued by a bank substituting its name and credit standing for that of its customer. A letter of credit is a written undertaking of the bank, issued for the account of a customer (the applicant), to honour a demand for payment, upon the beneficiary's compliance with the terms and conditions set forth in the undertaking. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "64887ffb-c25c-eb11-82e9-065ba105bad3",
+      "name": "Security",
+      "description": "Financial instruments representing a sum of rights of the investor vis-a-vis the issuer. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3dbd6302-c35c-eb11-82e9-065ba105bad3",
+      "name": "Derivative",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

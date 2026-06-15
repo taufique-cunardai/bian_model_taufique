@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "0c656c58-0f08-f111-8602-0651210e384f",
+  "title": "RedemptionTermandConditionTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "7c2b2129-1108-f111-8602-0651210e384f",
+      "name": "Eligibility Condition",
+      "description": "Eligibility Rules\r\n- Who is allowed to redeem\r\n- Account or membership requirements\r\n- Age or location restrictions",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14b0cda6-1108-f111-8602-0651210e384f",
+      "name": "Redemption Process Condition",
+      "description": "Redemption Process\r\n- Steps to redeem (online, form, in-person, etc.)\r\n- Documents or verification required",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1f4cb1bf-1108-f111-8602-0651210e384f",
+      "name": "Time Limit Condition",
+      "description": "Time Limits:\r\n- Expiration date of rewards or benefits\r\n- Deadlines for redemption\r\n- Waiting periods before redemption is allowed",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "68c52ad2-1108-f111-8602-0651210e384f",
+      "name": "Value and Limit Condition",
+      "description": "Value and Limits\r\n- Minimum or maximum redemption amount\r\n- Whether partial redemption is allowed",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "929c4cfa-1108-f111-8602-0651210e384f",
+      "name": "Fee Condition",
+      "description": "Fees or Charges\r\n- Processing fees\r\n- Early withdrawal penalties\r\n- Service charges",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "da585a0e-1208-f111-8602-0651210e384f",
+      "name": "Usage Restriction Condition",
+      "description": "Usage Restrictions\r\n- Non-transferable rewards\r\n- Can only be used for certain products/services\r\n- Cannot combine with other offers",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1a82e30-1208-f111-8602-0651210e384f",
+      "name": "Changes or Cancellation Condition",
+      "description": "Changes or Cancellation\r\n- Providers right to change or cancel the program\r\n- Situations where redemption can be refused",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6d94a245-1208-f111-8602-0651210e384f",
+      "name": "Tax Responsibility Condition",
+      "description": "Tax Responsibilities:\r\n- Whether redeemed rewards are taxable\r\n- Who is responsible for reporting taxes",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

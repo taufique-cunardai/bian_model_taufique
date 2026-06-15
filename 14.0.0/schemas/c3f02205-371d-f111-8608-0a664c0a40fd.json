@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c3f02205-371d-f111-8608-0a664c0a40fd",
+  "title": "OriginationCalculationModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "d6b03e5a-371d-f111-8608-0a664c0a40fd",
+      "name": "Origination Interest Calculation",
+      "description": "Method to compute interest on a loan\r\n\r\nComment:\r\nExample:\r\nFixed interest rate of 5% per year on a €20,000 personal loan",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "abb6a27b-371d-f111-8608-0a664c0a40fd",
+      "name": "Origination Fee Calculation",
+      "description": "Method to compute service fees\r\n\r\nComment:\r\nExample:\r\nLoan processing fee = 1% of principal",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "381fb68c-371d-f111-8608-0a664c0a40fd",
+      "name": "Origination Installment Calculation",
+      "description": "Determines repayment schedule\r\n\r\nComment:\r\nExample:\r\nEqual monthly installments over 24 months",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d33f95a3-371d-f111-8608-0a664c0a40fd",
+      "name": "Origination Collateral Valuation",
+      "description": "Calculates collateral value against product\r\n\r\nComment:\r\nExample:\r\nProperty valued at €50,000 to secure a mortgage",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7165dcb8-371d-f111-8608-0a664c0a40fd",
+      "name": "Origination Risk-Adjusted Calculation",
+      "description": "Adjusts amounts based on risk profile\r\n\r\nComment:\r\nExample:\r\nHigher-risk borrower has higher interest applied",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

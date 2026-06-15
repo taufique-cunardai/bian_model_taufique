@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "3aaa3b40-1f03-ef11-8482-067069a03e01",
+  "title": "FinancialMarketTypeValues",
+  "description": "Specifies the type of place where a trade was executed, a price was sourced from, an instrument is listed.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "6797d191-1f03-ef11-8482-067069a03e01",
+      "name": "Primary Market",
+      "description": "The place is a primary market.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fd2cf5ab-1f03-ef11-8482-067069a03e01",
+      "name": "Secondary Market",
+      "description": "The place is a secondary market.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6e5842be-1f03-ef11-8482-067069a03e01",
+      "name": "Third Market",
+      "description": "The place is a third market.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99bd27d5-1f03-ef11-8482-067069a03e01",
+      "name": "Fourth Market",
+      "description": "The place is a fourth market.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5a8b4e5-1f03-ef11-8482-067069a03e01",
+      "name": "Over The Counter",
+      "description": "The place is over the counter.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d9410ff5-1f03-ef11-8482-067069a03e01",
+      "name": "Various",
+      "description": "Various places.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1e32bd04-2003-ef11-8482-067069a03e01",
+      "name": "Stock Exchange",
+      "description": "The place is a stock exchange.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d9f4b17-2003-ef11-8482-067069a03e01",
+      "name": "Fund",
+      "description": "The place is a fund (transfer agent, fund itself, etc.).(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5fbf1028-2003-ef11-8482-067069a03e01",
+      "name": "Local Market",
+      "description": "The place is a local market.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "a1cac435-2003-ef11-8482-067069a03e01",
+      "name": "Theoretical",
+      "description": "The place is theoretical.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1637e045-2003-ef11-8482-067069a03e01",
+      "name": "Vendor",
+      "description": "The place is a vendor.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ec09e54-2003-ef11-8482-067069a03e01",
+      "name": "InterBank",
+      "description": "Specified type of market is inter bank market.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "551c8467-2003-ef11-8482-067069a03e01",
+      "name": "Counter",
+      "description": "Specified type of market is counter market.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

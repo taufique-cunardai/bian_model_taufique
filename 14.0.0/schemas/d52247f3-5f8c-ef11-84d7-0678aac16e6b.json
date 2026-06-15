@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d52247f3-5f8c-ef11-84d7-0678aac16e6b",
+  "title": "InvestmentAccountInvlvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "98fb666b-608c-ef11-84d7-0678aac16e6b",
+      "name": "Administrator Role",
+      "description": "Entity that has been appointed by a legal authority to act on behalf of a person or organisation that has gone bankrupt.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "31b84782-608c-ef11-84d7-0678aac16e6b",
+      "name": "Trustee Role",
+      "description": "Legal owner of the property. However, the beneficiary has the equitable or beneficial ownership. The trustee must ensure all terms and conditions of the security are adhered to.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f5104192-608c-ef11-84d7-0678aac16e6b",
+      "name": "Joint Owner",
+      "description": "Co-owner of an investment account when the ownership is assigned to more than one party.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2be87ba1-608c-ef11-84d7-0678aac16e6b",
+      "name": "Individual Investor",
+      "description": "Individual person which makes investment decisions in relation with its investment account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81e5dab5-608c-ef11-84d7-0678aac16e6b",
+      "name": "Investor",
+      "description": "Party which makes investment decisions in relation with its investment account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5db925d9-618c-ef11-84d7-0678aac16e6b",
+      "name": "Successor on Death",
+      "description": "Deceased's estate, or successor, to whom the respective percentage of ownership will be transferred upon the death of one of the owners.\r\nElements(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a3b82ed-618c-ef11-84d7-0678aac16e6b",
+      "name": "Primary Owner",
+      "description": "Single owner of the investment account or, when the ownership is split among several owners, the primary owner is the one giving its address and account details for the registration.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b0e42fb-618c-ef11-84d7-0678aac16e6b",
+      "name": "Legal Guardian Role",
+      "description": "Entity that has been appointed by a legal authority to act on behalf of a person judged to be incapacitated.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d91b9a0b-628c-ef11-84d7-0678aac16e6b",
+      "name": "Corporate Investor",
+      "description": "Corporate that makes investment decisions in relation with its investment account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "eebddb16-628c-ef11-84d7-0678aac16e6b",
+      "name": "Secondary Owner",
+      "description": "Entity that is not the primary owner when the ownership of the investment account is split among several owners.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea26cc24-628c-ef11-84d7-0678aac16e6b",
+      "name": "Nominee",
+      "description": "Entity (the registered owner) named by the beneficial owner to act on its behalf, often to facilitate dealing, or to conceal the identity of the beneficiary. Securities and other assets are recorded in the nominee's name.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c837ea2f-628c-ef11-84d7-0678aac16e6b",
+      "name": "Custodian For Minor",
+      "description": "Entity that holds shares/units on behalf of a legal minor. Although the account is registered under the name of the minor, the custodian retains control of the account.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

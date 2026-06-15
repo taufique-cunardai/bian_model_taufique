@@ -1,0 +1,419 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "adc9887d-344a-ed11-83d4-064ad05c4fb5",
+  "title": "CardPaymentServiceTypeValues",
+  "description": "Service provided by a card payment in addition to the main service. ISO20022",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "79dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CardsFundTransfer",
+      "description": "Transfer of funds to and/or from a card account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7bdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "OriginalCredit",
+      "description": "Original credit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7cdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CardPayment",
+      "description": "Card payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7ddd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CashBack",
+      "description": "Card payment with cash-back.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7edd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CashAdvance",
+      "description": "Cash advance or withdrawals on a POI (Point Of Interaction), or at a bank counter.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7fdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CashDeposit",
+      "description": "Cash deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "80dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "DeferredPayment",
+      "description": "Deferred payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "81dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Reservation",
+      "description": "Reservation (pre-authorisation).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "82dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Loading",
+      "description": "Loading or reloading non-financial account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "83dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Refund",
+      "description": "Refund transaction.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "QuasiCash",
+      "description": "Quasi-cash.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Balance",
+      "description": "Balance enquiry.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CardActivation",
+      "description": "Card activation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "87dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CardVerification",
+      "description": "Card verification.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "88dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "PINChange",
+      "description": "PIN (Personal Identification Number) change.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "89dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "ValidityCheck",
+      "description": "Card validity check.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8add94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Aggregation",
+      "description": "Aggregation of low payments.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8bdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "DCC",
+      "description": "Dynamic currency conversion (DCC).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8cdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Gratuity",
+      "description": "Card payment with gratuity.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8ddd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Instalment",
+      "description": "Instalment payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8edd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Loyalty",
+      "description": "Loyalty services.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8fdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "NoShow",
+      "description": "No show after reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "90dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "PurchaseCorporate",
+      "description": "Purchase and corporate data.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "91dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "RecurringPayment",
+      "description": "Recurring payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "92dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "SolicitedAvailableFunds",
+      "description": "Solicited available funds.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "93dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "UnsolicitedAvailableFunds",
+      "description": "Unsolicited available funds.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "94dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "VoiceAuthorisation",
+      "description": "Voice authorisation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "95dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "InitialReservation",
+      "description": "Initial reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "96dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "UpdateReservation",
+      "description": "Update reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "97dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "PaymentReservation",
+      "description": "Payment after reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "98dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "AdditionalPayment",
+      "description": "Additional payment after reservation.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "99dd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "FirstRecurring",
+      "description": "Initial recurring payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9add94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "FollowingRecurring",
+      "description": "Repeat recurring payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9bdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "PersonToBusiness",
+      "description": "Card payment transaction transfer from person to business.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9cdd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "PersonToPerson",
+      "description": "Card payment transaction transfer from person to person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9ddd94ef-364a-ed11-83d4-064ad05c4fb5",
+      "name": "AcceptorInstalment",
+      "description": "Instalment payment transaction performed by the acceptor or the acquirer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6bdf93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "IssuerInstalment",
+      "description": "Instalment payment transaction performed by the card issuer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6cdf93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "Unloading",
+      "description": "Unloading non-financial account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6ddf93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CardsFundTransferPush",
+      "description": "Transfer of funds to a card or an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6edf93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CardsFundTransferPull",
+      "description": "Transfer of funds from a card or an account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6fdf93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "CashWithdrawal",
+      "description": "Withdrawal of cash on an ATM.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "70df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "PINUnblock",
+      "description": "Unblock the cardholder PIN.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "71df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "ChosenWithdrawal",
+      "description": "Amount and notes values are chosen by the customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "72df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "PreAuthorisedWithdrawal",
+      "description": "Withdrawal transaction was pre-authorised by another channel (amount could be absent).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "73df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "ProfileWithdrawal",
+      "description": "Amount and Notes Values are pre-defined by the customer profile.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "StandardWithdrawal",
+      "description": "Customer pressed a button associated with a withdrawal of unique amount and notes mix.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "75df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "TransferCardBillPayment",
+      "description": "Transfer for payment of bills.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "76df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "TransferFromCash",
+      "description": "Transfer from cash deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "77df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "TransferFromCheque",
+      "description": "Transfer from cheque deposit.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "78df93f5-364a-ed11-83d4-064ad05c4fb5",
+      "name": "TransferFundsDisbursementGeneral",
+      "description": "Transfer for general disbursement.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

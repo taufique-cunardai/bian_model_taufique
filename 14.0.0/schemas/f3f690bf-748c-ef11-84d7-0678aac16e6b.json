@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "f3f690bf-748c-ef11-84d7-0678aac16e6b",
+  "title": "TaxWithholdingMethodTypeValues",
+  "description": "Specified the method by which the tax on the interests is to be processed i.e. either withheld at source or reported to tax authorities or a tax certificate has been provided by the beneficiary.(ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "06a0abf9-748c-ef11-84d7-0678aac16e6b",
+      "name": "Withhold Tax",
+      "description": "Tax is withheld at source.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "98ce8500-758c-ef11-84d7-0678aac16e6b",
+      "name": "Report Tax",
+      "description": "Tax information is reported to the tax authorities and therefore not withheld at source.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ac1a6607-758c-ef11-84d7-0678aac16e6b",
+      "name": "Tax Certificate",
+      "description": "Tax certificate is provided by the beneficiary from its tax authority in its country of residence. Therefore, the obligation of withholding tax is waived and tax information will be reported to the tax authorities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "14f15110-758c-ef11-84d7-0678aac16e6b",
+      "name": "Withhold Tax And Report",
+      "description": "Tax is withheld at source and the tax information is also reported to the tax authorities.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d2a5821a-758c-ef11-84d7-0678aac16e6b",
+      "name": "Withholding Corporate Tax",
+      "description": "Withholding tax is applied to a corporate.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "08ae6c25-758c-ef11-84d7-0678aac16e6b",
+      "name": "Exempt",
+      "description": "Dividend tax is exempt.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0dae6c25-758c-ef11-84d7-0678aac16e6b",
+      "name": "Accountant",
+      "description": "Dividend tax is exempt according to the accountant.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "d564bb31-758c-ef11-84d7-0678aac16e6b",
+      "name": "Investment Company",
+      "description": "Withholding tax is applied to an investment company.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1172aa39-758c-ef11-84d7-0678aac16e6b",
+      "name": "Minority Interest Tax",
+      "description": "Minority interest tax is withheld.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

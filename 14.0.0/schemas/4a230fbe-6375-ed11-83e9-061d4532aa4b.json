@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "4a230fbe-6375-ed11-83e9-061d4532aa4b",
+  "title": "TransactionTotalsTypeValues",
+  "description": "Identification of the type of transactions which are included in the totals. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "8b18e219-6475-ed11-83e9-061d4532aa4b",
+      "name": "Debit",
+      "description": "Debit transactions on the cardholder account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8d18e219-6475-ed11-83e9-061d4532aa4b",
+      "name": "DebitReverse",
+      "description": "Reversal of debit transactions (cancellation).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8e18e219-6475-ed11-83e9-061d4532aa4b",
+      "name": "Credit",
+      "description": "Credit transactions (refund, account, cash service, as defined in the transaction service type).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8f18e219-6475-ed11-83e9-061d4532aa4b",
+      "name": "CreditReverse",
+      "description": "Reversal of credit transactions (cancellation).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9018e219-6475-ed11-83e9-061d4532aa4b",
+      "name": "Declined",
+      "description": "Declined transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9118e219-6475-ed11-83e9-061d4532aa4b",
+      "name": "Failed",
+      "description": "Failed transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9218e219-6475-ed11-83e9-061d4532aa4b",
+      "name": "Reservation",
+      "description": "Outstanding Reservation transactions.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

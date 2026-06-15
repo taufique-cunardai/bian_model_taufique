@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "410c4570-8b2e-f111-860d-0a3b3de36819",
+  "title": "IssuedDeviceInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "15888988-8b2e-f111-860d-0a3b3de36819",
+      "name": "Device Holder",
+      "description": "The person or entity that receives and uses the issued device (e.g., debit card, payment card, or token).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cfb8ff97-8b2e-f111-860d-0a3b3de36819",
+      "name": "Issuing Bank",
+      "description": "The bank that issues the device to the customer and manages its activation, usage, and security.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7b7040a2-8b2e-f111-860d-0a3b3de36819",
+      "name": "Merchant",
+      "description": "The person or organization that accepts the device for transactions (e.g., payments for goods or services).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2d6442b7-8b2e-f111-860d-0a3b3de36819",
+      "name": "Regulatory Authority",
+      "description": "Government or official bodies that oversee the issuance and use of payment devices to ensure security, compliance, and consumer protection.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

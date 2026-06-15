@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "6d6c90af-a226-f111-860d-0271c902ca61",
+  "title": "PositivePayTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3e5425c9-a226-f111-860d-0271c902ca61",
+      "name": "Check Positive Pay",
+      "description": "Matches check number, issue date, and amount of presented checks against a pre-submitted list of authorized checks.\r\n\r\nComment:\r\nExample: A company submits a daily check issue file; any check not on the file is flagged.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c85406eb-a226-f111-860d-0271c902ca61",
+      "name": "Payee Positive Pay",
+      "description": "Includes verification of the payee name along with check details.\r\n\r\nComment:\r\nExample: A check to Jane Doe is rejected if presented as Janet Doe.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "680086f3-a226-f111-860d-0271c902ca61",
+      "name": "ACH Positive Pay",
+      "description": "Verifies ACH debit or credit transactions against an authorized ACH file.\r\n\r\nComment:\r\nExample: Only pre-approved vendor ACH debits are allowed; others are flagged.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "85b2973d-cd26-f111-860d-0271c902ca61",
+      "name": "Wire Positive Pay",
+      "description": "Verifies wire transfer instructions against pre-approved wire lists.\r\n\r\nComment:\r\nExample: A wire to a new vendor is blocked until manually approved by the client.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b3b9e64b-cd26-f111-860d-0271c902ca61",
+      "name": "Reverse Positive Pay",
+      "description": "The client reviews all presented payments before funds are released, instead of relying on automatic matching.\r\n\r\nComment: \r\nExample: The bank provides a report of presented checks; the client approves or rejects each payment.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4c61f364-cd26-f111-860d-0271c902ca61",
+      "name": "Exception Handling Positive Pay",
+      "description": "Defines actions for any mismatched payments: reject, review, or approve.\r\n\r\nComment:\r\nExample: A check amount mismatch triggers an alert for manual approval.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "33385e07-ac87-ef11-8b7c-a402b9460f22",
+  "title": "CustomerBillingManagementWorkstepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "9bc4771c-ac87-ef11-8b7c-a402b9460f22",
+      "name": "Pricing and Discounts Application",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "74d5bc25-ac87-ef11-8b7c-a402b9460f22",
+      "name": "Invoice Creation",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ce73b72d-ac87-ef11-8b7c-a402b9460f22",
+      "name": "Invoice Review and Approval",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "274c6c37-ac87-ef11-8b7c-a402b9460f22",
+      "name": "Sending the Invoice",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ef50df4f-ac87-ef11-8b7c-a402b9460f22",
+      "name": "Follow-Up and Payment Monitoring",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

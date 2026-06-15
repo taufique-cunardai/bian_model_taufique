@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "a15a89c8-8d7d-eb11-8309-06f448ba7707",
+  "title": "CorrespondentBankingInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "5c9ab0d0-8d7d-eb11-8309-06f448ba7707",
+      "name": "Correspondent Bank",
+      "description": "A financial institution engaged in a correspondent bank agreement who makes or receives payment services on behalf of other financial institution (respondent).",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c87f1d9-8d7d-eb11-8309-06f448ba7707",
+      "name": "Respondent Bank",
+      "description": "A financial institution engaged in a correspondent bank agreement who asks other financial institution (correspondent) to make or receive payment services on behalf of itself.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

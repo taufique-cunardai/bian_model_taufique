@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "de29ed51-f1a6-ed11-83f5-0672cda25507",
+  "title": "PaymentMethodTypeValues",
+  "description": "Specifies the transfer method that will be used to transfer the cash. (ISO20022)",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "dfb93ac2-f1a6-ed11-83f5-0672cda25507",
+      "name": "Cheque",
+      "description": "Written order to a bank to pay a certain amount of money from one person to another person.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e1b93ac2-f1a6-ed11-83f5-0672cda25507",
+      "name": "CreditTransfer",
+      "description": "Transfer of an amount of money in the books of the account servicer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e2b93ac2-f1a6-ed11-83f5-0672cda25507",
+      "name": "DirectDebit",
+      "description": "Collection of an amount of money from the debtor's bank account by the creditor. The amount of money and dates of collections may vary.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e3b93ac2-f1a6-ed11-83f5-0672cda25507",
+      "name": "TransferAdvice",
+      "description": "Transfer of an amount of money in the books of the account servicer. An advice should be sent back to the account owner.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e4b93ac2-f1a6-ed11-83f5-0672cda25507",
+      "name": "Direct",
+      "description": "Direct method.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "e5b93ac2-f1a6-ed11-83f5-0672cda25507",
+      "name": "Classical",
+      "description": "Classical method.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4b9cdb24-7a39-f111-bb11-0ac20362cc79",
+      "name": "Invoice",
+      "description": "Invoice (Manual Payment): The customer is issued an invoice and is responsible for making the payment.\r\n\r\nComment:\r\nPayment is typically done via:\r\nBank transfer\r\nOnline payment\r\nCash or cheque",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8a1a7236-7a39-f111-bb11-0ac20362cc79",
+      "name": "Internal Account Debit",
+      "description": "Funds are debited directly from another account within the same institution.\r\n\r\nComment:\r\nExample: deducting fees from a customers savings or current account.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

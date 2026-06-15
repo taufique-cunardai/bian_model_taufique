@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c973fd3a-8113-eb11-82c5-06bc2d3775af",
+  "title": "CollateralAssetLiquidationProcedureWorkstepTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "11029078-8113-eb11-82c5-06bc2d3775af",
+      "name": "Collections Assessment",
+      "description": "Consolidate details about the outstanding debt and associated collateral. Ensure assets are properly booked.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "ea4bcb97-8113-eb11-82c5-06bc2d3775af",
+      "name": "Collateral Valuation",
+      "description": "Assess status of the title to collateral items and obtain current valuation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7d2a2cb4-8113-eb11-82c5-06bc2d3775af",
+      "name": "Collateral Liquidation",
+      "description": "Undertake liquidation of collateral to recover losses",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6bd57dcd-8113-eb11-82c5-06bc2d3775af",
+      "name": "Collections Account Update",
+      "description": "Revise the status of the account and review collections approach based on interim liquidations",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7a23cdec-8113-eb11-82c5-06bc2d3775af",
+      "name": "Debt Factoring",
+      "description": "Consider factoring all or part of the residual debt",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

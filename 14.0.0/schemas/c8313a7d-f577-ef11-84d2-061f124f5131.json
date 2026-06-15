@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c8313a7d-f577-ef11-84d2-061f124f5131",
+  "title": "SecuritiesSettlementInvolvmentTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "e102b896-f577-ef11-84d2-061f124f5131",
+      "name": "Place Of Settlement",
+      "description": "Place where settlement of securities occurs.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c3c65ff0-f577-ef11-84d2-061f124f5131",
+      "name": "Receiving Settlement Party",
+      "description": "Party that receives securities as part of a chain of settlement parties or as ultimate party.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "45e03d2e-f677-ef11-84d2-061f124f5131",
+      "name": "Local Settlement Agent Role",
+      "description": "Party which holds securities and settles trades for non-resident customers. The customers' securities are held in one omnibus account or in sub accounts at the local central securities depository.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1ea9685b-f677-ef11-84d2-061f124f5131",
+      "name": "Delivering Settlement Party",
+      "description": "Party that is responsible for delivering securities as part of a chain of settlement parties or as party that sells them.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

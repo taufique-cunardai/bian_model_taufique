@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "8689c84b-8eb0-ea11-829f-06e9ae0e1608",
+  "title": "InvestmentAccountAgreementInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "77449452-8eb0-ea11-829f-06e9ae0e1608",
+      "name": "Investor",
+      "description": "Party which makes investment decisions in relation with its investment account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "c4504b5f-8eb0-ea11-829f-06e9ae0e1608",
+      "name": "Corporate Investor",
+      "description": "Corporate that makes investment decisions in relation with its investment account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7629e880-8eb0-ea11-829f-06e9ae0e1608",
+      "name": "Individual Investor",
+      "description": "Individual person which makes investment decisions in relation with its investment account. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b62fa78e-8eb0-ea11-829f-06e9ae0e1608",
+      "name": "Primary Owner",
+      "description": "Single owner of the investment account or, when the ownership is split among several owners, the primary owner is the one giving its address and account details for the registration. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5bc0c59f-8eb0-ea11-829f-06e9ae0e1608",
+      "name": "Secondary Owner",
+      "description": "Entity that is not the primary owner when the ownership of the investment account is split among several owners.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

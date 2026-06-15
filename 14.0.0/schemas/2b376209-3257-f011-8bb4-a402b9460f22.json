@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "2b376209-3257-f011-8bb4-a402b9460f22",
+  "title": "CurrentAssetValueTypes",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0290a11b-3257-f011-8bb4-a402b9460f22",
+      "name": "Cash",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0490a11b-3257-f011-8bb4-a402b9460f22",
+      "name": "Accounts receivable",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0590a11b-3257-f011-8bb4-a402b9460f22",
+      "name": "Inventory",
+      "description": "Inventory as a current asset refers to the goods and materials a business holds for the purpose of resale or production, and it is classified under current assets on the balance sheet.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0690a11b-3257-f011-8bb4-a402b9460f22",
+      "name": "Short-term investments",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0790a11b-3257-f011-8bb4-a402b9460f22",
+      "name": "Prepaid expenses",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

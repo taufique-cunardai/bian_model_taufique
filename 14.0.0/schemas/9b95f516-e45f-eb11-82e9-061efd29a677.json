@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "9b95f516-e45f-eb11-82e9-061efd29a677",
+  "title": "FinancialInstrumentPositionValueType",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "3a7a3c23-e45f-eb11-82e9-061efd29a677",
+      "name": "Market Value",
+      "description": "Value of the asset holding based on current market prices (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2149c10b-e55f-eb11-82e9-061efd29a677",
+      "name": "Book Value",
+      "description": "Value of a security, as booked/acquired in an account. Book value is often different from the current market value of the security. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "9a49a050-e55f-eb11-82e9-061efd29a677",
+      "name": "Cap Value",
+      "description": "Maximum notional value for a financial instrument that is capped.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

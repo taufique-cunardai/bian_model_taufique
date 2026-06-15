@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "09dac0a7-df67-eb11-82f6-06f5e4900cbd",
+  "title": "FinancialInstrumentInvolvementTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "73864aae-df67-eb11-82f6-06f5e4900cbd",
+      "name": "Issuer",
+      "description": "Legal entity that has the right to issue the financial instrument (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0307aed1-df67-eb11-82f6-06f5e4900cbd",
+      "name": "Portfolio Manager",
+      "description": "Party responsible for investing another party's assets and for managing the day-to-day operations. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "653e4eda-df67-eb11-82f6-06f5e4900cbd",
+      "name": "Investment Advisor",
+      "description": "The party that provides investment guidance at a fee. (ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7c2ada4e-9f82-ec11-836c-0678950485f3",
+      "name": "Warrant Agent",
+      "description": "Entity appointed by the issuer to process the exercising of warrants, sometimes responsible for the issuance of the warrants into the market.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b5c81059-743e-ed11-83cc-066e39caf441",
+      "name": "Trader",
+      "description": "A trader is an individual who engages in the buying and selling of financial assets in any financial market, either for themself or on behalf of another person or institution. \r\nhttps://www.investopedia.com/terms/t/trader.asp",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "cfb06d5e-7b3e-ed11-83cc-066e39caf441",
+      "name": "Trustee",
+      "description": "Legal owner of the property. However, the beneficiary has the equitable or beneficial ownership. The trustee must ensure all terms and conditions of the security are adhered to. ISO20022\r\nhttps://www.iso20022.org/standardsrepository/type/TrusteeRole",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

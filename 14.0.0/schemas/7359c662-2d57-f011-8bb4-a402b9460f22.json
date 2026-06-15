@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "7359c662-2d57-f011-8bb4-a402b9460f22",
+  "title": "IntangibleAssetTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "084fda6a-2d57-f011-8bb4-a402b9460f22",
+      "name": "Patents",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0a4fda6a-2d57-f011-8bb4-a402b9460f22",
+      "name": "Trademarks",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0b4fda6a-2d57-f011-8bb4-a402b9460f22",
+      "name": "Goodwill",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0c4fda6a-2d57-f011-8bb4-a402b9460f22",
+      "name": "Copyrights",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d4fda6a-2d57-f011-8bb4-a402b9460f22",
+      "name": "Brand recognition",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0e4fda6a-2d57-f011-8bb4-a402b9460f22",
+      "name": "Software licenses",
+      "description": "",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

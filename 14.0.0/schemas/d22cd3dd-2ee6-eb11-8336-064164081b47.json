@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d22cd3dd-2ee6-eb11-8336-064164081b47",
+  "title": "ModalityTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "61df0ee4-2ee6-eb11-8336-064164081b47",
+      "name": "Allocation Modality",
+      "description": "Defines how amounts, benefits, or balances are distributed among accounts, components, or parties.\r\n\r\nComment:\r\nExamples\r\nPrincipal allocation\r\nInterest allocation\r\nIncentive distribution\r\nPartial rollover allocation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "2f6a03ec-2ee6-eb11-8336-064164081b47",
+      "name": "Calculation Modality",
+      "description": "Defines how financial values are computed or recalculated.\r\n\r\nComment:\r\nExamples\r\nInterest calculation method\r\nBonus incentive calculation\r\nPenalty fee calculation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "08c0be12-2fe6-eb11-8336-064164081b47",
+      "name": "Derivation Modality",
+      "description": "Specifies how parameters or values are derived from rules, market data, or product definitions.\r\n\r\nComment:\r\nExamples\r\nInterest rate derived from market rate\r\nIncentive derived from customer tier\r\nRollover term derived from original deposit",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "8eab5719-2fe6-eb11-8336-064164081b47",
+      "name": "Payment Modality",
+      "description": "Defines how payments or financial transfers are executed.\r\n\r\nComment:\r\nExamples\r\nInterest payout\r\nIncentive payment\r\nLoan repayment method",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "84693153-36fc-eb11-833a-0662ea9d4173",
+      "name": "Processing Modality",
+      "description": "Specifies how and when an operation is processed within the banking system.\r\n\r\nComment:\r\nExamples\r\nAutomatic processing\r\nBatch processing\r\nReal-time processing",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "133005a6-3dfc-eb11-833a-0662ea9d4173",
+      "name": "Application Modality",
+      "description": "Defines how rules or financial actions are applied to a banking arrangement or transaction.\r\n\r\nComment:\r\nExamples\r\nIncentive applied to transactions\r\nInterest applied to balance\r\nFee applied to account activity",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "dbdf1b34-7246-ee11-8b35-a402b9460f22",
+      "name": "Delivery Modality",
+      "description": "Specifies how outcomes, documents, or benefits are delivered to the customer.\r\n\r\nComment:\r\nExamples\r\nStatement delivery\r\nAccount credit\r\nNotification of bonus",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "86a83e94-6b18-f111-8608-06f87af9db33",
+      "name": "Eligibility Modality",
+      "description": "Defines conditions that determine whether a customer or arrangement qualifies for a service or benefit.\r\n\r\nComment:\r\nExamples\r\nMinimum balance requirement\r\nCustomer tier eligibility\r\nProduct qualification rules",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "6c7dc29b-6b18-f111-8608-06f87af9db33",
+      "name": "Timing Modality",
+      "description": "Specifies when a service action or financial event occurs.\r\n\r\nComment:\r\nExamples\r\nMonthly interest calculation\r\nEnd-of-term rollover\r\nQuarterly incentive distribution",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "3f788ca4-6b18-f111-8608-06f87af9db33",
+      "name": "Trigger Modality",
+      "description": "Defines events that initiate or trigger a banking action.\r\n\r\nComment:\r\nExamples\r\nDeposit maturity triggers rollover\r\nTransaction triggers cashback\r\nBalance threshold triggers incentive",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "678bbcb0-6b18-f111-8608-06f87af9db33",
+      "name": "Limitation Modality",
+      "description": "Defines limits or caps applied to a banking feature.\r\n\r\nComment:\r\nExamples\r\nMaximum incentive amount\r\nMinimum deposit rollover amount\r\nInterest rate cap",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "fb1f9fb8-6b18-f111-8608-06f87af9db33",
+      "name": "Validation Modality",
+      "description": "Specifies rules used to verify whether operations meet required conditions.\r\n\r\nComment:\r\nExamples\r\nBalance validation\r\nTransaction eligibility validation\r\nRollover condition validation",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "584581bf-6b18-f111-8608-06f87af9db33",
+      "name": "Authorization Modality",
+      "description": "Defines approval requirements before executing an operation.\r\n\r\nComment:\r\nExamples\r\nCustomer confirmation required\r\nBank officer approval\r\nSystem auto-authorization",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "5cc25cc9-6b18-f111-8608-06f87af9db33",
+      "name": "Notification Modality",
+      "description": "Specifies how customers are informed about banking events or results.\r\n\r\nComment:\r\nExamples\r\nSMS notification\r\nEmail notification\r\nApp notification",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "bcd2b706-6c18-f111-8608-06f87af9db33",
+      "name": "Adjustment Modality",
+      "description": "Specifies how financial values can be modified or corrected.\r\n\r\nComment:\r\nExamples\r\nInterest adjustment\r\nFee waiver adjustment\r\nIncentive correction",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "7f574651-b455-f111-bb30-0a090593febd",
+      "name": "Pricing Modality",
+      "description": "Defines he method, structure, or approach used to determine how a product or service is priced, charged, or billed to a customer.",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "c11f9738-9307-ef11-848b-062b09d0f7b7",
+  "title": "FinancialInstrumentDateTimeTypeValues",
+  "description": "",
+  "x-version": "1.0.0",
+  "x-object-type": "Enumeration",
+  "x-super-type": null,
+  "x-status": "stable",
+  "x-modified-by": null,
+  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-position": null,
+  "type": "object",
+  "required": [],
+  "properties": {},
+  "x-relationships": [],
+  "x-enumeration-literals": [
+    {
+      "id": "0dd50d68-9307-ef11-848b-062b09d0f7b7",
+      "name": "Coupon Date",
+      "description": "Next payment date of an interest bearing financial instrument.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "493112a2-9307-ef11-848b-062b09d0f7b7",
+      "name": "Expiry Date",
+      "description": "Date on which a privilege expires.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "4e96adb6-9407-ef11-848b-062b09d0f7b7",
+      "name": "Floating Rate Fixing Date",
+      "description": "Date at which the interest rate of an interest bearing security will be calculated and reset, according to the terms of the issue.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "f60d6bea-9407-ef11-848b-062b09d0f7b7",
+      "name": "Maturity Date",
+      "description": "Planned final repayment date at the time of issuance.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "b144af18-9507-ef11-848b-062b09d0f7b7",
+      "name": "Issue Date",
+      "description": "Date at which the security was made available.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0acc0e3d-9507-ef11-848b-062b09d0f7b7",
+      "name": "Next Callable Date",
+      "description": "Next date at which the issuer has the right to pay the security prior to maturity.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "821c1b68-9507-ef11-848b-062b09d0f7b7",
+      "name": "Putable Date",
+      "description": "Date at which the holder has the right to ask for redemption of the security prior to final maturity.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "0d0af28c-9507-ef11-848b-062b09d0f7b7",
+      "name": "Dated Date",
+      "description": "First date at which a security begins to accrue interest.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    },
+    {
+      "id": "1750a5bb-9607-ef11-848b-062b09d0f7b7",
+      "name": "First Payment Date",
+      "description": "Date at which the first interest payment is due to holders of the security.(ISO20022)",
+      "x-status": "stable",
+      "x-modified-by": null,
+      "x-modified-date": null
+    }
+  ]
+}
