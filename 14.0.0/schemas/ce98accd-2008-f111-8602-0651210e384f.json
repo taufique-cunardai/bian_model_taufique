@@ -8,7 +8,7 @@
   "x-super-type": "6f53fd37-8257-e911-8237-0645314e65ac",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Cashback involvement types are the classifications of roles assigned to parties participating in or supporting a cashback arrangement.",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-modified-date": "2026-06-16T19:47:23.737Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,

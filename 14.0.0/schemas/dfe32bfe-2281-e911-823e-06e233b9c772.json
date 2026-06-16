@@ -8,7 +8,7 @@
   "x-super-type": "70959fdb-be56-e911-8237-06ecaacb4c68",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "A characteristic of agreement which refers to its involved parties based on the type of involvement (depend on the type of agreement/product). For example, involved parties in Direct Debit Agreement are debtor, creditor, debtor bank, creditor bank, etc. Other example, if the type of agreement is too abstract like contractual agreement, involved parties are PrincipalParty, CounterParty, ThirdParty.",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-modified-date": "2026-06-16T19:47:23.737Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
