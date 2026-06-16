@@ -8,7 +8,7 @@
   "x-super-type": null,
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.178Z",
+  "x-modified-date": "2026-06-16T19:47:23.733Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Characteristics of the item that can be used as device\r\n\r\na device has the characteristics of the device type it belongs to,possibly specifiede.g. . a device of the type \"cheque book\" will have cheques. The device specifies how many and what the number range is.e.g. an electronic banking app consists of software modules, the device specifies what version",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-modified-date": "2026-06-16T19:47:23.742Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
