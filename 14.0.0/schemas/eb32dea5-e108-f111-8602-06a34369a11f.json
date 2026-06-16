@@ -8,7 +8,7 @@
   "x-super-type": "acebac7f-bd56-e911-8237-06ecaacb4c68",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "A Credit Terms and Condition Type is the classification of rules that govern how, when, and under what conditions a credit can be earned, applied, adjusted, or reversed.\r\n\r\nComment:\r\nIt defines the category of policy rules attached to a credit arrangement.",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-modified-date": "2026-06-16T19:47:23.739Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
