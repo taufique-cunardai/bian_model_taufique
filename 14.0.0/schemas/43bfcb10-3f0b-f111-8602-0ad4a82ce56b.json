@@ -8,7 +8,7 @@
   "x-super-type": "dbd6077d-ca1e-f111-8608-0247e3f120c3",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Burn Term and Condition Type is the classification of rules that control how, when, and under what conditions incentives (points, miles, cashback, rewards) can be redeemed or used.",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-modified-date": "2026-06-16T19:47:23.738Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
