@@ -8,7 +8,7 @@
   "x-super-type": "9c3b00ce-7a6a-e911-8237-061b75d0d318",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-modified-date": "2026-06-16T19:47:23.732Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Identifer of party who plays the role of card holder.",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.188Z",
+      "x-modified-date": "2026-06-16T19:47:23.741Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
