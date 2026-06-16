@@ -8,7 +8,7 @@
   "x-super-type": "6f53fd37-8257-e911-8237-0645314e65ac",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "A Credit Involvement Type is the classification of the role or participation of a party in a credit process or credit arrangement.\r\n\r\nComment:\r\nIt defines how a party is involved in the credit activity.",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-modified-date": "2026-06-16T19:47:23.739Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
