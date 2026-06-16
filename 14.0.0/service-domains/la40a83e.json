@@ -3,7 +3,7 @@
   "name": "Session Dialogue",
   "description": "",
   "controlRecord": {
-    "id": "frd2khk4",
+    "id": "kfvexxup",
     "name": "CR Dialogue Session Procedure Instance Record",
     "description": "",
     "attributes": [
@@ -14,7 +14,7 @@
         "required": true,
         "description": "A unique reference to an item or an occurrence of Customer Contact Session Procedure",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "d9a33ac2-3642-f111-8be6-a402b9460f22",
@@ -28,7 +28,7 @@
         "referenceName": "GenericIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "daa33ac2-3642-f111-8be6-a402b9460f22",
@@ -42,7 +42,7 @@
         "referenceName": "ISODateTime",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "dba33ac2-3642-f111-8be6-a402b9460f22",
@@ -56,7 +56,7 @@
         "referenceName": "ISODateTime",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "dca33ac2-3642-f111-8be6-a402b9460f22",
@@ -70,7 +70,7 @@
         "referenceName": "Duration",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/duration",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "dda33ac2-3642-f111-8be6-a402b9460f22",
@@ -84,7 +84,7 @@
         "referenceName": "Status",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "dea33ac2-3642-f111-8be6-a402b9460f22",
@@ -95,7 +95,7 @@
         "relatedBusinessObjectName": "Dialogue Session Involvement",
         "relatedBusinessObjectAttrName": "rwc:8be75bdd-77ce-42be-12d4-d983ee1785bb/69379",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "dfa33ac2-3642-f111-8be6-a402b9460f22",
@@ -109,7 +109,7 @@
         "referenceName": "Status",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e0a33ac2-3642-f111-8be6-a402b9460f22",
@@ -120,7 +120,7 @@
         "relatedBusinessObjectName": "Dialogue Session",
         "relatedBusinessObjectAttrName": "Dialogue Session Used Channel",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e1a33ac2-3642-f111-8be6-a402b9460f22",
@@ -131,7 +131,7 @@
         "relatedBusinessObjectName": "Device",
         "relatedBusinessObjectAttrName": "Device Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e2a33ac2-3642-f111-8be6-a402b9460f22",
@@ -141,7 +141,7 @@
         "description": "Reference to the record of any change in the communication channel during a session (e.g., a chat escalated to a phone call), maintaining continuity of the session across multiple channels.\r\n\r\nComment:\r\nA contact consists of one or more sessions. The combination of these sessions is recorded in the contact record, which is then written to the relevant logs, including channel activity, customer event, and servicing event logs",
         "relatedBusinessObjectName": "Channel Activity Log",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e3a33ac2-3642-f111-8be6-a402b9460f22",
@@ -152,7 +152,7 @@
         "relatedBusinessObjectName": "Dialogue Session",
         "relatedBusinessObjectAttrName": "Dialogue Session Log",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e4a33ac2-3642-f111-8be6-a402b9460f22",
@@ -163,7 +163,7 @@
         "relatedBusinessObjectName": "Dialogue Session",
         "relatedBusinessObjectAttrName": "Dialogue Purpose",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e5a33ac2-3642-f111-8be6-a402b9460f22",
@@ -174,7 +174,7 @@
         "relatedBusinessObjectName": "Dialogue Session",
         "relatedBusinessObjectAttrName": "Dialogue Session Requested Action",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e6a33ac2-3642-f111-8be6-a402b9460f22",
@@ -185,7 +185,7 @@
         "relatedBusinessObjectName": "Dialogue Session",
         "relatedBusinessObjectAttrName": "Dialogue Session Outcome",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e7a33ac2-3642-f111-8be6-a402b9460f22",
@@ -196,7 +196,7 @@
         "relatedBusinessObjectName": "Dialogue Session Involvement",
         "relatedBusinessObjectAttrName": "rwc:8be75bdd-77ce-42be-12d4-d983ee1785bb/69379",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e8a33ac2-3642-f111-8be6-a402b9460f22",
@@ -206,7 +206,7 @@
         "description": "Reference to the Customer Contact witch launches a Session Dialogue \r\n\r\nComment: Contact Handler SD is responsible to manage the Customer Contact.",
         "relatedBusinessObjectName": "Customer Contact",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "e9a33ac2-3642-f111-8be6-a402b9460f22",
@@ -215,7 +215,7 @@
         "required": true,
         "description": "Reference to a Party that assigns the identification.",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "cf960645-1559-f111-8be8-a402b9460f22",
@@ -224,7 +224,7 @@
         "required": true,
         "description": "Reference to the customer product selected or associated with the requested service interaction.",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "bcefcae0-1559-f111-8be8-a402b9460f22",
@@ -233,7 +233,7 @@
         "required": true,
         "description": "he banking service determined by Contact Handler as the requested and eligible service to be executed for the customer. Defines the servicing workflow that Session Dialogue must orchestrate.",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       },
       {
         "id": "00b906e7-1559-f111-8be8-a402b9460f22",
@@ -242,7 +242,7 @@
         "required": true,
         "description": "The servicing mode determined during interaction evaluation, indicating how the customer interaction should proceed. Examples include self-service, assisted service, or escalation to a servicing representative.",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.164Z"
+        "x-modified-date": "2026-06-16T19:47:36.924Z"
       }
     ],
     "serviceOperations": [
@@ -253,7 +253,7 @@
         "description": "REST: Post",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "cfa33ac2-3642-f111-8be6-a402b9460f22",
@@ -262,7 +262,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "d0a33ac2-3642-f111-8be6-a402b9460f22",
@@ -271,7 +271,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "d1a33ac2-3642-f111-8be6-a402b9460f22",
@@ -280,7 +280,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "d2a33ac2-3642-f111-8be6-a402b9460f22",
@@ -289,7 +289,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "d3a33ac2-3642-f111-8be6-a402b9460f22",
@@ -298,7 +298,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "d4a33ac2-3642-f111-8be6-a402b9460f22",
@@ -307,7 +307,7 @@
         "description": "REST: Put",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "d5a33ac2-3642-f111-8be6-a402b9460f22",
@@ -316,7 +316,7 @@
         "description": "REST: Get",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       },
       {
         "id": "d6a33ac2-3642-f111-8be6-a402b9460f22",
@@ -325,7 +325,7 @@
         "description": "REST: Get",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.556Z"
+        "x-modified-date": "2026-06-16T19:47:48.831Z"
       }
     ],
     "logic": [],
@@ -333,7 +333,7 @@
   },
   "behaviourQualifiers": [
     {
-      "id": "60lbu4q7",
+      "id": "kx0kdujs",
       "name": "BQ Product or Service Invocation Instance Record",
       "qualifierType": "",
       "description": "This is the step in the Dialouge Session procedure where the session executes actions or retrieves data related to the customers requested products or services.\r\n\r\n\r\n** General comment **\r\nThe Product or Service invocation BQ, having confirmed that the party has the authority and has been authentication will present service access available to a selected product or service. It is assumed that this will include displaying what kind of product services might be available for the customer/party to select from.",
@@ -347,7 +347,7 @@
           "relatedBusinessObjectName": "Product or Service Invocation",
           "relatedBusinessObjectAttrName": "Product or Service Invocation Identification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.164Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "83e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -358,7 +358,7 @@
           "relatedBusinessObjectName": "Product or Service Invocation",
           "relatedBusinessObjectAttrName": "Product or Service Invocation Product or Service Reference",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.164Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "84e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -369,7 +369,7 @@
           "relatedBusinessObjectName": "Product or Service Invocation",
           "relatedBusinessObjectAttrName": "Product or Service Invocation Product or Service Reference",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.164Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "85e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -380,7 +380,7 @@
           "relatedBusinessObjectName": "Product or Service Invocation",
           "relatedBusinessObjectAttrName": "Product or Service Invocation Requested Action Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.164Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "86e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -391,7 +391,7 @@
           "relatedBusinessObjectName": "Product or Service Invocation",
           "relatedBusinessObjectAttrName": "Product or Service Invocation Requested Action Reference",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.164Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "87e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -400,7 +400,7 @@
           "required": true,
           "description": "A unique reference to an item or an occurrence of Dialogue Session Procedure",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.164Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "88e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -411,7 +411,7 @@
           "relatedBusinessObjectName": "Product or Service Invocation",
           "relatedBusinessObjectAttrName": "Product or Service Invocation Requested Action Outcome Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.164Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         }
       ],
       "serviceOperations": [
@@ -422,7 +422,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "79e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -431,7 +431,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "7ae4a2f7-3642-f111-8be6-a402b9460f22",
@@ -440,7 +440,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "7be4a2f7-3642-f111-8be6-a402b9460f22",
@@ -449,7 +449,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "7ce4a2f7-3642-f111-8be6-a402b9460f22",
@@ -458,7 +458,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "7de4a2f7-3642-f111-8be6-a402b9460f22",
@@ -467,7 +467,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "7ee4a2f7-3642-f111-8be6-a402b9460f22",
@@ -476,7 +476,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "7fe4a2f7-3642-f111-8be6-a402b9460f22",
@@ -485,7 +485,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         },
         {
           "id": "80e4a2f7-3642-f111-8be6-a402b9460f22",
@@ -494,7 +494,7 @@
           "description": "",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.556Z"
+          "x-modified-date": "2026-06-16T19:47:48.831Z"
         }
       ],
       "logic": [],
@@ -502,7 +502,7 @@
     }
   ],
   "x-status": "modified",
-  "x-modified-date": "2026-06-15T16:01:27.732Z",
+  "x-modified-date": "2026-06-16T19:47:54.833Z",
   "organisation": "BIAN",
   "version": "14.0.0"
 }

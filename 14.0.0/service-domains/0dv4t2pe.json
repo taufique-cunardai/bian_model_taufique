@@ -3,7 +3,7 @@
   "name": "Current Account",
   "description": "",
   "controlRecord": {
-    "id": "sd1iajr9",
+    "id": "zehohr78",
     "name": "CR Current Account Facility Instance Record",
     "description": "",
     "attributes": [
@@ -14,7 +14,7 @@
         "required": true,
         "description": "A unique reference to an item or an occurrence of Current Account Facility",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "3f5b2071-0942-f111-8be6-a402b9460f22",
@@ -28,7 +28,7 @@
         "referenceName": "AccountIdentification",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AccountIdentification",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "405b2071-0942-f111-8be6-a402b9460f22",
@@ -38,7 +38,7 @@
         "description": "Reference to a party who is Current Account Servicer or Bank",
         "relatedBusinessObjectName": "Current Account Involvement",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "415b2071-0942-f111-8be6-a402b9460f22",
@@ -52,7 +52,7 @@
         "referenceName": "Name",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Name",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "425b2071-0942-f111-8be6-a402b9460f22",
@@ -66,7 +66,7 @@
         "referenceName": "CurrencyCode",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyCode",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "435b2071-0942-f111-8be6-a402b9460f22",
@@ -80,7 +80,7 @@
         "referenceName": "Balance",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Balance",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "445b2071-0942-f111-8be6-a402b9460f22",
@@ -94,7 +94,7 @@
         "referenceName": "Balance",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Balance",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "455b2071-0942-f111-8be6-a402b9460f22",
@@ -108,7 +108,7 @@
         "referenceName": "AccountStatus",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AccountStatus",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "465b2071-0942-f111-8be6-a402b9460f22",
@@ -122,7 +122,7 @@
         "referenceName": "ISODateTime",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "475b2071-0942-f111-8be6-a402b9460f22",
@@ -136,7 +136,7 @@
         "referenceName": "ISODateTime",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "485b2071-0942-f111-8be6-a402b9460f22",
@@ -146,7 +146,7 @@
         "description": "Reference to a Party who is Current Account Holder or Customer",
         "relatedBusinessObjectName": "Current Account Involvement",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "495b2071-0942-f111-8be6-a402b9460f22",
@@ -159,7 +159,7 @@
         "referenceName": "Obligation",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Obligation",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "4a5b2071-0942-f111-8be6-a402b9460f22",
@@ -170,7 +170,7 @@
         "relatedBusinessObjectName": "Current Account",
         "relatedBusinessObjectAttrName": "Current Account Type",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       },
       {
         "id": "4b5b2071-0942-f111-8be6-a402b9460f22",
@@ -179,7 +179,7 @@
         "required": true,
         "description": "Reference to a Party that assigns the identification.",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T15:59:27.163Z"
+        "x-modified-date": "2026-06-16T19:47:36.923Z"
       }
     ],
     "serviceOperations": [
@@ -190,7 +190,7 @@
         "description": "REST: Post",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       },
       {
         "id": "4e5b2071-0942-f111-8be6-a402b9460f22",
@@ -199,7 +199,7 @@
         "description": "",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       },
       {
         "id": "4f5b2071-0942-f111-8be6-a402b9460f22",
@@ -208,7 +208,7 @@
         "description": "",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       },
       {
         "id": "505b2071-0942-f111-8be6-a402b9460f22",
@@ -217,7 +217,7 @@
         "description": "",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       },
       {
         "id": "515b2071-0942-f111-8be6-a402b9460f22",
@@ -226,7 +226,7 @@
         "description": "",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       },
       {
         "id": "525b2071-0942-f111-8be6-a402b9460f22",
@@ -235,7 +235,7 @@
         "description": "",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       },
       {
         "id": "535b2071-0942-f111-8be6-a402b9460f22",
@@ -247,7 +247,7 @@
         "referenceName": "Balance",
         "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Balance",
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       },
       {
         "id": "545b2071-0942-f111-8be6-a402b9460f22",
@@ -256,7 +256,7 @@
         "description": "",
         "linkedLogicIds": [],
         "x-status": "stable",
-        "x-modified-date": "2026-06-15T16:01:15.554Z"
+        "x-modified-date": "2026-06-16T19:47:48.827Z"
       }
     ],
     "logic": [],
@@ -264,7 +264,7 @@
   },
   "behaviourQualifiers": [
     {
-      "id": "e3lbchdk",
+      "id": "yak7vwad",
       "name": "BQ Amount Block Instance Record",
       "qualifierType": "",
       "description": "Contains all details of the Amount Block arrangements, the instructional content of invoked Amount Block service requests and where applicable details of the outcome of that request.",
@@ -276,7 +276,7 @@
           "required": true,
           "description": "Unique identifier of a control record instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "9a056375-b959-f111-8be8-a402b9460f22",
@@ -285,7 +285,7 @@
           "required": true,
           "description": "Unique identifier of a behavior qualifier instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "9b056375-b959-f111-8be8-a402b9460f22",
@@ -296,7 +296,7 @@
           "relatedBusinessObjectName": "Amount Block Involvement",
           "relatedBusinessObjectAttrName": "Amount Block Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "9c056375-b959-f111-8be8-a402b9460f22",
@@ -307,7 +307,7 @@
           "relatedBusinessObjectName": "Amount Block Involvement",
           "relatedBusinessObjectAttrName": "Amount Block Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "9d056375-b959-f111-8be8-a402b9460f22",
@@ -318,7 +318,7 @@
           "relatedBusinessObjectName": "Amount Block Arrangement",
           "relatedBusinessObjectAttrName": "Amount Block Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "9e056375-b959-f111-8be8-a402b9460f22",
@@ -329,7 +329,7 @@
           "relatedBusinessObjectName": "Amount Block Arrangement",
           "relatedBusinessObjectAttrName": "Amount Block Reason",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "9f056375-b959-f111-8be8-a402b9460f22",
@@ -343,7 +343,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a0056375-b959-f111-8be8-a402b9460f22",
@@ -357,7 +357,7 @@
           "referenceName": "Status",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a1056375-b959-f111-8be8-a402b9460f22",
@@ -371,7 +371,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a2056375-b959-f111-8be8-a402b9460f22",
@@ -385,7 +385,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a3056375-b959-f111-8be8-a402b9460f22",
@@ -399,7 +399,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a4056375-b959-f111-8be8-a402b9460f22",
@@ -413,7 +413,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a5056375-b959-f111-8be8-a402b9460f22",
@@ -427,7 +427,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a6056375-b959-f111-8be8-a402b9460f22",
@@ -441,7 +441,7 @@
           "referenceName": "AccountIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AccountIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a7056375-b959-f111-8be8-a402b9460f22",
@@ -455,7 +455,7 @@
           "referenceName": "Name",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Name",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a8056375-b959-f111-8be8-a402b9460f22",
@@ -466,7 +466,7 @@
           "relatedBusinessObjectName": "Amount Block Arrangement",
           "relatedBusinessObjectAttrName": "rwc:8be75bdd-77ce-42be-12d4-d983ee1785bb/70483",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "a9056375-b959-f111-8be8-a402b9460f22",
@@ -477,7 +477,7 @@
           "relatedBusinessObjectName": "Amount Block Arrangement",
           "relatedBusinessObjectAttrName": "Amount Block Scope Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         }
       ],
       "serviceOperations": [
@@ -488,7 +488,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "ac056375-b959-f111-8be8-a402b9460f22",
@@ -497,7 +497,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "ad056375-b959-f111-8be8-a402b9460f22",
@@ -506,7 +506,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "ae056375-b959-f111-8be8-a402b9460f22",
@@ -515,7 +515,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "af056375-b959-f111-8be8-a402b9460f22",
@@ -524,7 +524,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "b0056375-b959-f111-8be8-a402b9460f22",
@@ -533,7 +533,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "b1056375-b959-f111-8be8-a402b9460f22",
@@ -542,7 +542,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "b2056375-b959-f111-8be8-a402b9460f22",
@@ -551,14 +551,14 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.830Z"
         }
       ],
       "logic": [],
       "x-status": "stable"
     },
     {
-      "id": "7zpxakva",
+      "id": "eureskd1",
       "name": "BQ Payment Instance Record",
       "qualifierType": "",
       "description": "Contains all details of the outbound payment arrangements, the instructional content of invoked payment service requests and where applicable details of the outcome of that request.",
@@ -571,7 +571,7 @@
           "description": "Reference to authorized party with ability to initiate payments from the source account",
           "relatedBusinessObjectName": "Payment Arrangement Involvement",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "becc3666-b859-f111-8be8-a402b9460f22",
@@ -581,7 +581,7 @@
           "description": "Reference to a party that receives an amount of money from the debtor.",
           "relatedBusinessObjectName": "Payment Arrangement Involvement",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "bfcc3666-b859-f111-8be8-a402b9460f22",
@@ -595,7 +595,7 @@
           "referenceName": "Name",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Name",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c0cc3666-b859-f111-8be8-a402b9460f22",
@@ -608,7 +608,7 @@
           "referenceName": "AccountIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AccountIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c1cc3666-b859-f111-8be8-a402b9460f22",
@@ -622,7 +622,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c2cc3666-b859-f111-8be8-a402b9460f22",
@@ -636,7 +636,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c3cc3666-b859-f111-8be8-a402b9460f22",
@@ -650,7 +650,7 @@
           "referenceName": "FrequencyCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/FrequencyCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c4cc3666-b859-f111-8be8-a402b9460f22",
@@ -664,7 +664,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c5cc3666-b859-f111-8be8-a402b9460f22",
@@ -678,7 +678,7 @@
           "referenceName": "Status",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c6cc3666-b859-f111-8be8-a402b9460f22",
@@ -688,7 +688,7 @@
           "description": "Reference to a financial institution servicing an account for the payee.",
           "relatedBusinessObjectName": "Payment Arrangement Involvement",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c7cc3666-b859-f111-8be8-a402b9460f22",
@@ -702,7 +702,7 @@
           "referenceName": "PaymentMethodCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/PaymentMethodCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c8cc3666-b859-f111-8be8-a402b9460f22",
@@ -713,7 +713,7 @@
           "relatedBusinessObjectName": "Payment Arrangement",
           "relatedBusinessObjectAttrName": "Payment Description",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "c9cc3666-b859-f111-8be8-a402b9460f22",
@@ -724,7 +724,7 @@
           "relatedBusinessObjectName": "Payment Arrangement",
           "relatedBusinessObjectAttrName": "Payment Schedule",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "cacc3666-b859-f111-8be8-a402b9460f22",
@@ -734,7 +734,7 @@
           "description": "Reference to the instructed payment",
           "relatedBusinessObjectName": "Payment Instruction",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "cbcc3666-b859-f111-8be8-a402b9460f22",
@@ -744,7 +744,7 @@
           "description": "Reference to the executed payment",
           "relatedBusinessObjectName": "Payment Transaction",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "cccc3666-b859-f111-8be8-a402b9460f22",
@@ -753,7 +753,7 @@
           "required": true,
           "description": "Reference to <CR>",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "cdcc3666-b859-f111-8be8-a402b9460f22",
@@ -762,7 +762,7 @@
           "required": true,
           "description": "Reference to Payment",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         }
       ],
       "serviceOperations": [
@@ -773,7 +773,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "d0cc3666-b859-f111-8be8-a402b9460f22",
@@ -782,7 +782,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "d1cc3666-b859-f111-8be8-a402b9460f22",
@@ -791,7 +791,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "d2cc3666-b859-f111-8be8-a402b9460f22",
@@ -800,7 +800,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "d3cc3666-b859-f111-8be8-a402b9460f22",
@@ -809,7 +809,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "d4cc3666-b859-f111-8be8-a402b9460f22",
@@ -818,7 +818,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "d5cc3666-b859-f111-8be8-a402b9460f22",
@@ -827,7 +827,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "d6cc3666-b859-f111-8be8-a402b9460f22",
@@ -836,14 +836,14 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.555Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         }
       ],
       "logic": [],
       "x-status": "stable"
     },
     {
-      "id": "8dsuojib",
+      "id": "byujt14t",
       "name": "BQ Interest Instance Record",
       "qualifierType": "",
       "description": "Contains all details of the Interest arrangements, the instructional content of invoked Interest service requests and where applicable details of the outcome of that request.",
@@ -855,7 +855,7 @@
           "required": true,
           "description": "Reference to <CR>",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "0e8424e8-b859-f111-8be8-a402b9460f22",
@@ -864,7 +864,7 @@
           "required": true,
           "description": "Reference to Interest",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "0f8424e8-b859-f111-8be8-a402b9460f22",
@@ -878,7 +878,7 @@
           "referenceName": "PercentageRate",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/PercentageRate",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "108424e8-b859-f111-8be8-a402b9460f22",
@@ -892,7 +892,7 @@
           "referenceName": "InterestTypeCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/InterestTypeCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "118424e8-b859-f111-8be8-a402b9460f22",
@@ -906,7 +906,7 @@
           "referenceName": "Status",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "128424e8-b859-f111-8be8-a402b9460f22",
@@ -917,7 +917,7 @@
           "relatedBusinessObjectName": "Interest Arrangement",
           "relatedBusinessObjectAttrName": "Interest Accrual Method Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "138424e8-b859-f111-8be8-a402b9460f22",
@@ -928,7 +928,7 @@
           "relatedBusinessObjectName": "Interest Arrangement Involvement",
           "relatedBusinessObjectAttrName": "Interest Arrangement Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "148424e8-b859-f111-8be8-a402b9460f22",
@@ -942,7 +942,7 @@
           "referenceName": "AccountIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AccountIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "158424e8-b859-f111-8be8-a402b9460f22",
@@ -956,7 +956,7 @@
           "referenceName": "Name",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Name",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "168424e8-b859-f111-8be8-a402b9460f22",
@@ -967,7 +967,7 @@
           "relatedBusinessObjectName": "Interest Arrangement Involvement",
           "relatedBusinessObjectAttrName": "Interest Arrangement Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "178424e8-b859-f111-8be8-a402b9460f22",
@@ -981,7 +981,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "188424e8-b859-f111-8be8-a402b9460f22",
@@ -995,7 +995,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "198424e8-b859-f111-8be8-a402b9460f22",
@@ -1009,7 +1009,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "1a8424e8-b859-f111-8be8-a402b9460f22",
@@ -1023,7 +1023,7 @@
           "referenceName": "CalculationMethodCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CalculationMethodCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "1b8424e8-b859-f111-8be8-a402b9460f22",
@@ -1037,7 +1037,7 @@
           "referenceName": "FrequencyCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/FrequencyCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "1c8424e8-b859-f111-8be8-a402b9460f22",
@@ -1048,7 +1048,7 @@
           "relatedBusinessObjectName": "Interest Arrangement",
           "relatedBusinessObjectAttrName": "Interest Payment Schedule",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "1d8424e8-b859-f111-8be8-a402b9460f22",
@@ -1062,7 +1062,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "1e8424e8-b859-f111-8be8-a402b9460f22",
@@ -1076,7 +1076,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "1f8424e8-b859-f111-8be8-a402b9460f22",
@@ -1090,7 +1090,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "208424e8-b859-f111-8be8-a402b9460f22",
@@ -1104,7 +1104,7 @@
           "referenceName": "DateTimePeriod",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/DateTimePeriod",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         }
       ],
       "serviceOperations": [
@@ -1115,7 +1115,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "238424e8-b859-f111-8be8-a402b9460f22",
@@ -1124,7 +1124,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "248424e8-b859-f111-8be8-a402b9460f22",
@@ -1133,7 +1133,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "258424e8-b859-f111-8be8-a402b9460f22",
@@ -1142,7 +1142,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "268424e8-b859-f111-8be8-a402b9460f22",
@@ -1151,7 +1151,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "278424e8-b859-f111-8be8-a402b9460f22",
@@ -1160,7 +1160,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "288424e8-b859-f111-8be8-a402b9460f22",
@@ -1169,7 +1169,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "298424e8-b859-f111-8be8-a402b9460f22",
@@ -1178,14 +1178,14 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         }
       ],
       "logic": [],
       "x-status": "stable"
     },
     {
-      "id": "f2z9t25j",
+      "id": "8h023gcy",
       "name": "BQ Sweep Instance Record",
       "qualifierType": "",
       "description": "Contains all details of the Sweep arrangements, the instructional content of invoked Sweep service requests and where applicable details of the outcome of that request.",
@@ -1197,7 +1197,7 @@
           "required": true,
           "description": "Unique identifier of a control record instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "95a06512-b859-f111-8be8-a402b9460f22",
@@ -1206,7 +1206,7 @@
           "required": true,
           "description": "Unique identifier of a behavior qualifier instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "96a06512-b859-f111-8be8-a402b9460f22",
@@ -1217,7 +1217,7 @@
           "relatedBusinessObjectName": "Sweep Involvement",
           "relatedBusinessObjectAttrName": "Sweep Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "97a06512-b859-f111-8be8-a402b9460f22",
@@ -1228,7 +1228,7 @@
           "relatedBusinessObjectName": "Sweep Involvement",
           "relatedBusinessObjectAttrName": "Sweep Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.923Z"
         },
         {
           "id": "98a06512-b859-f111-8be8-a402b9460f22",
@@ -1242,7 +1242,7 @@
           "referenceName": "AccountIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AccountIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "99a06512-b859-f111-8be8-a402b9460f22",
@@ -1256,7 +1256,7 @@
           "referenceName": "AccountIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/AccountIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "9aa06512-b859-f111-8be8-a402b9460f22",
@@ -1267,7 +1267,7 @@
           "relatedBusinessObjectName": "Sweep Arrangement",
           "relatedBusinessObjectAttrName": "Sweep Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "9ba06512-b859-f111-8be8-a402b9460f22",
@@ -1281,7 +1281,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "9ca06512-b859-f111-8be8-a402b9460f22",
@@ -1295,7 +1295,7 @@
           "referenceName": "Status",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "9da06512-b859-f111-8be8-a402b9460f22",
@@ -1309,7 +1309,7 @@
           "referenceName": "CurrencyCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "9ea06512-b859-f111-8be8-a402b9460f22",
@@ -1323,7 +1323,7 @@
           "referenceName": "FrequencyCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/FrequencyCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "9fa06512-b859-f111-8be8-a402b9460f22",
@@ -1337,7 +1337,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "a0a06512-b859-f111-8be8-a402b9460f22",
@@ -1351,7 +1351,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "a1a06512-b859-f111-8be8-a402b9460f22",
@@ -1365,7 +1365,7 @@
           "referenceName": "Mandate",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Mandate",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "a2a06512-b859-f111-8be8-a402b9460f22",
@@ -1376,7 +1376,7 @@
           "relatedBusinessObjectName": "Sweep Involvement",
           "relatedBusinessObjectAttrName": "Sweep Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "a3a06512-b859-f111-8be8-a402b9460f22",
@@ -1387,7 +1387,7 @@
           "relatedBusinessObjectName": "Sweep Involvement",
           "relatedBusinessObjectAttrName": "Sweep Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "a4a06512-b859-f111-8be8-a402b9460f22",
@@ -1401,7 +1401,7 @@
           "referenceName": "Name",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Name",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "a5a06512-b859-f111-8be8-a402b9460f22",
@@ -1415,7 +1415,7 @@
           "referenceName": "Name",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Name",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         }
       ],
       "serviceOperations": [
@@ -1426,7 +1426,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "a8a06512-b859-f111-8be8-a402b9460f22",
@@ -1435,7 +1435,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "a9a06512-b859-f111-8be8-a402b9460f22",
@@ -1444,7 +1444,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "aaa06512-b859-f111-8be8-a402b9460f22",
@@ -1453,7 +1453,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "aba06512-b859-f111-8be8-a402b9460f22",
@@ -1462,7 +1462,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "aca06512-b859-f111-8be8-a402b9460f22",
@@ -1471,7 +1471,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "ada06512-b859-f111-8be8-a402b9460f22",
@@ -1480,7 +1480,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         },
         {
           "id": "aea06512-b859-f111-8be8-a402b9460f22",
@@ -1489,14 +1489,14 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.828Z"
         }
       ],
       "logic": [],
       "x-status": "stable"
     },
     {
-      "id": "pyp0l85f",
+      "id": "4buo2hsn",
       "name": "BQ Charge Instance Record",
       "qualifierType": "",
       "description": "Contains all details of the Charge arrangements, the instructional content of invoked Charged service requests and where applicable details of the outcome of that request.",
@@ -1508,7 +1508,7 @@
           "required": true,
           "description": "Unique identifier of the charge record instance within the system.",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "72f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1517,7 +1517,7 @@
           "required": true,
           "description": "Identifier assigned to a specific charge instance for tracking purposes.",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "73f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1531,7 +1531,7 @@
           "referenceName": "ChargeTypeCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ChargeTypeCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "74f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1545,7 +1545,7 @@
           "referenceName": "PercentageRate",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/PercentageRate",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "75f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1556,7 +1556,7 @@
           "relatedBusinessObjectName": "Fee Arrangement",
           "relatedBusinessObjectAttrName": "Fee Bearer Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "76f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1570,7 +1570,7 @@
           "referenceName": "Account",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Account",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "77f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1584,7 +1584,7 @@
           "referenceName": "Account",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Account",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "78f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1598,7 +1598,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "79f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1612,7 +1612,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "7af1bbed-b559-f111-8be8-a402b9460f22",
@@ -1623,7 +1623,7 @@
           "relatedBusinessObjectName": "Fee Arrangement",
           "relatedBusinessObjectAttrName": "Fee Bearer Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "7bf1bbed-b559-f111-8be8-a402b9460f22",
@@ -1634,7 +1634,7 @@
           "relatedBusinessObjectName": "Fee Calculation Modality",
           "relatedBusinessObjectAttrName": "Fee Calculation Modality",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "7cf1bbed-b559-f111-8be8-a402b9460f22",
@@ -1648,7 +1648,7 @@
           "referenceName": "TaxationBasisCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/TaxationBasisCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "7df1bbed-b559-f111-8be8-a402b9460f22",
@@ -1659,7 +1659,7 @@
           "relatedBusinessObjectName": "Fee Arrangement",
           "relatedBusinessObjectAttrName": "Fee Payment Method",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "7ef1bbed-b559-f111-8be8-a402b9460f22",
@@ -1673,7 +1673,7 @@
           "referenceName": "ChargePaymentMethodCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ChargePaymentMethodCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "7ff1bbed-b559-f111-8be8-a402b9460f22",
@@ -1687,7 +1687,7 @@
           "referenceName": "FrequencyCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/FrequencyCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "80f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1701,7 +1701,7 @@
           "referenceName": "ChargeBearerTypeCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ChargeBearerTypeCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "81f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1715,7 +1715,7 @@
           "referenceName": "DebitCreditCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/DebitCreditCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "82f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1729,7 +1729,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "83f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1743,7 +1743,7 @@
           "referenceName": "DebitCreditCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/DebitCreditCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "84f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1757,7 +1757,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         }
       ],
       "serviceOperations": [
@@ -1768,7 +1768,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "87f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1777,7 +1777,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "88f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1786,7 +1786,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "89f1bbed-b559-f111-8be8-a402b9460f22",
@@ -1795,7 +1795,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "8af1bbed-b559-f111-8be8-a402b9460f22",
@@ -1804,7 +1804,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "8bf1bbed-b559-f111-8be8-a402b9460f22",
@@ -1813,7 +1813,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "8cf1bbed-b559-f111-8be8-a402b9460f22",
@@ -1822,7 +1822,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "8df1bbed-b559-f111-8be8-a402b9460f22",
@@ -1831,14 +1831,14 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         }
       ],
       "logic": [],
       "x-status": "stable"
     },
     {
-      "id": "4izfdwdf",
+      "id": "u7us5ok7",
       "name": "BQ Status Tracking Instance Record",
       "qualifierType": "",
       "description": "Contains all details of the Status Tracking arrangements, the instructional content of invoked Status Tracking service requests and where applicable details of the outcome of that request.",
@@ -1850,7 +1850,7 @@
           "required": true,
           "description": "Unique identifier of a control record instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "45edd8a6-d259-f111-8be8-a402b9460f22",
@@ -1859,7 +1859,7 @@
           "required": true,
           "description": "Unique identifier of a behavior qualifier instance",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "46edd8a6-d259-f111-8be8-a402b9460f22",
@@ -1870,7 +1870,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "47edd8a6-d259-f111-8be8-a402b9460f22",
@@ -1881,7 +1881,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Lifecycle Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "48edd8a6-d259-f111-8be8-a402b9460f22",
@@ -1892,7 +1892,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Lifecycle Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "49edd8a6-d259-f111-8be8-a402b9460f22",
@@ -1906,7 +1906,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "4aedd8a6-d259-f111-8be8-a402b9460f22",
@@ -1917,7 +1917,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Detail",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "4bedd8a6-d259-f111-8be8-a402b9460f22",
@@ -1928,7 +1928,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Detail",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "4cedd8a6-d259-f111-8be8-a402b9460f22",
@@ -1939,7 +1939,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Detail",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "4dedd8a6-d259-f111-8be8-a402b9460f22",
@@ -1950,7 +1950,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Value",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "4eedd8a6-d259-f111-8be8-a402b9460f22",
@@ -1961,7 +1961,7 @@
           "relatedBusinessObjectName": "Financial Status Tracking Arrangement",
           "relatedBusinessObjectAttrName": "Financial Status Tracking Unit",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "4fedd8a6-d259-f111-8be8-a402b9460f22",
@@ -1975,7 +1975,7 @@
           "referenceName": "DateTimePeriod",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/DateTimePeriod",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         }
       ],
       "serviceOperations": [
@@ -1986,7 +1986,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "3cedd8a6-d259-f111-8be8-a402b9460f22",
@@ -1995,7 +1995,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "3dedd8a6-d259-f111-8be8-a402b9460f22",
@@ -2004,7 +2004,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "3eedd8a6-d259-f111-8be8-a402b9460f22",
@@ -2013,7 +2013,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "3fedd8a6-d259-f111-8be8-a402b9460f22",
@@ -2022,7 +2022,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "40edd8a6-d259-f111-8be8-a402b9460f22",
@@ -2031,7 +2031,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "41edd8a6-d259-f111-8be8-a402b9460f22",
@@ -2040,7 +2040,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "42edd8a6-d259-f111-8be8-a402b9460f22",
@@ -2049,14 +2049,14 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         }
       ],
       "logic": [],
       "x-status": "stable"
     },
     {
-      "id": "oyg8flcj",
+      "id": "uyakbtqa",
       "name": "BQ Deposit Instance Record",
       "qualifierType": "",
       "description": "Contains all details of the Deposit arrangements, the instructional content of invoked Deposit service requests and where applicable details of the outcome of that request.",
@@ -2068,7 +2068,7 @@
           "required": true,
           "description": "Reference to <CR>",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "ceb7a43f-b659-f111-8be8-a402b9460f22",
@@ -2077,7 +2077,7 @@
           "required": true,
           "description": "Reference to the Deposit instance.",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "cfb7a43f-b659-f111-8be8-a402b9460f22",
@@ -2091,7 +2091,7 @@
           "referenceName": "GenericIdentification",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/GenericIdentification",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d0b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2105,7 +2105,7 @@
           "referenceName": "DepositTypeCode",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/DepositTypeCode",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d1b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2119,7 +2119,7 @@
           "referenceName": "Status",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Status",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d2b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2133,7 +2133,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d3b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2147,7 +2147,7 @@
           "referenceName": "ISODateTime",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/ISODateTime",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d4b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2161,7 +2161,7 @@
           "referenceName": "CurrencyAndAmount",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d5b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2175,7 +2175,7 @@
           "referenceName": "Interest",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Interest",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d6b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2186,7 +2186,7 @@
           "relatedBusinessObjectName": "Deposit Arrangement Involvement",
           "relatedBusinessObjectAttrName": "Deposit Service Arrangement Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d7b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2197,7 +2197,7 @@
           "relatedBusinessObjectName": "Deposit Arrangement Involvement",
           "relatedBusinessObjectAttrName": "Deposit Service Arrangement Involvement Type",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d8b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2211,7 +2211,7 @@
           "referenceName": "Account",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Account",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         },
         {
           "id": "d9b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2225,7 +2225,7 @@
           "referenceName": "Account",
           "referenceUrl": "https://www.iso20022.org/standardsrepository/type/Account",
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T15:59:27.163Z"
+          "x-modified-date": "2026-06-16T19:47:36.924Z"
         }
       ],
       "serviceOperations": [
@@ -2236,7 +2236,7 @@
           "description": "REST: Post",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.553Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "dcb7a43f-b659-f111-8be8-a402b9460f22",
@@ -2245,7 +2245,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.553Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "ddb7a43f-b659-f111-8be8-a402b9460f22",
@@ -2254,7 +2254,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.553Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "deb7a43f-b659-f111-8be8-a402b9460f22",
@@ -2263,7 +2263,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.553Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "dfb7a43f-b659-f111-8be8-a402b9460f22",
@@ -2272,7 +2272,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.553Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "e0b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2281,7 +2281,7 @@
           "description": "REST: Put",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.553Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "e1b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2290,7 +2290,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         },
         {
           "id": "e2b7a43f-b659-f111-8be8-a402b9460f22",
@@ -2299,7 +2299,7 @@
           "description": "REST: Get",
           "linkedLogicIds": [],
           "x-status": "stable",
-          "x-modified-date": "2026-06-15T16:01:15.554Z"
+          "x-modified-date": "2026-06-16T19:47:48.827Z"
         }
       ],
       "logic": [],
@@ -2307,7 +2307,7 @@
     }
   ],
   "x-status": "modified",
-  "x-modified-date": "2026-06-15T16:01:27.732Z",
+  "x-modified-date": "2026-06-16T19:47:54.832Z",
   "organisation": "BIAN",
   "version": "14.0.0"
 }
