@@ -8,7 +8,7 @@
   "x-super-type": "b2f7829a-0a68-e911-8237-06dd5e24f7bc",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-modified-date": "2026-06-16T19:47:23.732Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Exchange rate between two currencies. The rate is agreed by the trading parties during the negotiation process. (ISO20022)",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-modified-date": "2026-06-16T19:47:23.739Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,

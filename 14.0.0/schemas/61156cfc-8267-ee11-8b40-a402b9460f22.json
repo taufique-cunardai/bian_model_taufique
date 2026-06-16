@@ -8,7 +8,7 @@
   "x-super-type": "ea36f45c-1656-e911-8237-060aad038e48",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-modified-date": "2026-06-16T19:47:23.732Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Specifies the type of due diligence checks carried out on a party. For definitions of ordinary, simple and enhanced know your customer checks, local market regulations should be consulted. (ISO20022)",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-modified-date": "2026-06-16T19:47:23.739Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
