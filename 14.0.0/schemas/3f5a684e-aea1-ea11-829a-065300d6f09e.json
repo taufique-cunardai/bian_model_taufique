@@ -8,7 +8,7 @@
   "x-super-type": "65438ba3-fbaa-ea11-829f-0691f30ba14c",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-modified-date": "2026-06-16T19:47:23.732Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "The service charge to be made to the customer for the specialist support",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-modified-date": "2026-06-16T19:47:23.739Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,

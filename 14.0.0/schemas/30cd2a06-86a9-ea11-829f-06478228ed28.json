@@ -8,7 +8,7 @@
   "x-super-type": "a58c8a29-5a96-e911-823e-062d75b50cca",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-modified-date": "2026-06-16T19:47:23.732Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Specifies the amount requested to be replaced or actually replaced.(ISO20022)",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.186Z",
+      "x-modified-date": "2026-06-16T19:47:23.739Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
