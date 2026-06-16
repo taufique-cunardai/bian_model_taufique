@@ -8,7 +8,7 @@
   "x-super-type": "1856b69e-cb80-e911-823e-065e8061d7e6",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-modified-date": "2026-06-16T19:47:23.732Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Reference to the device that is issued",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-modified-date": "2026-06-16T19:47:23.740Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
