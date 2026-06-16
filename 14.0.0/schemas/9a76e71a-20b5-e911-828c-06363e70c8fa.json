@@ -8,7 +8,7 @@
   "x-super-type": "11b0a31a-0991-e911-823e-06f3e7d1f9c0",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.177Z",
+  "x-modified-date": "2026-06-16T19:47:23.732Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Cardholder for which an authentication is provided (ISO20022)",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.187Z",
+      "x-modified-date": "2026-06-16T19:47:23.740Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
