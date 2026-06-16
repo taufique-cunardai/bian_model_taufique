@@ -8,7 +8,7 @@
   "x-super-type": "2b91327b-b6a4-ea11-829f-0660fb1fa966",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -19,7 +19,7 @@
       "type": "string",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-modified-date": "2026-06-16T19:47:23.738Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,

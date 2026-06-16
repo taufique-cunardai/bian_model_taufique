@@ -8,7 +8,7 @@
   "x-super-type": "823053bb-a486-e911-823e-062687e6a904",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Redemption type is the classification of the repayment structure used to redeem principal.\r\n\r\nComment:\r\nRedemption type in banking means the way a customer uses or converts earned value (such as cashback, reward points, or incentives).\r\n\r\nIt describes how the reward is consumed.",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.185Z",
+      "x-modified-date": "2026-06-16T19:47:23.738Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
