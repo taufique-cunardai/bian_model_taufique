@@ -8,7 +8,7 @@
   "x-super-type": null,
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.731Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "Type of relationship between payment instructions.\r\n\r\ne.g. \"is original\": the payment instruction that was the start of the chain of instructions to intermediate payment service providers\r\ne.g. \"is fee for\": relationship from a fee to the instruction it is a fee for\r\ne.g.: \"previous\": links succession of instructions in a chain",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.184Z",
+      "x-modified-date": "2026-06-16T19:47:23.737Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,

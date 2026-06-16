@@ -8,7 +8,7 @@
   "x-super-type": "66bab5d1-0056-e911-8237-060aad038e48",
   "x-status": "stable",
   "x-modified-by": null,
-  "x-modified-date": "2026-06-15T15:59:19.176Z",
+  "x-modified-date": "2026-06-16T19:47:23.730Z",
   "x-position": null,
   "type": "object",
   "required": [
@@ -20,7 +20,7 @@
       "description": "The type of servicing event/activity e.g. self service, contact center assisted,  ATM access",
       "x-status": "stable",
       "x-modified-by": null,
-      "x-modified-date": "2026-06-15T15:59:19.183Z",
+      "x-modified-date": "2026-06-16T19:47:23.737Z",
       "x-previous-value": null,
       "x-multi-valued": false,
       "x-is-unique": true,
